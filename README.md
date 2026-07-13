@@ -5,6 +5,10 @@ physics papers decomposed into withholdable schema sections, consumed by
 `agentic-eval` experiments that measure whether the harness skill set
 improves paper reproduction.
 
+The full design — the laws each component obeys, from decomposition to
+run composition — lives in [DESIGN.md](DESIGN.md). The per-paper schema
+contract lives in [SCHEMA.md](SCHEMA.md).
+
 ## Design principles
 
 - **One truth per paper.** Each paper is exactly one `<arxiv_id>.toml`
