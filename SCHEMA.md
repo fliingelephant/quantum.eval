@@ -32,7 +32,7 @@ sections below; kept for provenance.
 
 | section | content | harness skills under test |
 |---|---|---|
-| `[problem]` | model (card name or explicit Hamiltonian), convention (sign/normalization, pinned), instance (dimension, lattice, BC, couplings, sector/filling, sizes), `targets` = every quantity the paper computes (observable, ensemble, axes, panel id) | model/physics cards, confirm-the-setup |
+| `[problem]` | model (card name or explicit Hamiltonian), convention (sign/normalization, pinned), instance (dimension, lattice, BC, couplings, sector/filling, sizes), `targets` = every quantity the paper computes (observable, ensemble, axes, panel id, **per-target tier**) | model/physics cards, confirm-the-setup |
 | `[method]` | the paper's route, plus the valid-alternative set: methods that CAN produce the targets | `method-*` routing |
 | `[method_params]` | physical convergence knobs — survive a software swap (χ, sizes list, time grid, statistics) | `method-*` details, parameter-scan, scaling-fit |
 | `[software]` | paper's code if stated, plus valid tool set (maps to harness `using-*`) | `using-*` |
@@ -50,5 +50,12 @@ sections below; kept for provenance.
 - **Verdict taxonomy is discovered, not designed**: judges emit free-form,
   evidence-cited findings anchored to sections; categories get frozen only
   after clustering across runs.
+- **Partial replication is the norm**: a task selects a *subset* of
+  `targets` (e.g. only the laptop-feasible panels/sizes of a heavier paper —
+  the Turner pattern). Each target carries its own tier; the paper-level
+  `tier` is shorthand for the headline target's tier, not a gate. A target
+  is gradeable only if the paper states its value at that instance — truth
+  is always paper-stated, never a reduced-size variant the paper doesn't
+  report. Task success = all *selected* targets within tolerance.
 - **Intent is not a section**: personas and target selections live with the
   eval pack tasks (`intent.md`), one paper minting many tasks.
