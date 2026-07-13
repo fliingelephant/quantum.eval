@@ -1,0 +1,16 @@
+[paper]
+id = "2407.03046"
+title = "Insulating and metallic phases in the one-dimensional Hubbard-Su-Schrieffer-Heeger model: insights from a backflow-inspired variational wave function"
+authors = "D. Piccioni, F. Ferrari, M. Fabrizio, F. Becca"
+journal = "Phys. Rev. B 111, 045125 (2025)"
+family = "vmc"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D Hubbard chain + SSH coupling to optical phonons, half-filled and doped; classic VMC with backflow-inspired Jastrow-Slater pair-product (BCS) ansatz"
+headline = "phase diagram: Mott vs Peierls insulator at half filling; doped spin-gapped metal (gapless charge, gapped spin, two Fermi points) on L~50-100 chains; bosonization-level identification"
+compute = "1D polynomial-cost VMC, few-to-hundreds of parameters: minutes-to-hours on CPU"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

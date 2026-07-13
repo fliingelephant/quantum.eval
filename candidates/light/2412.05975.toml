@@ -1,0 +1,16 @@
+[paper]
+id = "2412.05975"
+title = "Interaction-induced phases in the half-filled Bernevig-Hughes-Zhang model in one dimension"
+authors = "R. Favata, D. Piccioni, A. Parola, F. Becca"
+journal = "Phys. Rev. B 111, 155105 (2025)"
+family = "vmc"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D half-filled BHZ model (two orbitals per site); Jastrow-Slater VMC, DMRG cross-check"
+headline = "phase diagram of interaction-induced phases vs interaction strength (order parameters + energies), corroborated by DMRG; topological band structure + symmetry analysis"
+compute = "1D VMC + modest DMRG cross-check: laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

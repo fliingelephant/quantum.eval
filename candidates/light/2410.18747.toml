@@ -1,0 +1,16 @@
+[paper]
+id = "2410.18747"
+title = "Monopole excitations in the U(1) Dirac spin liquid on the triangular lattice"
+authors = "S. Budaraju, A. Parola, Y. Iqbal, F. Becca, D. Poilblanc"
+journal = "Phys. Rev. B 111, 125150 (2025)"
+family = "vmc"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "triangular-lattice spin-1/2 J1-J2 Heisenberg in the U(1) Dirac spin-liquid regime; Gutzwiller-projected parton VMC (+ ED cross-check at 36 sites)"
+headline = "monopole excitation energy vs charge Q matching QED3 field-theory predictions; per-size Q=1 singlet/triplet energies at L=8,10 stated"
+compute = "few-parameter Gutzwiller ansatz; per-size energies at L<=12 minutes-to-hours on CPU. Per-target tier: full gaplessness extrapolation (L=28) beyond light -- select per-size targets"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

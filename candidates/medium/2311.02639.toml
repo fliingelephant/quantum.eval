@@ -1,0 +1,16 @@
+[paper]
+id = "2311.02639"
+title = "A variational Monte Carlo approach to the SU(4) spin-orbital model on the triangular lattice"
+authors = "C. Zhang, H.-K. Jin, Y. Zhou"
+journal = "Phys. Rev. B 109, 125103 (2024)"
+family = "vmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "SU(4) Kugel-Khomskii spin-orbital model, triangular lattice; Gutzwiller-projected SU(4) parton VMC"
+headline = "energetic competition among candidate spin-orbital liquids -> stripe-II nematic SOL lowest (C6->C2, SU(4) preserved); parton Fermi surface with open orbits; PSG backbone"
+compute = "decisive energy ordering uses L=24 tori (576 sites), SU(4) sampling ~4x SU(2): medium. <=144-site sub-results are light targets"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

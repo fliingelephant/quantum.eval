@@ -1,0 +1,16 @@
+[paper]
+id = "2503.11834"
+title = "Dirac node pinning from Dzyaloshinskii-Moriya interactions in a kagome spin liquid"
+authors = "A. Kumar, B. Kang, P. A. Lee"
+journal = "Phys. Rev. Lett. 136, 146704 (2026)"
+family = "vmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "kagome spin-1/2 Heisenberg + DM term (YCOB-motivated); Gutzwiller-projected parton VMC + mean-field band topology"
+headline = "spinon gap closing at D_c ~= 0.28 J; optimized flux phi_min/pi ~= -0.54 D/J + 0.99 on a 216-site cluster; gauge-flux/orbital-magnetization pinning mechanism"
+compute = "published run used 216-site cluster on HPC; coarse phi_min(D)/D_c reproduction laptop-plausible but as-published headline is medium"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
