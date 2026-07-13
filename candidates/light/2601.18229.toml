@@ -6,7 +6,8 @@ journal = "Phys. Rev. B (2026), DOI 10.1103/6gdw-nmjk (accepted)"
 family = "mps"
 tier = "light"
 kind = "physics"
-status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+status = "rendered"
+arxiv_version = "2601.18229v1"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]

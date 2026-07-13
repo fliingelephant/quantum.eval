@@ -6,7 +6,9 @@ journal = "Phys. Rev. Research 6, 033322 (2024)"
 family = "thermal-tn"
 tier = "light"
 kind = "physics"
-status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+status = "rendered"
+doi = "10.1103/PhysRevResearch.6.033322"
+arxiv_version = "2405.18477v2"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
