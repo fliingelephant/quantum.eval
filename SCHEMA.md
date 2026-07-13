@@ -1,4 +1,4 @@
-# SCHEMA — per-paper `<arxiv_id>.toml`
+# SCHEMA — per-paper `papers/<arxiv_id>/schema.toml`
 
 One TOML file per paper is the single source of truth. `paper_id` = arXiv id
 (what `download-ref` uses as canonical id for arXiv-sourced entries). The
