@@ -1,6 +1,7 @@
 ---
 name: paper-to-schemas
 description: Use to extract one rendered paper into its schema.toml sections — "extract 2311.07683", "draft the schema for this paper". Per-paper procedure, designed to run inside one subagent per paper; a main agent loops it over a dataset.
+argument-hint: <arxiv_id>
 ---
 
 # paper-to-schemas — one paper → one schema

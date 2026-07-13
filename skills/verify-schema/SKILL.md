@@ -1,6 +1,7 @@
 ---
 name: verify-schema
 description: Use to independently verify one drafted schema against its paper — "verify 2311.07683", "check the schemas". Per-schema procedure, designed to run inside one fresh subagent per schema (never the extractor's context); a main agent loops it over a dataset.
+argument-hint: <arxiv_id>
 ---
 
 # verify-schema — one schema → findings
