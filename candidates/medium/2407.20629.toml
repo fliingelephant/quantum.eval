@@ -1,0 +1,16 @@
+[paper]
+id = "2407.20629"
+title = "Variational Monte Carlo study of the 1/9 magnetization plateau in kagome antiferromagnets"
+authors = "L.-W. He, S.-L. Yu, J.-X. Li"
+journal = "Phys. Rev. Lett. 133, 096501 (2024)"
+family = "vmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "NN kagome Heisenberg AFM in field (YCu3(OH)6Br-motivated); Gutzwiller-projected parton wavefunctions with variational flux/pairing"
+headline = "field-induced Dirac SL -> chiral Z3 topological QSL carrying the 1/9 magnetization plateau; Chern number, topological EE, ground-state degeneracy"
+compute = "projected-parton VMC on N=432-576 kagome clusters + topological invariants; single node, hours-to-day"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

@@ -1,0 +1,16 @@
+[paper]
+id = "2404.11950"
+title = "Pair-density-wave phase of strongly interacting electrons on the triangular lattice: a variational Monte Carlo study"
+authors = "J. Wang, W. Sun, H.-X. Wang, Z. Han, S. A. Kivelson, H. Yao"
+journal = "Phys. Rev. B 112, L140505 (2025)"
+family = "vmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "triangular-lattice t-J-V model (strong-coupling limit of Holstein-Hubbard); large-scale VMC with finite-momentum projected pairing (BCS-Jastrow)"
+headline = "s-wave pair-density-wave at low density; nematic d-wave PDW at intermediate density/phonon frequency; valley polarization + intra-pocket pairing; effective-theory derivation"
+compute = "large-scale VMC on triangular clusters; upper edge of medium (most compute-heavy of the VMC set), single node"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

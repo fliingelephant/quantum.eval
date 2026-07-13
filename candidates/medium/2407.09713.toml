@@ -1,0 +1,16 @@
+[paper]
+id = "2407.09713"
+title = "The algebraic spin liquid in the SU(6) Heisenberg model on the kagome lattice"
+authors = "D. Voros, P. Kranitz, K. Penc"
+journal = "Phys. Rev. B 110, 144437 (2024)"
+family = "vmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "SU(6) Heisenberg on kagome (173Yb optical-lattice realization); Gutzwiller-projected Dirac parton ansatz vs mean-field"
+headline = "U(1) Dirac / algebraic spin liquid lowest in energy, stable vs local perturbations, 2nd-neighbor + ring exchange; gapless fractionalized continuum in S(k,omega)"
+compute = "SU(6) partons, 12-site unit cell + larger chiral cells; single node"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

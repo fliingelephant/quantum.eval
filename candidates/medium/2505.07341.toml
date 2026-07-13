@@ -1,0 +1,16 @@
+[paper]
+id = "2505.07341"
+title = "Variational quantum Monte Carlo investigations of the superconducting pairing in La3Ni2O7"
+authors = "Y.-Q. Liu, D. Wang, Q.-H. Wang"
+journal = "Phys. Rev. B 112, 014511 (2025)"
+family = "vmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "bilayer two-orbital (Eg) Hubbard + extended t-J model for pressurized La3Ni2O7; many-variable VMC, pair-product x Jastrow/Gutzwiller, stochastic reconfiguration"
+headline = "s+- interlayer pairing triggered by local strong correlation (d_x2-y2 disfavored); 3d_z2 orbital leads pairing; two-orbital t-J reduction + FRG consistency"
+compute = "bilayer multi-orbital clusters, single node, standard SR; hours-to-day"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

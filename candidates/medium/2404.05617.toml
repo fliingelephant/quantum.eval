@@ -1,0 +1,16 @@
+[paper]
+id = "2404.05617"
+title = "Candidate quantum spin liquids on the maple-leaf lattice"
+authors = "J. Sonnenschein, A. Maity, C. Liu, R. Thomale, F. Ferrari, Y. Iqbal"
+journal = "Phys. Rev. B 110, 014414 (2024)"
+family = "vmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 Heisenberg AFM on the maple-leaf lattice; Gutzwiller-projected Abrikosov-fermion states (NN amplitudes), projected structure factors"
+headline = "U(1) Fermi-surface spin liquid best matches pseudo-fermion FRG structure factor; full PSG classification (17 U(1) + 12 Z2 phases)"
+compute = "projected fermionic wavefunctions on finite clusters, single node. Reproduction target is the projected structure factors, narrower but well-defined"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
