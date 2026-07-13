@@ -1,0 +1,16 @@
+[paper]
+id = "2306.12021"
+title = "Weak first-order phase transitions in the frustrated square-lattice J1-J2 classical Ising model"
+authors = "A. A. Gangat"
+journal = "Phys. Rev. B 109, 104419 (2024)"
+family = "peps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "frustrated square-lattice J1-J2 classical Ising model; iMPS transfer-matrix contraction of the classical partition function + finite-entanglement scaling"
+headline = "settles the transition order: weak first-order for 0.67 <~ g < inf (long-standing controversy); finite-entanglement scaling theory backbone"
+compute = "iMPS transfer-matrix at modest bond dimension swept over T: single node, cheap"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

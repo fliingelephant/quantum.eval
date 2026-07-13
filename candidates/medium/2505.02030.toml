@@ -1,0 +1,16 @@
+[paper]
+id = "2505.02030"
+title = "Exact diagonalization study of the triangular Heisenberg model with four-spin ring-exchange interaction"
+authors = "Y. Zheng, H. Wu, D.-X. Yao, C. Wu"
+journal = "Phys. Rev. B 111, 195145 (2025)"
+family = "ed"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 J1-J2 + four-spin ring exchange on the triangular lattice, two 36-site tori; Lanczos ED with momentum/point-group/total-spin resolution, level spectroscopy"
+headline = "phase diagram in (J2, ring exchange): zigzag, tetrahedral, VBS-type nonmagnetic phases; no spinon-Fermi-surface spin liquid; Anderson-tower / level-crossing analysis"
+compute = "largest symmetry-reduced sector of 36-site S=1/2 cluster (1e7-1e8 states), matrix-free Lanczos: single node, hours; one coupling point reproduces the headline"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

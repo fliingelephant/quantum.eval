@@ -1,0 +1,16 @@
+[paper]
+id = "2404.17207"
+title = "Six magnetization plateau phases in a spin-1/2 distorted kagome antiferromagnet: application to Y3Cu9(OH)19Cl8"
+authors = "K. Bodaiji, S. Morita, Y. Fukumoto"
+journal = "Phys. Rev. B 110, 104431 (2024)"
+family = "ed"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 Heisenberg with three inequivalent NN couplings on the distorted kagome lattice (Y-kapellasite), in field; Lanczos ED across Sz sectors"
+headline = "plateaus at M/Msat = 1/3, 5/9, 7/9 as magnon-crystal states; localized-magnon (flat-band) analytic origin; saturation ~300 T predicted"
+compute = "Sz-sector Lanczos on finite distorted-kagome cluster (tens of millions of states): single node, hours. CAVEAT: lightest theory anchor of the set"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

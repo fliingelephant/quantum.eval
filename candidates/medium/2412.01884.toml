@@ -1,0 +1,16 @@
+[paper]
+id = "2412.01884"
+title = "Matchgate circuits deeply thermalize"
+authors = "M. Bejan, B. Beri, M. McGinley"
+journal = "Phys. Rev. Lett. 135, 020401 (2025)"
+family = "qcs"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "random matchgate (free-fermionic) 1D circuits with projective measurements (projected ensemble); Gaussian covariance-matrix simulation"
+headline = "deep thermalization: projected ensemble converges to universal Haar-like ensemble over Gaussian fermionic states (moment-wise + Wasserstein-1); rigorous moment-convergence proof"
+compute = "O(L^3)/sample covariance evolution x many samples: single node, hours. Physics is ensemble/statistical rather than a named Hamiltonian quench"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

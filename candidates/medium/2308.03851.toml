@@ -1,0 +1,16 @@
+[paper]
+id = "2308.03851"
+title = "Krylov complexity and Trotter transitions in unitary circuit dynamics"
+authors = "P. Suchsland, R. Moessner, P. W. Claeys"
+journal = "Phys. Rev. B 111, 014309 (2025)"
+family = "qcs"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "Floquet circuits from Trotterizing chaotic, interacting-integrable, and free-integrable spin chains; Krylov/recursion-coefficient analysis, free-fermion + small ED simulation"
+headline = "Trotter transition: large step -> maximally ergodic operators with vanishing autocorrelation; nonanalytic transition at critical step for free-integrable circuits (crossover for chaotic); analytic maximally-ergodic-operator construction"
+compute = "single-particle computation for integrable circuits, small ED/MPO otherwise: single node, minutes-to-hours"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

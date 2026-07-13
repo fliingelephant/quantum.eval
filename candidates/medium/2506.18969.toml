@@ -1,0 +1,16 @@
+[paper]
+id = "2506.18969"
+title = "Bootstrapping flat-band superconductors: rigorous lower bounds on superfluid stiffness"
+authors = "Q. Gao, Z. Han, E. Khalaf"
+journal = "Phys. Rev. Lett. 136, 076503 (2026)"
+family = "sdp"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "quantum-geometric-nesting flat-band superconductor models (frustration-free, Hubbard + magnetic extensions); reduced-density-matrix bootstrap SDP (applied, not a new hierarchy)"
+headline = "first rigorous lower bounds on superfluid stiffness (observable beyond energy); stiffness bounded by pair mass; trion-type correlations control the bound; analytic stiffness-pair-mass relation"
+compute = "one interior-point SDP solve per parameter point over local clusters: minutes-to-hours per point, single node; one bound curve reproduces the headline"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
