@@ -1,0 +1,16 @@
+[paper]
+id = "2405.18475"
+title = "Anomalous thermal broadening in the Shastry-Sutherland model and SrCu2(BO3)2"
+authors = "Z. Wang, P. McClarty, D. Dankova, A. Honecker, A. Wietek"
+journal = "Phys. Rev. B 113, L041104 (2026)"
+family = "thermal-tn"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "Shastry-Sutherland model (SrCu2(BO3)2); METTS / MPS finite-temperature dynamical spectral functions"
+headline = "triplon modes broaden anomalously at T << gap, captured quantitatively by the model; perturbative mechanism via small scale between single- and bound-triplon states"
+compute = "finite-T dynamical spectra via METTS at upper edge of single node; perturbative mechanism + static thermodynamics are light sub-targets"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

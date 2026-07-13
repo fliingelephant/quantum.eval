@@ -1,0 +1,16 @@
+[paper]
+id = "2404.15997"
+title = "Double magnon-roton excitations in the triangular-lattice spin supersolid"
+authors = "Y. Gao, C. Zhang, G. Su, W. Li, et al."
+journal = "Phys. Rev. B 110, 214408 (2024)"
+family = "thermal-tn"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "easy-axis Heisenberg triangular lattice (Na2BaCo(PO4)2); thermal tensor network (XTRG/tanTRG) thermodynamics + finite-T dynamical correlations"
+headline = "double magnon-roton structure: Goldstone+roton and pseudo-Goldstone+roton branches explaining the giant magnetocaloric effect / spin supersolidity; superfluid-analog effective theory"
+compute = "XTRG static thermodynamics single-node; finite-T dynamical structure factor is the cost driver (upper edge of medium); static sub-targets lighter"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

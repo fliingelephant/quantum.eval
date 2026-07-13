@@ -1,0 +1,16 @@
+[paper]
+id = "2405.18477"
+title = "Finite-temperature Rydberg arrays: quantum phases and entanglement characterization"
+authors = "N. Reinic, D. Jaschke, D. Wanisch, P. Silvi, S. Montangero"
+journal = "Phys. Rev. Research 6, 033322 (2024)"
+family = "thermal-tn"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D Rydberg atom arrays (blockade / Ising-type); finite-temperature purification MPS"
+headline = "finite-T phase diagram: ordered lobes shrink with T; conformal entanglement scaling extends from T=0 critical points into the low-T regime; CFT universality argument"
+compute = "1D thermal MPS: laptop, minutes-to-hours. CAVEAT: entanglement-characterization flavor, most methods-adjacent of the thermal set"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

@@ -1,0 +1,16 @@
+[paper]
+id = "2307.03545"
+title = "Finite-temperature properties of the easy-axis Heisenberg model on frustrated lattices"
+authors = "M. Ulaga, J. Kokalj, A. Wietek, A. Zorko, P. Prelovsek"
+journal = "Phys. Rev. B 109, 035110 (2024)"
+family = "ed"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "easy-axis XXZ S=1/2 Heisenberg on triangular and kagome lattices, tunable anisotropy; FTLM/typicality (thermal pure states) up to 36 sites"
+headline = "triangular keeps long-range correlations at all anisotropies (thermodynamic crossover vs anisotropy) while kagome stays short-ranged; S(k), C(T), S(T); easy-axis supersolid vs spin-liquid framework"
+compute = "ED-based FTLM/typicality to 36 sites with Sz symmetry: one node, hours-to-day. Weakest theory anchor of the thermal set"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

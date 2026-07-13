@@ -1,0 +1,16 @@
+[paper]
+id = "2504.12878"
+title = "Frustrated kagome-lattice bilayer quantum Heisenberg antiferromagnet"
+authors = "D. Yaremchuk, T. Hutak, O. Derzhko, J. Schnack, J. Richter"
+journal = "Phys. Rev. B 112, 024402 (2025)"
+family = "ed"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "S=1/2 Heisenberg on frustrated kagome bilayer, strong interlayer coupling, in field; finite-temperature Lanczos (FTLM) + full ED in large-Sz sectors + classical lattice-gas MC"
+headline = "low-T thermodynamics near saturation = localized-magnon rhombi gas -> no order-disorder transition; specific-heat peak below saturation stays shape-sensitive in the thermodynamic limit; exact hard-core-rhombi mapping"
+compute = "FTLM on <=40-site bilayer clusters + trivial classical MC: one node, hours (light sub-targets exist)"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
