@@ -37,8 +37,9 @@ visibility.toml      named section→location maps
 datasets.toml        named dataset selections
 scripts/select.py    dataset resolver (ids from a named or ad-hoc predicate)
 papers/<arxiv_id>/   one paper, one folder:
-  schema.toml          the single truth (labels, sections, provenance)
-  <arxiv_id>_<slug>.md rendered paper (arXiv version)
+  schema.toml          judgment layer (labels, sections, provenance; human-ratified)
+  blocks.toml          partition layer (verbatim spans, machine-anchored)
+  <arxiv_id>_<slug>.md rendered paper (arXiv version; frozen once extracted)
   .raw/ .figures/      local-only fetch artifacts (gitignored)
 skills/download-ref/ vendored render workflow (bundled scripts, per paper)
 search-notes/        preserved searcher intelligence from the collection sweeps

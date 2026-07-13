@@ -13,8 +13,9 @@ this file + `SCHEMA.md` + the paper folder, with no extractor context.
 
 ## Inputs
 
-- `papers/<id>/` with `schema.toml` at status `schema-drafted`, the
-  rendered md, and any `truth_*.csv`.
+- `papers/<id>/` with `schema.toml` at status `schema-drafted`,
+  `blocks.toml` (anchored partition layer), the rendered md, and any
+  `truth_*.csv`.
 
 ## Procedure
 
@@ -23,9 +24,9 @@ this file + `SCHEMA.md` + the paper folder, with no extractor context.
    checks.
 2. **Partition audit — both directions.** The block set must equal the
    set of revealing spans, tag for tag:
-   - *Under-blocked (leak)*: derive the maximally blinded view (delete
-     every line covered by any block) and read what remains as an
-     adversary — any surviving passage that still reveals a section's
+   - *Under-blocked (leak)*: derive the maximally blinded view (mask
+     every span, delete every whole-line block) and read what remains as
+     an adversary — any surviving passage that still reveals a section's
      content is a finding with its line range and the section revealed.
    - *Over-blocked (starvation)*: every block, and every section tag on
      it, must be justified by the span's own text; a block (or tag) whose

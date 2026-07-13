@@ -26,22 +26,27 @@ papers by dispatching one subagent per paper, each pointed at this file +
    schema section, every passage that reveals it — the same fact usually
    appears in several places (abstract, intro, body, captions,
    bibliography); all of them count.
-3. **Move content into blocks.** For each revealing passage add a block —
-   **sub-line spans are the norm** (the renderer emits one line per
-   paragraph, so whole lines are usually far too much):
+3. **Move content into blocks** (`papers/<id>/blocks.toml`) — **agents
+   quote, scripts count**: author every block as a verbatim quote with NO
+   char offsets, then anchor. Sub-line spans are the norm (the renderer
+   emits one line per paragraph, so whole lines are usually far too much):
 
    ```toml
    [[blocks]]                     # span form — the norm
    sections = ["method"]          # every section this span reveals
-   lines = "541"                  # single line
-   chars = "37-40"                # 1-indexed inclusive chars in that line
-   text = "DMRG"                  # verbatim substring
+   lines = "541"                  # the line it sits on
+   text = "DMRG"                  # verbatim substring — never count chars
+   # nth = 2                      # only if the substring repeats on the line
 
    [[blocks]]                     # whole-line form — only if it ALL reveals
    sections = ["method"]
    lines = "412-431"
-   text = """...verbatim copy..."""
+   text = """...the full lines, verbatim..."""
    ```
+
+   Then run `python3 scripts/anchor_blocks.py papers/<id>` — it resolves
+   quotes to offsets and canonicalizes the file; fix any ambiguity it
+   reports (lengthen the quote or add `nth`) and re-run.
 
    - Verbatim only — never paraphrase. Hidden spans are replaced by a
      fixed marker; whole-line blocks are deleted.
@@ -52,7 +57,9 @@ papers by dispatching one subagent per paper, each pointed at this file +
      full (a method-named section header, an equation image defining the
      algorithm).
    - A span revealing several sections lists them all; derivation later
-     hides a block if ANY of its sections is hidden.
+     hides a block if ANY of its sections is hidden. Torn between
+     sections? Tag the union and flag it in the digest (uncertainty rule,
+     `SCHEMA.md`).
    - Ranges must be pairwise disjoint at (line, char) granularity. Blocks
      are visibility-agnostic: capture for every section uniformly,
      including `[problem]`; which blocks get hidden is decided elsewhere.
@@ -71,15 +78,17 @@ papers by dispatching one subagent per paper, each pointed at this file +
    to `papers/<id>/truth_<panel>.csv` beside the TOML. Each target in
    `[problem].targets` carries its own compute tier. A quantity the paper
    never states at that instance is not a target.
-6. **Self-lint**: `python3 scripts/lint_schema.py papers/<id>` must pass.
+6. **Self-lint**: `python3 scripts/anchor_blocks.py papers/<id>` then
+   `python3 scripts/lint_schema.py papers/<id>` — both must pass.
 7. **Return a digest** (the subagent's final message): targets found
    (panel id, quantity, tier, truth source), block count per section,
    anything Inferred, anything ambiguous flagged for the human.
 
 ## Postconditions
 
-- `schema.toml` gains `md_sha256`, `[[blocks]]`, and the seven sections;
-  `[candidate_notes]` stays (provenance).
+- `schema.toml` gains `md_sha256` and the seven sections
+  (`[candidate_notes]` stays); `blocks.toml` holds the anchored partition
+  layer. The rendered md is frozen from here on (re-render ⇒ re-extract).
 - Status flips to `schema-drafted` after the digest is surfaced to the
   human — who may review per paper, batch-approve, or waive review; the
   independent quality check is `verify-schema`, not this gate.

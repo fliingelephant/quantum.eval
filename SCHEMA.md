@@ -1,11 +1,15 @@
-# SCHEMA — per-paper `papers/<arxiv_id>/schema.toml`
+# SCHEMA — per-paper `papers/<arxiv_id>/`
 
-One TOML file per paper is the single source of truth. `paper_id` = arXiv id
-(what `download-ref` uses as canonical id for arXiv-sourced entries). The
-extractor (`paper-to-schemas`) and the judge share this definition and
-nothing else.
+One folder per paper is the single source of truth, in two layers plus
+data: `schema.toml` (judgment layer — sections, human-ratified),
+`blocks.toml` (partition layer — machine-anchored spans), and optional
+`truth_<panel>.csv`. `paper_id` = arXiv id (what `download-ref` uses as
+canonical id). The extractor (`paper-to-schemas`) and the judge share
+this definition and nothing else.
 
 Status ladder: `candidate → rendered → schema-drafted → schema-verified`.
+The rendered md is **frozen once extraction content exists** — every
+offset points into it (`md_sha256` detects drift); re-render ⇒ re-extract.
 
 ## Sections
 
@@ -44,26 +48,34 @@ content, not a junction (closed-form check values → `[anchors]`).
 | `[anchors]` | analytic values usable as cross-checks (exact limits, closed forms) | verification |
 | `[truth]` | ground truth: the paper's numerical results as digitized figure/table values + tolerances, keyed by panel id; long curves as csv beside the TOML. Judge-only in every graded map — stated explicitly per map, never an implicit default. | outcome grading (`check_truth.py`) |
 
-### `[[blocks]]` — verbatim moves (the partition layer)
+### `blocks.toml` — verbatim moves (the partition layer)
 
 Every paper passage that reveals a section's content becomes a block —
-the same fact usually appears in several places, each its own block:
+the same fact usually appears in several places, each its own block.
+Blocks live in their own file so the machine can own its format wholesale.
+
+**Agents quote, scripts count.** Author blocks WITHOUT offsets — never
+hand-count characters:
 
 ```toml
-[paper]
-md_sha256 = "…"              # pins the rendered md at extraction
-
 [[blocks]]                   # sub-line span — THE NORM
 sections = ["method"]        # every section the span reveals
-lines = "541"                # single line, 1-indexed
-chars = "37-40"              # 1-indexed inclusive char range in that line
+lines = "541"                # one line, 1-indexed
 text = "DMRG"                # verbatim substring
+# nth = 2                    # only when the substring repeats on the line
 
 [[blocks]]                   # whole-line form — only when the entire unit reveals
 sections = ["method", "software_params"]
 lines = "412-431"            # 1-indexed inclusive line range
-text = """…verbatim copy…"""
+text = """…the full lines, verbatim…"""
 ```
+
+then `scripts/anchor_blocks.py papers/<id>` resolves each quote to
+1-indexed `chars = "c0-c1"` offsets and canonicalizes the file (0 or
+several occurrences without `nth` is an error), and
+`scripts/lint_schema.py papers/<id>` verifies the anchored mechanics.
+Pipeline: **author quotes → anchor → lint**. `[paper].md_sha256` in
+`schema.toml` pins the md all offsets point into.
 
 Blocks are visibility-agnostic (captured uniformly for all sections);
 derivation hides a block iff ANY of its sections is hidden: a span is
@@ -75,9 +87,8 @@ outcome (values, exponents, phase identifications) hides and the setup
 half (model, instance, what was computed) stays readable. Whole-line
 blocks are for units that reveal in full (a "DMRG numerics" section
 header, an equation image defining the method). Ranges are pairwise
-disjoint at (line, char) granularity; text is byte-verbatim.
-`scripts/lint_schema.py` enforces these mechanics; coverage (no revealing
-passage missed) is `verify-schema`'s judgment.
+disjoint at (line, char) granularity; text is byte-verbatim. Coverage
+(no revealing passage missed) is `verify-schema`'s judgment.
 
 **Blocking is surgical and numerical-scoped.** What gets blocked is what
 the sections withhold: the numerical route (method family, convergence
@@ -96,6 +107,9 @@ directions).
 - **Provenance discipline**: every extracted entry cites the rendered
   paper (`file:line` — Literal) or is marked Inferred. Untagged numbers are
   not trustworthy.
+- **Uncertainty rule**: torn between sections for a block or entry — tag
+  the union (fail-closed hides more) AND flag it for the human in the
+  digest. No agent improvises a tie-break.
 - **Method correctness is set-membership**: `wrong` means the route cannot
   produce the target; "same as the paper" is a recorded bit, never a grade.
 - **Verdict taxonomy is discovered, not designed**: judges emit free-form,

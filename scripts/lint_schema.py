@@ -39,7 +39,9 @@ mds = sorted(paper_dir.glob(f"{paper['id']}_*.md"))
 if paper["status"] != "candidate" and len(mds) != 1:
     err(f"{len(mds)} rendered md files, want exactly 1")
 
-extracted = "md_sha256" in paper or "blocks" in schema or any(s in schema for s in SECTIONS)
+blocks_path = paper_dir / "blocks.toml"
+blocks = tomllib.loads(blocks_path.read_text()).get("blocks", []) if blocks_path.exists() else []
+extracted = "md_sha256" in paper or blocks or any(s in schema for s in SECTIONS)
 if paper["status"] in ("schema-drafted", "schema-verified") and not extracted:
     err(f"status {paper['status']} but no extraction content")
 
@@ -53,10 +55,10 @@ if extracted and mds:
     if paper.get("md_sha256") != digest:
         err(f"md_sha256 mismatch: schema {paper.get('md_sha256')!r} != file {digest[:12]}…")
 
-    # --- blocks: sections known, ranges valid + disjoint at (line, char)
-    # granularity, text verbatim; span blocks carry `chars` on one line ---
+    # --- blocks (blocks.toml): sections known, ranges valid + disjoint at
+    # (line, char) granularity, text verbatim; spans carry `chars` ---
     claimed = []  # (line, c_lo, c_hi, tag) — whole-line blocks claim full lines
-    for i, b in enumerate(schema.get("blocks", [])):
+    for i, b in enumerate(blocks):
         tag = f"blocks[{i}]"
         bad = set(b["sections"]) - set(SECTIONS)
         if bad or not b["sections"]:
@@ -84,7 +86,10 @@ if extracted and mds:
             claimed.append((lo, c_lo, c_hi, tag))
         else:
             if b["text"] != "\n".join(md_lines[lo - 1:hi]):
-                err(f"{tag}: text is not verbatim lines {lo}-{hi}")
+                if lo == hi and b["text"] in md_lines[lo - 1]:
+                    err(f"{tag}: unanchored span — run scripts/anchor_blocks.py")
+                else:
+                    err(f"{tag}: text is not verbatim lines {lo}-{hi}")
             for ln in range(lo, hi + 1):
                 claimed.append((ln, 1, max(1, len(md_lines[ln - 1])), tag))
     claimed.sort()

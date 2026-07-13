@@ -47,9 +47,10 @@ Consequences:
 
 ## 3. One-truth law
 
-> Each paper is exactly one folder `papers/<id>/` whose `schema.toml` is
-> the single source of truth; every other representation is derived and
-> disposable.
+> Each paper is exactly one folder `papers/<id>/` whose TOML files are
+> the single source of truth — `schema.toml` (judgment layer) and
+> `blocks.toml` (partition layer); every other representation is derived
+> and disposable.
 
 - `<id>` = arXiv id (the render pipeline's canonical id).
 - No databases, no index files, no tier directories: **grouping is by
@@ -67,8 +68,11 @@ Consequences:
 > never paraphrases — and records where it came from. Blinded documents
 > are derived, never stored.
 
-Each moved passage is a block: `{section, lines, verbatim text}`, plus a
-pinned `md_sha256` of the rendered paper. Then:
+Each moved passage is a block: `{sections, lines[, chars], verbatim
+text}` in `papers/<id>/blocks.toml` (the partition layer — agents quote
+passages, a script computes offsets and canonicalizes the file; no model
+ever counts characters), plus a pinned `md_sha256` of the rendered paper.
+Then:
 
 - **Derivation is a pure function** `(paper.md, schema, visibility) →
   blinded.md`: for every block with a non-workspace section, replace its
