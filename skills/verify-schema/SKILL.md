@@ -21,11 +21,16 @@ this file + `SCHEMA.md` + the paper folder, with no extractor context.
 1. **Mechanical lint first**: `python3 scripts/lint_schema.py papers/<id>`.
    A lint failure is already a finding; still continue to the judgment
    checks.
-2. **Leak hunt.** Derive the maximally blinded view (delete every line
-   covered by any block) and read what remains as an adversary: does any
-   surviving passage still reveal a section's content — method names,
-   software names, knob values, target values, telltale citations? Each
-   survivor is a finding with its line range and the section it reveals.
+2. **Partition audit — both directions.** The block set must equal the
+   set of revealing spans, tag for tag:
+   - *Under-blocked (leak)*: derive the maximally blinded view (delete
+     every line covered by any block) and read what remains as an
+     adversary — any surviving passage that still reveals a section's
+     content is a finding with its line range and the section revealed.
+   - *Over-blocked (starvation)*: every block, and every section tag on
+     it, must be justified by the span's own text; a block (or tag) whose
+     span reveals none of what it claims removes content from the blinded
+     view without cause — a finding citing the unjustified tag.
 3. **Section fidelity.** For each block and structured entry, re-read the
    cited passage fresh: is the content in the right section(s), per the
    `SCHEMA.md` definitions? Is every `Literal` citation actually literal?
