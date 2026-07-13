@@ -929,7 +929,7 @@ chars = "227-235"
 text = "using QMC"
 
 [[blocks]]
-sections = ["method_params", "problem"]
+sections = ["problem"]
 lines = "327"
 chars = "258-295"
 text = "finite-size scaling at fixed β/ _L[z]_"
@@ -941,13 +941,13 @@ chars = "399-439"
 text = "converge the results carefully at large β"
 
 [[blocks]]
-sections = ["method_params", "problem"]
+sections = ["problem"]
 lines = "327"
 chars = "609-636"
 text = "periodic boundary conditions"
 
 [[blocks]]
-sections = ["method_params", "problem"]
+sections = ["problem"]
 lines = "327"
 chars = "642-683"
 text = "restrict the boson occupation to _ni_ ≤ 10"
@@ -1013,13 +1013,13 @@ chars = "175-291"
 text = "finite-size effects from switching between the different particle-number sectors also affect ρs and other observables"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "341"
 chars = "54-109"
 text = "By fitting the decay as a function of the chord function"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "341"
 chars = "159-201"
 text = "we have extracted _K_ for various _t_ / _U_"
@@ -1037,12 +1037,12 @@ chars = "361-404"
 text = "passes through _K_ = 1/2 at _t_ / _U_ ≈ 0.24"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "346"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0008-03.png)"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "349"
 chars = "4-45"
 text = "applying a Fourier transform with momentum"
@@ -1065,7 +1065,7 @@ lines = "352"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0008-05.png)"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "362"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0008-07.png)"
 
@@ -1076,7 +1076,7 @@ chars = "77-192"
 text = "scales to zero in the Mott phase, diverges in the longrange ordered phase and becomes scale invariant at criticality"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "365"
 chars = "500-565"
 text = "finite-size corrections lead to a convergence of ξ/ _L_ from above"
@@ -1094,7 +1094,7 @@ chars = "302-333"
 text = "check this using QMC simulations"
 
 [[blocks]]
-sections = ["problem", "method_params"]
+sections = ["problem"]
 lines = "371"
 chars = "31-65"
 text = "cutoff frequency of ω _c_ / _U_ = 1"
@@ -1212,13 +1212,13 @@ chars = "1076-1112"
 text = "crossing of the lines drifts with _L_"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "411"
 chars = "1178-1215"
 text = "polynomial fits close to the crossings"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "411"
 chars = "1234-1264"
 text = "error from a bootstrap analysis"
@@ -1301,7 +1301,7 @@ chars = "5-95"
 text = "vanishing superfluid stiffness and correlation length are both consistent with a Mott phase"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "442"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0010-11.png)"
 
@@ -1393,7 +1393,7 @@ chars = "221-276"
 text = "resulting phase is a long-range-ordered superfluid state"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "483"
 chars = "258-340"
 text = "power-law fits to quantify the change of the Luttinger parameter _K_ as α is varied"
@@ -1453,7 +1453,7 @@ chars = "1748-1801"
 text = "for larger couplings we always see ordering tendencies"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "511"
 chars = "107-152"
 text = "density matrix against _d_ ( _i_ − _j_ , _L_ )"
@@ -1470,13 +1470,13 @@ chars = "10-90"
 text = "Putative transition between the Luttinger liquid and the long-range ordered phase"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "521"
 chars = "302-405"
 text = "use the chord function _d_ ( _x_ , _L_ ) = _L_ |sin(π _x_ / _L_ )| /π to get rid of the boundary effects"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "521"
 chars = "469-495"
 text = "power-law fit for α = 0.025"
@@ -1695,7 +1695,7 @@ lines = "572"
 text = "(a)<br>10-2<br>(b)<br>**----- End of picture text -----**<br>"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "575"
 chars = "181-205"
 text = "α = 0.02 and (b) α = 0.07"
@@ -1730,7 +1730,7 @@ lines = "588"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0015-01.png)"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "595"
 chars = "169-195"
 text = "α = 0.04 and (b) α = 0.0625"
@@ -1784,7 +1784,7 @@ chars = "306-365"
 text = "convergence is much slower again and consistent with _z_ = 2"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "601"
 chars = "476-516"
 text = "obtained converged results up to _L_ = 80"
@@ -1838,13 +1838,13 @@ chars = "51-117"
 text = "Continuoustime quantum Monte Carlo for fermion-boson lattice models"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["method"]
 lines = "699"
 chars = "42-90"
 text = "Path-integral computation of superfluid densities"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["method"]
 lines = "701"
 chars = "23-67"
 text = "Computational Studies of Quantum Spin Systems"
