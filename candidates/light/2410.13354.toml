@@ -7,6 +7,7 @@ family = "mps"
 tier = "light"
 kind = "physics"
 status = "rendered"
+doi = "10.1103/physrevb.111.075136"
 arxiv_version = "2410.13354v1"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
