@@ -40,6 +40,27 @@ sections below; kept for provenance.
 | `[anchors]` | analytic values usable as cross-checks (exact limits, closed forms) | verification |
 | `[truth]` | ground truth: digitized figure/table values + tolerances, keyed by panel id; long curves as csv beside the TOML. **Always judge-only.** | outcome grading (`check_truth.py`) |
 
+### `[[blocks]]` — verbatim moves (the partition layer)
+
+Every paper passage that reveals a section's content becomes a block —
+the same fact usually appears in several places, each its own block:
+
+```toml
+[paper]
+md_sha256 = "…"              # pins the rendered md at extraction
+
+[[blocks]]
+sections = ["method", "software_params"]  # every section the span reveals
+lines = "412-431"                         # 1-indexed inclusive, in the md
+text = """…verbatim copy…"""
+```
+
+Blocks are visibility-agnostic (captured uniformly for all sections);
+derivation deletes a block iff ANY of its sections is hidden. Ranges are
+pairwise disjoint; text is byte-verbatim. `scripts/lint_schema.py`
+enforces these mechanics; coverage (no revealing passage missed) is
+`verify-schema`'s judgment.
+
 ## Rules
 
 - **Provenance discipline**: every extracted entry cites the rendered

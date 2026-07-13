@@ -56,5 +56,7 @@ search-notes/        preserved searcher intelligence from the collection sweeps
 4. **Schema-verified**: `verify-schema` (independent subagent per schema)
    re-reads the paper against the schema; deterministic lint for format.
 
-Skills (`paper-to-schemas`, `verify-schema`, judge criteria) are
-deliverables of this repo and land in `skills/` at stage 3.
+`skills/paper-to-schemas` and `skills/verify-schema` are per-paper
+procedures (one subagent per paper invokes the skill; orchestration is
+plain main-agent work); `scripts/lint_schema.py` is the deterministic
+partition check both rely on. Judge criteria land with the eval pack.
