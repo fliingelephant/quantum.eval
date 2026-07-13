@@ -41,8 +41,8 @@ content, not a junction (closed-form check values → `[anchors]`).
 | section | content | harness skills under test |
 |---|---|---|
 | `[problem]` | model (card name or explicit Hamiltonian), convention (sign/normalization, pinned), instance (dimension, lattice, BC, couplings, sector/filling, sizes), `targets` = every quantity the paper computes numerically (observable, ensemble, axes, panel id, **per-target tier**) | model/physics cards, confirm-the-setup |
-| `[method]` | the paper's **numerical** route — method family AND algorithm within it (the `method-*` cards' *select method* step: e.g. mps → DMRG vs VUMPS) — plus the valid-alternative set: routes that CAN produce the targets, at both family and algorithm level | `method-*` routing |
-| `[method_params]` | numerical convergence knobs and criteria — the method card's layer; the quantities survive a software swap even when their spellings differ (χ/maxdim, truncation cutoff, sizes list, time grid, statistics, extrapolation protocol) | `method-*` details, parameter-scan, scaling-fit |
+| `[method]` | **route indications only**: the paper's numerical method family AND algorithm within it (the `method-*` cards' *select method* step: e.g. mps → DMRG vs VUMPS; "worm algorithm", solver names) — plus the valid-alternative set: routes that CAN produce the targets, at both family and algorithm level | `method-*` routing |
+| `[method_params]` | parameters that exist **only given the chosen method** (χ/maxdim + truncation cutoff for tensor networks, MCS/bins for QMC, Trotter step, projection β); the quantities survive a software swap even when spellings differ | `method-*` details, parameter-scan, scaling-fit |
 | `[software]` | the paper's numerical software/code if stated, plus the valid tool set (the `method-*` cards' *select software* step → `using-*` targets) | `using-*` |
 | `[software_params]` | implementation setup with no method-level meaning — does not survive a software swap (eigensolver choice and its tolerances, e.g. Krylov atol; noise/perturbation tricks; threading; API-specific toggles) | `using-*` |
 | `[anchors]` | analytic values usable as cross-checks (exact limits, closed forms) | verification |
@@ -107,6 +107,12 @@ directions).
 - **Provenance discipline**: every extracted entry cites the rendered
   paper (`file:line` — Literal) or is marked Inferred. Untagged numbers are
   not trustworthy.
+- **Swap tests decide the section.** Would the quantity still exist under
+  a *different valid method*? Yes → `problem` (system sizes L, physical
+  temperatures, observables and their ratios like ξ/L, fitted exponents,
+  FSS/crossing criteria — the physics analysis is never method content).
+  No, but it survives a software swap → `method_params`. Survives
+  neither → `software_params`.
 - **Uncertainty rule**: torn between sections for a block or entry — tag
   the union (fail-closed hides more) AND flag it for the human in the
   digest. No agent improvises a tie-break.
