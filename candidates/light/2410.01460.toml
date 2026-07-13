@@ -1,0 +1,16 @@
+[paper]
+id = "2410.01460"
+title = "First-order transition and marginal critical behavior in a 2D frustrated Ising model"
+authors = "C. Chatelain"
+journal = "Phys. Rev. E 111, 024109 (2025)"
+family = "peps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "two AFM Ising replicas coupled by non-local interactions, square lattice; TRG contraction of the classical partition function"
+headline = "transition lines (first- vs second-order regimes); central charge / exponents establishing Ashkin-Teller marginal criticality; resolves MC-vs-TN tension for J1-J2 Ising universality"
+compute = "classical Ising TRG, minutes-scale on laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

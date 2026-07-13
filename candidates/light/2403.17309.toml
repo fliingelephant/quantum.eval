@@ -1,0 +1,16 @@
+[paper]
+id = "2403.17309"
+title = "Tensor network renormalization approach to antiferromagnetic 6-state clock model on the Union Jack lattice"
+authors = "K. Homma, S. Morita, N. Kawashima"
+journal = "Phys. Rev. B 111, 134427 (2025)"
+family = "peps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "AFM 6-state clock model on the Union-Jack lattice; TRG (nuclear-norm-regularized) contraction of the classical partition function"
+headline = "phase diagram: BKT + Z6-breaking + chiral transitions; central charge, scaling dimensions, OPE coefficients vs compactified-boson / Ising CFT"
+compute = "classical clock TRG at modest bond dimension, laptop. CAVEAT: method-forward framing (regularized TRG showcased) -- judged physics-leaning, decide at extraction"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

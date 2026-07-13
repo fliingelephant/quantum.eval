@@ -1,0 +1,16 @@
+[paper]
+id = "2505.05194"
+title = "Two-dimensional J1-J2 clock model: enhanced symmetries, emergent orders, and Landau-incompatible transitions"
+authors = "V. Pulloor Kuttanikkad, A. Prakash, R. Narayanan, T. Chanda"
+journal = "Phys. Rev. Lett. 135, 256703 (2025)"
+family = "peps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "frustrated J1-J2 classical q-state clock model (even q>4), 2D square lattice; CTMRG contraction of the classical partition function (+ classical MC)"
+headline = "phase diagram: stripe phase with emergent discrete Zq order forbidden microscopically; BKT / Ising / Landau-incompatible transition locations; Zq-deformed sine-Gordon effective theory"
+compute = "classical clock-model CTMRG, small local tensor, modest chi: minutes on CPU. Strongest 2D-TN light candidate"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

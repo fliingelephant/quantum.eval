@@ -1,0 +1,16 @@
+[paper]
+id = "2508.08376"
+title = "Continuous topological phase transition between Z2 topologically ordered phases"
+authors = "Q. Zhang, W.-T. Xu"
+journal = "Phys. Rev. B 112, L241107 (2025)"
+family = "peps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "perturbed Z4 quantum-double model (maps to two coupled quantum Ising models), square lattice; C4v-symmetric iPEPS + CTMRG via automatic differentiation, (D,chi)=(4-7, 100-160)"
+headline = "continuous toric-code <-> double-semion transition, XY* universality; order parameter + correlation length; exact TC/DS wavefunctions + anyon-deconfinement theory"
+compute = "headline physics established at D<=6, chi<=100: minutes-to-hours per point on CPU. Per-target tier: highest-precision exponent (D=7, chi=160) is beyond light -- select D<=6 targets"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
