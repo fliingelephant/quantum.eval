@@ -1,0 +1,16 @@
+[paper]
+id = "2502.10387"
+title = "Transport in a system with a tower of quantum many-body scars"
+authors = "G. Morettini, L. Capizzi, M. Fagotti, L. Mazza"
+journal = "Phys. Rev. B 112, 134314 (2025)"
+family = "ed"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1 chain hosting an equally-spaced scar tower (ladder-operator generated); sparse/symmetry-resolved ED + autocorrelators/time evolution"
+headline = "anomalous non-decaying autocorrelation / finite stiffness carried by the scar subspace; dynamical symmetry restricted to scars + generalized-ETH backbone"
+compute = "dim 3^L; L~12-16 with symmetry (up to ~5e6): sparse ED, minutes-to-hours on laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

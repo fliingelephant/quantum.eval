@@ -1,0 +1,16 @@
+[paper]
+id = "2512.14065"
+title = "Integrability breaking and coherent dynamics in Hermitian and non-Hermitian spin chains with long-range coupling"
+authors = "Y. S. Liu, X. Z. Zhang"
+journal = "Phys. Rev. B 113, 134306 (2026)"
+family = "ed"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D spin-1 chain with tunable long-range hopping (Hermitian core; non-Hermitian variant); full/sparse ED, level statistics, Krylov complexity, time evolution"
+headline = "integrability->chaos crossover: <r> from Poisson (~0.386) to GOE (~0.530), while an exact scar tower survives with coherent revivals; analytic tower construction"
+compute = "dim 3^L, L~10-14 (<=4.8e6): laptop ED. Core reproducible target = Hermitian Poisson->GOE + scar revivals"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

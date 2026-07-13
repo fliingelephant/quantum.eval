@@ -1,0 +1,16 @@
+[paper]
+id = "2506.22114"
+title = "Perfect quantum state transfer through a chaotic spin chain via many-body scars"
+authors = "S. Dooley, L. Johnston, P. Gormley, B. Campbell"
+journal = "Phys. Rev. B 112, 214304 (2025)"
+family = "ed"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 chain with engineered PST couplings + projected chaotic perturbation (and spin-1 analog); full ED, level statistics, unitary evolution"
+headline = "transfer fidelity -> 1 at revival time despite GOE bulk spectrum; transfer subspace = the N+1 scar eigenstates; exact su(2) spectrum-generating algebra"
+compute = "N=12 spin-1/2 (4096) and N=8 spin-1 (6561): full ED in seconds on laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

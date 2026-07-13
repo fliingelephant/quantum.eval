@@ -1,0 +1,16 @@
+[paper]
+id = "2511.14878"
+title = "Additional quantum many-body scars of the spin-1 XY model with Fock-space cages and commutant algebras"
+authors = "S. Mohapatra, S. Moudgalya, A. C. Balram"
+journal = "Phys. Rev. B 113, 054310 (2026)"
+family = "ed"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1 XY chain, PBC, U(1) + chiral symmetries; full/sparse symmetry-resolved ED, entanglement outliers, perturbed evolution"
+headline = "exact scar families (Fock-space cages, volume-entangled, mirror-dimer) as anomalous-entanglement outliers; long-lived fidelity oscillations under transverse field; commutant-algebra classification"
+compute = "dim 3^L, L~10-14: laptop ED"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

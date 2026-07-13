@@ -1,0 +1,16 @@
+[paper]
+id = "2503.09452"
+title = "Diagnostics of Hilbert-space fragmentation, freezing transition and anomalous transport in quantum East models"
+authors = "S. Aditya, et al."
+journal = "Phys. Rev. B 112, 195413 (2025)"
+family = "ed"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D spinless-fermion chains with East-constrained (facilitated) hopping of range q; symmetry-resolved sparse ED in the fragmented space + transfer-matrix enumeration"
+headline = "freezing (strong->weak fragmentation) transition at critical filling n_c = 1/(q+1); anomalous transport subdiffusive->superdiffusive; generalized-Catalan / transfer-matrix analytic backbone"
+compute = "constrained space << 2^L: L~24-30 (dims 1e5-1e6), sparse ED minutes-to-hours on laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

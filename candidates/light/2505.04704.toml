@@ -1,0 +1,16 @@
+[paper]
+id = "2505.04704"
+title = "Disorder-free localization and fragmentation in a non-Abelian lattice gauge theory"
+authors = "G. Cataldi, G. Calajo, P. Silvi, S. Montangero, J. C. Halimeh"
+journal = "Phys. Rev. Lett. 136, 170401 (2026)"
+family = "ed"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "(1+1)D SU(2) lattice gauge theory with dynamical matter, PBC; sparse ED in the gauge-invariant qudit basis (ed-lgt), quench evolution"
+headline = "three-regime dynamical phase diagram: ergodic vs fragmented (nonthermal, delocalized) vs disorder-free MBL from quenching superselection-sector superpositions; degenerate PT + superselection fragmentation argument"
+compute = "local dim 13; N=6 (~4.8e6) laptop-comfortable, headline mechanism visible at N<=6-7 (paper's N=8 is near-ceiling)"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
