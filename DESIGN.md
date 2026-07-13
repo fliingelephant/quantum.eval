@@ -33,7 +33,10 @@ The decomposition mirrors the SUT's decision chain, not the paper's
 anatomy. *Instance*: `problem` ↔ model/knowledge cards, `method` ↔
 `method-*` skills, `method_params` ↔ convergence-judgment skills,
 `software`/`software_params` ↔ `using-*` skills, `anchors`/`truth` ↔
-verification. Full section contract: `SCHEMA.md`.
+verification. The method/software sections carry the *numerical*
+decision chain — method family, solver knobs, software, implementation
+setup; a paper's analytic theory is content to reproduce against, not a
+junction, and is never withheld. Full section contract: `SCHEMA.md`.
 
 Consequences:
 - Paper anatomy (result DAGs, figure roles, compute cost) is *record-level
@@ -83,6 +86,9 @@ pinned `md_sha256` of the rendered paper. Then:
   citation used only inside moved text moves with it).
 - The isolation bar is **no raw simple leaks** — not adversarial
   anti-memorization. Post-cutoff papers are the memorization control.
+  Blocks are surgical: the minimal spans revealing the numerical route
+  (method, software, setup) or truth values. The blinded document must
+  still read as a coherent problem statement.
 
 ## 5. Visibility law
 

@@ -33,8 +33,8 @@ sections below; kept for provenance.
 | section | content | harness skills under test |
 |---|---|---|
 | `[problem]` | model (card name or explicit Hamiltonian), convention (sign/normalization, pinned), instance (dimension, lattice, BC, couplings, sector/filling, sizes), `targets` = every quantity the paper computes (observable, ensemble, axes, panel id, **per-target tier**) | model/physics cards, confirm-the-setup |
-| `[method]` | the paper's route, plus the valid-alternative set: methods that CAN produce the targets | `method-*` routing |
-| `[method_params]` | physical convergence knobs — survive a software swap (χ, sizes list, time grid, statistics) | `method-*` details, parameter-scan, scaling-fit |
+| `[method]` | the paper's **numerical** route — method family/algorithm in the harness `method-*` sense (ed, mps, qmc, vmc, peps, …) — plus the valid-alternative set: methods that CAN produce the targets | `method-*` routing |
+| `[method_params]` | numerical convergence knobs — survive a software swap (χ, sizes list, time grid, statistics) | `method-*` details, parameter-scan, scaling-fit |
 | `[software]` | paper's code if stated, plus valid tool set (maps to harness `using-*`) | `using-*` |
 | `[software_params]` | implementation knobs — do not survive a software swap | `using-*` |
 | `[anchors]` | analytic values usable as cross-checks (exact limits, closed forms) | verification |
@@ -60,6 +60,18 @@ derivation deletes a block iff ANY of its sections is hidden. Ranges are
 pairwise disjoint; text is byte-verbatim. `scripts/lint_schema.py`
 enforces these mechanics; coverage (no revealing passage missed) is
 `verify-schema`'s judgment.
+
+**Blocking is surgical and numerical-scoped.** What gets blocked is what
+the sections withhold: the numerical route (method family, convergence
+knobs, software, implementation setup) and truth values — the minimal
+spans that reveal them. A paper's analytical apparatus (symmetry
+analysis, effective field theory, perturbative arguments, dualities) is
+not `[method]`: closed-form values/relations usable as cross-checks go
+to `[anchors]`; the rest is problem-side physics context and stays
+unblocked. That a paper "performed numerics" is not withholdable — every
+pool paper did. The derived blinded paper must remain a coherent problem
+statement; over-blocking is starvation (`verify-schema` audits both
+directions).
 
 ## Rules
 
