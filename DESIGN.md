@@ -95,10 +95,18 @@ pinned `md_sha256` of the rendered paper. Then:
 - `judge`: never crosses the seam.
 
 Named maps live in `visibility.toml`; any new kind or degree of blindness
-is a new named map, nothing else. Visibility is a *value on an axis*, not
-an experiment: the engine's law — vary exactly one axis (content / task /
-worker), freeze the rest, N trials — composes conditions from
-(paper, visibility, intent, SUT-content, model).
+— including a combination of existing ones — is a new named map, nothing
+else. Visibility is a *value on an axis*, not an experiment: the engine's
+law — vary exactly one axis (content / task / worker), freeze the rest,
+N trials — composes conditions from (paper, visibility, intent,
+SUT-content, model).
+
+**Coherence constraint.** A map must be monotone along the decision
+chain: a section may not be more visible than the choice it presupposes
+(`method_params` ≤ `method`; `software_params` ≤ `software` ≤ `method`,
+with workspace > dialogue > judge). Revealing the knobs while hiding the
+method would leak the method through its knobs; such maps are rejected
+by lint at materialization, not left to judgment.
 
 ## 6. Target law
 
