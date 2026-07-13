@@ -36,7 +36,7 @@ if paper["id"] != paper_dir.name:
 if paper["status"] not in STATUSES:
     err(f"status {paper['status']!r} not on ladder {STATUSES}")
 mds = sorted(paper_dir.glob(f"{paper['id']}_*.md"))
-if len(mds) != 1:
+if paper["status"] != "candidate" and len(mds) != 1:
     err(f"{len(mds)} rendered md files, want exactly 1")
 
 extracted = "md_sha256" in paper or "blocks" in schema or any(s in schema for s in SECTIONS)
