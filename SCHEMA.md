@@ -37,10 +37,10 @@ content, not a junction (closed-form check values → `[anchors]`).
 | section | content | harness skills under test |
 |---|---|---|
 | `[problem]` | model (card name or explicit Hamiltonian), convention (sign/normalization, pinned), instance (dimension, lattice, BC, couplings, sector/filling, sizes), `targets` = every quantity the paper computes numerically (observable, ensemble, axes, panel id, **per-target tier**) | model/physics cards, confirm-the-setup |
-| `[method]` | the paper's **numerical** route — method family/algorithm in the harness `method-*` sense (ed, mps, qmc, vmc, peps, …) — plus the valid-alternative set: methods that CAN produce the targets | `method-*` routing |
-| `[method_params]` | numerical convergence knobs — survive a software swap (χ, sizes list, time grid, statistics) | `method-*` details, parameter-scan, scaling-fit |
-| `[software]` | the paper's numerical software/code if stated, plus valid tool set (maps to harness `using-*`) | `using-*` |
-| `[software_params]` | numerical implementation knobs — do not survive a software swap | `using-*` |
+| `[method]` | the paper's **numerical** route — method family AND algorithm within it (the `method-*` cards' *select method* step: e.g. mps → DMRG vs VUMPS) — plus the valid-alternative set: routes that CAN produce the targets, at both family and algorithm level | `method-*` routing |
+| `[method_params]` | numerical convergence knobs and criteria — the method card's layer; survive a software swap (χ, sizes list, time grid, statistics, extrapolation protocol) | `method-*` details, parameter-scan, scaling-fit |
+| `[software]` | the paper's numerical software/code if stated, plus the valid tool set (the `method-*` cards' *select software* step → `using-*` targets) | `using-*` |
+| `[software_params]` | tool-level run knobs (the `using-*` cards' *software parameters* layer) — do not survive a software swap | `using-*` |
 | `[anchors]` | analytic values usable as cross-checks (exact limits, closed forms) | verification |
 | `[truth]` | ground truth: the paper's numerical results as digitized figure/table values + tolerances, keyed by panel id; long curves as csv beside the TOML. **Always judge-only.** | outcome grading (`check_truth.py`) |
 
