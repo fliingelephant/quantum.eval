@@ -71,8 +71,10 @@ Each moved passage is a block: `{section, lines, verbatim text}`, plus a
 pinned `md_sha256` of the rendered paper. Then:
 
 - **Derivation is a pure function** `(paper.md, schema, visibility) →
-  blinded.md`: delete the line ranges of every block whose section is not
-  workspace-visible. No model in the loop.
+  blinded.md`: for every block with a non-workspace section, replace its
+  sub-line span with a fixed marker, or delete its lines (whole-line
+  form). No model in the loop. Sub-line spans are the norm — hide the
+  revealing words, keep the sentence.
 - **Fail closed.** Any anchor/hash mismatch aborts derivation. A unit of
   text mixing sections goes whole to the *more restricted* section.
   Composition can re-add information; it can never un-leak it.
@@ -93,7 +95,9 @@ pinned `md_sha256` of the rendered paper. Then:
 ## 5. Visibility law
 
 > A blindness level is one map: section → location ∈ {workspace,
-> dialogue, judge}. `truth` is always judge.
+> dialogue, judge}. Every section is listed explicitly — no implicit
+> defaults; graded runs require `truth = judge` (a lint rule on the map,
+> not a hardwired special case).
 
 - `workspace`: materialized where the worker can read it.
 - `dialogue`: known to the simulated user; revealed only if asked — this

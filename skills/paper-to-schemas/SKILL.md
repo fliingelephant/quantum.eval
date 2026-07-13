@@ -26,24 +26,39 @@ papers by dispatching one subagent per paper, each pointed at this file +
    schema section, every passage that reveals it — the same fact usually
    appears in several places (abstract, intro, body, captions,
    bibliography); all of them count.
-3. **Move content into blocks.** For each revealing passage add a block:
+3. **Move content into blocks.** For each revealing passage add a block —
+   **sub-line spans are the norm** (the renderer emits one line per
+   paragraph, so whole lines are usually far too much):
 
    ```toml
-   [[blocks]]
+   [[blocks]]                     # span form — the norm
    sections = ["method"]          # every section this span reveals
-   lines = "412-431"              # 1-indexed inclusive range in the md
+   lines = "541"                  # single line
+   chars = "37-40"                # 1-indexed inclusive chars in that line
+   text = "DMRG"                  # verbatim substring
+
+   [[blocks]]                     # whole-line form — only if it ALL reveals
+   sections = ["method"]
+   lines = "412-431"
    text = """...verbatim copy..."""
    ```
 
-   - Verbatim only — never paraphrase, never trim inside a line.
+   - Verbatim only — never paraphrase. Hidden spans are replaced by a
+     fixed marker; whole-line blocks are deleted.
+   - Block the minimal revealing content. In result-stating units (title,
+     abstract, captions) hide only the outcome — values, exponents, phase
+     identifications — and leave the setup half (model, instance, what
+     was computed) readable. Whole-line form is for units that reveal in
+     full (a method-named section header, an equation image defining the
+     algorithm).
    - A span revealing several sections lists them all; derivation later
-     deletes a block if ANY of its sections is hidden.
-   - Ranges must be pairwise disjoint. Blocks are visibility-agnostic:
-     capture for every section uniformly, including `[problem]`; which
-     blocks get deleted is decided elsewhere, later.
-   - A figure whose image reveals a section: block the image-link line(s)
-     and its caption. A bibliography entry cited only inside blocked text
-     is itself a block.
+     hides a block if ANY of its sections is hidden.
+   - Ranges must be pairwise disjoint at (line, char) granularity. Blocks
+     are visibility-agnostic: capture for every section uniformly,
+     including `[problem]`; which blocks get hidden is decided elsewhere.
+   - A figure whose image reveals a section: block the image-link line(s);
+     within its caption, span-block only the revealing parts. A
+     bibliography entry cited only inside blocked text is itself a block.
 4. **Fill the structured sections** (`[problem]`, `[method]`,
    `[method_params]`, `[software]`, `[software_params]`, `[anchors]`,
    `[truth]`) as defined in `SCHEMA.md`. Every entry carries provenance:

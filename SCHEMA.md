@@ -42,7 +42,7 @@ content, not a junction (closed-form check values → `[anchors]`).
 | `[software]` | the paper's numerical software/code if stated, plus the valid tool set (the `method-*` cards' *select software* step → `using-*` targets) | `using-*` |
 | `[software_params]` | implementation setup with no method-level meaning — does not survive a software swap (eigensolver choice and its tolerances, e.g. Krylov atol; noise/perturbation tricks; threading; API-specific toggles) | `using-*` |
 | `[anchors]` | analytic values usable as cross-checks (exact limits, closed forms) | verification |
-| `[truth]` | ground truth: the paper's numerical results as digitized figure/table values + tolerances, keyed by panel id; long curves as csv beside the TOML. **Always judge-only.** | outcome grading (`check_truth.py`) |
+| `[truth]` | ground truth: the paper's numerical results as digitized figure/table values + tolerances, keyed by panel id; long curves as csv beside the TOML. Judge-only in every graded map — stated explicitly per map, never an implicit default. | outcome grading (`check_truth.py`) |
 
 ### `[[blocks]]` — verbatim moves (the partition layer)
 
@@ -53,17 +53,31 @@ the same fact usually appears in several places, each its own block:
 [paper]
 md_sha256 = "…"              # pins the rendered md at extraction
 
-[[blocks]]
-sections = ["method", "software_params"]  # every section the span reveals
-lines = "412-431"                         # 1-indexed inclusive, in the md
+[[blocks]]                   # sub-line span — THE NORM
+sections = ["method"]        # every section the span reveals
+lines = "541"                # single line, 1-indexed
+chars = "37-40"              # 1-indexed inclusive char range in that line
+text = "DMRG"                # verbatim substring
+
+[[blocks]]                   # whole-line form — only when the entire unit reveals
+sections = ["method", "software_params"]
+lines = "412-431"            # 1-indexed inclusive line range
 text = """…verbatim copy…"""
 ```
 
 Blocks are visibility-agnostic (captured uniformly for all sections);
-derivation deletes a block iff ANY of its sections is hidden. Ranges are
-pairwise disjoint; text is byte-verbatim. `scripts/lint_schema.py`
-enforces these mechanics; coverage (no revealing passage missed) is
-`verify-schema`'s judgment.
+derivation hides a block iff ANY of its sections is hidden: a span is
+replaced by the fixed marker `▓` (fixed length — a hidden name must not
+leak its length), a whole-line block's lines are deleted. **Fine-grained
+spans are the norm**: block the minimal revealing content — in
+result-stating units (title, abstract sentences, captions) only the
+outcome (values, exponents, phase identifications) hides and the setup
+half (model, instance, what was computed) stays readable. Whole-line
+blocks are for units that reveal in full (a "DMRG numerics" section
+header, an equation image defining the method). Ranges are pairwise
+disjoint at (line, char) granularity; text is byte-verbatim.
+`scripts/lint_schema.py` enforces these mechanics; coverage (no revealing
+passage missed) is `verify-schema`'s judgment.
 
 **Blocking is surgical and numerical-scoped.** What gets blocked is what
 the sections withhold: the numerical route (method family, convergence

@@ -53,8 +53,9 @@ if extracted and mds:
     if paper.get("md_sha256") != digest:
         err(f"md_sha256 mismatch: schema {paper.get('md_sha256')!r} != file {digest[:12]}…")
 
-    # --- blocks: sections known, ranges valid + disjoint, text verbatim ---
-    claimed = []
+    # --- blocks: sections known, ranges valid + disjoint at (line, char)
+    # granularity, text verbatim; span blocks carry `chars` on one line ---
+    claimed = []  # (line, c_lo, c_hi, tag) — whole-line blocks claim full lines
     for i, b in enumerate(schema.get("blocks", [])):
         tag = f"blocks[{i}]"
         bad = set(b["sections"]) - set(SECTIONS)
@@ -68,13 +69,28 @@ if extracted and mds:
         if not (1 <= lo <= hi <= n_lines):
             err(f"{tag}: range {lo}-{hi} outside file (1-{n_lines})")
             continue
-        claimed.append((lo, hi, tag))
-        if b["text"] != "\n".join(md_lines[lo - 1:hi]):
-            err(f"{tag}: text is not verbatim lines {lo}-{hi}")
+        if "chars" in b:
+            cm = re.fullmatch(r"(\d+)-(\d+)", b["chars"]) or re.fullmatch(r"(\d+)", b["chars"])
+            if lo != hi or not cm:
+                err(f"{tag}: chars requires a single line and 'c0-c1' form")
+                continue
+            c_lo, c_hi = int(cm.group(1)), int(cm.group(cm.lastindex))
+            line_text = md_lines[lo - 1]
+            if not (1 <= c_lo <= c_hi <= len(line_text)):
+                err(f"{tag}: chars {c_lo}-{c_hi} outside line {lo} (1-{len(line_text)})")
+                continue
+            if b["text"] != line_text[c_lo - 1:c_hi]:
+                err(f"{tag}: text is not verbatim line {lo} chars {c_lo}-{c_hi}")
+            claimed.append((lo, c_lo, c_hi, tag))
+        else:
+            if b["text"] != "\n".join(md_lines[lo - 1:hi]):
+                err(f"{tag}: text is not verbatim lines {lo}-{hi}")
+            for ln in range(lo, hi + 1):
+                claimed.append((ln, 1, max(1, len(md_lines[ln - 1])), tag))
     claimed.sort()
-    for (_, hi_a, tag_a), (lo_b, _, tag_b) in zip(claimed, claimed[1:]):
-        if lo_b <= hi_a:
-            err(f"{tag_a} and {tag_b} overlap")
+    for (ln_a, _, hi_a, tag_a), (ln_b, lo_b, _, tag_b) in zip(claimed, claimed[1:]):
+        if ln_a == ln_b and lo_b <= hi_a and tag_a != tag_b:
+            err(f"{tag_a} and {tag_b} overlap on line {ln_a}")
 
     # --- sections present; targets and truth well-formed ---
     for s in SECTIONS:
