@@ -46,7 +46,7 @@ content, not a junction (closed-form check values → `[anchors]`).
 | `[software]` | the paper's numerical software/code if stated, plus the valid tool set (the `method-*` cards' *select software* step → `using-*` targets) | `using-*` |
 | `[software_params]` | implementation setup with no method-level meaning — does not survive a software swap (eigensolver choice and its tolerances, e.g. Krylov atol; noise/perturbation tricks; threading; API-specific toggles) | `using-*` |
 | `[anchors]` | analytic values usable as cross-checks (exact limits, closed forms) | verification |
-| `[truth]` | ground truth: the paper's numerical results as digitized figure/table values + tolerances, keyed by panel id; long curves as csv beside the TOML. Judge-only in every graded map — stated explicitly per map, never an implicit default. | outcome grading (`check_truth.py`) |
+| `[truth]` | ground truth: the paper's numerical results as digitized figure/table values + tolerances, keyed by panel id; long curves as csv beside the TOML. The grader ALWAYS consumes this table; a map's `truth` location only decides whether the paper's stated results stay readable to the worker. | outcome grading (`check_truth.py`) |
 
 ### `blocks.toml` — verbatim moves (the partition layer)
 

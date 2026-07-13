@@ -100,8 +100,11 @@ Then:
 
 > A blindness level is one map: section → location ∈ {workspace,
 > dialogue, judge}. Every section is listed explicitly — no implicit
-> defaults; graded runs require `truth = judge` (a lint rule on the map,
-> not a hardwired special case).
+> defaults, no hardwired special cases. `truth`'s location governs only
+> whether the paper's stated results remain readable to the worker; the
+> judge always receives the `[truth]` answer key, and grading stays sound
+> either way because the outcome bit is computed from run artifacts (§7)
+> — a worker who can read the answer still has to produce it.
 
 - `workspace`: materialized where the worker can read it.
 - `dialogue`: known to the simulated user; revealed only if asked — this

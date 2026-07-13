@@ -2,10 +2,11 @@
 #   workspace = worker reads it directly (materialized into the workspace)
 #   dialogue  = sim-user knows it, reveals only if asked
 #   judge     = never crosses the seam
-# Every section is listed explicitly — no implicit defaults. Graded runs
-# require truth = "judge" (lint rule at materialization, not a hardwired
-# special case). A task in the eval pack references one level by name;
-# any new kind or degree of blindness is a new named map here.
+# Every section is listed explicitly — no implicit defaults. truth's
+# location controls only whether the PAPER'S stated results stay readable
+# to the worker; the judge always receives the [truth] answer key for
+# grading, regardless of any map. A task in the eval pack references one
+# level by name; any new kind or degree of blindness is a new named map.
 
 [open]
 problem = "workspace"
@@ -14,7 +15,7 @@ method_params = "workspace"
 software = "workspace"
 software_params = "workspace"
 anchors = "workspace"
-truth = "judge"
+truth = "workspace"
 
 [results-blind]
 problem = "workspace"
@@ -25,8 +26,8 @@ software_params = "workspace"
 anchors = "dialogue"
 truth = "judge"
 
-# The supervisor headline experiment: eliminate method information;
-# persona knows the problem and the paper's claims, nothing about methods.
+# The supervisor headline experiment: eliminate METHOD information only;
+# the problem and the paper's claims (results) stay readable.
 [methods-blind]
 problem = "workspace"
 method = "judge"
@@ -34,4 +35,4 @@ method_params = "judge"
 software = "judge"
 software_params = "judge"
 anchors = "dialogue"
-truth = "judge"
+truth = "workspace"
