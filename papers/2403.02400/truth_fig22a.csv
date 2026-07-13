@@ -1,0 +1,11 @@
+# Inferred digitization from 2403.02400.pdf-0025-01.png.
+beta_omega_c,Delta_pc_perp,parameterization,observable
+100,-0.0005,Delta,xi_xy
+1000,-0.0002,Delta,xi_xy
+10000,0.0000,Delta,xi_xy
+100000,0.0000,Delta,xi_xy
+100,-0.0003,Delta_perp,xi_z
+1000,-0.0001,Delta_perp,xi_z
+10000,0.0000,Delta_perp,xi_z
+100000,0.0000,Delta_perp,xi_z
+

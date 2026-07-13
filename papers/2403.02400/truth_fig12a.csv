@@ -1,0 +1,8 @@
+# Inferred digitization from 2403.02400.pdf-0015-11.png.
+alpha_z_over_alpha_xy,xi_xy_over_beta,xi_z_over_beta
+0.90,0.36,0.20
+0.95,0.34,0.25
+1.00,0.31,0.31
+1.05,0.28,0.40
+1.10,0.22,0.58
+

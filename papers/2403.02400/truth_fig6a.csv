@@ -1,0 +1,12 @@
+# Inferred digitization from 2403.02400.pdf-0010-07.png.
+alpha_xy,alpha_z,series
+0.60,0.00,critical_boundary
+0.80,0.15,critical_boundary
+1.00,0.45,critical_boundary
+1.20,0.90,critical_boundary
+1.50,1.45,critical_boundary
+1.80,1.75,critical_boundary
+2.10,2.00,critical_boundary
+0.10,0.00,CR1_marker
+1.80,1.80,QC2_marker
+

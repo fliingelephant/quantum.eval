@@ -9,6 +9,7 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/physrevb.110.115145"
 arxiv_version = "2311.07683v1"
+md_sha256 = "e0f301b1aa33aa8d8951f9e83186442074895cac9365d10d95126046f672f2c1"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
@@ -16,3 +17,227 @@ model = "1D Bose-Hubbard chain, each site coupled to an Ohmic/super-Ohmic bath; 
 headline = "phase diagram: Ohmic dissipation destabilizes Luttinger liquid at infinitesimal coupling into long-range-ordered superfluid; Mott lobe -> SF with diverging compressibility; Luttinger-liquid instability scaling backbone"
 compute = "1D chain, modest L + imaginary-time bath; minutes-to-hours on a laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "One-dimensional Bose-Hubbard chain with nearest-neighbor hopping, onsite repulsion, and chemical potential, coupled at every site by single-particle exchange to an independent non-interacting bosonic oscillator bath."
+model_provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:65,87-93,105-117"
+hamiltonian = "Hs = -t Σ_i (b†_i b_{i+1} + h.c.) + (U/2) Σ_i b†_i b†_i b_i b_i - μ Σ_i b†_i b_i; Hb = Σ_iq ω_q a†_iq a_iq; Hsb = Σ_iq λ_q (b†_i a_iq + h.c.)."
+hamiltonian_provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:87-90,141-144"
+convention = "The phase diagram is parameterized by t/U and μ/U. The bath spectral function is J(ω) = 2πα ω_c^(1-s) ω^s for 0 < ω ≤ ω_c; s = 1 is Ohmic and s > 1 is super-Ohmic. The coupling preserves translation and total system-plus-bath U(1) boson-number symmetry, and integrating out the bath gives an off-diagonal retarded interaction with periodic D(τ + β) = D(τ)."
+convention_provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:105-131"
+instance = "One spatial dimension, periodic boundary conditions, zero-temperature/ground-state limit obtained by large β, main line μ/U = 0.3, bath cutoff ω_c/U = 1, and local occupation cutoff n_i ≤ 10 for the isolated-chain calculations. The principal scans use L = 20, 40, 80, 160, 320 where shown, t/U = 0.25 in the Luttinger-liquid phase, t/U = 0.1 in the Mott phase, and super-Ohmic points (μ/U,t/U,s) = (0.5,0.16,2.5) and (0.3,0.2,1.75)."
+instance_provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:311-327,369-375,483,507-521,561,575,595"
+tier_basis = "All listed targets are marked light because the paper reports one-dimensional chains with L up to 320 and finite-temperature convergence studies, consistent with a laptop-feasible numerical tier; the source does not state a formal hardware tier."
+tier_basis_provenance = "Inferred from the reported sizes and convergence ranges in papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:323,407,563,575,595 and the pre-existing paper-level tier label."
+
+targets = [
+  { panel = "fig1a_inset", quantity = "Luttinger parameter K along μ/U = 0.3; transition and K = 1/2 crossing", ensemble = "ground-state QMC", axes = "K versus t/U", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:77,341" },
+  { panel = "fig1b", quantity = "Ohmic phase-boundary curve α_c(t/U) at μ/U = 0.3", ensemble = "ground-state QMC", axes = "α versus t/U", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:77,477" },
+  { panel = "fig4a", quantity = "Average particle density N/L versus hopping", ensemble = "isolated-chain ground-state QMC", axes = "N/L versus t/U for L = 20,40,80,160,320", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:323,329" },
+  { panel = "fig4b", quantity = "Superfluid stiffness ρs versus hopping", ensemble = "isolated-chain ground-state QMC", axes = "ρs versus t/U for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:323,333-335" },
+  { panel = "fig4c", quantity = "Momentum distribution n(k) and its finite-size dependence at t/U = 0.25", ensemble = "isolated-chain ground-state QMC", axes = "n(k) versus k for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:323,343-349" },
+  { panel = "fig4d", quantity = "Normalized correlation length ξ/L across the Mott transition", ensemble = "isolated-chain ground-state QMC", axes = "ξ/L versus t/U for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:323,359-365" },
+  { panel = "fig5a", quantity = "Average particle density N/L versus Ohmic dissipation", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.25, s = 1", axes = "N/L versus α for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:373,379" },
+  { panel = "fig5b", quantity = "Superfluid stiffness ρs versus Ohmic dissipation", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.25, s = 1", axes = "ρs versus α for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:373,379" },
+  { panel = "fig6a", quantity = "Single-particle density matrix versus distance", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.25, s = 1", axes = "⟨b†_i b_j⟩ versus distance on log-log axes for several α", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:391,395" },
+  { panel = "fig6b", quantity = "Density of the uniform mode n(k = 0)/L versus inverse system size", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.25, s = 1", axes = "n(k=0)/L versus 1/L for several α", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:391,397-409" },
+  { panel = "fig7a", quantity = "Normalized correlation length ξ/L versus Ohmic dissipation", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.25, s = 1", axes = "ξ/L versus α for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:407,411-415" },
+  { panel = "fig7b", quantity = "Finite-size extrapolation of crossings α*(L)", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.25, s = 1", axes = "α*(L) versus 1/L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:407,411-415" },
+  { panel = "fig8a", quantity = "Normalized correlation length ξ/L in the Mott starting regime", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.1, s = 1", axes = "ξ/L versus α for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:433,437" },
+  { panel = "fig8b", quantity = "Superfluid stiffness ρs in the Mott starting regime", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.1, s = 1", axes = "ρs versus α for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:433,437" },
+  { panel = "fig9a", quantity = "Average local boson occupation N/L versus Ohmic dissipation", ensemble = "ground-state QMC at μ/U = 0.3, t/U = 0.1, s = 1", axes = "N/L versus α for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:445,473" },
+  { panel = "fig9b", quantity = "Compressibility κ versus inverse temperature", ensemble = "finite-temperature QMC approaching ground state at μ/U = 0.3, t/U = 0.1, s = 1", axes = "κ versus β for several α", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:445,473" },
+  { panel = "fig10a", quantity = "Normalized correlation length ξ/L at super-Ohmic exponent s = 2.5", ensemble = "ground-state QMC at μ/U = 0.5, t/U = 0.16", axes = "ξ/L versus α for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:483,489" },
+  { panel = "fig10b", quantity = "Single-particle density matrix and fitted Luttinger exponent K at s = 2.5", ensemble = "ground-state QMC at μ/U = 0.5, t/U = 0.16", axes = "⟨b†_i b_j⟩ versus distance and K versus α", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:483,489" },
+  { panel = "fig12a", quantity = "Normalized correlation length ξ/L at s = 1.75 and t/U = 0.2", ensemble = "ground-state QMC at μ/U = 0.3", axes = "ξ/L versus α for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:509,521" },
+  { panel = "fig12b", quantity = "Single-particle density matrix at s = 1.75 and t/U = 0.2", ensemble = "ground-state QMC at μ/U = 0.3", axes = "⟨b†_i b_j⟩ versus chord distance for several α and L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:511-523" },
+  { panel = "fig13a", quantity = "Total particle number versus inverse temperature at L = 20", ensemble = "isolated-chain finite-temperature QMC at μ/U = 0.3", axes = "N versus β for nearby t/U", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:549-563" },
+  { panel = "fig13b", quantity = "Total particle number versus inverse temperature at L = 80", ensemble = "isolated-chain finite-temperature QMC at μ/U = 0.3", axes = "N versus β for nearby t/U", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:549-563" },
+  { panel = "fig14a", quantity = "Temperature convergence of ξ/L from the Luttinger-liquid side at α = 0.02", ensemble = "Ohmic finite-temperature QMC at μ/U = 0.3, t/U = 0.25, s = 1", axes = "ξ/L versus β for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:575,597" },
+  { panel = "fig14b", quantity = "Temperature convergence of ξ/L from the Luttinger-liquid side at α = 0.07", ensemble = "Ohmic finite-temperature QMC at μ/U = 0.3, t/U = 0.25, s = 1", axes = "ξ/L versus β for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:575,599" },
+  { panel = "fig15a", quantity = "Temperature convergence of ξ/L from the Mott side at α = 0.04", ensemble = "Ohmic finite-temperature QMC at μ/U = 0.3, t/U = 0.1, s = 1", axes = "ξ/L versus β for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:595,601" },
+  { panel = "fig15b", quantity = "Temperature convergence of ξ/L from the Mott side at α = 0.0625", ensemble = "Ohmic finite-temperature QMC at μ/U = 0.3, t/U = 0.1, s = 1", axes = "ξ/L versus β for several L", tier = "light", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:595,601" },
+]
+
+[method]
+family = "qmc"
+family_provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:27,135"
+algorithm = "Continuous-time path-integral/world-line QMC with a worm algorithm, extended by Metropolis INSERTWORMHOLE/REMOVEWORMHOLE wormhole updates for off-diagonal retarded interactions; the bath is integrated into retarded vertices and sampled in frequency and imaginary-time separation."
+algorithm_provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:135,147-167,191-193,209-251"
+weight_structure = "The world-line vertex weights are strictly positive and the matrix elements are non-branching, giving a sign-free continuous-time sampling representation."
+weight_structure_provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:155,163,173"
+valid_alternatives = [
+  { family = "qmc", algorithm = "continuous-time worm/world-line QMC with retarded-interaction vertices", provenance = "Inferred method-equivalent route that can sample the same sign-free retarded action and targets." },
+  { family = "qmc", algorithm = "directed-loop QMC with off-diagonal wormhole updates", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:193; method-equivalent alternative identified by the paper." },
+]
+
+[method_params]
+convergence = [
+  { parameter = "temperature", value = "Increase β until observables, especially ξ/L, reach a ground-state plateau for each L; the paper does not assume a known z for the finite-size scaling.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:327,375,417,581,597-601" },
+  { parameter = "reported inverse-temperature ranges", value = "βU = 1280 for isolated-chain density convergence; up to βU = 2560/1280 for Fig. 14 and βU = 5120, with βU = 20480 at L = 80 in Fig. 15.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:563,575,595" },
+  { parameter = "finite-size analysis", value = "Use several L, crossings between (L,2L), polynomial fits near crossings, and bootstrap errors; long-range order is inferred from ξ/L growth and α*(L) → 0.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:411-415" },
+  { parameter = "system sizes", value = "L = 20, 40, 80, 160, 320 where shown; Appendix B demonstrates convergence up to L = 80 near the transition.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:323,407,521,563,601" },
+  { parameter = "estimators/fits", value = "ρs from winding-number fluctuations; K from chord-function power-law fits; n(k) by Fourier transform; ξ from the finite-size momentum estimator; κ from particle-number fluctuations.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:333-365,439-445,483" },
+  { parameter = "bath sampling", value = "ω and directed Δτ are sampled from the spectral-function and propagator distributions using inverse-transform sampling.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:223,231,241-243" },
+  { parameter = "reported bath setup", value = "ωc/U = 1, s = 1 (Ohmic), s = 1.75, and s = 2.5; α is scanned at the stated (μ/U,t/U) points.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:371-375,483,507,521" },
+]
+boundary_conditions = { value = "Periodic boundary conditions; n_i ≤ 10 only for the isolated-chain calculations, with no boson cutoff needed for the retarded-interaction bath representation.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:327,371-375" }
+
+[software]
+paper_software = "Julia implementation closely following the open-source code described in Ref. [42]."
+paper_software_provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:165"
+valid_tools = [
+  { tool = "Julia continuous-time worm/world-line QMC implementation", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:165" },
+  { tool = "Any implementation of the continuous-time worm algorithm with retarded wormhole vertices", provenance = "Inferred software-swap alternative from the method's algorithmic requirements." },
+]
+
+[software_params]
+reported_setup = [
+  { parameter = "vertex linking", value = "Wormhole vertices require nonlocal connections in imaginary time and appropriate positions in the operator sequence.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:277" },
+  { parameter = "bath observables", value = "Bath observables are not directly accessible and are recovered from the retarded-vertex distribution using generating functionals.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:277" },
+]
+unstated = "No API-specific eigensolver tolerances, thread settings, noise schedules, or library toggles are reported in the rendered source."
+unstated_provenance = "Inferred from the complete rendered source and figure captions after the reported Julia implementation statement at papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:165."
+
+[anchors]
+checks = [
+  { relation = "Single-particle density matrix in the isolated Luttinger liquid: ⟨b†_i b_j⟩ ~ |i-j|^(-K/2).", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:97-103; equation image linked at :100" },
+  { relation = "Bath spectrum: J(ω) = 2πα ωc^(1-s)ω^s for 0 < ω ≤ ωc; D(τ) has long-time decay τ^(-(1+s)).", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:117,131; equation images linked at :114 and :128" },
+  { relation = "Power-counting scaling dimension Δ = 2 - s - K/2 and marginal exponent s_marg = (4-K)/2.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:283-307; equation images linked at :286 and :302" },
+  { relation = "The isolated-chain Mott transition has K = 1 away from the cusp; K = 1/2 is the marked super-Ohmic marginal contour.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:77,103,307,341" },
+  { relation = "Estimator checks: ρs = L⟨W²⟩/β, n(k) is the Fourier transform of the density matrix, ξ/L uses n(k=0)/n(k=Δk), and κ = β(⟨N²⟩-⟨N⟩²)/L.", provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:333-365,439-445; equation images linked at :346, :362, :442" },
+]
+
+[truth]
+note = "Truth is keyed to the target panel ids. Scalar statements use the paper's explicit text values; the phase-boundary curve uses local figure digitization with a tolerance covering pixel/read-off uncertainty."
+note_provenance = "Inferred from the source-order rule in SKILL.md and the rendered paper's explicit scalar statements plus local figure assets."
+
+[truth.fig1a_inset]
+value = { t_over_U = 0.24, K = 0.5 }
+tolerance = { t_over_U = 0.01, K = 0.03 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:341"
+
+[truth.fig1b]
+file = "truth_fig1b.csv"
+tolerance = { t_over_U = 0.005, alpha = 0.01 }
+provenance = "Inferred digitized from the local phase-boundary image linked at papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:70-77; the text confirms the panel is the numerically established Ohmic phase diagram."
+
+[truth.fig4a]
+value = { transition_t_over_U = 0.195, mott_density = 1.0 }
+tolerance = { transition_t_over_U = 0.005, mott_density = 0.02 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:325,329"
+
+[truth.fig4b]
+value = "ρs scales to zero in the Mott phase and is finite in the Luttinger-liquid phase."
+tolerance = "qualitative phase/sign agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:335"
+
+[truth.fig4c]
+value = "n(k=0) diverges with L while n(k=0)/L scales to zero in the thermodynamic limit."
+tolerance = "qualitative scaling agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:349"
+
+[truth.fig4d]
+value = "ξ/L tends to zero in the Mott phase, is scale invariant at criticality, and approaches a finite constant in the quasi-ordered phase."
+tolerance = "qualitative phase/scaling agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:365"
+
+[truth.fig5a]
+value = "At t/U = 0.25, N/L increases with α and has no discernible system-size dependence within errors apart from weak-coupling small-L oscillations."
+tolerance = "qualitative trend and finite-size agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:373,379"
+
+[truth.fig5b]
+value = "At t/U = 0.25, ρs increases with α."
+tolerance = "qualitative trend agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:373,379"
+
+[truth.fig6a]
+value = "Increasing α shifts the density-matrix curves upward, reduces the initial power-law slope, and produces a long-distance plateau tendency."
+tolerance = "qualitative trend agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:391,395"
+
+[truth.fig6b]
+value = "n(k=0)/L falls with increasing L toward zero, while its finite-L magnitude grows with α."
+tolerance = "qualitative finite-size trend agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:391,397-409"
+
+[truth.fig7a]
+value = "ξ/L grows with L for every finite α > 0 and crosses over from a finite α = 0 limit to long-range-order behavior."
+tolerance = "qualitative crossing and scaling agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:407,411-415"
+
+[truth.fig7b]
+value = { alpha_star_thermodynamic = 0.0 }
+tolerance = { alpha_star_thermodynamic = 0.01 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:415"
+
+[truth.fig8a]
+value = { alpha_c = 0.061, below_transition = "ξ/L → 0", above_transition = "ξ/L grows faster than L" }
+tolerance = { alpha_c = 0.005 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:433"
+
+[truth.fig8b]
+value = { alpha_c = 0.061, below_transition = 0.0, above_transition = "non-vanishing" }
+tolerance = { alpha_c = 0.005, below_transition = 0.02 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:433"
+
+[truth.fig9a]
+value = { alpha_zero = 0.0, occupation_at_zero_alpha = 1.0, finite_alpha_trend = "decreases" }
+tolerance = { occupation_at_zero_alpha = 0.02 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:445"
+
+[truth.fig9b]
+value = { finite_alpha_compressibility = "diverges as T → 0", example_alpha = 0.07 }
+tolerance = "divergence/phase agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:445"
+
+[truth.fig10a]
+value = "At s = 2.5 the ξ/L data collapse apart from the smallest L, consistent with a stable Luttinger liquid."
+tolerance = "qualitative collapse/stability agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:483,489"
+
+[truth.fig10b]
+value = "At s = 2.5 the density matrix remains power-law, and fitted K decreases as α increases."
+tolerance = "qualitative decay/trend agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:483,489"
+
+[truth.fig12a]
+value = { weak_alpha_threshold = 0.05, weak_coupling = "stable-liquid signature", strong_coupling = "ordering tendency" }
+tolerance = { weak_alpha_threshold = 0.01 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:509"
+
+[truth.fig12b]
+value = { alpha_power_law = 0.025, alpha_ordering_onset = 0.05, alpha_power_law_behavior = "power-law decay", above_onset = "consistent with long-range order" }
+tolerance = { alpha_power_law = 0.005, alpha_ordering_onset = 0.01 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:521,523"
+
+[truth.fig13a]
+value = { converged_total_particle_number = 21, system_size = 20 }
+tolerance = { converged_total_particle_number = 0.5 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:549-563"
+
+[truth.fig13b]
+value = { system_size = 80, behavior = "nearby hopping parameters converge to distinct integer fillings" }
+tolerance = "integer-filling/finite-size trend agreement"
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:561-563"
+
+[truth.fig14a]
+value = { alpha = 0.02, small_L_behavior = "consistent with z = 1", large_L_behavior = "plateau shifts to larger β" }
+tolerance = { alpha = 0.005 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:575,597"
+
+[truth.fig14b]
+value = { alpha = 0.07, dynamic_exponent_behavior = "consistent with z = 2" }
+tolerance = { alpha = 0.005 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:575,599"
+
+[truth.fig15a]
+value = { alpha = 0.04, convergence = "quick and without system-size dependence" }
+tolerance = { alpha = 0.005 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:595,601"
+
+[truth.fig15b]
+value = { alpha = 0.0625, dynamic_exponent_behavior = "consistent with z = 2", max_L = 80 }
+tolerance = { alpha = 0.005, max_L = 0.5 }
+provenance = "Literal papers/2311.07683/2311.07683_dissipation-induced-long-range-order-in-the-one-dimensional.md:595,601"

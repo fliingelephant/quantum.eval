@@ -1,0 +1,6 @@
+# The permitted Fig. 5 asset contains only the Tc2/Tsd/Tc3 axis labels;
+# no plotted scaling-dimension values are recoverable from it.
+temperature_over_J,series,scaling_dimension
+0.490,Tc2_marker,
+0.560,Tsd_marker,
+0.640,Tc3_marker,

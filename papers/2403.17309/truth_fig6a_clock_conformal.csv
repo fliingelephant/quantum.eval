@@ -1,0 +1,7 @@
+# The permitted Fig. 6(a) asset is a top crop with setup labels only.
+# These are the explicitly recoverable Ising check levels, not a full curve digitization.
+rg_step,series,value
+12,central_charge_Ising_check,0.500
+12,identity_Delta_check,0.000
+12,spin_Delta_check,0.125
+12,thermal_Delta_check,1.000

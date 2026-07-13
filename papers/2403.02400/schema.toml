@@ -9,6 +9,7 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/mtq7-n96c"
 arxiv_version = "2403.02400v2"
+md_sha256 = "03f12201153e6dd9a0a86e84efebdbf25b887cc76aa99eef28f9bede88169e00"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
@@ -16,3 +17,871 @@ model = "anisotropic Bose-Kondo / spin-boson: one S=1/2 spin, x/y/z components c
 headline = "phase diagram + exponents: continuous order-to-order (beyond-Landau) transitions, symmetry-enhanced first-order, tunable pseudocriticality (walking RG); fixed-point-annihilation / complex-fixed-point RG backbone"
 compute = "single impurity spin, imaginary-time-only problem; seconds-to-minutes per point on a laptop. Strongest laptop QMC candidate"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "An anisotropic spin-boson (Bose-Kondo) impurity: one S=1/2 spin with each spin component coupled to an independent bosonic bath. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:81"
+convention = "The bath spectrum is power-law with cutoff omega_c set to the energy unit, and the dissipation strengths alpha_i are dimensionless. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:84,87"
+instance = "A single (0+1)-dimensional impurity, with no spatial lattice size; simulations use imaginary-time extent beta=1/T. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:103,127"
+couplings = "The main numerical manifold has alpha_x=alpha_y=alpha_xy and tunes alpha_z; Delta=1-alpha_z/alpha_xy parameterizes the anisotropy. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:87"
+symmetry = "alpha_z=0 is U(1)-symmetric and alpha_z=alpha_xy is SU(2)-symmetric. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:87"
+parameter_ranges = "The paper scans subohmic, ohmic, and superohmic bath exponents s, with the principal numerical phase diagrams covering 0<s<1 and selected s=1.5 data. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:141,233,431"
+
+[[problem.targets]]
+panel = "fig1a"
+quantity = "U(1)-plane fixed-point couplings alpha_CR1 and alpha_QC1 versus bath exponent 1-s, including their collision"
+ensemble = "alpha_z=0"
+axes = "x=1-s; y=alpha_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:188,195"
+
+[[problem.targets]]
+panel = "fig1b"
+quantity = "SU(2)-line fixed-point couplings alpha_CR2 and alpha_QC2 versus bath exponent 1-s, including their collision"
+ensemble = "alpha_z=alpha_xy"
+axes = "x=1-s; y=alpha_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:188,195"
+
+[[problem.targets]]
+panel = "fig2a"
+quantity = "U(1) fixed-point-collision fit and coordinates (s_1*, alpha_1*)"
+ensemble = "alpha_z=0"
+axes = "x=log10(alpha_xy); y=s"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:199,211"
+
+[[problem.targets]]
+panel = "fig2b"
+quantity = "SU(2) fixed-point-collision fit and coordinates (s_2*, alpha_2*)"
+ensemble = "alpha_z=alpha_xy"
+axes = "x=log10(alpha_xy); y=s"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:199,211"
+
+[[problem.targets]]
+panel = "fig2c"
+quantity = "U(1) approximate-duality product alpha_CR1 alpha_QC1 versus s"
+ensemble = "alpha_z=0"
+axes = "x=s; y=alpha_CR1*alpha_QC1"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:201,211"
+
+[[problem.targets]]
+panel = "fig2d"
+quantity = "SU(2) approximate-duality product alpha_CR2 alpha_QC2 versus s"
+ensemble = "alpha_z=alpha_xy"
+axes = "x=s; y=alpha_CR2*alpha_QC2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:201,211"
+
+[[problem.targets]]
+panel = "fig4a"
+quantity = "Rescaled in-plane susceptibility T^s chi_xy versus alpha_xy at several temperatures, showing CR1 and QC1 crossings"
+ensemble = "s=0.8, alpha_z=0"
+axes = "x=alpha_xy; y=T^s chi_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:290,303"
+
+[[problem.targets]]
+panel = "fig4b"
+quantity = "Rescaled in-plane susceptibility T^s chi_xy versus alpha_xy at several temperatures, showing the finite-anisotropy critical crossing"
+ensemble = "s=0.8, alpha_z=alpha_xy/2"
+axes = "x=alpha_xy; y=T^s chi_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:290,303"
+
+[[problem.targets]]
+panel = "fig5a"
+quantity = "U(1)-plane phase diagram in (s,alpha_xy), including F, CR1, and L1 regions"
+ensemble = "alpha_z=0"
+axes = "x=s; y=alpha_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:311,327"
+
+[[problem.targets]]
+panel = "fig5b"
+quantity = "Finite-anisotropy phase diagram in (s,alpha_xy), including the shifted boundary and disappearance region"
+ensemble = "alpha_z=alpha_xy/2"
+axes = "x=s; y=alpha_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:313,327"
+
+[[problem.targets]]
+panel = "fig5c"
+quantity = "SU(2)-line phase diagram in (s,alpha_xy), including F, CR2, and L2 regions"
+ensemble = "alpha_z=alpha_xy"
+axes = "x=s; y=alpha_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:315,327"
+
+[[problem.targets]]
+panel = "fig5d"
+quantity = "z-localized phase diagram in (s,alpha_xy) for alpha_z>alpha_xy"
+ensemble = "alpha_z>alpha_xy"
+axes = "x=s; y=alpha_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:327,331"
+
+[[problem.targets]]
+panel = "fig6a"
+quantity = "Critical phase boundary alpha_c in the (alpha_xy,alpha_z) plane at s=0.8"
+ensemble = "s=0.8, alpha_x=alpha_y=alpha_xy"
+axes = "x=alpha_xy; y=alpha_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:335,345"
+
+[[problem.targets]]
+panel = "fig6b"
+quantity = "Anisotropy Delta_c versus distance alpha_QC2-alpha_xy on log-log axes at s=0.8"
+ensemble = "s=0.8"
+axes = "x=alpha_QC2-alpha_xy; y=Delta_c"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:335,345"
+
+[[problem.targets]]
+panel = "fig7a"
+quantity = "Normalized in-plane correlation length xi_xy/beta scaling collapse at Delta=1.0"
+ensemble = "s=0.8, alpha_z=0"
+axes = "x=(beta*omega_c)^(1/nu_QC1_parallel)(alpha_xy-alpha_xy^c); y=xi_xy/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:368,375"
+
+[[problem.targets]]
+panel = "fig7b"
+quantity = "Normalized in-plane correlation length xi_xy/beta scaling collapse at Delta=0.5"
+ensemble = "s=0.8, Delta=0.5"
+axes = "x=scaled alpha_xy; y=xi_xy/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:368,375"
+
+[[problem.targets]]
+panel = "fig7c"
+quantity = "Normalized in-plane correlation length xi_xy/beta scaling collapse at Delta=0.1"
+ensemble = "s=0.8, Delta=0.1"
+axes = "x=scaled alpha_xy; y=xi_xy/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:368,375"
+
+[[problem.targets]]
+panel = "fig7d"
+quantity = "Normalized in-plane correlation length xi_xy/beta scaling collapse at Delta=0.01"
+ensemble = "s=0.8, Delta=0.01"
+axes = "x=scaled alpha_xy; y=xi_xy/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:368,375"
+
+[[problem.targets]]
+panel = "fig7e"
+quantity = "Combined xi_xy/beta collapse across the four anisotropies"
+ensemble = "s=0.8, Delta in {1.0,0.5,0.1,0.01}"
+axes = "x=scaled alpha_xy; y=xi_xy/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:368,375"
+
+[[problem.targets]]
+panel = "fig8a"
+quantity = "In-plane susceptibility chi_xy versus T across anisotropy Delta at alpha_xy=0.172"
+ensemble = "s=0.8, alpha_xy=0.172"
+axes = "x=T/omega_c; y=chi_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:382,389"
+
+[[problem.targets]]
+panel = "fig8b"
+quantity = "In-plane susceptibility chi_xy versus T across anisotropy Delta at alpha_xy=1.776"
+ensemble = "s=0.8, alpha_xy=1.776"
+axes = "x=T/omega_c; y=chi_xy"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:382,389"
+
+[[problem.targets]]
+panel = "fig8c"
+quantity = "Out-of-plane susceptibility chi_z versus T across anisotropy Delta at alpha_xy=0.172"
+ensemble = "s=0.8, alpha_xy=0.172"
+axes = "x=T/omega_c; y=chi_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:382,389"
+
+[[problem.targets]]
+panel = "fig8d"
+quantity = "Out-of-plane susceptibility chi_z versus T across anisotropy Delta at alpha_xy=1.776"
+ensemble = "s=0.8, alpha_xy=1.776"
+axes = "x=T/omega_c; y=chi_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:382,389"
+
+[[problem.targets]]
+panel = "fig9a"
+quantity = "Local moments m_xy^2(T) and m_z^2(T) across alpha_z/alpha_xy at s=0.2"
+ensemble = "alpha_xy=0.317"
+axes = "x=alpha_z/alpha_xy; y=m_xy^2,m_z^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[[problem.targets]]
+panel = "fig9b"
+quantity = "Local moments m_xy^2(T) and m_z^2(T) across alpha_z/alpha_xy at s=0.4"
+ensemble = "alpha_xy=0.317"
+axes = "x=alpha_z/alpha_xy; y=m_xy^2,m_z^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[[problem.targets]]
+panel = "fig9c"
+quantity = "Local moments m_xy^2(T) and m_z^2(T) across alpha_z/alpha_xy at s=0.6"
+ensemble = "alpha_xy=0.317"
+axes = "x=alpha_z/alpha_xy; y=m_xy^2,m_z^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[[problem.targets]]
+panel = "fig9d"
+quantity = "Local moments m_xy^2(T) and m_z^2(T) across alpha_z/alpha_xy at s=0.7"
+ensemble = "alpha_xy=0.317"
+axes = "x=alpha_z/alpha_xy; y=m_xy^2,m_z^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[[problem.targets]]
+panel = "fig9e"
+quantity = "Local moments m_xy^2(T) and m_z^2(T) across alpha_z/alpha_xy at s=0.85"
+ensemble = "alpha_xy=0.317"
+axes = "x=alpha_z/alpha_xy; y=m_xy^2,m_z^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[[problem.targets]]
+panel = "fig9f"
+quantity = "Local moments m_xy^2(T) and m_z^2(T) across alpha_z/alpha_xy at s=1.5"
+ensemble = "alpha_xy=0.317"
+axes = "x=alpha_z/alpha_xy; y=m_xy^2,m_z^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[[problem.targets]]
+panel = "fig10a"
+quantity = "SU(2) local moment m_SU(2)^2(T) versus s at alpha_z=alpha_xy=0.5"
+ensemble = "alpha_z=alpha_xy=0.5"
+axes = "x=s; y=m_SU(2)^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:445,461"
+
+[[problem.targets]]
+panel = "fig10b"
+quantity = "SU(2) local moment m_SU(2)^2(T) versus s at alpha_z=alpha_xy=0.05"
+ensemble = "alpha_z=alpha_xy=0.05"
+axes = "x=s; y=m_SU(2)^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:447,461"
+
+[[problem.targets]]
+panel = "fig11a"
+quantity = "Correlation ratios R_xy and R_z versus log10(alpha_z/alpha_xy) at s=0.2"
+ensemble = "alpha_xy=0.317"
+axes = "x=log10(alpha_z/alpha_xy); y=R_xy,R_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:470,477"
+
+[[problem.targets]]
+panel = "fig11b"
+quantity = "Correlation ratios R_xy and R_z versus log10(alpha_z/alpha_xy) at s=0.4"
+ensemble = "alpha_xy=0.317"
+axes = "x=log10(alpha_z/alpha_xy); y=R_xy,R_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:470,477"
+
+[[problem.targets]]
+panel = "fig11c"
+quantity = "First-order scaling collapse of R_xy and R_z at s=0.2"
+ensemble = "alpha_xy=0.317"
+axes = "x=(beta*omega_c)^s(alpha_z/alpha_xy-1); y=R_xy,R_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:470,477"
+
+[[problem.targets]]
+panel = "fig11d"
+quantity = "First-order scaling collapse of R_xy and R_z at s=0.4"
+ensemble = "alpha_xy=0.317"
+axes = "x=(beta*omega_c)^s(alpha_z/alpha_xy-1); y=R_xy,R_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:470,477"
+
+[[problem.targets]]
+panel = "fig11e"
+quantity = "Strong-coupling first-order scaling collapse of R_xy and R_z at s=0.6"
+ensemble = "alpha_xy=5.0"
+axes = "x=(beta*omega_c)^s(alpha_z/alpha_xy-1); y=R_xy,R_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:470,477"
+
+[[problem.targets]]
+panel = "fig11f"
+quantity = "Strong-coupling first-order scaling collapse of R_xy and R_z at s=0.8"
+ensemble = "alpha_xy=10.0"
+axes = "x=(beta*omega_c)^s(alpha_z/alpha_xy-1); y=R_xy,R_z"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:470,477"
+
+[[problem.targets]]
+panel = "fig12a"
+quantity = "Normalized correlation lengths xi_xy/beta and xi_z/beta versus alpha_z/alpha_xy at the CR2 transition"
+ensemble = "s=0.66, alpha_xy=0.2267"
+axes = "x=alpha_z/alpha_xy; y=xi_xy/beta,xi_z/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:509,523"
+
+[[problem.targets]]
+panel = "fig12b"
+quantity = "CR2 scaling collapse of xi_xy/beta and xi_z/beta"
+ensemble = "s=0.66, alpha_xy=0.2267"
+axes = "x=(beta*omega_c)^(1/nu_CR2_perp)(alpha_z/alpha_xy-1); y=xi_xy/beta,xi_z/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:523,525"
+
+[[problem.targets]]
+panel = "fig13a"
+quantity = "Local moments m_xy^2(T) and m_z^2(T) versus alpha_z/alpha_xy at CR2"
+ensemble = "s=0.66, alpha_xy=0.2267"
+axes = "x=alpha_z/alpha_xy; y=m_xy^2,m_z^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:527,553"
+
+[[problem.targets]]
+panel = "fig13b"
+quantity = "CR2 magnetization scaling collapse of m_xy^2(T) and m_z^2(T)"
+ensemble = "s=0.66, alpha_xy=0.2267"
+axes = "x=(beta*omega_c)^(1/nu_CR2_perp)(alpha_z/alpha_xy-1); y=(beta*omega_c)^(2 beta'_CR2_perp/nu_CR2_perp)m_i^2"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:533,553"
+
+[[problem.targets]]
+panel = "fig14a"
+quantity = "CR2 inverse correlation-length exponents parallel and perpendicular to SU(2) versus s"
+ensemble = "alpha_z=alpha_xy"
+axes = "x=s; y=1/nu_CR2_parallel,1/nu_CR2_perp"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:541,583"
+
+[[problem.targets]]
+panel = "fig14b"
+quantity = "CR2 magnetization exponent beta'_CR2_perp versus s"
+ensemble = "alpha_z=alpha_xy"
+axes = "x=s; y=beta'_CR2_perp"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:541,583"
+
+[[problem.targets]]
+panel = "fig16a"
+quantity = "Attempted CR2 scaling collapse at alpha_xy=0.317 before the collision using the true exponent"
+ensemble = "s=0.66, alpha_xy=0.317"
+axes = "x=(beta*omega_c)^(1/nu_CR2_perp)(alpha_z/alpha_xy-1); y=xi_xy/beta,xi_z/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645,659"
+
+[[problem.targets]]
+panel = "fig16b"
+quantity = "Pseudocritical scaling collapse at alpha_xy=0.317 before the collision"
+ensemble = "s=0.66, alpha_xy=0.317"
+axes = "x=(beta*omega_c)^(1/nu_perp)(alpha_z/alpha_xy-1); y=xi_xy/beta,xi_z/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645,659"
+
+[[problem.targets]]
+panel = "fig16c"
+quantity = "Pseudocritical exponent 1/nu_perp(beta) from xi_z for s=0.66,0.70,0.75"
+ensemble = "alpha_xy=0.317"
+axes = "x=beta*omega_c; y=1/nu_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645,659"
+
+[[problem.targets]]
+panel = "fig16d"
+quantity = "Pseudocritical exponent 1/nu_perp(beta) from xi_xy for s=0.66,0.70,0.75"
+ensemble = "alpha_xy=0.317"
+axes = "x=beta*omega_c; y=1/nu_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645,659"
+
+[[problem.targets]]
+panel = "fig17a"
+quantity = "Post-collision pseudocritical exponent drift from xi_z at s=0.64 for several alpha_xy"
+ensemble = "s=0.64"
+axes = "x=beta*omega_c; y=1/nu_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:647,673"
+
+[[problem.targets]]
+panel = "fig17b"
+quantity = "Post-collision pseudocritical exponent drift from xi_xy at s=0.64 for several alpha_xy"
+ensemble = "s=0.64"
+axes = "x=beta*omega_c; y=1/nu_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:647,673"
+
+[[problem.targets]]
+panel = "fig17c"
+quantity = "Post-collision pseudocritical exponent drift from xi_z at alpha_xy=0.15 for several s"
+ensemble = "alpha_xy=0.15"
+axes = "x=beta*omega_c; y=1/nu_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:663,673"
+
+[[problem.targets]]
+panel = "fig17d"
+quantity = "Post-collision pseudocritical exponent drift from xi_xy at alpha_xy=0.15 for several s"
+ensemble = "alpha_xy=0.15"
+axes = "x=beta*omega_c; y=1/nu_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:663,673"
+
+[[problem.targets]]
+panel = "fig18"
+quantity = "Scaling-collapse quality for xi_xy/beta and xi_z/beta at s=0.64 across alpha_xy"
+ensemble = "s=0.64, alpha_xy in {0.15,0.20,0.25,0.317,0.40}"
+axes = "x=(beta*omega_c)^(1/nu_perp)(alpha_z/alpha_xy-1); y=xi_xy/beta,xi_z/beta"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:680,687"
+
+[[problem.targets]]
+panel = "fig22a"
+quantity = "Pseudocritical coupling Delta_pc_perp(beta) convergence at s=0.654"
+ensemble = "two anisotropy parametrizations through CR2"
+axes = "x=beta*omega_c; y=Delta_pc_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:858,865"
+
+[[problem.targets]]
+panel = "fig22b"
+quantity = "Drifting 1/nu_CR2_perp(beta) at s=0.654"
+ensemble = "two anisotropy parametrizations and xi_xy/xi_z observables"
+axes = "x=beta*omega_c; y=1/nu_CR2_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:858,865"
+
+[[problem.targets]]
+panel = "fig22c"
+quantity = "Pseudocritical coupling Delta_pc_perp(beta) convergence at s=0.8"
+ensemble = "two anisotropy parametrizations through CR2"
+axes = "x=beta*omega_c; y=Delta_pc_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:858,865"
+
+[[problem.targets]]
+panel = "fig22d"
+quantity = "Drifting 1/nu_CR2_perp(beta) at s=0.8"
+ensemble = "two anisotropy parametrizations and xi_xy/xi_z observables"
+axes = "x=beta*omega_c; y=1/nu_CR2_perp(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:858,865"
+
+[[problem.targets]]
+panel = "fig23a"
+quantity = "Weak-first-order pseudocritical coupling Delta_pc(beta) convergence versus beta for several alpha_xy"
+ensemble = "s=0.64"
+axes = "x=beta*omega_c; y=Delta_pc(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:884,891"
+
+[[problem.targets]]
+panel = "fig23b"
+quantity = "Weak-first-order pseudocritical coupling Delta_pc(beta) convergence versus beta for several s"
+ensemble = "alpha_xy=0.15"
+axes = "x=beta*omega_c; y=Delta_pc(beta)"
+tier = "light"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:884,891"
+
+[method]
+family = "qmc"
+algorithm = "Exact continuous-time diagrammatic quantum Monte Carlo for retarded interactions, sampled with stochastic-series-expansion-style diagonal updates and global directed-loop wormhole moves. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89,103"
+paper_route = "The numerical route is the wormhole QMC method for a traced-out bosonic bath; the paper does not use perturbative RG as its numerical engine. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89,103,613"
+valid_alternatives = [
+  "qmc -> continuous-time diagrammatic or hybridization-expansion sampling with retarded interactions, if it can measure the listed imaginary-time observables. Inferred from Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:103,105",
+  "qmc -> directed-loop or wormhole updates for retarded interactions. Inferred from Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:103"
+]
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89,103"
+
+[method_params]
+control_parameters = "Scan s, alpha_xy, alpha_z/alpha_xy, and Delta=1-alpha_z/alpha_xy; omega_c is the energy unit. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:87,311,415"
+temperature_grid = "Use inverse-temperature/temperature sets reaching T/omega_c=10^-6 in the finite-size analyses and beta*omega_c spanning at least 10^2 to 10^5 in the pseudocritical analyses. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:303,375,659"
+observables = "Measure chi_i(i Omega_n), static chi_i, finite-temperature m_i^2, xi_i/beta, and R_i from imaginary-time/Matsubara correlations. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:105,111,114,127,133"
+fixed_point_crossings = "Find crossings of temperature pairs (T,T/10), extrapolate them to T->0 with a power-law fit, and use the resulting crossings for fixed points and phase boundaries. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:297"
+exponent_crossings = "Use crossings of data pairs (beta,r beta), with r=sqrt(10) in Appendix C, then tune the inverse exponent for collapse; derivatives near crossings are fit cubically and errors are bootstrapped. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:269,277,877"
+scaling_protocol = "Use RG-invariant xi_i/beta and R_i for finite-size scaling, and use m_i^2 with its magnetization exponent when needed. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:267,477,527"
+convergence_criterion = "A critical crossing is scale-invariant as beta increases; pseudocritical couplings are tracked for convergence and sliding exponents are monitored for drift. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:127,269,877"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:105-133,269-277,297,877-879"
+
+[software]
+paper_code = "No named software package or repository is given; the paper specifies the wormhole QMC algorithm and cites its method papers. Inferred from Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89,103,1061,1067"
+paper_implementation = "The stated numerical implementation is exact QMC for retarded interactions with wormhole updates. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89,103"
+valid_tools = [
+  "A continuous-time impurity-QMC implementation supporting retarded interactions and the listed spin correlators. Inferred from Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89,105-133",
+  "A directed-loop/wormhole QMC implementation for the same retarded interaction representation. Inferred from Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:103"
+]
+provenance = "Inferred from the implementation description in Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89-103"
+
+[software_params]
+representation = "Trace the bosonic baths analytically, sample the spin diagrammatic expansion in the interaction representation, and retain the retarded vertex. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89,103"
+diagonal_updates = "Use Metropolis diagonal updates; account for the interaction range of K_i with inverse-transform sampling. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:103"
+loop_updates = "Use global directed-loop updates with wormhole moves that convert retarded diagonal vertices to spin-flip vertices and permit nonlocal loop-head tunneling. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:103"
+estimators = "Compute in-plane susceptibilities during directed-loop propagation and determine the z susceptibility from the world-line configuration. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:111"
+compute_environment = "The acknowledgments report computing time on the NHR high-performance computer at TU Dresden, but no processor, thread, or run-count settings. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:731"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:89-103,111,731"
+
+[anchors]
+free_spin_moment = "At zero dissipation the exact free-spin check is m_i^2=1/4; Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:141"
+critical_eta = "The diagrammatic susceptibility gives the exact eta_i=1-s relation on the symmetry-allowed components at CR1/CR2; Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:173"
+critical_zero_moment = "Critical phases have zero local moment; Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:175"
+first_order_exponent = "The discontinuity-fixed-point check is 1/nu_L2_perp=s; Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:495,498"
+CR2_hyperscaling = "At CR2, beta'_CR2_perp/nu_CR2_perp=(1-s)/2; Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:533,536"
+weak_coupling_predictions = "The perturbative fixed-point values and near-s=1 exponent limits are given by Eqs. (10),(11),(21)-(23). Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:157-175,555-573"
+perturbative_collision = "For the two-loop beta function the perturbative collision coordinates are s_pRG1*=0.75, s_pRG2*=0.5, and alpha_pRG*=0.25. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:821"
+RG_flow_anchor = "Near a collision, the analytic beta function is quadratic and produces square-root fixed-point separation and logarithmic pseudocritical flow. Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:221-225,735-801"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:141,173,175,495-498,533-536,821"
+
+[truth.fig1a]
+file = "truth_fig1a.csv"
+tolerance = 0.03
+source = "Inferred digitization of the U(1) fixed-point curves; the collision coordinate is also stated at Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:199"
+provenance = "Inferred from figure image 2403.02400.pdf-0006-01.png"
+
+[truth.fig1b]
+file = "truth_fig1b.csv"
+tolerance = 0.03
+source = "Inferred digitization of the SU(2) fixed-point curves; the collision coordinate is also stated at Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:199"
+provenance = "Inferred from figure image 2403.02400.pdf-0006-01.png"
+
+[truth.fig2a]
+value = [0.7706, 0.3617]
+tolerance = 0.003
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:199,211"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:199"
+
+[truth.fig2b]
+value = [0.6540, 0.317]
+tolerance = 0.003
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:199,211"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:199"
+
+[truth.fig2c]
+file = "truth_fig2c.csv"
+tolerance = 0.015
+source = "Inferred digitization of alpha_CR1*alpha_QC1 versus s"
+provenance = "Inferred from figure image 2403.02400.pdf-0006-06.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:201,211"
+
+[truth.fig2d]
+file = "truth_fig2d.csv"
+tolerance = 0.015
+source = "Inferred digitization of alpha_CR2*alpha_QC2 versus s"
+provenance = "Inferred from figure image 2403.02400.pdf-0006-06.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:201,211"
+
+[truth.fig4a]
+file = "truth_fig4a.csv"
+tolerance = 0.025
+source = "Inferred digitization of T^s chi_xy curves and crossing locations"
+provenance = "Inferred from figure image 2403.02400.pdf-0009-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:297,303"
+
+[truth.fig4b]
+file = "truth_fig4b.csv"
+tolerance = 0.025
+source = "Inferred digitization of T^s chi_xy curves and finite-anisotropy crossing"
+provenance = "Inferred from figure image 2403.02400.pdf-0009-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:299,303"
+
+[truth.fig5a]
+file = "truth_fig5a.csv"
+tolerance = 0.06
+source = "Inferred digitization of the red phase boundary and labeled phase regions"
+provenance = "Inferred from figure image 2403.02400.pdf-0010-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:311,327"
+
+[truth.fig5b]
+file = "truth_fig5b.csv"
+tolerance = 0.06
+source = "Inferred digitization of the red phase boundary and critical-coupling disappearance region"
+provenance = "Inferred from figure image 2403.02400.pdf-0010-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:313,327"
+
+[truth.fig5c]
+file = "truth_fig5c.csv"
+tolerance = 0.06
+source = "Inferred digitization of the SU(2) phase boundary"
+provenance = "Inferred from figure image 2403.02400.pdf-0010-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:315,327"
+
+[truth.fig5d]
+file = "truth_fig5d.csv"
+tolerance = 0.06
+source = "Inferred digitization of the z-localized/free-spin phase boundary"
+provenance = "Inferred from figure image 2403.02400.pdf-0010-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:327,331"
+
+[truth.fig6a]
+file = "truth_fig6a.csv"
+tolerance = 0.06
+source = "Inferred digitization of the critical boundary and fixed-point markers"
+provenance = "Inferred from figure image 2403.02400.pdf-0010-07.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:335,345"
+
+[truth.fig6b]
+file = "truth_fig6b.csv"
+tolerance = 0.08
+source = "Inferred digitization of Delta_c versus alpha_QC2-alpha_xy on log-log axes"
+provenance = "Inferred from figure image 2403.02400.pdf-0010-07.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:335,345"
+
+[truth.fig7a]
+value = 0.1073
+tolerance = 0.002
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359,375"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359"
+
+[truth.fig7b]
+value = 0.1073
+tolerance = 0.002
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359,375"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359"
+
+[truth.fig7c]
+value = 0.1073
+tolerance = 0.002
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359,375"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359"
+
+[truth.fig7d]
+value = 0.1073
+tolerance = 0.002
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359,375"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359"
+
+[truth.fig7e]
+value = 0.1073
+tolerance = 0.002
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359,375"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:359"
+
+[truth.fig8a]
+file = "truth_fig8a.csv"
+tolerance = 0.15
+source = "Inferred digitization of chi_xy(T) for the critical-phase crossover"
+provenance = "Inferred from figure image 2403.02400.pdf-0011-05.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:389,395"
+
+[truth.fig8b]
+file = "truth_fig8b.csv"
+tolerance = 0.2
+source = "Inferred digitization of chi_xy(T) for the QC2-to-localized crossover"
+provenance = "Inferred from figure image 2403.02400.pdf-0011-05.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:389,401"
+
+[truth.fig8c]
+file = "truth_fig8c.csv"
+tolerance = 0.15
+source = "Inferred digitization of chi_z(T) for the critical-phase crossover"
+provenance = "Inferred from figure image 2403.02400.pdf-0011-05.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:389,399"
+
+[truth.fig8d]
+file = "truth_fig8d.csv"
+tolerance = 0.2
+source = "Inferred digitization of chi_z(T) for the QC2-to-localized crossover"
+provenance = "Inferred from figure image 2403.02400.pdf-0011-05.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:389,401"
+
+[truth.fig9a]
+file = "truth_fig9a.csv"
+tolerance = 0.015
+source = "Inferred digitization of m_xy^2 and m_z^2 versus alpha_z/alpha_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0013-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[truth.fig9b]
+file = "truth_fig9b.csv"
+tolerance = 0.015
+source = "Inferred digitization of m_xy^2 and m_z^2 versus alpha_z/alpha_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0013-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[truth.fig9c]
+file = "truth_fig9c.csv"
+tolerance = 0.012
+source = "Inferred digitization of m_xy^2 and m_z^2 versus alpha_z/alpha_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0013-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[truth.fig9d]
+file = "truth_fig9d.csv"
+tolerance = 0.012
+source = "Inferred digitization of m_xy^2 and m_z^2 versus alpha_z/alpha_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0013-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[truth.fig9e]
+file = "truth_fig9e.csv"
+tolerance = 0.012
+source = "Inferred digitization of m_xy^2 and m_z^2 versus alpha_z/alpha_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0013-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[truth.fig9f]
+file = "truth_fig9f.csv"
+tolerance = 0.012
+source = "Inferred digitization of m_xy^2 and m_z^2 versus alpha_z/alpha_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0013-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:415,431"
+
+[truth.fig10a]
+file = "truth_fig10a.csv"
+tolerance = 0.012
+source = "Inferred digitization of m_SU(2)^2(T) versus s"
+provenance = "Inferred from figure image 2403.02400.pdf-0014-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:445,461"
+
+[truth.fig10b]
+file = "truth_fig10b.csv"
+tolerance = 0.015
+source = "Inferred digitization of m_SU(2)^2(T) versus s"
+provenance = "Inferred from figure image 2403.02400.pdf-0014-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:447,461"
+
+[truth.fig11a]
+file = "truth_fig11a.csv"
+tolerance = 0.04
+source = "Inferred digitization of R_xy and R_z versus log10 anisotropy"
+provenance = "Inferred from figure image 2403.02400.pdf-0014-06.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:470,477"
+
+[truth.fig11b]
+file = "truth_fig11b.csv"
+tolerance = 0.04
+source = "Inferred digitization of R_xy and R_z versus log10 anisotropy"
+provenance = "Inferred from figure image 2403.02400.pdf-0014-06.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:470,477"
+
+[truth.fig11c]
+file = "truth_fig11c.csv"
+tolerance = 0.04
+source = "Inferred digitization of the R_xy/R_z scaling collapse with 1/nu=s=0.2"
+provenance = "Inferred from figure image 2403.02400.pdf-0014-06.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:477"
+
+[truth.fig11d]
+file = "truth_fig11d.csv"
+tolerance = 0.04
+source = "Inferred digitization of the R_xy/R_z scaling collapse with 1/nu=s=0.4"
+provenance = "Inferred from figure image 2403.02400.pdf-0014-06.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:477"
+
+[truth.fig11e]
+file = "truth_fig11e.csv"
+tolerance = 0.04
+source = "Inferred digitization of the strong-coupling R_xy/R_z scaling collapse with 1/nu=s=0.6"
+provenance = "Inferred from figure image 2403.02400.pdf-0014-06.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:477"
+
+[truth.fig11f]
+file = "truth_fig11f.csv"
+tolerance = 0.04
+source = "Inferred digitization of the strong-coupling R_xy/R_z scaling collapse with 1/nu=s=0.8"
+provenance = "Inferred from figure image 2403.02400.pdf-0014-06.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:477"
+
+[truth.fig12a]
+file = "truth_fig12a.csv"
+tolerance = 0.025
+source = "Inferred digitization of xi_xy/beta and xi_z/beta across alpha_z/alpha_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0015-11.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:509,523"
+
+[truth.fig12b]
+value = 0.333
+tolerance = 0.01
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:523,525"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:525"
+
+[truth.fig13a]
+file = "truth_fig13a.csv"
+tolerance = 0.025
+source = "Inferred digitization of m_xy^2 and m_z^2 across alpha_z/alpha_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0016-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:527,553"
+
+[truth.fig13b]
+value = [0.333, 0.51]
+tolerance = 0.02
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:523,533,536,553"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:533,536"
+
+[truth.fig14a]
+file = "truth_fig14a.csv"
+tolerance = 0.04
+source = "Inferred digitization of the parallel and perpendicular exponent curves"
+provenance = "Inferred from figure image 2403.02400.pdf-0016-10.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:541,583"
+
+[truth.fig14b]
+file = "truth_fig14b.csv"
+tolerance = 0.05
+source = "Inferred digitization of beta'_CR2_perp versus s"
+provenance = "Inferred from figure image 2403.02400.pdf-0016-10.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:541,583"
+
+[truth.fig16a]
+value = 0.333
+tolerance = 0.01
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645,659"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:659"
+
+[truth.fig16b]
+value = 0.377
+tolerance = 0.01
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645,659"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645"
+
+[truth.fig16c]
+file = "truth_fig16c.csv"
+tolerance = 0.025
+source = "Inferred digitization of the pseudocritical exponent drift from xi_z"
+provenance = "Inferred from figure image 2403.02400.pdf-0019-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645,659"
+
+[truth.fig16d]
+file = "truth_fig16d.csv"
+tolerance = 0.025
+source = "Inferred digitization of the pseudocritical exponent drift from xi_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0019-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:645,659"
+
+[truth.fig17a]
+file = "truth_fig17a.csv"
+tolerance = 0.04
+source = "Inferred digitization of post-collision exponent drift from xi_z"
+provenance = "Inferred from figure image 2403.02400.pdf-0019-05.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:647,673"
+
+[truth.fig17b]
+file = "truth_fig17b.csv"
+tolerance = 0.04
+source = "Inferred digitization of post-collision exponent drift from xi_xy"
+provenance = "Inferred from figure image 2403.02400.pdf-0019-05.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:647,673"
+
+[truth.fig17c]
+file = "truth_fig17c.csv"
+tolerance = 0.04
+source = "Inferred digitization of post-collision exponent drift from xi_z at alpha_xy=0.15"
+provenance = "Inferred from figure image 2403.02400.pdf-0019-05.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:663,673"
+
+[truth.fig17d]
+file = "truth_fig17d.csv"
+tolerance = 0.04
+source = "Inferred digitization of post-collision exponent drift from xi_xy at alpha_xy=0.15"
+provenance = "Inferred from figure image 2403.02400.pdf-0019-05.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:663,673"
+
+[truth.fig18]
+value = [0.33, 0.355, 0.377, 0.42, 0.48]
+tolerance = 0.03
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:687"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:687"
+
+[truth.fig22a]
+file = "truth_fig22a.csv"
+tolerance = 0.01
+source = "Inferred digitization of Delta_pc_perp(beta) convergence"
+provenance = "Inferred from figure image 2403.02400.pdf-0025-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:865,877"
+
+[truth.fig22b]
+value = 0.390
+tolerance = 0.005
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:865,879"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:879"
+
+[truth.fig22c]
+file = "truth_fig22c.csv"
+tolerance = 0.02
+source = "Inferred digitization of Delta_pc_perp(beta) convergence"
+provenance = "Inferred from figure image 2403.02400.pdf-0025-01.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:865,877"
+
+[truth.fig22d]
+value = 0.128
+tolerance = 0.015
+source = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:865,879"
+provenance = "Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:879"
+
+[truth.fig23a]
+file = "truth_fig23a.csv"
+tolerance = 0.01
+source = "Inferred digitization of Delta_pc(beta) convergence to zero"
+provenance = "Inferred from figure image 2403.02400.pdf-0025-11.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:891,895"
+
+[truth.fig23b]
+file = "truth_fig23b.csv"
+tolerance = 0.01
+source = "Inferred digitization of Delta_pc(beta) convergence to zero"
+provenance = "Inferred from figure image 2403.02400.pdf-0025-11.png and Literal 2403.02400_tunable-quantum-criticality-and-pseudocriticality-across-the.md:891,895"

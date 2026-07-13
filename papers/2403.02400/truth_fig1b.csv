@@ -1,0 +1,11 @@
+# Inferred digitization from 2403.02400.pdf-0006-01.png; alpha values are logarithmic-axis reads.
+one_minus_s,alpha,series
+0.10,0.028,CR2
+0.18,0.070,CR2
+0.26,0.180,CR2
+0.3460,0.317,CR2
+0.10,2.70,QC2
+0.18,1.20,QC2
+0.26,0.60,QC2
+0.3460,0.317,QC2
+

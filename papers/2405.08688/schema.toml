@@ -9,6 +9,7 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevB.110.054411"
 arxiv_version = "2405.08688v1"
+md_sha256 = "0eada96f4d5244fb0825796b50f653e12bfed70aad1e280eabc3c3eb61ebd6a3"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
@@ -16,3 +17,159 @@ model = "spatially anisotropic spin-1/2 square-lattice Heisenberg AFM (coupled c
 headline = "E/N, staggered magnetization, spin gap, transverse correlation length vs anisotropy; SSE and semi-analytic magnon expansion agree; analytic dispersion<->correlation-length relation"
 compute = "moderate-anisotropy curves at L<=32, beta~2L: laptop, minutes-to-hour. CAVEAT: small-lambda high-precision extrapolations are NOT laptop -- target the moderate-lambda sub-results"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Spin-1/2 easy-axis XXZ/anisotropic Heisenberg antiferromagnet on the square lattice, with Hamiltonian shown in the rendered equation image."
+model_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:91-94"
+convention = "J is the exchange scale in the antiferromagnetic Hamiltonian; λ = Jxy/Jz ∈ [0, 1], with λ = 0 the Ising limit and λ = 1 the isotropic Heisenberg point."
+convention_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:91-99"
+instance = "Two-dimensional square lattice, N = L² sites, bipartite and unfrustrated, periodic boundary conditions for QMC, zero-temperature/thermodynamic-limit extrapolations, and anisotropy scanned over λ ∈ [0, 1]."
+instance_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:97,153,155,193,253"
+
+targets = [
+  { panel = "fig1_energy", quantity = "ground-state energy per site e0/J", ensemble = "ground state, TDL", axes = "e0/J versus λ", tier = "light", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:155,268,275" },
+  { panel = "fig1_magnetization", quantity = "sublattice magnetization mz", ensemble = "ground state, TDL", axes = "mz versus λ", tier = "medium", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:183,193,268,275" },
+  { panel = "fig1_gap", quantity = "one-magnon spin gap Δ/J", ensemble = "ground state, TDL", axes = "Δ/J versus λ", tier = "medium", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:163,181,268,275" },
+  { panel = "fig1_energy_exponent", quantity = "isotropic-limit energy exponent σ", ensemble = "ground state, TDL fit", axes = "e0/J − e0iso/J versus 1 − λ", tier = "light", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Literal picture text", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:272,275" },
+  { panel = "fig1_magnetization_exponent", quantity = "isotropic-limit magnetization exponent σ", ensemble = "ground state, TDL fit", axes = "mz − mziso versus 1 − λ", tier = "medium", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Literal picture text", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:272,275" },
+  { panel = "fig1_gap_exponent", quantity = "isotropic-limit gap exponent σ", ensemble = "ground state, TDL fit", axes = "Δ/J versus 1 − λ", tier = "medium", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Literal picture text", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:272,275" },
+  { panel = "fig2_correlation", quantity = "rescaled transverse spin correlation rij⟨Six Sjx⟩", ensemble = "QMC, λ = 0.96, finite periodic systems", axes = "rescaled correlation versus rij for L = 16, 32, 48, 64", tier = "light", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:284,287" },
+  { panel = "fig3_correlation_length", quantity = "transverse correlation length ξx", ensemble = "ground state, TDL", axes = "ξx versus λ", tier = "medium", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:195,209,292,299" },
+  { panel = "fig4_energy_difference", quantity = "CST minus QMC ground-state energy per site", ensemble = "ground state, TDL", axes = "e0CST − e0QMC versus λ", tier = "light", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:483,492,499" },
+  { panel = "fig4_magnetization_difference", quantity = "CST minus QMC sublattice magnetization", ensemble = "ground state, TDL", axes = "mzCST − mzQMC versus λ", tier = "medium", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:483,492,499" },
+  { panel = "fig4_gap_difference", quantity = "CST minus QMC spin gap", ensemble = "ground state, TDL", axes = "ΔCST − ΔQMC versus λ", tier = "medium", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:483,492,499" },
+  { panel = "fig5_correlation_length_difference", quantity = "CST and QMC estimator differences for ξx", ensemble = "ground state, TDL", axes = "ξxCST − ξxQMC versus λ", tier = "medium", tier_provenance = "Inferred from the reported size/temperature and algorithm settings cited by this target.", truth_source = "Inferred figure digitization", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:489,526,533" },
+]
+
+[method]
+family = "qmc"
+family_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:81"
+paper_algorithms = ["SSE QMC with directed-loop updates", "particle-conserving CST flow for a magnon-conserving effective Hamiltonian"]
+algorithm_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:79,81,141,229-237"
+numerical_route = "QMC samples the SSE operator string and measures observables or imaginary-time moments; CST numerically solves the flow equation and extrapolates finite clusters."
+numerical_route_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:107-141,157-181,213-253"
+valid_alternatives = [
+  { family = "mps", algorithm = "finite-size DMRG with finite-size scaling", scope = "static finite-size observables and extrapolated curves", provenance = "Inferred A variational finite-chain/finite-cylinder route can produce static spin observables, gaps, and correlations." },
+  { family = "peps", algorithm = "iPEPS or finite PEPS contraction", scope = "thermodynamic-limit static observables", provenance = "Inferred A tensor-network thermodynamic-limit route can produce the static square-lattice targets." },
+  { family = "ed", algorithm = "Lanczos exact diagonalization with finite-size extrapolation", scope = "finite-size diagnostics and small-instance targets only", provenance = "Inferred Exact diagonalization can produce the finite-cluster observables, but not the reported large-size TDL curves at the paper's scale." },
+]
+
+[method_params]
+qmc_basis_and_operator_string = "Product Sz basis, local diagonal/offdiagonal bond operators, ordered operator string padded to fixed length M, and diagonal plus directed-loop updates."
+qmc_basis_and_operator_string_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:113-141"
+operator_cutoff = "Choose maximal expansion order M much larger than the average expansion order ⟨n⟩ ∝ Nβ."
+operator_cutoff_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:131"
+geometry_and_temperature = "QMC uses N = L² periodic square lattices; the main energy and magnetization sequences use β = L, while the gap estimator uses β = 2π/Δ̃ and L ≈ 2β."
+geometry_and_temperature_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:153,155,181,193"
+energy_protocol = "E/N at L = 48, 64, 72 and β = L, linearly extrapolated with leading L⁻³ finite-size behavior."
+energy_protocol_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:155"
+gap_protocol = "Moment estimator Δm,β with staggered Mx excitation, m = 5, β = 2π/Δ̃, and system lengths up to L = 384 near λ = 1."
+gap_protocol_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:163-181"
+magnetization_protocol = "Extract mz from maximal-distance correlations; use L = 48, 64, 72 and β = L with leading L⁻¹ extrapolation, and near λ = 1 use L = 96, 128, 140, 160."
+magnetization_protocol_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:183-193"
+correlation_length_protocol = "Fit rij⟨Six Sjx⟩ to an exponential over rij = 5–20 at L = 64, and independently use the improved second-moment estimator; extrapolate with degree-3 polynomials in 1/L up to L = 100."
+correlation_length_protocol_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:195-209,307"
+cst_cluster_and_extrapolation = "Use finite L² clusters, vary boundary conditions, retain constant/bilinear/quartic terms while dropping genuine hexatic terms, and extrapolate L = 17, 19, 21 with antiperiodic boundary conditions to L → ∞."
+cst_cluster_and_extrapolation_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:237,253"
+cst_magnetization_step = "Approximate the Hellmann–Feynman derivative by a finite ratio with halt ≈ 10⁻⁷J."
+cst_magnetization_step_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:239-245"
+
+[software]
+named_software = "No software package, code repository, or API is named in the rendered paper."
+named_software_provenance = "Inferred No explicit software name appears in the rendered markdown; the paper specifies algorithms and numerical procedures only."
+valid_tool_set = ["an SSE QMC implementation supporting directed-loop updates", "a CST flow-equation implementation with finite-cluster extrapolation"]
+valid_tool_set_provenance = "Inferred The reported targets require an implementation of the two algorithmic routes described at Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:81,229-253."
+
+[software_params]
+rotated_hamiltonian = "The QMC implementation rotates the Hamiltonian in spin space and always simulates the rotated Hamiltonian; for λ ≥ 0.8 the correlation-length analysis omits that rotation."
+rotated_hamiltonian_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:143-151,207-209"
+diagonal_shift = "Add a suitable constant C to the diagonal bond operator so finite SSE contributions are positive."
+diagonal_shift_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:141"
+measurement_placement = "Measure offdiagonal spin correlations during the directed-loop update for better statistics."
+measurement_placement_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:193,209"
+code_specific_settings = "No solver tolerances, thread settings, package names, or API-specific toggles are stated."
+code_specific_settings_provenance = "Inferred No such implementation details occur in the rendered markdown."
+
+[anchors]
+ising_gap = { value = "Δ = 2J at λ = 0", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:97" }
+heisenberg_gap = { value = "Δ = 0 at λ = 1", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:97" }
+isotropic_symmetry = { value = "continuous SU(2) symmetry is restored at λ = 1 and the magnons are Goldstone bosons", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:97,309" }
+gap_exponent = { value = "Δ closes with exponent 1/2", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:99" }
+correlation_asymptotic = { value = "In two dimensions the transverse correlation has exp(−r/ξx)/r asymptotics", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:195,301,369,441" }
+dispersion_correlation_relation = { value = "1/ξ = Im(k0) for a zero ω(k0) = 0", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:247-250,417,453" }
+gap_correlation_relation = { value = "ξ ∝ 1/Δ near the isotropic point", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:309,489" }
+isotropic_power_laws = { value = "energy approaches linearly; magnetization, gap, and correlation length approach with square-root behavior", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:275,289,309" }
+second_moment_prefactor = { value = "For the 2D 1/r asymptotic, the improved estimator has prefactor √2; the Ornstein–Zernike 2D prefactor is √(16/15)", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:201-207,473-479" }
+ising_marker = { value = "At λ = 0 the Fig. 1 exact marker is e0/J ≈ −0.50 and mz ≈ 0.50", provenance = "Inferred figure digitization from papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0006-01.png and Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:268-275" }
+
+[truth.fig1_energy]
+csv = "truth_fig1_energy.csv"
+columns = ["lambda", "qmc_e0_over_J", "cst_e0_over_J"]
+tolerance = 0.005
+provenance = "Inferred Digitized from Fig. 1 upper panel image at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0006-01.png; caption and context Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:268-275."
+
+[truth.fig1_magnetization]
+csv = "truth_fig1_magnetization.csv"
+columns = ["lambda", "qmc_mz", "cst_mz"]
+tolerance = 0.01
+provenance = "Inferred Digitized from Fig. 1 middle panel image at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0006-01.png; caption and context Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:268-275."
+
+[truth.fig1_gap]
+csv = "truth_fig1_gap.csv"
+columns = ["lambda", "qmc_gap_over_J", "cst_gap_over_J"]
+tolerance = 0.05
+provenance = "Inferred Digitized from Fig. 1 lower panel image at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0006-01.png; caption and context Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:268-275."
+
+[truth.fig1_energy_exponent]
+value = 0.988
+uncertainty = 0.003
+tolerance = 0.003
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:272,275"
+
+[truth.fig1_magnetization_exponent]
+value = 0.50
+uncertainty = 0.05
+tolerance = 0.05
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:272,275"
+
+[truth.fig1_gap_exponent]
+value = 0.51
+uncertainty = 0.03
+tolerance = 0.03
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:272,275"
+
+[truth.fig2_correlation]
+csv = "truth_fig2_correlation.csv"
+columns = ["lambda", "L", "rij", "rescaled_correlation"]
+tolerance = 0.15
+provenance = "Inferred Digitized from Fig. 2 image at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0006-04.png; caption Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:280-287."
+
+[truth.fig3_correlation_length]
+csv = "truth_fig3_correlation_length.csv"
+columns = ["lambda", "cst_xi", "qmc_second_moment_xi", "qmc_fit_xi"]
+tolerance = 0.25
+provenance = "Inferred Digitized from Fig. 3 image at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0006-07.png; caption Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:292-299."
+
+[truth.fig4_energy_difference]
+csv = "truth_fig4_energy_difference.csv"
+columns = ["lambda", "cst_minus_qmc_e0_over_J"]
+tolerance = 0.0005
+provenance = "Inferred Digitized from Fig. 4 top panels at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0010-03.png; caption Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:481-499."
+
+[truth.fig4_magnetization_difference]
+csv = "truth_fig4_magnetization_difference.csv"
+columns = ["lambda", "cst_minus_qmc_mz"]
+tolerance = 0.005
+provenance = "Inferred Digitized from Fig. 4 middle panels at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0010-03.png; caption Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:481-499."
+
+[truth.fig4_gap_difference]
+csv = "truth_fig4_gap_difference.csv"
+columns = ["lambda", "cst_minus_qmc_gap_over_J"]
+tolerance = 0.01
+provenance = "Inferred Digitized from Fig. 4 lower panels at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0010-03.png; caption Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:481-499."
+
+[truth.fig5_correlation_length_difference]
+csv = "truth_fig5_correlation_length_difference.csv"
+columns = ["lambda", "cst_minus_qmc_second_moment_xi", "qmc_fit_minus_qmc_second_moment_xi"]
+tolerance = 0.08
+provenance = "Inferred Digitized from Fig. 5 at papers/2405.08688/.figures/arxiv__2405.08688/2405.08688.pdf-0011-01.png; caption Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:489,526-533."
