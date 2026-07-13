@@ -38,9 +38,9 @@ content, not a junction (closed-form check values → `[anchors]`).
 |---|---|---|
 | `[problem]` | model (card name or explicit Hamiltonian), convention (sign/normalization, pinned), instance (dimension, lattice, BC, couplings, sector/filling, sizes), `targets` = every quantity the paper computes numerically (observable, ensemble, axes, panel id, **per-target tier**) | model/physics cards, confirm-the-setup |
 | `[method]` | the paper's **numerical** route — method family AND algorithm within it (the `method-*` cards' *select method* step: e.g. mps → DMRG vs VUMPS) — plus the valid-alternative set: routes that CAN produce the targets, at both family and algorithm level | `method-*` routing |
-| `[method_params]` | numerical convergence knobs and criteria — the method card's layer; survive a software swap (χ, sizes list, time grid, statistics, extrapolation protocol) | `method-*` details, parameter-scan, scaling-fit |
+| `[method_params]` | numerical convergence knobs and criteria — the method card's layer; the quantities survive a software swap even when their spellings differ (χ/maxdim, truncation cutoff, sizes list, time grid, statistics, extrapolation protocol) | `method-*` details, parameter-scan, scaling-fit |
 | `[software]` | the paper's numerical software/code if stated, plus the valid tool set (the `method-*` cards' *select software* step → `using-*` targets) | `using-*` |
-| `[software_params]` | tool-level run knobs (the `using-*` cards' *software parameters* layer) — do not survive a software swap | `using-*` |
+| `[software_params]` | implementation setup with no method-level meaning — does not survive a software swap (eigensolver choice and its tolerances, e.g. Krylov atol; noise/perturbation tricks; threading; API-specific toggles) | `using-*` |
 | `[anchors]` | analytic values usable as cross-checks (exact limits, closed forms) | verification |
 | `[truth]` | ground truth: the paper's numerical results as digitized figure/table values + tolerances, keyed by panel id; long curves as csv beside the TOML. **Always judge-only.** | outcome grading (`check_truth.py`) |
 
