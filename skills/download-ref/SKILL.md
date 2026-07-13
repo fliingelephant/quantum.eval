@@ -6,9 +6,12 @@ description: Use when adding papers to the quantum.eval candidate pool or re-ren
 
 # download-ref (quantum.eval)
 
-Adapted from `quantum.harness` `skills/download-ref` @ `edfb385` — same
-bundled helpers, paths rewritten for this repo's layout. Helpers are
-upstream-verbatim; sync from the harness when it updates.
+Origin: [QuantumBFS/sci-brain `skills/download-ref`](https://github.com/QuantumBFS/sci-brain/tree/main/skills/download-ref).
+The helpers vendored here are `quantum.harness`'s bib-driven adaptation of
+that skill (harness `skills/download-ref` @ `edfb385`: adds
+`md_to_bibtex.py` / `append_bibtex.py`, drops `resolve_kb.py`), with this
+SKILL.md rewritten for the eval-repo layout. Sync order: sci-brain is the
+upstream lineage; the harness copy is the immediate source of the helpers.
 
 Renders candidate papers into Markdown beside their schema TOMLs and
 indexes them. Raw PDFs and extracted figures stay local (gitignored). The
