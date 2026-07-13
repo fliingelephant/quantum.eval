@@ -4,3 +4,4 @@
 **/.raw/
 **/.figures/
 __pycache__/
+.manifest-*.json
