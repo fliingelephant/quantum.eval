@@ -1,0 +1,16 @@
+[paper]
+id = "2410.21424"
+title = "Spin-1 Haldane phase in a chain of Rydberg atoms"
+authors = "J. Moegerle, K. Brechtelsbauer, H. P. Buechler, et al."
+journal = "PRX Quantum 6, 020332 (2025)"
+family = "mps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "effective spin-1 chain from three Rydberg states (dipole-dipole 1/r^3 + vdW 1/r^6); iDMRG. Theory proposal, no experimental data"
+headline = "iDMRG phase diagram with robust Haldane region: string order + doubly-degenerate entanglement spectrum; SPT classification backbone"
+compute = "spin-1 (dim 3), modest chi; long-range couplings need MPO sum-of-exponentials -- slightly heavier than NN chain; laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

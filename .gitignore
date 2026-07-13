@@ -1,0 +1,6 @@
+# Render-stage local-only artifacts (download-ref convention)
+.raw/
+.figures/
+**/.raw/
+**/.figures/
+__pycache__/

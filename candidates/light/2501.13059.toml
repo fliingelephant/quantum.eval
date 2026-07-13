@@ -1,0 +1,16 @@
+[paper]
+id = "2501.13059"
+title = "Bound states and deconfined spinons in the dynamical structure factor of the J1-J2 spin-1 chain"
+authors = "V. S. Sharma, P. Nayak, H. M. Ronnow, F. Mila"
+journal = "Phys. Rev. B 111, 064404 (2025)"
+family = "mps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1 J1-J2 Heisenberg chain near the first-order transition at J2 ~= 0.76 J1; time-dependent DMRG for S(q,omega)"
+headline = "S(q,omega): spinon confinement into bound states evolving into magnon modes, incommensurate dispersion; single-mode-approximation + confinement picture"
+compute = "spin-1 chain, short-ranged correlations keep chi modest; tDMRG + FT, a few hours on laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

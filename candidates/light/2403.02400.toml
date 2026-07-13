@@ -1,0 +1,16 @@
+[paper]
+id = "2403.02400"
+title = "Tunable quantum criticality and pseudocriticality across the fixed-point annihilation in the anisotropic spin-boson model"
+authors = "M. Weber"
+journal = "Phys. Rev. B 112, 235153 (2025)"
+family = "qmc"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "anisotropic Bose-Kondo / spin-boson: one S=1/2 spin, x/y/z components coupled to independent sub-Ohmic baths; wormhole world-line QMC (retarded interactions), sign-free"
+headline = "phase diagram + exponents: continuous order-to-order (beyond-Landau) transitions, symmetry-enhanced first-order, tunable pseudocriticality (walking RG); fixed-point-annihilation / complex-fixed-point RG backbone"
+compute = "single impurity spin, imaginary-time-only problem; seconds-to-minutes per point on a laptop. Strongest laptop QMC candidate"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

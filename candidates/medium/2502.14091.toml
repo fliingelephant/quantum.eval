@@ -1,0 +1,16 @@
+[paper]
+id = "2502.14091"
+title = "Quantum spin liquid phase in the Shastry-Sutherland model revealed by high-precision iPEPS"
+authors = "P. Corboz, W.-L. Zhang, B. Ponsioen, F. Mila"
+journal = "Phys. Rev. Lett. 136, 186701 (2026)"
+family = "peps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 Shastry-Sutherland model (orthogonal-dimer square lattice), zero field; iPEPS + CTMRG, variational + variance extrapolation"
+headline = "QSL window 0.785(5) <= J'/J <= 0.82(1) between plaquette and Neel; E(J'/J) curve; exact dimer-product limit"
+compute = "modest-D (6-10) energy curve + plaquette/AFM boundary: single node, hours; full D->inf extrapolation cluster-scale"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

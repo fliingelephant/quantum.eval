@@ -1,0 +1,17 @@
+[paper]
+id = "2505.03466"
+title = "Design principles of deep translationally-symmetric neural quantum states for frustrated magnets"
+authors = "R. P. Nutakki, A. Shokry, F. Vicentini"
+journal = "Phys. Rev. Research 7, 043099 (2025)"
+family = "vmc"
+tier = "medium"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "explicitly an architecture design-principles paper"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "Shastry-Sutherland and J1-J2 square-lattice models; deep CNN/ConvNext NQS (NetKet-style)"
+headline = "variational energies competitive at stated low cost; architecture design principles (group convolution)"
+compute = "small clusters, one GPU, hours"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

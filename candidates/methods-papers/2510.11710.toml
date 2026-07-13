@@ -1,0 +1,17 @@
+[paper]
+id = "2510.11710"
+title = "Comparing symmetrized determinant neural quantum states for the Hubbard model"
+authors = "L. Sharma, A. Shokry, R. Nutakki, O. Simard, M. Ferrero, F. Vicentini"
+journal = "Phys. Rev. B 113, 245104 (2026)"
+family = "vmc"
+tier = "medium"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "ansatz-comparison paper (HFDS vs ViT backflow)"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "square-lattice Hubbard (underdoped, strong coupling), cylinders and tori; HFDS vs ViT Jastrow-backflow NQS"
+headline = "filled stripes on cylinders; doped-Mott correlations on tori; symmetrization-scheme comparison"
+compute = "4x4 / short cylinders on one GPU, hours-to-a-day (heaviest VMC entry)"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

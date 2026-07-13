@@ -1,0 +1,16 @@
+[paper]
+id = "2408.14474"
+title = "Phases and phase transitions in a dimerized spin-1/2 XXZ chain"
+authors = "H. Nigam, A. Padhan, D. Sen, T. Mishra, S. Bhattacharjee"
+journal = "Phys. Rev. B 111, 195131 (2025)"
+family = "mps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 XXZ chain, uniform XY coupling, staggered ZZ couplings J_a/J_b, finite DMRG"
+headline = "phase diagram (two Ising paramagnets + Ising-Neel); c=1 gapless line via entanglement-entropy fits; bosonization/RG cross-check"
+compute = "local dim 2; laptop, minutes-to-hours"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

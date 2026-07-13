@@ -1,0 +1,16 @@
+[paper]
+id = "2412.15168"
+title = "Dynamic structure factor of a spin-1/2 Heisenberg chain with long-range interactions"
+authors = "S. Yang, G. Schumm, A. W. Sandvik"
+journal = "Phys. Rev. B 111, 224404 (2025)"
+family = "qmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 chain with unfrustrated power-law couplings (-1)^(r-1) r^(-alpha); SSE + stochastic analytic continuation"
+headline = "phase boundary alpha ~= 2.23; dynamic exponent z(alpha); S(k,omega) lineshapes; Bethe-ansatz NN limit"
+compute = "static boundary + dispersion cheap; full S(k,omega) via SAC single node"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

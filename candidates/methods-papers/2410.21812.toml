@@ -1,0 +1,17 @@
+[paper]
+id = "2410.21812"
+title = "Quantum many-body scars through the lens of correlation matrix"
+authors = "Z. Yao, P. Zhang"
+journal = "Phys. Rev. B 112, 125165 (2025)"
+family = "ed"
+tier = "light"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the correlation-matrix scar diagnostic (borderline: PXP scar-count fact)"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "PXP chain + exact-scar models; sparse ED + correlation-matrix null-space diagnostic"
+headline = "integer null-space dimension counting scar states (finite-size-immune); low-EE scar eigenstates vs thermal background"
+compute = "laptop: PXP N~20-26 (constrained dim 1e4-1e5), minutes"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

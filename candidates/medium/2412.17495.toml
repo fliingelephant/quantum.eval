@@ -1,0 +1,16 @@
+[paper]
+id = "2412.17495"
+title = "Quantum phase diagram of the bilayer Kitaev-Heisenberg model"
+authors = "E. Samimi, P. Duft, J. A. Adelhardt, K. P. Schmidt, S. S. Jahromi"
+journal = "Phys. Rev. B 113, 245133 (2026)"
+family = "peps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 Kitaev-Heisenberg on bilayer honeycomb; iPEPS + high-order pCUT series expansion"
+headline = "phase diagram: two QSL regions near Kitaev limit + VBS window; analytic pCUT series as independent cross-check"
+compute = "honeycomb iPEPS modest D single node; pCUT series nearly free analytically"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

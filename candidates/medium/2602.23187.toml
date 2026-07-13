@@ -1,0 +1,16 @@
+[paper]
+id = "2602.23187"
+title = "Extended Ashkin-Teller transition in two coupled frustrated Haldane chains"
+authors = "B. M. La Riviere, N. Chepiga"
+journal = "Phys. Rev. B 113, 205107 (2026)"
+family = "mps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "two frustrated spin-1 Haldane chains, AFM zigzag coupling, finite DMRG"
+headline = "Ashkin-Teller critical line (c=1 orbifold, varying exponents); plaquette order parameter; phase diagram"
+compute = "spin-1 zigzag ladder, larger chi; single node, hours (heaviest of MPS set)"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

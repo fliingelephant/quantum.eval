@@ -1,0 +1,33 @@
+# Named visibility levels: schema section -> location.
+#   workspace = worker reads it directly (materialized into the workspace)
+#   dialogue  = sim-user knows it, reveals only if asked
+#   judge     = never crosses the seam
+# [truth] is always judge-only and is not listed.
+# A task in the eval pack references one level by name; any new kind or
+# degree of blindness is a new named map here, nothing else.
+
+[open]
+problem = "workspace"
+method = "workspace"
+method_params = "workspace"
+software = "workspace"
+software_params = "workspace"
+anchors = "workspace"
+
+[results-blind]
+problem = "workspace"
+method = "workspace"
+method_params = "workspace"
+software = "workspace"
+software_params = "workspace"
+anchors = "dialogue"
+
+# The supervisor headline experiment: eliminate method information;
+# persona knows the problem and the paper's claims, nothing about methods.
+[methods-blind]
+problem = "workspace"
+method = "judge"
+method_params = "judge"
+software = "judge"
+software_params = "judge"
+anchors = "dialogue"

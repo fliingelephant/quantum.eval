@@ -1,0 +1,16 @@
+[paper]
+id = "2405.08688"
+title = "Quantitative description of long-range order in the anisotropic spin-1/2 Heisenberg antiferromagnet on the square lattice"
+authors = "N. Caci, D.-B. Hering, M. R. Walther, K. P. Schmidt, S. Wessel, G. S. Uhrig"
+journal = "Phys. Rev. B 110, 054411 (2024)"
+family = "qmc"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spatially anisotropic spin-1/2 square-lattice Heisenberg AFM (coupled chains, lambda=J'/J); SSE, sign-free + continuous-similarity-transformation magnon expansion"
+headline = "E/N, staggered magnetization, spin gap, transverse correlation length vs anisotropy; SSE and semi-analytic magnon expansion agree; analytic dispersion<->correlation-length relation"
+compute = "moderate-anisotropy curves at L<=32, beta~2L: laptop, minutes-to-hour. CAVEAT: small-lambda high-precision extrapolations are NOT laptop -- target the moderate-lambda sub-results"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

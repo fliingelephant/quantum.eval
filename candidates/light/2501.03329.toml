@@ -1,0 +1,16 @@
+[paper]
+id = "2501.03329"
+title = "Field-induced ordered phases in anisotropic spin-1/2 Kitaev chains"
+authors = "M. Bhullar, H. Xu, H.-Y. Kee"
+journal = "Phys. Rev. B 111, 104439 (2025)"
+family = "mps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "anisotropic spin-1/2 Kitaev chain in a field; ground-state DMRG"
+headline = "field angle/magnitude phase diagram: four-site and larger-unit-cell orders + six-site uniform-chirality phase; degenerate perturbation theory derives the effective couplings selecting each phase"
+compute = "spin-1/2 chain, gapped ordered phases, chi ~ 1e2; laptop, minutes-to-hour"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

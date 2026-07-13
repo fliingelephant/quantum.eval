@@ -1,0 +1,16 @@
+[paper]
+id = "2506.10806"
+title = "Constructing quantum many-body scars from (weak) Hilbert space fragmentation"
+authors = "F. Yang, M. Magoni, H. Pichler"
+journal = "Phys. Rev. B 113, 174307 (2026)"
+family = "ed"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "kinetically constrained Rydberg-implementable spin model with weak fragmentation; ED + analytic scar construction"
+headline = "exact scar-tower energies; quench fidelity revivals; approximate-scar damping via emergent two-body loss"
+compute = "laptop: ED N~20-28"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

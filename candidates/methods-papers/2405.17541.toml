@@ -1,0 +1,17 @@
+[paper]
+id = "2405.17541"
+title = "Approximately-symmetric neural networks for quantum spin liquids"
+authors = "D. S. Kufel, J. Kemp, S. M. Linsel, C. R. Laumann, N. Y. Yao"
+journal = "Phys. Rev. Lett. 135, 056702 (2025)"
+family = "vmc"
+tier = "medium"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the approximately-symmetric NQS architecture"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "mixed-field toric code (Z2 topological) + PXP Rydberg chain; exactly-symmetric block + non-symmetric block NQS"
+headline = "variational energies / phase diagram vs TN and QMC benchmarks; approximate-symmetry construction"
+compute = "small tori / short chains on one GPU, hours; headline sizes (N=480/1584) heavier"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

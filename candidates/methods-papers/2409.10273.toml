@@ -1,0 +1,17 @@
+[paper]
+id = "2409.10273"
+title = "Tracking the variation of entanglement Renyi negativity"
+authors = "Y.-M. Ding, Z. Tang, Y. Wang, Z. Wang, B. Mao, Z. Yan"
+journal = "Phys. Rev. B 111, L241108 (2025)"
+family = "qmc"
+tier = "light"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the reweight-annealing estimator for Renyi negativity; TFIM/dimer chain are benchmarks"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D TFIM, dimerized Heisenberg chain, 2D square TFIM; SSE reweight-annealing, sign-free"
+headline = "central charge c=0.51(3) (1D TFIM), c=1.02(2) (dimer chain); 2D QCP h/J=3.04438(2); thermal beta_c=1.0874(1)"
+compute = "L=16-64 (1D), up to 16x16 (2D); 1D targets laptop, full set <= hours on one node"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

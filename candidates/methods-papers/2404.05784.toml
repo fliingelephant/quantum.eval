@@ -1,0 +1,17 @@
+[paper]
+id = "2404.05784"
+title = "Hybrid tree tensor networks for quantum simulation"
+authors = "J. Schuhmacher, M. Ballarin, A. Baiardi, G. Magnifico, F. Tacchino, S. Montangero, I. Tavernelli"
+journal = "PRX Quantum 6, 010320 (2025)"
+family = "circuit-tn"
+tier = "light"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the hybrid-TTN ansatz itself; no established-method reproduction route"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D Ising at criticality + toric-code Hamiltonian; hybrid tree tensor network (classical TTN with circuit nodes), classically simulated"
+headline = "hybrid-TTN ground-state energy / relative error beating equal-bond-dimension classical TTN; expressivity analysis"
+compute = "laptop: classical simulation of small registers in the tree"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

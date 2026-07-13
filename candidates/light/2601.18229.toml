@@ -1,0 +1,16 @@
+[paper]
+id = "2601.18229"
+title = "Breakdown of bosonic Thouless pump due to interaction in a quasiperiodic lattice"
+authors = "S. Mondal, E. Gottlob, F. Heidrich-Meisner, U. Schneider"
+journal = "Phys. Rev. B (2026), DOI 10.1103/6gdw-nmjk (accepted)"
+family = "mps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "interacting bosonic Aubry-Andre (quasiperiodic) chain, boson cutoff 3-4; iTEBD real-time adiabatic pumping"
+headline = "pumped charge vs U: quantization breaks at weak U (doublon-channel closing), revives in hardcore limit; topological-pump quantization theory"
+compute = "heaviest of the light set: full pump cycles across U values, still a few hours on laptop; journal status accepted -- re-verify at render"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

@@ -1,0 +1,16 @@
+[paper]
+id = "2503.07689"
+title = "Quantum phase diagram of the spin-1/2 Heisenberg antiferromagnet on the square-kagome lattice"
+authors = "S. S. Jahromi, Y. Iqbal"
+journal = "Phys. Rev. B 113, L140402 (2026)"
+family = "peps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 Heisenberg, square-kagome lattice, varying triangle/square coupling ratio; iPEPS (coarse-grained to square)"
+headline = "four VBC phases (crossed-dimer, loop-six, pinwheel, decorated loop-six); VBC energy + one boundary; symmetry classification"
+compute = "modest D=4-8, single node, hours"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

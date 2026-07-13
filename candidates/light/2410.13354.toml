@@ -1,0 +1,16 @@
+[paper]
+id = "2410.13354"
+title = "Emergent spacetime supersymmetry in an interacting Kitaev chain with explicit supersymmetry"
+authors = "U. Miura, K. Totsuka"
+journal = "Phys. Rev. B 111, 075136 (2025)"
+family = "mps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "interacting Kitaev/Majorana chain with microscopic N=1 SUSY; ground-state DMRG (ITensor)"
+headline = "SUSY-restoration transition point matching analytic prediction; central charge crossing c=1/2 -> 7/10 (tricritical Ising)"
+compute = "spinless-fermion chain (dim 2), DMRG + EE fits; very cheap, laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

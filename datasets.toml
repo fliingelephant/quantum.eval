@@ -1,0 +1,12 @@
+# Named dataset selections: predicates over [paper] fields, evaluated by a
+# filter script over candidates/**/*.toml at a pinned repo commit.
+# Experiments reference (dataset name, commit) — never copies.
+
+[light-physics]
+where = "tier == 'light' and kind == 'physics'"
+
+[medium-physics]
+where = "tier == 'medium' and kind == 'physics'"
+
+[all-physics]
+where = "kind == 'physics'"

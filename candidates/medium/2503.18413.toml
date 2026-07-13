@@ -1,0 +1,16 @@
+[paper]
+id = "2503.18413"
+title = "Exploring the finite-temperature behavior of Rydberg atom arrays: a tensor network approach"
+authors = "Y. Han, H. Zhang, L. He"
+journal = "Phys. Rev. B 111, 235133 (2025)"
+family = "peps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "2D square-lattice Rydberg array (blockade Hamiltonian), checkerboard + striated phases; thermal PEPS"
+headline = "checkerboard order-disorder transition = 2D Ising universality (exponents, T_c); striated deviations"
+compute = "thermal PEPS modest D, single node"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

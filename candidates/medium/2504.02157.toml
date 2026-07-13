@@ -1,0 +1,16 @@
+[paper]
+id = "2504.02157"
+title = "Topological phase transition in the two-leg Hubbard model: emergence of the Haldane phase via diagonal hopping and strong interactions"
+authors = "J. P. Gama D'Elia, T. Paiva"
+journal = "Phys. Rev. B 112, 035169 (2025)"
+family = "mps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "fermionic two-leg Hubbard ladder with diagonal hopping t_d and on-site U, finite DMRG"
+headline = "string-order parameter across the transition; spin gap; twofold entanglement-spectrum degeneracy; (t_d,U) boundary"
+compute = "local dim 4, moderate chi; single node, hours; short-ladder string order laptop-feasible"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

@@ -1,0 +1,17 @@
+[paper]
+id = "2501.12146"
+title = "Evaluating many-body stabilizer Renyi entropy by sampling reduced Pauli strings"
+authors = "Y.-M. Ding, Z. Wang, Z. Yan"
+journal = "PRX Quantum 6, 030328 (2025)"
+family = "qmc"
+tier = "light"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the reduced-Pauli-string sampling algorithm for stabilizer Renyi entropy"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "TFIM in 1D and 2D (square); QMC sampling of reduced Pauli strings, sign-free by construction"
+headline = "alpha-stabilizer Renyi entropy (magic) with singularity at the Ising QCP; mutual magic curves"
+compute = "1D magic-vs-field curve with critical cusp is light; laptop-to-node"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

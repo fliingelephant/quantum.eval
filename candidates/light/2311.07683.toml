@@ -1,0 +1,16 @@
+[paper]
+id = "2311.07683"
+title = "Dissipation-induced long-range order in the one-dimensional Bose-Hubbard model"
+authors = "A. L. S. Ribeiro, P. McClarty, P. Ribeiro, M. Weber"
+journal = "Phys. Rev. B 110, 115145 (2024)"
+family = "qmc"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D Bose-Hubbard chain, each site coupled to an Ohmic/super-Ohmic bath; wormhole world-line QMC (worm updates), sign-free"
+headline = "phase diagram: Ohmic dissipation destabilizes Luttinger liquid at infinitesimal coupling into long-range-ordered superfluid; Mott lobe -> SF with diverging compressibility; Luttinger-liquid instability scaling backbone"
+compute = "1D chain, modest L + imaginary-time bath; minutes-to-hours on a laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

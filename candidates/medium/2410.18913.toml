@@ -1,0 +1,16 @@
+[paper]
+id = "2410.18913"
+title = "Quantum many-body scars beyond the PXP model in Rydberg simulators"
+authors = "A. Kerschbaumer, M. Ljubotina, M. Serbyn, J.-Y. Desaules"
+journal = "Phys. Rev. Lett. 134, 160401 (2025)"
+family = "mps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "kinetically-constrained chains generalizing PXP (longer-range blockade); TDVP on MPS + ED"
+headline = "fidelity revivals from Neel-like states; multiple scar towers; approximate su(2) algebra per tower"
+compute = "constrained space < 2^L; ED L~24-32 + TDVP; single node, hours"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

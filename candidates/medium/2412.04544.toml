@@ -1,0 +1,16 @@
+[paper]
+id = "2412.04544"
+title = "Spin dynamics of an easy-plane Dirac spin liquid in a frustrated XY model: application to honeycomb cobaltates"
+authors = "A. Bose, A. Paramekanti"
+journal = "Phys. Rev. B 111, 104435 (2025)"
+family = "vmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 J1-J3 XY model, honeycomb lattice; Gutzwiller-projected parton VMC + RPA"
+headline = "VMC energetics vs J3/J1: Dirac spin liquid as parent state vs FM/zigzag/spiral orders; RPA dynamical response"
+compute = "few-hundred-site clusters; one node, hours"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

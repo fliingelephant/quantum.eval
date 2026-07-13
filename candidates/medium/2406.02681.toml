@@ -1,0 +1,16 @@
+[paper]
+id = "2406.02681"
+title = "Scaling of disorder operator and entanglement entropy at easy-plane deconfined quantum criticalities"
+authors = "J. Zhao, Y.-C. Wang, Z. Yan, M. Cheng, Z. Y. Meng"
+journal = "Phys. Rev. B 112, 094416 (2025)"
+family = "qmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "easy-plane J-Q model, spin-1/2 square lattice; SSE, sign-free"
+headline = "disorder-operator scaling (perimeter law + universal corner/log correction -> current central charge); Renyi EE anomalous scaling"
+compute = "visible at L<=24 (node, hours); larger L for clean fits"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

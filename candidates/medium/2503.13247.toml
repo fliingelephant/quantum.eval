@@ -1,0 +1,16 @@
+[paper]
+id = "2503.13247"
+title = "Boundary criticality for the Gross-Neveu-Yukawa models"
+authors = "H. Jiang, Y. Ge, S.-K. Jian"
+journal = "Phys. Rev. Lett. 135, 141602 (2025)"
+family = "qmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "interacting Dirac fermions, honeycomb lattice with armchair boundaries; determinant QMC, sign-free"
+headline = "bulk chiral-Ising GNY transition + ordinary/special/extraordinary boundary exponents; 4-eps RG derivation matched to DQMC"
+compute = "bulk point + one surface exponent at L~12-18: node, hours; full exponent set heavier"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

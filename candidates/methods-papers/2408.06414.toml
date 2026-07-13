@@ -1,0 +1,17 @@
+[paper]
+id = "2408.06414"
+title = "Improved actions using the renormalization group"
+authors = "G. Segall, S. Gazit, D. Podolsky"
+journal = "Phys. Rev. B 111, 184413 (2025)"
+family = "rg-mc"
+tier = "light"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the RG-improved-action construction technique"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "3D XY model FM-PM transition; tensor-RG-improved (near-perfect) action + Monte Carlo at small L"
+headline = "universal critical quantities / exponents from small lattices with leading irrelevant corrections removed"
+compute = "laptop: small-lattice MC, hours. CAVEAT: not classic block-spin MCRG (no true MCRG in PR 2024-26)"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

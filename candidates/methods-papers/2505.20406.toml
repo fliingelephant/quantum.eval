@@ -1,0 +1,17 @@
+[paper]
+id = "2505.20406"
+title = "Leveraging recurrence in neural network wavefunctions for large-scale simulations of Heisenberg antiferromagnets on the triangular lattice"
+authors = "M. S. Moss, R. Wiersema, M. Hibat-Allah, J. Carrasquilla, R. G. Melko"
+journal = "Phys. Rev. B 112, 134449 (2025)"
+family = "vmc"
+tier = "medium"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the RNN-NQS architecture/annealing protocol; triangular AFM is the benchmark"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 triangular-lattice Heisenberg AFM; RNN NQS + variational neural annealing"
+headline = "E0/N with thermodynamic-limit extrapolation matching literature; Marshall-sign basis rotation"
+compute = "<=12x12 on a single GPU in hours; headline 30x30 heavier"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

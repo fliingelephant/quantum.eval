@@ -1,0 +1,16 @@
+[paper]
+id = "2408.07968"
+title = "Left-left-right-right magnetic order in spin-1/2 Kitaev-Heisenberg chain"
+authors = "W. Yang, C. Xu, S. Ma, A. Nocera, I. Affleck"
+journal = "Phys. Rev. B 112, 035104 (2025)"
+family = "mps"
+tier = "light"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 Kitaev-Heisenberg chain (+ Gamma term); ground-state DMRG"
+headline = "contested-region phase diagram: AFM, LLRR order, gapless c=1 phase from entanglement scaling; bosonization/Luttinger-liquid backbone"
+compute = "spin-1/2 chain, chi few hundred; laptop"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

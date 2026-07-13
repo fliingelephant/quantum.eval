@@ -1,0 +1,17 @@
+[paper]
+id = "2507.03137"
+title = "Mapping phase diagrams of quantum spin systems through semidefinite-programming relaxations"
+authors = "D. Jansen, D. Farina, L. Mortimer, T. Heightman, A. Leitherer, P. Mujal, J. Wang, A. Acin"
+journal = "Phys. Rev. Lett. 136, 050401 (2026)"
+family = "sdp"
+tier = "light"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the SDP-relaxation phase-diagram technique; TFIM/bilayer are benchmarks"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "1D TFIM + 2D frustrated bilayer Heisenberg; moment-SOS / NPA-style SDP relaxation of the ground-state problem"
+headline = "TFIM critical point near h/J=1 from low-level SDP; frustrated-bilayer boundary via moment-vector cosine similarity; certified bounds"
+compute = "laptop: low-level SDP with standard solver (MOSEK/SDPA/SCS)"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

@@ -1,0 +1,17 @@
+[paper]
+id = "2511.07303"
+title = "Thermal tensor network simulations of lattice fermions with fixed filling"
+authors = "Q. Li, D.-W. Qu, B.-B. Chen, T. Shi, W. Li"
+journal = "Phys. Rev. B 113, 085150 (2026)"
+family = "thermal-tn"
+tier = "medium"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is the fixed-filling tanTRG algorithm"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "free fermions (exact benchmark) + doped square-lattice Hubbard at finite T; tanTRG (MPO thermal density operator), fixed-N via adaptive mu"
+headline = "free-fermion U(T), C(T) vs exact; charge/spin correlations vs T; stripe-onset temperature"
+compute = "free-fermion check laptop; 1D/narrow-cylinder single node, hours; full 2D heavier"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

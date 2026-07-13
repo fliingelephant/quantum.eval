@@ -1,0 +1,16 @@
+[paper]
+id = "2403.12141"
+title = "Fractionalization signatures in the dynamics of quantum spin liquids"
+authors = "K. Wang, S. Feng, P. Zhu, R. Chi, H.-J. Liao, N. Trivedi, T. Xiang"
+journal = "Phys. Rev. B 111, L100402 (2025)"
+family = "peps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "Kitaev honeycomb model in out-of-plane field (+ non-integrable perturbations); iPEPS + ED + analytics"
+headline = "intermediate gapless Majorana-metal phase; static field-driven boundaries (dynamical structure factors are the heavy headline)"
+compute = "static boundary / flux expectation at moderate D: single node; dynamics NOT modest"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

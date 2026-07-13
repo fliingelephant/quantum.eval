@@ -1,0 +1,17 @@
+[paper]
+id = "2411.07144"
+title = "Autoregressive neural quantum states of Fermi Hubbard models"
+authors = "E. Ibarra-Garcia-Padilla, H. Lange, R. G. Melko, R. T. Scalettar, J. Carrasquilla, A. Bohrdt, E. Khatami"
+journal = "Phys. Rev. Research 7, 013122 (2025)"
+family = "vmc"
+tier = "medium"
+kind = "methods"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+methods_paper_reason = "contribution is autoregressive NQS methodology for Hubbard"
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "Fermi-Hubbard 1D/2D (+ Hatano-Nelson-Hubbard); autoregressive RNN and transformer NQS"
+headline = "E(U) for 1D/small-2D Hubbard; parameter-ramping rescue at strong U; autoregressive failure analysis for non-Hermitian case"
+compute = "1D chains and small 2D clusters, one GPU, hours"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

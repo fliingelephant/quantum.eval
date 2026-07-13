@@ -1,0 +1,16 @@
+[paper]
+id = "2406.10689"
+title = "Weakly first-order melting of the 1/3 plateau in the Shastry-Sutherland model"
+authors = "S. Nyckees, P. Corboz, F. Mila"
+journal = "Phys. Rev. B 111, 014428 (2025)"
+family = "peps"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "Shastry-Sutherland in field, 1/3 magnetization plateau (h=1, J'/J=0.63); finite-temperature iPEPS"
+headline = "single weakly-first-order melting at T_c ~= 4.8 K via correlation-length peak; Z2xZ3 symmetry-restoration argument"
+compute = "single-point finite-T iPEPS, modest D: node, hours-to-a-day; clean scalar target"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"

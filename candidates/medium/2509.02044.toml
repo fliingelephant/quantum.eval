@@ -1,0 +1,16 @@
+[paper]
+id = "2509.02044"
+title = "Boundary renormalization group flow of entanglement entropy at a (2+1)-dimensional quantum critical point"
+authors = "Z. Wang, Z. Wang, Y.-M. Ding, Z. Liu, Z. Yan, L. Zhang"
+journal = "Phys. Rev. B 113, L161104 (2026)"
+family = "qmc"
+tier = "medium"
+kind = "physics"
+status = "candidate"  # candidate -> rendered -> schema-drafted -> schema-verified
+
+# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
+[candidate_notes]
+model = "spin-1/2 columnar-dimerized square-lattice Heisenberg AFM at its (2+1)D O(3) QCP with boundary dimerization; Renyi EE via replica/nonequilibrium-increment QMC, sign-free"
+headline = "universal constant gamma in S2: positive for special, negative for ordinary boundary; boundary dimerization drives monotonic special->ordinary RG flow (higher-D g-theorem analog); boundary-CFT backbone"
+compute = "single S2(L) curve at moderate L is laptop-scale, but clean gamma extraction (special vs ordinary) needs beyond-laptop L -> medium tier"
+verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
