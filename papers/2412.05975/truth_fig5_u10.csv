@@ -1,0 +1,13 @@
+M_over_t,phase_L50,phase_L100,region
+4.0,0.0,0.0,quantized
+4.4,0.0,0.0,quantized
+4.8,0.0,0.0,quantized
+5.2,0.0,0.0,quantized
+5.4,0.0,0.0,edge
+5.6,,,non-quantized
+5.8,,,non-quantized
+6.0,,,non-quantized
+6.2,3.1416,3.1416,edge
+6.4,3.1416,3.1416,quantized
+6.8,3.1416,3.1416,quantized
+7.2,3.1416,3.1416,quantized

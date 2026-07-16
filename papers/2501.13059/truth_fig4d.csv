@@ -1,0 +1,15 @@
+feature,k_over_pi,omega_over_J1
+lower_support,0.00,0.8
+lower_support,0.125,0.65
+lower_support,0.25,0.45
+lower_support,0.375,0.20
+lower_support,0.50,0.05
+lower_support,0.625,0.15
+lower_support,0.75,0.55
+lower_support,0.875,0.65
+lower_support,1.00,0.8
+upper_support,0.00,2.2
+upper_support,0.25,3.2
+upper_support,0.50,3.8
+upper_support,0.75,3.2
+upper_support,1.00,3.9

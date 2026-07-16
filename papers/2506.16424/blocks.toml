@@ -1,0 +1,1593 @@
+# Partition layer for papers/2506.16424 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-19"
+text = "Pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "612-637"
+text = "located near a complex CFT"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "716-763"
+text = "quantum Monte Carlo simulations for continuous N"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "779-876"
+text = "improved loop estimator for the Rényi entanglement entropy based on a nonequilibrium work protocol"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "986-1033"
+text = "observe excellent agreement with CFT predictions"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "29"
+chars = "1075-1232"
+text = "where the CFT moves into the complex plane and pseudocritical drifts enable us to recover the real part of the complex central charge with remarkable accuracy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1354-1460"
+text = "dimerized phase of the spin-1 chain, demonstrating that it is pseudocritical and proximate to a complex CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "622-647"
+text = "located near a complex CFT"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "729-759"
+text = "quantum Monte Carlo simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "803-892"
+text = "loop estimator for the R´enyi entanglement entropy based on a nonequilibrium work protocol"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1005-1052"
+text = "observe excellent agreement with CFT predictions"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "43"
+chars = "1098-1255"
+text = "where the CFT moves into the complex plane and pseudocritical drifts enable us to recover the real part of the complex central charge with remarkable accuracy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1379-1485"
+text = "dimerized phase of the spin-1 chain, demonstrating that it is pseudocritical and proximate to a complex CFT"
+
+[[blocks]]
+sections = ["method"]
+lines = "55"
+chars = "27-66"
+text = "finite-size drifts of the central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "82-118"
+text = "complex-CFT-induced pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "470-490"
+text = "pseudocritical regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "515-561"
+text = "dimerized phase of the spin-1 chain is in close"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "264-302"
+text = "closed loops due to the trace structure"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "309-340"
+text = "QMC weight of this configuration"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "529-550"
+text = "interpolating ensemble"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "744-771"
+text = "nonequilibrium work protocol"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "1-27"
+text = "proximity to a complex CFT."
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "43-78"
+text = "quantum Monte Carlo (QMC) techniques"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "80-153"
+text = "using a loop representation of our SU( _N_ ) spin chain partition function"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "300-321"
+text = "real values of _N >_ 0"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "63"
+chars = "342-406"
+text = "_continuously_ tune the distance from the complex-CFT for _N >_ 2"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "478-521"
+text = "the loop representation allows us to develop"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "525-596"
+text = "highly efficient algorithm for computing the R´enyi entanglement entropy"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "658-676"
+text = "nonequilibrium work"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "700-723"
+text = "new loop-based estimator"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "726-809"
+text = "Precise calculations of the R´enyi EE give us direct access to finite-size estimates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "984-1037"
+text = "decay with a power given by the Potts thermal exponent"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "36-106"
+text = "SU( _N_ ) generalization of the Heisenberg antiferromagnetic spin chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "127-244"
+text = "fundamental representation of SU( _N_ ) on one sublattice and the conjugate to the fundamental on the other sublattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "384-394"
+text = "Hamiltonian"
+
+[[blocks]]
+sections = ["problem"]
+lines = "68"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0002-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "71"
+chars = "36-92"
+text = "color or flavor index of the SU( _N_ ) degrees of freedom"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "1-37"
+text = "When _N_ = 2 this model is equivalent"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "297-364"
+text = "For _N_ = 3 this model is equivalent to the spin-1 biquadratic model"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "73"
+chars = "444-493"
+text = "gapped groundstate residing in the dimerized phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+chars = "44-94"
+text = "mapped to the quantum Potts chain with _Q_ = _N_[2]"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "75"
+chars = "455-507"
+text = "automatically lives on a critical-pseudocritical line"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "1-15"
+text = "_QMC Technique_"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "39-75"
+text = "algorithm for computing the R´enyi EE"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "214-256"
+text = "Refs. [23, 24] for standard QMC simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "337-374"
+text = "loop estimators of physical quantities"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "77"
+chars = "412-463"
+text = "spin symmetry to greatly reduce the stochastic error"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "481-511"
+text = "loop estimator of the R´enyi EE"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "517-570"
+text = "first developed for ground state projector simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "683-710"
+text = "nonequilibrium loop protocol"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "727-796"
+text = "recent advancements in computing R´enyi EE in standard QMC simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "838-900"
+text = "recent approach developed in ground state projector simulations"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "79"
+chars = "214-274"
+text = "sufficiently] large so that only the ground state contributes"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "582-643"
+text = "loop decomposition in the resummed stochastic series expansion"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "84"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "88"
+text = "ZXX = [[�]] c [[w][c][N][ ℓ]][[c][N][ ℓ]][[N][ ℓ]][[ ℓ]] c [[X]] , where the weight 6<br>on the expansion order [57] and is in-<br>X and the spin degeneracy factor N [[ℓ]] c [[X]] de- 5 N =3.6<br>number of loops formed by the trace con-<br>denoted as ℓ [[X]] c [[.]] [[Importantly,]] [[Z][A]][[A]] [[and]] [[Z]] [[∅]] 4 N =3.0<br>their degeneracy factors, since the number N =2.4<br>3<br>on the trace condition, with ℓ [[∅]] c [[≥]] [[ℓ][A]][[A]] c [[,]] N =2.0<br>2 N =1.6<br>a highly efficient loop-based pro-<br>N =1.2<br>S 2 by introducing an interpolating<br>1 N =1.0<br>N =0.8<br>Z ( λ ) = � wcN [λℓ] c [A] [+(1] [−][λ] [)] [ℓ] [∅] c (2) 0 N =0.6<br>c N =0.4<br>− 1<br> Z ∅ and  Z (1) =  ZAA . Following [25, 26],<br>0 5 10 15 20 25 30 35 40 45<br>via a nonequilibrium simulation of lA<br> N<br> +<br>2<br>S<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "100-148"
+text = "weight factor _wc_ depends on the expansion order"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "189-210"
+text = "spin degeneracy factor"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "379-417"
+text = "differ only in their degeneracy factors"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "430-475"
+text = "number of loops depends on the trace condition"
+
+[[blocks]]
+sections = ["method"]
+lines = "93"
+chars = "37-75"
+text = "loop-based protocol for computing _S_ 2"
+
+[[blocks]]
+sections = ["method"]
+lines = "93"
+chars = "95-116"
+text = "interpolating ensemble"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "97-136"
+text = "nonequilibrium simulation of _Z_ ( _λ_ )"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "95"
+chars = "144-168"
+text = "_λ_ is varied from 0 to 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "206-237"
+text = "corresponding work is calculated"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "96-123"
+text = "periodic boundary conditions"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "155-190"
+text = "Colored points are obtained from QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "276-320"
+text = "Solid black lines are the fit to scaling form"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "338-371"
+text = "numerically fitted central charges"
+
+[[blocks]]
+sections = ["method"]
+lines = "100"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0003-06.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "103"
+chars = "1-43"
+text = "where _λ_ ( _ti_ ) = 0 and _λ_ ( _tf_ ) = 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "46-65"
+text = "Jarzynski’s equality"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "96-139"
+text = "statistically exact formula to compute _S_ 2"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "103"
+chars = "206-244"
+text = "independent nonequilibrium trajectories"
+
+[[blocks]]
+sections = ["truth"]
+lines = "105"
+chars = "17-61"
+text = "chain is dimerized in the thermodynamic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "105"
+chars = "100-131"
+text = "closely follows the scaling form"
+
+[[blocks]]
+sections = ["method"]
+lines = "105"
+chars = "165-209"
+text = "numerical fits represented by the solid lines"
+
+[[blocks]]
+sections = ["truth"]
+lines = "105"
+chars = "289-333"
+text = "obvious deviations away from the scaling form"
+
+[[blocks]]
+sections = ["method"]
+lines = "105"
+chars = "539-600"
+text = "subtraction scheme that cancels out the effect of oscillations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "41-65"
+text = "strongly dimerized region"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "113-134"
+text = "efficient QMC sampling"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "107"
+chars = "153-227"
+text = "long tunneling times required to move between the two dimerization patterns"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "107"
+chars = "288-310"
+text = "replica shifting method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "317-355"
+text = "substantially improves our data quality"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "83-148"
+text = "periodic chains of length _L_ = 48 and _N ∈_ [0 _._ 4 _,_ 3 _._ 6]"
+
+[[blocks]]
+sections = ["method"]
+lines = "111"
+chars = "13-45"
+text = "quantitative analysis of our data"
+
+[[blocks]]
+sections = ["method"]
+lines = "111"
+chars = "100-147"
+text = "central charge extracted from chains of size _L_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "194-235"
+text = "complex-valued central charge when _N >_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "307-348"
+text = "converge almost perfectly to the real part"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "428-472"
+text = "eventually drift to zero at much larger sizes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "590-611"
+text = "agreement with the CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "96-145"
+text = "changes from concave up to concave down at _N_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "151-176"
+text = "is exactly zero at _N_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "228-254"
+text = "central charge changes sign"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "275-294"
+text = "_c_ = 0 when _N_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "336-397"
+text = "stronger oscillations due to a greater tendency to form dimers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "130"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "134"
+text = "(a) c CFT N = 2.4 (b) 2 (c) c CFT<br>1 . 75 ℜ ( c CFT) N = 2.2 ℜ ( c CFT)<br>N = 2.0<br>N = 1.8<br>1 . 50 N = 1.6 1<br>N = 1.4<br>1 . 25 2 . 0<br>c c 0 2  − yT [Potts]<br>1 . 00 1 . 5<br>x<br>N = 3.6<br>0 . 75 N = 3.4 − 1 1 . 0<br>N = 3.2<br>N = 3.0 0 . 5<br>0 . 50 N = 2.8 0 . 0 0 . 5 1 . 0 1 . 5 2 . 0<br>N = 2.6 − 2 N<br>0 16 32 48 64 0 20 40 60 80 0 . 0 0 . 6 1 . 2 1 . 8 2 . 4 3 . 0 3 . 6<br>L L N<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "183-212"
+text = "central charge becomes complex"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "418-454"
+text = "ultimately flows to zero in our model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "489-510"
+text = "drift dominated regime"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "137"
+chars = "619-666"
+text = "form of the drift in Eq. (19) can be used to fit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "1075-1124"
+text = "closely match two minus the Potts thermal exponent"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "5-72"
+text = "agreement found in the region _N <_ 1 with a negative central charge"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "124-174"
+text = "decay exponent _x_ , extracted from fits to Eq. (4)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "197-243"
+text = "remarkable agreement with _x_ = 2 _− yT_[Potts]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "145"
+chars = "267-309"
+text = "slight deviations of _x_ from the CFT value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "145"
+chars = "458-490"
+text = "no longer match _x_ to a CFT form"
+
+[[blocks]]
+sections = ["truth"]
+lines = "145"
+chars = "515-589"
+text = "breakdown of the oscillatory form in Eq. (4) for complex scaling dimensions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "147"
+chars = "24-45"
+text = "drift-dominated regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "147"
+chars = "129-197"
+text = "monotonically decreasing _c_ ( _L_ ) from small to larger size chains"
+
+[[blocks]]
+sections = ["truth"]
+lines = "147"
+chars = "225-275"
+text = "deviate significantly from the real part of Eq. (5)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "147"
+chars = "405-484"
+text = "real part of the CFT central charge can be recovered based on finite-size drifts"
+
+[[blocks]]
+sections = ["method"]
+lines = "152"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0004-08.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "155"
+chars = "7-46"
+text = "_cR, α, L_ 0 are taken as fit parameters"
+
+[[blocks]]
+sections = ["truth"]
+lines = "155"
+chars = "259-300"
+text = "observe remarkable agreement with Eq. (19)"
+
+[[blocks]]
+sections = ["method"]
+lines = "155"
+chars = "385-422"
+text = "fits of our numerical data to Eq. (19)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "155"
+chars = "605-670"
+text = "accurately recover the real part of the complex CFT central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "33-74"
+text = "complex CFT driven pseudocritical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "201-235"
+text = "statistically exact QMC simulations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "294-333"
+text = "excellent agreement with CFT predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "355-426"
+text = "region _N >_ 2 where we see the effect of complex-valued central charges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "448-499"
+text = "region of negative real central charges when _N <_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "596-698"
+text = "powerlaw decay of the subsystem oscillations of the R´enyi EE is governed by the Potts thermal exponent"
+
+[[blocks]]
+sections = ["truth"]
+lines = "161"
+chars = "207-244"
+text = "proximate complex CFT found at _N_ = 3"
+
+[[blocks]]
+sections = ["method"]
+lines = "215"
+text = "- [23] K. S. D. Beach, F. Alet, M. Mambrini, and S. Capponi, SU( _N_ ) Heisenberg model on the square lattice: A continuous- _N_ quantum Monte Carlo study, Phys. Rev. B **80** , 184401 (2009). "
+
+[[blocks]]
+sections = ["method"]
+lines = "217"
+text = "- [24] N. Desai and S. Pujari, Resummation-based quantum Monte Carlo for quantum paramagnetic phases, Phys. Rev. B **104** , L060406 (2021). "
+
+[[blocks]]
+sections = ["method"]
+lines = "219"
+text = "- [25] V. Alba, Out-of-equilibrium protocol for R´enyi entropies via the Jarzynski equality, Phys. Rev. E **95** , 062132 (2017). "
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+text = "- [26] J. D’Emidio, Entanglement Entropy from Nonequilibrium Work, Phys. Rev. Lett. **124** , 110602 (2020). "
+
+[[blocks]]
+sections = ["method"]
+lines = "255"
+text = "- [41] M. Song, T.-T. Wang, and Z. Y. Meng, Resummationbased quantum Monte Carlo for entanglement entropy computation, Phys. Rev. B **110** , 115117 (2024). "
+
+[[blocks]]
+sections = ["method"]
+lines = "275"
+text = "- [51] M. B. Hastings, I. Gonz´alez, A. B. Kallin, and R. G. Melko, Measuring Renyi Entanglement Entropy in Quantum Monte Carlo Simulations, Phys. Rev. Lett. **104** , 157201 (2010). "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "277"
+text = "- [52] See Supplemental Material at for further details, including comparisons with exact diagonalization, ground state convergence, details on fitting and extraction of central charge, efficiency of the R´enyi EE computation, additional spin wave velocity calculations, and a discussion of the _c − d_ conjecture. "
+
+[[blocks]]
+sections = ["method"]
+lines = "279"
+text = "- [53] J. Zhao, B.-B. Chen, Y.-C. Wang, Z. Yan, M. Cheng, and Z. Y. Meng, Measuring R´enyi entanglement entropy with high efficiency and precision in quantum Monte Carlo simulations, npj Quantum Materials **7** , 69 (2022). "
+
+[[blocks]]
+sections = ["method"]
+lines = "281"
+text = "- [54] X. Zhou, Z. Y. Meng, Y. Qi, and Y. Da Liao, Incremental SWAP operator for entanglement entropy: Application for exponential observables in quantum Monte Carlo simulation, Phys. Rev. B **109** , 165106 (2024). "
+
+[[blocks]]
+sections = ["method"]
+lines = "287"
+text = "- [57] A. W. Sandvik, Computational Studies of Quantum Spin Systems, AIP Conference Proceedings **1297** , 135 (2010). "
+
+[[blocks]]
+sections = ["method"]
+lines = "289"
+text = "- [58] C. Jarzynski, Nonequilibrium Equality for Free Energy Differences, Phys. Rev. Lett. **78** , 2690 (1997). "
+
+[[blocks]]
+sections = ["method"]
+lines = "319"
+text = "- [72] F.-J. Jiang, Method of calculating the spin-wave velocity of spin-[1] 2[antiferromagnets][with] _[O]_[(] _[N]_[)][symmetry][in][a] Monte Carlo simulation, Phys. Rev. B **83** , 024419 (2011). "
+
+[[blocks]]
+sections = ["method"]
+lines = "321"
+text = "- [73] A. Sen, H. Suwa, and A. W. Sandvik, Velocity of excitations in ordered, disordered, and critical antiferromagnets, Phys. Rev. B **92** , 195145 (2015). "
+
+[[blocks]]
+sections = ["software"]
+lines = "327"
+chars = "17-34"
+text = "QMC implementation"
+
+[[blocks]]
+sections = ["method"]
+lines = "327"
+chars = "40-125"
+text = "benchmark the 2nd R´enyi entanglement entropy (REE) against exact diagonalization (ED)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "327"
+chars = "189-254"
+text = "periodic chain of length _L_ = 8 and for _N_ = 2 _,_ 3 _,_ 4 _,_ 6"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "265-332"
+text = "excellent agreement between the two methods across all values of _N_"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "330"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0007-09.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "334"
+text = "2 . 0<br>1 . 5<br>S 2<br>1 . 0<br>0 . 5<br>N = 2 N = 4<br>N = 3 N = 6<br>0 . 0<br>0 . 0 2 . 5 5 . 0 7 . 5<br>lA<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "337"
+chars = "58-78"
+text = "RSSE-based QMC method"
+
+[[blocks]]
+sections = ["method"]
+lines = "337"
+chars = "137-164"
+text = "exact diagonalization values"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "275-329"
+text = "perfect agreement between QMC and exact diagonalization"
+
+[[blocks]]
+sections = ["truth", "software_params"]
+lines = "340"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0007-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "344"
+text = "2 . 0 (a) 2 . 0 (b)<br>1 . 8 1 . 8<br>1 . 6 1 . 6<br>S 2 S 2<br>1 . 4 1 . 4<br>1 . 2 1 . 2<br>Without replica shift With replica shift<br>1 . 0 N = 3, L = 48 1 . 0 N = 3, L = 48<br>0 16 32 48 0 16 32 48<br>lA lA<br>(c) 2 . 0 (d)<br>2 . 00<br>1 . 8<br>1 . 75<br>S 2 S 2 1 . 6<br>1 . 50 1 . 4<br>1 . 25 Without replica shift 1 . 2 With replica shift<br>N = 3, L = 64 1 . 0 N = 3, L = 64<br>1 . 00<br>0 21 42 63 0 21 42 63<br>lA lA<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "347"
+chars = "182-226"
+text = "without the replica shift for _L_ = 48 _,_ 64"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "347"
+chars = "251-347"
+text = "tunneling time required to move between the two dimerization patterns of the chain also increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "347"
+chars = "366-395"
+text = "can not compute REE accurately"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "347"
+chars = "417-463"
+text = "with the additional update of the replica shift"
+
+[[blocks]]
+sections = ["truth", "software_params"]
+lines = "347"
+chars = "466-524"
+text = "we can compute REE accurately, even for higher system sizes"
+
+[[blocks]]
+sections = ["method", "software_params"]
+lines = "349"
+chars = "1-39"
+text = "## **Replica shift update for** _N >_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "351"
+chars = "49-86"
+text = "ground state is in the dimerized phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "351"
+chars = "111-151"
+text = "two kinds of dimer coverings are possible"
+
+[[blocks]]
+sections = ["method", "software_params"]
+lines = "351"
+chars = "157-209"
+text = "standard RSSE loop updates suffer ergodicity problems"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "351"
+chars = "398-442"
+text = "extra update termed as “replica shift update”"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "351"
+chars = "453-583"
+text = "shift all the bond-operators in the operatorstring by one lattice unit, either to the left or to the right (with equal probability)"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "351"
+chars = "593-657"
+text = "accept this move with a probability depending on the weight ratio"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "351"
+chars = "715-766"
+text = "total number of loops in a configurations may change"
+
+[[blocks]]
+sections = ["method"]
+lines = "353"
+chars = "111-132"
+text = "free energy difference"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "353"
+chars = "222-290"
+text = "first equilibrate the system in the _ZA_ 1 ensemble of configurations"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "353"
+chars = "420-471"
+text = "parameter _λ_ is incrementally increased from 0 to 1"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "353"
+chars = "507-531"
+text = "additional “replica shift"
+
+[[blocks]]
+sections = ["truth"]
+lines = "362"
+text = "− 1 . 25<br>N = 1 . 6<br>− 0 . 32<br>− 1 . 30 0 . 68<br>S 2 S 2 S 2<br>− 0 . 33<br>− 1 . 35 0 . 66<br>N = 0 . 4 − 0 . 34 N = 0 . 8<br>2 4 2 4 2 4<br>β β β<br>NL NL NL<br>0 . 98 N = 2 . 0 1 . 37 N = 3 . 0 1 . 47 N = 3 . 6<br>1 . 36<br>S 2 0 . 96 S 2 S 2<br>1 . 46<br>1 . 35<br>0 . 94<br>1 . 45<br>1 . 34<br>2 4 2 4 2 4<br>β β β<br>NL NL NL<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "365"
+chars = "49-78"
+text = "finite temperature QMC methods"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "365"
+chars = "107-134"
+text = "sufficiently large _β_ value"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "365"
+chars = "443-483"
+text = "Based on this convergence, we have chosen"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "367"
+chars = "1-73"
+text = "update” is performed prior to measuring the corresponding work increment."
+
+[[blocks]]
+sections = ["software_params"]
+lines = "369"
+chars = "35-53"
+text = "probability 0 _._ 5"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "369"
+chars = "66-99"
+text = "attempt a bond shift left or right"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "371"
+chars = "35-102"
+text = "accept the shift with a probability equal to the ratio of the weight"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "374"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0008-06.png)"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "377"
+chars = "19-52"
+text = "full QMC weight of a configuration"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "377"
+chars = "72-106"
+text = "change in the total number of loops"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "379"
+chars = "68-98"
+text = "additional replica shift update"
+
+[[blocks]]
+sections = ["truth"]
+lines = "379"
+chars = "211-239"
+text = "compute _S_ 2 more accurately"
+
+[[blocks]]
+sections = ["method"]
+lines = "383"
+chars = "19-47"
+text = "finite-temperature QMC method"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "383"
+chars = "75-103"
+text = "sufficiently low temperatures"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "385"
+chars = "342-495"
+text = "_β_ = _xNL_ , where _x_ = 4 for 0 _< N <_ 0 _._ 5, _x_ = 3 for 0 _._ 5 _≤ N <_ 1 _._ 0, _x_ = 2 for 1 _._ 0 _≤ N <_ 2 _._ 0, and _x_ = 1 for _N ≥_ 2 _._ 0"
+
+[[blocks]]
+sections = ["method"]
+lines = "389"
+chars = "8-53"
+text = "resummed stochastic series expansion (RSSE)QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "389"
+chars = "86-103"
+text = "loop decomposition"
+
+[[blocks]]
+sections = ["method"]
+lines = "389"
+chars = "282-296"
+text = "spin degeneracy"
+
+[[blocks]]
+sections = ["method"]
+lines = "389"
+chars = "411-429"
+text = "RSSE corresponds to"
+
+[[blocks]]
+sections = ["software_params", "truth"]
+lines = "389"
+chars = "575-656"
+text = "shorter autocorrelation times observed in RSSEQMC compared to conventional SSE-QMC"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "389"
+chars = "738-771"
+text = "RSSE will outperform the SSE-based"
+
+[[blocks]]
+sections = ["method"]
+lines = "393"
+chars = "1-30"
+text = "method when computing the REE."
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "396"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0009-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "400"
+text = "N = 2 SSE RSSE<br>0 . 98<br>5<br>S 2 0 . 96<br>0<br>10 [2] 10 [4]<br>n bins<br>0 . 94<br>10 [3] 10 [5]<br>tf − ti<br>1 . 45<br>N = 3 SSE RSSE<br>4<br>1 . 40 2<br>S 2<br>0<br>10 [2] 10 [4]<br>n bins<br>1 . 35<br>10 [3] 10 [5]<br>tf − ti<br>RSSE<br>/σ<br>SSE<br>σ<br>RSSE<br>/σ<br>SSE<br>σ<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "403"
+chars = "32-50"
+text = "SSE and RSSE method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "209-294"
+text = "At faster quenches (i.e., smaller _tf − ti_ ), the results from the two methods differ"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "306-366"
+text = "as the quench becomes slower, they converge to the same value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "518-546"
+text = "both give the same mean value"
+
+[[blocks]]
+sections = ["method"]
+lines = "405"
+chars = "79-109"
+text = "using both SSE-QMC and RSSE-QMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "405"
+chars = "289-397"
+text = "At short quench durations (i.e., fast quenches), the results obtained from the two methods differ appreciably"
+
+[[blocks]]
+sections = ["truth"]
+lines = "405"
+chars = "409-477"
+text = "as the quench becomes slower, both methods converge to the same value"
+
+[[blocks]]
+sections = ["truth", "software_params"]
+lines = "407"
+chars = "72-134"
+text = "RSSE-based method consistently outperforms the SSE-based method"
+
+[[blocks]]
+sections = ["truth", "software_params"]
+lines = "407"
+chars = "198-229"
+text = "significantly smaller error bars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "235-273"
+text = "approaches the correct asymptotic value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "438-502"
+text = "same mean value but RSSE-based method has much smaller error bars"
+
+[[blocks]]
+sections = ["method"]
+lines = "409"
+chars = "1-69"
+text = "## **Extracting central charge and scaling dimension from the REE :**"
+
+[[blocks]]
+sections = ["method"]
+lines = "431"
+chars = "16-97"
+text = "extract the central charge and the decay exponent from the REE data by doing a fit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "352-395"
+text = "excellent agreement with the CFT predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "433"
+chars = "24-57"
+text = "ground state is no longer critical"
+
+[[blocks]]
+sections = ["truth"]
+lines = "433"
+chars = "193-238"
+text = "disagreement appears around the subsystem size"
+
+[[blocks]]
+sections = ["method"]
+lines = "433"
+chars = "296-399"
+text = "employ an alternative approach to extract the central charge, referred to here as the subtraction method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "442"
+text = "− 1 . 8 N = 0.2 − 0 . 25 N = 0.8 0 . 6 1 . 2<br>− 2 . 0<br>S 2 S 2 − 0 . 30 S 2 0 . 5 S 2 1 . 0<br>− 2 . 2<br>− 0 . 35<br>− 2 . 4 0 . 4 0 . 8<br>N = 1.4 N = 2.0<br>− 0 . 40<br>0 20 40 0 20 40 0 20 40 0 20 40<br>lA lA lA lA<br>2 . 00<br>1 . 6<br>1 . 75 2 . 0<br>2 . 0<br>1 . 4<br>S 2 S 2 1 . 50 S 2 S 2<br>1 . 2 1 . 5<br>1 . 25 1 . 5<br>1 . 0 N = 2.6 N = 3.0 N = 3.6 N = 4.0<br>1 . 00<br>0 20 40 0 20 40 0 20 40 0 20 40<br>lA lA lA lA<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "445"
+chars = "364-440"
+text = "excellent agreement between the Calabrese–Cardy scaling form and the REE data"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "481-495"
+text = "REE is negative"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "553-573"
+text = "system is more gapped"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "595-629"
+text = "disagreement for larger _lA_ values"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "727-779"
+text = "Calabrese–Cardy scaling form is still a very good fit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "1137-1164"
+text = "system is strongly dimerized"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "1187-1224"
+text = "REE getting flat as the _lA_ increases"
+
+[[blocks]]
+sections = ["method"]
+lines = "447"
+chars = "1-41"
+text = "size _lA_ 1 and _lA_ 2 can be computed as"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "461"
+chars = "76-102"
+text = "both are either even or odd"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "461"
+chars = "110-176"
+text = "∆ _S_ osc _lA_ 2 _,lA_ 1 is very small and we can neglect this term"
+
+[[blocks]]
+sections = ["method"]
+lines = "461"
+chars = "191-219"
+text = "compute the central charge as"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "467"
+chars = "17-112"
+text = "two such subsystem pairs, one where both subsystems are of even length and another of odd length"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "467"
+chars = "205-240"
+text = "same magnitude but different in sign"
+
+[[blocks]]
+sections = ["truth"]
+lines = "473"
+chars = "16-90"
+text = "total contribution from both neglected oscillatory terms approximately zero"
+
+[[blocks]]
+sections = ["method"]
+lines = "473"
+chars = "97-158"
+text = "final central charge is taken as the average of the two values"
+
+[[blocks]]
+sections = ["method"]
+lines = "475"
+chars = "147-200"
+text = "REE data is fitted to the Calabrese–Cardy scaling form"
+
+[[blocks]]
+sections = ["truth"]
+lines = "475"
+chars = "272-353"
+text = "Deviations from the Calabrese–Cardy scaling form begin to emerge for _N >_ 2 _._ 6"
+
+[[blocks]]
+sections = ["truth"]
+lines = "475"
+chars = "384-425"
+text = "noticeable discrepancy appears near _L/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "475"
+chars = "589-613"
+text = "breaks down around _L/_ 2"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "477"
+chars = "44-134"
+text = "two pairs of subsystem lengths: ( _L/_ 4 _, L/_ 4 _−_ 2) and ( _L/_ 4 _−_ 1 _, L/_ 4 _−_ 3)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "477"
+chars = "142-165"
+text = "_L/_ 4 chosen to be even"
+
+[[blocks]]
+sections = ["method"]
+lines = "477"
+chars = "429-489"
+text = "choice allows for a reliable extraction of the central charge"
+
+[[blocks]]
+sections = ["method"]
+lines = "481"
+chars = "1-36"
+text = "## **Central charge drift analysis**"
+
+[[blocks]]
+sections = ["truth"]
+lines = "483"
+chars = "119-200"
+text = "downward drift as _L_ increases and it will become zero in the thermodynamic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "483"
+chars = "203-229"
+text = "Computed _c_ ( _L_ ) values"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "483"
+chars = "294-394"
+text = "extract the real part of the complex central charge using the following central charge drift relation"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "489"
+chars = "1-43"
+text = "where _cR, α, γ, Lo_ are the fit parameters"
+
+[[blocks]]
+sections = ["truth"]
+lines = "489"
+chars = "46-100"
+text = "_cR_ is the real part of the complex CFT central charge"
+
+[[blocks]]
+sections = ["method"]
+lines = "489"
+chars = "187-228"
+text = "three-parameter fit to extract _cR, α, Lo_"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "495"
+chars = "55-102"
+text = "many _L_ 0 values will fit the drift relation 19"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "505"
+chars = "106-154"
+text = "systematically leave out one data point at a time"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "505"
+chars = "157-203"
+text = "perform the fit on the remaining _M −_ 1 points"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "505"
+chars = "302-408"
+text = "compute the average values of the fit parameters and estimate their errors using the standard error formula"
+
+[[blocks]]
+sections = ["truth"]
+lines = "505"
+chars = "464-521"
+text = "Final values of the fit parameters are listed in Table III"
+
+[[blocks]]
+sections = ["truth"]
+lines = "507"
+chars = "360-414"
+text = "robust values for the fitted value of _cR_ in all cases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "521"
+chars = "21-72"
+text = "central charge _c_ of the SU( _N_ ) Heisenberg chain"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "534"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0012-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "538"
+chars = "1-206"
+text = "10 . 0 π 2 QMC<br>0 . 01 N =2<br>7 . 5<br>0 . 00<br>v<br>− 0 . 01<br>5 . 0<br>0 . 635 0 . 640<br>β/L<br>2 . 5<br>0 1 2 3 4<br>N<br> 2  ⟩τ<br>W<br>⟩−⟨<br> 2 x<br>W<br>⟨<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "541"
+chars = "180-206"
+text = "we find _v_ = 1 _._ 5708(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "215-298"
+text = "agrees with the theoretical prediction _π/_ 2 = 1 _._ 5707 within statistical errors"
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "561-592"
+text = "solid green line is a linear fit"
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "599-627"
+text = "the red star denotes the root"
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "624-685"
+text = "root ( _β[∗] /L_ ) obtained by solving the linear fit equation"
+
+[[blocks]]
+sections = ["method"]
+lines = "543"
+chars = "40-98"
+text = "computed using the spatial and the temporal winding numbers"
+
+[[blocks]]
+sections = ["method"]
+lines = "557"
+chars = "683-746"
+text = "there will be a crossing point _β_ = _β[∗]_ ( _L_ ) for each _L_"
+
+[[blocks]]
+sections = ["method"]
+lines = "557"
+chars = "872-914"
+text = "velocity is given by _v_ ( _L_ ) = _L/β[∗]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "559"
+chars = "170-203"
+text = "periodic chain of length] _L_ = 64"
+
+[[blocks]]
+sections = ["method"]
+lines = "559"
+chars = "286-351"
+text = "as a function of _β_ and then do a liner fit to determine the root"
+
+[[blocks]]
+sections = ["method"]
+lines = "559"
+chars = "465-535"
+text = "The inverse of this root, _v_ = _L/β[∗]_ , gives the spin wave velocity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "552-591"
+text = "v_ decays exponentially as _N_ increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "717-794"
+text = "Our QMC value agrees with the theoretical prediction within statistical errors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "851-889"
+text = "For _N_ = 3, we have _v_ = 1 _._ 216(1)"
+
+[[blocks]]
+sections = ["method"]
+lines = "563"
+chars = "14-18"
+text = "x_QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "580"
+chars = "76-120"
+text = "from fits to the Calabrese–Cardy scaling form"
+
+[[blocks]]
+sections = ["truth"]
+lines = "580"
+chars = "305-344"
+text = "excellent agreement with CFT predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "580"
+chars = "367-403"
+text = "decay exponent values also agree well"
+
+[[blocks]]
+sections = ["truth"]
+lines = "580"
+chars = "483-556"
+text = "discrepancies for _N >_ 2 may indicate a breakdown of the oscillatory form"
+
+[[blocks]]
+sections = ["method"]
+lines = "639"
+chars = "108-153"
+text = "fit these to the central charge drift relation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "639"
+chars = "167-217"
+text = "extract the real part of the complex central charge"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "655"
+chars = "12-35"
+text = "Extracted fit parameters"
+
+[[blocks]]
+sections = ["truth"]
+lines = "655"
+chars = "244-311"
+text = "excellent agreement with the real part of the complex central charge"

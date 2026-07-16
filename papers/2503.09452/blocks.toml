@@ -1,0 +1,1253 @@
+# Partition layer for papers/2503.09452 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "47-65"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "35-101"
+text = "strong-to-weak fragmentation transition, namely freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "525-543"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "792-804"
+text = "n_c = 1/(q+1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "862-908"
+text = "emergence of ground states at multiple fillings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "977-1019"
+text = "logarithmic scaling of entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1232-1279"
+text = "inhomogeneous long-time autocorrelation profiles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1548-1633"
+text = "size-stretched exponential relaxation through superdiffusive to subdiffusive behaviors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1893-1911"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "49-67"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "39-109"
+text = "strong-to-weak fragmentation transition, namely the freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "539-572"
+text = "freezing transition in this family"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1355-1402"
+text = "inhomogeneous long-time autocorrelation profiles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1764-1849"
+text = "size-stretched exponential relaxation through superdiffusive to subdiffusive behaviors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "2081-2132"
+text = "fragmentation and freezing transition, thus offering"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "39-161"
+text = "one-dimensional facilitated particle-number-conserving quantum East models of spinless fermions with range- _q_ constraints"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "753-775"
+text = "_nc_ = 1 _/_ ( _q_ + 1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "1016-1037"
+text = "lower filling fraction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "550-593"
+text = "multiple ground states at different fillings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "640-672"
+text = "total degeneracy of 2 _[q][−]_[1]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "1036-1071"
+text = "logarithmic scaling with system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "1250-1273"
+text = "_Nf ≃_ ( _L − q_ ) _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "558-643"
+text = "non-thermal active boundaries and bulk autocorrelators on the strongly fragmented side"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "659-773"
+text = "non-thermal leftmost active boundary and both thermal bulk and rightmost boundary on the side of weak fragmentation"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "63"
+chars = "103-137"
+text = "periodic boundary conditions (PBCs)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "518-561"
+text = "size-stretched exponential relaxation (SSER)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "586-607"
+text = "transient subdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "636-659"
+text = "transient superdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "679-697"
+text = "transient ballistic"
+
+[[blocks]]
+sections = ["problem"]
+lines = "69"
+chars = "78-135"
+text = "facilitated quantum East model with range- _q_ constraints"
+
+[[blocks]]
+sections = ["problem"]
+lines = "78"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0003-03.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "28-59"
+text = "kinetic constraint of range- _q_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "616-646"
+text = "open boundary conditions (OBCs)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "686-716"
+text = "models with _q_ = 1 _,_ 2 and 3"
+
+[[blocks]]
+sections = ["problem"]
+lines = "84"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0003-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "36-69"
+text = "conserve the total particle number"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "159-191"
+text = "inversion symmetry transformation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "413-452"
+text = "assume _tl_ = 1 for most of the analysis"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "319-352"
+text = "numerical basis enumeration method"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "231"
+text = "|_D_(_L_)|1|3|12|55|273|1428|7752|43263|"
+
+[[blocks]]
+sections = ["method"]
+lines = "297"
+chars = "170-196"
+text = "using numerical enumeration"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "239-273"
+text = "_Nf_ = _L/_ 2 and _Nf_ = _L/_ 2 + 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "299-350"
+text = "_Nf_ = ( _L −_ 1) _/_ 2 + 1 and ( _L −_ 1) _/_ 2 + 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "307"
+chars = "10-12"
+text = "|6|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "308"
+chars = "11-14"
+text = "|10|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "12-15"
+text = "|19|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "310"
+chars = "13-16"
+text = "|34|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "311"
+chars = "15-18"
+text = "|65|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "312"
+chars = "16-20"
+text = "|120|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "17-21"
+text = "|228|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "314"
+chars = "18-22"
+text = "|431|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "315"
+chars = "19-23"
+text = "|822|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "316"
+chars = "20-25"
+text = "|1575|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "317"
+chars = "21-26"
+text = "|3006|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "318"
+chars = "22-27"
+text = "|5820|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "319"
+chars = "23-29"
+text = "|11139|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "320"
+chars = "24-30"
+text = "|21717|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "321"
+chars = "25-31"
+text = "|41643|"
+
+[[blocks]]
+sections = ["method"]
+lines = "325"
+chars = "130-178"
+text = "obtained using numerical basis enumeration method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "434-480"
+text = "no significant shift in the thermodynamic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "880-965"
+text = "minimum filling where _Dmax_ first appears in the range-2 case is at _Nf_ = _L/_ 2 + 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "331"
+chars = "120-133"
+text = "_nc_ = 1 _/_ 4"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "350"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0010-06.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "354"
+text = "ee L Root state Df rag ( L )<br>6 001011 3<br>ee<br>7 0010111 6<br>8 00100111 10<br>ee<br>9 001001111 20<br>ee<br>10 0010001111 35<br>ee<br>11 00100010111 69<br>ee<br>12 001000101111 125<br>ee<br>13 0010001001111 246<br>ee<br>14 00100010011111 455<br>ee<br>15 001000100011111 896<br>ee<br>16 0010001000111111 1680<br>ee<br>17 00100010001011111 3308<br>ee<br>ee 18 001000100010111111 6626<br>19 0010001000100111111 12343<br>ee<br>20 00100010001001111111 23559<br>ee<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "88-131"
+text = "_Nf_ = ( _L/_ 2, _L/_ 2 + 1, and _L/_ 2 + 2)"
+
+[[blocks]]
+sections = ["method"]
+lines = "361"
+chars = "288-321"
+text = "numerical basis enumeration method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "367"
+chars = "128-166"
+text = "largest fragment lies at three fillings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "369"
+chars = "148-192"
+text = "largest fragment appears at _Nf_ = _L/_ 2 + 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "369"
+chars = "372-422"
+text = "Dfrag_ turns out to be the largest at _Nf_ = _L/_ 2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "378"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0011-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "269-372"
+text = "minimum fillings for the largest fragment appear at _Nf_ = _L/_ 2 _−_ 2 _, L/_ 2 _−_ 6, and _L/_ 2 _−_ 9"
+
+[[blocks]]
+sections = ["truth"]
+lines = "409"
+chars = "656-710"
+text = "_Nf_ = _L/_ 2 _−_ 2 _, L/_ 2 _−_ 6 _,_ and _L/_ 2 _−_ 9"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "424"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0012-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "503-538"
+text = "_nc_ = 1 _/_ 2, 1 _/_ 3, and 1 _/_ 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "515-552"
+text = "_nc_ = 1 _/_ 2 _,_ 1 _/_ 3 and 1 _/_ 4"
+
+[[blocks]]
+sections = ["method"]
+lines = "437"
+chars = "261-294"
+text = "numerical basis enumeration method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "580-614"
+text = "_nc_ = 1 _/_ 2, 1 _/_ 3 and 1 _/_ 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "443"
+chars = "279-322"
+text = "_Nf_ = _L/_ 2 + 2, _L/_ 2 + 3 and _L/_ 2 + 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "114-154"
+text = "does not demonstrate this anomalous shift"
+
+[[blocks]]
+sections = ["truth"]
+lines = "449"
+chars = "252-287"
+text = "_nc ≃_ 1 _/_ 2, 1 _/_ 3, and 1 _/_ 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "373-404"
+text = "_Nf_ = _L/_ 2 + 1 and _L/_ 2 + 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "817-900"
+text = "_Nf_ = _L/_ 2, _L/_ 2+1 (two of them lying in two distinct fragments) and _L/_ 2 + 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "672-714"
+text = "average density between 0 _._ 5 and 0 _._ 8"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "767-811"
+text = "_⟨nj⟩_ = 1 due to the range-1 East constraint"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "1181-1235"
+text = "range of density oscillations lies between 0.5 and 0.65"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "1303-1346"
+text = "first three sites being frozen at _⟨nj⟩_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "1585-1609"
+text = "_∈_ (0 _._ 5 _,_ 0 _._ 6)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "1699-1725"
+text = "first four sites are frozen"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "464"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0014-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "471"
+chars = "244-287"
+text = "_Nf_ = _L/_ 2 + 2, _L/_ 2 + 3 and _L/_ 2 + 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "471"
+chars = "530-557"
+text = "_Nf_ = _L/_ 2+1 and _L/_ 2+2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "471"
+chars = "839-893"
+text = "_Nf_ = _L/_ 2 _, L/_ 2 + 1 (two of them) and _L/_ 2 + 3"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "474"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0014-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "345-373"
+text = "_⟨nj⟩∈_ (0 _._ 5 _,_ 0 _._ 8)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "486-515"
+text = "_⟨nj⟩∈_ (0 _._ 5 _,_ 0 _._ 65)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "781-805"
+text = "_∈_ (0 _._ 5 _,_ 0 _._ 6)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "870-929"
+text = "leftmost one, three, and four sites are frozen at _⟨nj⟩_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "1279-1350"
+text = "two distinct scaling behaviors depending on _L_ being 4 _n_ + 2 or 4 _n_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "485"
+chars = "1482-1496"
+text = "_z_ = 1 _._ 044"
+
+[[blocks]]
+sections = ["truth"]
+lines = "491"
+chars = "316-343"
+text = "_c_ = 1 _._ 46 _±_ 0 _._ 015"
+
+[[blocks]]
+sections = ["truth"]
+lines = "491"
+chars = "520-561"
+text = "linear _k_ dispersion at three _k_ -points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "559-610"
+text = "This indicates non-thermal behavior at this boundary"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "1308-1371"
+text = "all three correlators saturate at a finite value in _t →∞_ limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "2200-2269"
+text = "bulk and rightmost boundary almost approach close to the thermal value"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "514"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0016-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "521"
+chars = "146-188"
+text = "∆ scales as _∼_ 1 _/L_ in numerical fitting"
+
+[[blocks]]
+sections = ["truth"]
+lines = "521"
+chars = "391-404"
+text = "_c_ = 1 _._ 46"
+
+[[blocks]]
+sections = ["truth"]
+lines = "521"
+chars = "562-603"
+text = "linear _k_ behavior near three _k_ -points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "596-627"
+text = "completely inhomogeneous profile"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "1256-1315"
+text = "rightmost boundary is much larger compared to the first case"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "1593-1690"
+text = "slowly decreases from the leftmost active edge of the chain and saturates close to a thermal value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "364-389"
+text = "does not decrease with _L_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "642-672"
+text = "almost parallel to 1 _/√L_ line"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1399-1438"
+text = "does not decrease significantly with _L_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1817-1846"
+text = "closely follow the 1 _/L_ line"
+
+[[blocks]]
+sections = ["method"]
+lines = "549"
+chars = "461-494"
+text = "quantum dynamical typicality (QDT)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "549"
+chars = "731-750"
+text = "random typical state"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "552"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0017-08.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "555"
+chars = "123-193"
+text = "Fock space basis states allowed within a particlenumber resolved sector"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "555"
+chars = "220-284"
+text = "random numbers chosen from a Gaussian distribution with mean zero"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "555"
+chars = "301-323"
+text = "normalization condition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "72-172"
+text = "( _β, τ_ ) = (0 _._ 65 _,_ 174) _,_ (0 _._ 64 _,_ 242) _,_ (0 _._ 56 _,_ 286), and (0 _._ 58 _,_ 397)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "529-577"
+text = "_z_ = 1 _/α ≃_ 3 _._ 57 _,_ 3 _._ 45 and 3 _._ 23"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "476-555"
+text = "( _β, τ_ ) = (0 _._ 29 _,_ 625) _,_ (0 _._ 33 _,_ 1247), and (0 _._ 31 _,_ 1984)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "650-689"
+text = "transient ballistic power-law decay [64]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "744-750"
+text = "_z ≃_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "922-961"
+text = "_β ≃_ 0 _._ 55 _,_ 0 _._ 48 and 0 _._ 45"
+
+[[blocks]]
+sections = ["truth"]
+lines = "563"
+chars = "18-47"
+text = "transient ballistic decay [64]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "563"
+chars = "224-237"
+text = "non-integrable"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "568"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0018-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "379-417"
+text = "saturate at finite values at long times"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "773-851"
+text = "bulk and rightmost boundary autocorrelators demonstrate nearly thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "577"
+chars = "263-276"
+text = "_z_ = 1 _._ 08"
+
+[[blocks]]
+sections = ["truth"]
+lines = "577"
+chars = "331-367"
+text = "( _β, τ_ ) = (0 _._ 65 _,_ 23 _._ 69)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "436-467"
+text = "( _β, τ_ ) = (0 _._ 19 _,_ 3843)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "512-531"
+text = "(0 _._ 29 _,_ 13648)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "680-713"
+text = "superdiffusive powerlaw decay [64]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "720-761"
+text = "_z_ = (1 _._ 39 _,_ 1 _._ 30 _,_ 1 _._ 32)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "24-63"
+text = "transient ballistic power-law relaxation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "434-457"
+text = "superdiffusive transport"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "598"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0019-02.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "606"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0019-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "607-670"
+text = "completely non-uniform profile across the left edge of the chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "849-878"
+text = "1 _/_ ~~_√_~~ _L_ guiding line"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "1170-1188"
+text = "1 _/L_ guiding line"
+
+[[blocks]]
+sections = ["truth"]
+lines = "619"
+chars = "1455-1477"
+text = "_nc_ = 1 _/_ ( _q_ + 1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "619"
+chars = "1574-1586"
+text = "lower filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "231-256"
+text = "nondegenerate ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "504-525"
+text = "multiple ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "560-586"
+text = "degeneracy of 2 _[q][−]_[1]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "1152-1195"
+text = "logarithmic scaling of entanglement with _L_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "623"
+chars = "335-366"
+text = "non-thermal bulk becomes thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "403-547"
+text = "size-stretched exponential relaxation (SSER) with ( _β, τ_ ) = (0 _._ 65 _,_ 174), (0 _._ 64 _,_ 242), (0 _._ 56 _,_ 286), and (0 _._ 58 _,_ 397)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "672-754"
+text = "transient subdiffusive decay with _z_ = 1 _/α_ = 3 _._ 57 _,_ 3 _._ 45 and 3 _._ 23"
+
+[[blocks]]
+sections = ["truth"]
+lines = "629"
+chars = "11-40"
+text = "distinct inhomogeneous profile"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "342-385"
+text = "size-stretched exponential relaxation (SSER)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "414-480"
+text = "subdiffusive [27, 30] through superdiffusive [28] to ballistic [64]"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "650"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0020-12.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "367-455"
+text = "SSER with ( _β, τ_ ) = (0 _._ 29 _,_ 625) _,_ (0 _._ 33 _,_ 1247) and (0 _._ 31 _,_ 1984)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "572-698"
+text = "close to transient ballistic behavior at intermediate times with _z_ = 1 _/α_ = 0 _._ 93 _,_ 0 _._ 92 _,_ 0 _._ 96 and 1 _._ 02"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "954-1061"
+text = "SSER involving ( _β, τ_ ) = (0 _._ 55 _,_ 4 _._ 14) _,_ (0 _._ 48 _,_ 7 _._ 69) _,_ (0 _._ 45 _,_ 13 _._ 68)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "1382-1418"
+text = "( _β, τ_ ) = (0 _._ 65 _,_ 23 _._ 69)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "1452-1508"
+text = "almost transient ballistic behavior at intermediate times"
+
+[[blocks]]
+sections = ["truth"]
+lines = "677"
+chars = "187-264"
+text = "SSER relaxation with ( _β, τ_ ) = (0 _._ 19 _,_ 3843) and (0 _._ 29 _,_ 13643)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "677"
+chars = "418-506"
+text = "transient superdiffusive behavior with _z_ = 1 _/α ≃_ 1 _._ 39 _,_ 1 _._ 30, and 1 _._ 32"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "720"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0023-04.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "734"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0023-09.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "762"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-04.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "782"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-11.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "790"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-14.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "882-912"
+text = "_Nfrag_ are two, eight, and one"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "2069-2109"
+text = "the number can be shown to be (3 _a_ + 2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "2357-2387"
+text = "there is only one such fragment"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "883"
+text = "|_Droot_1(_L_)|1|2|7|30|143|728|3876|"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "884"
+text = "|_Droot_2(_L_)|1|3|12|55|273|1428|7752|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "789-997"
+text = "the number of the largest fragments at the critical filling ( _Nf_ = _L/_ 3), below the critical filling ( _Nf_ = _L/_ 3 _−_ 2), and above the critical filling ( _Nf_ = _L/_ 2) appear to be two, eight, and one"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "925"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0028-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "929"
+text = "Number of Root state Dfrag The allowed processes Dyck path notations of allowed processes<br>100’s in ψM<br>1 1001 2 1001, 1010<br>2 1001001 7 1001001, 1001010, 1001100,<br>1010100, 1011000, 1010001,<br>1010010<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "936"
+text = "|_Droot_1(_L_)|1|2|9|52|340|2394|"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "937"
+text = "|_Droot_2(_L_)|1|3|15|91|612|4389|"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "938"
+text = "|_Droot_3(_L_)|1|4|22|140|969|7084|"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "961"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0029-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "965"
+text = "1000’s in ψM Root state Df rag The allowed processes in qubit language Dyck path notations of allowed processes<br>1 1000100 2 1000100, 1001000<br>2 10001000100 9 10001000100, 10001001000, 10001010000,<br>10010000100, 10001100000, 10010100000,<br>10011000000, 10010010000, 10010001000<br>TABLE XII. A particular example of non-FS root state in the range-3 case with  ψL = ϕ ,  ψM = 1000’s and  ψR = 100, whose dimensional<br>growth can be captured using  kt -Dyck sequence with  k = 3, and  t = 1. The mapping between binary strings and the Dyck path is shown in<br>the above table and can be accomplished after removing the first 100 (since dynamically remains unaltered).<br>0 0 0<br>− 4 − 5 − 5<br>− 8 − 10 − 10<br>0 Nf 0 Nf 0 Nf<br>− 4 − 5 − 5<br>− 8 − 10 − 10<br>4 8 12 16 4 8 12 16 4 8 12 16<br>Nf Nf Nf<br>E<br>E<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "211-338"
+text = "ground state fillings in the range-1 case in OBCs (top left panel) and PBCs (bottom left panel) both appear at _Nf_ = _L/_ 2 + 3"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "397-444"
+text = "two degenerate ( _Nf_ = _L/_ 2 + 1 _, L/_ 2 + 2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "795-866"
+text = "four degenerate ground states ( _Nf_ = _L/_ 2 _, L/_ 2 + 1 _, L/_ 2 + 2)"
+
+[[blocks]]
+sections = ["method"]
+lines = "970"
+chars = "320-341"
+text = "level spacing analysis"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "970"
+chars = "380-408"
+text = "_s_ = ( _En_ +1 _− En_ ) _/δ_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "977"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0030-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "984"
+chars = "347-383"
+text = "linear- _k_ dispersion near _k_ = _π_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "984"
+chars = "462-481"
+text = "semicircular profile"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "987"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0030-03.png)"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "994"
+chars = "286-328"
+text = "small diagonal disorder with _w_ = 0 _._ 01"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "994"
+chars = "333-393"
+text = "avoid any accidental degeneracy and limit finite-size effects"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "536-558"
+text = "sharp rainbow structure"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "565-619"
+text = "some athermal eigenstates in the middle of the spectrum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "762-782"
+text = "sharp rainbow pattern"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "789-836"
+text = "no athermal states in the middle of the spectrum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "949-962"
+text = "GOE statistics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "984-1020"
+text = "non-integrable nature of these models"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "541-567"
+text = "saturates at a finite value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "753-803"
+text = "non-thermal behaviors below and at critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "809-860"
+text = "close to thermal behavior above the critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1032"
+chars = "476-508"
+text = "fails to exhibit a Gaussian shape"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1032"
+chars = "655-672"
+text = "anomalous dynamics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1032"
+chars = "877-902"
+text = "faster in the range-1 case"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1032"
+chars = "924-950"
+text = "slowest in the range-3 case"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1059"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0032-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1066"
+chars = "319-371"
+text = "identical behavior as seen in the range-2 constraints"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1069"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0032-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "421-476"
+text = "identical behaviors to that observed in the range-2 case"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1107"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0033-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1114"
+chars = "242-301"
+text = "does not exhibit the Gaussian spreading (diffusive behavior)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1114"
+chars = "382-424"
+text = "anomalous dynamics in this family of models"

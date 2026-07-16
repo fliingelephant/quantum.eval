@@ -1,0 +1,6 @@
+# The local Fig. 3(c) crop exposes the comparison labels and qualitative outcome, not a complete numeric trace.
+curve,source_outcome
+exact_numerics,"reference markers"
+markovian_master_equation,"good qualitative description"
+non_markovian_pseudomode,"quantitative prediction with K=3"
+larger_V3,"mitigates leakage"

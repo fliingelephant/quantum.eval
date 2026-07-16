@@ -9,6 +9,7 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/physrevb.111.075136"
 arxiv_version = "2410.13354v1"
+md_sha256 = "1fa81ccb81ce10740a358d66caa253178294f3348ad5037576d6d8c8caec6b0d"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
@@ -16,3 +17,224 @@ model = "interacting Kitaev/Majorana chain with microscopic N=1 SUSY; ground-sta
 headline = "SUSY-restoration transition point matching analytic prediction; central charge crossing c=1/2 -> 7/10 (tricritical Ising)"
 compute = "spinless-fermion chain (dim 2), DMRG + EE fits; very cheap, laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "One-dimensional interacting Majorana/Kitaev chain with explicit microscopic N=1 quantum-mechanical supersymmetry, H(α) = R(α)^2/2, where α interpolates between the critical Kitaev-chain term and the interacting Fendley term."
+model_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:103-141"
+convention = "Periodic fermion boundary conditions; H0 = L/2 fixes the energy origin, and SUSY breaking is diagnosed by positive ground-state energy density while zero density is unbroken SUSY."
+convention_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:67,139,153-165"
+instance = "A length-L chain with one fermion qubit per site, Majorana fermions βj and γj, interaction parameter α, and numerical scope 0 ≤ α ≤ 1/2. The universal-ratio calculation resolves fermion parity and periodic/anti-periodic boundary-condition sectors."
+instance_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:103-111,145,325-337"
+
+[[problem.targets]]
+panel = "fig3"
+quantity = "Thermodynamic ground-state energy density e_g.s.(α), including its zero-crossing estimate αc."
+axes = "α versus e_g.s.(α)"
+tier = "light"
+tier_provenance = "Inferred from the paper's DMRG/ED size ranges and the existing paper-level compute classification."
+truth_source = "Figure 3 curve digitization and the stated zero-crossing estimate."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:201-217"
+
+[[problem.targets]]
+panel = "fig4"
+quantity = "Infinite-size excitation gap Δ∞(α), including the onset range where the extrapolated gap becomes significantly finite."
+axes = "α versus Δ∞(α)"
+tier = "light"
+tier_provenance = "Inferred from the paper's exact-diagonalization size range and the existing paper-level compute classification."
+truth_source = "Figure 4 digitization and the caption's stated onset interval."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:221-239"
+
+[[problem.targets]]
+panel = "fig5"
+quantity = "Central-charge estimate from the normalized entanglement-entropy difference ΔS(L), including the peak/critical-point estimate and the limiting phase values."
+axes = "α versus normalized ΔS(L) interpreted as c"
+tier = "light"
+tier_provenance = "Inferred from the paper's finite-DMRG size range and the existing paper-level compute classification."
+truth_source = "Figure 5 digitization and the stated αc and phase-limit values."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:281-311"
+
+[[problem.targets]]
+panel = "fig6a"
+quantity = "Universal gap ratio R1(α), with the thermodynamic transition estimate from matching the TCI value."
+axes = "α versus R1"
+tier = "light"
+tier_provenance = "Inferred from the paper's finite-DMRG size range and the existing paper-level compute classification."
+truth_source = "Figure 6(a) digitization, TCI/Ising reference table, and stated extrapolated αc."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:331-356"
+
+[[problem.targets]]
+panel = "fig6b"
+quantity = "Universal gap ratio R2(α), with the thermodynamic transition estimate from matching the TCI value."
+axes = "α versus R2"
+tier = "light"
+tier_provenance = "Inferred from the paper's finite-DMRG size range and the existing paper-level compute classification."
+truth_source = "Figure 6(b) digitization, TCI/Ising reference table, and stated extrapolated αc."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:331-356"
+
+[[problem.targets]]
+panel = "fig6c"
+quantity = "Universal gap ratio R3(α), with the thermodynamic transition estimate from matching the TCI value."
+axes = "α versus R3"
+tier = "light"
+tier_provenance = "Inferred from the paper's finite-DMRG size range and the existing paper-level compute classification."
+truth_source = "Figure 6(c) digitization, TCI/Ising reference table, and stated extrapolated αc."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:331-356"
+
+[method]
+paper_route = "Finite DMRG in the MPS family for ground-state energies, entanglement entropy, and universal gap ratios; exact diagonalization for finite-size excitation gaps."
+paper_route_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:191-193,223,291-297,339"
+families = ["mps", "ed"]
+families_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193"
+algorithms = ["finite DMRG", "exact diagonalization"]
+algorithms_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193,223"
+valid_alternatives = ["MPS: finite DMRG, iDMRG, or VUMPS with the required boundary/finite-size treatment", "ED: exact diagonalization with a size-extrapolation protocol"]
+valid_alternatives_provenance = "Inferred from the target definitions and the paper's DMRG/ED route at 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193-239"
+
+[method_params]
+[[method_params.items]]
+name = "DMRG convergence and initialization"
+value = "Truncation error 10^(-10); random matrix-product-state starts."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193"
+
+[[method_params.items]]
+name = "Ground-energy finite-size protocol"
+value = "Fermionic PBC, L = 14, 16, 18, …, 50; fit E_g.s.(α;L)/L = e_g.s.(α) + a/L^b and extrapolate L → ∞."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193,197-201"
+
+[[method_params.items]]
+name = "Excitation-gap finite-size protocol"
+value = "ED on periodic L = 4, 5, …, 15; Δ(L;α) is the lowest-to-third-lowest energy difference and is fit to Δ∞(α) + a/L^b."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:221-223"
+
+[[method_params.items]]
+name = "Entanglement central-charge estimator"
+value = "Finite DMRG in the spin representation with PBC and A = 2; evaluate S at ℓ = L/2 and L/4, form ΔS(L), and normalize by A ln(2)/12."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:281-297"
+
+[[method_params.items]]
+name = "Universal-ratio protocol"
+value = "Finite DMRG for parity- and boundary-condition-resolved lowest/first-excited energies; calculate R1, R2, R3 for L = 16, 18, …, 48, 50, interpolate αc(L) at TCI reference values, then extrapolate αc(L) to L → ∞."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:315-339"
+
+[software]
+paper_software = "Julia implementation of ITensor for the DMRG computations."
+paper_software_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193"
+valid_tools = ["Julia ITensor or another MPS library implementing finite DMRG", "An exact-diagonalization package for the finite-size gap calculation"]
+valid_tools_provenance = "Inferred from the stated ITensor/DMRG and ED route at 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193,223"
+
+[software_params]
+[[software_params.items]]
+name = "Reported implementation details"
+value = "No API-specific eigensolver choice, threading setting, noise schedule, or software toggle is stated in the rendered paper."
+provenance = "Inferred from the complete numerical/software statement at 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:191-193 and the full rendered paper"
+
+[anchors]
+[[anchors.items]]
+name = "SUSY-restoration bound"
+value = "π/8 ≤ αc ≤ 1/2"
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:167-174"
+
+[[anchors.items]]
+name = "Mean-field critical-point estimate"
+value = "αc^mf = π/(4 + π) = 0.439…"
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:177-180"
+
+[[anchors.items]]
+name = "Critical Kitaev/Ising anchor"
+value = "The noninteracting critical Kitaev chain has low-energy Majorana CFT central charge c = 1/2."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:139-141"
+
+[[anchors.items]]
+name = "TCI anchor"
+value = "The candidate tricritical-Ising superconformal theory has c = 7/10."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:253-257"
+
+[[anchors.items]]
+name = "Ground-energy scaling exponent"
+value = "e_g.s.(α) scales as (αc − α)^(5/2), from xt = 6/5 and 2/(2 − xt)."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:201-207"
+
+[[anchors.items]]
+name = "Gapped-side gap exponent"
+value = "The TCI perturbation predicts Δ∞(α) ∼ (α − αc)^(5/4) near the SUSY-unbroken side."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:275-277"
+
+[[anchors.items]]
+name = "Entropy-difference check"
+value = "ΔS(L) approaches (c/12) A ln(2) in a critical phase and 0 in a gapped phase."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:283-297"
+
+[[anchors.items]]
+name = "Ising universal ratios"
+value = "(R1, R2, R3) = (1/2, 1/8, 9/8)."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:341-356"
+
+[[anchors.items]]
+name = "TCI universal ratios"
+value = "(R1, R2, R3) = (7/2, 3/8, 35/8)."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:341-356"
+
+[[anchors.items]]
+name = "Frustration-free anchor"
+value = "The exact frustration-free point is α = 1/2, with explicitly known product-state ground states."
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:143-145"
+
+[truth]
+digitization_policy = "Stated text/table values take precedence; long plotted curves are stored in the adjacent truth_<panel>.csv files."
+digitization_policy_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:217,239,311,339-356; Inferred figure digitization from the local .figures images"
+
+[truth.fig3]
+value = 0.463
+tolerance = 0.002
+curve_file = "truth_fig3.csv"
+curve_tolerance = 0.00005
+value_kind = "zero-crossing αc"
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:207,217; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0004-17.png"
+
+[truth.fig4]
+value = 0.48625
+tolerance = 0.0025
+curve_file = "truth_fig4.csv"
+curve_tolerance = 0.01
+value_kind = "midpoint of the stated significantly-finite onset interval"
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:239,243; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0005-02.png"
+
+[truth.fig5]
+value = 0.4627
+tolerance = 0.001
+curve_file = "truth_fig5.csv"
+curve_tolerance = 0.04
+value_kind = "peak-position αc"
+reference_values = "c = 1/2 below αc, c = 7/10 at αc, and c → 0 above αc"
+reference_values_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:301,311"
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:301,311; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0006-13.png"
+
+[truth.fig6a]
+value = 3.5
+tolerance = 0.08
+critical_alpha = 0.4628
+critical_alpha_tolerance = 0.001
+curve_file = "truth_fig6a.csv"
+curve_tolerance = 0.12
+value_kind = "TCI reference R1 at the transition"
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:339,353-356; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0007-07.png"
+
+[truth.fig6b]
+value = 0.375
+tolerance = 0.02
+critical_alpha = 0.4628
+critical_alpha_tolerance = 0.001
+curve_file = "truth_fig6b.csv"
+curve_tolerance = 0.02
+value_kind = "TCI reference R2 at the transition"
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:339,353-356; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0007-07.png"
+
+[truth.fig6c]
+value = 4.375
+tolerance = 0.15
+critical_alpha = 0.4628
+critical_alpha_tolerance = 0.001
+curve_file = "truth_fig6c.csv"
+curve_tolerance = 0.15
+value_kind = "TCI reference R3 at the transition"
+provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:339,353-356; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0007-07.png"

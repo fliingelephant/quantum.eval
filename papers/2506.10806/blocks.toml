@@ -1,0 +1,1380 @@
+# Partition layer for papers/2506.10806 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "13"
+chars = "16-38"
+text = "Quantum Many-Body Scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "320-329"
+text = "exact QMBS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "537-553"
+text = "approximate scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "562-609"
+text = "damping is governed by an emergent two-body loss"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "801-831"
+text = "nontrivial spatial connectivity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "16-38"
+text = "Quantum Many-Body Scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "35"
+chars = "319-328"
+text = "exact QMBS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "35"
+chars = "536-552"
+text = "approximate scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "35"
+chars = "561-608"
+text = "damping is governed by an emergent two-body loss"
+
+[[blocks]]
+sections = ["truth"]
+lines = "35"
+chars = "799-829"
+text = "nontrivial spatial connectivity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "546-550"
+text = "poly-"
+
+[[blocks]]
+sections = ["truth"]
+lines = "41"
+chars = "1-46"
+text = "nomially large, spatially extensive scar space"
+
+[[blocks]]
+sections = ["truth"]
+lines = "41"
+chars = "282-298"
+text = "approximate scars"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "41"
+chars = "391-439"
+text = "efficiently modeled by a Lindblad master equation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "22-95"
+text = "spin-1/2, anisotropic Heisenberg model on an equilateral triangular ladder"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "127-200"
+text = "nearest-neighbor (lattice sites separated by one side length) interactions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "46"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0001-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "49"
+chars = "1-90"
+text = "where J and V denote the spin-exchange interaction and the Ising interaction, respectively"
+
+[[blocks]]
+sections = ["problem"]
+lines = "49"
+chars = "313-421"
+text = "This model has a U(1) symmetry corresponding to the conservation of the total number of magnon excitations NI"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "1-72"
+text = "In the highly anisotropic regime V k J, the total number of magnon bonds"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "277-356"
+text = "The resulting constrained dynamics can be described by the effective Hamiltonian"
+
+[[blocks]]
+sections = ["problem"]
+lines = "54"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0001-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "57"
+chars = "1-31"
+text = "where the quasilocal projectors"
+
+[[blocks]]
+sections = ["problem"]
+lines = "57"
+chars = "225-257"
+text = "impose][the][kinetic][constraints"
+
+[[blocks]]
+sections = ["problem"]
+lines = "62"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0002-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "66"
+chars = "74-84"
+text = "scar states"
+
+[[blocks]]
+sections = ["problem"]
+lines = "69"
+chars = "272-312"
+text = "symmetry sector {NI = NII = 7} for L = 11"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "315-354"
+text = "which has two Krylov subspaces Kt and Ks"
+
+[[blocks]]
+sections = ["problem"]
+lines = "69"
+chars = "361-441"
+text = "Eigenstate entanglement entropy of the symmetry sector {NI = NII = 10} for L = 17"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "498-514"
+text = "thermal subsector"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "591-615"
+text = "Wigner-Dyson distribution"
+
+[[blocks]]
+sections = ["problem"]
+lines = "71"
+chars = "183-250"
+text = "open boundary conditions with L physical sites (i = 1, 2, · · · , L)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "201-282"
+text = "full Hilbert space, spanned by 2[L] product states |ψið in the computational basis"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "319-400"
+text = "distinct symmetry sectors Sλ,µ = span{|ψið : NI |ψið = λ |ψið ; NII |ψið = µ |ψið}"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "73"
+chars = "473-632"
+text = "disjoint Krylov subspaces Ki = span{|ψið , Heff |ψið , Heff[2][|][ψ][i][ð][ ,][ · · · }][by][consecutive] actions of the Hamiltonian (2) on each root state |ψið"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "703-710"
+text = "∼ 1.5[L]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "781-786"
+text = "∼ L[2]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+chars = "68-148"
+text = "dimension of typical symmetry sectors (DS) and the largest Krylov subspace (Dmax)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+chars = "246-284"
+text = "ten largest fragmented symmetry sectors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "361-371"
+text = "Dmax/DS → 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "419-435"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "442-480"
+text = "remaining subspaces are of measure-zero"
+
+[[blocks]]
+sections = ["problem"]
+lines = "77"
+chars = "240-284"
+text = "two elementary patterns: clusters and strings"
+
+[[blocks]]
+sections = ["problem"]
+lines = "77"
+chars = "287-359"
+text = "A cluster is a domain of p g 3 consecutive sites occupying the same state"
+
+[[blocks]]
+sections = ["problem"]
+lines = "77"
+chars = "471-559"
+text = "A string of length l is a sequence of sites {i1, i2, · · · , il} occupying the same state"
+
+[[blocks]]
+sections = ["problem"]
+lines = "79"
+chars = "1-35"
+text = "0 < ik+1 − ik f 2 and ik+2 − ik g 3"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "1-90"
+text = "Clusters and strings have completely different dynamical behavior under the action of Heff"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "306-332"
+text = "inter-chain hoppings H[[1]]"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "84"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0002-09.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "88"
+chars = "9-24"
+text = "symmetry sectors"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "13-102"
+text = "Number of distinct symmetry sectors (green dots) and disjoint Krylov subspaces (blue dots)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "144-207"
+text = "Fraction Dmax/DS for the ten largest fragmented symmetry sectors"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "373-437"
+text = "Dimension of the Krylov space built from the indicated root state"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "95"
+chars = "164-187"
+text = "∼ [(1 + √5)/2][l] shapes"
+
+[[blocks]]
+sections = ["problem"]
+lines = "95"
+chars = "727-753"
+text = "intra-chain hoppings H[[2]]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "167-178"
+text = "up to L = 22"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "198-227"
+text = "distribution of string lengths"
+
+[[blocks]]
+sections = ["truth"]
+lines = "97"
+chars = "367-401"
+text = "grows linearly with the system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "97"
+chars = "414-455"
+text = "bounded (lmax f 3) for all scar subsectors"
+
+[[blocks]]
+sections = ["problem"]
+lines = "102"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "123-236"
+text = "scalable clusters to be an ordered state |Z2pð, composed of staggered magnon- and hole-clusters of the same size p"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "340-368"
+text = "adding a short string (l f 2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "498-526"
+text = "polynomially large scar space"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "545-591"
+text = "exponentially large part of the symmetry sector"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "604-620"
+text = "primary subsector"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "699-780"
+text = "Figure 2(d) illustrates examples of Krylov subspaces constructed from |Z10ð states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "861-873"
+text = "dimension ∝ L"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "906-929"
+text = "dimension becomes ∝ L[2]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "955-989"
+text = "can no longer generate a scar space"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "1014-1042"
+text = "thermal subsector (∼ 1.8[L] )"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "94-124"
+text = "smallest scalable clusters |Z6ð"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "253-305"
+text = "attaching an l = 1 string to the first magnon-cluster"
+
+[[blocks]]
+sections = ["problem"]
+lines = "112"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "115"
+chars = "277-353"
+text = "scar states remain frozen under the action of the inter-chain coupling H[[1]]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "115"
+chars = "365-408"
+text = "generated by the intra-chain coupling H[[2]]"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "118"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0003-10.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "121"
+chars = "1-33"
+text = "For L = 6k − 1 (k = 2, 3, · · · )"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "121"
+chars = "56-140"
+text = "closed scar space Ks = span{|ψ1ð , J+ |ψ1ð , · · · , (J+)[M] |ψ1ð} with M = (L − 2)/3"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "121"
+chars = "191-218"
+text = "tight-binding Hamiltonian HS"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "121"
+chars = "269-337"
+text = "where][we][map][each][magnon-] hole-paired state to a hard-core boson"
+
+[[blocks]]
+sections = ["problem"]
+lines = "121"
+chars = "375-438"
+text = "corresponding][symmetry][sector][{N][I][=][ N][II][=] (L + 3)/2}"
+
+[[blocks]]
+sections = ["truth"]
+lines = "121"
+chars = "489-510"
+text = "a thermal subsector Kt"
+
+[[blocks]]
+sections = ["problem"]
+lines = "121"
+chars = "586-649"
+text = "entanglement entropy S of each eigenstate in the symmetry sector"
+
+[[blocks]]
+sections = ["truth"]
+lines = "121"
+chars = "666-696"
+text = "non-ergodic nature of the scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "1-29"
+text = "area-law scaling of the scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "78-109"
+text = "volume-law entangled eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "208-232"
+text = "Wigner-Dyson distribution"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "303-315"
+text = "nonintegrable"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "379-409"
+text = "scalabl ~~e set~~ of exact QMBS"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "128"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0004-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "135"
+chars = "103-151"
+text = "multiple quasiparticles are present in the system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "135"
+chars = "177-238"
+text = "injecting two magnon-hole pairs at the edges of the |Z6ð state"
+
+[[blocks]]
+sections = ["problem"]
+lines = "138"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "179-214"
+text = "connectivity graph generated by |ψ2ð"
+
+[[blocks]]
+sections = ["truth"]
+lines = "141"
+chars = "366-395"
+text = "scar space of dimension ∼ L[2]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "437-488"
+text = "two-quasiparticle states defined through the mapping"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "614-654"
+text = "where][m, n][=][0][,][ 1][,][ · · ·][, N]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "141"
+chars = "1266-1298"
+text = "exponentially large thermal space"
+
+[[blocks]]
+sections = ["truth"]
+lines = "143"
+chars = "327-375"
+text = "twoquasiparticle states support approximate scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "143"
+chars = "394-421"
+text = "O(L[2] ) integrable subspace"
+
+[[blocks]]
+sections = ["truth"]
+lines = "143"
+chars = "432-472"
+text = "O(L) local couplings to the thermal space"
+
+[[blocks]]
+sections = ["truth"]
+lines = "143"
+chars = "518-589"
+text = "special eigenstates showing atypically large overlap with the scar space"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "143"
+chars = "657-697"
+text = "one zero mode induced by many-body caging"
+
+[[blocks]]
+sections = ["truth"]
+lines = "143"
+chars = "760-780"
+text = "mimic two-body losses"
+
+[[blocks]]
+sections = ["problem"]
+lines = "147"
+chars = "39-80"
+text = "symmetry sector {NI = NII = 11} for L = 19"
+
+[[blocks]]
+sections = ["problem"]
+lines = "147"
+chars = "234-320"
+text = "Real part of the correlation function Gnn(t) for collisions at the center n = (L − 1)/6"
+
+[[blocks]]
+sections = ["problem"]
+lines = "147"
+chars = "327-403"
+text = "Evolution of the scar-space population for different interaction strengths V3"
+
+[[blocks]]
+sections = ["method"]
+lines = "147"
+chars = "435-448"
+text = "exact numerics"
+
+[[blocks]]
+sections = ["method"]
+lines = "147"
+chars = "499-513"
+text = "master equation"
+
+[[blocks]]
+sections = ["method"]
+lines = "147"
+chars = "568-586"
+text = "non-Markovian model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "149"
+chars = "176-285"
+text = "tensor-product Hilbert space of quasiparticles (|ÈSð) and an environment (|ÈBð) representing the thermal space"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "149"
+chars = "292-350"
+text = "Hamiltonian (2) is then reformulated as Htot = HB + HS + HI"
+
+[[blocks]]
+sections = ["problem"]
+lines = "152"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0004-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "155"
+chars = "305-348"
+text = "additional longer-range Ising interaction V3"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "92-117"
+text = "two-particle loss ∝ cncn+1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "157"
+chars = "251-273"
+text = "Langevin noise operator"
+
+[[blocks]]
+sections = ["problem"]
+lines = "157"
+chars = "409-445"
+text = "reservoir correlation function Gmn(t)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "161"
+chars = "1-34"
+text = "diagonal correlator Gmn(t)|m=n ≈ 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "161"
+chars = "100-172"
+text = "autocorrelation function Gnn(t) converges when increasing the system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "161"
+chars = "243-263"
+text = "rapid decay of Gnn(t)"
+
+[[blocks]]
+sections = ["method"]
+lines = "161"
+chars = "297-319"
+text = "Markovian approximation"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "161"
+chars = "321-339"
+text = "Re[Gnn(t)] ≈ Γn¶(t)"
+
+[[blocks]]
+sections = ["method"]
+lines = "166"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0005-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "169"
+chars = "268-322"
+text = "good qualitative description of the inelastic collision"
+
+[[blocks]]
+sections = ["truth"]
+lines = "169"
+chars = "347-423"
+text = "leakage from the scar space can be mitigated by increasing the interaction V3"
+
+[[blocks]]
+sections = ["truth"]
+lines = "169"
+chars = "484-531"
+text = "multi-stage damping of the scar-space population"
+
+[[blocks]]
+sections = ["method"]
+lines = "169"
+chars = "664-692"
+text = "pseudo-mode approach [65, 66]"
+
+[[blocks]]
+sections = ["method"]
+lines = "169"
+chars = "754-772"
+text = "few auxiliary modes"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "169"
+chars = "1075-1079"
+text = "K = 3"
+
+[[blocks]]
+sections = ["truth"]
+lines = "169"
+chars = "1085-1128"
+text = "sufficient to yield quantitative predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "101-132"
+text = "weak Hilbert space fragmentation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "330-393"
+text = "exact quasiparticle-like scars with different scaling properties"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "407-423"
+text = "approximate scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "431-485"
+text = "leakage results from inelastic quasiparticle collisions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "1202-1232"
+text = "two-body losses identified here"
+
+[[blocks]]
+sections = ["method"]
+lines = "309"
+chars = "1-104"
+text = "- [65] B. Garraway, Nonperturbative decay of an atomic system in a cavity, Phys. Rev. A 55, 2290 (1997)."
+
+[[blocks]]
+sections = ["method"]
+lines = "311"
+chars = "1-115"
+text = "- [66] I. de Vega and D. Alonso, Dynamics of non-Markovian open quantum systems, Rev. Mod. Phys. 89, 015001 (2017)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "357"
+chars = "43-65"
+text = "Quantum Many-Body Scars"
+
+[[blocks]]
+sections = ["problem"]
+lines = "369"
+chars = "166-260"
+text = "constrained Hamiltonian Heff = H[[1]] + H[[2]] contains interchain and intrachain hopping terms"
+
+[[blocks]]
+sections = ["problem"]
+lines = "372"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0008-07.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "375"
+chars = "210-240"
+text = "impose] the kinetic constraints"
+
+[[blocks]]
+sections = ["problem"]
+lines = "377"
+chars = "576-626"
+text = "nontrivial contributions of the intrachain coupling"
+
+[[blocks]]
+sections = ["problem"]
+lines = "377"
+chars = "678-718"
+text = "swapping of particles between two strings"
+
+[[blocks]]
+sections = ["problem"]
+lines = "380"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0008-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "393"
+chars = "54-95"
+text = "intrachain constrained Hamiltonian Hi[[2]]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "399"
+chars = "110-152"
+text = "string shown in Fig. S3(a) has length l = 5"
+
+[[blocks]]
+sections = ["problem"]
+lines = "399"
+chars = "249-278"
+text = "endpoints are i = 2 and i = 10"
+
+[[blocks]]
+sections = ["problem"]
+lines = "399"
+chars = "439-459"
+text = "one-dimensional chain"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "401"
+chars = "414-429"
+text = "g(l, k) = l−kk+1"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "401"
+chars = "658-706"
+text = "x(l, k) = L − 1 − [k + 2(l − k)] + 1 = L + k − 2l"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "404"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0009-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "408"
+chars = "1-7"
+text = "(a) (c)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "411"
+chars = "361-429"
+text = "number of configurations for a single magnon string of length l = L/2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "411"
+chars = "449-484"
+text = "dimension of the whole Krylov sector"
+
+[[blocks]]
+sections = ["truth"]
+lines = "411"
+chars = "516-528"
+text = "0.8 × 2[L] /L"
+
+[[blocks]]
+sections = ["truth"]
+lines = "411"
+chars = "534-559"
+text = "(2.2 + 0.32l) × ϕ[l][−][1]"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "416"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0010-01.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "424"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0010-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "427"
+chars = "7-39"
+text = "ϕ = (1+ √5)/2 is the golden ratio"
+
+[[blocks]]
+sections = ["truth"]
+lines = "429"
+chars = "10-31"
+text = "we numerically observe"
+
+[[blocks]]
+sections = ["truth"]
+lines = "429"
+chars = "42-109"
+text = "symmetry sector (NII = NI − 1) of a single string is fully connected"
+
+[[blocks]]
+sections = ["problem"]
+lines = "429"
+chars = "272-341"
+text = "dimension of the symmetry sector {NI, NII} in the lattice with L atoms"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "432"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0010-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "435"
+chars = "59-104"
+text = "recurrence relations can be numerically solved"
+
+[[blocks]]
+sections = ["problem"]
+lines = "439"
+chars = "400-475"
+text = "scattering between a magnon-string of length l and a magnoncluster of size p"
+
+[[blocks]]
+sections = ["problem"]
+lines = "439"
+chars = "524-537"
+text = "{l, xl; p, xp}"
+
+[[blocks]]
+sections = ["problem"]
+lines = "444"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0010-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "448"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0010-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "451"
+chars = "9-46"
+text = "an l g 2 string is linked to a cluster"
+
+[[blocks]]
+sections = ["problem"]
+lines = "455"
+chars = "422-471"
+text = "Two examples for {l = 1; p = 4} and {l = 2; p = 4}"
+
+[[blocks]]
+sections = ["problem"]
+lines = "466"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0011-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "472"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0011-08.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "478"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0011-10.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "482"
+chars = "1-11"
+text = "scar spaces"
+
+[[blocks]]
+sections = ["truth"]
+lines = "482"
+chars = "16-22"
+text = "primary"
+
+[[blocks]]
+sections = ["problem"]
+lines = "485"
+chars = "10-83"
+text = "Probability distribution P (lmax) of the maximum length lmax of the string"
+
+[[blocks]]
+sections = ["problem"]
+lines = "485"
+chars = "163-205"
+text = "Krylov subspace with a dimension DK > 0.5DS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "489"
+chars = "339-373"
+text = "single- or twoquasiparticle mapping"
+
+[[blocks]]
+sections = ["problem"]
+lines = "491"
+chars = "176-187"
+text = "up to L = 22"
+
+[[blocks]]
+sections = ["truth"]
+lines = "491"
+chars = "190-254"
+text = "all the fragmented symmetry sectors are composed of short strings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "491"
+chars = "411-470"
+text = "lmax becomes proportionally large for the primary subsectors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "491"
+chars = "480-525"
+text = "bounded (lmax f 3) for all the scar subsectors"
+
+[[blocks]]
+sections = ["method"]
+lines = "493"
+chars = "8-69"
+text = "Open-system approach for the inelastic quasiparticle collision"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "495"
+chars = "88-125"
+text = "reformulated as an open-system problem"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "498"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0012-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "153-238"
+text = "off-diagonal correlator (m ̸= n) is negligible compared with the diagonal ones (m = n)"
+
+[[blocks]]
+sections = ["method"]
+lines = "527"
+chars = "51-73"
+text = "Markovian approximation"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "527"
+chars = "246-261"
+text = "time scale ∼ 1/J"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "527"
+chars = "353-391"
+text = "evaluate the integral in a duration 1/J"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "530"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0012-16.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "536"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0013-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "540"
+chars = "1-18"
+text = "(a) (c) (d)<br>(b)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "544"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0013-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "547"
+chars = "100-157"
+text = "Real and imaginary part of the correlation function Gnn(t)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "547"
+chars = "242-309"
+text = "fitting results with K = 1 (orange) and K = 3 (blue) auxiliary modes"
+
+[[blocks]]
+sections = ["problem"]
+lines = "547"
+chars = "316-369"
+text = "Evolution of the scar-space population ïΠsð for V3 = 0"
+
+[[blocks]]
+sections = ["method"]
+lines = "549"
+chars = "206-241"
+text = "master equation in the Lindblad form"
+
+[[blocks]]
+sections = ["method"]
+lines = "552"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0013-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "555"
+chars = "32-100"
+text = "leakage from the scar space is mediated by the two-particle loss term"
+
+[[blocks]]
+sections = ["truth"]
+lines = "555"
+chars = "233-310"
+text = "exhibits features of a delta function corresponding to a Markovian white noise"
+
+[[blocks]]
+sections = ["truth"]
+lines = "555"
+chars = "326-362"
+text = "damping of the scar-space probability"
+
+[[blocks]]
+sections = ["method"]
+lines = "557"
+chars = "19-43"
+text = "pseudo-mode approach [S1]"
+
+[[blocks]]
+sections = ["method"]
+lines = "557"
+chars = "183-209"
+text = "few auxiliary bosonic modes"
+
+[[blocks]]
+sections = ["method"]
+lines = "560"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0013-08.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "566"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0013-10.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "569"
+chars = "155-209"
+text = "parameters of the auxiliary modes include the detunings"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "569"
+chars = "221-238"
+text = "coupling strengths"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "569"
+chars = "254-264"
+text = "decay rates"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "572"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0013-12.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "575"
+chars = "5-33"
+text = "parameters {∆σ,n, ¼σ,n, »σ,n}"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "575"
+chars = "148-176"
+text = "a few auxiliary modes (K = 3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "178-263"
+text = "suffice to mimic the reservoir correlation function and yield quantitative predictions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "579"
+chars = "5-66"
+text = "two-quasiparticle states form a subspace of dimension O(L[2] )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "195-208"
+text = "small leakages"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "246-298"
+text = "supporting approximate quantum many-body scars (QMBS)"
+
+[[blocks]]
+sections = ["method"]
+lines = "581"
+chars = "47-73"
+text = "diagonalize the Hamiltonian"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "586"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0014-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "593"
+chars = "68-110"
+text = "evaluated for each eigenstate with energy E"
+
+[[blocks]]
+sections = ["problem"]
+lines = "593"
+chars = "113-166"
+text = "for (a) À = 1, (b) À = 0.8, and (c) À = 0.6 for L = 19"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "158-226"
+text = "several eigenstates have atypical, large overlaps with the scar space"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "237-302"
+text = "clear deviations from the main spectrum and forming visible spikes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "323-350"
+text = "features of approximate QMBS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "507-578"
+text = "eigenenergies ϵk obtained by diagonalizing the scar-space Hamiltonian HS"
+
+[[blocks]]
+sections = ["problem"]
+lines = "595"
+chars = "668-715"
+text = "modified Hamiltonian Heff (À) = ÀH[[1]] + H[[2]]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "595"
+chars = "724-738"
+text = "parameter À f 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "822-899"
+text = "As À decreases, the approximate scars show larger overlaps with the scar space"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "910-982"
+text = "spikes become more pronounced and gradually approach the eigenenergies ϵk"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "595"
+chars = "1035-1088"
+text = "one zero-energy eigenstate induced by many-body caging"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "598"
+text = "![](.figures/arxiv__2506.10806/2506.10806.pdf-0014-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "601"
+chars = "1-104"
+text = "- [S1] B. Garraway, Nonperturbative decay of an atomic system in a cavity, Phys. Rev. A 55, 2290 (1997)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "603"
+chars = "1-230"
+text = "- [S2] C. Turner, A. Michailidis, D. Abanin, M. Serbyn, and Z. Papi´c, Quantum scarred eigenstates in a rydberg atom chain: Entanglement, breakdown of thermalization, and stability to perturbations, Phys. Rev. B 98, 155134 (2018)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "605"
+chars = "1-166"
+text = "- [S3] T.-L. Tan and Y.-P. Huang, Interference-caged quantum many-body scars: the Fock space topological localization and interference zeros, arXiv:2504.07780 (2025)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "607"
+chars = "1-175"
+text = "- [S4] T. Ben-Ami, M. Heyl, and R. Moessner, Many-body cages: disorder-free glassiness from flat bands in Fock space, and many-body Rabi oscillations, arXiv:2504.13086 (2025)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "609"
+chars = "1-150"
+text = "- [S5] E. Nicolau, M. Ljubotina, and M. Serbyn, Fragmentation, Zero Modes, and Collective Bound States in Constrained Models, arXiv:2504.17627 (2025)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "611"
+text = "- [S6] C. Jonay and F. Pollmann, Localized Fock Space Cages in Kinetically Constrained Models, arXiv:2504.20987 (2025)."

@@ -1,0 +1,15 @@
+feature,k_over_pi,omega_over_J1
+main_ridge,0.00,3.3
+main_ridge,0.125,3.7
+main_ridge,0.25,3.9
+main_ridge,0.375,3.0
+main_ridge,0.50,0.75
+main_ridge,0.625,0.15
+main_ridge,0.75,0.70
+main_ridge,0.875,2.8
+main_ridge,1.00,3.55
+upper_support,0.00,4.8
+upper_support,0.25,4.5
+upper_support,0.50,4.2
+upper_support,0.75,4.0
+upper_support,1.00,4.5

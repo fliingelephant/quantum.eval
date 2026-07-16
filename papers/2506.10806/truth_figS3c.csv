@@ -1,0 +1,4 @@
+# Literal fit forms reported in the Fig. S3 caption; no raw point table is supplied by the paper.
+quantity,fit_coefficient,fit_form
+single_string_configurations,0.8,"0.8 * 2^L / L"
+whole_krylov_sector,"2.2 + 0.32*l","(2.2 + 0.32*l) * phi^(l-1)"

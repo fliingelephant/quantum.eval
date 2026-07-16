@@ -1,0 +1,691 @@
+# Partition layer for papers/2410.13354 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-34"
+text = "Emergent spacetime supersymmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "217-339"
+text = "transitions from a weak-coupling gapless phase with spontaneously broken SUSY to a strong-coupling phase with restored SUSY"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "489-554"
+text = "the Ising conformal field theory (CFT) with central charge $c=1/2$"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "703-796"
+text = "belongs to the $c=7/10$ tricritical Ising universality with emergent superconformal invariance"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "992-1082"
+text = "concrete example of a lattice model where explicit microscopic supersymmetry at criticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "5-36"
+text = "Emergent spacetime supersymmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "209-331"
+text = "transitions from a weak-coupling gapless phase with spontaneously broken SUSY to a strong-coupling phase with restored SUSY"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "481-552"
+text = "the Ising conformal field theory (CFT) with central charge _c_ = 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "701-800"
+text = "belongs to the _c_ = 7 _/_ 10 tricritical Ising universality with emergent superconformal invariance"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "996-1086"
+text = "concrete example of a lattice model where explicit microscopic supersymmetry at criticality"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "26-109"
+text = "a model of lattice interacting Majorana fermions with explicit _N_ = 1 supersymmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "383-561"
+text = "universality class of the two-dimensional tricritical Ising (TCI) model with a central charge _c_ = 7 _/_ 10 [10, 11], occurs at the interaction strength _α_ = _α_ c _≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "691-840"
+text = "extended critical Ising phase ( _c_ = 1 _/_ 2) with broken SUSY ( _α < α_ c) or to a two-fold degenerate massive phase with restored SUSY ( _α > α_ c)"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "408-450"
+text = "using finite DMRG and exact diagonalization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "468-509"
+text = "ground state energy density and energy gap"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "63"
+chars = "635-709"
+text = "central charge from entanglement entropy and calculate universal gap ratios"
+
+[[blocks]]
+sections = ["problem"]
+lines = "67"
+chars = "239-296"
+text = "periodic boundary conditions in the fermion representation"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "74"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0002-08.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "78"
+text = "SUSY SSB SUSY unbroken<br>F.F. S.F.<br>(A) YOO<br>0 1/8 Ae 1/2 * 1<br>TCI F.F.<br>(B) \"=p “8 gy<br>0 Ising Ae massive 1/2<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "82"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0002-09.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "86"
+text = "(massive limit)<br>(C)<br>Ising (1,3) TCI (1,3) F.F.<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
+chars = "422-675"
+text = "When 0 _≤ α ≤ α_ c, supersymmetry is broken spontaneously (“SUSY SSB”) and the resulting gapless fermion (the Nambu-Goldstone fermion or Goldstino) dominates low-energy physics, while at least for _α_ c _< α ≤_ 1 _/_ 2, SUSY is unbroken (“SUSY unbroken”)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
+chars = "806-853"
+text = "is numerically determined as _α_ c _≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
+chars = "1071-1202"
+text = "flows either to the _c_ = 1 _/_ 2 critical Ising phase with broken SUSY or to a two-fold degenerate massive phase with unbroken SUSY"
+
+[[blocks]]
+sections = ["problem"]
+lines = "94"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0002-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "103"
+chars = "15-89"
+text = "one-dimensional periodic lattice with _L_ sites, defining Majorana fermions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "103"
+chars = "141-188"
+text = "_{βi, βj}_ = _{γi, γj}_ = 2 _δi,j, {βi, γj}_ = 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "42-59"
+text = "one qubit per site"
+
+[[blocks]]
+sections = ["problem"]
+lines = "108"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "34-93"
+text = "Each site hosts Majorana fermions _βj, γj_ , forming a qubit"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "21-82"
+text = "real supercharge _R_ ( _α_ ) and fermion parity ( _−_ 1) _[F]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "116"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0003-07.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0003-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "132"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "136"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0003-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "139"
+chars = "18-101"
+text = "a constant term added to incorporate supersymmetry and set the energy origin to zero"
+
+[[blocks]]
+sections = ["problem"]
+lines = "139"
+chars = "108-173"
+text = "noninteracting term (6) represents the critical Kitaev chain (CKC)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "103-166"
+text = "interaction term (7) corresponds to the integrable Fendley model"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "145"
+chars = "363-464"
+text = "focus on the phase structure in the range 0 _≤ α ≤_ 1 _/_ 2, where numerical calculations are feasible"
+
+[[blocks]]
+sections = ["problem"]
+lines = "153"
+chars = "50-131"
+text = "ground state energy _E_ g.s. itself, we use its density _E_ g.s.( _α_ ; _L_ ) _/L_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "156"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0003-22.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "159"
+chars = "1-64"
+text = "When _E_ g.s.( _α_ ; _L_ ) _/L_ = 0, SUSY is defined as unbroken"
+
+[[blocks]]
+sections = ["problem"]
+lines = "162"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0003-24.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "189"
+chars = "380-454"
+text = "restoration of SUSY and the gap opening occur simultaneously at _α_ = _α_ c"
+
+[[blocks]]
+sections = ["method"]
+lines = "191"
+text = "## **III. NUMERICAL DETERMINATION OF THE SUSY RESTORATION TRANSITION POINT** _α_ **c** "
+
+[[blocks]]
+sections = ["method"]
+lines = "193"
+chars = "119-209"
+text = "using exact diagonalization and the density matrix renormalization group (DMRG) method [54]"
+
+[[blocks]]
+sections = ["software"]
+lines = "193"
+chars = "228-263"
+text = "Julia implementation of ITensor [55]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "318-374"
+text = "fermionic with periodic boundary conditions (PBC) imposed"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "193"
+chars = "385-424"
+text = "truncation error was set to 10 _[−]_[10]"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "193"
+chars = "457-506"
+text = "system sizes _L_ = 14 _,_ 16 _,_ 18 _, · · · ,_ 50"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "193"
+chars = "509-550"
+text = "starting from random matrix product states"
+
+[[blocks]]
+sections = ["method"]
+lines = "197"
+chars = "29-73"
+text = "numerically identify the critical point _α_ c"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "197"
+chars = "86-168"
+text = "ground state energy density of an infinite system transitions from positive to zero"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "197"
+chars = "222-301"
+text = "calculated the finitesize ground state energy density _E_ g.s.( _α_ ; _L_ ) _/L_"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "199"
+chars = "1-39"
+text = "periodic boundary conditions using DMRG"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "199"
+chars = "51-154"
+text = "extrapolated it to _L →∞_ using the fitting form _E_ g.s.( _α_ ; _L_ ) _/L_ = _e_ g.s.( _α_ ) + _a/L[b]_"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "201"
+chars = "132-156"
+text = "power-law fit to the data"
+
+[[blocks]]
+sections = ["method_params", "anchors"]
+lines = "204"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0004-15.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "207"
+chars = "327-375"
+text = "energy density approaches zero at _α ≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "207"
+chars = "404-458"
+text = "SUSY SSB transition occurs at _α_ = _α_ c _≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "210"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0004-17.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "217"
+chars = "224-355"
+text = "energy density vanishes as _e_ g.s.( _α_ ) _∼_ ( _α_ c _− α_ )[5] _[/]_[2] , indicating the SUSY SSB transition at _α_ c = 0 _._ 463"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "223"
+chars = "17-116"
+text = "calculated the infinite-size energy gap ∆ _∞_ ( _α_ ) by fitting the finite-size data ∆( _L_ ; _α_ )"
+
+[[blocks]]
+sections = ["method", "method_params", "problem"]
+lines = "223"
+chars = "119-208"
+text = "obtained from exact diagonalization for periodic systems with _L_ = 4 _,_ 5 _, · · · ,_ 15"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "223"
+chars = "308-389"
+text = "defined as the energy difference between the lowest and third-lowest energy levels"
+
+[[blocks]]
+sections = ["problem"]
+lines = "225"
+chars = "5-60"
+text = "Due to the even degeneracy of the positive energy states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "232"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0005-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "155-224"
+text = "gap becomes significantly finite around _α_ = 0 _._ 485 _∼_ 0 _._ 4875"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "227-297"
+text = "Error bars are larger near the critical point _α_ = _α_ c _≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "519-577"
+text = "system remains gapless at least for _α ≤ α_ c _≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "243"
+chars = "44-124"
+text = "∆ _∞_ ( _α_ ) becomes significantly finite between _α_ = 0 _._ 485 and 0 _._ 4875"
+
+[[blocks]]
+sections = ["truth"]
+lines = "243"
+chars = "429-473"
+text = "are equal or we have two separate transitions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "243"
+chars = "738-788"
+text = "indeed coincide by carefully analyzing the critical"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "279"
+chars = "38-140"
+text = "numerically calculate the entanglement entropy and the spectral quantity called the universal gap ratio"
+
+[[blocks]]
+sections = ["problem"]
+lines = "291"
+chars = "95-210"
+text = "calculate the entanglement entropy of the numerically obtained ground state wave function at _ℓ_ = _L/_ 2 and _L/_ 4"
+
+[[blocks]]
+sections = ["problem"]
+lines = "291"
+chars = "216-240"
+text = "compute the difference as"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "294"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0006-09.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "problem"]
+lines = "297"
+chars = "43-132"
+text = "using finite DMRG for the spin representation [see (A2)] with periodic boundary conditions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "297"
+chars = "139-154"
+text = "_A_ was set to 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "297"
+chars = "161-253"
+text = "results of ∆ _S_ ( _L_ ) [normalized by _A_ ln(2) _/_ 12] for various _L_ are shown in Fig. 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "279-362"
+text = "data for different _L_ collapse onto the _c_ = 1 _/_ 2 line indicating the Ising CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "369-404"
+text = "plot forms a peak at _α ≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "466-542"
+text = "data collapse now onto the value _c_ = 7 _/_ 10 characteristic of the TCI CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "299"
+chars = "20-91"
+text = "for 0 _._ 463 _< α ≤_ 1 _/_ 2, the plot approaches zero as _L_ increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "301"
+chars = "75-128"
+text = "estimate the critical point to be _α_ c _≈_ 0 _._ 4627"
+
+[[blocks]]
+sections = ["truth"]
+lines = "301"
+chars = "169-333"
+text = "for _α < α_ c, the system is described by the Ising CFT with _c_ = 1 _/_ 2, at _α_ = _α_ c by the TCI CFT with _c_ = 7 _/_ 10, and for _α > α_ c, by a massive theory"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "304"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0006-13.png)"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "308"
+text = "0.7<br>0.6<br>0.5<br>L = 20<br>0.4 0.8 L = 24<br>L = 28<br>0.3 0.7 L = 32<br>0.2 0.6 LL == 3640<br>0.5 L = 44<br>0.1 0.4 L = 48<br>0.40 0.42 0.44 0.46 0.48 L = 52<br>0.0<br>0.0 0.1 0.2 0.3 0.4 0.5<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "311"
+chars = "209-355"
+text = "for _α <_ 0 _._ 4627, the central charge approaches 1 _/_ 2; at _α_ = 0 _._ 4627, it reaches 7 _/_ 10; and for _α >_ 0 _._ 4627, it approaches zero"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "315"
+chars = "132-177"
+text = "use a quantity called the universal gap ratios"
+
+[[blocks]]
+sections = ["problem"]
+lines = "325"
+chars = "79-173"
+text = "four distinct energy spectra depending on the fermion parity (even/odd) and boundary conditions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "331"
+chars = "5-129"
+text = "lowest two energy eigenvalues for fermion parity even/odd and for periodic (PBC) and anti-periodic (APBC) boundary conditions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "334"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0007-03.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "problem"]
+lines = "339"
+chars = "161-261"
+text = "calculated _R_ 1 _,_ 2 _,_ 3 for system sizes _L_ = 16 _,_ 18 _, · · · ,_ 48 _,_ 50 using finite DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "309-434"
+text = "data for different _L_ collapse onto the Ising and TCI values (see Table I) when _α_ ≲ 0 _._ 2 _∼_ 0 _._ 3 and _α ≃_ 0 _._ 463"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "339"
+chars = "555-655"
+text = "determined _α_ c( _L_ ) at which the interpolated data coincide with the corresponding TCI CFT values"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "703-781"
+text = "obtained the transition point _α_ c = 0 _._ 4628 in all cases (a), (b), and (c)"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "344"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0007-07.png)"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "348"
+text = "(a) ● L = 20 ◆<br>8<br>■ L = 30 ◆▲<br>6 ▲ L = 40 ◆◆▲▲■■<br>42 ◆ L = 50 ●■ ◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆◆◆◆ ● ◆◆ ● ◆ ■ ▲ ◆ ● ▲ ◆ ▲ ■ ◆ ● ▲ ◆ ▲ ■● ▲ ▲ ■ ●▲▲■▲■▲■ ◆●▲■◆●▲■●▲■●■●●<br>◆●▲■ ◆●▲■ ◆●▲■ ◆●▲■ ◆●▲■ ◆●■▲ ◆ ● ■▲ ◆ ●■▲ [◆◆][●●][■■][▲] [▲▲][◆]<br>0<br>0.0 0.1 0.2 0.3 0.4 0.5<br>(b)<br>0.450.400.350.30 ●■ LL == 2030 ●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆◆◆◆ ● ◆ ◆◆ ● ◆ ▲■ ◆◆ ▲■● ◆ ▲■● ▲ ■ ▲■ ▲■ ◆ ● ▲■◆●▲■◆●▲■◆●▲■◆●▲■◆●▲■<br>0.25 ● ◆<br>▲ L = 40 ● ■<br>0.200.15 ◆●▲■ ◆●▲■◆ L = ◆●■▲ 50 ◆●■▲ ◆ ● ■▲ ◆ ●■ ▲ ◆●■▲ ◆●■▲ [◆] ●■▲ ◆■▲ ◆▲<br>0.10<br>0.0 0.1 0.2 0.3 0.4 0.5<br>(c)<br>10<br>● L = 20 ◆<br>8 ■ L = 30 ◆▲<br>◆▲■<br>6 ▲ L = 40 ◆▲▲■●■●<br>4 2 ◆●▲■ ◆●▲■◆ L = ◆●▲■ 50 ◆●▲■ ◆●▲■ ◆●■▲ ◆ ● ■▲ ◆●■▲ [◆][●●][■■][▲▲][◆] ◆●■▲ ◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆●■▲◆◆◆◆ ● ◆◆ ● ◆ ■▲ ◆ ● ◆ ■ ▲ ◆ ● ▲◆ ■ ▲ ● ▲ ■ ▲ ● ▲ ■ ▲▲▲■ ◆●▲■◆●▲■●■●<br>0<br>0.0 0.1 0.2 0.3 0.4 0.5<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "351"
+chars = "161-208"
+text = "All approach the TCI values near _α ≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "351"
+chars = "873-922"
+text = "converged to 0.4628 in all cases (a), (b), and (c)"
+
+[[blocks]]
+sections = ["method"]
+lines = "364"
+chars = "24-77"
+text = "numerically investigated the groundstate phase diagram"
+
+[[blocks]]
+sections = ["truth"]
+lines = "364"
+chars = "440-595"
+text = "for small values of the interaction parameter _α_ , the system resides in a SUSY-broken phase, while SUSY is restored for the solvable Fendley model _α_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "366"
+chars = "77-149"
+text = "identified the critical point _α_ c _≈_ 0 _._ 463, where SUSY is restored"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "366"
+chars = "193-263"
+text = "energy density vanishes as _e_ g.s.( _α_ ) _∼_ ( _αc − α_ )[5] _[/]_[2]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "368"
+chars = "400-488"
+text = "energy gap starts significantly deviating from zero around _α ≈_ 0 _._ 485 _∼_ 0 _._ 4875"
+
+[[blocks]]
+sections = ["truth"]
+lines = "368"
+chars = "610-710"
+text = "we cannot definitively conclude whether the gap opening point coincides with the SUSY-restoring point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "368"
+chars = "792-880"
+text = "system remains gapless for _α ≤ αc_ and that the gap opens at or above the critical point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
+chars = "317-390"
+text = "for _α < αc_ , the system is described by the Ising CFT with _c_ = 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
+chars = "442-504"
+text = "central charge increases up to the TCI CFT value _c_ = 7 _/_ 10"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
+chars = "716-876"
+text = "for _α > αc_ , the behavior of the entanglement entropy indicates that the system is gapped and that SUSY SSB and gap opening occur simultaneously at _α_ = _α_ c"
+
+[[blocks]]
+sections = ["method"]
+lines = "372"
+chars = "68-101"
+text = "calculated the universal gap ratio"
+
+[[blocks]]
+sections = ["truth"]
+lines = "374"
+chars = "5-85"
+text = "numerical values at the transition point _α_ c closely match those of the TCI CFT"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "384"
+chars = "124-232"
+text = "employed in calculating the entanglement entropy using the density matrix renormalization group (DMRG) method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "389"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0008-14.png)"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "395"
+text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0008-16.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "398"
+chars = "193-281"
+text = "boundary effects cannot be neglected in the proper treatment of the system’s total parity"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+text = "- [54] S. R. White, Density matrix formulation for quantum renormalization groups, Phys. Rev. Lett. **69** , 2863 (1992). "
+
+[[blocks]]
+sections = ["software"]
+lines = "651"
+text = "- [55] M. Fishman, S. R. White, and E. M. Stoudenmire, Codebase release 0.3 for ITensor, SciPost Phys. Codebases , 4 (2022). "

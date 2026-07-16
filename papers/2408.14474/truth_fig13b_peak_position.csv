@@ -1,0 +1,14 @@
+series,inv_L,Ja_m
+computed,0.0025,1.558
+computed,0.0050,1.570
+computed,0.0075,1.590
+computed,0.0100,1.605
+computed,0.0125,1.618
+computed,0.0150,1.630
+fitted,0.0000,1.5435
+fitted,0.0025,1.558
+fitted,0.0050,1.573
+fitted,0.0075,1.588
+fitted,0.0100,1.603
+fitted,0.0125,1.618
+fitted,0.0150,1.633

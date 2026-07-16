@@ -1,0 +1,11 @@
+feature,k_over_pi,omega_over_J1
+continuum_lower,0.00,0.45
+continuum_lower,0.25,0.25
+continuum_lower,0.50,0.05
+continuum_lower,0.625,0.05
+continuum_lower,0.75,0.25
+continuum_lower,1.00,0.45
+spectral_peak,0.50,0.65
+upper_support,0.00,2.3
+upper_support,0.50,3.8
+upper_support,1.00,2.9

@@ -1,0 +1,898 @@
+# Partition layer for papers/2412.05975 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "314-453"
+text = "Jastrow-Slater wave function and variational Monte Carlo methods, but also corroborated by density-matrix renormalization group calculations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "506-569"
+text = "a gapless point separates a trivial phase from a topological one"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "620-759"
+text = "does not give rise to any phase transition within the topological region, inducing a smooth crossover into a Haldane (spin gapped) insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "771-882"
+text = "the string-order parameter, which characterizes the latter phase, is already finite in the non-interacting limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "928-1111"
+text = "the transition between the trivial and topological states is not direct, since an emergent insulator, which shows evidence of sustaining gapless spin excitations, intrudes between them"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1114-1382"
+text = "A small $V$ interaction further stabilizes the intermediate insulator, while a sufficiently large value of this nearest-neighbor repulsion gives rise to two different charge-density wave insulators, one fully gapped and another still supporting gapless spin excitations"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "316-454"
+text = "Jastrow-Slater wave function and variational Monte Carlo methods but also corroborated by density-matrix renormalization group calculations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "509-572"
+text = "a gapless point separates a trivial phase from a topological one"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "624-763"
+text = "does not give rise to any phase transition within the topological region, inducing a smooth crossover into a Haldane (spin gapped) insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "775-886"
+text = "the string-order parameter, which characterizes the latter phase, is already finite in the non-interacting limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "933-1116"
+text = "the transition between the trivial and topological states is not direct, since an emergent insulator, which shows evidence of sustaining gapless spin excitations, intrudes between them"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1119-1387"
+text = "A small _V_ interaction further stabilizes the intermediate insulator, while a sufficiently large value of this nearest-neighbor repulsion gives rise to two different charge-density wave insulators, one fully gapped and another still supporting gapless spin excitations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "58"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0002-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "62"
+text = "U<br>V<br>+ t<br>+ M<br><_- = fond ae _<br>aS isσλ<br>− M<br>NO − t ~ = wn<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "74-147"
+text = "The two orbitals on each site are represented by yellow and green ellipses"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "168-361"
+text = "on-site energies ( _±M_ ), intra-orbital ( _±t_ ), and inter-orbital ( _isσλ_ ) hoppings are depicted; on the right part, intra-orbital ( _U_ ) and nearestneighbor ( _V_ ) interactions are shown"
+
+[[blocks]]
+sections = ["problem"]
+lines = "71"
+chars = "38-175"
+text = "the fermionic model with two orbitals per site defined in Refs. [34, 35], whose Hamiltonian corresponds to the 1D version of the BHZ model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "74"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0002-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "80"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0002-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "83"
+chars = "299-568"
+text = "ˆ density per orbital is defined by _nj,η_ = S _σ[n]_[ˆ] _[j,η,σ]_[,][while] ˆ the total density on site _j_ is _nj_ = y _η,σ[n]_[ˆ] _[j,η,σ]_[.][Follow-] ing Ref. [35], the interacting part contains intra-orbital on-site interaction and nearest-neighbor density-density"
+
+[[blocks]]
+sections = ["problem"]
+lines = "88"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0002-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "31-192"
+text = "a chain with _L_ sites and periodic-boundary conditions at half filling (i.e., fixing the number of total electrons to be _Ne_ = 2 _L_ ), with _M ≥_ 0 and _t >_ 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "139-272"
+text = "gives rise to the Haldane state (where each orbital is singly occupied and the low-energy sector is described by a spin _S_ = 1 chain)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "284-344"
+text = "the string-order parameter [37] is already finite for _U_ = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "352-474"
+text = "An insulating phase with _gapless_ spin excitations intrudes between trivial and topological phases at finite values of _U_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "737-904"
+text = "a fully gapped CDW is obtained, adiabatically connected to the atomic limit in which sites with 4 electrons alternate with empty sites (this phase is dubbed CDW4 _−_ 0)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "920-1121"
+text = "in a region around _V/U ≈_ 1 _/_ 4 and _M/U ≈_ 1 _/_ 2, a different CDW exists and can be adiabatically connected to the atomic limit in which sites with 3 electrons alternate with singly-occupied sites"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "1235-1305"
+text = "leading to _gapless_ spin excitations (this phase is dubbed CDW3 _−_ 1)"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "41-107"
+text = "JastrowSlater wave functions and variational Monte Carlo techniques"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "128-144"
+text = "DMRG calculations"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "95"
+chars = "146-286"
+text = "on the same clusters, with periodic boundary conditions in the Hamiltonian (but using an _Ansatz_ that is defined on openboundary conditions)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "97"
+chars = "344-410"
+text = "the form of the variational wave function that is used in this work"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "213"
+chars = "27-39"
+text = "_t_ = _λ_ = 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "217"
+chars = "22-51"
+text = "a Jastrow-Slater wave function"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "220"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0004-19.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "223"
+chars = "25-69"
+text = "spin-spin and density-density Jastrow factors"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "226"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0004-21.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "229"
+chars = "7-425"
+text = "the pseudo-potentials _u[α,β] i,j_[and] _[ v] i,j[α,β]_[are variational] parameters, which depend on the spatial distance _|i − j|_ ; in addition, we set _u[α,β] i,j_ = _u[β,α] i,j_[,][and] _[v] i,j[α,β]_ = _vi,j[β,α]_ for _α ̸_ = _β_ and fix the intra-orbital terms to be the same for the two orbitals. Furthermore, _P{Sz_ =0 _}_ is the projection onto the subspace with _S_ tot _[z]_[=][ �] _i,α[S]_[ˆ] _i,α[z]_[= 0.]"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "231"
+chars = "150-210"
+text = "auxiliary (quadratic) Hamiltonian, which contains three terms"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "234"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0004-24.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "237"
+chars = "24-116"
+text = "the “mass” term and the intra- and inter-orbital hoppings (including an on-site inter-orbital"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "244"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0005-02.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "247"
+chars = "8-196"
+text = "_M_ , _λ_[˜] 0 _,σ_ , _t_[˜] _k_ (with _t_[˜] 1 _≡ t_ , fixed to define the energy scale), and _λ_[˜] _k,η,σ_ are variational parameters, which allow a renormalization of the band structure"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "252"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0005-05.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "256"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0005-06.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "260"
+text = "12<br>10 Topological<br>8<br>6<br>4<br>2<br>0<br>0 2 4 6<br>M/t<br>U/t<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "122-159"
+text = "using the Jastrow-Slater wave function"
+
+[[blocks]]
+sections = ["truth"]
+lines = "263"
+chars = "162-310"
+text = "Topological (red) and trivial (blue) states are distinguished by the value of the phase of the many-body marker in Eq. (28) (0 or _π_ , respectively)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "263"
+chars = "370-516"
+text = "an intermediate (pale yellow) region is found, with complex values of the many-body marker. This insulating state sustains gapless spin excitations"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "267"
+chars = "7-52"
+text = "∆and _h_ are additional variational parameters"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "267"
+chars = "70-268"
+text = "the former one is important to induce CDW order in the non-interacting wave function; by contrast, the (fictitious) magnetic field _h_ is useful to obtain an accurate _Ansatz_ in the large- _U_ limit"
+
+[[blocks]]
+sections = ["method"]
+lines = "269"
+chars = "199-225"
+text = "simple Metropolis algorithm"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "269"
+chars = "288-345"
+text = "only a reduced number of variational parameters is defined"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "269"
+chars = "538-717"
+text = "open-boundary conditions, which would require a much larger number of variational parameters [e.g., _O_ ( _L_ ) in the Slater determinant and _O_ ( _L_[2] ) in the Jastrow factors]"
+
+[[blocks]]
+sections = ["method"]
+lines = "271"
+chars = "10-117"
+text = "our variational Monte Carlo results are compared to DMRG calculations in which we take a matrixproduct state"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "271"
+chars = "166-231"
+text = "the Hamiltonian is always defined with periodicboundary conditions"
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "271"
+chars = "266-309"
+text = "algorithm implemented in the ITensor library"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "271"
+chars = "316-348"
+text = "up to a bond dimension _χ_ = 1600"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "271"
+chars = "410-482"
+text = "the variance of the total energy, which is always below 0 _._ 0025 _t_[2]"
+
+[[blocks]]
+sections = ["method"]
+lines = "273"
+chars = "67-100"
+text = "a variational Monte Carlo approach"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "88-109"
+text = "three different phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "129-276"
+text = "a trivial insulator, which can be connected to both the non-interacting limit with _M/t >_ 2 and the Trivial state described within the atomic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "297-434"
+text = "a topological insulator, connected to the non-interacting state obtained for _M/t <_ 2 and the Uniform state described in the atomic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "459-576"
+text = "evidence for a third uniform phase, which intrudes in a narrow region between trivial and topological ones for _U >_ 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "629-701"
+text = "gapless spin excitations at _q_ = 0 (while they are gapped at _q_ = _π_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "775-840"
+text = "density excitations are gapped, indicating an insulating character"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "882-1001"
+text = "breaking of both _η_ - PH and I+ _η_ sign symmetries of Eqs. (8) and (11), while preserving the translational invariance"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "282"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "286"
+text = "0 . 00<br>° 2 . 35<br>° 0 . 05 Spin-1 L=100<br>° 2 . 40<br>° 0 . 10 ° 2 . 45<br>° 0 . 15 ° 2 . 50<br>° 0 . 20 ° 2 . 55<br>0 . 000 0 . 002 0 . 004 0 . 006 0 . 008 0 . 010<br>° 0 . 25 t [2] /U [2]<br>° 0 . 30<br>° 0 . 35<br>° 0 . 40<br>Spin-1 L=100 L=50 L=100<br>° 0 . 45<br>0 5 10 15 20<br>L=50<br>0 . 8 L=100<br>0 . 6<br>0 . 4<br>0 . 2<br>0 . 0<br>0 5 10 15 20<br>U/t<br>)<br>2 /U (4 t<br>2) E/<br>L/<br>(<br>string<br>C<br>2)<br>L/<br>(<br>parity<br>C<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "289"
+chars = "30-51"
+text = "Jastrow-Slater results"
+
+[[blocks]]
+sections = ["method"]
+lines = "289"
+chars = "86-133"
+text = "DMRG calculations for the spin1 Heisenberg model"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "289"
+chars = "282-313"
+text = "for _L_ = 50 and _L_ = 100 sites"
+
+[[blocks]]
+sections = ["truth"]
+lines = "293"
+chars = "216-299"
+text = "this state evolves continuously into the ground state of the spin-1 Heisenberg model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "293"
+chars = "375-443"
+text = "characterized by having a non-vanishing (spin) string-order parameter"
+
+[[blocks]]
+sections = ["method"]
+lines = "301"
+chars = "38-86"
+text = "either variational Monte Carlo or DMRG approaches"
+
+[[blocks]]
+sections = ["truth"]
+lines = "301"
+chars = "474-497"
+text = "_E/J_ = _−_ 2 _._ 366(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "301"
+chars = "583-604"
+text = "_E/J_ = _−_ 2 _._ 4015"
+
+[[blocks]]
+sections = ["method"]
+lines = "301"
+chars = "607-640"
+text = "obtained from the DMRG calculation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "301"
+chars = "972-1092"
+text = "the string-order parameter _C_[string] ( _L/_ 2) is finite not only in the strongcoupling regime but also down to _U_ = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "307"
+chars = "389-475"
+text = "_C_[parity] ( _L/_ 2) becomes finite as soon as the intra-orbital interaction is finite"
+
+[[blocks]]
+sections = ["truth"]
+lines = "307"
+chars = "560-697"
+text = "the non-interacting topological insulator is adiabatically connected to the strongcoupling limit, described by the spin-1 Heisenberg model"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "309"
+chars = "30-216"
+text = "the most relevant parameter necessary to correctly capture the physical properties of this phase is the fictitious antiferromagnetic field _h_ of Eq. (25), which becomes finite at _U >_ 0"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "309"
+chars = "219-346"
+text = "the presence of the spin-spin Jastrow factor of Eq. (20) is also crucial to prevent the instauration of a true magnetic ordering"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "316"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0007-01.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "320"
+text = "º<br>L=50<br>º/ 2 L=100 U/t  = 1<br>0<br>0 . 6 1 . 0 1 . 4 1 . 8 2 . 2 2 . 6 3 . 0 3 . 4 3 . 8<br>º /<br>º/ 2 U/t  = 6<br>0<br>2 . 6 3 . 0 3 . 4 3 . 8 4 . 2 4 . 6 5 . 0 5 . 4 5 . 8<br>º<br>º/ 2 U/t  = 10<br>0<br>4 . 0 4 . 4 4 . 8 5 . 2 5 . 6 6 . 0 6 . 4 6 . 8 7 . 2<br>M/t<br>)<br>æ<br>z<br>arg(<br>)<br>æ<br>z<br>arg(<br>)<br>æ<br>z<br>arg(<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "323"
+chars = "15-36"
+text = "Jastrow-Salter results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "323"
+chars = "179-268"
+text = "The yellow strips indicate regions where the phase of the manybody marker is not quantized"
+
+[[blocks]]
+sections = ["truth"]
+lines = "333"
+chars = "148-232"
+text = "_zσ_ is always real and its sign has an abrupt change from _M/t_ = 2 _._ 2 to 2 _._ 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "333"
+chars = "277-308"
+text = "a very narrow intermediate phase"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "336"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0007-07.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "340"
+text = "0 . 3<br>0 . 2<br>2<br>0 . 1<br>0<br>0 . 0 0 . 1 0 . 2<br>0 . 0<br>0 2 4 6<br>0 . 75<br>2<br>0 . 50<br>1<br>0 . 25<br>0<br>0 . 0 0 . 1 0 . 2<br>0 . 00<br>0 2 4 6<br>q<br>)<br>q<br>( )<br>q<br>S (<br>/S<br>2<br>q<br>)<br>q<br>( )<br>q<br>(<br>N<br>/N<br>2<br>q<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "345"
+chars = "42-92"
+text = "there are values of _M/t_ for which _zσ_ is complex"
+
+[[blocks]]
+sections = ["truth"]
+lines = "345"
+chars = "123-173"
+text = "this region extends from _M/t ≈_ 5 _._ 5 to 6 _._ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "345"
+chars = "255-339"
+text = "the intermediate region with a complex _zσ_ is detected for 5 _._ 3 ≲ _M/t_ ≲ 5 _._ 9"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "347"
+chars = "34-219"
+text = "the variational state isintra-orbitaldefined by anparametersauxiliary _M_ Hamiltonian˜ and _t_[˜] _k_ converge(25) in whichto valuesthe that would give rise to an almost gapless spectrum"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "347"
+chars = "231-439"
+text = "the on-site inter-orbital hopping parameter, taken as _λ_[˜] 0 _,σ_ = _iσλ_ 0 with a real _λ_ 0, becomes finite (as well as a nearest-neighbor inter-orbital term _λ_[˜] 1 _,η,σ_ = _iηsσγ_ 1, with a real _γ_ 1)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "347"
+chars = "509-677"
+text = "These inter-orbital terms explicitly break the _η_ -PH and I+ _η_ sign symmetries (see Appendix A), as highlighted by the complex value of the many-body marker in Fig. 5"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "347"
+chars = "680-804"
+text = "The variational state preserves translational invariance, since the optimal value of the CDW parameters ∆is vanishingly small"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "354"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0008-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "358"
+chars = "943-1001"
+text = "gularity, with a quadratic behavior for small values of the"
+
+[[blocks]]
+sections = ["method"]
+lines = "358"
+chars = "1007-1038"
+text = "the Jastrow-Slater wave function"
+
+[[blocks]]
+sections = ["truth"]
+lines = "358"
+chars = "1121-1180"
+text = "(red), trivial (blue), and intermediate (pale yellow) phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "358"
+chars = "1363-1423"
+text = "gapped CDW (pale blue) exits, for large-enough values of  V/t"
+
+[[blocks]]
+sections = ["truth"]
+lines = "358"
+chars = "1548-1662"
+text = "density structure factor preserves a completely smooth<br>behavior, indicating an insulating character of the state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "358"
+chars = "1668-1820"
+text = "the spin structure factor has a linear behavior at small CDW<br>4−0<br>momenta, e.g., S ( q ) ∝ q , signaling the existence of gap- 4<br>less excitations"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "358"
+chars = "1984-2040"
+text = "All<br>these features are reproduced by DMRG calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "358"
+chars = "2076-2169"
+text = "wave functions with a metal-<br>lic character [i.e., with both S ( q ) and N ( q ) linear in q"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "280-334"
+text = "enlarges the stability region of the intermediate phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "355-387"
+text = "two additional phases settle down"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "407-476"
+text = "a fully gapped CDW, which appears for sufficiently large values of _V_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "628-798"
+text = "The second one is an insulating CDW, still breaking the translational symmetry but sustaining gapless spin excitations, connected to the CDW3 _−_ 1 presented in section II"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "881-937"
+text = "we refer to these insulators as CDW4 _−_ 0 and CDW3 _−_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "365"
+chars = "214-427"
+text = "topological (red), trivial (blue), intermediate (pale yellow), and CDW4 _−_ 0 (pale blue), a CDW3 _−_ 1 with gapless spin excitations (orange) is stabilized, between the intermediate and the fully gapped CDW phases"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "384"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "388"
+text = "8<br>M/t=0.5 1 . 0 2<br>6 M/t=4.2<br>M/t=6.0 0 0 . 0 0 . 2<br>4 0 . 5<br>2<br>0 . 0<br>0 0 2 4 6<br>0 1 2 3 4 5 10 [2]<br>8<br>M/t=2.0<br>6 M/t=6.0 10 [0]<br>M/t=9.0<br>9 . 0<br>4<br>10 [°] [2]<br>8 . 5<br>2<br>0 . 0 0 . 1 0 . 2<br>0 2 4 6<br>0<br>q<br>0 1 2 3 4 5 6<br>V/t Figure 10. The same in Fig. 6 for the CDW33 − 1 phase, with<br>)<br>q<br>(<br>/S<br>2<br>q<br>)<br>q<br>(<br>cdw<br>S<br>m<br>)<br>q<br>(<br>)<br>cdw N ( q<br>m 2 /N<br>q<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "391"
+chars = "206-230"
+text = "huge value of _N_ ( _π_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "393"
+chars = "15-36"
+text = "Jastrow-Salter results"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "393"
+chars = "109-126"
+text = "for _L_ = 50 sites"
+
+[[blocks]]
+sections = ["truth"]
+lines = "397"
+chars = "42-128"
+text = "the transition between the topological insulator and the fully gapped CDW is continuous"
+
+[[blocks]]
+sections = ["truth"]
+lines = "397"
+chars = "156-306"
+text = "a first-order transition (with a jump in _m_ cdw) is clearly detected when the intra-orbital Hubbard interaction is increased further, e.g., _U/t_ = 14"
+
+[[blocks]]
+sections = ["method"]
+lines = "397"
+chars = "354-370"
+text = "DMRG calculations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "16-137"
+text = "the intermediate region (where the manybody marker is complex) is characterized by a vanishingly small CDW order parameter"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "211-247"
+text = "no sign of the CDW3 _−_ 1 is detected"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "312-368"
+text = "a continuous transition to a fully gapped CDW is observed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "396-485"
+text = "the transition between the trivial and the CDW4 _−_ 0 insulator is most likely first-order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "545-617"
+text = "the CDW3 _−_ 1 phase appears in a rather wide region of the phase diagram"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "774-821"
+text = "shows a “step-like” behavior when increasing _V_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "863-989"
+text = "the spin structure factor _S_ ( _q_ ) acquires singularities at _q_ = 0 and _π_ , thus signaling the existence of gapless modes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "1005-1089"
+text = "The presence of a huge peak in the density structure factor at _q_ = _π_ is the hall-"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "1-86"
+text = "mark of the insurgence of charge disproportionation [i.e., _N_ ( _π_ ) _≈ m_ cdw _L_ ]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "137-230"
+text = "the transition between the intermediate state and the CDW3 _−_ 1 one is most likely continuous"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "300-396"
+text = "the transition from gapless to gapped CDW phases looks first-order, with a sudden jump in _m_ cdw"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "548-620"
+text = "_m_ cdw is always smaller than the “saturation” limit (i.e., _m_ cdw = 2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "661-723"
+text = "cannot be used to distinguish between CDW3 _−_ 1 and CDW4 _−_ 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "949-1099"
+text = "while the fully gapped CDW4 _−_ 0 has a smooth spin-spin structure factor, the gapless CDW3 _−_ 1 displays singularities for both _q_ = 0 and _q_ = _π_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "35-72"
+text = "both CDW3 _−_ 1 and CDW4 _−_ 0 regions"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "403"
+chars = "79-237"
+text = "optimized variational wave function is constructed from the auxiliary Hamiltonian containing, besides on-site and hopping parameters, a sizable CDW parameter ∆"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "403"
+chars = "267-417"
+text = "the quasilong range order in the spin sector is triggered by the fictitious magnetic field _h_ in Eq. (25) and the spin-spin Jastrow factor in Eq. (20)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "408"
+text = "![](.figures/arxiv__2412.05975/2412.05975.pdf-0010-01.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "412"
+text = "0 . 0 2<br>0 . 0 1<br>204<br>202<br>0 . 0 0 . 2<br>0 . 0 0<br>0 2 4 6<br>10 [3]<br>51<br>10 [1]<br>50<br>0 . 0 0 . 2<br>10 [°] [1]<br>10 [°] [3]<br>0 2 4 6<br>q<br>)<br>q<br>(<br>)<br>S ( q<br>/S<br>2<br>q<br>)<br>q<br>(<br>/N<br>) 2 q<br>q<br>(<br>N<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "415"
+chars = "209-233"
+text = "huge value of _N_ ( _π_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "93-198"
+text = "topological and trivial insulating phases, separated by a continuous transition, where the band gap closes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "334-426"
+text = "the topological insulator is adiabatically connected to the Haldane (spin-1 gapped) insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "448-586"
+text = "transition from the trivial to the topological phase is no longer direct, but an intermediate phase intrudes in a small region between them"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "589-816"
+text = "This intermediate phase (still insulating) is characterized by gapless spin excitations at _q_ = 0 and a complex many-body marker (28), which indicates that both _η_ -PH and I+ _η_ sign symmetries of Eqs. (8) and (11) are broken"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "872-934"
+text = "two additional phases emerge, breaking translational symmetries"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "937-1033"
+text = "One of these phases (CDW4 _−_ 0) is stabilized for large-enough values of _V_ and is fully gapped"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "1036-1177"
+text = "The other one (CDW3 _−_ 1) appears when _U_ and _V_ have comparable values and sustains gapless spin excitations at both _q_ = 0 and _q_ = _π_"
+
+[[blocks]]
+sections = ["method"]
+lines = "419"
+chars = "1350-1424"
+text = "based on both Jastrow-Slater variational wave functions and DMRG approaches"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "1427-1511"
+text = "strongly suggest that the intermediate gapless phase is a genuine state of the system"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "429"
+chars = "78-186"
+text = "the parameters that enter the auxiliary Hamiltonian in Eq. (22), used to define the variational wave function"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "429"
+chars = "369-456"
+text = "the inter-orbital hoppings and/or the fictitious magnetic field _h_ and CDW ∆ parameters"
+
+[[blocks]]
+sections = ["software"]
+lines = "533"
+chars = "56-115"
+text = "The ITensor Software Library for Tensor Network Calculations"

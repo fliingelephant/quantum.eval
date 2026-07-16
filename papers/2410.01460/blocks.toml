@@ -1,0 +1,979 @@
+# Partition layer for papers/2410.01460 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-61"
+text = "First-order transition and marginal critical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "5"
+chars = "112-150"
+text = "efficient tensor-network implementation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-55"
+text = "First-order transition and marginal critical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "15"
+chars = "106-144"
+text = "efficient tensor-network implementation"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "137-183"
+text = "tensor network renormalization group techniques"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "573-619"
+text = "tensor network renormalization group algorithms"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "622-722"
+text = "We demonstrate the existence of two transition lines, featuring both first- and second-order regimes."
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "739-853"
+text = "the central charge and the critical exponents are shown to be compatible with the Ashkin-Teller universality class."
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "855-1008"
+text = "This picture is consistent with that given by Monte Carlo simulations of the J_{1}-J_{2} model but not with recent studies with tensor network techniques."
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "3-55"
+text = "First-order transition and marginal critical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "41"
+chars = "143-189"
+text = "Tensor-Network Renormalization-Group techniques"
+
+[[blocks]]
+sections = ["method"]
+lines = "41"
+chars = "573-619"
+text = "Tensor-Network Renormalization-Group algorithms"
+
+[[blocks]]
+sections = ["truth"]
+lines = "41"
+chars = "621-720"
+text = "We demonstrate the existence of two transition lines, featuring both first and second-order regimes."
+
+[[blocks]]
+sections = ["truth"]
+lines = "41"
+chars = "737-851"
+text = "the central charge and the critical exponents are shown to be compatible with the Ashkin-Teller universality class."
+
+[[blocks]]
+sections = ["truth"]
+lines = "41"
+chars = "853-1002"
+text = "This picture is consistent with that given by Monte Carlo simulations of the J1 − J2 model but not with recent studies with Tensor-Network techniques."
+
+[[blocks]]
+sections = ["problem"]
+lines = "48"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0001-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "56"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0001-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+text = "FIG. 1. Ising model with nearest and next-to-nearest couplings. The black edges are the ferromagnetic couplings J1. The dashed edges are anti-ferromagnetic with a coupling J2. The blue and red colors correspond to the two sublattices that are decoupled when J1 = 0. "
+
+[[blocks]]
+sections = ["problem"]
+lines = "74"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0002-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "80"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0002-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "86"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0002-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "77-130"
+text = "simulations by Tensor Renormalization Group algorithms"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "41-54"
+text = "BTRG algorithm"
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "1-47"
+text = "We consider two anti-ferromagnetic Ising models"
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "69-113"
+text = "coupled by a non-local spin-spin interaction."
+
+[[blocks]]
+sections = ["problem"]
+lines = "108"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "1-123"
+text = "The first two lines correspond to the Hamiltonian of two replicas of an anti-ferromagnetic Ising model on a square lattice."
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "356-434"
+text = "The third line of Eq. 5 is an interaction term that couples these two replicas."
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "436-528"
+text = "The interaction is ferromagnetic on horizontal edges and anti-ferromagnetic on vertical ones."
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "639-758"
+text = "The phase diagram of this model is expected to display more symmetries than the original J1 − J2 model defined by Eq. 2."
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "760-810"
+text = "It is indeed symmetric under a change of sign of J1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "114"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "61-113"
+text = "It is also symmetric under the exchange of J1 and J2."
+
+[[blocks]]
+sections = ["problem"]
+lines = "120"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "123"
+chars = "1-35"
+text = "and then flipped on every two lines"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "124-247"
+text = "rewrite the inter-layer Hamiltonian (third and fourth lines of Eq. 5) as a sum over the plaquettes of a checkerboard lattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "132"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "135"
+chars = "1-39"
+text = "Introducing the staggered magnetization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "138"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-14.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "143"
+chars = "79-196"
+text = "Performing now a 45[◦] rotation of the lattice around the center of the plaquette, the interaction Hamiltonian becomes"
+
+[[blocks]]
+sections = ["problem"]
+lines = "146"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-17.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "151"
+text = "## B. The BTRG algorithm "
+
+[[blocks]]
+sections = ["method"]
+lines = "153"
+text = "The BTRG algorithm derives from the Tensor Renormalization Group (TRG) algorithm introduced by Levin and Nave [24, 25]. The original TRG algorithm was proposed first for the triangular lattice before being extended to the square lattice [26]. The starting point is a decomposition of the partition function as a product of rank 4 tensors: "
+
+[[blocks]]
+sections = ["method"]
+lines = "156"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-21.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "159"
+text = "A tensor T is located at each vertex α of the lattice. Eα denotes the subset of edges of the lattice connecting the vertex α to its neighbors. Bond variables si are carried by the edges of the lattice. The bond variable si appears among the indices of the two tensors located at the vertices that are connected by the bond i. In the simple case of the Ising model, a possible decomposition of the partition function consists in identifying the bond variables si with the Ising spins σi (or with (σi + 3)/2 ∈{1, 2} in the numerical implementation). The tensors T are then located at the center of the plaquettes of the square lattice and correspond to the Boltzmann weight of this plaquette: "
+
+[[blocks]]
+sections = ["method"]
+lines = "162"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-23.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+text = "This formulation makes it easy to construct the effective statistical weight T[eff] resulting from the decimation of a spin σi. T[eff] is given by the contraction of the two tensors at the two edges of the bond carrying the spin σi "
+
+[[blocks]]
+sections = ["method"]
+lines = "170"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+text = "It is a rank 6 tensor. Iterating this procedure leads to a partition function with fewer and fewer spins but with tensors of larger and larger ranks that rapidly become unmanageable by a computer. The solution proposed by Levin and Nave relies on a Singular Value Decomposition (SVD) of each tensor before any decimation. The SVD is performed in two different ways: "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "176"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "179"
+text = "for odd and even lattice sites (Fig. 3). U and V are unitary matrices that are reshaped into rank 3 tensors. Each rank 4 tensor T is replaced by the contraction of either the two rank 3 tensors Usisj sn �Λsn and �Λsn Vskslsn on even sites or Uslsisn �Λsn and �Λsn Vsj sksn on odd sites. As can be seen on Fig. 3, the new tensors form a lattice with two kinds of plaquettes with either 4 or 8 sites. The 4 tensors of the plaquettes with 4 sites can be contracted, leaving a single rank 4 tensor. Performing this operation in all such plaquettes leads to a new lattice of rank 4 tensors with a lattice step larger by a factor √2 and oriented at 45[◦] of the initial one. The above-detailed procedure is exact. However, if the dimension of the tensors is initially χ[4] , the dimension of the rank 3 tensors after the SVD of Eq. 14 is χ × χ × χ[2] . After contraction, the final tensors have a dimension (χ[2] )[4] . Again, after a few iterations of this algorithm, the tensors become exponentially large. To circumvent this problem, the SVD Eq. 14 can be limited to the χ largest singular values. This truncation ensures that the dimension of the rank 3 tensors U and V are χ[3] , leading to a tensor T of dimension χ[4] after contraction. This algorithm belongs to the class of variational methods. Indeed, the truncation minimizes the error defined as the Hilbert-Schmidt norm ||T − Ttrunc|| where Ttrunc is the result of the truncation of T . "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "181"
+text = "The accuracy of the TRG algorithm can be improved by introducing a weight w on each bond of the lattice [27]. The decomposition Eq. 11 of the partition function is replaced by "
+
+[[blocks]]
+sections = ["method"]
+lines = "184"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "187"
+text = "The Bond-Weighted Tensor Renormalization Group algorithm (BTRG) is very similar to the TRG algorithm. "
+
+[[blocks]]
+sections = ["method"]
+lines = "190"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "193"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "194"
+chars = "1-69"
+text = "T sk V<br>sl si sj U<br>sl sk<br>sj<br>si<br>T sk V<br>sl si sj U<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "197"
+text = "FIG. 3. TRG algorithm on the square lattice. Tensors are represented as disks with different colors on even and odd sites. The bonds between them carry the variables si that have to be integrated out to compute the partition function. Each variable si appears among the indices of the two tensors at both edges of the bond i. Above and below, the Singular Value Decomposition of the tensor T on odd and even sites allows to write the tensor T as the contraction of two rank 3 tensors U √Λ and √ΛV . In the center, the new lattice obtained after the decomposition of all tensors T . On the right, the bonds of the square plaquettes have been integrated out, leaving a square lattice of new effective tensors represented in orange color. "
+
+[[blocks]]
+sections = ["method"]
+lines = "200"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "203"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "204"
+chars = "1-48"
+text = "T sk V<br>sl si sj U<br>T sk V<br>sl si sj U<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "208"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "211"
+text = "FIG. 4. BTRG algorithm on the square lattice. The difference with the TRG algorithm lies in the presence of diagonal tensors on each edge of the lattice. They are represented as black dots on the figure. "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "213"
+text = "The main difference lies in the way the rank 4 tensors T are decomposed after the SVD of Eq. 14. Each tensor T is replaced by the contraction of either the two rank 3 tensors Usisj sn (Λsn )[k] and (Λsn )[k] Vskslsn on even sites or Uslsisn (Λsn )[k] and (Λsn )[k] Vsj sksn on odd sites. Between these two rank 3 tensors, a new weight (Λsn )[1][−][2][k] is introduced. k is a free parameter. The TRG algorithm is recovered when k = 1/2. It was suggested that the optimal choice is k = −1/2 [27]. The algorithm is depicted on Fig. 4. "
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "software", "software_params", "truth"]
+lines = "218"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "222"
+chars = "61-137"
+text = "from the χ χ × χ transfer matrix M transfer matrix M M of the system obtained"
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "222"
+chars = "351-402"
+text = "then estimated using the Lanczos algorithm as imple-"
+
+[[blocks]]
+sections = ["software"]
+lines = "222"
+chars = "414-447"
+text = "mented in the Arpack library [32]."
+
+[[blocks]]
+sections = ["method"]
+lines = "222"
+chars = "495-531"
+text = "given by the logarithm of the largest"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "222"
+chars = "709-734"
+text = "n of BTRG iterations by √2"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "222"
+chars = "961-988"
+text = "h = 10 [−][3] to the system."
+
+[[blocks]]
+sections = ["truth"]
+lines = "222"
+chars = "1030-1079"
+text = "The transition becomes steeper as J0 is increased."
+
+[[blocks]]
+sections = ["truth"]
+lines = "222"
+chars = "1141-1201"
+text = "This suggests the possibility of a first-order phase at large"
+
+[[blocks]]
+sections = ["method"]
+lines = "222"
+chars = "3483-3498"
+text = "BTRG simulations"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "222"
+chars = "3750-3793"
+text = "finite-difference of the free energy density"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+text = "Free energy and critical exponents can be estimated from the χ χ × χ transfer matrix M transfer matrix M M of the system obtained by contraction of the tensor T [28–31]: "
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "227"
+text = "The largest eigenvalues λii of the transfer matrix M are then estimated using the Lanczos algorithm as implemented in the Arpack library [32]. The free energy density of the system is given by the logarithm of the largest eigenvalue λ0:0:: "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "233"
+chars = "152-219"
+text = "BTRG simulations were performed with χ = 32 states and 32 iterations"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "233"
+chars = "280-377"
+text = "staggered magnetization density is estimated from the finite-difference of the free energy density"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "236"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "21-187"
+text = "the behavior of the staggered magnetization shows the existence of a transition line in the half plane J2 > J1 of the phase diagram with possibly a first-order regime."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "241"
+chars = "1-70"
+text = "A stable estimate is obtained for small magnetic fields h ≃ 10[−][3] ."
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "72-109"
+text = "A phase transition is clearly observed"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "245"
+chars = "1115-1149"
+text = "dashed curves to the quadratic fit."
+
+[[blocks]]
+sections = ["method"]
+lines = "245"
+chars = "1288-1341"
+text = "free energy density from the largest eigenvalue of the"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "245"
+chars = "1343-1349"
+text = "χ = 48."
+
+[[blocks]]
+sections = ["method"]
+lines = "245"
+chars = "1377-1451"
+text = "The central charge c is then estimated from the Finite-Size Scaling Eq. 22."
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "245"
+chars = "1453-1523"
+text = "To take into account the first correction to this behavior, a quadratic"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "250"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0006-03.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "253"
+chars = "108-189"
+text = "lattice size is multiplied by a factor √2 at each iteration of the BTRG algorithm."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "253"
+chars = "653-695"
+text = "our largest lattice size is 33 √2 ≃ 92, 680"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "253"
+chars = "738-791"
+text = "finite number of states χ kept in the BTRG calculation"
+
+[[blocks]]
+sections = ["method_params", "software", "software_params"]
+lines = "253"
+chars = "804-889"
+text = "finite accuracy in the estimation of the largest eigenvalue λ0 with the Arpack library"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "253"
+chars = "923-998"
+text = "discarded all free energies f (Ln) such that |f (Ln) − f (Ln−1)| < 10[−][12]"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "253"
+chars = "1000-1068"
+text = "where {Ln} are the set of lattices sizes given by the BTRG algorithm."
+
+[[blocks]]
+sections = ["method"]
+lines = "255"
+chars = "1-114"
+text = "The critical lines of the phase diagram have been determined by searching for the maximum of the central charge c."
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "255"
+chars = "116-216"
+text = "A rough estimate of the location of the critical lines was obtained by performing a scan of the plane"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "31-85"
+text = "while keeping only χ = 16 states in the BTRG algorithm."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "87-183"
+text = "The location of the maxima was then refined by dichotomy until reaching an accuracy of 10[−][5] ."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "185-295"
+text = "A few points around the maxima were selected and used to initiate a new search by dichotomy with χ = 24 states."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "297-344"
+text = "The procedure was repeated for 32 and 48 states."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "346-396"
+text = "The central charge is plotted for χ = 16 in Fig. 7."
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "398-431"
+text = "Two branches are clearly observed."
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "516-563"
+text = "The two branches seem to merge at J1 = J2 ≃ 0.6."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "603-716"
+text = "the free energy density f (L) reaches a plateau already for small lattice sizes L so that no fit can be performed."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "718-836"
+text = "For χ = 24, the free energy density f (L) can be fitted only for J1 ≲ 0.40 (first branch) or J2 ≲ 0.40 (second branch)."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "838-939"
+text = "For χ = 32 and 48, the fit is reliable only for J1 ≲ 0.33 (first branch) or J2 ≲ 0.33 (second branch)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "973-1010"
+text = "the two branches do not merge anymore."
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "1081-1133"
+text = "A phase transition was indeed observed in Sec. III A."
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "1260-1334"
+text = "The phase transition beyond J1 ≳ 0.33 is therefore probably of first order."
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "93-206"
+text = "central charge is approximatively constant for J1, J2 ≲ 0.4, then decreases rapidly and vanishes for J1, J2 ≃ 0.6."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "259"
+chars = "208-228"
+text = "For χ = 24, 32 and 48"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "317-326"
+text = "c = 0.9774"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "388-397"
+text = "c = 0.9383"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "259"
+chars = "464-474"
+text = "for χ = 48."
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "264"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0007-01.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "268"
+chars = "505-540"
+text = "χ = 16 states in the BTRG algorithm."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "268"
+chars = "542-584"
+text = "erations of the BTRG algorithm with χ = 96."
+
+[[blocks]]
+sections = ["method"]
+lines = "268"
+chars = "791-832"
+text = "can be estimated from the gaps between the"
+
+[[blocks]]
+sections = ["method"]
+lines = "268"
+chars = "906-942"
+text = "The gap-exponent relation states that"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "268"
+chars = "1040-1093"
+text = "To improve the accuracy on the xn, additional calcula-"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "268"
+chars = "1581-1590"
+text = "χ = 16 for"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "268"
+chars = "1592-1649"
+text = "At too small lattice sizes, Finite-Size corrections cannot"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "2041-2049"
+text = "c ≃ 0.498"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "2054-2107"
+text = "the scaling dimensions either diverge or tends to zero"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "2120-2143"
+text = "(J1, J2) ≃ (0.61, −0.59)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "2149-2161"
+text = "(0.59, −0.61)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "268"
+chars = "2292-2339"
+text = "Due to the finite number of states χ kept in the"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "268"
+chars = "2402-2452"
+text = "BTRG algorithm, the system is indeed gapped and not"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "268"
+chars = "2529-2565"
+text = "We measured the scaling dimensions in"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "2702-2736"
+text = "BTRG algorithm took the system to a"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "3034-3052"
+text = "at most 4.10 [−][4]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "3159-3188"
+text = "They take a value close to 1/8"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "3456-3495"
+text = "deviations that are at most 6% from this"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "3511-3545"
+text = "they decrease down to a value 0.118"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "273"
+chars = "639-708"
+text = "for x4 (∗) has been computed using a parabolic approximation of x3 (◦)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "779-793"
+text = "0.116 at χ = 96"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "803-835"
+text = "relative deviation of 6% from 1/8"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "1069-1092"
+text = "good agreement with this"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "1165-1257"
+text = "This provides strong evidence that the model belongs to the Ashkin-Teller universality class."
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "273"
+chars = "1318-1364"
+text = "x3 takes the value 0.254 at χ = 64 and 0.255 at"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "273"
+chars = "1479-1535"
+text = "scaling dimension vanishes at the Ising point for χ = 96."
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "1708-1750"
+text = "dimension x5 takes a value close to ≃ 0.92."
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "1826-1844"
+text = "J][t][≃][0][.][427."
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "1966-1975"
+text = "J1 ≃ 0.13."
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "273"
+chars = "1977-1997"
+text = "For χ = 48, x5 ≃ 0.82"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "2194-2200"
+text = "χ > 96,"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "2298-2310"
+text = "larger than 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "2774-2795"
+text = "J1 > 0.33 or J2 > 0.33"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "2831-2868"
+text = "values either very small or very large"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "3087-3115"
+text = "J1 ≃ 0.40344 and J2 ≃ 0.40344"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "280"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0008-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "283"
+chars = "179-217"
+text = "Using the BTRG Tensor-Network algorithm"
+
+[[blocks]]
+sections = ["truth"]
+lines = "283"
+chars = "228-308"
+text = "provided evidence that the two transition lines, related by the symmetry J1 ↔ J2,"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "285"
+chars = "159-255"
+text = "we extracted the parameter y and plotted the scaling dimension xt = 2 − yt of the energy density."
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "1-47"
+text = "include both a first and a second-order regime."
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "213-411"
+text = "our conclusions tend to be in line with most studies on the J1 − J2 model and contradict the iTeBD study that concluded to a second-order regime limited to the point J1 = 0 of the phase diagram [21]."
+
+[[blocks]]
+sections = ["truth"]
+lines = "291"
+chars = "29-207"
+text = "our estimates of the central charge and of the magnetic, electric, and thermal critical exponents along the critical line are compatible with the Ashkin-Teller universality class."
+
+[[blocks]]
+sections = ["truth"]
+lines = "291"
+chars = "209-338"
+text = "This result is in agreement with the Monte Carlo simulations performed one decade ago [10–13] but not with the more recent Tensor-"
+
+[[blocks]]
+sections = ["truth"]
+lines = "321"
+chars = "1-30"
+text = "Network calculations [18, 19]."
+
+[[blocks]]
+sections = ["truth"]
+lines = "321"
+chars = "32-147"
+text = "This also demonstrates the validity of the analysis of the scaling limit of the J1 − J2 model reported in Ref. [10]."
+
+[[blocks]]
+sections = ["method"]
+lines = "347"
+text = "- [24] M. Levin and C. P. Nave, Tensor Renormalization Group Approach to 2D Classical Lattice Models, Physical Review Letters 99, 120601 (2007). "
+
+[[blocks]]
+sections = ["method"]
+lines = "349"
+text = "- [25] T. Xiang, From Density Matrix and Tensor Network Renormalization, Cambridge University Press, Cambridge, (2023) "
+
+[[blocks]]
+sections = ["method"]
+lines = "351"
+text = "- [26] Z.-C. Gu and X.-G. Wen, Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order, Phys. Rev. B 80, 155131 (2009). "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "353"
+text = "- [27] D. Adachi, T. Okubo, and S. Todo, Bond-Weighted Tensor Renormalization Group, Phys. Rev. B 105, L060402 (2022). "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "355"
+text = "- [28] A. Ueda and M. Oshikawa, Finite-Size and Finite Bond Dimension Effects of Tensor Network Renormalization, Phys. Rev. B 108, 024413 (2023). "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "359"
+text = "- [29] A. Ueda, Renormalization Group Flow and Fixed-Point in Tensor Network Representations, Ph.D dissertation, univ. Tokyo, arXiv:2401.18068. "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "361"
+text = "- [30] C.-Y. Huang, S.-H. Chan, Y.-J. Kao et P. Chen, Tensor network based finite-size scaling for two-dimensional Ising model, Phys. Rev. B 107, 205123 (2023). "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "363"
+text = "- [31] W. Guo, and T.-C. Wei, Tensor network methods for extracting conformal field theory data from fixed-point tensors and defect coarse graining, Phys. Rev. E 109, 034111 (2024). "
+
+[[blocks]]
+sections = ["software"]
+lines = "365-367"
+text = "- [32] R. B. Lehoucq, D. C. Sorensen, and C. Yang, ARPACK Users’ Guide, Society for Industrial and Applied Mathe- \n\nmatics (1998) "

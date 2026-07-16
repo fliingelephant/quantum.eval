@@ -1,0 +1,3 @@
+# The supplied local Fig. S6(d) crop does not expose the full trace; only the stated comparison is retained.
+parameter,comparison,outcome
+V3=0,"Markovian Eq. (S11)","qualitatively captures scar-space population damping"

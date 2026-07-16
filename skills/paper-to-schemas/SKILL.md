@@ -56,6 +56,19 @@ papers by dispatching one subagent per paper, each pointed at this file +
      was computed) readable. Whole-line form is for units that reveal in
      full (a method-named section header, an equation image defining the
      algorithm).
+   - **Sections are decided by swap tests** (`SCHEMA.md`): would the
+     content survive switching to a different valid numerical method?
+     Yes → `problem` — the paper's physics analysis (observables and
+     their ratios, system sizes, transition-locating criteria, fits and
+     error analysis) is never method content, even inside a
+     methods-titled section. Survives only a software swap →
+     `method_params`. Survives neither → `software_params`. The
+     standard failure mode is **over-labeling into `method*`/
+     `software*`** — a capable extractor rarely misses content but
+     often over-assigns it; when the swap question says `problem`, it
+     is `problem`. (Examples: a bond dimension → `method_params`; an
+     eigensolver tolerance → `software_params`; a correlation-length
+     ratio → `problem`.)
    - A span revealing several sections lists them all; derivation later
      hides a block if ANY of its sections is hidden. Torn between
      sections? Tag the union and flag it in the digest (uncertainty rule,

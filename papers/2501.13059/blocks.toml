@@ -1,0 +1,1565 @@
+# Partition layer for papers/2501.13059 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-43"
+text = "Bound states and deconfined spinons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-37"
+text = "Bound states and deconfined spinons"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "29"
+chars = "9-59"
+text = "time-dependent density matrix renormalization group"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "168-206"
+text = "magnon mode develops incommensurability"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "220-272"
+text = "undergoes a first-order transition at $J_2 = 0.76 J_1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "295-367"
+text = "domain walls lead to a continuum of fractional quasi-particles or spinons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "437-609"
+text = "we observe the confinement of spinons into bound states in the spectral function and find a smooth evolution of the spectrum into magnon modes away from the phase transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "615-650"
+text = "employ the single-mode approximation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "655-795"
+text = "accurately account for the dispersion of the magnon mode away from the phase transition and describe the associated continua and bound states"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "801-836"
+text = "extend the single-mode approximation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "850-961"
+text = "the dispersion of a spinon at the phase transition point and obtain its dispersion throughout the Brillouin zone"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "29"
+chars = "1074-1161"
+text = "a negative nearest-neighbour hopping amplitude and a positive next-nearest-neighbour one"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "5-39"
+text = "Bound states and deconfined spinons"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "43"
+chars = "9-59"
+text = "time-dependent density matrix renormalization group"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "170-208"
+text = "magnon mode develops incommensurability"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "222-281"
+text = "undergoes a first-order transition at _J_ 2 = 0 _._ 76 _J_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "303-375"
+text = "domain walls lead to a continuum of fractional quasi-particles or spinons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "445-617"
+text = "we observe the confinement of spinons into bound states in the spectral function and find a smooth evolution of the spectrum into magnon modes away from the phase transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "623-658"
+text = "employ the single-mode approximation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "663-803"
+text = "accurately account for the dispersion of the magnon mode away from the phase transition and describe the associated continua and bound states"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "809-844"
+text = "extend the single-mode approximation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "858-969"
+text = "the dispersion of a spinon at the phase transition point and obtain its dispersion throughout the Brillouin zone"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "43"
+chars = "1082-1167"
+text = "a negative nearest-neighbor hopping amplitude and a positive next-nearest-neighbor one"
+
+[[blocks]]
+sections = ["problem"]
+lines = "47"
+chars = "113-154"
+text = "_J_ 1 _− J_ 2 antiferromagnetic spin chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "47"
+chars = "330-368"
+text = "Hamiltonian for the _J_ 1 _− J_ 2 model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "50"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0001-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "109-231"
+text = "spin quantum number and the relative strengths of nearest-neighbor ( _J_ 1) and next-nearest-neighbor ( _J_ 2) interactions"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "59"
+chars = "324-389"
+text = "At _J_ 2 _≈_ 0 _._ 75 _J_ 1, a first-order phase transition occurs"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "59"
+chars = "392-445"
+text = "leading to a next-nearest-neighbor (NNN) Haldane phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "674-739"
+text = "spinon dispersion has been calculated using a quasiparticle ansatz"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "59"
+chars = "797-838"
+text = "small gap of approximately 0 _._ 015 _J_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "894-960"
+text = "effective confining potential, giving rise to multiple bound states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "1042-1082"
+text = "lowest excitations are spin-1 excitations"
+
+[[blocks]]
+sections = ["method"]
+lines = "61"
+chars = "310-375"
+text = "time-dependent density matrix renormalization group (tDMRG) method"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "122-137"
+text = "t-DMRG algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "305-335"
+text = "single mode approximation (SMA)"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "338-413"
+text = "Multi-particle continua are built starting from these elementary excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "428-500"
+text = "modes which lie outside of the continua are identified to be bound states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "394-465"
+text = "the single magnon mode develops incommensurability as _J_ 2 is increased"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "500-581"
+text = "there exist bound states of magnons which lie outside of the multi-magnon continua"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "594-675"
+text = "close to the transition point the spinons are deconfined, resulting in a continuum"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "67"
+chars = "801-921"
+text = "parameters obtained by fitting with the low energy dispersion from Ref.[18] and our numerical DSF at the transition point"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "1-18"
+text = "## **II. METHODS**"
+
+[[blocks]]
+sections = ["method"]
+lines = "71"
+chars = "1-29"
+text = "## **A. Time-dependent DMRG**"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "99-122"
+text = "double Fourier transform"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "131-163"
+text = "longitudinal component of the DSF"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "269-327"
+text = "DMRG has been very successful in obtaining the ground state"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "83"
+chars = "415-439"
+text = "finite chain of 200 sites"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "83"
+chars = "450-477"
+text = "bond dimension of 250 states"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "486-518"
+text = "matrixproduct-states (MPS)-ansatz"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "556-568"
+text = "one-site DMRG"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "83"
+chars = "600-631"
+text = "variance per site of 10 _[−]_[8]"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "83"
+chars = "812-883"
+text = "relaxed the convergence criterion for variance to be 10 _[−]_[5] or less"
+
+[[blocks]]
+sections = ["method"]
+lines = "85"
+chars = "124-136"
+text = "t-DMRG method"
+
+[[blocks]]
+sections = ["method"]
+lines = "85"
+chars = "342-368"
+text = "Trotterized evolution gates"
+
+[[blocks]]
+sections = ["method"]
+lines = "85"
+chars = "535-559"
+text = "first-order Trotter gates"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "85"
+chars = "577-649"
+text = "time steps of 0 _._ 02 _/J_ 1 for values of _J_ 2 less than 0 _._ 8 _J_ 1"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "85"
+chars = "690-724"
+text = "smaller timestep of 0 _._ 01 _/J_ 1"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "85"
+chars = "841-929"
+text = "target bond dimension so that one does not end up storing an exponential number of states"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "85"
+chars = "945-1051"
+text = "target bond dimension during time evolution to be same as that used for the ground state, namely 250 states"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "87"
+chars = "463-517"
+text = "truncating the evolved MPS to the target bond dimension"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "87"
+chars = "892-962"
+text = "until the time at which the correlations reached the lattice boundaries"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "91"
+chars = "31-71"
+text = "length of the chain is fixed to 200 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "93"
+chars = "218-241"
+text = "open boundary conditions"
+
+[[blocks]]
+sections = ["method"]
+lines = "93"
+chars = "354-378"
+text = "Fourier transform in time"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "93"
+chars = "445-512"
+text = "convoluting the time-dependent correlations with a Gaussian function"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "93"
+chars = "740-776"
+text = "variance ( _σ_ ) to be 0 _._ 276 _tf_"
+
+[[blocks]]
+sections = ["method"]
+lines = "99"
+chars = "585-634"
+text = "running the DMRG code only in this symmetry sector"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "99"
+chars = "762-842"
+text = "spectral gap in the DSF to be the lowest energy spectral peak observed in the DSF"
+
+[[blocks]]
+sections = ["truth"]
+lines = "99"
+chars = "946-972"
+text = "nearly size independent gap"
+
+[[blocks]]
+sections = ["truth"]
+lines = "99"
+chars = "1305-1338"
+text = "overestimation of the spectral gap"
+
+[[blocks]]
+sections = ["truth"]
+lines = "106"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0003-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "109"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "110"
+text = "J 2 E 1  − E 0 ∆ E Length<br>0 0 . 4123 0 . 4154 200<br>0 . 3 0 . 7132 0 . 7132 120<br>0 . 5 0 . 7176 0 . 7007 200<br>0 . 8 0 . 2212 0 . 2147 200<br>(a) 0.8<br>J2 =0<br>0.7 J2 =0.3J1<br>J2 =0.5J1<br>0.6 J2 =0.8J1<br>0.5<br>0.4<br>0.3<br>0.2<br>0.1<br>0.0<br>0.0000 0.0050 0.0100 0.0150 0.0200<br>1/L<br>J 2 = 0.76  J 1<br>(b)<br>0.8 DMRG Spect.<br>Kolezhuk calc.<br>0.7<br>0.6<br>0.5<br>0.4<br>0.3<br>0.2<br>0.1<br>0.0<br>0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4<br>J 2 / J 1<br>)/ J 1<br>Gap(<br>)/ J 1<br>Excitation Gap(<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "113"
+chars = "606-718"
+text = "One finds a drop in the spectral gap at the phase transition, which is determined to be at _J_ 2 = 0 _._ 76 _J_ 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "115"
+chars = "1-19"
+text = "the DSF in _ω_ i.e."
+
+[[blocks]]
+sections = ["method"]
+lines = "121"
+chars = "80-109"
+text = "computing equal-time spin-spin"
+
+[[blocks]]
+sections = ["truth"]
+lines = "126"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "129"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "130"
+text = "J2 =0.3J1<br>10 J2 =0.5J1<br>J2 =0.7J1<br>8 J2 =1.5J1<br>6<br>4<br>2<br>0<br>0 1 2 3 4 5 6<br>k<br>S(k)<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "135"
+chars = "164-175"
+text = "good overlap"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "135"
+chars = "214-265"
+text = "timeevolution in our simulations has remained robust"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "5-29"
+text = "single mode approximation"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "349-390"
+text = "taking the expectation value of the energy"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "846-880"
+text = "extend the SMA formalism to the MPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "150"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0004-09.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "157"
+chars = "393-483"
+text = "bond-flip traveling in the chain with a definite momentum constitutes the magnon excitation"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "46-97"
+text = "two possibilities to obtain a single mode dispersion"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+chars = "5-41"
+text = "A local on-site or on-bond excitation"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+chars = "96-136"
+text = "applying _S−[z] k_[on][the][ground][state"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+chars = "731-755"
+text = "groundstate obtained from"
+
+[[blocks]]
+sections = ["method"]
+lines = "177"
+chars = "10-81"
+text = "acted the _S−[z] k_[operator][to][describe][an] approximate magnon state"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "5-34"
+text = "A local domain-wall excitation"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "453-485"
+text = "we directly generate these states"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "1238-1265"
+text = "The SMA study of the spinons"
+
+[[blocks]]
+sections = ["method"]
+lines = "183"
+chars = "1-34"
+text = "Using the time evolution algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "187"
+chars = "182-245"
+text = "Diagonalizing the Hamiltonian in this subspace in momentum basis"
+
+[[blocks]]
+sections = ["method"]
+lines = "189"
+chars = "1-72"
+text = "dispersion of the magnon one can create the continua of multiple magnons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "27-57"
+text = "well-defined gapped magnon mode"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "132-195"
+text = "at _k ≈_ 0 _._ 33 _π_ , the mode enters the two-magnon continuum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "37-91"
+text = "magnon mode is separated from its multi-magnon continua"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "171-216"
+text = "magnon enters the continua at some _k_ 0 value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "442-524"
+text = "bound state of two magnons which appears as a resonance in the two-magnon continuum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "564-612"
+text = "as a separate mode below the two-magnon continuum"
+
+[[blocks]]
+sections = ["method"]
+lines = "193"
+chars = "723-767"
+text = "we tracked the magnon mode in the section cut"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "282-365"
+text = "modes which lie outside of the multi-magnon continua are the bound states of magnons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "605-709"
+text = "mode 0 _< k < k_ 0 is a bound state of two magnons and its binding energy increases with increasing _J_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "712-773"
+text = "At _J_ 2 = 0 _._ 6 _J_ 1, one finds a second bound state sepa-"
+
+[[blocks]]
+sections = ["truth"]
+lines = "202"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "205"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "206"
+text = "(a) J 2=0 J 1 (b)  J 2=0.35 J 1 (c)  J 2=0.5 J 1 (d)  J 2=0.75 J 1 (e)  J 2=1.5 J 1<br>6 10 [2]<br>10 [2] 10 [2]<br>10 [2] 10 [2]<br>4<br>10 [1]<br>10 [1] 10 [1]<br>10 [1] 10 [1]<br>2<br>10 [0] 10 [0] 10 [0] 10 [0] 10 [0]<br>0<br>0 /2 0 /2 0 /2 0 /2 0 /2<br>k k k k k<br>/ J 1<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "113-197"
+text = "one observes the single magnon mode and two- and three-magnon continua when _J_ 2 = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "200-328"
+text = "As _J_ 2 is increased, the magnon and its associated continua smoothly evolve into deconfined spinons at _J_ 2 _≈_ 0 _._ 76 _J_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "403-472"
+text = "one again finds a prominent magnon mode with halved period than before"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "105-196"
+text = "an increasing number of bound states of magnons separate out from the three-magnon continuum"
+
+[[blocks]]
+sections = ["method"]
+lines = "213"
+chars = "235-373"
+text = "track the mode by following the maxima of the spectral peak in the DSF at the lowest energy and construct the multi-mode continua out of it"
+
+[[blocks]]
+sections = ["truth"]
+lines = "213"
+chars = "519-609"
+text = "clear separation of the second lowest energy mode at _k_ = _π_ from the multi-mode continua"
+
+[[blocks]]
+sections = ["truth"]
+lines = "213"
+chars = "612-658"
+text = "It is interpreted as a three-magnon bound state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "213"
+chars = "1325-1383"
+text = "Both bound states gain in binding energy as _J_ 2 increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "213"
+chars = "1423-1485"
+text = "the lowest bound state for small _k_ has lost so much intensity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "215"
+chars = "192-212"
+text = "the mode still exists"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+chars = "287-351"
+text = "The multi-magnon continua can be generated from the single magnon"
+
+[[blocks]]
+sections = ["truth"]
+lines = "225"
+chars = "422-565"
+text = "good agreement between the SMA dispersion computed on the groundstate obtained from DMRG, and the magnon dispersion obtained from the AKLT state"
+
+[[blocks]]
+sections = ["method"]
+lines = "237"
+chars = "128-152"
+text = "attempt a SMA calculation"
+
+[[blocks]]
+sections = ["method"]
+lines = "237"
+chars = "298-357"
+text = "we use the SMA approach to calculate the dispersion relation"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "237"
+chars = "444-502"
+text = "The dispersion obtained is plotted as a blue line in Fig.7c"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "237"
+chars = "505-587"
+text = "The continua generated from such a dispersion is then compared with the DSF spectra"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "237"
+chars = "605-676"
+text = "position of the local minima of the continuum is at _k ∼_ 0 _._ 6580 _π_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "242"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0008-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "245"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "246"
+text = "4.0 50<br>3.5 (a)  J 2/ J 1 = 0.35,  k  = 0.16 (b)  J 2/ J 1 = 0.35, k  =<br>40<br>3.0<br>2.5 30<br>2.0<br>1.5 20<br>1.0<br>10<br>0.5<br>0.0 0<br>50 50<br>(c)  J 2/ J 1 = 0.43,  k  = (d)  J 2/ J 1 = 0.5, k  =<br>40 40<br>30 30<br>20 20<br>10 10<br>0 0<br>0 1 2 3 4 5 0 1 2 3 4 5<br>/ J 1 / J 1<br>)/ J 1<br> k 0,<br>k ( S  =<br>)/ J 1<br> k 0,<br>k ( S  =<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "249"
+chars = "316-370"
+text = "The excitations below this line are a well-defined mode"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "251"
+chars = "11-57"
+text = "Coefficients of Eq. 6 for the spinon dispersion"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "253"
+text = "||_i_|_ai_|_bi_|˜_ai_|˜_bi_||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "254"
+text = "|---|---|---|---|---|---|---|"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "255"
+text = "||0|_−_199_._333|-|_−_198_._14|-||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "256"
+text = "||1|_−_0_._333|0|327_._011|_−_1_._651||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "257"
+text = "||2|66_._667|_−_0_._3333|_−_184_._517|0_._932||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "258"
+text = "||3|44_._611|_−_0_._222|63_._682|_−_0_._322||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "259"
+text = "||4|7_._4444|-0.037|_−_11_._65|0.059||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "263"
+chars = "1-41"
+text = "of the DSF minima at _k_ = 0 _._ 6129 _π_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "263"
+chars = "62-136"
+text = "spinon continuum extends up to much larger energies of the order of 4 _J_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "263"
+chars = "288-333"
+text = "does not have quantitative accuracy as the DSF"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "263"
+chars = "664-697"
+text = "spinon dispersion is _π_ -periodic"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "265"
+chars = "1-44"
+text = "## _2. Fitting the SMA dispersion of spinon_"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "269"
+chars = "80-102"
+text = "modify the coefficients"
+
+[[blocks]]
+sections = ["method"]
+lines = "269"
+chars = "226-290"
+text = "quasi-particle ansatz determines the lowest excitation accurately"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "275"
+chars = "1-61"
+text = "A minimum of four cosine terms is needed to obtain a good fit"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "275"
+chars = "319-391"
+text = "extracted this amplitude directly from the DSF for _J_ 2 = 0 _._ 76 _J_ 1"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "275"
+chars = "396-456"
+text = "generating the two-spinon continuum for a range of amplitudes"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "275"
+chars = "619-698"
+text = "upper bound of the two-spinon continuum comes out to be just below _ω ∼_ 5 _J_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "275"
+chars = "710-774"
+text = "∼_ 99 _._ 5% of the spectral weight of the DSF has been exhausted"
+
+[[blocks]]
+sections = ["truth"]
+lines = "275"
+chars = "833-884"
+text = "the continuum spans almost the full range of the DSF"
+
+[[blocks]]
+sections = ["truth"]
+lines = "275"
+chars = "1076-1133"
+text = "compares very well with the DSF for _J_ 2 = 0 _._ 76 _J_ 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "279"
+chars = "292-353"
+text = "spinon state is constructed by leaving a spin-1 _/_ 2 unpaired"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "290"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "293"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "294"
+text = "(a) J 2 = 0.76 J 1 (b)<br>i - 3 i - 1 i + 1 i + 3<br>NN-corr<br>0.2 NNN-corr<br>0.1<br>0.0 i - 2 i i + 2 i + 4<br>0.1<br>0.2 i - 3 i - 1 i + 1 i + 3<br>0.3<br>0.4<br>0.5 i - 2 i i + 2 i + 4<br>0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4<br>J 2 / J 1<br>(c) — VBS GS (d) (e) (f)<br>correlations<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "333"
+chars = "65-194"
+text = "generated a subspace by placing the domain wall state separating the AKLT state and NNN AKLT state at different bonds of the chain"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "333"
+chars = "218-283"
+text = "expand the Eq. 6 into sum of cosines and read off the coefficients"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "333"
+chars = "292-322"
+text = "These can be found in Table III"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "333"
+chars = "456-485"
+text = "They are tabulated in Table II"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "335"
+chars = "266-347"
+text = "negative first-neighbour hopping term and a positive second-neighbour hopping term"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "341"
+chars = "12-84"
+text = "Comparison of _γδ_ - tight-binding hoppings generated from the dispersion"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "343"
+text = "||_δ_|_γδ_|˜_γδ_||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "344"
+text = "|---|---|---|---|---|"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "345"
+text = "||0|1.333|1.716||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "346"
+text = "||1|-0.222|-0.293||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "347"
+text = "||2|0.306|0.273||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "348"
+text = "||3|0.259|0.32||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "349"
+text = "||4|0.099|0.16||"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "354"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0010-15.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "357"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "358"
+text = "1.75<br>Fitting case<br>1.50 VBS case<br>1.25 0.02<br>1.00 0.01<br>0.00<br>0.75<br>0.01<br>0.50<br>0.02<br>0.25 116 118 120 122 124<br>sites<br>0.00<br>0.25<br>100 105 110 115 120 125 130<br>sites(starting from the center of lattice)<br>hoppings<br>hoppings(starting from onsite)<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "413-516"
+text = "decay to zero but the ones determined from the fitted spinon dispersion relation do not decay as quickly"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "363"
+chars = "16-36"
+text = "same energy densities"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "43-140"
+text = "domain walls between these two possible groundstates are deconfined and this results in a continua"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "286-376"
+text = "spectral peak at low energies followed by the decay of the spectral weight into a long tail"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "498-539"
+text = "a low-energy mode splits off the continuum"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "363"
+chars = "701-731"
+text = "confinement of the domain walls"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "363"
+chars = "846-947"
+text = "two domain walls cannot be separated by arbitrary distances on the chain without paying an energy cost"
+
+[[blocks]]
+sections = ["truth"]
+lines = "368"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0011-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "371"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "372"
+text = "(a) J2=0.707 [J] 1 (b) J2=0.7355 [J] 1 (c) Jo=0.76 [J] 1 (d) Jo=0.77 [J] 1 (e) Jo=0.78 [J] 1<br>6 10? 10? 102 102 10?<br>4<br>102 10! 10! 10 10!<br>eS<br>3<br>2<br>10° 10° 10° 10° 10°<br>% n/2 1 0 n/2 1 0 n/2 TT 0 n/2 1 0 n/2 TT<br>kk<br>(f) k 0 = 1 (g) k 0 = 1 (h) k 0 =  kmin (i) k 0 =  kmin<br>J 2 = 0.707 J 1 3.0 J 2 = 0.76 J 1 J 2 = 0.707 J 1 J 2 = 0.76 J 1<br>7 J 2 = 0.73 J 1 J 2 = 0.77 J 1 500 J 2 = 0.73 J 1 J 2 = 0.77 J 1<br>J 2 = 0.744 J 1 J 2 = 0.78 J 1 J 2 = 0.744 J 1 500 J 2 = 0.78 J 1<br>6 J 2 = 0.75 J 1 2.5 J 2 = 0.8 J 1 J 2 = 0.75 J 1 J 2 = 0.8 J 1<br>400<br>400<br>5 2.0<br>4 300 +300 300 +300<br>/ 1.5 \\<br>2 3 / | i 200 +200 200 +200<br>1.0<br>2 } WV |<br>C 0.5 \" 100 +100 100 +100<br>1<br>0 , 0.0 . 0 o—————— 0<br>0 1 2 3 4 5 6 0 1 2 3 4 5 6 0.0 0.5 1.0 1.5 2.0 2.5 3.0 0.0 0.5 1.0 1.5 2.0 2.5 3.0<br>w / J 1 7) / J 1 Ww / J 1 w / J 1<br>)/ J 1<br> k 0,<br> =<br>k ( S<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "375"
+chars = "200-302"
+text = "lower energy boundary of the two-spinon continuum at _J_ 2 = 0 _._ 76 _J_ 1 is indicated by dashed line"
+
+[[blocks]]
+sections = ["truth"]
+lines = "375"
+chars = "324-419"
+text = "number of separate modes lying outside of the continua increases before and after the transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "375"
+chars = "748-839"
+text = "multiple modes beyond the main peak, which are interpreted to be bound states of the spinons"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "375"
+chars = "842-907"
+text = "They arise due to the confinement potential two spinons experience"
+
+[[blocks]]
+sections = ["truth"]
+lines = "375"
+chars = "1093-1155"
+text = "the continua then proliferates into bound states of the spinons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "375"
+chars = "1244-1304"
+text = "very difficult to resolve the two states in the numerical DSF"
+
+[[blocks]]
+sections = ["truth"]
+lines = "375"
+chars = "1322-1385"
+text = "low-lying bound states of spinons where the difference is larger"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "377"
+chars = "18-59"
+text = "can be visualized as a confining potential"
+
+[[blocks]]
+sections = ["truth"]
+lines = "377"
+chars = "351-384"
+text = "results in two-spinon bound states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "377"
+chars = "406-446"
+text = "only unambiguously resolve the lowest one"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "377"
+chars = "650-691"
+text = "visible in the DSF at _k_ = 0 _._ 6129 _π_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "377"
+chars = "699-792"
+text = "higher bound states might overlap with the continuum built by pairs of low-energy bound states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "377"
+chars = "868-921"
+text = "turning the higher-energy bound states into resonances"
+
+[[blocks]]
+sections = ["truth"]
+lines = "381"
+chars = "90-139"
+text = "modes that lie outside of the two spinon continuum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "381"
+chars = "187-225"
+text = "smoothly evolve into well-defined modes"
+
+[[blocks]]
+sections = ["method"]
+lines = "381"
+chars = "410-538"
+text = "associated spectral features can be tracked for _J_ 2 in the vicinity of the transition at _k_ = _π_ by plotting the section cuts"
+
+[[blocks]]
+sections = ["truth"]
+lines = "381"
+chars = "561-644"
+text = "distinguish at least three spectral peaks below the two-spinon continuum lower bound"
+
+[[blocks]]
+sections = ["truth"]
+lines = "381"
+chars = "654-761"
+text = "spectral intensity of the modes increases as _J_ 2 decreases from the NNN Haldane phase to the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "381"
+chars = "768-817"
+text = "lowest energy spectral peak increases in intensity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "381"
+chars = "855-936"
+text = "smoothly evolves into the bound state as seen in the DSF for _J_ 2 = 0 _._ 7 _J_ 1"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "385"
+chars = "345-400"
+text = "Our numerical study describes the dispersion relation of"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "385"
+chars = "481-512"
+text = "By constructing the multi-magnon"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "600-671"
+text = "smooth evolution from magnon picture to spinons in a confining potential"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "699-732"
+text = "deconfined at the phase transition"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "385"
+chars = "1348-1403"
+text = "we extracted the single spinon dispersion throughout the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "1857-1931"
+text = "identified the bunching of spectral features at the incommensurate momentum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "2029-2050"
+text = "boundstates of spinons"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "387"
+chars = "82-203"
+text = "magnon SMA dispersion calculated from the NNN VBS state and the groundstate obtained from DMRG has been plotted on the DSF"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "391"
+chars = "108-134"
+text = "unit cell length is doubled"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "391"
+chars = "141-169"
+text = "Brillouin zone size is halved"
+
+[[blocks]]
+sections = ["truth"]
+lines = "391"
+chars = "278-303"
+text = "reduced periodicity of _π_"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "391"
+chars = "324-460"
+text = "SMA calculations for the magnon dispersion in NNN VBS state and the ground state obtained from DMRG have been plotted with good agreement"
+
+[[blocks]]
+sections = ["truth"]
+lines = "391"
+chars = "537-638"
+text = "NNN VBS state magnon excitation approaches the magnon excitation over the DMRG calculated ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "391"
+chars = "669-769"
+text = "bound states of magnons can be expected for this phase, however it is difficult to identify the modes"
+
+[[blocks]]
+sections = ["method"]
+lines = "391"
+chars = "957-1027"
+text = "magnon mode and its associated continua can be determined unambiguously"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "135-170"
+text = "fractionalization of quasi-particles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "178-182"
+text = "onset"
+
+[[blocks]]
+sections = ["method"]
+lines = "449"
+chars = "50-109"
+text = "Variational and density-matrix renormalization-group studies"
+
+[[blocks]]
+sections = ["method"]
+lines = "451"
+chars = "21-81"
+text = "Density matrix formulation for quantum renormalization groups"
+
+[[blocks]]
+sections = ["method"]
+lines = "453"
+chars = "21-80"
+text = "Density-matrix algorithms for quantum renormalization groups"
+
+[[blocks]]
+sections = ["method"]
+lines = "455"
+chars = "28-99"
+text = "density-matrix renormalization group in the age of matrix product states"
+
+[[blocks]]
+sections = ["method"]
+lines = "457"
+chars = "39-104"
+text = "Real-time evolution using the density matrix renormalization group"
+
+[[blocks]]
+sections = ["method"]
+lines = "499"
+chars = "173-224"
+text = "ground state energies obtained from MPS calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "499"
+chars = "285-321"
+text = "VBS states were encoded as MPS states"
+
+[[blocks]]
+sections = ["method", "software_params"]
+lines = "499"
+chars = "354-403"
+text = "contraction with the Matrix Product Operator (MPO)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "499"
+chars = "490-562"
+text = "energies vary linearly with _J_ 2 and intersect at _J_ 2 = 0 _._ 75 _J_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "499"
+chars = "700-771"
+text = "ground state energies with _J_ 2 look smooth across the phase transition"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "502"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0014-15.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "505"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "506"
+text = "0.0 DMRG GS<br>Haldane<br>NNN-AKLT<br>0.5<br>1.0<br>1.5<br>2.0<br>0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4<br>J2<br>GS Energy<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "509"
+chars = "95-223"
+text = "energies vary linearly with _J_ 2 with a slope of 4 _/_ 9 while the NNN AKLT state energies vary with a negative slope of 4 _/_ 3"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "509"
+chars = "230-288"
+text = "intersection point of the energies is marked by a blue line"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "511"
+chars = "56-75"
+text = "too small to resolve"
+
+[[blocks]]
+sections = ["truth"]
+lines = "511"
+chars = "111-224"
+text = "measuring the minimum of the spectral gap, we find that the phase transition takes place at _J_ 2 = 0 _._ 76 _J_ 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "513"
+chars = "1-58"
+text = "## **Appendix B: Encoding the domain wall state as a MPS**"
+
+[[blocks]]
+sections = ["method"]
+lines = "515"
+chars = "29-70"
+text = "encode an AKLT and NNN AKLT state as a MPS"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "559"
+chars = "1-88"
+text = "Generating a state encoding a single domain wall between the AKLT and the NNN AKLT state"
+
+[[blocks]]
+sections = ["method"]
+lines = "577"
+chars = "396-447"
+text = "Using the encoding of the domain wall state as a MPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "577"
+chars = "458-508"
+text = "find the dispersion relation using the SMA analysis"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "579"
+chars = "1-56"
+text = "## **Appendix C: Propagation of spin-spin correlations**"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "581"
+chars = "95-213"
+text = "extract the velocity of the correlation spread wave-front by tracking the maximum of the spin-spin correlation function"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "586"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0016-01.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "589"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "590"
+text = "5<br>4<br>3<br>2<br>1<br>0<br>0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4<br>J2/J1<br>Velocity<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "593"
+chars = "105-240"
+text = "velocity decreases linearly up to the disorder point beyond which it increases linearly, with a kink appearing near the transition point"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "595"
+chars = "17-156"
+text = "velocity was obtained by determining the slope of the position of the maximum of the correlation function in the chain as a function of time"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "595"
+chars = "381-428"
+text = "first 20 - 40 time steps to extract the velocity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "597"
+chars = "79-143"
+text = "It decreases linearly as _J_ 2 increases until the disorder point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "597"
+chars = "150-210"
+text = "velocity then increases linearly for all further _J_ 2 values"
+
+[[blocks]]
+sections = ["truth"]
+lines = "597"
+chars = "213-282"
+text = "apart from a sharp kink observed in the plot near the transition point"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "597"
+chars = "359-408"
+text = "considered spin-spin correlations calculated up to"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "597"
+chars = "414-439"
+text = "final time _tf ∼ N/_ 2 _v_"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "599"
+chars = "1-69"
+text = "## **Appendix D: Determining the amplitude of the spinon dispersion**"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "601"
+chars = "139-188"
+text = "determine the amplitude of the dispersion relation"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "601"
+chars = "215-318"
+text = "inferred directly from the numerically computed DSF at the phase transition point _J_ 2 = 0 _._ 76 _J_ 1"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "606"
+text = "![](.figures/arxiv__2501.13059/2501.13059.pdf-0016-08.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "609"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "610"
+text = "3.0 lower bound<br>upper bound<br>2.5<br>2.0<br>1.5<br>1.0<br>0.5<br>0.0<br>0 1 2 3 4 5 6<br>/J1<br>)J/1<br> k0,<br> =<br>k(S<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "613"
+chars = "156-194"
+text = "with an amplitude of _∼_ 2 _._ 48 _J_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "289-347"
+text = "lower boundary of the continua lies on the inflection point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "633-670"
+text = "only three well defined spectral peaks"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "615"
+chars = "768-838"
+text = "calculating the zeroes of the double-derivative of the spectral weights"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "617"
+chars = "9-85"
+text = "fit the energy of this inflection point with the lower bound of the continuum"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "617"
+chars = "214-322"
+text = "dispersion amplitude of _∼_ 2 _._ 48 _J_ 1, hence to a maximum of the two spinon continuum just below 5 _J_ 1"

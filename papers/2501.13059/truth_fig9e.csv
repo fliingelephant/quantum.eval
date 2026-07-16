@@ -1,0 +1,11 @@
+feature,k_over_pi,omega_over_J1
+low_mode,0.00,0.85
+low_mode,0.25,1.0
+low_mode,0.50,0.55
+low_mode,0.625,0.2
+low_mode,0.75,0.55
+low_mode,1.00,0.9
+bound_state,0.50,0.95
+upper_support,0.00,2.6
+upper_support,0.50,4.0
+upper_support,1.00,3.1

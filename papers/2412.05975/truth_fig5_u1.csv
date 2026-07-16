@@ -1,0 +1,13 @@
+M_over_t,phase_L50,phase_L100,region
+0.6,0.0,0.0,quantized
+1.0,0.0,0.0,quantized
+1.4,0.0,0.0,quantized
+1.8,0.0,0.0,quantized
+2.2,0.0,0.0,quantized
+2.3,3.1416,3.1416,transition
+2.4,3.1416,3.1416,quantized
+2.6,3.1416,3.1416,quantized
+3.0,3.1416,3.1416,quantized
+3.4,3.1416,3.1416,quantized
+3.8,3.1416,3.1416,quantized
+

@@ -9,6 +9,7 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevB.111.104439"
 arxiv_version = "2501.03329v1"
+md_sha256 = "f6d56adc80159398a3714fd21f519e1f99175adfbe732cb62e2e6b9b020f2d08"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
@@ -16,3 +17,340 @@ model = "anisotropic spin-1/2 Kitaev chain in a field; ground-state DMRG"
 headline = "field angle/magnitude phase diagram: four-site and larger-unit-cell orders + six-site uniform-chirality phase; degenerate perturbation theory derives the effective couplings selecting each phase"
 compute = "spin-1/2 chain, gapped ordered phases, chi ~ 1e2; laptop, minutes-to-hour"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "An anisotropic spin-1/2 Kitaev chain with x-bond Kx, y-bond Ky, and a magnetic field coupled to the two spins in every unit cell."
+model_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:68-71"
+hamiltonian_convention = "H = sum_j [Kx/4 sigma^x_{j,A} sigma^x_{j,B} + Ky/4 sigma^y_{j,B} sigma^y_{j+1,A} + h dot (sigma_{j,A}+sigma_{j,B})/2]."
+hamiltonian_convention_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:68"
+dimension_and_unit_cell = "One-dimensional chain; Nc unit cells, each with two sublattice sites A and B, so N = 2Nc physical sites."
+dimension_and_unit_cell_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:71,91"
+bond_parameterization = "Kx = K cos(alpha), Ky = K sin(alpha), K = sqrt(2), Kx >= Ky >= 0, and 0 <= alpha <= 45 degrees; the isotropic point is alpha = 45 degrees."
+bond_parameterization_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:87"
+field_parameterization = "For the longitudinal field, (hx, hy) = h (cos(phi_xy), sin(phi_xy)) in the upper-right quadrant; the transverse field is (0, 0, hz)."
+field_parameterization_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:71,79,89"
+boundary_conditions = "PBCs are the default for phase diagrams; OBCs are used for on-site magnetizations and unit-cell correlators."
+boundary_conditions_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:89,113,611"
+
+[[problem.targets]]
+panel = "fig1_anisotropic"
+quantity = "Phase classification in the (hx, hy) plane"
+observable = "M, C, B, LU, and PS phase labels"
+axes = "hx versus hy"
+instance = "alpha = 15 degrees, N = 200 sites, PBCs"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 PBC phase-diagram instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:93,109"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:93,109"
+
+[[problem.targets]]
+panel = "fig1_isotropic"
+quantity = "Two isotropic-chain critical field strengths"
+observable = "h_c1 and h_c2 for the B-phase interval"
+axes = "field strength in the isotropic phase diagram"
+instance = "alpha = 45 degrees, ED N = 24 plus iDMRG comparison"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 24 ED/iDMRG comparison."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:95"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:95"
+
+[[problem.targets]]
+panel = "fig2a"
+quantity = "Magnetic-order signature from on-site magnetizations versus position"
+observable = "<S_i^x> and <S_i^y>"
+axes = "site position i"
+instance = "alpha = 15 degrees, h = 0.55, phi_xy = 4 degrees, N = 200, OBCs, M phase"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 OBC instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:115,146,149"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:115,146,149"
+
+[[problem.targets]]
+panel = "fig2b"
+quantity = "Magnetic-order signature from on-site magnetizations versus position"
+observable = "<S_i^x> and <S_i^y>"
+axes = "site position i"
+instance = "alpha = 15 degrees, h = 0.55, phi_xy = 12 degrees, N = 200, OBCs, C phase"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 OBC instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:121,146,149"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:121,146,149"
+
+[[problem.targets]]
+panel = "fig2c"
+quantity = "Soliton signature from on-site magnetizations versus position"
+observable = "<S_i^x> and <S_i^y>"
+axes = "site position i"
+instance = "alpha = 15 degrees, h = 0.65, phi_xy = 12 degrees, N = 200, OBCs, B phase"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 OBC instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:123,146,149"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:123,146,149"
+
+[[problem.targets]]
+panel = "fig2d"
+quantity = "Polarized-state signature from on-site magnetizations versus position"
+observable = "<S_i^x> and <S_i^y>"
+axes = "site position i"
+instance = "alpha = 15 degrees, h = 0.65, phi_xy = 20 degrees, N = 200, OBCs, PS"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 OBC instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:133,146,149"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:133,146,149"
+
+[[problem.targets]]
+panel = "fig3"
+quantity = "Field-angle dependence of phase boundaries"
+observable = "|M_sigma| and xi_sigma"
+axes = "phi_xy from 0 to 18 degrees"
+instance = "alpha = 15 degrees, h = 0.55, N = 200 DMRG"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 DMRG instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:135,171"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:135,171"
+
+[[problem.targets]]
+panel = "fig4"
+quantity = "B-to-PS field-angle transition"
+observable = "|gamma_sigma|"
+axes = "phi_xy from 8 to 20 degrees"
+instance = "alpha = 15 degrees, h = K/2 approximately 0.707, N = 200 DMRG"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 DMRG instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:153,185"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:153,185"
+
+[[problem.targets]]
+panel = "fig5_lu_star"
+quantity = "Numerical LU-phase point in the hy = 0 phase diagram"
+observable = "phase label and magnetic unit-cell periodicity"
+axes = "hx versus alpha at hy = 0"
+instance = "alpha = 15 degrees, hx = 0.57, DMRG gold-star point"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 DMRG gold-star calculation."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:273,275"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:273,275"
+
+[[problem.targets]]
+panel = "fig7a"
+quantity = "Effective-tau-model transition at low field"
+observable = "|M_tau| and |xi_tau|"
+axes = "phi_xy from 0 to 1.15 degrees"
+instance = "alpha = 3 degrees, h = 0.01, Nc = 100"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported Nc = 100 effective-model calculation."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:335,337,345,387"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:335,337,345,387"
+
+[[problem.targets]]
+panel = "fig7b"
+quantity = "Effective-tau-model transition at higher field"
+observable = "|M_tau| and |xi_tau|"
+axes = "phi_xy from 0 to 1.15 degrees"
+instance = "alpha = 3 degrees, h = 0.66, Nc = 100"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported Nc = 100 effective-model calculation."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:335,337,353,387"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:335,337,353,387"
+
+[[problem.targets]]
+panel = "fig8"
+quantity = "Large-unit-cell signature from on-site magnetizations"
+observable = "<S_i^x> and <S_i^y>"
+axes = "site position i"
+instance = "alpha = 15 degrees, h = 0.57, phi_xy = 0 degrees, N = 200, OBCs"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 OBC instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:385,417"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:385,417"
+
+[[problem.targets]]
+panel = "fig9_alpha5"
+quantity = "Phase classification in the (hx, hy) plane"
+observable = "M, C, B, LU, and PS phase labels"
+axes = "hx versus hy"
+instance = "alpha = 5 degrees, N = 200, PBCs"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 PBC instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:581,607"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:581,607"
+
+[[problem.targets]]
+panel = "fig9_alpha30"
+quantity = "Phase classification in the (hx, hy) plane"
+observable = "M, C, B, LU, and PS phase labels"
+axes = "hx versus hy"
+instance = "alpha = 30 degrees, N = 200, PBCs"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 PBC instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:581,607"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:581,607"
+
+[[problem.targets]]
+panel = "fig10"
+quantity = "Uniform/staggered chirality character from unit-cell correlators"
+observable = "<xi_sigma,j>"
+axes = "unit-cell index j in the chain middle"
+instance = "alpha = 15 degrees, h = 0.55, phi_xy = 12 degrees, N = 200, OBCs, C phase"
+tier = "light"
+tier_provenance = "Inferred from the paper-level light tier and the reported N = 200 OBC instance."
+truth_source = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:611,615,625"
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:611,615,625"
+
+[method]
+paper_route = "The paper's numerical route is finite density matrix renormalization group (DMRG) for the original sigma chain and finite DMRG for the effective tau model; the isotropic comparison also reports Lanczos exact diagonalization and infinite DMRG."
+paper_route_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91,95,335"
+method_family = "MPS / matrix-product-state ground-state calculation."
+method_family_provenance = "Inferred from Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91,521; the paper names DMRG and cites the matrix-product-state formulation, but does not label the family explicitly."
+algorithm = "Finite DMRG is the selected algorithm for the main numerical targets; ED and iDMRG occur only in the isotropic comparison."
+algorithm_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91,95"
+valid_families = ["mps", "ed"]
+valid_families_provenance = "Inferred from the target instances and the paper's explicit ED comparison; MPS is required for the N = 200 and Nc = 100 calculations, while ED is a valid small-instance alternative."
+valid_algorithms = ["finite DMRG", "iDMRG for translation-invariant targets", "Lanczos ED for small instances"]
+valid_algorithms_provenance = "Inferred from the paper's DMRG/iDMRG/ED routes and the target boundary conditions; iDMRG is an alternative for translation-invariant phase diagnostics, while finite-size OBC curves still require finite-system treatment."
+analytic_scope = "Perturbation theory, Jordan-Wigner mappings, exact solvability, and linear spin-wave theory are analytic apparatus, not the numerical route in this section."
+analytic_scope_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:157,239,309"
+
+[method_params]
+main_size = "N = 2Nc = 200 sites, with Nc = 100 unit cells."
+main_size_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91"
+bond_dimension = "Bond dimension larger than 1000."
+bond_dimension_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91"
+truncation_cutoff = "epsilon < 10^-10."
+truncation_cutoff_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91"
+phase_boundary_criterion = "Phase boundaries are located from sharp maxima of the energy susceptibility chi^e_phi_xy = -d^2 e0 / d phi_xy^2 at fixed h, with e0 the energy per site."
+phase_boundary_criterion_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91,93"
+boundary_by_observable = "PBCs for phase diagrams; OBCs for on-site magnetizations and unit-cell correlators."
+boundary_by_observable_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:89,113,611"
+isotropic_comparison = "Lanczos ED uses N = 24 sites; the comparison also uses iDMRG."
+isotropic_comparison_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:95"
+effective_tau_size = "The finite-DMRG effective tau-model calculation uses Nc = 100 sites."
+effective_tau_size_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:335,387"
+effective_tau_scan = "For Fig. 7, alpha = 3 degrees, 0 < phi_xy < 1.15 degrees, h = 0.01 and 0.66; Ky is approximately 5% of Kx."
+effective_tau_scan_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:337"
+full_model_instances = "The paper reports alpha = 15 degrees for the main figures, alpha = 5 and 30 degrees in Appendix A, and the stated Fig. 2/8/10 field points."
+full_model_instances_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:93,146,417,625"
+convergence_note = "The paper says convergence of ground states is difficult to observe in the LU and white-circle regimes."
+convergence_note_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:415"
+
+[software]
+paper_software = "ITensor library."
+paper_software_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91,523"
+software_role = "The library is used for the finite-DMRG calculation of the N = 200 chain."
+software_role_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:91"
+valid_tool_set = ["ITensor", "any implementation of finite DMRG for an MPS chain"]
+valid_tool_set_provenance = "Inferred from the method-family and algorithm requirements; only ITensor is named by the paper."
+
+[software_params]
+compute_hardware = "Niagara supercomputer at the SciNet HPC Consortium."
+compute_hardware_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:463"
+implementation_parameters = "No eigensolver tolerances, noise schedule, threading settings, or API-specific toggles are reported in the rendered paper."
+implementation_parameters_provenance = "Inferred from the complete rendered paper; the reported bond dimension and cutoff are method-level parameters and remain in [method_params]."
+
+[anchors]
+transverse_majorana_spectrum = "Under h = (0, 0, hz), the four Majorana energy bands are given by Eq. (2)."
+transverse_majorana_spectrum_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:71,74"
+zero_field_degeneracy = "At hz = 0, the flat vanishing bands imply a 2^Nc-fold degeneracy for every eigenstate."
+zero_field_degeneracy_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:77"
+ky_zero_polarized_limit = "For Ky = 0 and hx > Kx/2, the unique polarized ground state has E0 = Nc(Kx/4 - hx); hx = Kx/2 has 3^Nc degeneracy."
+ky_zero_polarized_limit_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:159,163"
+ky_zero_degenerate_limit = "For Ky = 0 and hx < Kx/2, the ground state is 2^Nc-fold degenerate with E0 = -Nc Kx/4."
+ky_zero_degenerate_limit_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:187"
+classical_m_instability = "Along hy = 0, the linear-spin-wave M-instability is hx,c1 = S(Kx - Ky)."
+classical_m_instability_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:239,245,248"
+polarized_instability = "The PS instability in the classical analysis is hx,uc = S(Kx + Ky)."
+polarized_instability_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:277,283,286"
+low_field_gap = "In the low-field effective model, the gap is Delta = 2|Ktilde_T - Htilde| and closes at Htilde = Ktilde_T."
+low_field_gap_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:295,297"
+low_field_angle = "The corresponding low-field critical direction is phi_xy,c approximately arctan[Ky/(4 Kx(Kx - Ky))]."
+low_field_angle_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:300,303"
+exact_solvable_point = "The exactly solvable points include (hx, hy, hz) = (Kx/2, Ky/2, 0), equivalently phi_xy = alpha and h = K/2."
+exact_solvable_point_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:153,391,394"
+effective_tau_boundary = "For the zero-effective-field tau model, d = |gamma| separates the antiferromagnetic M phase from the chiral C phase; xi_tau is zero for d <= |gamma| and nonzero for d > |gamma|."
+effective_tau_boundary_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:331,333,348"
+fourth_order_effective_model = "The fourth-order effective model is an antiferromagnetic axial next-nearest-neighbor Ising chain; its predicted competition includes 8-site order and a fourfold-degenerate antiphase."
+fourth_order_effective_model_provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:397,409,423,429"
+
+[truth]
+
+[truth.fig1_anisotropic]
+value = ["M", "C", "B", "LU", "PS"]
+tolerance = 0.0
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:93,109"
+note = "Qualitative phase-map labels are stated; the rendered folder has no complete Fig. 1 plot image or table from which boundary coordinates can be digitized."
+
+[truth.fig1_isotropic]
+value = [0.511, 0.726]
+tolerance = 0.005
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:95"
+
+[truth.fig2a]
+value = { phase = "M", magnetic_unit_cell_sites = 4, staggered_magnetization = "nonzero" }
+tolerance = 0.0
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:107,115,149"
+note = "The paper states the phase signature but does not tabulate the plotted curve coordinates."
+
+[truth.fig2b]
+value = { phase = "C", magnetic_unit_cell_sites = 6, uniform_chirality = "nonzero" }
+tolerance = 0.0
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:121,149"
+note = "The paper states the phase signature but does not tabulate the plotted curve coordinates."
+
+[truth.fig2c]
+value = { phase = "B", signature = "topological soliton with staggered chirality" }
+tolerance = 0.0
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:123,149"
+note = "The paper states the phase signature but does not tabulate the plotted curve coordinates."
+
+[truth.fig2d]
+value = { phase = "PS", spin_alignment = "anti-aligns with field", correlation_period_sites = 4, momentum = "pi/a", decay = "exponential along every fourth r", finite_gap = true }
+tolerance = 0.0
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:133,149"
+note = "The paper states the phase signature but does not tabulate the plotted curve coordinates."
+
+[truth.fig3]
+value = { M_phi_deg = [0.0, 7.4], uncertain_phi_deg = [7.4, 7.6], C_phi_deg = [7.6, 12.4], PS_phi_deg = [12.4, 18.0], M_sigma = "finite in M", xi_sigma = "finite in C and small finite in PS" }
+tolerance = 0.1
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:135,171"
+
+[truth.fig4]
+value = { B_phi_deg = [12.8, 16.3], PS_phi_deg = [[8.0, 12.8], [12.8, 20.0]], gamma_sigma = "finite in B", exact_point_phi_deg = 15.0 }
+tolerance = 0.1
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:153,185"
+note = "The rendered sentence states PS intervals [8, 12.8] and [12.8, 20] while also stating B = [12.8, 16.3]; this overlap is preserved for human adjudication."
+
+[truth.fig5_lu_star]
+value = { alpha_deg = 15.0, hx = 0.57, hy = 0.0, phase = "LU", magnetic_unit_cell_sites = 10 }
+tolerance = 0.01
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:273,275"
+
+[truth.fig7a]
+value = { h = 0.01, alpha_deg = 3.0, phi_transition_deg = 0.9, M_tau = "vanishes beyond transition", xi_tau = 0.0 }
+tolerance = 0.02
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:337,345,387"
+
+[truth.fig7b]
+value = { h = 0.66, alpha_deg = 3.0, phi_transition_deg = 1.03, transition = "M to C", M_tau = "approaches zero", xi_tau = "approaches nonzero" }
+tolerance = 0.02
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:337,353,387"
+
+[truth.fig8]
+value = { alpha_deg = 15.0, h = 0.57, phi_xy_deg = 0.0, phase = "LU", magnetic_unit_cell_sites = 10 }
+tolerance = 0.01
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:385,417"
+
+[truth.fig9_alpha5]
+value = ["M", "C", "B", "LU", "PS"]
+tolerance = 0.0
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:581,607"
+
+[truth.fig9_alpha30]
+value = ["M", "C", "B", "LU", "PS"]
+tolerance = 0.0
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:581,607"
+
+[truth.fig10]
+value = { phase = "C", uniform_chirality = "nonzero", staggered_chirality = "nonzero but a trivial field effect" }
+tolerance = 0.0
+provenance = "Literal 2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:611,615,625"
+note = "The rendered folder has no complete Fig. 10 plot image or tabulated coordinates; the source states the uniform/staggered character."
