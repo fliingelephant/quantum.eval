@@ -1,8 +1,0 @@
-# Approximate visible guide/check points from the full local Fig. 7(a) image.
-rg_step,series,value
-1,lowest_identity_like,0.95
-4,lowest_identity_like,1.25
-8,lowest_identity_like,1.10
-12,central_charge_like,0.55
-16,central_charge_like,0.50
-20,central_charge_like,0.50

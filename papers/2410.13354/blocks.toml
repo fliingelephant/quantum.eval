@@ -93,10 +93,22 @@ chars = "468-509"
 text = "ground state energy density and energy gap"
 
 [[blocks]]
-sections = ["problem", "method"]
+sections = ["problem"]
 lines = "63"
 chars = "635-709"
 text = "central charge from entanglement entropy and calculate universal gap ratios"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "712-793"
+text = "confirming the system’s universality and the role of TCI CFT at the critical point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "1020-1052"
+text = "the TCI and Ising critical points"
 
 [[blocks]]
 sections = ["problem"]
@@ -135,6 +147,12 @@ sections = ["truth"]
 lines = "89"
 chars = "806-853"
 text = "is numerically determined as _α_ c _≈_ 0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
+chars = "871-978"
+text = "which belongs to the universality of the two-dimensional tricritical Ising (TCI) model (with _c_ = 7 _/_ 10)"
 
 [[blocks]]
 sections = ["truth"]
@@ -221,7 +239,7 @@ chars = "103-166"
 text = "interaction term (7) corresponds to the integrable Fendley model"
 
 [[blocks]]
-sections = ["problem", "method_params"]
+sections = ["problem"]
 lines = "145"
 chars = "363-464"
 text = "focus on the phase structure in the range 0 _≤ α ≤_ 1 _/_ 2, where numerical calculations are feasible"
@@ -255,7 +273,7 @@ chars = "380-454"
 text = "restoration of SUSY and the gap opening occur simultaneously at _α_ = _α_ c"
 
 [[blocks]]
-sections = ["method"]
+sections = ["problem"]
 lines = "191"
 text = "## **III. NUMERICAL DETERMINATION OF THE SUSY RESTORATION TRANSITION POINT** _α_ **c** "
 
@@ -284,7 +302,7 @@ chars = "385-424"
 text = "truncation error was set to 10 _[−]_[10]"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "193"
 chars = "457-506"
 text = "system sizes _L_ = 14 _,_ 16 _,_ 18 _, · · · ,_ 50"
@@ -296,7 +314,7 @@ chars = "509-550"
 text = "starting from random matrix product states"
 
 [[blocks]]
-sections = ["method"]
+sections = ["problem"]
 lines = "197"
 chars = "29-73"
 text = "numerically identify the critical point _α_ c"
@@ -308,33 +326,39 @@ chars = "86-168"
 text = "ground state energy density of an infinite system transitions from positive to zero"
 
 [[blocks]]
-sections = ["method", "problem"]
+sections = ["problem"]
 lines = "197"
 chars = "222-301"
 text = "calculated the finitesize ground state energy density _E_ g.s.( _α_ ; _L_ ) _/L_"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method", "problem"]
 lines = "199"
 chars = "1-39"
 text = "periodic boundary conditions using DMRG"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "199"
 chars = "51-154"
 text = "extrapolated it to _L →∞_ using the fitting form _E_ g.s.( _α_ ; _L_ ) _/L_ = _e_ g.s.( _α_ ) + _a/L[b]_"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["problem"]
 lines = "201"
 chars = "132-156"
 text = "power-law fit to the data"
 
 [[blocks]]
-sections = ["method_params", "anchors"]
+sections = ["truth", "anchors"]
 lines = "204"
 text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0004-15.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "207"
+chars = "1-275"
+text = "The above-scaling exponent 5 _/_ 2 is obtained from the scaling dimension _xt_ = 6 _/_ 5 of the vacancy operator as 2 _/_ (2 _− xt_ ) = 5 _/_ 2, with the expectation that the critical point of our model is described by the tricritical Ising (TCI) conformal field theory (CFT)"
 
 [[blocks]]
 sections = ["truth"]
@@ -360,19 +384,19 @@ chars = "224-355"
 text = "energy density vanishes as _e_ g.s.( _α_ ) _∼_ ( _α_ c _− α_ )[5] _[/]_[2] , indicating the SUSY SSB transition at _α_ c = 0 _._ 463"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["problem"]
 lines = "223"
 chars = "17-116"
 text = "calculated the infinite-size energy gap ∆ _∞_ ( _α_ ) by fitting the finite-size data ∆( _L_ ; _α_ )"
 
 [[blocks]]
-sections = ["method", "method_params", "problem"]
+sections = ["method", "problem"]
 lines = "223"
 chars = "119-208"
 text = "obtained from exact diagonalization for periodic systems with _L_ = 4 _,_ 5 _, · · · ,_ 15"
 
 [[blocks]]
-sections = ["problem", "method_params"]
+sections = ["problem"]
 lines = "223"
 chars = "308-389"
 text = "defined as the energy difference between the lowest and third-lowest energy levels"
@@ -425,7 +449,7 @@ chars = "738-788"
 text = "indeed coincide by carefully analyzing the critical"
 
 [[blocks]]
-sections = ["method", "problem"]
+sections = ["problem"]
 lines = "279"
 chars = "38-140"
 text = "numerically calculate the entanglement entropy and the spectral quantity called the universal gap ratio"
@@ -485,6 +509,12 @@ text = "data collapse now onto the value _c_ = 7 _/_ 10 characteristic of the TC
 
 [[blocks]]
 sections = ["truth"]
+lines = "297"
+chars = "564-632"
+text = "transition out of the SUSY broken phase is indeed governed by the TCI"
+
+[[blocks]]
+sections = ["truth"]
 lines = "299"
 chars = "20-91"
 text = "for 0 _._ 463 _< α ≤_ 1 _/_ 2, the plot approaches zero as _L_ increases"
@@ -518,7 +548,7 @@ chars = "209-355"
 text = "for _α <_ 0 _._ 4627, the central charge approaches 1 _/_ 2; at _α_ = 0 _._ 4627, it reaches 7 _/_ 10; and for _α >_ 0 _._ 4627, it approaches zero"
 
 [[blocks]]
-sections = ["method", "problem"]
+sections = ["problem"]
 lines = "315"
 chars = "132-177"
 text = "use a quantity called the universal gap ratios"
@@ -541,7 +571,7 @@ lines = "334"
 text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0007-03.png)"
 
 [[blocks]]
-sections = ["method", "method_params", "problem"]
+sections = ["method", "problem"]
 lines = "339"
 chars = "161-261"
 text = "calculated _R_ 1 _,_ 2 _,_ 3 for system sizes _L_ = 16 _,_ 18 _, · · · ,_ 48 _,_ 50 using finite DMRG"
@@ -587,7 +617,7 @@ chars = "873-922"
 text = "converged to 0.4628 in all cases (a), (b), and (c)"
 
 [[blocks]]
-sections = ["method"]
+sections = ["problem"]
 lines = "364"
 chars = "24-77"
 text = "numerically investigated the groundstate phase diagram"
@@ -609,6 +639,12 @@ sections = ["truth", "anchors"]
 lines = "366"
 chars = "193-263"
 text = "energy density vanishes as _e_ g.s.( _α_ ) _∼_ ( _αc − α_ )[5] _[/]_[2]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "366"
+chars = "323-407"
+text = "described at low energies by the tricritical Ising (TCI) conformal field theory (CFT)"
 
 [[blocks]]
 sections = ["truth"]
@@ -647,7 +683,13 @@ chars = "716-876"
 text = "for _α > αc_ , the behavior of the entanglement entropy indicates that the system is gapped and that SUSY SSB and gap opening occur simultaneously at _α_ = _α_ c"
 
 [[blocks]]
-sections = ["method"]
+sections = ["truth"]
+lines = "370"
+chars = "900-969"
+text = "consistent with the field theoretical predictions based on the TCI CFT"
+
+[[blocks]]
+sections = ["problem"]
 lines = "372"
 chars = "68-101"
 text = "calculated the universal gap ratio"
@@ -659,7 +701,13 @@ chars = "5-85"
 text = "numerical values at the transition point _α_ c closely match those of the TCI CFT"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["truth"]
+lines = "374"
+chars = "98-178"
+text = "additional confirmation that the transition belongs to the TCI universality class"
+
+[[blocks]]
+sections = ["method", "problem"]
 lines = "384"
 chars = "124-232"
 text = "employed in calculating the entanglement entropy using the density matrix renormalization group (DMRG) method"
@@ -670,7 +718,7 @@ lines = "389"
 text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0008-14.png)"
 
 [[blocks]]
-sections = ["problem", "method_params"]
+sections = ["problem"]
 lines = "395"
 text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0008-16.png)"
 

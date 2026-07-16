@@ -10,7 +10,6 @@ status = "rendered"
 doi = "10.1103/vlzz-gzy5"
 arxiv_version = "2506.16424v1"
 
-# Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
 model = "SU(N) generalization of the 1D Heisenberg AFM (N=3 ~ spin-1 biquadratic/dimerized chain); continuous-N loop QMC + Renyi EE via nonequilibrium-work estimator, sign-free"
 headline = "central charge c(N) from Renyi EE tracking 'walking' vs complex-CFT predictions: the spin-1 dimerization region is pseudocritical; complex-CFT / weak-first-order backbone"

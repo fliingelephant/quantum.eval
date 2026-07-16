@@ -1,8 +1,0 @@
-# The permitted Fig. 6(b) asset is a top crop with setup labels only.
-# These are the explicitly recoverable Ising check levels, not a full spectrum digitization.
-alpha,series,value
-0,identity_Delta_check,0.000
-1,spin_Delta_check,0.125
-2,thermal_Delta_check,1.000
-3,Ising_descendant_check,1.125
-4,Ising_descendant_check,2.000
