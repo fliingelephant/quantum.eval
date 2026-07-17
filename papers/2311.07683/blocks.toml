@@ -4,15 +4,27 @@
 
 [[blocks]]
 sections = ["truth"]
+lines = "5"
+chars = "9-44"
+text = "Dissipation-induced long-range order"
+
+[[blocks]]
+sections = ["truth"]
 lines = "15"
-chars = "23-38"
-text = "long-range order"
+chars = "3-38"
+text = "Dissipation-induced long-range order"
 
 [[blocks]]
 sections = ["method"]
 lines = "27"
 chars = "535-646"
 text = "wormhole quantum Monte Carlo method for retarded interactions to a continuous-time formulation with worm updates"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "665-672"
+text = "wormhole"
 
 [[blocks]]
 sections = ["truth"]
@@ -53,14 +65,20 @@ text = "stable dissipative Luttinger-liquid phase that transitions to a long-ran
 [[blocks]]
 sections = ["truth"]
 lines = "31"
-chars = "25-40"
-text = "long-range order"
+chars = "5-40"
+text = "Dissipation-induced long-range order"
 
 [[blocks]]
 sections = ["method"]
 lines = "45"
 chars = "535-646"
 text = "wormhole quantum Monte Carlo method for retarded interactions to a continuous-time formulation with worm updates"
+
+[[blocks]]
+sections = ["method"]
+lines = "45"
+chars = "665-672"
+text = "wormhole"
 
 [[blocks]]
 sections = ["truth"]
@@ -97,6 +115,42 @@ sections = ["truth"]
 lines = "45"
 chars = "1394-1519"
 text = "stable dissipative Luttinger-liquid phase that transitions to a long-range ordered superfluid at a finite system-bath coupling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "623-638"
+text = "long-range order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "737-752"
+text = "long-range order"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "84-102"
+text = "quantum Monte Carlo"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "105-107"
+text = "QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "44-46"
+text = "QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "824-834"
+text = "Monte Carlo"
 
 [[blocks]]
 sections = ["problem"]
@@ -202,6 +256,11 @@ sections = ["problem"]
 lines = "93"
 chars = "135-211"
 text = "phase diagram of this model is naturally parametrized by µ/ _U_ and _t_ / _U_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "100"
+text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-08.png)"
 
 [[blocks]]
 sections = ["problem"]
@@ -413,10 +472,16 @@ chars = "422-429"
 text = "MOVEWORM"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["method"]
 lines = "167"
 chars = "445-549"
 text = "moves the worm by some distance ∆τ that is determined by the diagonal energies in the exponential factors"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "566-569"
+text = "worm"
 
 [[blocks]]
 sections = ["method"]
@@ -479,7 +544,7 @@ chars = "1270-1324"
 text = "worm algorithm scales linearly in the system parameters"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["method"]
 lines = "167"
 chars = "1347-1398"
 text = "statistically independent Monte Carlo configurations"
@@ -494,6 +559,12 @@ sections = ["method"]
 lines = "173"
 chars = "56-136"
 text = "vertex weights are strictly pos-] itive and the matrix elements are non-branching"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+chars = "364-373"
+text = "world-line"
 
 [[blocks]]
 sections = ["method"]
@@ -522,6 +593,12 @@ text = "single-particle Green’s function"
 sections = ["method"]
 lines = "182"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0004-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "185"
+chars = "100-109"
+text = "world-line"
 
 [[blocks]]
 sections = ["method"]
@@ -620,13 +697,13 @@ lines = "220"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-07.png)"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "223"
 chars = "225-260"
 text = "sample the spectral function _J_ (ω)"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "223"
 chars = "273-309"
 text = "frequency ω is included in the vertex"
@@ -636,6 +713,12 @@ sections = ["method"]
 lines = "225"
 chars = "39-59"
 text = "INSERTWORMHOLE update"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+chars = "126-129"
+text = "worm"
 
 [[blocks]]
 sections = ["method"]
@@ -664,11 +747,17 @@ text = "annihilation operator (red) completes the retarded interaction vertex"
 [[blocks]]
 sections = ["method"]
 lines = "225"
+chars = "461-464"
+text = "worm"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
 chars = "482-574"
 text = "included with equal probability at time τ[′] ±[right][before][or][after] the second subvertex"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "225"
 chars = "622-679"
 text = "time difference is chosen according to the bath propagator"
@@ -697,29 +786,29 @@ chars = "17-62"
 text = "probability distribution functions in ω and ∆τ"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "234"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-12.png)"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "238"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-13.png)"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "241"
 chars = "20-81"
 text = "Both functions can be sampled using inverse transform sampling"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "241"
 chars = "145-159"
 text = "we first draw ω"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "243"
 chars = "17-52"
 text = "which we choose with probability 1/2"
@@ -749,6 +838,12 @@ text = "INSERTWORMHOLE update"
 
 [[blocks]]
 sections = ["method"]
+lines = "251"
+chars = "95-98"
+text = "worm"
+
+[[blocks]]
+sections = ["method"]
 lines = "254"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-19.png)"
 
@@ -757,6 +852,30 @@ sections = ["method"]
 lines = "257"
 chars = "1-90"
 text = "_A_ (CC →C[[′]] ) = min[1, _R_ (CC →C[[′]] )] is deterThe ratio of the Monte Carlo weights"
+
+[[blocks]]
+sections = ["method"]
+lines = "257"
+chars = "159-166"
+text = "wormhole"
+
+[[blocks]]
+sections = ["method"]
+lines = "257"
+chars = "186-189"
+text = "worm"
+
+[[blocks]]
+sections = ["method"]
+lines = "257"
+chars = "291-294"
+text = "worm"
+
+[[blocks]]
+sections = ["method"]
+lines = "259"
+chars = "4-14"
+text = "Monte Carlo"
 
 [[blocks]]
 sections = ["method"]
@@ -777,7 +896,7 @@ chars = "354-422"
 text = "include an annihilation operator as the second subvertex at time τ[′]"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "259"
 chars = "463-498"
 text = "sampling J(ω) and _P_ (ω, τ − τ[′] )"
@@ -811,7 +930,7 @@ lines = "272"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0006-02.png)"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "275"
 chars = "198-255"
 text = "acceptance ratio only depends on the occupation _n_[′] _i_"
@@ -819,8 +938,32 @@ text = "acceptance ratio only depends on the occupation _n_[′] _i_"
 [[blocks]]
 sections = ["method"]
 lines = "275"
+chars = "366-369"
+text = "worm"
+
+[[blocks]]
+sections = ["method"]
+lines = "275"
+chars = "470-473"
+text = "worm"
+
+[[blocks]]
+sections = ["method"]
+lines = "275"
+chars = "491-498"
+text = "wormhole"
+
+[[blocks]]
+sections = ["method"]
+lines = "275"
 chars = "596-631"
 text = "applies to the REMOVEWORMHOLE update"
+
+[[blocks]]
+sections = ["method"]
+lines = "275"
+chars = "641-644"
+text = "worm"
 
 [[blocks]]
 sections = ["method"]
@@ -836,51 +979,90 @@ text = "PASSWORMHOLE update"
 
 [[blocks]]
 sections = ["method"]
+lines = "275"
+chars = "920-923"
+text = "worm"
+
+[[blocks]]
+sections = ["method"]
 lines = "277"
 chars = "5-95"
 text = "wormhole updates can be easily included in an existing implementation of the worm algorithm"
 
 [[blocks]]
-sections = ["method", "software_params"]
+sections = ["method"]
 lines = "277"
 chars = "102-164"
 text = "biggest algorithmic change concerns the linking of the vertices"
 
 [[blocks]]
-sections = ["method", "software_params"]
+sections = ["method"]
+lines = "277"
+chars = "273-276"
+text = "worm"
+
+[[blocks]]
+sections = ["method"]
+lines = "277"
+chars = "297-306"
+text = "world-line"
+
+[[blocks]]
+sections = ["method"]
+lines = "277"
+chars = "346-353"
+text = "wormhole"
+
+[[blocks]]
+sections = ["method"]
 lines = "277"
 chars = "381-408"
 text = "nonlocal connections in time"
 
 [[blocks]]
-sections = ["method", "software_params"]
+sections = ["method"]
 lines = "277"
 chars = "444-489"
 text = "appropriate positions in the operator sequence"
 
 [[blocks]]
-sections = ["method", "method_params"]
+sections = ["method"]
 lines = "277"
 chars = "509-591"
 text = "formal computational cost of the wormholes will be slightly slower than linear in β"
 
 [[blocks]]
-sections = ["method", "software_params"]
+sections = ["method"]
 lines = "277"
 chars = "681-724"
 text = "bath observables are not accessible directly"
 
 [[blocks]]
-sections = ["method", "software_params"]
+sections = ["method"]
 lines = "277"
 chars = "757-818"
 text = "distribution of retarded vertices using generating functionals"
 
 [[blocks]]
-sections = ["method", "method_params", "software_params"]
+sections = ["method"]
 lines = "277"
 chars = "843-886"
 text = "average expansion order of retarded vertices"
+
+[[blocks]]
+sections = ["problem"]
+lines = "286"
+text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0006-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "290"
+text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0006-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "302"
+text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0006-12.png)"
 
 [[blocks]]
 sections = ["method"]
@@ -989,7 +1171,7 @@ chars = "79-104"
 text = "world-line QMC simulations"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["method"]
 lines = "333"
 chars = "143-169"
 text = "winding-number fluctuations"
@@ -1007,7 +1189,7 @@ chars = "82-158"
 text = "scales to zero in the Mott phase, but is finite in the Luttinger-liquid phase"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["method"]
 lines = "335"
 chars = "175-291"
 text = "finite-size effects from switching between the different particle-number sectors also affect ρs and other observables"
@@ -1192,6 +1374,12 @@ sections = ["truth"]
 lines = "411"
 chars = "383-417"
 text = "ξ/ _L_ diverges with increasing _L_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "411"
+chars = "452-467"
+text = "long-range order"
 
 [[blocks]]
 sections = ["truth"]
@@ -1424,6 +1612,16 @@ text = "effect of the bath is to renormalize the properties of the"
 
 [[blocks]]
 sections = ["truth"]
+lines = "494"
+text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0012-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "498"
+text = "t / U  ≈0.195 t / U  ≈0.24<br>Mott * Dissipative Luttinger  Dissipative<br>ad liquid Superfluid t / U<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
 lines = "503"
 chars = "1-17"
 text = "Luttinger liquid."
@@ -1433,6 +1631,12 @@ sections = ["truth"]
 lines = "509"
 chars = "403-505"
 text = "clear separation between data sets of ξ/ _L_ at different lattice sizes which slowly increases with _L_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "509"
+chars = "558-573"
+text = "long-range order"
 
 [[blocks]]
 sections = ["truth"]
@@ -1610,6 +1814,12 @@ text = "long-range ordered superfluid phase"
 [[blocks]]
 sections = ["truth"]
 lines = "535"
+chars = "437-452"
+text = "long-range order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "535"
 chars = "556-596"
 text = "Mott phase with diverging compressibility"
 
@@ -1618,6 +1828,12 @@ sections = ["truth"]
 lines = "535"
 chars = "690-724"
 text = "long-range ordered superfluid phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "535"
+chars = "861-876"
+text = "long-range order"
 
 [[blocks]]
 sections = ["truth"]
@@ -1636,6 +1852,18 @@ sections = ["method"]
 lines = "539"
 chars = "130-160"
 text = "extension to the worm algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "539"
+chars = "634-636"
+text = "QMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "98-133"
+text = "dissipation-induced long-range order"
 
 [[blocks]]
 sections = ["truth"]
@@ -1778,6 +2006,12 @@ chars = "100-186"
 text = "convergence in temperature is rather quick and does not show and system-size dependence"
 
 [[blocks]]
+sections = ["truth"]
+lines = "601"
+chars = "228-245"
+text = "long-range ordered"
+
+[[blocks]]
 sections = ["method_params", "truth"]
 lines = "601"
 chars = "306-365"
@@ -1794,6 +2028,18 @@ sections = ["method_params"]
 lines = "601"
 chars = "552-585"
 text = "results converge even for larger α"
+
+[[blocks]]
+sections = ["method"]
+lines = "631"
+chars = "121-139"
+text = "quantum Monte Carlo"
+
+[[blocks]]
+sections = ["truth"]
+lines = "661"
+chars = "25-79"
+text = "Existence of Long-Range Order in One and Two Dimensions"
 
 [[blocks]]
 sections = ["method"]
@@ -1848,3 +2094,9 @@ sections = ["method"]
 lines = "701"
 chars = "23-67"
 text = "Computational Studies of Quantum Spin Systems"
+
+[[blocks]]
+sections = ["method"]
+lines = "707"
+chars = "31-41"
+text = "Monte Carlo"

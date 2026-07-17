@@ -1,6 +1,6 @@
 ---
 name: paper-to-schemas
-description: Use to extract one rendered paper into its schema.toml sections — "extract 2311.07683", "draft the schema for this paper". Per-paper procedure, designed to run inside one subagent per paper; a main agent loops it over a dataset.
+description: Use to extract one rendered paper into its schema.toml sections — "extract 2201.01234", "draft the schema for this paper". The unit of work is one paper.
 argument-hint: <arxiv_id>
 ---
 
@@ -8,9 +8,7 @@ argument-hint: <arxiv_id>
 
 Fills the extraction sections of `papers/<id>/schema.toml` from the
 rendered paper, per the contract in `SCHEMA.md` (sections) and
-`DESIGN.md` §4 (partition law). The unit of work is ONE paper; run many
-papers by dispatching one subagent per paper, each pointed at this file +
-`SCHEMA.md` + the paper folder, with no other context.
+`DESIGN.md` §4 (partition law). The unit of work is ONE paper.
 
 ## Inputs
 
@@ -50,25 +48,54 @@ papers by dispatching one subagent per paper, each pointed at this file +
 
    - Verbatim only — never paraphrase. Hidden spans are replaced by a
      fixed marker; whole-line blocks are deleted.
-   - Block the minimal revealing content. In result-stating units (title,
-     abstract, captions) hide only the outcome — values, exponents, phase
-     identifications — and leave the setup half (model, instance, what
-     was computed) readable. Whole-line form is for units that reveal in
-     full (a method-named section header, an equation image defining the
-     algorithm).
+   - Redaction is per-occurrence. A revealing term or fact that appears
+     N times needs N blocks — fencing some occurrences while leaving
+     others readable is a leak. After drafting, search the md for every
+     revealing term already blocked (method and software names, key
+     values, finding phrases) and block each remaining hit — including
+     front matter, repeated headings, and the bibliography. Context
+     does not exempt an occurrence: a method named while surveying
+     prior work reveals the route the same as in the methods section.
+   - Block the minimal revealing content. Result-stating units — title,
+     abstract, figure-embedded text, captions, conclusions — routinely
+     state outcomes; check each of them and hide only the outcome —
+     values, exponents, phase identifications — leaving the setup half
+     (model, instance, what was computed) readable. The outcome half is
+     `truth`: a title that states the finding gets its outcome phrase
+     blocked as `truth`, not the whole line as `problem`. Whole-line
+     form is for units that reveal in full: a method-named section
+     header, an equation image defining the algorithm, an
+     algorithm-walkthrough paragraph. Do not fragment such a passage
+     into spans — that leaves connective method vocabulary readable
+     between the fenced pieces.
    - **Sections are decided by swap tests** (`SCHEMA.md`): would the
      content survive switching to a different valid numerical method?
      Yes → `problem` — the paper's physics analysis (observables and
      their ratios, system sizes, transition-locating criteria, fits and
      error analysis) is never method content, even inside a
-     methods-titled section. Survives only a software swap →
-     `method_params`. Survives neither → `software_params`. The
-     standard failure mode is **over-labeling into `method*`/
-     `software*`** — a capable extractor rarely misses content but
-     often over-assigns it; when the swap question says `problem`, it
-     is `problem`. (Examples: a bond dimension → `method_params`; an
-     eigensolver tolerance → `software_params`; a correlation-length
-     ratio → `problem`.)
+     methods-titled section. Tied to the chosen method: what the method
+     *is* — formalism, update moves, data structures, estimator
+     constructions — is `method`; only the tunable values an operator
+     sets (an expansion cutoff, a sweep count, a discretization step, a
+     bond dimension) are `method_params`. Tied to one implementation:
+     which code is `software`; its knobs (a solver tolerance, a
+     threading setting) are `software_params`. The standard failure
+     mode is **over-labeling out of `problem` and out of `method` into
+     the narrower sections** — a capable extractor rarely misses
+     content but often over-assigns it; when the swap question says
+     `problem`, it is `problem`, and when nothing is tuned, it is not a
+     `*_params` section. (Examples: a bond dimension → `method_params`;
+     an eigensolver tolerance → `software_params`; a correlation-length
+     ratio → `problem`; an update move's description → `method`, not
+     `method_params`.)
+   - Value-carrying spans split by origin: a value the paper computed —
+     a located boundary, a fitted exponent, an identified phase — is
+     `truth`; a value knowable without this paper's computation (an
+     exact limit, a closed form) is `anchors`. Computed results are
+     never `problem` or `anchors`, whatever unit they appear in. Judge
+     a span by what it reveals, not its rhetorical mode: a prediction,
+     expectation, or schematic the paper goes on to confirm reveals
+     the finding all the same.
    - A span revealing several sections lists them all; derivation later
      hides a block if ANY of its sections is hidden. Torn between
      sections? Tag the union and flag it in the digest (uncertainty rule,
@@ -93,7 +120,7 @@ papers by dispatching one subagent per paper, each pointed at this file +
    never states at that instance is not a target.
 6. **Self-lint**: `python3 scripts/anchor_blocks.py papers/<id>` then
    `python3 scripts/lint_schema.py papers/<id>` — both must pass.
-7. **Return a digest** (the subagent's final message): targets found
+7. **End by reporting a digest**: targets found
    (panel id, quantity, tier, truth source), block count per section,
    anything Inferred, anything ambiguous flagged for the human.
 
@@ -102,9 +129,11 @@ papers by dispatching one subagent per paper, each pointed at this file +
 - `schema.toml` gains `md_sha256` and the seven sections
   (`[candidate_notes]` stays); `blocks.toml` holds the anchored partition
   layer. The rendered md is frozen from here on (re-render ⇒ re-extract).
-- Status flips to `schema-drafted` after the digest is surfaced to the
-  human — who may review per paper, batch-approve, or waive review; the
-  independent quality check is `verify-schema`, not this gate.
+- The **human** flips status to `schema-drafted` at ratification — the
+  extractor never edits `status` (its only `[paper]` write is
+  `md_sha256`). The human may review per paper, batch-approve, or waive
+  review; the independent quality check is `verify-schema`, not this
+  gate.
 
 ## Rules
 
