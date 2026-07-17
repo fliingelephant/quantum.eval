@@ -1,0 +1,2073 @@
+# Partition layer for papers/2403.17309 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["method"]
+lines = "5"
+chars = "9-38"
+text = "Tensor network renormalization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "5"
+chars = "52-114"
+text = "antiferromagnetic 6-state clock model on the Union Jack lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "15"
+chars = "3-32"
+text = "Tensor network renormalization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "15"
+chars = "46-108"
+text = "antiferromagnetic 6-state clock model on the Union Jack lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "11-92"
+text = "nuclear norm regularization techniques on tensor network renormalization algorithm"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "177-239"
+text = "antiferromagnetic 6-state clock model on the Union Jack lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "304-424"
+text = "there is the Berezinskii-Kosterlitz-Thouless, $Z_{6}$ symmetry breaking and chiral transition with decreasing temperature"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "490-752"
+text = "quasi-long range order is well explained by the compactified boson conformal field theory (CFT) and the chiral transition is in perfect agreement with the Ising CFT, including central charge, scaling dimension spectrum, and operator product expansion coefficients"
+
+[[blocks]]
+sections = ["method"]
+lines = "31"
+chars = "5-34"
+text = "Tensor network renormalization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "31"
+chars = "48-110"
+text = "antiferromagnetic 6-state clock model on the Union Jack lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "11-92"
+text = "nuclear norm regularization techniques on tensor network renormalization algorithm"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "177-239"
+text = "antiferromagnetic 6-state clock model on the Union Jack lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "276-422"
+text = "multiple phase transitions; there is the Berezinskii-Kosterlitz-Thouless, _Z_ 6 symmetry breaking and chiral transition with decreasing temperature"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "488-749"
+text = "quasilong range order is well explained by the compactified boson conformal field theory (CFT) and the chiral transition is in perfect agreement with the Ising CFT, including central charge, scaling dimension spectrum, and operator product expansion coefficients"
+
+[[blocks]]
+sections = ["method"]
+lines = "51"
+chars = "11-40"
+text = "tensor network (TN) algorithms"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "154-179"
+text = "extract the conformal data"
+
+[[blocks]]
+sections = ["method"]
+lines = "51"
+chars = "214-253"
+text = "applying recently proposed TN algorithms"
+
+[[blocks]]
+sections = ["method"]
+lines = "51"
+chars = "270-312"
+text = "tensor network renormalization (TNR) method"
+
+[[blocks]]
+sections = ["method"]
+lines = "51"
+chars = "361-401"
+text = "using TNR over the other existing methods"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "102-137"
+text = "scaling dimensions of primary fields"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "188-302"
+text = "central charges, higher levels of the scaling dimension spectrum, and operator product expansion (OPE) coefficients"
+
+[[blocks]]
+sections = ["method"]
+lines = "53"
+chars = "383-426"
+text = "nuclear norm regularized (NNR)-TNR algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "53"
+chars = "479-498"
+text = "other TNR algorithms"
+
+[[blocks]]
+sections = ["method"]
+lines = "53"
+chars = "501-539"
+text = "the NNR-TNR algorithm could potentially"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "53"
+chars = "621-643"
+text = "smaller bond dimensions"
+
+[[blocks]]
+sections = ["method"]
+lines = "53"
+chars = "926-968"
+text = "represent the TN states in a compact manner"
+
+[[blocks]]
+sections = ["problem"]
+lines = "55"
+chars = "186-225"
+text = "AF 6-state clock model on the UJ lattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "58"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0001-14.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "61"
+chars = "156-245"
+text = "±_ 2 _π/_ 3 degree rotated spin configurations at the ground state with 12-fold degeneracy"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "61"
+chars = "402-447"
+text = "finite bond dimension effects of TN algorithms"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "61"
+chars = "513-609"
+text = "infinite ground state degeneracy of the AF 6-state clock model is alleviate to 12-fold degeneracy"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "61"
+chars = "750-803"
+text = "track the critical properties at finite bond dimension"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "66"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0002-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "69-70"
+text = "**----- Start of picture text -----**<br>\n(a)<br>𝑇$% 𝑇&\" 𝑇&'<br>clock:  Chiral LRO 𝑍! LRO Spin QLRO Disordered<br>dual: 𝑍\"  LRO Disordered Spin QLRO 𝑍! LRO<br>(b)<br>Chiral LRO 𝑍! LRO<br>−<br>+ +<br>−<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "19-79"
+text = "Phase diagram of the AF 6-state clock model on the UJ lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "173-346"
+text = "leading to the BKT, the _Z_ 6 symmetry breaking and the Ising transition of the _Z_ 2 symmetry breaking of 6-fold degenerate states at _T_ c3, _T_ c2 and _T_ c1, respectively"
+
+[[blocks]]
+sections = ["method"]
+lines = "73"
+chars = "358-427"
+text = "Phase diagram of the AF 6-state clock model in the dual representation"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "73"
+chars = "430-589"
+text = "After the duality transformation, the _Z_ 6 LRO phase is exchanged with the disordered phase, while the chiral LRO phase is transformed into the _Z_ 2 LRO phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "592-728"
+text = "The corresponding universality classes at _T_ c2, _T_ c3 are also swapped to the BKT and _Z_ 6 symmetry breaking transition, respectively"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "747-813"
+text = "standard Ising transition at _Tc_ 1 via the _Z_ 2 symmetry breaking"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "827-908"
+text = "An example of spin configuration of the AF 6-state clock model at the ground state"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "73"
+chars = "986-1034"
+text = "typical spin configuration of the _Z_ 6 LRO phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "75"
+chars = "8-20"
+text = "TNR algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "65-103"
+text = "Kramers-Wannier duality transformations"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "118-188"
+text = "gain insight into the dual representation of the AF 6-state clock model"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "191-323"
+text = "Since the dual representation is nothing more than an alternative TN expression of the partition function defined on the dual lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "77"
+chars = "440-488"
+text = "underlying scaling dimension may appear different"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "499-524"
+text = "original TN representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "619-640"
+text = "dual TN representation"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "77"
+chars = "670-710"
+text = "reduction of the required bond dimensions"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "79"
+chars = "106-128"
+text = "The NNR-TNR calculation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "141-225"
+text = "the BKT, _Z_ 6 symmetry breaking and Ising transition occur at different temperatures"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "312-395"
+text = "the lower and intermediate temperature phases correspond to the chiral and _Z_ 6 LRO"
+
+[[blocks]]
+sections = ["truth"]
+lines = "81"
+chars = "8-158"
+text = "The corresponding phase transitions are identified as the Ising, _Z_ 6 symmetry breaking and BKT transition at _T_ c1 _, T_ c2 and _T_ c3, respectively"
+
+[[blocks]]
+sections = ["method"]
+lines = "81"
+chars = "161-198"
+text = "In the case of the dual representation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "81"
+chars = "238-401"
+text = "the order of the _Z_ 6 LRO phase and the disordered phase is swapped, but the chiral LRO phase is translated into the _Z_ 2 ordered phase in the dual representation"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "81"
+chars = "458-623"
+text = "the universality classes at _T_ c1 _, T_ c2 and _T_ c3 in the dual representation are converted to the Ising, BKT and _Z_ 6 symmetry breaking transition, respectively"
+
+[[blocks]]
+sections = ["truth"]
+lines = "81"
+chars = "642-757"
+text = "the low-energy physics of both representations in the spin QLRO regime is consistent with the compactified boson CFT"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "81"
+chars = "766-855"
+text = "the universality classes at _T_ c2 and _T_ c3 are swapped after the duality transformation"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "81"
+chars = "881-930"
+text = "duality of the _Zq_ =6 deformed sine-Gordon theory"
+
+[[blocks]]
+sections = ["truth"]
+lines = "81"
+chars = "962-1154"
+text = "the critical fixed point of the tensor at the _Z_ 2 symmetry breaking point is in precise agreement with the Ising CFT, including central charge, scaling dimension spectrum and OPE coefficients"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "85-129"
+text = "TN representations of the partition functions"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "169-187"
+text = "dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "198-254"
+text = "method to extract the physical quantities via the NNR-TNR"
+
+[[blocks]]
+sections = ["method"]
+lines = "85"
+chars = "1-30"
+text = "## **II. TENSOR NETWORK (TN)**"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "87"
+chars = "1-77"
+text = "## **A. TN construction of partition function of the AF 6-state clock model**"
+
+[[blocks]]
+sections = ["method"]
+lines = "89"
+chars = "75-120"
+text = "trace of local tensors _τ_ in the TN formalism"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0002-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "183-194"
+text = "TN formalism"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "586-598"
+text = "TNR algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "102"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "105-106"
+text = "**----- Start of picture text -----**<br>\n(a) (b)<br>𝛿 𝛿 𝛿 𝑆 𝑆 𝑆<br>𝑊 𝑊<br>𝑊 𝛿 𝑊 𝑊 𝛿 𝑊 𝐼 𝐼<br>𝑊 𝑊<br>𝛿 𝛿 𝛿 𝑆 𝑆 𝑆<br>𝑊 𝑊<br>𝑊 𝛿 𝑊 𝑊 𝛿 𝑊 𝐼 𝐼<br>𝑊 𝑊<br>𝛿 𝛿 𝛿 𝑆 𝑆 𝑆<br>(c) (d)<br>𝑆 [!] 𝑆 [!] τ<br>𝐼 [!] 𝐼 [\"] 𝐼 [!] 𝐼 [\"]<br>𝑆 [\"] 𝑆 [\"]<br>𝑆 [!] 𝑆 [!]<br>𝐼 [!] 𝐼 [\"] 𝐼 [!] 𝐼 [\"]<br>𝑆 [\"] 𝑆 [\"]<br>(e) 𝜃# 𝜃$<br>𝑊<br>𝜃%<br>𝑊 𝛿 𝑊 = 𝐼 = 𝐼 [\"] 𝐼 [!]<br>𝑊<br>𝑆 [\"]<br>𝛿 = 𝑆 =<br>𝑆 [!]<br>𝑆 [!] τ<br>𝐼 [!] 𝐼 [\"] =<br>𝑆 [\"]<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "13-49"
+text = "TN construction of partition function"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "58-98"
+text = "AF 6- state clock model on the UJ lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "187-207"
+text = "connecting legs of TN"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "214-223"
+text = "_δ_ tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "285-300"
+text = "Boltzmann weight"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "307-372"
+text = "Mapping of the original UJ lattice to the TN on the square lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "419-435"
+text = "TN configurations"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "492-516"
+text = "Uniform TN representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "624-655"
+text = "construction of the local tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "111"
+chars = "6-18"
+text = "weight tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "114"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "117"
+chars = "11-63"
+text = "factor 1 _/_ 2 is introduced to avoid double counting"
+
+[[blocks]]
+sections = ["problem"]
+lines = "121"
+chars = "240-339"
+text = "split the UJ lattice into the two independent sublattices _A_ and _B_ and label them _A_ 8 and _B_ 4"
+
+[[blocks]]
+sections = ["method"]
+lines = "121"
+chars = "490-523"
+text = "_δ_ tensor on the _B_ 4 sublattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "124"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "127"
+chars = "5-38"
+text = "_δ_ tensor on the _A_ 8 sublattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "129"
+chars = "104-135"
+text = "convenience of the TNR algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "129"
+chars = "277-303"
+text = "4-leg tensor denoted by _I_"
+
+[[blocks]]
+sections = ["method"]
+lines = "129"
+chars = "405-431"
+text = "4-leg tensor denoted by _S_"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "32-76"
+text = "uniform TN representation of the local tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "187-230"
+text = "truncated singular value decomposition (SVD)"
+
+[[blocks]]
+sections = ["method"]
+lines = "134"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "137"
+chars = "76-154"
+text = "keep all singular values Σ as long as they are greater than the machine epsilon"
+
+[[blocks]]
+sections = ["method_params", "method"]
+lines = "137"
+chars = "416-461"
+text = "bond dimensions required for the truncated SVD"
+
+[[blocks]]
+sections = ["method"]
+lines = "137"
+chars = "473-501"
+text = "contracting the 3-leg tensors"
+
+[[blocks]]
+sections = ["method"]
+lines = "137"
+chars = "526-550"
+text = "uniform TN representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "9-72"
+text = "TN construction of partition function in the dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "141"
+chars = "87-124"
+text = "Kramers-Wannier duality transformation"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "141"
+chars = "173-205"
+text = "connectivity of TN can be reduced"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "141"
+chars = "311-332"
+text = "finite bond dimensions"
+
+[[blocks]]
+sections = ["method"]
+lines = "141"
+chars = "343-430"
+text = "ground state degeneracies of the given model could be reduced in the dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "144"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0003-16.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "150"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "153-154"
+text = "**----- Start of picture text -----**<br>\n(a) (b)<br>Tτ ˜˜ △<br>τ ˜ T ˜<br>(c) !!\"𝜙! !! !𝜙#!# (d) T ˜ τ ˜ △△ τ ˜ T ˜<br>τ ˜ T ˜ △△ =<br>!\" !#<br>𝜙!\"#\"<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "13-76"
+text = "TN construction of partition function in the dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "79-115"
+text = "The 3-leg tensor _τ_ ˜ _△_ is defined"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "219-272"
+text = "map the dual TN representation onto the square lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "159"
+chars = "64-90"
+text = "In this dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "159"
+chars = "112-157"
+text = "loop model without the closed loops conditions"
+
+[[blocks]]
+sections = ["method"]
+lines = "159"
+chars = "260-281"
+text = "dual TN representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "162"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "165"
+chars = "129-173"
+text = "uniform TN representation of the local tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "165"
+chars = "196-233"
+text = "TN states arranged on the dual lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "165"
+chars = "274-301"
+text = "contracting the 3-leg tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "165"
+chars = "340-390"
+text = "general construction of the dual TN representations"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "29-70"
+text = "dual TN representation of the local tensor"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "167"
+chars = "96-161"
+text = "requires much fewer bond dimensions than the original local tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "291-332"
+text = "duality transformation serves as reduction"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "407-450"
+text = "physical pictures of the dual representation"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "167"
+chars = "537-569"
+text = "chiral LRO has 12-fold degeneracy"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "614-677"
+text = "In the dual representation, the dual variable behaves like Ising"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "169"
+chars = "50-132"
+text = "reduction of 12-fold ground state degeneracy to twofold, namely the _Z_ 2 LRO phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "169"
+chars = "146-218"
+text = "the _Z_ 6 LRO phase is converted to the trivial state as disordered state"
+
+[[blocks]]
+sections = ["method"]
+lines = "169"
+chars = "351-359"
+text = "TN method"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+chars = "123-160"
+text = "impurity method with loop optimization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "173"
+chars = "223-319"
+text = "split the raw interactions on the UJ lattice into the two independent sublattices _A_ 8 and _B_ 4"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+chars = "388-436"
+text = "impurity tensors after the duality transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "175"
+chars = "5-56"
+text = "impurity tensor corresponding to internal energy _E_"
+
+[[blocks]]
+sections = ["method"]
+lines = "178"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0004-11.png)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "181"
+chars = "4-167"
+text = "measure the internal energy _E_ on each sublattice _A_ 8 and _B_ 4 separately and estimate the specific heat _CA_ 8 _,B_ 4 from the numerical derivatives of _dE/dT_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "183"
+chars = "91-122"
+text = "order parameter called chirality"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0004-14.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "189"
+chars = "211-243"
+text = "impurity tensor for chirality _κ_"
+
+[[blocks]]
+sections = ["method"]
+lines = "192"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0004-16.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "195"
+chars = "152-225"
+text = "including central charge, scaling dimension spectrum, and OPE coefficients"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "247-268"
+text = "computed using NNR-TNR"
+
+[[blocks]]
+sections = ["method"]
+lines = "199"
+chars = "1-33"
+text = "diagonalizing the transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "202"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0005-02.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "211"
+chars = "19-52"
+text = "lowest scaling dimension is ∆0 = 0"
+
+[[blocks]]
+sections = ["method"]
+lines = "211"
+chars = "63-115"
+text = "compute central charge and scaling dimension spectrum"
+
+[[blocks]]
+sections = ["method"]
+lines = "214"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0005-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "218"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0005-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "24-66"
+text = "column length of the linear transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "92-132"
+text = "eigenvalues of the linear transfer matrix"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "221"
+chars = "187-211"
+text = "larger column length _lx_"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "406-518"
+text = "approximate the transfer matrix _Mlx_ and diagonalize it via the locally optimal block conjugate gradient (LOBCG)"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "22-119"
+text = "extract the OPE coefficients _Cαβγ_ from the overlaps of the eigenvectors of the transfer matrices"
+
+[[blocks]]
+sections = ["method"]
+lines = "226"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0005-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "229"
+chars = "34-110"
+text = "eigenvector of the transfer matrix _Mlx_ corresponding to its eigenvalue _λα_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "229"
+chars = "131-183"
+text = "Ising CFT is constructed from three primary operators"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "229"
+chars = "280-313"
+text = "OPE coefficients for the Ising CFT"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "232"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0005-11.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "236"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0005-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "239"
+chars = "237-277"
+text = "truncation error of the NNR-TNR algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "239"
+chars = "317-355"
+text = "apply this method only to the Ising CFT"
+
+[[blocks]]
+sections = ["problem"]
+lines = "241"
+chars = "65-140"
+text = "gauge invariant quantity _X_ is convenient to locate the off-critical phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "244"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0005-15.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "247"
+chars = "36-91"
+text = "corresponds to the degeneracies of characteristic states"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "250"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0005-17.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "253-254"
+text = "**----- Start of picture text -----**<br>\n𝑇!\" 𝑇!\"<br>(a) (b)<br>(c) (d)(d)<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "257"
+chars = "9-90"
+text = "Physical quantities of the AF 6-state clock model as a function of the temperature"
+
+[[blocks]]
+sections = ["problem"]
+lines = "257"
+chars = "101-141"
+text = "specific heat _C_ on the sublattice _A_ 8"
+
+[[blocks]]
+sections = ["problem"]
+lines = "257"
+chars = "211-248"
+text = "absolute value of spin chirality _|κ|_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "257"
+chars = "256-273"
+text = "central charge _c_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "257"
+chars = "307-393"
+text = "gauge invariant quantity _X_ for the AF 6-state clock model and its dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "257"
+chars = "525-531"
+text = "NNR-TNR"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "538-560"
+text = "bond dimension _χ_ = 36"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "569-580"
+text = "50th RG step"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "257"
+chars = "610-621"
+text = "12th RG step"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "261"
+chars = "58-157"
+text = "physical quantities and the conformal data of the AF 6-state clock model and its dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "261"
+chars = "159-185"
+text = "using the NNR-TNR algorithm"
+
+[[blocks]]
+sections = ["problem"]
+lines = "261"
+chars = "240-272"
+text = "specific heat _C_ , chirality _κ_"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "261"
+chars = "276-351"
+text = "central charge _c_ of the AF 6-state clock model and its dual representation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "261"
+chars = "406-470"
+text = "gauge invariant quantities _X_ and the scaling dimension spectrum"
+
+[[blocks]]
+sections = ["method"]
+lines = "261"
+chars = "530-557"
+text = "under duality transformation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "263"
+chars = "210-399"
+text = "there are a divergent peak at _T_ c1 and a small bump at higher temperature, indicating the second order phase transition and other phase transitions such as the BKT transition, respectively"
+
+[[blocks]]
+sections = ["truth"]
+lines = "267"
+chars = "172-325"
+text = "local chirality _κ_ of the AF 6-state clock model vanishes around the chiral transition temperature _T_ c1, indicating the formation of a chiral LRO phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "267"
+chars = "350-441"
+text = "conventional second order phase transition with an order parameter like the Ising transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "267"
+chars = "494-564"
+text = "estimate the chiral transition temperature to be _T_ c1 = 0 _._ 462 _J_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "269"
+chars = "54-101"
+text = "plot central charge as a function of temperature"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "136-164"
+text = "_c ≈_ 1 for the middle region"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "170-277"
+text = "_c_ = 0 _._ 497 at the lower temperature, consistent with the compactified boson and Ising CFT, respectively"
+
+[[blocks]]
+sections = ["truth"]
+lines = "271"
+chars = "86-248"
+text = "fixed-point tensor flows into the tensor with _X_ = 1 in the high temperature (disordered) phase, while it takes _X_ = 12 in the low temperature (chiral LRO) phase"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "271"
+chars = "251-314"
+text = "which corresponds to the ground state degeneracies of this model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "271"
+chars = "338-452"
+text = "sudden change in _X_ between the chiral LRO phase and the intermediate phase ( _X_ = 6) around the Ising transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "271"
+chars = "486-538"
+text = "intermediate phase corresponds to the _Z_ 6 LRO phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "271"
+chars = "555-695"
+text = "this Ising transition can be attributed to the _Z_ 2 symmetry breaking of 6-fold degenerate states, yielding a total of 12-fold ground states"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "271"
+chars = "721-777"
+text = "gauge invariant quantity _X_ from the dual representation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "271"
+chars = "810-919"
+text = "chiral LRO, _Z_ 6 LRO and disordered phases are now translated into _Z_ 2 LRO, disordered and _Z_ 6 LRO phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "271"
+chars = "956-1042"
+text = "sudden jump around the Ising transition is reduced from _X_ = 6 _↔_ 12 to _X_ = 1 _↔_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "273"
+chars = "56-177"
+text = "plot the first 8 scaling dimensions of the AF 6-state clock model and its dual representation as a function of temperature"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "273"
+chars = "289-323"
+text = "_Zq_ =6 deformed sine-Gordon theory"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "276"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0006-05.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "282"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0006-07.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "285"
+chars = "92-140"
+text = "corresponds to the _c_ = 1 compactified boson CFT"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "290"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0006-10.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "293"
+chars = "33-186"
+text = "For its BKT transition, and _Zq_ symmetry breaking transition, the corresponding coupling constants are _K_ BKT = 4 and _KZq_ = _q_[2] _/_ 4, respectively"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "295"
+chars = "86-104"
+text = "dual transformation"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "298"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0006-13.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "304"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0006-15.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "307"
+chars = "140-207"
+text = "exchange the coupling constants as _K ↔ q_[2] _/K_ and _g_ 1 _↔ g_ 2"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "307"
+chars = "250-294"
+text = "self-dual point of the effective field theory"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "307"
+chars = "345-356"
+text = "_K_ sd = _q_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "5-163"
+text = "scaling dimension spectra of the AF 6-state model and its dual representation shown in Fig. 5 seem to intersect roughly at a single point _T_ sd = 0 _._ 56 _J_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "203-284"
+text = "This suggests the possibility of the self-dual point in the AF 6-state clock model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "309-429"
+text = "scaling dimension spectrum of the AF 6-state clock model at _T_ is in good agreement with that of the dual representation"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "309"
+chars = "625-657"
+text = "exact one with _KZ_ 6 and _K_ BKT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "663-904"
+text = "identify the universality classes at _T_ c2 and _T_ c3 of the AF 6-state model as the _Z_ 6 symmetry breaking and the BKT transition, and estimate the corresponding transition temperatures to be _T_ c2 = 0 _._ 49 _J_ and _T_ c3 = 0 _._ 64 _J_"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "309"
+chars = "922-1006"
+text = "Since the dual representation rewrites the field as _K ↔ q_[2] _/K_ and _g_ 1 _↔ g_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "1009-1147"
+text = "the universality classes at _T_ c2 and _T_ c3 in the dual representation are reversed as the BKT and the _Z_ 6 symmetry breaking transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "311"
+chars = "73-121"
+text = "obtained chiral transition _T_ c1 = 0 _._ 462 _J_"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "311"
+chars = "123-167"
+text = "using the the _lx_ = 2 transfer matrix method"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "311"
+chars = "193-215"
+text = "before the 12th RG step"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "311"
+chars = "239-299"
+text = "central charge along the RG steps deviates from _c_ = 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "316"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0007-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "319-320"
+text = "**----- Start of picture text -----**<br>\n𝑇#$ 𝑇!\" 𝑇#%<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "323"
+chars = "9-63"
+text = "First 8 scaling dimensions as a function of temperature"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "323"
+chars = "112-194"
+text = "15th RG step with bond dimension _χ_ = 36 using the _lx_ = 2 transfer matrix method"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "323"
+chars = "257-337"
+text = "exact scaling dimensions of the BKT, _Z_ 6 symmetry breaking, and self-dual point"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "325"
+chars = "203-225"
+text = "Around the 12th RG step"
+
+[[blocks]]
+sections = ["truth"]
+lines = "325"
+chars = "232-353"
+text = "extracted conformal data starts to collapse onto the flat and degenerate spectrum, indicating the Ising universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "325"
+chars = "427-523"
+text = "roughly agrees with the Ising CFT, including central charges and the scaling dimensions ∆ _α <_ 3"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "325"
+chars = "643-703"
+text = "using the longer columns of the transfer matrix with _lx_ = 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "325"
+chars = "723-862"
+text = "scaling dimension spectrum is consistent with 6-fold degenerate Ising CFT, namely there are 6 copies of identity, spin and thermal operators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "325"
+chars = "864-925"
+text = "due to the _Z_ 2 symmetry breaking of 6-fold degenerate states"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "327"
+chars = "108-137"
+text = "bond dimension _χ_ = 24 _,_ 36"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "221-272"
+text = "nearby the BKT transition point for earlier RG steps"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "279-374"
+text = "eventually flows into the correct fixed-point tensor consistent with the Ising CFT for ∆ _α <_ 3"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "394-527"
+text = "stability of the conformal data along the RG steps in Fig. 7(b) is drastically improved from Fig. 7(a) with the larger bond dimensions"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "327"
+chars = "539-612"
+text = "longer column length of transfer matrix with _lx_ = 4 and the LOBCG method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "330"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0007-05.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "333-334"
+text = "**----- Start of picture text -----**<br>\n(a) (b)<br>2.00 +---------------- ge 2.00] -nnnn nn nn nnn<br>𝜒= 36 f 𝜒= 36<br>1.75 𝑙! = 2 1.75 𝑙! = 4<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "337"
+chars = "13-92"
+text = "Conformal data of the AF 6-state clock model as a function of different RG steps"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "94-135"
+text = "at the Ising transition temperature _T_ c1"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "337"
+chars = "310-321"
+text = "12th RG step"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "337"
+chars = "369-409"
+text = "exact scaling dimensions of the Ising CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "422-481"
+text = "red crossed points are estimated from the NNR-TNR algorithms"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "337"
+chars = "526-568"
+text = "transfer matrix methods with _lx_ = 2 _,_ 4"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "339"
+chars = "1-39"
+text = "longer column length of transfer matrix"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "339"
+chars = "97-250"
+text = "estimate its OPE coefficients from the overlap of the eigenvectors of the transfer matrix _Mlx_ =2 _,_ 4 using the dual representation at the 20th RG step"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "255-325"
+text = "_Cσσ_ **1** = 1 _._ 046, _Cϵϵ_ **1** = 1 _._ 003 and _Cϵσσ_ = 0 _._ 529"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "339"
+chars = "338-393"
+text = "evidently close to the values expected for the Ising CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "540-629"
+text = "chiral transition of the AF 6-state clock model on the UJ lattice belongs to the Ising CFT"
+
+[[blocks]]
+sections = ["method"]
+lines = "339"
+chars = "691-726"
+text = "advantage of the dual representation"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "339"
+chars = "735-772"
+text = "reduces the bond dimension requirement"
+
+[[blocks]]
+sections = ["method"]
+lines = "343"
+chars = "126-152"
+text = "and its dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "343"
+chars = "155-184"
+text = "Based on the NNR-TNR algorithm"
+
+[[blocks]]
+sections = ["truth"]
+lines = "343"
+chars = "204-321"
+text = "AF 6-state clock model has multiple phase transitions, the BKT, _Z_ 6 and Ising transition with decreasing temperature"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "343"
+chars = "506-605"
+text = "low-energy physics of the spin QLRO phase is well explained by the _c_ = 1 compactified boson theory"
+
+[[blocks]]
+sections = ["method"]
+lines = "343"
+chars = "611-649"
+text = "its relation to the dual representation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "348"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0008-01.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "351-352"
+text = "**----- Start of picture text -----**<br>\n(a) (b)<br>𝜒= 24 𝜒= 36<br>𝑙! = 2 𝑙! = 2<br>(c)<br>𝜒= 36<br>𝑙! = 4<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "355"
+chars = "46-64"
+text = "dual representation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "355"
+chars = "102-148"
+text = "at the same Ising transition temperature _T_ c1"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "355"
+chars = "155-195"
+text = "different bond dimensions _χ_ = 24 _,_ 36"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "355"
+chars = "263-274"
+text = "20th RG step"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "355"
+chars = "319-397"
+text = "transfer matrix methods with _lx_ = 2 for the (a)-(b), and _lx_ = 4 for the (c)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "357"
+chars = "8-57"
+text = "duality of the _Zq_ =6 deformed sine-Gordon theory"
+
+[[blocks]]
+sections = ["truth"]
+lines = "357"
+chars = "85-141"
+text = "chiral transition is in good agreement with the Ising CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "357"
+chars = "179-273"
+text = "Ising transition of the AF 6-state clock model consists of 6-fold degenerate scaling dimensions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "357"
+chars = "385-542"
+text = "dual representation is in perfect agreement with the standard Ising CFT, including the central charge, the scaling dimension spectrum and the OPE coefficients"
+
+[[blocks]]
+sections = ["method"]
+lines = "359"
+chars = "30-66"
+text = "TN method and the dual representation"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "359"
+chars = "226-306"
+text = "reduction of the necessary bond dimensions required to represent the local tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "361"
+chars = "47-66"
+text = "within the TN method"
+
+[[blocks]]
+sections = ["method"]
+lines = "361"
+chars = "117-186"
+text = "appropriate discretization and its dual representation with TN methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "367"
+chars = "18-88"
+text = "Tensor network representation of Kramers-Wannier duality transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "369"
+chars = "34-139"
+text = "relationship between the Kramers-Wannier duality [20] and TN representation of the partition function [35]"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "372"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0008-10.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "375"
+chars = "221-261"
+text = "dual model is defined on the dual lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "378"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0008-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "381"
+chars = "21-49"
+text = "Fourier transformation of _f_"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "384"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0008-14.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "391"
+chars = "341-378"
+text = "Euler’s relation _N_ + _ND_ = _NB_ + 2"
+
+[[blocks]]
+sections = ["method"]
+lines = "393"
+chars = "30-51"
+text = "duality transformation"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "396"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-03.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "400"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-04.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "406"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-06.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "412"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "415"
+chars = "8-31"
+text = "move to the dual lattice"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "418"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-10.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "421"
+chars = "30-45"
+text = "Euler’s relation"
+
+[[blocks]]
+sections = ["method"]
+lines = "423"
+chars = "5-78"
+text = "TN representation of _Z_ having the same structure as the original lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "423"
+chars = "193-242"
+text = "such TN representation the original representation"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "426"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-13.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "429"
+chars = "167-244"
+text = "representation (A10) is not appropriate to capture the chiral phase transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "431"
+chars = "20-51"
+text = "another TN representation of _Z_"
+
+[[blocks]]
+sections = ["method"]
+lines = "431"
+chars = "74-106"
+text = "so-called the dual representation"
+
+[[blocks]]
+sections = ["method"]
+lines = "431"
+chars = "599-624"
+text = "dual representation of _Z_"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "434"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-16.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "437"
+chars = "63-92"
+text = "local tensor _τ_ ˜[[] _[k]_[]]"
+
+[[blocks]]
+sections = ["method"]
+lines = "439"
+chars = "26-60"
+text = "TN representation of the dual model"
+
+[[blocks]]
+sections = ["method"]
+lines = "439"
+chars = "63-133"
+text = "Using the duality transformation (A8) and the dual representation (A11)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "442"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-19.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "103-133"
+text = "original representation of _ZD_"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "147-214"
+text = "standard representation of _ZD_ involves two Fourier transformations"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "301-337"
+text = "dual representation of the dual model"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "360-404"
+text = "original representation of the original model"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "447"
+chars = "55-76"
+text = "local Boltzmann weight"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "450"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0009-22.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "453"
+chars = "279-313"
+text = "TN representation of the dual model"
+
+[[blocks]]
+sections = ["method"]
+lines = "455"
+chars = "18-86"
+text = "Improved estimation of physical quantity for loop optimization method"
+
+[[blocks]]
+sections = ["method"]
+lines = "457"
+chars = "78-96"
+text = "NNR-TNR calculation"
+
+[[blocks]]
+sections = ["method"]
+lines = "462"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0010-01.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "465-466"
+text = "**----- Start of picture text -----**<br>\n𝜏′! 𝜏<br>1.1<br>𝜏′!<br>1.2 1.3<br>𝜏′\"<br>2.1 𝜏′! 𝜏′# 2.2 𝑆'𝑆( 𝑆′𝑆′\" ! 𝑆′𝑆′' ( 𝑆\"𝑆!<br>𝜏′\" 𝜏′$<br>𝑆$𝑆# 𝑆′𝑆′% & 𝑆′𝑆′$ #𝑆%𝑆&<br>…<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "469"
+chars = "9-72"
+text = "Schematic illustration of loop optimizations on impurity tensors"
+
+[[blocks]]
+sections = ["method"]
+lines = "471"
+chars = "58-130"
+text = "other loop-optimization-based methods, such as LoopTNR [15] and TNR+ [36]"
+
+[[blocks]]
+sections = ["method"]
+lines = "473"
+chars = "9-45"
+text = "Loop optimization on impurity tensors"
+
+[[blocks]]
+sections = ["method"]
+lines = "475"
+chars = "136-165"
+text = "to perform the impurity method"
+
+[[blocks]]
+sections = ["method"]
+lines = "475"
+chars = "202-281"
+text = "renormalization scheme of the single impurity tensor using the loop optimization"
+
+[[blocks]]
+sections = ["method"]
+lines = "475"
+chars = "568-612"
+text = "the loop optimization on the impurity tensors"
+
+[[blocks]]
+sections = ["method"]
+lines = "475"
+chars = "675-808"
+text = "minimizing _||τ_ 1 _[′][τ][ ′]_ 2 _[τ][ ′]_ 3 _[τ][ ′]_ 4 _[−][S]_ 1 _[S]_ 2 _[S]_ 3 _[S]_ 4 _[S]_ 5 _[S]_ 6 _[S]_ 7 _[S]_ 8 _[||][F]_"
+
+[[blocks]]
+sections = ["method"]
+lines = "477"
+chars = "5-98"
+text = "expectation value of the physical observable _O_ under the periodic boundary can be calculated"
+
+[[blocks]]
+sections = ["method"]
+lines = "480"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0010-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "483"
+chars = "13-51"
+text = "performing the loop optimization on the"
+
+[[blocks]]
+sections = ["method"]
+lines = "485"
+chars = "106-143"
+text = "loop-optimization-based TNR algorithms"
+
+[[blocks]]
+sections = ["method"]
+lines = "485"
+chars = "156-220"
+text = "bulk and impurity tensors are optimized twice in a single RG step"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "9-75"
+text = "Extracting accurate conformal data with moderate computational cost"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "489"
+chars = "1-116"
+text = "Central charge and scaling dimensions of the CFT can be extracted from diagonalization of the linear transfer matrix"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "489"
+chars = "128-172"
+text = "system can be described by twodimensional CFT"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "492"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0010-12.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "495"
+chars = "148-204"
+text = "second exponential term the carries universal information"
+
+[[blocks]]
+sections = ["method"]
+lines = "495"
+chars = "318-358"
+text = "normalization factor _Nf_ at each RG step"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "497"
+chars = "1-52"
+text = "Increasing the column length of transfer matrix _lx_"
+
+[[blocks]]
+sections = ["method"]
+lines = "497"
+chars = "171-233"
+text = "computational complexity of computing conformal data from _Mlx_"
+
+[[blocks]]
+sections = ["method"]
+lines = "497"
+chars = "269-288"
+text = "full diagonalization"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "497"
+chars = "489-518"
+text = "largest _N_ eig-th eigenvalues"
+
+[[blocks]]
+sections = ["method"]
+lines = "497"
+chars = "523-578"
+text = "linear transfer matrix from matrix-vector multiplication"
+
+[[blocks]]
+sections = ["method"]
+lines = "497"
+chars = "598-645"
+text = "locally optimal block conjugate gradient (LOBCG)"
+
+[[blocks]]
+sections = ["method"]
+lines = "497"
+chars = "797-858"
+text = "3-leg tensors in octagon configuration after loop optimization"
+
+[[blocks]]
+sections = ["method"]
+lines = "497"
+chars = "886-928"
+text = "approximation of the linear transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "500"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0010-15.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "503"
+chars = "15-52"
+text = "loop optimization and the LOBCG method"
+
+[[blocks]]
+sections = ["method"]
+lines = "503"
+chars = "155-225"
+text = "solve the eigenvalue problems _M_ 4 _⃗x_ = _λ⃗x_ using the LOBCG method"
+
+[[blocks]]
+sections = ["method"]
+lines = "506"
+text = "![](.figures/arxiv__2403.17309/2403.17309.pdf-0010-17.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "511"
+chars = "11-49"
+text = "LOBCG method has matrix-free properties"
+
+[[blocks]]
+sections = ["method"]
+lines = "511"
+chars = "68-150"
+text = "compute the eigenvalues and eigenvectors of the approximated linear transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "531"
+chars = "80-132"
+text = "Solving frustrated ising models using tensor networks"
+
+[[blocks]]
+sections = ["method"]
+lines = "533"
+chars = "36-107"
+text = "Tensor network approach to the two-dimensional fully frustrated xy model"
+
+[[blocks]]
+sections = ["method"]
+lines = "535"
+chars = "30-54"
+text = "Tensor network simulation"
+
+[[blocks]]
+sections = ["method"]
+lines = "537"
+chars = "48-113"
+text = "General tensor network theory for frustrated classical spin models"
+
+[[blocks]]
+sections = ["method"]
+lines = "539"
+chars = "32-85"
+text = "Tensor-entanglement-filtering renormalization approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "42-93"
+text = "Loop optimization for tensor network renormalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "543"
+chars = "33-62"
+text = "Tensor network renormalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "545"
+chars = "45-78"
+text = "Renormalization of tensor networks"
+
+[[blocks]]
+sections = ["method"]
+lines = "547"
+chars = "35-95"
+text = "Nuclear norm regularized loop optimization for tensor network"
+
+[[blocks]]
+sections = ["method"]
+lines = "559"
+chars = "40-78"
+text = "Tensor-network renormalization approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "573"
+chars = "82-111"
+text = "tensor network renormalization"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "579"
+chars = "12-37"
+text = "hyperparameters of NNR-TNR"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "579"
+chars = "79-119"
+text = "_ξ_ = 2 _·_ 10 _[−]_[6] and _ρ_ = 0 _._ 9"
+
+[[blocks]]
+sections = ["method"]
+lines = "589"
+chars = "15-54"
+text = "Renormalization of tensor-network states"
+
+[[blocks]]
+sections = ["method"]
+lines = "591"
+chars = "104-115"
+text = "using tensor"
+
+[[blocks]]
+sections = ["method"]
+lines = "595"
+chars = "75-109"
+text = "tensor renormalization group method"

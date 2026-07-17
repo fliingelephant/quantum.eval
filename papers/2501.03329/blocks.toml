@@ -1,0 +1,1668 @@
+# Partition layer for papers/2501.03329 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-36"
+text = "Field-induced ordered phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-30"
+text = "Field-induced ordered phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "571-583"
+text = "soliton phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "723-768"
+text = "density matrix renormalization group technique"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "941-990"
+text = "four-site and large unit-cell ordered phases arise"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1067-1117"
+text = "uniform chirality with six-site periodicity emerges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "5-32"
+text = "Field-Induced Ordered Phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "571-583"
+text = "soliton phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "723-768"
+text = "density matrix renormalization group technique"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "941-990"
+text = "four-site and large unit-cell ordered phases arise"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1067-1117"
+text = "uniform chirality with six-site periodicity emerges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "487-506"
+text = "chiral soliton phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "116-194"
+text = "field-induced ordered phases of four sites and six sites with uniform chirality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "528-564"
+text = "large unit-cell (LU) phases are found"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "636-661"
+text = "mechanism of the LU phases"
+
+[[blocks]]
+sections = ["method"]
+lines = "57"
+chars = "208-237"
+text = "obtained using the DMRG method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "419-431"
+text = "soliton phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "457-478"
+text = "large unit-cell phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "126-191"
+text = "Hamiltonian of the anisotropic Kitaev chain under a magnetic field"
+
+[[blocks]]
+sections = ["problem"]
+lines = "68"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0002-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "71"
+chars = "8-94"
+text = "j_ indexes one out of _Nc_ unit cells, each containing two sublattice sites _A_ and _B_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "74"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0002-06.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "77"
+chars = "171-197"
+text = "2 _[N][c]_ -fold degeneracy"
+
+[[blocks]]
+sections = ["problem"]
+lines = "79"
+chars = "44-85"
+text = "longitudinal field, **h** = ( _hx, hy,_ 0)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "621-686"
+text = "intermediate soliton phase _B_ before reaching the polarized state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "730-787"
+text = "_B_ phase is characterized by a staggered vector chirality"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "79"
+chars = "793-831"
+text = "for periodic boundary conditions (PBCs)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "81"
+chars = "204-239"
+text = "One of these phases is the _B_ phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "85"
+chars = "37-47"
+text = "DMRG METHOD"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "21-82"
+text = "parameterize ( _Kx, Ky_ ) = ( _K_ cos( _α_ ) _, K_ sin( _α_ ))"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "149-163"
+text = "set _K_ = _√_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "465-482"
+text = "0 _≤ α ≤_ 45 _[◦]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "89"
+chars = "14-70"
+text = "set ( _hx, hy_ ) = ( _h_ cos( _ϕxy_ ) _, h_ sin( _ϕxy_ ))"
+
+[[blocks]]
+sections = ["problem"]
+lines = "89"
+chars = "95-140"
+text = "upper right quadrant of the ( _hx, hy_ ) plane"
+
+[[blocks]]
+sections = ["problem"]
+lines = "89"
+chars = "182-216"
+text = "periodic boundary conditions (PBCs)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "14-51"
+text = "phase diagram of the anisotropic chain"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "68-124"
+text = "finite density matrix renormalization group (DMRG) method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "141-179"
+text = "system size of _N_ = 2 _Nc_ = 200 sites"
+
+[[blocks]]
+sections = ["software"]
+lines = "91"
+chars = "191-205"
+text = "ITensor library"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "91"
+chars = "254-284"
+text = "bond dimension larger than 1000"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "91"
+chars = "292-316"
+text = "cutoff _ϵ <_ 10 _[−]_[10]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "395-435"
+text = "sharp maxima in the energy susceptibility"
+
+[[blocks]]
+sections = ["problem"]
+lines = "93"
+chars = "25-38"
+text = "_α_ = 15 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "280-347"
+text = "soliton phase _B_ identified in the isotropic chain is also observed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "376-407"
+text = "transition from the _M_ phase to"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "409-462"
+text = "other LU phases that occur before the system polarizes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "93"
+chars = "503-528"
+text = "incommensurability effects"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "93"
+chars = "718-783"
+text = "exactly solvable point of the model contained within the _B_ phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "144-177"
+text = "Lanczos exact diagonalization (ED)"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "244-256"
+text = "infinite DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "259-263"
+text = "iDMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "95"
+chars = "367-401"
+text = "system transitions to the _B_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "95"
+chars = "419-445"
+text = "h[c] xy_[1][=][0] _[.]_[511"
+
+[[blocks]]
+sections = ["truth"]
+lines = "95"
+chars = "490-535"
+text = "the _B_ phase closes and transitions to the PS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "95"
+chars = "553-578"
+text = "h[c] xy_[2][= 0] _[.]_[726"
+
+[[blocks]]
+sections = ["truth"]
+lines = "99"
+chars = "38-57"
+text = "within the _B_ phase"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "104"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0003-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "49-81"
+text = "the _M_ phase is characterized by"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "85-129"
+text = "non-vanishing staggered magnetization density"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "13-96"
+text = "phase diagram for the anisotropic chain for _α_ = 15 _[◦]_ in the ( _hx, hy_ ) plane"
+
+[[blocks]]
+sections = ["method"]
+lines = "109"
+chars = "99-116"
+text = "obtained from DMRG"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "123-136"
+text = "N_ = 200 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "139-147"
+text = "with PBCs"
+
+[[blocks]]
+sections = ["truth"]
+lines = "109"
+chars = "194-310"
+text = "transition points from the _M_ phase to other smaller phases denoted by LU occurring before the system reaches the PS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "109"
+chars = "336-386"
+text = "small region which separates the _M_ and _C_ phases"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "109"
+chars = "557-597"
+text = "exactly solvable points for the _B_ phase"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "111"
+chars = "50-82"
+text = "namely _α_ = 5 _[◦]_ and 30 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "111"
+chars = "135-229"
+text = "critical field at which the _M_ phase closes along the _hy_ = 0 line decreases as _α_ increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "111"
+chars = "242-337"
+text = "isotropic limit _α_ = 45 _[◦]_ is reached, where the _M_ is found to vanish over all phase space"
+
+[[blocks]]
+sections = ["truth"]
+lines = "111"
+chars = "395-490"
+text = "critical field direction at which the _M_ phase transitions to the PS increases as _α_ increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "113"
+chars = "46-73"
+text = "the _M_ , _C_ and _B_ phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "91-112"
+text = "on-site magnetizations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "131-161"
+text = "open boundary conditions (OBCs)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "249-264"
+text = "behavior in PBCs"
+
+[[blocks]]
+sections = ["truth"]
+lines = "113"
+chars = "321-346"
+text = "transition to the PS phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "113"
+chars = "375-403"
+text = "small window of the LU phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "115"
+chars = "34-66"
+text = "the _M_ phase is an ordered phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "115"
+chars = "85-113"
+text = "magnetic unit cell of 4 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "118"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0003-09.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "121"
+chars = "20-57"
+text = "the _C_ phase is another ordered phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "121"
+chars = "78-106"
+text = "magnetic unit cell of 6 sites"
+
+[[blocks]]
+sections = ["truth"]
+lines = "121"
+chars = "194-218"
+text = "nonzero uniform chirality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "211-249"
+text = "characteristic of a topological soliton"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "295-365"
+text = "For PBCs, the _B_ phase is characterized by nonzero staggered chirality"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "130"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0003-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "144-183"
+text = "[has][a][characteristic][period][of][4,]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "269-288"
+text = "momentum _q_ = _π/a_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "135"
+chars = "116-129"
+text = "_α_ = 15 _[◦]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "135"
+chars = "133-184"
+text = "For a fixed _h_ = 0 _._ 55 from 0 _≤ ϕxy ≤_ 18 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "135"
+chars = "212-243"
+text = "_M_ (0 _≤ ϕxy ≤_ 7 _._ 4 _[◦]_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "135"
+chars = "246-284"
+text = "_C_ (7 _._ 6 _≤ ϕxy ≤_ 12 _._ 4 _[◦]_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "135"
+chars = "290-322"
+text = "PS (12 _._ 4 _≤ ϕxy ≤_ 18 _[◦]_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "135"
+chars = "332-395"
+text = "_Mσ_ and _ξσ_ are finite in the _M_ and _C_ phases, respectively"
+
+[[blocks]]
+sections = ["truth"]
+lines = "135"
+chars = "474-586"
+text = "grey region from 7 _._ 4 _≤ ϕxy ≤_ 7 _._ 6 _[◦]_ denotes a region of possible incommensurate or disordered phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "135"
+chars = "694-780"
+text = "transition between the _C_ phase and the PS is then recognized by a sudden drop in _ξσ_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "142"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "146"
+chars = "1-29"
+text = "(a) h  = 0 . 55 , ϕxy = 4 [◦]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "146"
+chars = "31-60"
+text = "(b) h  = 0 . 55 , ϕxy = 12 [◦]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "146"
+chars = "171-200"
+text = "(c) h  = 0 . 65 , ϕxy = 12 [◦]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "146"
+chars = "202-231"
+text = "(d) h  = 0 . 65 , ϕxy = 20 [◦]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "149"
+chars = "13-34"
+text = "on-site magnetizations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "149"
+chars = "68-123"
+text = "versus][position] _[i]_[in][the][middle][of][the][chain]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "149"
+chars = "132-146"
+text = "α]_[ = 15] _[◦]"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "149"
+chars = "168-186"
+text = "_N_ = 200 site DMRG"
+
+[[blocks]]
+sections = ["problem"]
+lines = "149"
+chars = "188-196"
+text = "with OBCs"
+
+[[blocks]]
+sections = ["truth"]
+lines = "149"
+chars = "203-222"
+text = "within the _M_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "149"
+chars = "229-248"
+text = "within the _C_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "149"
+chars = "255-274"
+text = "within the _B_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "149"
+chars = "284-292"
+text = "in the PS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "151"
+chars = "1-31"
+text = "chain for OBCS in the _C_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "151"
+chars = "65-115"
+text = "the _C_ phase possesses nonzero staggered chirality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "153"
+chars = "37-57"
+text = "the _B_ and PS phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "153"
+chars = "67-123"
+text = "field strength _h_ = _K/_ 2 from 8 _[◦] ≤ ϕxy ≤_ 20 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "153"
+chars = "127-152"
+text = "which covers the _B_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "153"
+chars = "155-191"
+text = "12 _._ 8 _[◦] ≤ ϕxy ≤_ 16 _._ 3 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "153"
+chars = "199-232"
+text = "PS (8 _[◦] ≤ ϕxy ≤_ 12 _._ 8 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "153"
+chars = "278-318"
+text = "As shown, _γσ_ is finite in the _B_ phase"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "153"
+chars = "411-453"
+text = "exactly solvable point inside the _B_ phase"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "168"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0005-03.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "171"
+chars = "13-90"
+text = "magnitude of the staggered magnetization _|Mσ|_ and the uniform chirality _ξσ_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "171"
+chars = "121-157"
+text = "fixed _α_ = 15 _[◦]_ , _h_ = 0 _._ 55"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "189-241"
+text = "transition points between the _M_ , _C_ and PS phases"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "244-276"
+text = "obtained with _N_ = 200 site DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "288-333"
+text = "grey region in 7 _._ 4 _≤ ϕxy ≤_ 7 _._ 6 _[◦]_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "185"
+chars = "13-55"
+text = "magnitude of the staggered chirality _|γσ|_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "185"
+chars = "86-134"
+text = "fixed _α_ = 15 _[◦]_ , _h_ = _K/_ 2 _∼_ 0 _._ 707"
+
+[[blocks]]
+sections = ["truth"]
+lines = "185"
+chars = "166-212"
+text = "transition points between the _B_ and PS phases"
+
+[[blocks]]
+sections = ["method"]
+lines = "185"
+chars = "215-247"
+text = "obtained with _N_ = 200 site DMRG"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "185"
+chars = "278-317"
+text = "exactly solvable point for the _B_ phase"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "187"
+chars = "24-66"
+text = "ground state is 2 _[N][c]_ -fold degenerate"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "190"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0005-11.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "202"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0006-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "54-86"
+text = "effective staggered magnetization"
+
+[[blocks]]
+sections = ["method"]
+lines = "211"
+chars = "19-30"
+text = "DMRG results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "88-132"
+text = "non-vanishing staggered magnetization density"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "211"
+chars = "230-261"
+text = "staggered magnetization given by"
+
+[[blocks]]
+sections = ["problem"]
+lines = "214"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0006-07.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "224"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0006-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "141-215"
+text = "_M_ phase is characterized by non-vanishing staggered magnetization density"
+
+[[blocks]]
+sections = ["truth"]
+lines = "231"
+chars = "79-100"
+text = "the _M_ phase vanishes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "231"
+chars = "269-306"
+text = "the _M_ phase would occupy some region"
+
+[[blocks]]
+sections = ["problem"]
+lines = "231"
+chars = "348-366"
+text = "with _α_ = 15 _[◦]_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "236"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0006-16.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "239"
+chars = "204-234"
+text = "classical _M_ phase at _hy_ = 0"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "242"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0006-18.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "245"
+chars = "184-228"
+text = "boundary where the _M_ phase becomes unstable"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "248"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0006-20.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "251"
+chars = "17-57"
+text = "the _M_ phase disappears when _Kx_ = _Ky_"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "253"
+chars = "41-101"
+text = "the _M_ phase becomes unstable in the ( _hx, α_ ) phase space"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "253"
+chars = "304-331"
+text = "no _M_ phase along this line"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "255"
+chars = "72-137"
+text = "critical field _hx,c_ 2 above which the _M_ phase becomes unstable"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "51-94"
+text = "other phases such as the LU phases may occur"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "262"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0007-02.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "273"
+chars = "101-137"
+text = "above which the _M_ phase is unstable"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "545-597"
+text = "the _M_ phase is extended beyond the classical regime"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "273"
+chars = "697-792"
+text = "gold star indicates a LU phase for a fixed _α_ = 15 _[◦]_ and _hx_ = 0 _._ 57 obtained from DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "275"
+chars = "195-229"
+text = "_M_ phase transitions to a LU phase"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "275"
+chars = "248-276"
+text = "magnetic unit cell of 8 sites"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "275"
+chars = "305-394"
+text = "point of a LU phase that possesses a magnetic unit cell of 10 sites, as observed from DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "275"
+chars = "417-461"
+text = "phase space of the _M_ phase is overestimated"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "280"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0007-08.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "283"
+chars = "99-128"
+text = "of the _M_ phase when _hy_ = 0"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "286"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0007-10.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "292"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0007-12.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "300"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0007-15.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "303"
+chars = "95-137"
+text = "the _M_ phase and the _τ_ - polarized state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "305"
+chars = "54-80"
+text = "effective uniform chirality"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "316"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0008-02.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "322"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0008-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "328"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0008-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "335"
+chars = "75-102"
+text = "persistence of the _C_ phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "335"
+chars = "118-169"
+text = "perform finite DMRG on the full effective _τ_ -model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "335"
+chars = "193-207"
+text = "Nc_ = 100 sites"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "31-55"
+text = "the _C_ phase, we examine"
+
+[[blocks]]
+sections = ["problem"]
+lines = "337"
+chars = "186-255"
+text = "low ( _h_ = 0 _._ 01) and (b) higher ( _h_ = 0 _._ 66) field strengths"
+
+[[blocks]]
+sections = ["problem"]
+lines = "337"
+chars = "263-287"
+text = "fixed small _α_ = 3 _[◦]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "337"
+chars = "354-379"
+text = "0 _< ϕxy <_ 1 _._ 15 _[◦]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "340"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0008-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "343"
+chars = "21-54"
+text = "uniform chirality quantity Eq. (5)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "343"
+chars = "62-77"
+text = "in the _C_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "345"
+chars = "24-91"
+text = "black line at _ϕxy_ = 0 _._ 9 _[◦]_ marks the _τ_ - model transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "345"
+chars = "93-127"
+text = "beyond which the _M_ phase vanishes"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "345"
+chars = "206-229"
+text = "_ϕxy,c ≃_ 0 _._ 77 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "345"
+chars = "395-440"
+text = "chirality _ξτ_ = 0 throughout this phase space"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "348"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0008-14.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "351"
+chars = "14-25"
+text = "DMRG studies"
+
+[[blocks]]
+sections = ["truth"]
+lines = "353"
+chars = "24-92"
+text = "black line at _ϕxy ≃_ 1 _._ 03 _[◦]_ marks the _τ_ - model transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "353"
+chars = "94-128"
+text = "from the _M_ phase to the _C_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "353"
+chars = "138-198"
+text = "Mττ_ approaches zero and _ξττ_ now approaches a nonzero value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "353"
+chars = "396-431"
+text = "the _C_ phase with uniform chirality"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "355"
+chars = "49-72"
+text = "gapless in the _C_ phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "360"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "367"
+chars = "1-10"
+text = "under PBCs"
+
+[[blocks]]
+sections = ["problem"]
+lines = "370"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0009-03.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "374"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0009-04.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "381"
+chars = "22-112"
+text = "exactly solvable points are contained within a phase characterized by a staggered chirality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "381"
+chars = "164-202"
+text = "ground state exhibits a soliton in OBCs"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "381"
+chars = "250-276"
+text = "ground states found in PBCs"
+
+[[blocks]]
+sections = ["truth"]
+lines = "383"
+chars = "10-31"
+text = "LARGE UNIT-CELL PHASES"
+
+[[blocks]]
+sections = ["method"]
+lines = "385"
+chars = "51-71"
+text = "DMRG at higher fields"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "134-165"
+text = "between the _M_ phase and the PS"
+
+[[blocks]]
+sections = ["problem"]
+lines = "385"
+chars = "197-218"
+text = "on-site magnetizations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "223-247"
+text = "a point within a LU phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "285-307"
+text = "periodicity of 10 sites"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "339-377"
+text = "LU phases carry larger unit cell orders"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "387"
+chars = "30-112"
+text = "staggered magnetization _Mτ_ and uniform chirality _ξτ_ of the effective _τ_ -model"
+
+[[blocks]]
+sections = ["method"]
+lines = "387"
+chars = "137-170"
+text = "obtained with _Nc_ = 100 site DMRG"
+
+[[blocks]]
+sections = ["problem"]
+lines = "387"
+chars = "218-235"
+text = "with _α_ = 3 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "389"
+chars = "9-27"
+text = "UNDERSTANDING PHASE"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "394"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0009-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "397"
+chars = "19-45"
+text = "appearance of the LU phases"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "400"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0009-13.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "406"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0009-15.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "409"
+chars = "266-286"
+text = "part of the _M_ phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "413"
+chars = "5-42"
+text = "8-site order found from _**H**_[4] eff"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "413"
+chars = "100-128"
+text = "10-site order found from DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "413"
+chars = "247-289"
+text = "transition from the _M_ phase to a LU phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "413"
+chars = "313-342"
+text = "the _M_ phase is more extended"
+
+[[blocks]]
+sections = ["truth"]
+lines = "413"
+chars = "564-609"
+text = "original _σ_ -model where the _M_ phase closes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "415"
+chars = "23-83"
+text = "series of LU phases including incommensurate order may emerge"
+
+[[blocks]]
+sections = ["method"]
+lines = "415"
+chars = "157-168"
+text = "DMRG studies"
+
+[[blocks]]
+sections = ["truth"]
+lines = "415"
+chars = "330-375"
+text = "LU phases and obtaining their phase boundaries"
+
+[[blocks]]
+sections = ["method"]
+lines = "415"
+chars = "383-397"
+text = "DMRG techniques"
+
+[[blocks]]
+sections = ["problem"]
+lines = "417"
+chars = "13-34"
+text = "on-site magnetizations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "417"
+chars = "116-130"
+text = "in the LU phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "417"
+chars = "133-165"
+text = "obtained from _N_ = 200 site DMRG"
+
+[[blocks]]
+sections = ["problem"]
+lines = "417"
+chars = "172-175"
+text = "OBCs"
+
+[[blocks]]
+sections = ["problem"]
+lines = "417"
+chars = "183-240"
+text = "fixed _α_ = 15 _[◦]_ , _h_ = 0 _._ 57, and _ϕxy_ = 0 _[◦]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "421"
+chars = "69-92"
+text = "bond strengths _Kx > Ky_"
+
+[[blocks]]
+sections = ["method"]
+lines = "421"
+chars = "445-462"
+text = "finite DMRG method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "421"
+chars = "481-519"
+text = "phase diagram in the ( _hx, hy_ ) plane"
+
+[[blocks]]
+sections = ["truth"]
+lines = "421"
+chars = "823-872"
+text = "polarizes from the _M_ phase at higher _hx_ fields"
+
+[[blocks]]
+sections = ["truth"]
+lines = "421"
+chars = "895-1014"
+text = "_M_ and _C_ phases were found to be field-induced ordered phases that possess magnetic unit cells of 4-sites and 6-sites"
+
+[[blocks]]
+sections = ["truth"]
+lines = "421"
+chars = "1035-1075"
+text = "_B_ phase was found to be a soliton phase"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "421"
+chars = "1158-1284"
+text = "LU phases appear to be phases that possess larger magnetic unit cells, with DMRG indicating an ordering with 10-site unit cells"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "426"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0010-07.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "429"
+chars = "13-30"
+text = "8-site periodicity"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "432"
+text = "![](.figures/arxiv__2501.03329/2501.03329.pdf-0010-09.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "198-256"
+text = "the _M_ phase is characterized by a staggered magnetization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "468-529"
+text = "the _M_ phase shrinks until it vanishes in the isotropic limit"
+
+[[blocks]]
+sections = ["method"]
+lines = "435"
+chars = "550-561"
+text = "DMRG studies"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "603-677"
+text = "the _C_ phase is characterized by a uniform chirality in addition to 6-site"
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "35-102"
+text = "transition from the _M_ phase to a phase with 8-site unit cell order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "493-519"
+text = "on-site magnetizations with"
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "521-543"
+text = "10-site order in Fig. 8"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "441"
+chars = "132-186"
+text = "_B_ phase was explained through exactly solvable points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "333-367"
+text = "LU phases in the higher _hx_ regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "579-604"
+text = "where the _M_ phase closes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "609-668"
+text = "series of LU phases including incommensurate order may exist"
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "705-736"
+text = "LU phases is not well understood"
+
+[[blocks]]
+sections = ["truth"]
+lines = "459"
+chars = "140-194"
+text = "large unit-cell phases in the classical Kitaev-Γ models"
+
+[[blocks]]
+sections = ["truth"]
+lines = "459"
+chars = "654-700"
+text = "large unit-cell orders in the 2D Kitaev-Γ model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "459"
+chars = "718-764"
+text = "LU phases found in the anisotropic Kitaev chain"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "463"
+chars = "307-356"
+text = "Niagara supercomputer at the SciNet HPC Consortium"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "463"
+chars = "359-374"
+text = "SciNet is funded"
+
+[[blocks]]
+sections = ["truth"]
+lines = "517"
+chars = "84-103"
+text = "chiral soliton phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "519"
+chars = "21-81"
+text = "Density matrix formulation for quantum renormalization groups"
+
+[[blocks]]
+sections = ["method"]
+lines = "521"
+chars = "27-98"
+text = "density-matrix renormalization group in the age of matrix product states"
+
+[[blocks]]
+sections = ["software"]
+lines = "523"
+chars = "57-80"
+text = "itensor software library"
+
+[[blocks]]
+sections = ["method"]
+lines = "525"
+chars = "32-63"
+text = "Exact diagonalization techniques"
+
+[[blocks]]
+sections = ["method"]
+lines = "527"
+chars = "25-74"
+text = "Infinite size density matrix renormalization group"
+
+[[blocks]]
+sections = ["truth"]
+lines = "533"
+chars = "84-103"
+text = "chiral soliton phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "577"
+chars = "18-29"
+text = "DMRG results"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "581"
+chars = "13-57"
+text = "phase diagrams for _α_ = 30 _[◦]_ and 5 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "581"
+chars = "162-235"
+text = "field induced phases _M_ , _C_ , and _B_ are found for all cases presented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "581"
+chars = "242-296"
+text = "_C_ and _B_ phases are present only when _hy_ is finite"
+
+[[blocks]]
+sections = ["truth"]
+lines = "581"
+chars = "303-336"
+text = "_M_ phase shrinks as _α_ increases"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "607"
+chars = "58-130"
+text = "_α_ = 5 _[◦]_ (solid gold points) and _α_ = 30 _[◦]_ (solid green points)"
+
+[[blocks]]
+sections = ["method"]
+lines = "607"
+chars = "159-176"
+text = "obtained from DMRG"
+
+[[blocks]]
+sections = ["problem"]
+lines = "607"
+chars = "183-196"
+text = "N_ = 200 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "607"
+chars = "199-207"
+text = "with PBCs"
+
+[[blocks]]
+sections = ["truth"]
+lines = "607"
+chars = "232-348"
+text = "transition points from the _M_ phase to other smaller phases denoted by LU occurring before the system reaches the PS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "607"
+chars = "374-424"
+text = "small region which separates the _M_ and _C_ phases"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "607"
+chars = "479-519"
+text = "exactly solvable points for the _B_ phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "611"
+chars = "30-122"
+text = "unit cell correlators _⟨ξσ,j⟩_ defined in Eq. (5) as a function of the unit cell _j_ for OBCs"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "25-81"
+text = "the _C_ phase posses both uniform and staggered chirality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "92-147"
+text = "staggered chirality is a trivial effect due to the field"
+
+[[blocks]]
+sections = ["problem"]
+lines = "625"
+chars = "14-91"
+text = "unit cell correlators _⟨ξσ,j⟩_ versus unit cell _j_ in the middle of the chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "625"
+chars = "93-108"
+text = "in the _C_ phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "625"
+chars = "111-143"
+text = "obtained from _N_ = 200 site DMRG"
+
+[[blocks]]
+sections = ["problem"]
+lines = "625"
+chars = "150-153"
+text = "OBCs"
+
+[[blocks]]
+sections = ["problem"]
+lines = "625"
+chars = "161-219"
+text = "fixed _α_ = 15 _[◦]_ , _h_ = 0 _._ 55, and _ϕxy_ = 12 _[◦]_"

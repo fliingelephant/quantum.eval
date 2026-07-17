@@ -7,6 +7,7 @@ family = "mps"
 tier = "light"
 kind = "physics"
 status = "rendered"
+md_sha256 = "f74049c7697ffcaf30c9227e7f469c6b1d3d8069c699c377d514ae0939080ac7"
 doi = "10.1103/6ytv-7d16"
 arxiv_version = "2408.07968v2"
 
@@ -15,3 +16,163 @@ model = "spin-1/2 Kitaev-Heisenberg chain (+ Gamma term); ground-state DMRG"
 headline = "contested-region phase diagram: AFM, LLRR order, gapless c=1 phase from entanglement scaling; bosonization/Luttinger-liquid backbone"
 compute = "spin-1/2 chain, chi few hundred; laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Spin-1/2 one-dimensional Kitaev-Heisenberg chain with nearest-neighbor x/y bond-dependent Kitaev exchange and Heisenberg exchange; the extension adds the off-diagonal Gamma interaction."
+model_provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:73-89,113-131"
+convention = "H0 = sum over nearest-neighbor gamma bonds of K S_i^gamma S_j^gamma + J S_i·S_j, with K = -sin(phi) and J = cos(phi); the main numerical region is phi in (arctan(2), pi/2), equivalently K < 0 and J > 0, at Gamma = 0. The Gamma extension uses theta, phi with Gamma > 0 after the sign equivalence."
+convention_provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:55,83-89,123-131,757-763"
+instance = "Spin-1/2, 1D chain with alternating x/y bonds; calculations are presented in the four-sublattice rotated U4 frame. Open boundary conditions are used for entanglement-entropy central-charge fits; periodic boundary conditions are used for correlations, field responses, and the excitation-gap scaling."
+instance_provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:103-111,527,541,563,575,587,635,675,763,797,807"
+
+targets = [
+  { panel = "fig2", quantity = "central charge c(phi) for L = 48, 100, 256", observable = "entanglement entropy fit", axes = "phi/pi versus c", boundary = "open", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:541,67" },
+  { panel = "phase_boundary_c1", quantity = "LLRR-to-gapless transition phi_c1/pi", observable = "phase boundary from central-charge finite-size trend", axes = "phi/pi", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:57" },
+  { panel = "phase_boundary_c2", quantity = "dual gapless-to-FM transition phi_c2/pi", observable = "phase boundary under U4 duality", axes = "phi/pi", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:227" },
+  { panel = "fig5a", quantity = "central charge at phi = 0.38 pi", observable = "average fitted central charge", axes = "entanglement entropy fit", boundary = "open", size = "L = 256", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:539,563" },
+  { panel = "fig5b", quantity = "central charge at phi = 0.47 pi", observable = "average fitted central charge", axes = "entanglement entropy fit", boundary = "open", size = "L = 256", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:539,563" },
+  { panel = "fig6a", quantity = "transverse correlation exponent at phi = 0.37 pi", observable = "<S_1^alpha S_x^alpha> for alpha = x,y", axes = "log correlation versus log sin(pi r/L)", boundary = "periodic", size = "L = 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:547,575" },
+  { panel = "fig6b", quantity = "longitudinal correlation exponent at phi = 0.37 pi", observable = "<S_1^z S_x^z>", axes = "log correlation versus log sin(pi r/L)", boundary = "periodic", size = "L = 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:547,575" },
+  { panel = "fig6c", quantity = "transverse correlation exponent at phi = 0.48 pi", observable = "<S_1^alpha S_x^alpha> for alpha = x,y", axes = "log correlation versus log sin(pi r/L)", boundary = "periodic", size = "L = 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:551,575" },
+  { panel = "fig6d", quantity = "longitudinal correlation exponent at phi = 0.48 pi", observable = "<S_1^z S_x^z>", axes = "log correlation versus log sin(pi r/L)", boundary = "periodic", size = "L = 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:551,575" },
+  { panel = "fig6_37_product", quantity = "product of transverse and longitudinal exponents at phi = 0.37 pi", observable = "exponent product", axes = "dimensionless", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:549" },
+  { panel = "fig6_48_product", quantity = "product of transverse and longitudinal exponents at phi = 0.48 pi", observable = "exponent product", axes = "dimensionless", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:551" },
+  { panel = "fig7a", quantity = "spin-expectation pattern under hxy at phi = 0.36 pi", observable = "<S_i^x>, <S_i^y>, <S_i^z> in U4 frame", axes = "site index i", field = "2e-4 along (1,1,0)", boundary = "periodic", size = "L = 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:599,587" },
+  { panel = "fig7b", quantity = "spin-expectation pattern under hy at phi = 0.36 pi", observable = "<S_i^x>, <S_i^y>, <S_i^z> in U4 frame", axes = "site index i", field = "2e-4 along (0,1,0)", boundary = "periodic", size = "L = 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:599,587" },
+  { panel = "fig8", quantity = "ground-state energy per site versus hxy and hy at phi = 0.36 pi", observable = "E0/L", axes = "field strength in units of 1e-4", boundary = "periodic", sizes = "L = 48, 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:625,635" },
+  { panel = "fig9", quantity = "excitation gap versus 1/L at phi = 0.48 pi", observable = "finite-size excitation gap", axes = "1/L versus gap", boundary = "periodic", sizes = "L = 24, 48, 72, 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:655,675" },
+  { panel = "fig10a", quantity = "spin-expectation pattern under hxy in the Kitaev-Heisenberg-Gamma chain", observable = "<S_i^x>, <S_i^y>, <S_i^z> in U4 frame", axes = "site index i", field = "2e-4 along (1,1,0)", parameters = "theta = 0.37 pi, phi = 0.99 pi", boundary = "periodic", size = "L = 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:769,797" },
+  { panel = "fig10b", quantity = "spin-expectation pattern under hy in the Kitaev-Heisenberg-Gamma chain", observable = "<S_i^x>, <S_i^y>, <S_i^z> in U4 frame", axes = "site index i", field = "2e-4 along (0,1,0)", parameters = "theta = 0.37 pi, phi = 0.99 pi", boundary = "periodic", size = "L = 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:769,797" },
+  { panel = "fig11", quantity = "ground-state energy per site versus hxy and hy in the Kitaev-Heisenberg-Gamma chain", observable = "E0/L", axes = "field strength in units of 1e-4", parameters = "theta = 0.37 pi, phi = 0.99 pi", boundary = "periodic", sizes = "L = 48, 96", tier = "light", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:775,807" },
+]
+
+[method]
+family = "mps"
+algorithm = "Finite-size density matrix renormalization group (DMRG), with the main numerical observables evaluated in the four-sublattice rotated U4 frame."
+algorithm_provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:55,527,599,763"
+valid_alternatives = "Finite-size variational MPS or another ground-state MPS optimizer can produce the listed 1D ground-state targets; the target set requires a method that supports entanglement entropy, correlations, local expectations, field-dependent energies, and finite-size gaps."
+valid_alternatives_provenance = "Inferred from the target observables and the paper's stated DMRG route: Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:531-551,599,625,655"
+
+[method_params]
+items = [
+  { name = "maximum bond dimension m", values = [1000, 1200], provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:67,563,575,587,635,675,797,807" },
+  { name = "DMRG truncation error epsilon", values = [1e-9, 1e-10, 1e-11], provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:67,563,575,587,635,675,797,807" },
+]
+
+[software]
+software = "ITensor software package"
+software_provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:989"
+valid_tools = "Other tensor-network libraries or a custom MPS/DMRG implementation are valid alternatives if they reproduce the same ground-state observables."
+valid_tools_provenance = "Inferred from the MPS/DMRG target route and the paper's explicit software attribution: Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:989"
+
+[software_params]
+items = []
+note = "No implementation-only solver tolerance, threading setting, or API toggle is stated; the reported numerical controls are DMRG method parameters."
+
+[anchors]
+items = [
+  { name = "four-sublattice self-duality", value = "(K,J) ~ (K + 2J, -J)", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:105-111" },
+  { name = "hidden SU(2) points", value = "K = -2J < 0 and K = -2J > 0 map to FM and AFM Heisenberg models", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:111" },
+  { name = "Gamma sign equivalence", value = "(K,J,Gamma) ~ (K,J,-Gamma)", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:123-129" },
+  { name = "Luttinger-liquid central charge", value = "c = 1", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:537" },
+  { name = "CFT lower reference", value = "c = 0.5 for Ising critical theory", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:537" },
+  { name = "Luttinger exponent relation", value = "transverse exponent = 1/(2 kappa), longitudinal exponent = 2 kappa, product = 1", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:547" },
+  { name = "free-fermion exponent", value = "transverse correlation exponent = 0.5", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:551" },
+  { name = "FM Kitaev degeneracy", value = "2^(L/2) ground-state degeneracy for L sites", provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:229" },
+]
+
+[truth]
+note = "Scalar values are stated or read from figure labels; curves and site patterns are stored in the adjacent truth_<panel>.csv files. Inferred digitizations carry tolerances that include plot-reading uncertainty."
+
+[truth.fig2]
+csv = "truth_fig2.csv"
+tolerance = 0.06
+provenance = "Inferred digitization of the raw-PDF Fig. 2 plot on page 2; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:67"
+
+[truth.phase_boundary_c1]
+value = 0.40
+tolerance = 0.02
+units = "phi/pi"
+provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:57"
+
+[truth.phase_boundary_c2]
+value = 0.56
+tolerance = 0.02
+units = "phi/pi"
+provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:227"
+
+[truth.fig5a]
+value = 0.435
+tolerance = 0.02
+provenance = "Inferred average of the two fitted slopes shown in picture text Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:560; setup Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:563"
+
+[truth.fig5b]
+value = 0.895
+tolerance = 0.02
+provenance = "Inferred average of the two fitted slopes shown in picture text Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:560; setup Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:563"
+
+[truth.fig6a]
+value = 0.147
+tolerance = 0.02
+provenance = "Inferred digitization of the Fig. 6(a) slope from image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:568; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:575"
+
+[truth.fig6b]
+value = 2.2514
+tolerance = 0.05
+provenance = "Inferred digitization of the Fig. 6(b) slope from image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:568; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:575"
+
+[truth.fig6c]
+value = 0.4695
+tolerance = 0.02
+provenance = "Inferred average of the Fig. 6(c) x/y slopes from image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:568; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:575"
+
+[truth.fig6d]
+value = 2.354
+tolerance = 0.05
+provenance = "Inferred digitization of the Fig. 6(d) slope from image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:568; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:575"
+
+[truth.fig6_37_product]
+value = 0.33
+tolerance = 0.05
+provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:549"
+
+[truth.fig6_48_product]
+value = 1.1
+tolerance = 0.1
+provenance = "Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:551"
+
+[truth.fig7a]
+csv = "truth_fig7a.csv"
+tolerance = 0.03
+provenance = "Inferred site-pattern digitization from Fig. 7(a) image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:580; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:587"
+
+[truth.fig7b]
+csv = "truth_fig7b.csv"
+tolerance = 0.03
+provenance = "Inferred site-pattern digitization from Fig. 7(b) image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:580; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:587"
+
+[truth.fig8]
+csv = "truth_fig8.csv"
+tolerance = 0.00002
+provenance = "Inferred digitization of Fig. 8 energy-field curves from image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:628; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:635"
+
+[truth.fig9]
+value = 0.0002
+csv = "truth_fig9.csv"
+tolerance = 0.0004
+provenance = "Literal extrapolated gap value papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:655; finite-size curve digitized from image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:668 and caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:675"
+
+[truth.fig10a]
+csv = "truth_fig10a.csv"
+tolerance = 0.03
+provenance = "Inferred site-pattern digitization from Fig. 10(a) image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:790; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:797"
+
+[truth.fig10b]
+csv = "truth_fig10b.csv"
+tolerance = 0.03
+provenance = "Inferred site-pattern digitization from Fig. 10(b) image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:790; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:797"
+
+[truth.fig11]
+csv = "truth_fig11.csv"
+tolerance = 0.00002
+provenance = "Inferred digitization of Fig. 11 energy-field curves from image Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:800; caption Literal papers/2408.07968/2408.07968_left-left-right-right-magnetic-order-in-spin-1-2-kitaev-heis.md:807"

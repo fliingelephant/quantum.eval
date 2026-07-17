@@ -1,0 +1,2387 @@
+# Partition layer for papers/2403.02400 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-93"
+text = "Tunable quantum criticality and pseudocriticality across the fixed-point annihilation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-87"
+text = "Tunable quantum criticality and pseudocriticality across the fixed-point annihilation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "265-300"
+text = "scenario of fixed-point annihilation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "447-629"
+text = "a single $S=1/2$ spin where each spin component couples to an independent bosonic bath with power-law spectrum $\\propto \\omega^s$ via dissipation strengths $\\alpha_i$, $i\\in\\{x,y,z\\}$"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "821-887"
+text = "exact wormhole quantum Monte Carlo method for retarded interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1043-1111"
+text = "fixed-point annihilation within a symmetry-enhanced critical manifold"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1128-1190"
+text = "continuous order-to-order transition beyond the Landau paradigm"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1200-1250"
+text = "symmetry-enhanced first-order transition, and (iii)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1252-1268"
+text = "pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1431-1470"
+text = "symmetry-enhanced first-order transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1487-1555"
+text = "inverse correlation-length exponent is given by the bath exponent $s$"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1579-1673"
+text = "direct numerical evidence for pseudocritical scaling on both sides of the fixed-point collision"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1698-1752"
+text = "extremely slow drift of the correlation-length exponent"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "27"
+chars = "1822-1894"
+text = "determine the phase boundary of an extended U(1)-symmetric critical phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "5-89"
+text = "Tunable quantum criticality and pseudocriticality across the fixed-point annihilation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "273-308"
+text = "scenario of fixed-point annihilation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "39"
+chars = "455-627"
+text = "a single _S_ = 1 _/_ 2 spin where each spin component couples to an independent bosonic bath with power-law spectrum _∝ ω[s]_ via dissipation strengths _αi_ , _i ∈{x, y, z}_"
+
+[[blocks]]
+sections = ["method"]
+lines = "39"
+chars = "807-873"
+text = "exact wormhole quantum Monte Carlo method for retarded interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1040-1108"
+text = "fixed-point annihilation within a symmetry-enhanced critical manifold"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1176-1237"
+text = "continuous order-toorder transition beyond the Landau paradigm"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1247-1286"
+text = "symmetry-enhanced first-order transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1299-1315"
+text = "pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1755-1794"
+text = "symmetry-enhanced first-order transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1811-1879"
+text = "inverse correlation-length exponent is given by the bath exponent _s_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1904-1998"
+text = "direct numerical evidence for pseudocritical scaling on both sides of the fixed-point collision"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "2023-2077"
+text = "extremely slow drift of the correlation-length exponent"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "39"
+chars = "2204-2291"
+text = "determine the phase boundary of an extended U(1)-symmetric critical phase for _αz < αxy_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "2397-2413"
+text = "pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "47"
+chars = "125-215"
+text = "two intermediate-coupling RG fixed points collide and annihilate each other at _s_ = _s[∗]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "47"
+chars = "290-345"
+text = "RG flow is exponentially suppressed in _|s − s[∗] | ≪_ 1"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "55"
+chars = "807-895"
+text = "stable critical phases at weak coupling before it gets localized again at strong coupling"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "55"
+chars = "1005-1033"
+text = "weak-coupling perturbative RG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "107-174"
+text = "each of these pairs exhibits an independent fixed-point annihilation"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "82-122"
+text = "wormhole quantum Monte Carlo (QMC) method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "59"
+chars = "210-298"
+text = "two dissipation strengths are kept equal and the third coupling is tuned as an anisotropy"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "59"
+chars = "304-423"
+text = "map out the phase diagram along different cuts in parameter space and track the two sequential fixed-point annihilations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "520-569"
+text = "determine the collision points with high precision"
+
+[[blocks]]
+sections = ["problem"]
+lines = "59"
+chars = "698-731"
+text = "crossover from SU(2) to U(1) spins"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "983-1021"
+text = "symmetry-enhanced firstorder transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "1096-1143"
+text = "non-Landau second-order quantum phase transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "1194-1215"
+text = "pseudocritical scaling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "1487-1533"
+text = "phase coexistence with a finite order parameter"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "1742-1808"
+text = "inverse correlation-length exponent given by the bath dimension _s_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "1829-1884"
+text = "high-symmetry critical fixed point has zero local moment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "2205-2236"
+text = "in-plane RG flow becomes so slow"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "2254-2275"
+text = "pseudocritical scaling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "2321-2386"
+text = "pseudocriticality occurs on both sides of the fixedpoint collision"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "2566-2697"
+text = "logarithmic drift of the pseudocritical exponents and a prefactor that depends linearly on the distance to the fixed-point collision"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "1-150"
+text = "nature of the same order-to-order transition from firstto second-order and to create a broad regime in which the transition becomes weakly first order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "391-455"
+text = "Fixed-point annihilation within a high-symmetry critical manifold"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "569-609"
+text = "symmetry-enhanced first-order transitions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "612-689"
+text = "continuous order-to-order quantum phase transitions beyond the Landau paradigm"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "696-753"
+text = "pseudocriticality leading to a weak first-order transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "107-109"
+text = "QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "319-321"
+text = "QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "372-374"
+text = "QMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "392-428"
+text = "two sequential fixed-point collisions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "438-470"
+text = "approximate fixed-point dualities"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "721-723"
+text = "QMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+chars = "17-44"
+text = "anisotropic spin-boson model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "78"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "7-120"
+text = "each of the three components _S_[ˆ] _[i]_ of a single _S_ = 1 _/_ 2 spin is coupled to an independent bosonic bath"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "123-191"
+text = "Every bath is described by an infinite number of harmonic oscillators"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "323-418"
+text = "bath spectra _Ji_ ( _ω_ ) = _π_[�] _q[λ]_[2] _qi[δ]_[(] _[ω][ −][ω][q]_[) are of power-law form]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "84"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0003-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "5-100"
+text = "the cutoff frequency _ω_ c is taken as the unit of energy; beyond _ω_ c, we set _Ji_ ( _ω_ ) = 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "103-177"
+text = "The dimensionless coupling parameters _αi_ measure the dissipation strength"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "307-386"
+text = "the U(1)-symmetric case with _αx_ = _αy ≡ αxy_ and tune the spin anisotropy _αz_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "390-440"
+text = "At _αz_ = _αxy_ , the model becomes SU(2) symmetric"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "462-497"
+text = "anisotropy parameter ∆= 1 _− αz/αxy_"
+
+[[blocks]]
+sections = ["method"]
+lines = "89"
+chars = "33-74"
+text = "exact QMC method for retarded interactions"
+
+[[blocks]]
+sections = ["method"]
+lines = "89"
+chars = "123-166"
+text = "bosonic baths can be traced out analytically"
+
+[[blocks]]
+sections = ["method"]
+lines = "89"
+chars = "194-241"
+text = "diagrammatic expansion of the partition function"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0003-13.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "4-69"
+text = "nonlocal in imaginary time _τ_ and mediated by the bath propagator"
+
+[[blocks]]
+sections = ["method"]
+lines = "100"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0004-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "103"
+chars = "136-216"
+text = "the bath propagator decays as _Ki_ ( _τ_ ) _∝_ 1 _/τ_[1+] _[s]_ for _ω_ c _τ ≫_ 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "258-280"
+text = "continuous-time methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "342-371"
+text = "hybridization-expansion method"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "472-498"
+text = "stochastic series expansion"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "633-642"
+text = "Metropolis"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "709-718"
+text = "world-line"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "849-874"
+text = "inverse transform sampling"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "899-926"
+text = "global directed-loop updates"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "946-959"
+text = "wormhole moves"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "1109-1118"
+text = "world-line"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "1188-1206"
+text = "wormhole QMC method"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "1571-1596"
+text = "interaction representation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "38-111"
+text = "observables can only be accessed from imaginary-time correlation functions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "108"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0004-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "13-60"
+text = "Matsubara frequencies Ω _n_ = 2 _πn/β_ , _n ∈_ Z"
+
+[[blocks]]
+sections = ["method"]
+lines = "111"
+chars = "131-162"
+text = "propagation of the directed loop"
+
+[[blocks]]
+sections = ["method"]
+lines = "111"
+chars = "214-237"
+text = "world-line configuration"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "111"
+chars = "259-359"
+text = "static susceptibility _χi_ = _χi_ (iΩ0) which can be used to identify the formation of a local moment"
+
+[[blocks]]
+sections = ["problem"]
+lines = "114"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0004-07.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "64-124"
+text = "indicative of long-range order in the imaginarytime direction"
+
+[[blocks]]
+sections = ["problem"]
+lines = "119"
+chars = "80-111"
+text = "calculate the correlation length"
+
+[[blocks]]
+sections = ["problem"]
+lines = "124"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0004-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "127"
+chars = "633-733"
+text = "the renormalized correlation length _ξi/β_ diverges (scales to zero) in the ordered (disorderd) phase"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "127"
+chars = "736-830"
+text = "At criticality, the correlation length becomes scale invariant and _ξi/β_ approaches a constant"
+
+[[blocks]]
+sections = ["problem"]
+lines = "130"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0004-13.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "133"
+chars = "7-100"
+text = "scales to one (zero) in the ordered (disordered) phase and becomes RG invariant at criticality"
+
+[[blocks]]
+sections = ["method"]
+lines = "137"
+chars = "244-263"
+text = "using our QMC method"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "141"
+chars = "283-427"
+text = "For bath exponents _s >_ 1, the coupling to the bath is an irrelevant RG perturbation, so that F remains stable for any dissipation strength _αi_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "141"
+chars = "540-603"
+text = "For _s <_ 1, the coupling to the bath is a relevant perturbation"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "141"
+chars = "701-778"
+text = "the system flows to one of the three stable strong-coupling fixed points L _i_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "141"
+chars = "869-960"
+text = "each of these fixed points describes a localized phase with spontaneously broken Z2 symmetry"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "145"
+chars = "1-71"
+text = "localized phase along one of the three spin orientations _i ∈{x, y, z}_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "149"
+chars = "178-206"
+text = "weak-coupling perturbative RG"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "152"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0005-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "155"
+chars = "110-236"
+text = "The beta function describes how the effective couplings _αi_ renormalize as the reference scale _µ_ is changed under an RG step"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "155"
+chars = "239-322"
+text = "The zeros of the beta function correspond to fixed points under an RG transformation"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "157"
+chars = "49-131"
+text = "three equivalent nontrivial fixed points CR1 within the three U(1)-symmetric planes"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "160"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "163"
+chars = "174-240"
+text = "CR1 is stable towards perturbations that conserve the U(1) symmetry"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "168"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0005-10.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "171"
+chars = "1-73"
+text = "CR2 is a stable fixed point within the SU(2)-symmetric parameter manifold"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "173"
+chars = "176-206"
+text = "ηi_ = 1 _−s_ is an exact result"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "173"
+chars = "217-260"
+text = "diagrammatic structure of the susceptibility"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "175"
+chars = "281-340"
+text = "the critical phases have a local moment of _m_[2] _i_[=][0,]"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "175"
+chars = "503-571"
+text = "the normalized correlation length _ξi/β_ defined in Eq. (7) is finite"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "166-177"
+text = "MPS approach"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "179"
+chars = "269-336"
+text = "a localized phase L1 where the U(1) symmetry is spontaneously broken"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "179"
+chars = "444-487"
+text = "an unstable quantum critical fixed point QC1"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "179"
+chars = "497-532"
+text = "a strong-coupling localized phase L2"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "583-603"
+text = "using QMC simulations"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "181"
+chars = "58-131"
+text = "the two intermediate-coupling fixed points CR1 and QC1 approach each other"
+
+[[blocks]]
+sections = ["truth"]
+lines = "181"
+chars = "175-218"
+text = "eventually collide and annihilate each other"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "616-634"
+text = "our QMC simulations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "188"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "192"
+chars = "18-40"
+text = "αz = 0 (a) αz = αxy (b)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "192"
+chars = "45-49"
+text = "α QC1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "192"
+chars = "54-58"
+text = "α QC2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "195"
+chars = "110-181"
+text = "Nontrivial fixed points only occur for (a) _αz_ = 0 and (b) _αz_ = _αxy_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "208-295"
+text = "the two fixed points CR1/2 and QC1/2 collide and annihilate each other at _s[∗]_ 1 _/_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "197"
+chars = "97-151"
+text = "finite-size-scaling analysis of the spin susceptibility"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "539-610"
+text = "the fixed-point collision takes place at different _s[∗]_ 1 and _s[∗]_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "199"
+chars = "395-420"
+text = "s[∗]_ 2[= 0] _[.]_[6540(2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "199"
+chars = "481-506"
+text = "s[∗]_ 1[= 0] _[.]_[7706(1)"
+
+[[blocks]]
+sections = ["method"]
+lines = "199"
+chars = "561-563"
+text = "MPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "199"
+chars = "596-598"
+text = "MPS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "201"
+chars = "30-99"
+text = "approximate duality between the weak- and strong-coupling fixed points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "201"
+chars = "128-188"
+text = "the product _α_ CR1 _/_ 2 _× α_ QC1 _/_ 2 would be a constant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "201"
+chars = "407-438"
+text = "their product is almost constant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "204"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0006-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "18-46"
+text = "Estimation of the coordinates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "234-267"
+text = "Final estimates for _s[∗]_ 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "405-445"
+text = "Numerical test of the fixed-point duality"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "213"
+chars = "66-112"
+text = "this duality is a symmetry of the beta function"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "215"
+chars = "49-164"
+text = "the exact (but unknown) beta function within the high-symmetry manifold can always be expanded up to quadratic order"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "218"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0006-10.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "221"
+chars = "351-415"
+text = "The beta function in Eq. (12) is just a parabola opened downwards"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "225"
+chars = "173-261"
+text = "predicts 1 _/ν ∝_ ( _s − s[∗]_ )[1] _[/]_[2] for the inverse correlation-length exponents"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "227"
+chars = "49-134"
+text = "the fixedpoint collision is already contained in the two-loop beta function of Eq. (9)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "231"
+chars = "11-121"
+text = "fixed-point structure of the anisotropic spinboson model including the RG flow between each of the fixed points"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "233"
+chars = "212-283"
+text = "the free-spin fixed point F remains stable for all dissipation strengths"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "235"
+chars = "328-426"
+text = "two stable phases, CR1 and L1, separated by a line (red) at which a quantum phase transition occurs"
+
+[[blocks]]
+sections = ["truth"]
+lines = "237"
+chars = "139-180"
+text = "[L] and L1 describe the only stable phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "293-320"
+text = "second fixed-point collision"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "286-374"
+text = "a first-order transition because at the high-symmetry point the system is in the L2 phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "934-962"
+text = "critical fixed point CR2 with"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "1333-1429"
+text = "the fixed-point annihilation provides us with a tunable first-order to continuous L1–L transition"
+
+[[blocks]]
+sections = ["problem"]
+lines = "245"
+chars = "159-202"
+text = "one irrelevant and one relevant RG direction"
+
+[[blocks]]
+sections = ["problem"]
+lines = "245"
+chars = "698-789"
+text = "Speed and direction of the RG flow is determined by the inverse correlation-length exponents"
+
+[[blocks]]
+sections = ["problem"]
+lines = "250"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0008-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "257"
+chars = "367-429"
+text = "For _s >_ 1, the free-spin fixed point F is stable for all _αi_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "257"
+chars = "528-587"
+text = "There appear two pairs of intermediate-coupling fixed points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "1188-1215"
+text = "via fixed-point annihilation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "1458-1494"
+text = "L1, and L2 are the only stable phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "113-186"
+text = "the corresponding 1 _/νi >_ 0 dictates the scaling at the phase transition"
+
+[[blocks]]
+sections = ["problem"]
+lines = "259"
+chars = "189-258"
+text = "For the fixed points QC1, CR2, and L2 we denote the critical exponents"
+
+[[blocks]]
+sections = ["problem"]
+lines = "261"
+chars = "1-59"
+text = "To determine the critical exponents from our numerical data"
+
+[[blocks]]
+sections = ["problem"]
+lines = "264"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0008-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "267"
+chars = "422-572"
+text = "For most of our analysis, we consider RG-invariant observables with _κ_ = 0 like the normalized correlation length _ξi/β_ or the correlation ratio _Ri_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "269"
+chars = "340-378"
+text = "we extract the pseudocritical couplings"
+
+[[blocks]]
+sections = ["problem"]
+lines = "269"
+chars = "481-542"
+text = "the pseudocritical couplings converge to the critical coupling"
+
+[[blocks]]
+sections = ["problem"]
+lines = "271"
+chars = "29-97"
+text = "the crossing analysis allows us to define a sliding critical exponent"
+
+[[blocks]]
+sections = ["problem"]
+lines = "274"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0008-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "277"
+chars = "148-272"
+text = "we evaluate the derivatives by fitting each data set with a cubic function near the crossing and use a bootstrapping analysis"
+
+[[blocks]]
+sections = ["method"]
+lines = "281"
+chars = "18-38"
+text = "we use our QMC method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "281"
+chars = "43-160"
+text = "determine the phase diagram of the U(1)-symmetric anisotropic spin-boson model along different cuts in parameter space"
+
+[[blocks]]
+sections = ["problem"]
+lines = "285"
+chars = "34-88"
+text = "determine the fixedpoint couplings and phase boundaries"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "290"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "64-155"
+text = "two clean crossings which correspond to the weakand strong-coupling fixed points CR1 and QC1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "299"
+chars = "243-341"
+text = "This critical coupling _αxy_[c][marks the quan-] tum phase transition between the CR1 and L1 phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "299"
+chars = "465-567"
+text = "the clean crossing at weak couplings has dissolved into pairwise intersections that drift substantially"
+
+[[blocks]]
+sections = ["truth"]
+lines = "303"
+chars = "242-260"
+text = "two clean crossings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "303"
+chars = "303-385"
+text = "correspond to the critical fixed point CR1 and the quantum critical fixed point QC1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "303"
+chars = "467-555"
+text = "a clear crossing at strong couplings, which corresponds to the critical coupling _αxy_[c]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "303"
+chars = "620-704"
+text = "crossings at weak couplings do not converge to a fixed value, but significantly drift"
+
+[[blocks]]
+sections = ["problem"]
+lines = "305"
+chars = "1-50"
+text = "ized correlation length _ξxy/β_ defined in Eq. (7)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "305"
+chars = "58-94"
+text = "diverges in the localized phases L1/2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "305"
+chars = "676-723"
+text = "T[s] χxy_ exhibits the same crossings as _ξxy/β_"
+
+[[blocks]]
+sections = ["method"]
+lines = "305"
+chars = "731-783"
+text = "smaller statistical fluctuations of the QMC estimator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "311"
+chars = "163-258"
+text = "Our system is in the free-spin phase F for _s >_ 1 and enters the critical phase CR1 for _s <_ 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "311"
+chars = "384-398"
+text = "Our QMC results"
+
+[[blocks]]
+sections = ["method"]
+lines = "311"
+chars = "471-481"
+text = "MPS studies"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "268-300"
+text = "critical phase can only exist for"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "540-573"
+text = "not][find][well-defined][crossings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "315"
+chars = "164-231"
+text = "the critical phase remains stable down to bath exponents of _s[∗]_ 2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "320"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0010-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "204-306"
+text = "The red crosses in (a) and (c) indicate the positions of the fixed-point collisions estimated in Fig. 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "317-408"
+text = "the red ellipse in (b) marks the region where the critical coupling is supposed to disappear"
+
+[[blocks]]
+sections = ["truth"]
+lines = "335"
+chars = "347-407"
+text = "the critical phase becomes extremely narrow close to _⃗α_ QC2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "335"
+chars = "614-650"
+text = "power-law convergence towards _α_ QC2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "338"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0010-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "345"
+chars = "146-202"
+text = "positions of the critical (quantum critical) fixed points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "345"
+chars = "209-286"
+text = "Evolution of the critical coupling _⃗α_ c as a function of the distance to QC2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "349"
+chars = "18-106"
+text = "all phases and their properties are eventually determined by the fixed points at _αz_ = 0"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "353"
+chars = "1-123"
+text = "The critical properties at the phase boundary _⃗α_ c shown in Fig. 6 are determined by the quantum critical fixed point QC1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "356"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0010-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "359"
+chars = "218-248"
+text = "1 _/ν_ QC1 _∥_ = 0 _._ 1073(15)"
+
+[[blocks]]
+sections = ["method"]
+lines = "359"
+chars = "259-275"
+text = "determined by QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "359"
+chars = "321-331"
+text = "MPS results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "69-119"
+text = "we obtain excellent overlap of all temperature sets"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "181-190"
+text = "∆= 0 _._ 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "415-424"
+text = "∆= 0 _._ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "560-570"
+text = "∆= 0 _._ 01"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "106-172"
+text = "the three data sets for ∆ ≳ 0 _._ 1 seem to converge to a universal"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "368"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0011-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "375"
+chars = "242-278"
+text = "exponent _ν_ QC1 _∥_ = 0 _._ 1073(15)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "377"
+chars = "445-503"
+text = "all data sets need to converge to the same value of _ξxy/β_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "382"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0011-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "389"
+chars = "133-248"
+text = "crossover from the SU(2)-symmetric three-bath model at ∆= 0 _._ 0 to the U(1)-symmetric two-bath model at ∆= 1 _._ 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "389"
+chars = "292-317"
+text = "αxy_ = 0 _._ 172 _≃ α_ CR1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "389"
+chars = "333-358"
+text = "αxy_ = 1 _._ 776 _≃ α_ QC2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "389"
+chars = "393-435"
+text = "asymptotic behavior _T[−][s]_ and _T[−]_[1]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "393"
+chars = "235-337"
+text = "crossover for the spin susceptibilities _χxy_ and _χz_ as a function of temperature and for different ∆"
+
+[[blocks]]
+sections = ["truth"]
+lines = "395"
+chars = "106-184"
+text = "the in-plane susceptibility follows a power law _χxy ∝ T[−][s]_ for all ∆ _≤_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "395"
+chars = "271-300"
+text = "path terminates exactly at CR1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "208-239"
+text = "we estimate _η_ ˜ _z ≈_ 0 _._ 42"
+
+[[blocks]]
+sections = ["method"]
+lines = "399"
+chars = "278-288"
+text = "MPS results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "501-562"
+text = "∆= 0 _._ 01 is indistinguishable from the SU(2)-symmetric case"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "213-283"
+text = "for ∆ _>_ 0 our system flows towards the _xy_ -localized fixed point L1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "292-322"
+text = "χxy ∝ T[−]_[1] and _χz →_ const"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "296-378"
+text = "the approximate fixed-point duality is only valid within the high-symmetry manifold"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "218-298"
+text = "firstand second-order transitions between different localized and critical phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "346-421"
+text = "a generic mechanism for a weak first-order transition that is not fine tuned"
+
+[[blocks]]
+sections = ["truth"]
+lines = "411"
+chars = "112-207"
+text = "the anisotropy-driven quantum phase transition across the high-symmetry manifold at _αz_ = _αxy_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "415"
+chars = "51-144"
+text = "the local moments _m_[2] _xy_[(] _[T]_[) and] _[ m] z_[2][(] _[T]_[) estimated via Eq. (][6][)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "415"
+chars = "189-219"
+text = "_αxy_ = 0 _._ 317 _≃ α_ 2 _[∗]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "415"
+chars = "353-380"
+text = "_s[∗]_ 2[=][0] _[.]_[6540(2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "417"
+chars = "76-188"
+text = "a strong first-order transition which occurs between the L1 phase at _αz/αxy <_ 1 and the L phase at _αz/αxy >_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "417"
+chars = "332-380"
+text = "Exactly at the transition, the two orders coexist"
+
+[[blocks]]
+sections = ["truth"]
+lines = "417"
+chars = "812-860"
+text = "the system exhibits a weak first-order transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "282-354"
+text = "we cross the high-symmetry manifold within the basin of attraction of CR2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "424"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0013-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "9-65"
+text = "Finite-temperature scaling of the local moment estimators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "251-281"
+text = "_αxy_ = 0 _._ 317 _≃ α_ 2 _[∗]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "433"
+chars = "55-104"
+text = "continuous transition] between the L1 and L phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "433"
+chars = "131-156"
+text = "order parameter _m_[2] _xy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "239-288"
+text = "a stable critical phase can exist for _αz/αxy <_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "359-407"
+text = "the system exhibits a continuous CR1–L transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "229-254"
+text = "convergence of _m_[2] _xy_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "439"
+chars = "93-137"
+text = "the system is always in the free-spin phase F"
+
+[[blocks]]
+sections = ["truth"]
+lines = "443"
+chars = "121-174"
+text = "determines the coexistence of the two order parameters"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "244-365"
+text = "The local moment remains finite within the L2 and F phases, but continuously scales to zero when approaching the CR2 phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "660-709"
+text = "the weak first-order L1–L transition is fine tuned"
+
+[[blocks]]
+sections = ["truth"]
+lines = "447"
+chars = "142-199"
+text = "the local moment is strongly suppressed for _s_ ≲ _s[∗]_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "447"
+chars = "471-574"
+text = "the weak first-order transition driven through this extended region in parameter space is not fine tuned"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "449"
+chars = "299-357"
+text = "the local moment of a free spin, i.e., _S_ ( _S_ + 1) _/_ 3"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "454"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0014-01.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "461"
+chars = "320-387"
+text = "red dashed lines in (b) indicate the local moments of a quantum spin"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "463"
+chars = "154-206"
+text = "a classical state with a local moment of _S_[2] _/_ 3"
+
+[[blocks]]
+sections = ["problem"]
+lines = "467"
+chars = "271-320"
+text = "performing a detailed finite-size-scaling analysis"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "470"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0014-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "477"
+chars = "451-492"
+text = "Scaling collapse of the correlation ratios"
+
+[[blocks]]
+sections = ["truth"]
+lines = "477"
+chars = "558-576"
+text = "1 _/ν_ L2 _⊥_ = _s_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "483"
+chars = "1-121"
+text = "The first-order transition between the two long-rangeordered localized phases L1 and L is described by the fixed point L2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "485"
+chars = "45-100"
+text = "the correlation ratios _Rxy_ and _Rz_ defined in Eq. (8)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "485"
+chars = "214-241"
+text = "at _s_ = 0 _._ 2 and 0 _._ 4"
+
+[[blocks]]
+sections = ["problem"]
+lines = "492"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0015-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "495"
+chars = "273-340"
+text = "we find that the critical exponent is given by the bath exponent _s_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "498"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0015-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "501"
+chars = "113-186"
+text = "We observe excellent scaling behavior using the exponent given in Eq. (17)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "503"
+chars = "14-130"
+text = "the data collapse at the first-order transition also occurs for the normalized correlation lengths _ξxy/β_ and _ξz/β_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "507"
+chars = "5-55"
+text = "existence of the SU(2)-symmetric critical phase CR2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "509"
+chars = "223-291"
+text = "tune the anisotropy right through the fixed point CR2 at _αz/αxy_ = 1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "512"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0015-10.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "516"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0015-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "217-245"
+text = "1 _/ν_ CR2 _⊥ ≈_ 0 _._ 333(7)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "254-300"
+text = "_s_ = 0 _._ 66 and _αxy_ = 0 _._ 2267 _≃ α_ CR2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "75-162"
+text = "leads to an excellent data collapse of _ξxy_ and _ξz_ across the second-order transition"
+
+[[blocks]]
+sections = ["problem"]
+lines = "527"
+chars = "208-234"
+text = "scaling form [cf. Eq. (13)]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "530"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0015-15.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "536"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0015-17.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "539"
+chars = "162-251"
+text = "we obtain a good data collapse for _m_[2] _i_[(] _[T]_[),][as][demonstrated] in Fig. 13(b)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "97-149"
+text = "Both critical exponents are finite at the coordinates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "237-269"
+text = "1 _/ν_ CR2 _⊥_ steadily decreases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "296-304"
+text = "increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "546"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0016-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "553"
+chars = "278-306"
+text = "1 _/ν_ CR2 _⊥ ≈_ 0 _._ 333(7)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "555"
+chars = "170-244"
+text = "both exponents approach the prediction of the weak-coupling perturbative RG"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "558"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0016-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "562"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0016-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "565"
+chars = "92-135"
+text = "1 _/ν_ CR2 _⊥ →_ 0 and _β_ CR2 _[′] ⊥[→]_[1]"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "570"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0016-08.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "576"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0016-10.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "583"
+chars = "14-72"
+text = "Inverse correlation-length exponents at the fixed point CR2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "585"
+chars = "160-212"
+text = "1 _/ν_ CR2 _⊥_ ( _s_ = _s[∗]_ 2[)][=][0] _[.]_[390(5)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "587"
+chars = "9-68"
+text = "Pseudocriticality on both sides of the fixed-point collision"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "592"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0016-15.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "30-54"
+text = "_C_ CR2 _∥_ = 0 _._ 72(2)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "599"
+chars = "255-306"
+text = "The approximate beta function close to the collision"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "604"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0017-01.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "611"
+chars = "10-67"
+text = "RG flow diagrams for the two-loop beta function in Eq. (9)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "617"
+chars = "26-57"
+text = "the fixed-point collision occurs"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "617"
+chars = "693-814"
+text = "the direction and speed of the RG flow is determined by the in-plane and out-of-plane inverse correlation-length exponents"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "620"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0017-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "388-452"
+text = "the parallel ( _∥_ ) flow towards the fixed point becomes so slow"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "794-814"
+text = "covered distance from"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "630"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0018-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "633"
+chars = "226-306"
+text = "the RG flow gets stuck between the two fixed points and only slowly moves forward"
+
+[[blocks]]
+sections = ["truth"]
+lines = "633"
+chars = "581-625"
+text = "This phenomenon is known as pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "635"
+chars = "352-414"
+text = "the same pseudocritical flow as in Eq. (26) holds there as well"
+
+[[blocks]]
+sections = ["truth"]
+lines = "635"
+chars = "768-807"
+text = "exponentially suppressed close to _s[∗]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "635"
+chars = "947-980"
+text = "suppression of the order parameter"
+
+[[blocks]]
+sections = ["truth"]
+lines = "643"
+chars = "30-80"
+text = "direct numerical evidence of pseudocritical scaling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "642-663"
+text = "1 _/ν⊥ ≈_ 0 _._ 377(5)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "738-788"
+text = "we do not observe any visible drift of the exponent"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "955-1029"
+text = "direct evidence for the extremely slow RG flow in the pseudocritical regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "647"
+chars = "297-357"
+text = "we only observe a very slow drift (if at all) of the exponent"
+
+[[blocks]]
+sections = ["truth"]
+lines = "647"
+chars = "466-489"
+text = "slope steadily increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "652"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0019-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "659"
+chars = "138-166"
+text = "Insufficient scaling collapse"
+
+[[blocks]]
+sections = ["truth"]
+lines = "659"
+chars = "352-394"
+text = "Scaling collapse of the same data, but with"
+
+[[blocks]]
+sections = ["truth"]
+lines = "659"
+chars = "791-840"
+text = "Dotted lines represent fits to the functional form"
+
+[[blocks]]
+sections = ["truth"]
+lines = "661"
+chars = "101-137"
+text = "slope of the drift hardly changes for"
+
+[[blocks]]
+sections = ["truth"]
+lines = "666"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0019-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "673"
+chars = "10-45"
+text = "Drift of the pseudocritical exponent"
+
+[[blocks]]
+sections = ["truth"]
+lines = "673"
+chars = "92-122"
+text = "after the fixed-point collision"
+
+[[blocks]]
+sections = ["truth"]
+lines = "675"
+chars = "34-73"
+text = "slope of the logarithmic drift increases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "675"
+chars = "224-288"
+text = "the slope of the drift increases linearly with _|s − s[∗]_ 2 _[|]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "680"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0020-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "687"
+chars = "259-334"
+text = "1 _/ν⊥ ∈{_ 0 _._ 33 _,_ 0 _._ 355 _,_ 0 _._ 377 _,_ 0 _._ 42 _,_ 0 _._ 48 _}"
+
+[[blocks]]
+sections = ["truth"]
+lines = "687"
+chars = "339-396"
+text = "Effective critical exponents are estimated from Fig. 17(a)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "689"
+chars = "121-172"
+text = "we do not observe convergence to 1 _/ν_ L2 _⊥_ = _s_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "691"
+chars = "511-556"
+text = "Fig. 18 confirms all our findings from Fig. 17"
+
+[[blocks]]
+sections = ["problem"]
+lines = "695"
+chars = "28-84"
+text = "the U(1)-symmetric spinboson model with _αx_ = _αy ≡ αxy_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "695"
+chars = "255-282"
+text = "fully anisotropic model with"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "697"
+chars = "353-434"
+text = "the spin is always in the localized phase along the strongest dissipation strength"
+
+[[blocks]]
+sections = ["truth"]
+lines = "699"
+chars = "75-149"
+text = "this symmetry-enhanced transition is continuous for _s[∗]_ 1 _[<][s][<]_[1]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "699"
+chars = "581-657"
+text = "the transition between the two localized phases can become weakly first order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "701"
+chars = "13-162"
+text = "the collision of two intermediate-coupling fixed points within the high-symmetry parameter manifolds has direct consequences for the critical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "705"
+chars = "172-198"
+text = "large-scale QMC simulations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "705"
+chars = "389-528"
+text = "an order-to-order transition between different localized phases that can be tuned from first order to second order via the bath exponent _s_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "705"
+chars = "618-684"
+text = "the inverse correlation-length exponent becomes 1 _/ν_ L2 _⊥_ = _s_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "705"
+chars = "1001-1117"
+text = "fixedpoint annihilation provides us with a generic mechanism to tune our system towards a weak first-order transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "705"
+chars = "1223-1279"
+text = "direct numerical evidence for this pseudocritical scaling"
+
+[[blocks]]
+sections = ["method"]
+lines = "715"
+chars = "146-148"
+text = "QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "715"
+chars = "656-658"
+text = "QMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "717"
+chars = "131-144"
+text = "Our QMC method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "443-578"
+text = "pseudocritical exponents close to the fixed-point collision, which hardly show any drift over several orders of magnitude in temperature"
+
+[[blocks]]
+sections = ["truth"]
+lines = "719"
+chars = "158-254"
+text = "The competition of two bath components is already enough to find signatures of this RG phenomenon"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "727"
+chars = "1-48"
+text = "To solve the integral in Eq. (A2), we substitute"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "735"
+chars = "106-138"
+text = "minimal beta function of Eq. (12)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "738"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0022-08.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "741"
+chars = "104-176"
+text = "For _s > s[∗]_ , Eq. (A1) contains two intermediate-coupling fixed points"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "744"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0022-10.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "750"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0022-12.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "756"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0022-14.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "759"
+chars = "207-297"
+text = "our system exhibits an extremely slow RG flow that leads to pseudocritical scaling behavior"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "762"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0022-16.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "765"
+chars = "1-69"
+text = "For _s → s[∗]_ , the infrared scale _µ_ gets exponentially suppressed"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "772"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0022-20.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "779"
+chars = "60-78"
+text = "Using artanh( _x_ )"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "782"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0023-02.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "785"
+chars = "26-105"
+text = "the inverse correlation-length exponent 1 _/ν_ = 1 _/ |ν±|_ = 2� _ba |s − s[∗] |"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "790"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0023-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "793"
+chars = "181-280"
+text = "If we tune _s → s[∗]_ , i.e., towards the fixed-point collision, _ν →∞_ leads to a very slow RG flow"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "798"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0023-08.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "801"
+chars = "292-397"
+text = "pseudocritical scaling also occurs for _s > s[∗]_ right between the two intermediate-coupling fixed points"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "806"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0023-11.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "815"
+chars = "342-398"
+text = "at ∆˜ _x_ = 0 _._ 2 we have _µ/µ_ 0 _≈_ 2 _×_ 10 _[−]_[9]"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "819"
+chars = "14-46"
+text = "two-loop beta function in Eq. (9)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "821"
+chars = "376-469"
+text = "The fixed-point collisions occur at _s[∗]_ pRG1[= 0] _[.]_[75 and] _[ s][∗]_ pRG2[= 0] _[.]_[5"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "826"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0024-01.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "833"
+chars = "14-91"
+text = "Fixed-point collision of pRG1 _/_ 2 _±_ as a function of the bath exponent _s_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "835"
+chars = "41-55"
+text = "QMC simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "837"
+chars = "1130-1140"
+text = "QMC results"
+
+[[blocks]]
+sections = ["method"]
+lines = "837"
+chars = "1358-1368"
+text = "QMC results"
+
+[[blocks]]
+sections = ["method"]
+lines = "839"
+chars = "268-278"
+text = "QMC results"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "844"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0024-07.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "851"
+chars = "10-60"
+text = "RG flow diagrams for the two-loop beta function (9)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "853"
+chars = "774-843"
+text = "the fixed points in the _xy_ plane have already annihilated each other"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "858"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0025-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "865"
+chars = "562-609"
+text = "1 _/ν_ CR2 _⊥_ = 0 _._ 390(5) at _s_ = 0 _._ 654"
+
+[[blocks]]
+sections = ["truth"]
+lines = "865"
+chars = "615-661"
+text = "1 _/ν_ CR2 _⊥_ = 0 _._ 128(15) at _s_ = 0 _._ 8"
+
+[[blocks]]
+sections = ["problem"]
+lines = "873"
+chars = "282-345"
+text = "two distinct parametrizations to tune across the fixed point CR2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "875"
+chars = "88-144"
+text = "∆ _[⊥]_ is tuned perpendicular to the SU(2)symmetric line"
+
+[[blocks]]
+sections = ["truth"]
+lines = "877"
+chars = "262-383"
+text = "the pseudocritical couplings converge to zero, indicating that there is a single transition at the symmetry-enhanced point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "879"
+chars = "224-289"
+text = "all of our four estimates agree with 1 _/ν_ CR2 _⊥_ = 0 _._ 390(5)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "879"
+chars = "536-597"
+text = "a reliable critical exponent of 1 _/ν_ CR2 _⊥_ = 0 _._ 128(15)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "881"
+chars = "36-112"
+text = "the first-order transition is a single transition that occurs at _αz_ = _αxy_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "884"
+text = "![](.figures/arxiv__2403.02400/2403.02400.pdf-0025-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "891"
+chars = "10-94"
+text = "Convergence of the pseudocritical couplings for the weak first-o ~~r~~ der transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "895"
+chars = "49-111"
+text = "All crossings converge to the isotropic case of zero anisotropy"
+
+[[blocks]]
+sections = ["method"]
+lines = "1031"
+text = "- [64] R. Bulla, N.-H. Tong, and M. Vojta, Numerical Renormalization Group for Bosonic Systems and Application to the Sub-Ohmic Spin-Boson Model, Phys. Rev. Lett. **91** , 170601 (2003). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1037"
+text = "- [67] A. Winter, H. Rieger, M. Vojta, and R. Bulla, Quantum Phase Transition in the Sub-Ohmic Spin-Boson Model: Quantum Monte Carlo Study with a Continuous Imaginary Time Cluster Algorithm, Phys. Rev. Lett. **102** , 030601 (2009). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1057"
+text = "- [75] J. Otsuki, Spin-boson coupling in continuous-time quantum Monte Carlo, Phys. Rev. B **87** , 125102 (2013). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1059"
+text = "- [76] A. Cai and Q. Si, Bose-Fermi Anderson model with SU(2) symmetry: Continuous-time quantum Monte Carlo study, Phys. Rev. B **100** , 014439 (2019). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1061"
+text = "- [77] M. Weber, Quantum Monte Carlo simulation of spinboson models using wormhole updates, Phys. Rev. B **105** , 165129 (2022). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1067"
+text = "- [80] M. Weber, F. F. Assaad, and M. Hohenadler, DirectedLoop Quantum Monte Carlo Method for Retarded Interactions, Phys. Rev. Lett. **119** , 097401 (2017). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1069"
+text = "- [81] E. Gull, A. J. Millis, A. I. Lichtenstein, A. N. Rubtsov, M. Troyer, and P. Werner, Continuous-time Monte Carlo methods for quantum impurity models, Rev. Mod. Phys. **83** , 349 (2011). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1071"
+text = "- [82] P. Werner, A. Comanac, L. de’ Medici, M. Troyer, and A. J. Millis, Continuous-Time Solver for Quantum Impurity Models, Phys. Rev. Lett. **97** , 076405 (2006). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1073"
+text = "- [83] H.-T. Chen, G. Cohen, and D. R. Reichman, Inchworm Monte Carlo for exact non-adiabatic dynamics. I. Theory and algorithms, The Journal of Chemical Physics **146** , 054105 (2017). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1075"
+text = "- [84] A. W. Sandvik and J. Kurkij¨arvi, Quantum Monte Carlo simulation method for spin systems, Phys. Rev. B **43** , 5950 (1991). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1077"
+text = "- [85] A. W. Sandvik, Stochastic series expansion method with operator-loop update, Phys. Rev. B **59** , R14157 (1999). "
+
+[[blocks]]
+sections = ["method"]
+lines = "1079"
+text = "- [86] O. F. Sylju˚asen and A. W. Sandvik, Quantum Monte Carlo with directed loops, Phys. Rev. E **66** , 046701 (2002). "

@@ -1,0 +1,2387 @@
+# Partition layer for papers/2407.03046 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-38"
+text = "Insulating and metallic phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "5"
+chars = "63-96"
+text = "Hubbard-Su-Schrieffer-Heeger model"
+
+[[blocks]]
+sections = ["method"]
+lines = "5"
+chars = "115-157"
+text = "backflow-inspired variational wave function"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-32"
+text = "Insulating and metallic phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "15"
+chars = "57-90"
+text = "Hubbard-Su-Schrieffer-Heeger model"
+
+[[blocks]]
+sections = ["method"]
+lines = "15"
+chars = "109-151"
+text = "backflow-inspired variational wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "135-164"
+text = "variational Monte Carlo method"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "175-215"
+text = "generalized Jastrow-Slater wave functions"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "263-280"
+text = "pair-product state"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "315-334"
+text = "phonon configuration"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "386-406"
+text = "backflow-inspired way"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "439-519"
+text = "Hubbard model in presence of the Su-Schrieffer-Heeger coupling to optical phonons"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "27"
+chars = "565-766"
+text = "At half-filling, the ground state is either a translationally invariant Mott insulator, with gapless spin excitations, or a Peierls insulator, which breaks translations and has fully gapped excitations."
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "27"
+chars = "768-943"
+text = "Away from half-filling, the charge gap closes in both Mott and Peierls insulators, turning the former into a conventional Luttinger liquid (gapless in all excitation channels)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "945-1046"
+text = "The latter, instead, retains a finite spin gap that closes only above a threshold value of the doping."
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1138-1244"
+text = "the existence of such a phase (with gapless charge but gapped spin excitations) has never been demonstrated"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "1257-1313"
+text = "with repulsive interaction and with only two Fermi points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1326-1405"
+text = "spin-gapped metal represents the one-dimensional counterpart of a superconductor"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1444-1487"
+text = "true off-diagonal long-range order may exist"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "5-34"
+text = "Insulating and metallic phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "31"
+chars = "59-92"
+text = "Hubbard-Su-Schrieffer-Heeger model"
+
+[[blocks]]
+sections = ["method"]
+lines = "31"
+chars = "111-153"
+text = "backflow-inspired variational wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "134-163"
+text = "variational Monte Carlo method"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "174-214"
+text = "generalized Jastrow-Slater wave functions"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "262-279"
+text = "pair-product state"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "314-333"
+text = "phonon configuration"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "385-405"
+text = "backflow-inspired way"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "438-517"
+text = "Hubbard model in presence of the Su-SchriefferHeeger coupling to optical phonons"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "43"
+chars = "563-764"
+text = "At half-filling, the ground state is either a translationally invariant Mott insulator, with gapless spin excitations, or a Peierls insulator, which breaks translations and has fully gapped excitations."
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "43"
+chars = "766-941"
+text = "Away from half-filling, the charge gap closes in both Mott and Peierls insulators, turning the former into a conventional Luttinger liquid (gapless in all excitation channels)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "943-1013"
+text = "In the latter case, instead, a finite spin gap remains at small doping."
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1105-1211"
+text = "the existence of such a phase (with gapless charge but gapped spin excitations) has never been demonstrated"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "1224-1280"
+text = "with repulsive interaction and with only two Fermi points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1293-1372"
+text = "spin-gapped metal represents the one-dimensional counterpart of a superconductor"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1411-1454"
+text = "true off-diagonal long-range order may exist"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "47"
+chars = "332-373"
+text = "metallic system into a (Peierls) insulator"
+
+[[blocks]]
+sections = ["problem"]
+lines = "49"
+chars = "96-157"
+text = "electronelectron (e-e) and electron-phonon (e-ph) interactions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "49"
+chars = "305-334"
+text = "low-energy models on a lattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "49"
+chars = "448-472"
+text = "single-band Hubbard model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "43-90"
+text = "adding harmonic oscillators on each lattice site"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "120-135"
+text = "optical branches"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "204-241"
+text = "Su-SchriefferHeeger (SSH) Hamiltonians"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "400-424"
+text = "one-dimensional materials"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "457-519"
+text = "lattice vibrations are directly coupled to the electron hopping"
+
+[[blocks]]
+sections = ["problem", "anchors", "truth"]
+lines = "53"
+chars = "4-24"
+text = "one spatial dimension"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "53"
+chars = "57-67"
+text = "half filled"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "80-105"
+text = "absence of e-e interaction"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "53"
+chars = "138-268"
+text = "Peierls instability – a spontaneous dimerization of the chain, with alternating long and short bonds between nearest-neighbor sites"
+
+[[blocks]]
+sections = ["method"]
+lines = "53"
+chars = "295-326"
+text = "quantum Monte Carlo calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "53"
+chars = "332-362"
+text = "renormalization-group arguments"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "421-444"
+text = "onsite Hubbard repulsion"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "53"
+chars = "952-970"
+text = "Peierls distortions"
+
+[[blocks]]
+sections = ["method"]
+lines = "53"
+chars = "1022-1048"
+text = "mainly using Monte Carlo or"
+
+[[blocks]]
+sections = ["method"]
+lines = "53"
+chars = "1050-1103"
+text = "density-matrix renormalization group (DMRG) techniques"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "194-221"
+text = "two phases can be stabilized"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "228-278"
+text = "Mott insulator (when the e-e interaction dominates)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "286-336"
+text = "no lattice distortions and gapless spin excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "347-398"
+text = "Peierls insulator (when the e-ph coupling dominates)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "418-501"
+text = "lattice distortions, a two-fold degenerate ground state, and a fully gapped spectrum"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "59"
+chars = "552-587"
+text = "KosterlizThouless universality class"
+
+[[blocks]]
+sections = ["problem"]
+lines = "61"
+chars = "1-22"
+text = "Away from half-filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "61"
+chars = "89-123"
+text = "ground-state Monte Carlo techniques"
+
+[[blocks]]
+sections = ["method"]
+lines = "61"
+chars = "217-229"
+text = "DMRG accuracy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "285-315"
+text = "gapless (metallic) ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "377-394"
+text = "Luther-Emery phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "411-444"
+text = "metal with gapped spin excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "468-495"
+text = "doping the Peierls insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "566-634"
+text = "Luther-Emery liquid appears in the doped two-leg ladder Hubbard model"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "61"
+chars = "709-729"
+text = "multiple Fermi points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "944-986"
+text = "metallic phase with gapped spin excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "1112-1194"
+text = "Luther-Emery liquid may also emerge from doping an insulating phase with bond order"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "61"
+chars = "1370-1455"
+text = "doping the (dimerized) Peierls insulator stabilized by the electron-phonon interaction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "1557-1603"
+text = "spin-gapped metal emerges close to half-filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "61"
+chars = "1715-1731"
+text = "addressed by DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "1865-1953"
+text = "Luttinger-liquid properties are observed, with gapless charge and spin degrees of freedom"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "28-59"
+text = "one-dimensional HubbardSSH model"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "75-112"
+text = "variational Monte Carlo approach (VMC)"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "127-175"
+text = "variational wave function composed of three terms"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "204-220"
+text = "phonon condensate"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "328-364"
+text = "Bardeen-Cooper-Schrieffer (BCS) state"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "385-398"
+text = "Jastrow factor"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "416-481"
+text = "electron-electron, phonon-phonon, and electron-phonon correlations"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "508-527"
+text = "variational _Ansatz_"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "12-34"
+text = "“backflow” correlations"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "47-63"
+text = "BCS wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "77-101"
+text = "auxiliary BCS Hamiltonian"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "195-246"
+text = "SSH model in presence of a local Hubbard interaction"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "249-296"
+text = "both at half-filling and for various hole doping"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "320-371"
+text = "ground state is either a Mott or a Peierls insulator"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "405-426"
+text = "e-e and e-ph couplings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "538-559"
+text = "metallic states appear"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "577-641"
+text = "doping a Mott insulator gives rise to a standard Luttinger liquid"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "713-743"
+text = "lightly doped Peierls insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "749-811"
+text = "spin gap remains finite, thus stabilising a Luther-Emery liquid"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "112-131"
+text = "variational _Ansatz_"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "140-160"
+text = "backflow correlations"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "186-253"
+text = "benchmark for the accuracy of our wave function against DMRG results"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "69"
+chars = "1-27"
+text = "## **II. MODEL AND METHOD**"
+
+[[blocks]]
+sections = ["problem"]
+lines = "71"
+chars = "1-41"
+text = "## **A. The electron-phonon Hamiltonian**"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "15-52"
+text = "one-dimensional electron-phonon system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "76-101"
+text = "onsite Hubbard interaction"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "108-164"
+text = "electron hopping is modulated by the phonon displacements"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "170-256"
+text = "harmonic oscillators are located on each site of the lattice (modeling optical phonons)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "76"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0002-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "79"
+chars = "47-80"
+text = "creates][(destroys)][an][electron]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "79"
+chars = "194-266"
+text = "position[is the density (per spin)] and momentum operators of the phonons"
+
+[[blocks]]
+sections = ["problem"]
+lines = "82"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0002-11.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "85"
+chars = "17-65"
+text = "dimensionless displacement and momentum operators"
+
+[[blocks]]
+sections = ["problem"]
+lines = "88"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0002-13.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "94"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0002-15.png)"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "100"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "103"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "104"
+chars = "1-73"
+text = "0 . 03<br>U/t  = 4<br>0 . 02 No Backflow<br>Backflow - No Jep<br>Backflow"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "104"
+chars = "78-131"
+text = "0 . 01<br>0 . 00<br>0 . 05 0 . 10 0 . 15 0 . 20 0 . 25"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "104"
+chars = "136-226"
+text = "0 . 06 U/t  = 10<br>No Backflow<br>0 . 04 Backflow - No Jep<br>Backflow<br>0 . 02<br>0 . 00"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "104"
+chars = "231-308"
+text = "0 . 175 0 . 200 0 . 225 0 . 250 0 . 275 0 . 300 0 . 325 0 . 350<br>λ<br>ϵ<br>ϵ"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "107"
+chars = "11-73"
+text = "Accuracy of the variational energy with respect to DMRG results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "75-110"
+text = "_ϵ_ = ( _E − E_ DMRG) _/|E_ DMRG _|_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "112-128"
+text = "on _L_ = 50 sites"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "135-156"
+text = "simplest wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "210-235"
+text = "auxiliary Hamiltonian (11)"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "269-303"
+text = "best one with backflow correlations"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "411-455"
+text = "without electron-phonon Jastrow factor _J_ ep"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "506-579"
+text = "Results are shown for _U/t_ = 4 (upper panel) and _U/t_ = 10 (lower panel)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "582-601"
+text = "as a function of _λ_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "12-34"
+text = "the Hamiltonian becomes"
+
+[[blocks]]
+sections = ["problem"]
+lines = "112"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "115"
+chars = "41-80"
+text = "rescaled,][dimensionless][e-ph] coupling"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "118"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0003-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "121"
+chars = "105-129"
+text = "take _t_ the energy scale"
+
+[[blocks]]
+sections = ["problem"]
+lines = "121"
+chars = "135-149"
+text = "fix ℏ _ω_ = _t_"
+
+[[blocks]]
+sections = ["method"]
+lines = "123"
+chars = "1-39"
+text = "## **B. The variational wave function**"
+
+[[blocks]]
+sections = ["method"]
+lines = "125"
+chars = "108-127"
+text = "variational _Ansatz_"
+
+[[blocks]]
+sections = ["method"]
+lines = "125"
+chars = "152-166"
+text = "Jastrow factors"
+
+[[blocks]]
+sections = ["method"]
+lines = "127"
+chars = "1-156"
+text = "( _J_ ee, _J_ pp, and _Jep_ ), a phonon state ( _|_ Ψp _⟩_ ), and an electronic state that depends parametrically on the phonon displacements ( _|_ Ψe _⟩_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "130"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0003-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "133"
+chars = "1-138"
+text = "The variational energy _E_ var is evaluated by performing a Markov chain in the Hilbert space with both electron and phonon configurations"
+
+[[blocks]]
+sections = ["method"]
+lines = "136"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0003-13.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "139"
+chars = "107-155"
+text = "Along the Markov process, a set of configurations"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "264-296"
+text = "by using the Metropolis algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "331-352"
+text = "variational energy as:"
+
+[[blocks]]
+sections = ["method"]
+lines = "142"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0003-15.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "145"
+chars = "16-77"
+text = "the sampling procedure includes both electron and phonon moves"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "145"
+chars = "217-335"
+text = "local updates of the displacements _Xj �→ Xj_ + ∆, with ∆uniformly distributed within the interval [ _−_ ∆max _,_ ∆max]"
+
+[[blocks]]
+sections = ["method"]
+lines = "145"
+chars = "342-408"
+text = "acceptance probability is then computed by the Metropolis algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "147"
+chars = "53-77"
+text = "variational wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "147"
+chars = "137-190"
+text = "electronic part has been taken as a pair-product state"
+
+[[blocks]]
+sections = ["method"]
+lines = "150"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0003-18.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "153"
+chars = "32-75"
+text = "ground state of an auxiliary BCS Hamiltonian"
+
+[[blocks]]
+sections = ["method"]
+lines = "156"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0003-20.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "159"
+chars = "83-119"
+text = "amplitudes are variational parameters"
+
+[[blocks]]
+sections = ["method"]
+lines = "159"
+chars = "137-158"
+text = "chemical potential _µ_"
+
+[[blocks]]
+sections = ["method"]
+lines = "163"
+chars = "170-224"
+text = "pairing function does not change along the Markov chain"
+
+[[blocks]]
+sections = ["method"]
+lines = "163"
+chars = "236-257"
+text = "variational parameters"
+
+[[blocks]]
+sections = ["method"]
+lines = "165"
+chars = "53-131"
+text = "auxiliary Hamiltonian that parametrically depends upon the phonon displacements"
+
+[[blocks]]
+sections = ["method"]
+lines = "168"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0004-03.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "171"
+chars = "38-89"
+text = "are variational parameters for _m_ = _±_ 1 and _±_ 3"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "154-231"
+text = "phonon displacements in the configuration _|X⟩_ visited along the Markov chain"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "339-396"
+text = "backflow” correlations are included in the electronic part"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "405-429"
+text = "variational wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "802-852"
+text = "backflow correlations involve electrons and phonons"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+chars = "5-33"
+text = "phonon part has the same form"
+
+[[blocks]]
+sections = ["method"]
+lines = "176"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0004-06.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "179"
+chars = "11-91"
+text = "single variational parameter ( _z_ ) determines the staggered phonon displacement"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "39-96"
+text = "electronic state is obtained from the BCS Hamiltonian (11)"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "105-133"
+text = "without backflow correlations"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "181"
+chars = "141-159"
+text = "Peierls instability"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "186-274"
+text = "breaking of the translational symmetry in the hopping _tij_ and pairing ∆ _ij_ parameters"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "181"
+chars = "364-398"
+text = "phonon parameter _z_ becomes finite"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "550-601"
+text = "extended framework of the auxiliary Hamiltonian (12)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0004-10.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "190"
+chars = "1-110"
+text = "10<br>Mott<br>8<br>6<br>4<br>2<br>Peierls<br>0<br>0 . 05 0 . 10 0 . 15 0 . 20 0 . 25 0 . 30 0 . 35<br>λ<br>U/t"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "193"
+chars = "11-39"
+text = "Phase diagram at half-filling"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "41-70"
+text = "as a function of _U/t_ and _λ_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "77-87"
+text = "ℏ _ω/t_ = 1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "122-146"
+text = "chain with _L_ = 50 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "155-185"
+text = "points marked by filled circles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "215-292"
+text = "distinguishing between Mott and Peierls insulators becomes extremely difficult"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "323-334"
+text = "white region"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "1-24"
+text = "standard Jastrow factors"
+
+[[blocks]]
+sections = ["method"]
+lines = "198"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0004-13.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "201"
+chars = "11-91"
+text = "pseudo-potentials _vij_ , _uij_ , and _wij_ are treated as variational parameters"
+
+[[blocks]]
+sections = ["method"]
+lines = "201"
+chars = "146-196"
+text = "imposing both translation and reflection symmetries"
+
+[[blocks]]
+sections = ["method"]
+lines = "201"
+chars = "261-290"
+text = "density-density Jastrow factor"
+
+[[blocks]]
+sections = ["truth"]
+lines = "201"
+chars = "333-353"
+text = "Mott insulating phase"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "201"
+chars = "411-448"
+text = "_vq ≈_ 1 _/q_[2] for small momenta _q_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "203"
+chars = "31-86"
+text = "clusters with _L_ sites and periodic-boundary conditions"
+
+[[blocks]]
+sections = ["method"]
+lines = "203"
+chars = "89-118"
+text = "All the variational parameters"
+
+[[blocks]]
+sections = ["method"]
+lines = "203"
+chars = "120-151"
+text = "of the variational wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "203"
+chars = "157-214"
+text = "optimized by using the stochastic reconfiguration approach"
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "203"
+chars = "226-274"
+text = "Our variational wave function is implemented in a"
+
+[[blocks]]
+sections = ["software", "software_params"]
+lines = "203"
+chars = "276-343"
+text = "JAXbased code [43] that runs on parallel CPUs thanks to mpi4jax [44]"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "208"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "212"
+chars = "1-20"
+text = "λ = 0 . 04 , U/t = 4"
+
+[[blocks]]
+sections = ["method"]
+lines = "212"
+chars = "94-97"
+text = "DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "212"
+chars = "102-104"
+text = "VMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "212"
+chars = "156-177"
+text = "λ  = 0 . 25 , U/t  = 4"
+
+[[blocks]]
+sections = ["method"]
+lines = "212"
+chars = "267-270"
+text = "DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "212"
+chars = "284-286"
+text = "VMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "212"
+chars = "352-365"
+text = "N(q) S(q) B(q)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "212"
+chars = "370-383"
+text = "N(q) S(q) B(q)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "215"
+chars = "11-51"
+text = "Density, spin, and bond structure factors"
+
+[[blocks]]
+sections = ["problem"]
+lines = "215"
+chars = "122-155"
+text = "at half-filling for _L_ = 50 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "215"
+chars = "161-237"
+text = "_U/t_ = 4 and _λ_ = 0 _._ 04 (upper panels) and _λ_ = 0 _._ 25 (lower panels)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "215"
+chars = "244-277"
+text = "phonon energy is taken ℏ _ω/t_ = 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "215"
+chars = "299-347"
+text = "variational results of the backflow wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "215"
+chars = "385-401"
+text = "DMRG calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "219"
+chars = "1-43"
+text = "## **A. Benchmarks with DMRG calculations**"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "77-96"
+text = "variational energies"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "101-112"
+text = "DMRG results"
+
+[[blocks]]
+sections = ["problem"]
+lines = "221"
+chars = "114-142"
+text = "at half-filling, for _L_ = 50"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "145-168"
+text = "In the DMRG calculations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "221"
+chars = "171-198"
+text = "periodic-boundary conditions"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "221"
+chars = "304-342"
+text = "maximum occupancy of 10 bosons per site"
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "221"
+chars = "483-531"
+text = "DMRG algorithm implemented in the ITensor library"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "544-569"
+text = "matrix-product state (MPS)"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "221"
+chars = "578-636"
+text = "for computational efficiency, has no translational symmetry"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "643-671"
+text = "accuracy of DMRG calculations"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "221"
+chars = "703-730"
+text = "variance of the total energy"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "221"
+chars = "749-770"
+text = "below 0 _._ 007 _t_[2]"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "221"
+chars = "778-864"
+text = "bond dimension of the MPS is always above _χ_ = 1200, in some cases reaching _χ_ = 2400"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "1-34"
+text = "The results of the energy accuracy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "36-54"
+text = "_ϵ_ = ( _E_ VMC _−_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "225"
+chars = "1-24"
+text = "_E_ DMRG) _/|E_ DMRG _|_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "225"
+chars = "26-45"
+text = "for _U/t_ = 4 and 10"
+
+[[blocks]]
+sections = ["problem"]
+lines = "225"
+chars = "74-102"
+text = "varying the e-ph coupling _λ_"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "225"
+chars = "110-175"
+text = "best wave function, with backflow correlations and Jastrow factors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "225"
+chars = "211-241"
+text = "_ϵ ≈_ 0 _._ 01 and _≈_ 0 _._ 02"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+chars = "330-374"
+text = "standard wave function without backflow terms"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+chars = "393-416"
+text = "e-ph Jastrow factor (16)"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+chars = "449-472"
+text = "variational optimization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "225"
+chars = "483-546"
+text = "substantial worsening in the energy is detected when removing it"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "227"
+chars = "1-33"
+text = "## **B. Results at half-filling**"
+
+[[blocks]]
+sections = ["method"]
+lines = "229"
+chars = "67-118"
+text = "best variational _Ansatz_ with backflow correlations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "229"
+chars = "121-181"
+text = "By varying the e-e repulsion _U_ and the e-ph interaction _λ_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "229"
+chars = "189-262"
+text = "ground state is either a Mott (uniform) or a Peierls (dimerized) insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "229"
+chars = "295-333"
+text = "presence of a finite lattice distortion"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "234"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "238"
+chars = "1-32"
+text = "δ = 0 . 08 δ = 0 . 16 δ = 0 . 32"
+
+[[blocks]]
+sections = ["method"]
+lines = "238"
+chars = "139-142"
+text = "DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "238"
+chars = "150-153"
+text = "DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "238"
+chars = "161-164"
+text = "DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "238"
+chars = "169-171"
+text = "VMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "238"
+chars = "173-175"
+text = "VMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "238"
+chars = "177-179"
+text = "VMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "238"
+chars = "409-422"
+text = "N(q) N(q) N(q)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "241"
+chars = "11-44"
+text = "Density and spin structure factors"
+
+[[blocks]]
+sections = ["problem"]
+lines = "241"
+chars = "52-99"
+text = "chain with _L_ = 50 sites at various dopings _δ_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "241"
+chars = "107-134"
+text = "_U/t_ = 4 and _λ_ = 0 _._ 04"
+
+[[blocks]]
+sections = ["problem"]
+lines = "241"
+chars = "137-152"
+text = "with ℏ _ω/t_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "156-222"
+text = "At half-filling, i.e. _δ_ = 0, the ground state is a Mott insulator"
+
+[[blocks]]
+sections = ["method"]
+lines = "241"
+chars = "255-324"
+text = "DMRG (optimized for the Hamiltonian with periodic-boundary conditions)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "243"
+chars = "5-55"
+text = "stabilization of a finite _z_ parameter in Eq. (13)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "243"
+chars = "72-142"
+text = "dimerized pattern around which the phonon displacements are distributed"
+
+[[blocks]]
+sections = ["method"]
+lines = "243"
+chars = "163-238"
+text = "translational symmetry is explicitly broken in the variational wave function"
+
+[[blocks]]
+sections = ["problem"]
+lines = "246"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0006-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "249"
+chars = "11-63"
+text = "expectation value is taken over the variational state"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "251"
+chars = "96-241"
+text = "trivial limits are _λ_ = 0, which corresponds to the Mott insulator with no e-ph coupling, and _U_ = 0, which corresponds to the Peierls insulator"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "251"
+chars = "248-316"
+text = "transition between these two phases is of the Kosterliz-Thouless type"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "251"
+chars = "432-507"
+text = "spin gap of the Peierls phase is exponentially small close to the transition"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "251"
+chars = "563-597"
+text = "non-interacting limit _U_ = _λ_ = 0"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "251"
+chars = "606-708"
+text = "large clusters become necessary to detect the presence of the tiny dimerization that exists for _λ →_ 0"
+
+[[blocks]]
+sections = ["method"]
+lines = "253"
+chars = "64-87"
+text = "our variational approach"
+
+[[blocks]]
+sections = ["truth"]
+lines = "253"
+chars = "111-172"
+text = "distinguish two different regimes, with and without bond order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "255"
+chars = "70-101"
+text = "equal-time correlation functions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "258"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0006-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "261"
+chars = "29-60"
+text = "density, spin, or bond operators"
+
+[[blocks]]
+sections = ["problem"]
+lines = "264"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0006-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "268"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0006-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "272"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0006-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "275"
+chars = "75-196"
+text = "three structure factors will be denoted by _G_ = _N_ , _S_ , and _B_ (for density, spin, and bond operators, respectively)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "275"
+chars = "199-293"
+text = "Power-law correlations in real space imply cusps in momentum space and the existence of gapless"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "280"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0007-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "284"
+chars = "1-32"
+text = "δ = 0 . 08 δ = 0 . 16 δ = 0 . 32"
+
+[[blocks]]
+sections = ["method"]
+lines = "284"
+chars = "133-146"
+text = "DMRG DMRG DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "284"
+chars = "160-170"
+text = "VMC VMC VMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "284"
+chars = "385-398"
+text = "N(q) N(q) N(q)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "284"
+chars = "403-416"
+text = "S(q) S(q) S(q)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "287"
+chars = "11-65"
+text = "The same as in Fig. 4 but for _U/t_ = 4, _λ_ = 0 _._ 25"
+
+[[blocks]]
+sections = ["truth"]
+lines = "287"
+chars = "68-122"
+text = "At half-filling the ground state is a Peierls insulator"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "289"
+chars = "54-135"
+text = "exponential decay gives a smooth behavior in momentum space and gapped excitations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "291"
+chars = "5-48"
+text = "results for _U/t_ = 4 are reported in Fig. 3"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "291"
+chars = "83-113"
+text = "_λ_ = 0 _._ 04 (Mott insulator)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "291"
+chars = "119-152"
+text = "_λ_ = 0 _._ 25 (Peierls insulator)"
+
+[[blocks]]
+sections = ["method"]
+lines = "291"
+chars = "159-262"
+text = "DMRG results (on the same cluster size, optimized for the Hamiltonian with periodic-boundary conditions)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "291"
+chars = "316-357"
+text = "difference between Mott and Peierls states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "291"
+chars = "411-478"
+text = "huge peak at _q_ = _π_ (i.e., _B_ ( _π_ ) _≈_ 30) in the latter case"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "291"
+chars = "499-560"
+text = "true dimerization implies a divergence of _B_ ( _π_ ) with _L_"
+
+[[blocks]]
+sections = ["method"]
+lines = "291"
+chars = "575-594"
+text = "variational approach"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "291"
+chars = "639-684"
+text = "stabilization of a finite phonon parameter _z_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "291"
+chars = "753-780"
+text = "existence of a Peierls phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "291"
+chars = "931-951"
+text = "Within the Mott state"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "291"
+chars = "1063-1233"
+text = "For both insulating phases, _N_ ( _q_ ) is smooth and shows a quadratic behavior ( _N_ ( _q_ ) _∝ q_[2] ) for small _q_ , indicating that the charge excitations are gapped"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "291"
+chars = "1250-1362"
+text = "spin structure factor _S_ ( _q_ ) in the Peierls phase is smooth, signaling that also spin excitations are gapped"
+
+[[blocks]]
+sections = ["truth"]
+lines = "291"
+chars = "1378-1394"
+text = "in the Mott phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "293"
+chars = "1-9"
+text = "_q_ = _π_"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "293"
+chars = "34-130"
+text = "diverge logarithmically with the system size and signals the presence of gapless spin excitations"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "297"
+chars = "126-156"
+text = "number of electrons _N_ e _< L_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "297"
+chars = "166-203"
+text = "doping defined by _δ_ = 1 _− N_ e _/L_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "297"
+chars = "259-279"
+text = "total spin projection"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "322-346"
+text = "doping the Mott insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "433-514"
+text = "a Luttinger liquid is obtained, with gapless modes in both charge and spin sectors"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "297"
+chars = "533-589"
+text = "power-law decay (in real space) and cusps at _q_ = 2 _kF_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "297"
+chars = "618-644"
+text = "_kF_ = _π_ (1 _− δ_ ) _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "769-812"
+text = "Mott insulator is stabilized at half-filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "297"
+chars = "886-909"
+text = "variational calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "297"
+chars = "1009-1019"
+text = "within DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "1153-1182"
+text = "linear behavior of _N_ ( _q_ )"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "302"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0008-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "306"
+chars = "1-28"
+text = "1 . 2 6<br>(a) 1 . 0 (b) (c)"
+
+[[blocks]]
+sections = ["method"]
+lines = "306"
+chars = "110-113"
+text = "DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "306"
+chars = "126-128"
+text = "VMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "306"
+chars = "190-203"
+text = "N(q) S(q) B(q)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "309"
+chars = "59-101"
+text = "chain with _L_ = 50 sites at _δ_ = 0 _._ 08"
+
+[[blocks]]
+sections = ["problem"]
+lines = "309"
+chars = "108-133"
+text = "_U_ = 0 and _λ_ = 0 _._ 16"
+
+[[blocks]]
+sections = ["problem"]
+lines = "309"
+chars = "136-151"
+text = "with ℏ _ω/t_ = 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "309"
+chars = "185-254"
+text = "DMRG (optimized for the Hamiltonian with periodic-boundary conditions)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "311"
+chars = "5-69"
+text = "small values of _q_ (indicating gapless charge modes for _q →_ 0)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "311"
+chars = "94-122"
+text = "metallic nature of the system"
+
+[[blocks]]
+sections = ["method"]
+lines = "311"
+chars = "160-176"
+text = "DMRG calculations"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "311"
+chars = "252-316"
+text = "variance of the total energy is always lower than 0 _._ 09 _t_[2]"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "313"
+chars = "43-70"
+text = "doping the Peierls insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "89-145"
+text = "Luther-Emery liquid emerges at small values of the doping"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "156-208"
+text = "for _δ >_ 0 the system immediately turns into a metal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "219-263"
+text = "spin gap remains finite close to half-filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "298-404"
+text = "spin gap gradually decreases, eventually leading to a Luttinger liquid for sufficiently large values of _δ_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "456-487"
+text = "LutherEmery state has been found"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "542-576"
+text = "spin-gapped and dimerized insulator"
+
+[[blocks]]
+sections = ["problem"]
+lines = "313"
+chars = "764-816"
+text = "band structure is trivial, with only two Fermi points"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "313"
+chars = "827-865"
+text = "spin gap is opened by the e-ph coupling"
+
+[[blocks]]
+sections = ["problem"]
+lines = "313"
+chars = "887-920"
+text = "density and spin structure factors"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "313"
+chars = "954-1048"
+text = "smooth _S_ ( _q_ ) persists in the doped system, before the insurgence of cusps at _q_ = 2 _kF_"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "313"
+chars = "1056-1108"
+text = "existence of a spin-gapped metal is confirmed by DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "1126-1191"
+text = "Luther-Emery in the Hubbard-SSH model has not been detected before"
+
+[[blocks]]
+sections = ["problem", "anchors", "truth"]
+lines = "313"
+chars = "1210-1329"
+text = "stability extends down to the _U_ = 0 limit, where a finite e-ph interaction drives into a Peierls state at half-filling"
+
+[[blocks]]
+sections = ["problem"]
+lines = "313"
+chars = "1390-1422"
+text = "_λ_ = 0 _._ 16 and _δ_ = 0 _._ 08"
+
+[[blocks]]
+sections = ["truth"]
+lines = "313"
+chars = "1594-1663"
+text = "bond-bond correlations are the dominant ones in the Luther-Emery phase"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "316"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0008-05.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "320"
+chars = "1-157"
+text = "0 . 35<br>0 . 30<br>0 . 25<br>0 . 20 Luttinger<br>0 . 15<br>Luther<br>0 . 10 Emery<br>0 . 05<br>0 . 00<br>0 . 00 0 . 05 0 . 10 0 . 15 0 . 20 0 . 25<br>λ<br>δ"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "323"
+chars = "11-65"
+text = "Phase diagram at _U/t_ = 4 as a function of _λ_ and _δ_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "323"
+chars = "67-82"
+text = "with ℏ _ω/t_ = 1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "323"
+chars = "117-135"
+text = "chain with _L_ = 50"
+
+[[blocks]]
+sections = ["problem"]
+lines = "323"
+chars = "149-189"
+text = "data points represented by filled circles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "323"
+chars = "196-226"
+text = "system is insulating at _δ_ = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "323"
+chars = "316-395"
+text = "a transition is observed from a Luttinger liquid to a LutherEmery metallic phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "325"
+chars = "4-71"
+text = "analyzing the presence of singularities in the spin structure factor"
+
+[[blocks]]
+sections = ["problem"]
+lines = "325"
+chars = "103-155"
+text = "phase diagram where the electron doping _δ_ is varied"
+
+[[blocks]]
+sections = ["problem"]
+lines = "325"
+chars = "201-241"
+text = "_λ_ is varied and _U/t_ = 4 is kept fixed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "325"
+chars = "260-286"
+text = "a Luther-Emery metal exists"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "330"
+text = "![](.figures/arxiv__2407.03046/2407.03046.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "334"
+chars = "1-26"
+text = "0 . 7<br>(a) 1 . 2 (b) (c)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "334"
+chars = "126-130"
+text = "L=120"
+
+[[blocks]]
+sections = ["problem"]
+lines = "334"
+chars = "137-140"
+text = "L=80"
+
+[[blocks]]
+sections = ["problem"]
+lines = "334"
+chars = "160-163"
+text = "L=40"
+
+[[blocks]]
+sections = ["problem"]
+lines = "334"
+chars = "221-234"
+text = "N(q) S(q) B(q)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "337"
+chars = "59-113"
+text = "Luther-Emery metal at _λ_ = 0 _._ 25 and _δ_ = 0 _._ 15"
+
+[[blocks]]
+sections = ["problem"]
+lines = "337"
+chars = "145-183"
+text = "chains of lengths _L_ = 40, 80, and 120"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "186-250"
+text = "No significant changes are observed in the spin structure factors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "253-325"
+text = "confirming that the Luther-Emery liquid survives in the large-chain limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "332-429"
+text = "peaks of the charge and bond structure factors at 2 _kF_ diverge sub-linearly with the system size"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "339"
+chars = "12-87"
+text = "doping the Peierls insulator at _δ_ = 0 and sufficiently large values of _λ_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "143-212"
+text = "ground state becomes a Luttinger liquid, with gapless spin excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "230-264"
+text = "stability of the Luther-Emery phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "270-331"
+text = "ensure that the spin gap persists as the system size increases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "339"
+chars = "387-419"
+text = "_λ_ = 0 _._ 25 and _δ_ = 0 _._ 15"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "434-468"
+text = "within the Luther-Emery phase phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "339"
+chars = "509-559"
+text = "three different sizes (i.e., _L_ = 40, 80, and 120)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "590-650"
+text = "spin structure factor does not show substantial modifications"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "709-809"
+text = "stability of the Luther-Emery phase also on large systems (and eventually in the thermodynamic limit)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "830-916"
+text = "rule out the presence of phase separation in both the Luttinger and Luther-Emery phases"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "339"
+chars = "1007-1022"
+text = "DMRG simulations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "1041-1116"
+text = "correct (convex) behavior of the energy as a function of the electron doping"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "339"
+chars = "1119-1190"
+text = "VMC results show a tiny region of phase separation close to half filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "1192-1290"
+text = "in the Luther-Emery phase, but this fact is primarily due to the different accuracy of VMC energies"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "1302-1335"
+text = "very high in the Peierls insulator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "341"
+chars = "18-80"
+text = "physical description of the system we are providing is accurate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "341"
+chars = "133-206"
+text = "presence of a spin-gapped metallic phase upon doping the Peierls insulator"
+
+[[blocks]]
+sections = ["method"]
+lines = "341"
+chars = "219-243"
+text = "variational wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "341"
+chars = "305-335"
+text = "variational Monte Carlo methods"
+
+[[blocks]]
+sections = ["problem"]
+lines = "341"
+chars = "439-487"
+text = "twodimensional Hubbard-Su-Schrieffer-Heeger model"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "347"
+chars = "33-112"
+text = "variational _Ansatz_ , which goes beyond the simple Jastrow-Slater approximation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "347"
+chars = "158-206"
+text = "onedimensional Hubbard-Su-Schrieffer-Heeger model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "347"
+chars = "216-256"
+text = "half-filling and in the hole-doped regime"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "347"
+chars = "278-314"
+text = "good agreement with DMRG calculations"
+
+[[blocks]]
+sections = ["software", "method"]
+lines = "349"
+chars = "61-114"
+text = "JAX implementation of the variational Monte Carlo code"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "355"
+chars = "10-16"
+text = "Peierls"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "377"
+chars = "101-125"
+text = "su-schriefferheeger model"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "383"
+chars = "60-78"
+text = "peierls instability"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "385"
+chars = "56-73"
+text = "Peierls transition"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "387"
+chars = "95-112"
+text = "peierls transition"
+
+[[blocks]]
+sections = ["problem"]
+lines = "389"
+chars = "99-132"
+text = "quantum suschrieffer-heeger models"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "391"
+chars = "95-131"
+text = "determinant quantum monte carlo study"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "411"
+chars = "35-118"
+text = "Spin-gap phase in nearly half-filled one-dimensional conductors coupled with phonons"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "413"
+chars = "104-166"
+text = "doped onedimensional optical hubbard-su-schrieffer-heeger model"
+
+[[blocks]]
+sections = ["method"]
+lines = "415"
+chars = "155-183"
+text = "variational monte carlo study"
+
+[[blocks]]
+sections = ["method"]
+lines = "433"
+chars = "46-66"
+text = "Backflow correlations"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "435"
+chars = "98-112"
+text = "mott insulators"
+
+[[blocks]]
+sections = ["method"]
+lines = "439"
+chars = "54-83"
+text = "variational monte carlo method"
+
+[[blocks]]
+sections = ["method"]
+lines = "441"
+chars = "34-63"
+text = "Quantum Monte Carlo Approaches"
+
+[[blocks]]
+sections = ["software"]
+lines = "443"
+chars = "155-185"
+text = "JAX: composable transformations"
+
+[[blocks]]
+sections = ["software"]
+lines = "445"
+chars = "37-43"
+text = "mpi4jax"
+
+[[blocks]]
+sections = ["software"]
+lines = "447"
+chars = "60-83"
+text = "ITensor Software Library"

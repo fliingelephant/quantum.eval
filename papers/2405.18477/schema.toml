@@ -9,9 +9,471 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevResearch.6.033322"
 arxiv_version = "2405.18477v2"
+md_sha256 = "56d11f68c1e451e0bae2e5d7912855e2483ef63a51f90bf4e9a1889097ac85db"
 
 [candidate_notes]
 model = "1D Rydberg atom arrays (blockade / Ising-type); finite-temperature purification MPS"
 headline = "finite-T phase diagram: ordered lobes shrink with T; conformal entanglement scaling extends from T=0 critical points into the low-T regime; CFT universality argument"
 compute = "1D thermal MPS: laptop, minutes-to-hours. CAVEAT: entanglement-characterization flavor, most methods-adjacent of the thermal set"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+
+[[problem.entries]]
+name = "model"
+value = "One-dimensional open Rydberg atom chain with two-level atoms, laser-driven Rabi coupling, detuning, and van der Waals interactions."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:136-160"
+
+[[problem.entries]]
+name = "Hamiltonian"
+value = "H = (Omega/2) sum_i sigma_x^i - Delta sum_i n_z^i + sum_{i != j} C_6/R_ij^6 n_z^i n_z^j."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:138-144"
+
+[[problem.entries]]
+name = "convention"
+value = "hbar = 1; lattice spacing a is the length unit; Rabi frequency Omega is the energy unit; interactions beyond four lattice spacings are set to zero."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:144,160"
+
+[[problem.entries]]
+name = "boundary_conditions_and_sizes"
+value = "Open boundary conditions; N = 13, 25, and 31 sites, all of the form 6n+1."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:160,194"
+
+[[problem.entries]]
+name = "parameterization"
+value = "Hamiltonian parameter plane (R_B/a, Delta/Omega), with period-2 Z2 and period-3 Z3 crystalline regimes and a disordered regime in the simulated range."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:162-176"
+
+[[problem.entries]]
+name = "bipartition"
+value = "Half-system bipartition for entanglement negativity and entanglement of formation."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:106-120,234-248"
+
+[[problem.targets]]
+panel = "fig4_ground_state_negativity"
+quantity = "Entanglement negativity E_N phase map"
+ensemble = "N = 31, T/Omega = 0.025"
+axes = ["R_B/a", "Delta/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:164-176"
+
+[[problem.targets]]
+panel = "fig5_purity_n13"
+quantity = "Purity gamma"
+ensemble = "N = 13, Delta/Omega = 3.034"
+axes = ["R_B/a", "T/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,198-208"
+
+[[problem.targets]]
+panel = "fig5_purity_n25"
+quantity = "Purity gamma"
+ensemble = "N = 25, Delta/Omega = 3.034"
+axes = ["R_B/a", "T/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,198-208"
+
+[[problem.targets]]
+panel = "fig5_purity_n31"
+quantity = "Purity gamma"
+ensemble = "N = 31, Delta/Omega = 3.034"
+axes = ["R_B/a", "T/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,198-208"
+
+[[problem.targets]]
+panel = "fig5_norm_loss_n13"
+quantity = "Norm loss diagnostic"
+ensemble = "N = 13, Delta/Omega = 3.034, K_0 = 100"
+axes = ["R_B/a", "T/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,210-224"
+
+[[problem.targets]]
+panel = "fig5_norm_loss_n25"
+quantity = "Norm loss diagnostic"
+ensemble = "N = 25, Delta/Omega = 3.034, K_0 = 100"
+axes = ["R_B/a", "T/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,210-224"
+
+[[problem.targets]]
+panel = "fig5_norm_loss_n31"
+quantity = "Norm loss diagnostic"
+ensemble = "N = 31, Delta/Omega = 3.034, K_0 = 100"
+axes = ["R_B/a", "T/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,210-224"
+
+[[problem.targets]]
+panel = "fig6_threshold_gamma05_n13"
+quantity = "Threshold temperature where gamma falls below gamma_cut = 0.5"
+ensemble = "N = 13"
+axes = ["R_B/a", "Delta/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:198-226"
+
+[[problem.targets]]
+panel = "fig6_threshold_gamma05_n25"
+quantity = "Threshold temperature where gamma falls below gamma_cut = 0.5"
+ensemble = "N = 25"
+axes = ["R_B/a", "Delta/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:198-226"
+
+[[problem.targets]]
+panel = "fig6_threshold_gamma05_n31"
+quantity = "Threshold temperature where gamma falls below gamma_cut = 0.5"
+ensemble = "N = 31"
+axes = ["R_B/a", "Delta/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:198-226"
+
+[[problem.targets]]
+panel = "fig6_threshold_gamma09_n13"
+quantity = "Threshold temperature where gamma falls below gamma_cut = 0.9"
+ensemble = "N = 13"
+axes = ["R_B/a", "Delta/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:198-226"
+
+[[problem.targets]]
+panel = "fig6_threshold_gamma09_n25"
+quantity = "Threshold temperature where gamma falls below gamma_cut = 0.9"
+ensemble = "N = 25"
+axes = ["R_B/a", "Delta/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:198-226"
+
+[[problem.targets]]
+panel = "fig6_threshold_gamma09_n31"
+quantity = "Threshold temperature where gamma falls below gamma_cut = 0.9"
+ensemble = "N = 31"
+axes = ["R_B/a", "Delta/Omega"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:198-226"
+
+[[problem.targets]]
+panel = "fig7_ising_negativity"
+quantity = "Entanglement negativity E_N versus temperature"
+ensemble = "Ising critical point R_B/a = 1.142, Delta/Omega = 2.9; N = 13, 25, 31"
+axes = ["T/Omega", "E_N", "N T/Omega rescaling"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:234-248,258-260"
+
+[[problem.targets]]
+panel = "fig7_ising_entanglement_of_formation"
+quantity = "Entanglement of formation E_F versus temperature"
+ensemble = "Ising critical point R_B/a = 1.142, Delta/Omega = 2.9; N = 13, 25, 31"
+axes = ["T/Omega", "E_F", "N T/Omega rescaling"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:234-248,258-260"
+
+[[problem.targets]]
+panel = "fig7_potts_negativity"
+quantity = "Entanglement negativity E_N versus temperature"
+ensemble = "Three-state Potts critical point R_B/a = 2.3, Delta/Omega = 1.808; N = 13, 25, 31"
+axes = ["T/Omega", "E_N", "N T/Omega rescaling"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:234-248,258-260"
+
+[[problem.targets]]
+panel = "fig7_potts_entanglement_of_formation"
+quantity = "Entanglement of formation E_F versus temperature"
+ensemble = "Three-state Potts critical point R_B/a = 2.3, Delta/Omega = 1.808; N = 13, 25, 31"
+axes = ["T/Omega", "E_F", "N T/Omega rescaling"]
+tier = "light"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:234-248,258-260"
+
+[[problem.targets]]
+panel = "fig9_ising_norm_loss"
+quantity = "Norm loss during LPTN-to-TTO conversion"
+ensemble = "N = 31 Ising critical point; m = 30, 40, 50, 60; K_0 = 100"
+axes = ["T/Omega", "norm loss"]
+tier = "medium"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-328,344"
+
+[[problem.targets]]
+panel = "fig9_ising_energy"
+quantity = "Energy from the TTO and LPTN reference"
+ensemble = "N = 31 Ising critical point; m = 30, 40, 50, 60; K_0 = 100"
+axes = ["T/Omega", "energy"]
+tier = "medium"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-328,344"
+
+[[problem.targets]]
+panel = "fig9_ising_negativity"
+quantity = "Entanglement negativity during convergence analysis"
+ensemble = "N = 31 Ising critical point; m = 30, 40, 50, 60; K_0 = 100"
+axes = ["T/Omega", "E_N"]
+tier = "medium"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-328,344"
+
+[[problem.targets]]
+panel = "fig9_potts_norm_loss"
+quantity = "Norm loss during LPTN-to-TTO conversion"
+ensemble = "N = 31 three-state Potts critical point; m = 30, 40, 50, 60; K_0 = 100"
+axes = ["T/Omega", "norm loss"]
+tier = "medium"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-328,344"
+
+[[problem.targets]]
+panel = "fig9_potts_energy"
+quantity = "Energy from the TTO and LPTN reference"
+ensemble = "N = 31 three-state Potts critical point; m = 30, 40, 50, 60; K_0 = 100"
+axes = ["T/Omega", "energy"]
+tier = "medium"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-328,344"
+
+[[problem.targets]]
+panel = "fig9_potts_negativity"
+quantity = "Entanglement negativity during convergence analysis"
+ensemble = "N = 31 three-state Potts critical point; m = 30, 40, 50, 60; K_0 = 100"
+axes = ["T/Omega", "E_N"]
+tier = "medium"
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-328,344"
+
+[method]
+
+[[method.entries]]
+name = "chosen_route"
+value = "Thermal tensor-network route: initialize an LPTN at infinite temperature, evolve it in imaginary time with TDVP, then iteratively convert the finite-temperature LPTN into a Tree Tensor Operator."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:60,122-134"
+
+[[method.entries]]
+name = "TTO_ansatz"
+value = "Loopless positive density-matrix ansatz rho = X X^dagger; isometrization concentrates mixed-state probabilities and bipartite entanglement in the root tensor."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:74,92-98"
+
+[[method.entries]]
+name = "mixed_state_estimators"
+value = "Negativity is obtained from the partial transpose of the root-tensor compressed density matrix; entanglement of formation is minimized over pure-state decompositions parameterized by a unitary on the TTO root."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:98-120,304-316"
+
+[[method.entries]]
+name = "LPTN_to_TTO_conversion"
+value = "The conversion contracts tensor pairs layer by layer and applies truncated SVDs over prescribed bipartitions, retaining singular values in alternating upper/lower tensors and discarding Hermitian-conjugate unitary factors."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:282-300"
+
+[[method.entries]]
+name = "valid_alternative_routes"
+value = ["finite-temperature purification MPS/LPTN with TEBD or TDVP", "matrix-product density operator or MPO imaginary-time evolution", "exact diagonalization for the small-size targets"]
+provenance = "Inferred Each alternative can represent the stated Gibbs state and compute the listed observables; the paper's target definitions are Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:76-120,198-204"
+
+[method_params]
+
+[[method_params.entries]]
+name = "imaginary_time_step"
+value = "d_beta/2 = 0.05 for phase diagrams and d_beta/2 = 0.025 near critical points."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:132-134"
+
+[[method_params.entries]]
+name = "entanglement_bond_dimension"
+value = "m = 50 maximum for the LPTN and TTO main calculations; convergence study compares m = 30, 40, 50, 60."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:134,322-328,344"
+
+[[method_params.entries]]
+name = "mixing_bond_dimension"
+value = "K_0 = 100 in the main calculations and convergence analysis; K_0 = 10 for the entanglement-of-formation analysis."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:92,134,236,324"
+
+[[method_params.entries]]
+name = "conversion_accuracy"
+value = "The accepted low-temperature region is the region where norm loss is below 1%; the convergence strategy tunes m_TTO and K_0 against this threshold."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:210,324-332,348-360"
+
+[software]
+
+[[software.entries]]
+name = "reported_software"
+value = "Quantum Green Tea v0.3.23 with Quantum Tea Leaves v0.4.46."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:274-276"
+
+[[software.entries]]
+name = "valid_alternative_tool_set"
+value = ["any tensor-network library implementing the chosen purification/imaginary-time route and the stated mixed-state estimators", "an exact-diagonalization package for the light targets"]
+provenance = "Inferred The alternatives expose the same state preparation and observable interfaces required by targets Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:122-134,198-204"
+
+[software_params]
+
+[[software_params.entries]]
+name = "entanglement_of_formation_optimizer"
+value = "Nelder-Mead simplex; simplex points use squashed Haar-random unitary matrices U_squash = U^dagger D^alpha U with alpha in [0,1]."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:304-316"
+
+[[software_params.entries]]
+name = "optimizer_initialization"
+value = "Warm-start each temperature point from the optimized unitary at the preceding temperature."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:318"
+
+[[software_params.entries]]
+name = "execution_context"
+value = "The paper acknowledges Cineca resources on the Leonardo machine."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:278-280"
+
+[anchors]
+
+[[anchors.entries]]
+name = "Gibbs_state"
+value = "rho_hat = sum_j p_j |psi_j><psi_j|, p_j = exp(-beta E_j)/Z, beta = 1/T."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:76-82"
+
+[[anchors.entries]]
+name = "negativity_definition"
+value = "E_N = (||rho_hat^(T_N/2)||_1 - 1)/2."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:106-112"
+
+[[anchors.entries]]
+name = "formation_definition"
+value = "E_F is the infimum of the average half-system entanglement entropy over pure-state decompositions of rho_hat."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:114-120"
+
+[[anchors.entries]]
+name = "purity_definition"
+value = "gamma = Tr(rho_hat^2) = sum_{j=1}^{K_0} p_j^2."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:198-204"
+
+[[anchors.entries]]
+name = "conformal_scaling"
+value = "E_F(T,N) = (c/6) log(N) + g_F(T N^z); Ising uses c = 1/2, z = 1 and Potts uses c = 4/5, z = 1."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:252-260"
+
+[truth]
+
+[truth.fig4_ground_state_negativity]
+csv = "truth_fig4_ground_state_negativity.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo dataset 10.5281/zenodo.11349566 (current record 10.5281/zenodo.13645344), using the Fig. 4 N = 31, T/Omega = 0.025 grid."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:164-176"
+
+[truth.fig5_purity_n13]
+csv = "truth_fig5_purity_n13.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo purity arrays at Delta/Omega = 3.0344827586."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,198-208"
+
+[truth.fig5_purity_n25]
+csv = "truth_fig5_purity_n25.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo purity arrays at Delta/Omega = 3.0344827586."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,198-208"
+
+[truth.fig5_purity_n31]
+csv = "truth_fig5_purity_n31.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo purity arrays at Delta/Omega = 3.0344827586."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,198-208"
+
+[truth.fig5_norm_loss_n13]
+csv = "truth_fig5_norm_loss_n13.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo norm-loss arrays at Delta/Omega = 3.0344827586."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,210-224"
+
+[truth.fig5_norm_loss_n25]
+csv = "truth_fig5_norm_loss_n25.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo norm-loss arrays at Delta/Omega = 3.0344827586."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,210-224"
+
+[truth.fig5_norm_loss_n31]
+csv = "truth_fig5_norm_loss_n31.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo norm-loss arrays at Delta/Omega = 3.0344827586."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:190,210-224"
+
+[truth.fig6_threshold_gamma05_n13]
+csv = "truth_fig6_threshold_gamma05_n13.csv"
+tolerance = 0.03
+source = "Inferred by linearly interpolating the paper-linked Zenodo purity arrays at gamma_cut = 0.5; blank cells are outside the sampled temperature range."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:222-226"
+
+[truth.fig6_threshold_gamma05_n25]
+csv = "truth_fig6_threshold_gamma05_n25.csv"
+tolerance = 0.03
+source = "Inferred by linearly interpolating the paper-linked Zenodo purity arrays at gamma_cut = 0.5; blank cells are outside the sampled temperature range."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:222-226"
+
+[truth.fig6_threshold_gamma05_n31]
+csv = "truth_fig6_threshold_gamma05_n31.csv"
+tolerance = 0.03
+source = "Inferred by linearly interpolating the paper-linked Zenodo purity arrays at gamma_cut = 0.5; blank cells are outside the sampled temperature range."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:222-226"
+
+[truth.fig6_threshold_gamma09_n13]
+csv = "truth_fig6_threshold_gamma09_n13.csv"
+tolerance = 0.03
+source = "Inferred by linearly interpolating the paper-linked Zenodo purity arrays at gamma_cut = 0.9; blank cells are outside the sampled temperature range."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:222-226"
+
+[truth.fig6_threshold_gamma09_n25]
+csv = "truth_fig6_threshold_gamma09_n25.csv"
+tolerance = 0.03
+source = "Inferred by linearly interpolating the paper-linked Zenodo purity arrays at gamma_cut = 0.9; blank cells are outside the sampled temperature range."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:222-226"
+
+[truth.fig6_threshold_gamma09_n31]
+csv = "truth_fig6_threshold_gamma09_n31.csv"
+tolerance = 0.03
+source = "Inferred by linearly interpolating the paper-linked Zenodo purity arrays at gamma_cut = 0.9; blank cells are outside the sampled temperature range."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:222-226"
+
+[truth.fig7_ising_negativity]
+csv = "truth_fig7_ising_negativity.csv"
+tolerance = 0.005
+source = "Inferred from the paper-linked Zenodo critical-point negativity arrays for R_B/a = 1.142 and Delta/Omega = 2.9."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:234-248"
+
+[truth.fig7_ising_entanglement_of_formation]
+csv = "truth_fig7_ising_entanglement_of_formation.csv"
+tolerance = 0.005
+source = "Inferred from the paper-linked Zenodo critical-point formation arrays; only the low-temperature entries retained by the paper's norm-loss<1% analysis are valid."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:234-248"
+
+[truth.fig7_potts_negativity]
+csv = "truth_fig7_potts_negativity.csv"
+tolerance = 0.005
+source = "Inferred from the paper-linked Zenodo critical-point negativity arrays for R_B/a = 2.3 and Delta/Omega = 1.808."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:234-248"
+
+[truth.fig7_potts_entanglement_of_formation]
+csv = "truth_fig7_potts_entanglement_of_formation.csv"
+tolerance = 0.005
+source = "Inferred from the paper-linked Zenodo critical-point formation arrays; only the low-temperature entries retained by the paper's norm-loss<1% analysis are valid."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:234-248"
+
+[truth.fig9_ising_norm_loss]
+csv = "truth_fig9_ising_norm_loss.csv"
+tolerance = 0.005
+source = "Inferred from the paper-linked Zenodo convergence outputs at R_B/a = 1.142 and Delta/Omega = 2.9."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-344"
+
+[truth.fig9_ising_energy]
+csv = "truth_fig9_ising_energy.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo convergence outputs at R_B/a = 1.142 and Delta/Omega = 2.9."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-344"
+
+[truth.fig9_ising_negativity]
+csv = "truth_fig9_ising_negativity.csv"
+tolerance = 0.005
+source = "Inferred from the paper-linked Zenodo convergence outputs at R_B/a = 1.142 and Delta/Omega = 2.9."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-344"
+
+[truth.fig9_potts_norm_loss]
+csv = "truth_fig9_potts_norm_loss.csv"
+tolerance = 0.005
+source = "Inferred from the paper-linked Zenodo convergence outputs at R_B/a = 2.3 and Delta/Omega = 1.808."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-344"
+
+[truth.fig9_potts_energy]
+csv = "truth_fig9_potts_energy.csv"
+tolerance = 0.01
+source = "Inferred from the paper-linked Zenodo convergence outputs at R_B/a = 2.3 and Delta/Omega = 1.808."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-344"
+
+[truth.fig9_potts_negativity]
+csv = "truth_fig9_potts_negativity.csv"
+tolerance = 0.005
+source = "Inferred from the paper-linked Zenodo convergence outputs at R_B/a = 2.3 and Delta/Omega = 1.808."
+provenance = "Literal 2405.18477_finite-temperature-rydberg-arrays-quantum-phases-and-entangl.md:320-344"

@@ -9,9 +9,365 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevB.111.134427"
 arxiv_version = "2403.17309v1"
+md_sha256 = "2e7da62602032b1afcaf3fc372a6bad3cc907a483e838df397cf93de0444f767"
 
 [candidate_notes]
 model = "AFM 6-state clock model on the Union-Jack lattice; TRG (nuclear-norm-regularized) contraction of the classical partition function"
 headline = "phase diagram: BKT + Z6-breaking + chiral transitions; central charge, scaling dimensions, OPE coefficients vs compactified-boson / Ising CFT"
 compute = "classical clock TRG at modest bond dimension, laptop. CAVEAT: method-forward framing (regularized TRG showcased) -- judged physics-leaning, decide at extraction"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Antiferromagnetic 6-state clock model on the Union Jack lattice, with H = J Σ_{⟨i,j⟩} cos(θ_i − θ_j)."
+model_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:55-61"
+convention = "θ_i = 2π n_i / 6 with n_i ∈ {0, 1, …, 5}; β = 1/T. The AF coupling produces geometrical frustration."
+convention_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:55-61"
+instance = "Two-dimensional Union Jack lattice with independent A_8 and B_4 sublattices; the numerical work also evaluates the Kramers–Wannier dual representation on the dual lattice."
+instance_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:121-129,139-169"
+boundary = "Periodic boundary conditions for the expectation-value estimator; the calculation is intended to represent the thermodynamic-limit fixed point."
+boundary_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:95,477-485"
+size = "No finite spatial size is reported; the observables are evaluated from the renormalized uniform tensor representation."
+size_provenance = "Inferred from the thermodynamic-limit discussion at papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:95 and the uniform-TN construction at 129-137"
+temperature_axis = "Temperature T/J, including the three transition locations T_c1, T_c2, and T_c3 and the self-dual crossing T_sd."
+temperature_axis_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:73,257,267,309"
+
+[[problem.targets]]
+panel = "fig4a_CA8"
+quantity = "Specific heat C_A8 as a function of T/J, including its divergent peak and higher-temperature bump."
+observable = "C_A8 = dE_A8/dT"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:181,257,263-267"
+
+[[problem.targets]]
+panel = "fig4a_CB4"
+quantity = "Specific heat C_B4 as a function of T/J, shown in the inset."
+observable = "C_B4 = dE_B4/dT"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:181,257,267"
+
+[[problem.targets]]
+panel = "fig4b_abs_kappa"
+quantity = "Absolute local spin chirality |κ| as a function of T/J."
+observable = "κ on alternating clockwise/counterclockwise triangular subplaquettes"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:183-192,257,267"
+
+[[problem.targets]]
+panel = "fig4c_c"
+quantity = "Central charge c as a function of T/J."
+observable = "Central charge extracted from transfer-matrix eigenvalues"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:195-221,257,269"
+
+[[problem.targets]]
+panel = "fig4d_X_clock"
+quantity = "Gauge-invariant quantity X as a function of T/J for the AF 6-state clock model."
+observable = "X = (tr M_2)^2 / tr M_4"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:241-250,257,271"
+
+[[problem.targets]]
+panel = "fig4d_X_dual"
+quantity = "Gauge-invariant quantity X as a function of T/J for the dual representation."
+observable = "X = (tr M_2)^2 / tr M_4"
+representation = "Kramers–Wannier dual representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:141-169,241-250,257,271"
+
+[[problem.targets]]
+panel = "fig5_delta_clock"
+quantity = "First eight scaling dimensions Δ_α versus T/J for the original clock representation."
+observable = "Scaling-dimension spectrum"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:273-309,323"
+
+[[problem.targets]]
+panel = "fig5_delta_dual"
+quantity = "First eight scaling dimensions Δ_α versus T/J for the dual representation."
+observable = "Scaling-dimension spectrum"
+representation = "Kramers–Wannier dual representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:273-309,323"
+
+[[problem.targets]]
+panel = "fig6a_clock_lx2"
+quantity = "Central charge and scaling-dimension spectrum versus RG step at T_c1 for the original clock representation."
+observable = "Conformal data"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:311-325,337"
+
+[[problem.targets]]
+panel = "fig6b_clock_lx4"
+quantity = "Scaling-dimension spectrum versus index at the 12th RG step for the original clock representation."
+observable = "Scaling-dimension spectrum"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:325,337"
+
+[[problem.targets]]
+panel = "fig7a_dual_chi24_lx2"
+quantity = "Dual-representation conformal data versus RG step at T_c1 with χ = 24."
+observable = "Conformal data"
+representation = "Kramers–Wannier dual representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:327,355"
+
+[[problem.targets]]
+panel = "fig7b_dual_chi36_lx2"
+quantity = "Dual-representation conformal data versus RG step at T_c1 with χ = 36."
+observable = "Conformal data"
+representation = "Kramers–Wannier dual representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:327,355"
+
+[[problem.targets]]
+panel = "fig7c_dual_lx4"
+quantity = "Dual-representation scaling-dimension spectrum versus index at the 20th RG step."
+observable = "Scaling-dimension spectrum"
+representation = "Kramers–Wannier dual representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:327-339,355"
+
+[[problem.targets]]
+panel = "text_Tc1"
+quantity = "Chiral/Ising transition temperature T_c1."
+observable = "Transition location"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:263-267"
+
+[[problem.targets]]
+panel = "text_Tc2"
+quantity = "Z_6-symmetry-breaking transition temperature T_c2."
+observable = "Transition location"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:285-309"
+
+[[problem.targets]]
+panel = "text_Tc3"
+quantity = "BKT transition temperature T_c3."
+observable = "Transition location"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:285-309"
+
+[[problem.targets]]
+panel = "text_Tsd"
+quantity = "Self-dual crossing temperature T_sd."
+observable = "Scaling-spectrum crossing"
+representation = "Original and dual representations"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:301-309"
+
+[[problem.targets]]
+panel = "text_c_Tc1"
+quantity = "Central charge at the low-temperature/chiral transition point."
+observable = "Central charge"
+representation = "Original clock-model representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:263-269"
+
+[[problem.targets]]
+panel = "text_CsigmaSigma1"
+quantity = "Ising-CFT OPE coefficient C_σσ^1 at the chiral transition."
+observable = "OPE coefficient"
+representation = "Dual representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:223-239,327-339"
+
+[[problem.targets]]
+panel = "text_CepsilonEpsilon1"
+quantity = "Ising-CFT OPE coefficient C_εε^1 at the chiral transition."
+observable = "OPE coefficient"
+representation = "Dual representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:223-239,327-339"
+
+[[problem.targets]]
+panel = "text_CepsilonSigmaSigma"
+quantity = "Ising-CFT OPE coefficient C_εσσ at the chiral transition."
+observable = "OPE coefficient"
+representation = "Dual representation"
+tier = "light"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:223-239,327-339"
+
+[method]
+chosen = "Tensor-network renormalization of the classical partition function, specifically nuclear-norm-regularized TNR (NNR-TNR) with loop optimization; conformal data are obtained from linear transfer matrices, with LOBCG for the leading eigenpairs."
+chosen_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:51-53,83,89-95,195-221,223-239"
+representations = "Original UJ-lattice TN representation and its Kramers–Wannier dual TN representation."
+representations_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:77,129-169"
+valid_alternatives = "Other tensor-network renormalization routes, including standard TNR, LoopTNR, and TNR+; thermodynamic/transition targets can also be approached by Monte Carlo methods, while the conformal-data targets require a valid transfer-matrix or equivalent finite-size-spectrum route."
+valid_alternatives_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:51-53,471,515-519,541-547,565-567"
+
+[method_params]
+bond_dimensions = "χ = 36 for Figs. 4–5 and the original-representation conformal data; χ = 24 and 36 for the dual-representation comparison in Fig. 7."
+bond_dimensions_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:257,323,327,355"
+rg_steps = "50th RG step for specific heat and chirality; 12th RG step for central charge and X; 15th RG step for Fig. 5; 12th and 20th RG steps for the Fig. 6–7 conformal spectra/OPE estimates."
+rg_steps_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:257,311,323,325,339"
+transfer_matrix_columns = "l_x = 2 and 4; longer columns are used to reduce finite-size corrections."
+transfer_matrix_columns_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:199-221,311,323,325,327,337,355"
+svd_cutoff = "Retain singular values larger than machine epsilon in the initial truncated SVD."
+svd_cutoff_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:131-137"
+nnr_hyperparameters = "ξ = 2 × 10^-6 and ρ = 0.9."
+nnr_hyperparameters_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:579"
+
+[software]
+status = "not_stated"
+note = "No numerical software package, library, or code name is stated in the rendered paper; the paper names algorithms and a computing facility, not software."
+provenance = "Inferred from a complete read of papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md; the only resource statement is the facility acknowledgement at lines 363-365"
+
+[software_params]
+status = "not_stated"
+note = "No implementation-specific software knobs, tolerances, threading settings, or API options are reported."
+provenance = "Inferred from a complete read of papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md"
+
+[anchors]
+hamiltonian_and_clock = "H = J Σ cos(θ_i − θ_j), θ_i = 2π n_i/6, n_i = 0,…,5."
+hamiltonian_and_clock_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:55-61"
+duality = "The Kramers–Wannier transform exchanges the original and dual descriptions; in the effective sine-Gordon theory K ↔ q²/K and g_1 ↔ g_2, with self-dual K_sd = q when g_1 = g_2."
+duality_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:295-307,415-421"
+compactified_boson = "For the compactified-boson region, Δ_m,n(K) = 1/2(m²K + n²/K), with K_BKT = 4 and K_Zq = q²/4; the theory has c = 1."
+compactified_boson_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:273-293"
+ising = "The Ising-CFT checks use c = 1/2 and exact OPE values C_σσ^1 = C_εε^1 = 1 and C_εσσ = 1/2."
+ising_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:211-239"
+ground_state_degeneracy = "The six-state discretization gives a 12-fold chiral ground-state degeneracy; the dual representation reduces it to a twofold Z_2 sector."
+ground_state_degeneracy_provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:61,167-169"
+
+[truth.fig4a_CA8]
+file = "truth_fig4a_CA8.csv"
+tolerance = 0.12
+units = "C_A8 versus T/J"
+provenance = "Inferred from digitization of Fig. 4(a), papers/2403.17309/.figures/arxiv__2403.17309/2403.17309.pdf-0005-17.png"
+
+[truth.fig4a_CB4]
+file = "truth_fig4a_CB4.csv"
+tolerance = 0.35
+units = "C_B4 versus T/J"
+provenance = "Inferred from digitization of the Fig. 4(a) inset, papers/2403.17309/.figures/arxiv__2403.17309/2403.17309.pdf-0005-17.png"
+
+[truth.fig4b_abs_kappa]
+file = "truth_fig4b_abs_kappa.csv"
+tolerance = 0.06
+units = "|κ| versus T/J"
+provenance = "Inferred from digitization of Fig. 4(b), papers/2403.17309/.figures/arxiv__2403.17309/2403.17309.pdf-0005-17.png"
+
+[truth.fig4c_c]
+file = "truth_fig4c_c.csv"
+tolerance = 0.08
+units = "c versus T/J"
+provenance = "Inferred from digitization of Fig. 4(c), with the stated c = 0.497 check at line 269"
+
+[truth.fig4d_X_clock]
+file = "truth_fig4d_X_clock.csv"
+tolerance = 0.35
+units = "X versus T/J"
+provenance = "Inferred from digitization of Fig. 4(d); the text states X = 1, 6, and 12 in the three clock phases at line 271"
+
+[truth.fig4d_X_dual]
+file = "truth_fig4d_X_dual.csv"
+tolerance = 0.35
+units = "X versus T/J"
+provenance = "Inferred from digitization of Fig. 4(d) dual curve; the text states the inset jump X = 1 ↔ 2 at line 271"
+
+[truth.fig5_delta_clock]
+file = "truth_fig5_delta_clock.csv"
+tolerance = 0.16
+units = "first eight Δ_α versus T/J"
+provenance = "Inferred from digitization of the Fig. 5 panel on rendered paper page 7 in papers/2403.17309/.raw/arxiv/2403.17309.pdf; the accompanying caption is at line 323"
+
+[truth.fig5_delta_dual]
+file = "truth_fig5_delta_dual.csv"
+tolerance = 0.16
+units = "first eight Δ_α versus T/J"
+provenance = "Inferred from digitization of the Fig. 5 panel on rendered paper page 7 in papers/2403.17309/.raw/arxiv/2403.17309.pdf; the accompanying caption is at line 323"
+
+[truth.fig6a_clock_lx2]
+file = "truth_fig6a_clock_lx2.csv"
+tolerance = 0.18
+units = "conformal data versus RG step"
+provenance = "Inferred from digitization of Fig. 6(a), papers/2403.17309/.figures/arxiv__2403.17309/2403.17309.pdf-0007-05.png"
+
+[truth.fig6b_clock_lx4]
+file = "truth_fig6b_clock_lx4.csv"
+tolerance = 0.18
+units = "Δ_α versus index"
+provenance = "Inferred from digitization of Fig. 6(b), papers/2403.17309/.figures/arxiv__2403.17309/2403.17309.pdf-0007-05.png"
+
+[truth.fig7a_dual_chi24_lx2]
+file = "truth_fig7a_dual_chi24_lx2.csv"
+tolerance = 0.25
+units = "conformal data versus RG step"
+provenance = "Inferred from digitization of Fig. 7(a), papers/2403.17309/.figures/arxiv__2403.17309/2403.17309.pdf-0008-01.png"
+
+[truth.fig7b_dual_chi36_lx2]
+file = "truth_fig7b_dual_chi36_lx2.csv"
+tolerance = 0.25
+units = "conformal data versus RG step"
+provenance = "Inferred from digitization of Fig. 7(b), papers/2403.17309/.figures/arxiv__2403.17309/2403.17309.pdf-0008-01.png"
+
+[truth.fig7c_dual_lx4]
+file = "truth_fig7c_dual_lx4.csv"
+tolerance = 0.22
+units = "Δ_α versus index"
+provenance = "Inferred from digitization of Fig. 7(c), papers/2403.17309/.figures/arxiv__2403.17309/2403.17309.pdf-0008-01.png"
+
+[truth.text_Tc1]
+value = 0.462
+tolerance = 0.005
+units = "J"
+classification = "chiral/Ising transition"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:267"
+
+[truth.text_Tc2]
+value = 0.49
+tolerance = 0.005
+units = "J"
+classification = "Z_6 symmetry-breaking transition"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:309"
+
+[truth.text_Tc3]
+value = 0.64
+tolerance = 0.005
+units = "J"
+classification = "BKT transition"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:309"
+
+[truth.text_Tsd]
+value = 0.56
+tolerance = 0.01
+units = "J"
+classification = "self-dual crossing"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:309"
+
+[truth.text_c_Tc1]
+value = 0.497
+tolerance = 0.005
+units = "central charge"
+classification = "Ising-CFT value at the low-temperature transition"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:269"
+
+[truth.text_CsigmaSigma1]
+value = 1.046
+tolerance = 0.01
+units = "OPE coefficient"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:339"
+
+[truth.text_CepsilonEpsilon1]
+value = 1.003
+tolerance = 0.01
+units = "OPE coefficient"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:339"
+
+[truth.text_CepsilonSigmaSigma]
+value = 0.529
+tolerance = 0.01
+units = "OPE coefficient"
+provenance = "Literal papers/2403.17309/2403.17309_tensor-network-renormalization-approach-to-antiferromagnetic.md:339"

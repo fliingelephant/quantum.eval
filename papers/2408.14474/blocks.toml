@@ -1,0 +1,809 @@
+# Partition layer for papers/2408.14474 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["method"]
+lines = "23"
+chars = "666-748"
+text = "numerical calculations using the density-matrix renormalization group (DMRG) method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "751-913"
+text = "The phase diagram consists of two Ising paramagnetic phases called IPM$_0$ and IPM$_\\pi$, and a phase with Ising Neel order called IN; all these phases are gapped."
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "915-1102"
+text = "The phases IPM$_0$ and IPM$_\\pi$ are separated by a gapless phase transition line given by $0 \\le J_a = J_b \\le 1$ which is described by a conformal field theory with central charge $c=1$."
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "1104-1310"
+text = "There are two gapless phase transition lines separating IPM$_0$ from IN and IPM$_\\pi$ from IN; these are described by conformal field theories with $c=\\frac{1}{2}$ corresponding to quantum Ising transitions."
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "1312-1475"
+text = "The $c=1$ line bifurcates into the two $c=\\frac{1}{2}$ lines at the point $J_a = J_b = 1$; the shape of the bifurcation is found analytically using RG calculations."
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "1477-1691"
+text = "A symmetry analysis shows that IPM$_0$ is a topologically trivial phase while IPM$_\\pi$ is a time-reversal symmetry-protected topological phase (SPT) with spin-$\\frac{1}{2}$ states at the two ends of an open system."
+
+[[blocks]]
+sections = ["method"]
+lines = "23"
+chars = "1693-1741"
+text = "The numerical results obtained by the DMRG method"
+
+[[blocks]]
+sections = ["method"]
+lines = "39"
+chars = "658-740"
+text = "numerical calculations using the density-matrix renormalization group (DMRG) method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "874-901"
+text = "all these phases are gapped."
+
+[[blocks]]
+sections = ["method"]
+lines = "39"
+chars = "1901-1949"
+text = "The numerical results obtained by the DMRG method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "62"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0001-18.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "70"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0002-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "211-316"
+text = "longitudinal couplings, _J∥_ ( _>_ 0), alternate between _Ja_ and _Jb_ on even and odd bonds respectively."
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "76"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0002-04.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "79"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "80"
+text = "(a) CDW (b)<br>2<br>IPMo BO0<br>p [¢]<br>1<br>vea IPM, BOπ<br>0<br>0 1 2<br>Ja<br>Gapless line<br>Jb<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "83"
+chars = "63-97"
+text = "in the _Ja − Jb_ plane for _J⊥_ = 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "109-138"
+text = "obtained using the DMRG method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "83"
+chars = "141-203"
+text = "The red dashed line represents the gapless _XY_ -ordered phase."
+
+[[blocks]]
+sections = ["truth"]
+lines = "83"
+chars = "205-326"
+text = "The red square denotes the well-known Heisenberg point for the transition from the _XY_ - ordered phase to the Neel phase."
+
+[[blocks]]
+sections = ["method"]
+lines = "85"
+chars = "20-62"
+text = "density matrix renormalization group (DMRG)"
+
+[[blocks]]
+sections = ["method"]
+lines = "85"
+chars = "322-343"
+text = "same DMRG calculations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "380-407"
+text = "gapped Ising Neel (IN) order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "429-507"
+text = "The transition between the two phases occurs at the well-known Heisenberg point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "800-858"
+text = "two different gapped Ising paramagnetic (IPM) phases emerge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "1086-1130"
+text = "IPM phase for _Ja > Jb_ is found to be an SPT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "1209-1260"
+text = "the one that appears for _Ja < Jb_ is trivial (IPM0)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "1737-1813"
+text = "These IPM-IN transitions were found to belong to the Ising universality class"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "94"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "97"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "98"
+text = "c<br>1 . 0<br>IN<br>2 IPM0 0 . 8<br>0 . 6<br>1 0 . 4<br>IPM π 0 . 2<br>0 0 . 0<br>0 1 2<br>Ja<br>b<br>J<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "101"
+chars = "45-74"
+text = "obtained using the DMRG method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "101"
+chars = "134-183"
+text = "color bar denotes the values of the central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "103"
+chars = "92-138"
+text = "The IPM _π_ obtained when _Ja/Jb >_ 1 is an SPT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "103"
+chars = "180-219"
+text = "IPM0 obtained for _Jb/Ja >_ 1 is trivial"
+
+[[blocks]]
+sections = ["method"]
+lines = "105"
+chars = "314-334"
+text = "The DMRG calculations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "105"
+chars = "346-382"
+text = "all the phases are gapped in the bulk"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "461-476"
+text = "The DMRG results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "208"
+chars = "271-404"
+text = "Both these phases are gapped and are separated by an intervening continuous phase transition belonging to the Ising universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "232"
+chars = "7-84"
+text = "the IPM _π_ is a symmetry-protected topological (SPT) phase distinct from IPM0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "232"
+chars = "196-272"
+text = "the single (fermion) particle gap must close across the IN-IPM _π_ transition"
+
+[[blocks]]
+sections = ["problem"]
+lines = "249"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0006-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "330"
+chars = "705-721"
+text = "using DMRG method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "330"
+chars = "729-757"
+text = "open boundary condition (OBC)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "334"
+chars = "137-171"
+text = "for _Jb_ = 0 _._ 5 and varying _Ja_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "334"
+chars = "199-235"
+text = "_Ja_ = 0 _._ 5 is the critical point."
+
+[[blocks]]
+sections = ["problem"]
+lines = "337"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0008-08.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "341"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0008-09.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "344"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "345"
+text = "(a) L  = 80 (b)<br>0 . 75 0 . 75 0 . 5<br>L  = 120<br>L  = 160 0 . 0<br>0 . 50 L  = 200 0 . 50 0 1<br>L  = ∞ Ja<br>0 . 25 0 . 25<br>0 . 00 0 . 00<br>0 . 0 0 . 5 1 . 0 0 . 0 0 . 5 1 . 0<br>Ja Ja<br>n<br>∆<br>c n<br>∆ ∆<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "348"
+chars = "104-121"
+text = "for _Jb_ = 0 _._ 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "348"
+chars = "155-241"
+text = "critical point corresponding to the IPM0-IPM _π_ phase transition, _i.e., Ja_ = 0 _._ 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "350"
+chars = "358-406"
+text = "the gap ∆ _c_ is finite in the trivial IPM0 phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "350"
+chars = "424-464"
+text = "vanishes in the topological IPM _π_ phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "355"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0008-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "358"
+chars = "237-353"
+text = "∆ _n_ remains finite in the trivial IPM phase but vanishes at the critical point and inside the topological IPM phase"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "363"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "366"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "367"
+text = "175<br>150<br>125<br>100<br>75<br>L  = 80<br>50 L  = 120<br>L  = 160<br>25 L  = 200<br>− 200 − 100 0 100 200<br>L [1] [/][ν] ( Jb − Jb [critical] )<br> ∆ zLc<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "370"
+chars = "92-119"
+text = "for a cut at _Ja_ = 0 _._ 75"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
+chars = "167-208"
+text = "correlation length exponent _ν ∼_ 0 _._ 74"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
+chars = "227-261"
+text = "dynamical critical exponent _z_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
+chars = "268-317"
+text = "critical point _Jb_[critical] in this case is 0.75"
+
+[[blocks]]
+sections = ["truth"]
+lines = "372"
+chars = "39-115"
+text = "vanishes only at the critical point, and becomes finite on either sides of it"
+
+[[blocks]]
+sections = ["method"]
+lines = "374"
+chars = "16-34"
+text = "results of the DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "374"
+chars = "334-430"
+text = "correlation length exponent _ν_ = 1 _/_ (2 _−K_ ) (which is _∼_ 0 _._ 74 for _Ja_ = 0 _._ 75 cut)"
+
+[[blocks]]
+sections = ["method"]
+lines = "374"
+chars = "653-665"
+text = "the DMRG data"
+
+[[blocks]]
+sections = ["problem"]
+lines = "378"
+chars = "95-118"
+text = "a cut at _Jb_ = 1 _._ 75"
+
+[[blocks]]
+sections = ["truth"]
+lines = "378"
+chars = "213-323"
+text = "The critical point of the transition between these phases for _Jb_ = 1 _._ 75 was found to be _Ja ∼_ 1 _._ 5441"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "381"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0009-07.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "384"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "385"
+text = "2 (a) L  = 80 (b)<br>L  = 120 0 . 5<br>L  = 160 0 . 5<br>1 L  = 200 0 . 0 1 2<br>L  = ∞ Ja<br>0 . 0<br>1 . 0 1 . 5 2 . 0 1 . 0 1 . 5 2 . 0<br>Ja Ja<br>1 . 0<br>(c) (d) Computed<br>Ja  = 0 . 75 Fitted<br>Ja  = 1 . 125<br>0 . 5 Ja  = 1 . 5441 0 . 5<br>Ja  = 1 . 725<br>Ja  = 2 . 025<br>0 . 0<br>0 . 0<br>0 . 00 0 . 01 0 . 02 − 0 . 5 0 . 0 0 . 5<br>1 /L ( Ja − Ja [critical] )<br>n<br>∆<br>c n<br>∆ ∆<br>)<br> ∞<br>∆ n L  =<br>(<br>n<br>∆<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "388"
+chars = "57-97"
+text = "as a function of _Ja_ for _Jb_ = 1 _._ 75"
+
+[[blocks]]
+sections = ["truth"]
+lines = "388"
+chars = "156-240"
+text = "critical point corresponding to the IPM0-IN phase transition, _i.e., Ja_ = 1 _._ 5441"
+
+[[blocks]]
+sections = ["truth"]
+lines = "390"
+chars = "412-455"
+text = "∆ _n_ vanishes indicating a phase transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "390"
+chars = "965-1011"
+text = "the gap does not close at all in the IPM0 phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "392"
+chars = "92-135"
+text = "scales linearly as ∆ _n ∝|Ja − Ja_[critical]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "392"
+chars = "174-212"
+text = "the correlation length exponent _ν_ = 1"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "397"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0010-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "400"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "401"
+text = "0 . 4 L  = 100 0 . 2 1 . 625 Computed<br>L  = 200 0 . 1 Fitted<br>L  = 300<br>L  = 400 200 400 1 . 600<br>L<br>0 . 2<br>1 . 575<br>(a) (b)<br>1 . 550<br>0 . 0<br>1 . 5 1 . 6 0 . 00 0 . 01<br>Ja 1 /L<br>) /L<br>( χ max<br>L<br>/ am<br>χ J<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "404"
+chars = "44-84"
+text = "as a function of _Ja_ for _Jb_ = 1 _._ 75"
+
+[[blocks]]
+sections = ["truth"]
+lines = "404"
+chars = "143-223"
+text = "critical point corresponding to IPM0-IN phase transition, _i.e., Ja_ = 1 _._ 5441"
+
+[[blocks]]
+sections = ["problem"]
+lines = "409"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0010-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "417"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0010-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "420"
+chars = "182-249"
+text = "peak gradually becomes sharper and shifts towards the critical point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "420"
+chars = "670-747"
+text = "extrapolated value of the critical point for _L_ = _∞_ to be _Ja ∼_ 1 _._ 5435"
+
+[[blocks]]
+sections = ["problem"]
+lines = "424"
+chars = "420-451"
+text = "at _Ja_ = 1 _._ 75 and vary _Jb_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "427"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0010-11.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "430"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "431"
+text = "1 . 5<br>L  = 80<br>(a) 0 . 75 0 . 5 (b)<br>L  = 120<br>1 . 0 L  = 160 0 . 0<br>L  = 200 0 . 50 1 2<br>L  = ∞ Jb<br>0 . 5 0 . 25<br>0 . 0 0 . 00<br>1 . 0 1 . 5 2 . 0 1 . 0 1 . 5 2 . 0<br>Jb Jb<br>n<br>∆<br>c n<br>∆ ∆<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "434"
+chars = "286-374"
+text = "critical point corresponding to the IPM _π_ -IN phase transition, _i.e., Jb_ = 1 _._ 5441"
+
+[[blocks]]
+sections = ["truth"]
+lines = "436"
+chars = "418-453"
+text = "∆ _c_ vanishes in the IPM _π_ regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "436"
+chars = "871-937"
+text = "the critical point cannot be captured through the behavior of ∆ _n_"
+
+[[blocks]]
+sections = ["method"]
+lines = "572"
+chars = "153-194"
+text = "Numerical studies based on the DMRG method"
+
+[[blocks]]
+sections = ["method"]
+lines = "572"
+chars = "664-688"
+text = "through DMRG calculations"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "592"
+chars = "99-130"
+text = "hard-core bosons (used for DMRG)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "595"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0014-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "601"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0014-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "607"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0014-08.png)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "610"
+chars = "1-58"
+text = "The DMRG was done on the above hard-core boson Hamiltonian"
+
+[[blocks]]
+sections = ["problem"]
+lines = "628"
+chars = "80-140"
+text = "periodic chain of an even number of sites _L_ at half-filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "854"
+chars = "51-100"
+text = "density matrix renormalization group (DMRG) method"
+
+[[blocks]]
+sections = ["method"]
+lines = "854"
+chars = "120-153"
+text = "matrix product states (MPS) ansatz"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "854"
+chars = "353-371"
+text = "10 number of sweeps"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "854"
+chars = "379-408"
+text = "maximum of 500 bond dimensions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "854"
+chars = "425-482"
+text = "fixed number of particles at density _ρ_ = _N/L_ = 1 _/_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "854"
+chars = "511-540"
+text = "up to _L_ = 1000 lattice sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "854"
+chars = "594-617"
+text = "open boundary conditions"
+
+[[blocks]]
+sections = ["method"]
+lines = "856"
+chars = "182-204"
+text = "Cardy-Calabrese formula"
+
+[[blocks]]
+sections = ["method"]
+lines = "859"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0018-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "865"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0018-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "868"
+chars = "87-118"
+text = "entanglement spectrum defined by"
+
+[[blocks]]
+sections = ["method"]
+lines = "870"
+chars = "40-113"
+text = "appropriate fitting of _S_ vN( _l_ ) with respect to the lattice sites _l_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "872"
+chars = "116-169"
+text = "at _Jb_ = 0 _._ 5, _Jb_ = 1 _._ 75 and _Ja_ = 1 _._ 75"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "875"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0018-13.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "878"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "879"
+text = "1<br>(a) L  = 400 1 . 350 (b) Computed<br>L  = 600 Fitted<br>L  = 800<br>1 . 325 c ∼ 1 . 0117<br>L  = 1000<br>0<br>0 . 0 0 . 5 1 . 0 400 600<br>Ja l<br>1<br>(c) 0 . 96<br>(d)<br>c ∼ 0 . 52<br>0 . 94<br>0<br>1 . 0 1 . 5 2 . 0 400 600<br>Ja l<br>1 0 . 75<br>(e) (f)<br>0 . 74<br>0 . 73<br>c ∼ 0 . 495<br>0<br>1 . 0 1 . 5 2 . 0 400 600<br>Jb l<br>c )( l vN<br>S<br>c )( l vN<br>S<br>c )( l vN<br>S<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "885"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0018-15.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "888"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "889"
+text = "6<br>ε 1<br>4<br>ε 2<br>ε 3<br>2 ε 4<br>0<br>0 . 0 0 . 5 1 . 0<br>Ja<br>µ<br>ε<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "892"
+chars = "149-261"
+text = "dashed grey line marks the critical point corresponding to the topological phase transition, _i.e., Ja_ = 0 _._ 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "894"
+chars = "132-171"
+text = "the central charge takes a value _c ∼_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "894"
+chars = "192-276"
+text = "the IPM0-IN and the IPM _π_ -IN transition points the central charge is _c ∼_ 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "898"
+chars = "185-235"
+text = "c ∼_ 1 _._ 0117, _c ∼_ 0 _._ 52 and _c ∼_ 0 _._ 495"
+
+[[blocks]]
+sections = ["truth"]
+lines = "902"
+chars = "30-97"
+text = "the _c_ = 1 critical line slowly bifurcates into two _c_ = 21[lines]"
+
+[[blocks]]
+sections = ["method"]
+lines = "904"
+chars = "31-84"
+text = "straightforward route for computing the central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "908"
+chars = "1-43"
+text = "The degeneracy in the entanglement spectrum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "908"
+chars = "391-438"
+text = "two-fold degeneracy of the entanglement spectrum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "908"
+chars = "509-526"
+text = "for _Ja >_ 0 _._ 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "908"
+chars = "548-629"
+text = "no such feature of degeneracy is found in the trivial IPM phase for _Ja <_ 0 _._ 5"
+
+[[blocks]]
+sections = ["method"]
+lines = "911"
+text = "![](.figures/arxiv__2408.14474/2408.14474.pdf-0019-07.png)"
+
+[[blocks]]
+sections = ["software", "software_params"]
+lines = "982"
+chars = "60-70"
+text = "FindMinimum"
+
+[[blocks]]
+sections = ["software", "software_params"]
+lines = "982"
+chars = "86-96"
+text = "Mathematica"
+
+[[blocks]]
+sections = ["method"]
+lines = "1348"
+chars = "31-66"
+text = "density-matrix renormalization group"
+
+[[blocks]]
+sections = ["method"]
+lines = "1350"
+chars = "130-165"
+text = "density matrix renormalization group"
+
+[[blocks]]
+sections = ["method"]
+lines = "1352"
+chars = "31-66"
+text = "density-matrix renormalization group"
+
+[[blocks]]
+sections = ["method"]
+lines = "1352"
+chars = "82-102"
+text = "matrix product states"
+
+[[blocks]]
+sections = ["method"]
+lines = "1354"
+chars = "37-72"
+text = "Density-matrix renormalization group"
+
+[[blocks]]
+sections = ["method"]
+lines = "1358"
+chars = "64-107"
+text = "Entanglement spectrum of a topological phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "1362"
+chars = "25-91"
+text = "Entanglement spectrum of topological insulators and superconductors"

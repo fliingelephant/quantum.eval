@@ -7,9 +7,340 @@ family = "mps"
 tier = "light"
 kind = "physics"
 status = "rendered"
+md_sha256 = "fd8c929fafb47bd8299fb6285db30c97d93e6b8d0576b039b2e44d549be35a8a"
 
 [candidate_notes]
 model = "spin-1/2 XXZ chain, uniform XY coupling, staggered ZZ couplings J_a/J_b, finite DMRG"
 headline = "phase diagram (two Ising paramagnets + Ising-Neel); c=1 gapless line via entanglement-entropy fits; bosonization/RG cross-check"
 compute = "local dim 2; laptop, minutes-to-hours"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Spin-1/2 nearest-neighbor XXZ chain with uniform XY exchange J_perp and alternating ZZ couplings J_a on even bonds and J_b on odd bonds; the Hamiltonian is the one shown in Eq. (1)."
+model_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:55-73"
+convention = "J_perp > 0, J_a > 0, J_b > 0; the numerical phase maps set J_perp = 1."
+convention_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:73,83,101"
+instance = "One-dimensional spin-1/2 chain with a two-bond unit cell, half filling in the hard-core-boson representation (N/L = 1/2), sizes up to L = 1000, and open boundaries unless a target explicitly uses periodic boundaries."
+instance_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:628-630,348,370,378,388,404,434,854"
+analysis = "Targets are ground-state phase labels and transition landmarks, charge and neutral gaps, finite-size/data-collapse exponents, fidelity-susceptibility peak location, central-charge fits, and entanglement-spectrum degeneracy."
+analysis_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:334-436,856-908"
+
+[[problem.targets]]
+panel = "fig2a"
+quantity = "ground-state phase diagram and transition loci"
+observable = "TLL, IPM_0, IPM_pi, and IN phase labels; gapless-line and bifurcation structure"
+ensemble = "ground state"
+axes = "J_a versus J_b at J_perp = 1"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:83,87"
+
+[[problem.targets]]
+panel = "fig3"
+quantity = "central-charge phase map"
+observable = "central charge c across the J_a-J_b phase diagram"
+ensemble = "ground state"
+axes = "J_a versus J_b at L = 1000 and J_perp = 1"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:101"
+
+[[problem.targets]]
+panel = "fig10a"
+quantity = "IPM_0-IPM_pi transition from the charge gap"
+observable = "charge gap Delta_c versus J_a"
+ensemble = "half-filled finite chains and thermodynamic extrapolation"
+axes = "J_a at fixed J_b = 0.5; L = 80, 120, 160, 200, infinity"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:348-350"
+
+[[problem.targets]]
+panel = "fig10b"
+quantity = "IPM_0-IPM_pi transition from the neutral gap"
+observable = "neutral gap Delta_n versus J_a"
+ensemble = "half-filled finite chains and thermodynamic extrapolation"
+axes = "J_a at fixed J_b = 0.5; OBC with a PBC thermodynamic-limit inset"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:348,352-372"
+
+[[problem.targets]]
+panel = "fig11"
+quantity = "charge-gap finite-size scaling collapse"
+observable = "L^z Delta_c versus L^(1/nu)(J_b-J_b^critical)"
+ensemble = "periodic half-filled chains"
+axes = "J_b at fixed J_a = 0.75; L = 80, 120, 160, 200"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:370,374"
+
+[[problem.targets]]
+panel = "fig12a"
+quantity = "IPM_0-IN transition from the charge gap"
+observable = "charge gap Delta_c versus J_a"
+ensemble = "half-filled finite chains and thermodynamic extrapolation"
+axes = "J_a at fixed J_b = 1.75; L = 80, 120, 160, 200, infinity"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:378,388-390"
+
+[[problem.targets]]
+panel = "fig12b"
+quantity = "IPM_0-IN transition from the neutral gap"
+observable = "neutral gap Delta_n versus J_a"
+ensemble = "half-filled finite chains and thermodynamic extrapolation"
+axes = "J_a at fixed J_b = 1.75; OBC with a PBC thermodynamic-limit inset"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:388-390"
+
+[[problem.targets]]
+panel = "fig12c"
+quantity = "finite-size closing of the neutral gap"
+observable = "Delta_n versus 1/L for several J_a cuts"
+ensemble = "half-filled open chains"
+axes = "1/L at fixed J_b = 1.75 and J_a = 0.75, 1.125, 1.5441, 1.725, 2.025"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:388-390"
+
+[[problem.targets]]
+panel = "fig12d"
+quantity = "thermodynamic neutral-gap scaling at the IPM_0-IN transition"
+observable = "Delta_n(L = infinity) versus J_a-J_a^critical"
+ensemble = "thermodynamic limit"
+axes = "J_a-J_a^critical at fixed J_b = 1.75"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:388,392"
+
+[[problem.targets]]
+panel = "fig13a"
+quantity = "IPM_0-IN transition from fidelity susceptibility"
+observable = "fidelity susceptibility chi/L versus J_a"
+ensemble = "half-filled open chains"
+axes = "J_a at fixed J_b = 1.75; L = 100, 200, 300, 400"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:404,414-420"
+
+[[problem.targets]]
+panel = "fig13b"
+quantity = "finite-size extrapolation of the fidelity-susceptibility peak"
+observable = "peak position J_a^m versus 1/L"
+ensemble = "half-filled open chains"
+axes = "1/L at fixed J_b = 1.75; L = 100, 200, 300, 400, infinity"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:404,420"
+
+[[problem.targets]]
+panel = "fig14a"
+quantity = "IPM_pi-IN transition from the charge gap"
+observable = "charge gap Delta_c versus J_b"
+ensemble = "half-filled finite chains and thermodynamic extrapolation"
+axes = "J_b at fixed J_a = 1.75; L = 80, 120, 160, 200, infinity"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:424,434,436"
+
+[[problem.targets]]
+panel = "fig14b"
+quantity = "IPM_pi-IN transition from the neutral gap"
+observable = "neutral gap Delta_n versus J_b"
+ensemble = "half-filled finite chains and thermodynamic extrapolation"
+axes = "J_b at fixed J_a = 1.75; OBC and PBC thermodynamic-limit inset"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:434,436"
+
+[[problem.targets]]
+panel = "fig20a"
+quantity = "central charge on the IPM_0-IPM_pi cut"
+observable = "central charge c versus J_a"
+ensemble = "half-filled open chains"
+axes = "J_a at fixed J_b = 0.5; L = 400, 600, 800, 1000"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:872,882,894,898"
+
+[[problem.targets]]
+panel = "fig20b"
+quantity = "von Neumann entropy fit at the IPM_0-IPM_pi critical point"
+observable = "S_vN(l) versus subsystem length l"
+ensemble = "half-filled open chain"
+axes = "l at J_a = 0.5, J_b = 0.5, L = 1000"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,894,898"
+
+[[problem.targets]]
+panel = "fig20c"
+quantity = "central charge on the IPM_0-IN cut"
+observable = "central charge c versus J_a"
+ensemble = "half-filled open chains"
+axes = "J_a at fixed J_b = 1.75; L = 400, 600, 800, 1000"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:872,882,894,898"
+
+[[problem.targets]]
+panel = "fig20d"
+quantity = "von Neumann entropy fit at the IPM_0-IN critical point"
+observable = "S_vN(l) versus subsystem length l"
+ensemble = "half-filled open chain"
+axes = "l at J_a = 1.5441, J_b = 1.75, L = 1000"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,894,898"
+
+[[problem.targets]]
+panel = "fig20e"
+quantity = "central charge on the IPM_pi-IN cut"
+observable = "central charge c versus J_b"
+ensemble = "half-filled open chains"
+axes = "J_b at fixed J_a = 1.75; L = 400, 600, 800, 1000"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:872,882,894,898"
+
+[[problem.targets]]
+panel = "fig20f"
+quantity = "von Neumann entropy fit at the IPM_pi-IN critical point"
+observable = "S_vN(l) versus subsystem length l"
+ensemble = "half-filled open chain"
+axes = "l at J_a = 1.75, J_b = 1.5441, L = 1000"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,894,898"
+
+[[problem.targets]]
+panel = "fig21"
+quantity = "topological distinction from the entanglement spectrum"
+observable = "lowest four entanglement eigenvalues epsilon_1 through epsilon_4"
+ensemble = "half-filled open chain"
+axes = "J_a at fixed J_b = 0.5 and L = 1000"
+tier = "light"
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:892,908"
+
+[method]
+chosen = "Finite-system density-matrix renormalization group (DMRG) using a matrix-product-state (MPS) ansatz, applied to the hard-core-boson representation of the chain."
+chosen_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:592,610,854"
+route = "Ground-state DMRG followed by charge/neutral-gap calculations, entanglement-entropy fits for c, fidelity susceptibility, and entanglement-spectrum analysis."
+route_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:334-436,856-908"
+central_charge_estimator = "For OBC, c is obtained from Cardy-Calabrese fits of the von Neumann entropy, with an alternative two-point entropy-difference estimate."
+central_charge_estimator_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:856-870,904-906"
+valid_alternatives = "Finite variational MPS optimization, one-site or two-site DMRG, and imaginary-time tensor-network evolution are valid routes for the same finite-chain ground-state targets; an alternative must support half filling, OBC/PBC as selected, gaps, entanglement observables, and finite-size scaling."
+valid_alternatives_provenance = "Inferred DMRG targets are finite one-dimensional ground-state observables and can be produced by these equivalent MPS-family routes."
+
+[method_params]
+sweeps = 10
+sweeps_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:854"
+maximum_bond_dimension = 500
+maximum_bond_dimension_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:854"
+unreported_parameters = "No truncation cutoff, discarded-weight threshold, or convergence tolerance is stated for the DMRG runs."
+unreported_parameters_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:854"
+
+[software]
+dmrg_code = "The DMRG implementation/code is not named."
+dmrg_code_provenance = "Inferred from the absence of a named implementation in the numerical-method description at 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:854-870."
+ancillary_mean_field_software = "Mathematica FindMinimum is mentioned for the ancillary mean-field minimization, not for the DMRG targets."
+ancillary_mean_field_software_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:982"
+valid_tools = "Any finite-MPS/DMRG implementation with particle-number conservation and access to energies, reduced density matrices, overlaps, and entanglement spectra."
+valid_tools_provenance = "Inferred from the target observables and the MPS/DMRG route stated at 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:854-870."
+
+[software_params]
+dmrg_implementation_settings = "No API-specific solver tolerance, threading setting, or code-specific toggle is reported."
+dmrg_implementation_settings_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:854"
+mean_field_solver_choice = "For the ancillary mean-field calculation, the paper mentions either Mathematica FindMinimum or a self-consistent solution."
+mean_field_solver_choice_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:982"
+
+[anchors]
+xxz_tll_line = "On the undimerized line, the exact XXZ result is the gapless TLL for 0 <= J_a = J_b <= 1."
+xxz_tll_line_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:23,87"
+heisenberg_point = "The undimerized XXZ transition is at J_a = J_b = J_perp = 1 and has c = 1."
+heisenberg_point_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:87,330"
+ising_universality = "The two IPM-IN lines are Ising transitions with expected central charge c = 1/2, correlation-length exponent nu = 1, and dynamical exponent z = 1."
+ising_universality_provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:23,370,392,506"
+
+[truth.fig2a]
+value = "TLL/IPM_0/IPM_pi/IN phase structure; the c = 1 line is the undimerized line up to the Heisenberg point and bifurcates into two IPM-IN lines."
+tolerance = "Phase labels exact; transition-locus digitization tolerance is approximately 0.05 in each coupling."
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:23,83,87"
+
+[truth.fig3]
+value = "At the three representative critical cuts, c is approximately 1.0117, 0.52, and 0.495 for IPM_0-IPM_pi, IPM_0-IN, and IPM_pi-IN, respectively."
+tolerance = "0.03 in c; phase-boundary classification exact."
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:101,872,894,898"
+
+[truth.fig10a]
+value = 0.5
+tolerance = 0.02
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:334,348,350"
+
+[truth.fig10b]
+value = 0.5
+tolerance = 0.02
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:348,352,358,372"
+
+[truth.fig11]
+value = { J_b_critical = 0.75, nu = 0.74, z = 1.0 }
+tolerance = "J_b^critical +/-0.01, nu +/-0.03, z +/-0.05."
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:370,374"
+
+[truth.fig12a]
+value = 1.5441
+tolerance = 0.02
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:378,388"
+
+[truth.fig12b]
+value = 1.5441
+tolerance = 0.02
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:388,390"
+
+[truth.fig12c]
+value = "Delta_n decreases with system size at the critical cut and is thermodynamically zero; it is finite in IPM_0 and vanishingly small in IN."
+tolerance = "Qualitative regime agreement; zero-gap classification at the critical point."
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:388,390"
+
+[truth.fig12d]
+value = { J_a_critical = 1.5441, nu = 1.0, gap_at_critical = 0.0 }
+tolerance = "J_a^critical +/-0.02, nu +/-0.05, gap closure within digitization/finite-size uncertainty."
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:388,392"
+
+[truth.fig13a]
+value = 1.5441
+tolerance = 0.02
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:404,420"
+
+[truth.fig13b]
+value = 1.5435
+tolerance = 0.01
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:420"
+
+[truth.fig14a]
+value = 1.5441
+tolerance = 0.02
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:424,434,436"
+
+[truth.fig14b]
+value = 1.5441
+tolerance = 0.02
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:434,436"
+
+[truth.fig20a]
+value = 1.0117
+tolerance = 0.03
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,894,898"
+
+[truth.fig20b]
+value = 1.0117
+tolerance = 0.03
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,898"
+
+[truth.fig20c]
+value = 0.52
+tolerance = 0.03
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,894,898"
+
+[truth.fig20d]
+value = 0.52
+tolerance = 0.03
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,898"
+
+[truth.fig20e]
+value = 0.495
+tolerance = 0.03
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,894,898"
+
+[truth.fig20f]
+value = 0.495
+tolerance = 0.03
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:882,898"
+
+[truth.fig21]
+value = { J_a_critical = 0.5, IPM_pi_entanglement_degeneracy = 2, IPM_0_entanglement_degeneracy = 1 }
+tolerance = "J_a^critical +/-0.02; degeneracy classification exact."
+provenance = "Literal 2408.14474_phases-and-phase-transitions-in-a-dimerized-spin-mathbf-frac.md:892,908"

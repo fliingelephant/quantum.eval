@@ -1,0 +1,2092 @@
+# Partition layer for papers/2408.07968 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-44"
+text = "Left-left-right-right magnetic order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "5"
+chars = "58-74"
+text = "Kitaev-Heisenberg"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-38"
+text = "Left-left-right-right magnetic order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "15"
+chars = "52-68"
+text = "Kitaev-Heisenberg"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "104-135"
+text = "spin-1/2 Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "255-313"
+text = "magnetically ordered phase with left-left-right-right order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "321-364"
+text = "gapless phase with central charge value $c=1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "479-519"
+text = "origin of the left-left-right-right order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "585-615"
+text = "The left-left-right-right phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "652-680"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "795-842"
+text = "one-dimensional (1D) left-left-right-right order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "5-40"
+text = "Left-left-right-right magnetic order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "31"
+chars = "54-70"
+text = "Kitaev-Heisenberg"
+
+[[blocks]]
+sections = ["problem"]
+lines = "45"
+chars = "113-135"
+text = "Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "255-312"
+text = "magnetically ordered phase with leftleft-right-right order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "320-366"
+text = "gapless phase with central charge value _c_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "480-520"
+text = "origin of the left-left-right-right order"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "45"
+chars = "652-680"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "795-842"
+text = "one-dimensional (1D) left-left-right-right order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "5-27"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "145-167"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "51"
+chars = "623-654"
+text = "a _c_ = 1 Luttinger liquid phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "681-694"
+text = "central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "955-968"
+text = "magnetic order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "55"
+chars = "117-148"
+text = "region _ϕ ∈_ (arctan 2 _, π/_ 2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "55"
+chars = "210-243"
+text = "Kitaev and Heisenberg interactions"
+
+[[blocks]]
+sections = ["method"]
+lines = "55"
+chars = "402-444"
+text = "density matrix renormalization group (DMRG)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "493-553"
+text = "magnetically ordered phase close to the _K_ = _−_ 2 _J_ point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "555-569"
+text = "shown by “LLRR”"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "661-706"
+text = "collinear left-left-right-right (LLRR) pattern"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "800-830"
+text = "different from the spiral phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "55"
+chars = "958-981"
+text = "four-sublattice rotation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "1272-1299"
+text = "driven into an ordered state"
+
+[[blocks]]
+sections = ["method"]
+lines = "55"
+chars = "1366-1392"
+text = "our DMRG[37–39] simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "57"
+chars = "34-50"
+text = "our DMRG numerics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "81-125"
+text = "phase transition point _ϕc_ 1 _≈_ 0 _._ 4 _π_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "147-156"
+text = "LLRR phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "163-185"
+text = "a _c_ = 1 gapless phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "264-294"
+text = "both ordered and gapless phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "57"
+chars = "303-335"
+text = "region _ϕ ∈_ (arctan(2) _, π/_ 2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "344-360"
+text = "the _c_ = 1 phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "469-481"
+text = "gapless phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "538-550"
+text = "gapless phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "31-40"
+text = "LLRR phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "59"
+chars = "61-83"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "52-92"
+text = "1D spin-1/2 Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "163-185"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "281-381"
+text = "coordinate _ϕ_ of the horizontal axis is defined in Eq. (2) as _K_ = _−_ sin( _ϕ_ ), _J_ = cos( _ϕ_ )"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "63"
+chars = "527-585"
+text = "hidden SU(2) symmetric point satisfying _K_ = _−_ 2 _J <_ 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "664-670"
+text = "Γ _>_ 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "710-717"
+text = "“d-LLRR”"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "723-753"
+text = "distorted-left-left-right-right"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "809-813"
+text = "“KSL”"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "1-13"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "56-84"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "106-142"
+text = "LLRR phase extends to a finite region"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "172-200"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "306-333"
+text = "KitaevHeisenberg-Gamma model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "350-353"
+text = "LLRR"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "395-402"
+text = "FM phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "517-538"
+text = "KitaevHeisenberg model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "9-29"
+text = "Central charge values"
+
+[[blocks]]
+sections = ["problem"]
+lines = "67"
+chars = "38-68"
+text = "spin-1/2 KitaevHeisenberg chain"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "93-105"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "67"
+chars = "125-185"
+text = "_L_ = 48 _,_ 100 _,_ 256 sites using open boundary conditions"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "67"
+chars = "192-298"
+text = "bond dimension _m_ and truncation error _ϵ_ in DMRG calculations are taken as _m_ = 1000, _ϵ_ = 10 _[−]_[9]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "17-51"
+text = "1D spin-1/2 Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "46-82"
+text = "LLRR phase extends to a finite region"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+chars = "112-149"
+text = "spin-1/2 Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "161-199"
+text = "non-collinear magnetic ordering pattern"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "257-273"
+text = "the LLRR ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "287-294"
+text = "“d-LLRR”"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+chars = "460-479"
+text = "2D Kitaev-Heisenberg"
+
+[[blocks]]
+sections = ["truth"]
+lines = "77"
+chars = "149-171"
+text = "LLRR and _c_ = 1 phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "77"
+chars = "180-214"
+text = "1D spin-1/2 Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "80"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0002-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "83"
+chars = "34-144"
+text = "nearest neighbors; _γ_ = _x, y_ is the spin direction associated with the _γ_ bond connecting sites _i_ and _j_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "86"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0002-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "89"
+chars = "10-29"
+text = "_ϕ ∈_ [0 _,_ 2 _π_ ]"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "91"
+chars = "12-106"
+text = "self-duality transformation _U_ 4 of the KitaevHeisenberg model called four-sublattice rotation"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "96"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "99"
+chars = "9-57"
+text = "Bond pattern of the Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "103"
+chars = "1-249"
+text = "Sublattice 1 : ( _x, y, z_ ) _→_ ( _−x[′] , y[′] , −z[′]_ ) _,_ Sublattice 2 : ( _x, y, z_ ) _→_ ( _−x[′] , −y[′] , z[′]_ ) _,_ Sublattice 3 : ( _x, y, z_ ) _→_ ( _x[′] , −y[′] , −z[′]_ ) _,_ Sublattice 4 : ( _x, y, z_ ) _→_ ( _x[′] , y[′] , z[′]_ )"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "105"
+chars = "291-433"
+text = "four-sublattice rotated frame is of the same form as Eq. (1), except that _K_ and _J_ should be replaced by _K_ + 2 _J_ and _−J_ , respectively"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "108"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0003-06.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "111"
+chars = "33-105"
+text = "hidden SU(2) symmetric points _K_ = _−_ 2 _J <_ 0 and _K_ = _−_ 2 _J >_ 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "33-55"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "75-111"
+text = "spin-1/2 Kitaev-HeisenbergGamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "227-255"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "116"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0003-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "120"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0003-10.png)"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "123"
+chars = "137-265"
+text = "Γ changes sign under a global spin rotation around _z_ -axis by _π_ whereas _K_ and _J_ remain unchanged, we have the equivalence"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "126"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "31-67"
+text = "enough to consider the Γ _>_ 0 region"
+
+[[blocks]]
+sections = ["problem"]
+lines = "131"
+chars = "14-73"
+text = "bonds _γ_ = _x, y,_ ¯ _x,_ ¯ _y_ has a four-site periodicity"
+
+[[blocks]]
+sections = ["problem"]
+lines = "137"
+chars = "8-30"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "139"
+chars = "5-38"
+text = "Kitaev-Heisenberg model in Eq. (1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "145"
+chars = "369-391"
+text = "Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "153"
+chars = "290-312"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "153"
+chars = "437-465"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "167"
+chars = "57-104"
+text = "Kitaev-Heisenberg-Gamma model in the _U_ 4 frame"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "8-36"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "195"
+chars = "70-109"
+text = "Kitaev-Heisenberg-Gamma model in Eq. (5)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "219"
+chars = "8-30"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "221"
+chars = "44-65"
+text = "KitaevHeisenberg model"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "221"
+chars = "341-399"
+text = "hidden SU(2) symmetric point satisfying _K_ = _−_ 2 _J <_ 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "221"
+chars = "419-451"
+text = "region _ϕ ∈_ (arctan(2) _, π/_ 2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "94-111"
+text = "LLRR phase between"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "41-61"
+text = "gapless _c_ = 1 phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "227"
+chars = "114-127"
+text = "central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "130-150"
+text = "another _c_ = 1 phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "212-228"
+text = "the _c_ = 1 phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "309-324"
+text = "FM phase between"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "361-388"
+text = "the LLRR phase in the region"
+
+[[blocks]]
+sections = ["truth"]
+lines = "229"
+chars = "25-63"
+text = "four-site periodicity in the LLRR phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "229"
+chars = "220-257"
+text = "LLRR (left-left-right-right for short)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "229"
+chars = "273-331"
+text = "the LLRR phase was erroneously identified as a spiral phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "229"
+chars = "345-399"
+text = "The numerics become very difficult in the _c_ = 1 phase"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "229"
+chars = "487-619"
+text = "exponentially large infinite ground state degeneracy in the thermodynamic limit (degeneracy is 2 _[L/]_[2] for a system of _L_ sites)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "229"
+chars = "630-697"
+text = "More detailed analytical and numerical analysis of the _c_ = 1 phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "231"
+chars = "8-36"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "158-213"
+text = "LLRR phase on the Γ = 0 line extends to the d-LLRR phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "223-228"
+text = "d-LLRR"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "235-265"
+text = "distorted-left-left-right-right"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "404-420"
+text = "the LLRR ordering"
+
+[[blocks]]
+sections = ["problem"]
+lines = "233"
+chars = "425-446"
+text = "KitaevHeisenberg model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "532-552"
+text = "gapless _c_ = 1 phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "653-670"
+text = "Kitaev spin liquid"
+
+[[blocks]]
+sections = ["truth"]
+lines = "237"
+chars = "65-88"
+text = "origin of the LLRR phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "237"
+chars = "97-127"
+text = "spin-1/2 KitaevHeisenberg chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "267"
+chars = "375-427"
+text = "the classical ground states are infinitely degenerate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "145-168"
+text = "gapless Luttinger liquid"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "285-322"
+text = "system is gapless at the quantum level"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "332-411"
+text = "magnetically ordered but having a discrete spontaneous symmetry breaking pattern"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "573-586"
+text = "magnetic order"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "293"
+chars = "99-128"
+text = "gapless Luttinger liquid phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "393"
+chars = "25-38"
+text = "magnetic order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "504"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0008-31.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "508"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0008-32.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "511"
+chars = "11-46"
+text = "left-left-right-right magnetic order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "511"
+chars = "191-207"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "511"
+chars = "261-270"
+text = "LLRR phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "513"
+chars = "130-146"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "515"
+chars = "232-245"
+text = "magnetic order"
+
+[[blocks]]
+sections = ["method"]
+lines = "525"
+chars = "9-21"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "527"
+chars = "12-27"
+text = "DMRG simulations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "63-81"
+text = "LLRR magnetic order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "527"
+chars = "90-111"
+text = "KitaevHeisenberg chain"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "537"
+chars = "21-34"
+text = "central charge"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "537"
+chars = "172-216"
+text = "Luttinger liquids have central charge _c_ = 1"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "537"
+chars = "249-324"
+text = "central charge is _c_ = 0 _._ 5 which is the value for Ising critical theory"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "537"
+chars = "358-371"
+text = "central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "539"
+chars = "44-57"
+text = "central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "539"
+chars = "95-135"
+text = "_ϕ_ = 0 _._ 38 _π_ and _ϕ_ = 0 _._ 47 _π_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "539"
+chars = "320-333"
+text = "central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "539"
+chars = "468-532"
+text = "data for _ϕ_ = 0 _._ 48 _π_ is consistent with a _c_ = 1 behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "539"
+chars = "539-635"
+text = "low energy physics of the point of _ϕ_ = 0 _._ 37 _π_ is not described by Luttinger liquid theory"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "36-49"
+text = "central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "120-133"
+text = "central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "142-174"
+text = "region _ϕ ∈_ (arctan(2) _, π/_ 2)"
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "223-259"
+text = "extracted from DMRG numerical results"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "289-340"
+text = "different system sizes with open boundary conditions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "491-613"
+text = "central charge value decreases by increasing system size, having a tendency to approach zero in the limit of infinite sizes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "805-953"
+text = "value of the numerically extracted central charge increases by increasing the system size, tending to approach the value of 1 in the large size limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "975-997"
+text = "a _c_ = 1 gapless phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "1087-1104"
+text = "this gapless phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "543"
+chars = "88-154"
+text = "value of _c_ remains nearly the same for all the three system sizes"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "547"
+chars = "488-558"
+text = "The product of the values of these two types of exponents is equal to 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "549"
+chars = "232-254"
+text = "approximately 0 _._ 147"
+
+[[blocks]]
+sections = ["truth"]
+lines = "549"
+chars = "343-411"
+text = "product of transverse and longitudinal exponents is equal to 0 _._ 33"
+
+[[blocks]]
+sections = ["truth"]
+lines = "549"
+chars = "569-599"
+text = "magnetically ordered LLRR phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "549"
+chars = "606-698"
+text = "transverse correlation functions should asymptotically approach non-vanishing constant values"
+
+[[blocks]]
+sections = ["truth"]
+lines = "549"
+chars = "926-950"
+text = "leading to the LLRR order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "549"
+chars = "1339-1356"
+text = "magnetic orderings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "551"
+chars = "73-166"
+text = "product of exponents for the transverse and longitudinal correlations is approximately 1 _._ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "551"
+chars = "212-286"
+text = "central charge value at _ϕ_ = 0 _._ 48 _π_ obtained in Fig. 2 is close to 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "551"
+chars = "342-355"
+text = "central charge"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "551"
+chars = "421-510"
+text = "exponents for transverse correlations are predicted to be 0 _._ 5 for free fermion systems"
+
+[[blocks]]
+sections = ["method"]
+lines = "551"
+chars = "589-610"
+text = "existing DMRG numerics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "556"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0010-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "560"
+chars = "150-164"
+text = "c~0.428 c~0.843"
+
+[[blocks]]
+sections = ["truth"]
+lines = "560"
+chars = "169-183"
+text = "c~0.441 c~0.946"
+
+[[blocks]]
+sections = ["truth"]
+lines = "563"
+chars = "20-33"
+text = "central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "563"
+chars = "95-117"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "563"
+chars = "153-176"
+text = "open boundary conditions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "563"
+chars = "183-196"
+text = "central charge"
+
+[[blocks]]
+sections = ["method"]
+lines = "563"
+chars = "250-262"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "563"
+chars = "319-426"
+text = "bond dimension _m_ and truncation error _ϵ_ in DMRG calculations are taken as _m_ = 1000, _ϵ_ = 10 _[−]_[11]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "568"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0010-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "575"
+chars = "141-166"
+text = "[Kitaev-Heisenberg][model]"
+
+[[blocks]]
+sections = ["method"]
+lines = "575"
+chars = "334-346"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "575"
+chars = "365-424"
+text = "systems of _L_ = 96 sites using periodic boundary conditions"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "575"
+chars = "431-538"
+text = "bond dimension _m_ and truncation error _ϵ_ in DMRG calculations are taken as _m_ = 1200, _ϵ_ = 10 _[−]_[10]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "580"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0011-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "584"
+text = "(a)                                                                (b)<br>0.5 0.5<br>0.4 0.4<br>0.3 0.3<br>0.2 0.2<br>0.1 0.1<br>0 0<br>0 24 48 72 96 0 24 48 72 96<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "587"
+chars = "40-62"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["method"]
+lines = "587"
+chars = "261-273"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "587"
+chars = "294-351"
+text = "system of _L_ = 96 sites with periodic boundary conditions"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "587"
+chars = "517-624"
+text = "bond dimension _m_ and truncation error _ϵ_ in DMRG calculations are taken as _m_ = 1200, _ϵ_ = 10 _[−]_[10]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "589"
+chars = "8-42"
+text = "Magnetic ordering in the LLRR phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "591"
+chars = "45-59"
+text = "magnetic orders"
+
+[[blocks]]
+sections = ["problem"]
+lines = "591"
+chars = "120-154"
+text = "the spiral order and the LLRR order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "591"
+chars = "220-256"
+text = "small uniform external magnetic field"
+
+[[blocks]]
+sections = ["problem"]
+lines = "591"
+chars = "391-394"
+text = "LLRR"
+
+[[blocks]]
+sections = ["problem"]
+lines = "594"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0011-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "599"
+chars = "12-24"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "599"
+chars = "33-61"
+text = "four-sublattice rotated frame"
+
+[[blocks]]
+sections = ["truth"]
+lines = "599"
+chars = "145-158"
+text = "the LLRR phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "599"
+chars = "502-532"
+text = "a _h_ = 2 _×_ 10 _[−]_[4] field"
+
+[[blocks]]
+sections = ["truth"]
+lines = "599"
+chars = "642-749"
+text = "the pattern in Fig. 7 (a) is consistent with Eq. (47), and the one in Fig. 7 (b) is consistent with Eq. (57)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "601"
+chars = "222-238"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "601"
+chars = "334-353"
+text = "actual order is LLRR"
+
+[[blocks]]
+sections = ["truth"]
+lines = "603"
+chars = "20-33"
+text = "magnetic order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "603"
+chars = "52-65"
+text = "the LLRR order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "465-484"
+text = "actual order is LLRR"
+
+[[blocks]]
+sections = ["truth"]
+lines = "623"
+chars = "8-46"
+text = "Energy-field relation in the LLRR phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "625"
+chars = "37-69"
+text = "magnetic orders in the LLRR phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "625"
+chars = "330-351"
+text = "DMRG numerical results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "625"
+chars = "550-609"
+text = "relation between energy change and applied fields are linear"
+
+[[blocks]]
+sections = ["truth"]
+lines = "625"
+chars = "622-665"
+text = "confirming the existence of a magnetic order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "628"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0012-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "632"
+text = "-0.1136<br>-0.1137<br>-0.1138<br>-0.1139<br>L=48<br>L=96<br>-0.114<br>0 2 4 6 8<br>10 [-4]<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "635"
+chars = "56-77"
+text = "KitaevHeisenberg model"
+
+[[blocks]]
+sections = ["method"]
+lines = "635"
+chars = "257-269"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "635"
+chars = "288-403"
+text = "system sizes _L_ = 48 (blue lines) and _L_ = 96 (red lines) at _ϕ_ = 0 _._ 36 _π_ using periodic boundary conditions"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "635"
+chars = "410-517"
+text = "bond dimension _m_ and truncation error _ϵ_ in DMRG calculations are taken as _m_ = 1200, _ϵ_ = 10 _[−]_[11]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "637"
+chars = "64-107"
+text = "under the same field strength, the energy is"
+
+[[blocks]]
+sections = ["truth"]
+lines = "639"
+chars = "79-117"
+text = "actual magnetic order is the LLRR order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "639"
+chars = "240-253"
+text = "magnetic order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "127-147"
+text = "energy change ∆ _Exy_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "427-462"
+text = "∆ _Ey_ is indeed larger than ∆ _Exy_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "653"
+chars = "8-43"
+text = "Excitation gap in the c_ = 1 _phase_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "655"
+chars = "24-37"
+text = "gapless nature"
+
+[[blocks]]
+sections = ["truth"]
+lines = "655"
+chars = "203-255"
+text = "excitation gap is clearly linear as a function 1 _/L_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "655"
+chars = "263-345"
+text = "extrapolation of the gap to the _L →∞_ limit gives a gap value of 2 _×_ 10 _[−]_[4]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "655"
+chars = "378-411"
+text = "consistent with a gapless behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "10-29"
+text = "DISTORTED-LLRR PHASE"
+
+[[blocks]]
+sections = ["problem"]
+lines = "659"
+chars = "77-105"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "659"
+chars = "251-264"
+text = "Γ _>_ 0 region"
+
+[[blocks]]
+sections = ["problem"]
+lines = "663"
+chars = "187-215"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "668"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0013-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "675"
+chars = "42-64"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["method"]
+lines = "675"
+chars = "90-102"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "675"
+chars = "121-197"
+text = "system sizes _L_ = 24 _,_ 48 _,_ 72 _,_ 96 under periodic boundary conditions"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "675"
+chars = "204-311"
+text = "bond dimension _m_ and truncation error _ϵ_ in DMRG calculations are taken as _m_ = 1200, _ϵ_ = 10 _[−]_[10]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "714"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0013-16.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "1-32"
+text = "This is a distorted spiral order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "98-114"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "267-283"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "740"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0013-25.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "746"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0013-27.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "751"
+chars = "11-56"
+text = "distorted left-left-right-right magnetic order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "753"
+chars = "26-157"
+text = "distorted-LLRR phase in the Kitaev-Heisenberg-Gamma model and the LLRR phase in the Kitaev-Heisenberg model belong to the same phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "755"
+chars = "1-23"
+text = "## **B. DMRG numerics**"
+
+[[blocks]]
+sections = ["method"]
+lines = "757"
+chars = "32-54"
+text = "DMRG numerical evidence"
+
+[[blocks]]
+sections = ["truth"]
+lines = "757"
+chars = "60-79"
+text = "distorted-LLRR order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "757"
+chars = "88-115"
+text = "KitaevHeisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "760"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0014-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "763"
+chars = "124-145"
+text = "KitaevHeisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "763"
+chars = "213-273"
+text = "representative point ( _θ_ = 0 _._ 37 _π, ϕ_ = 0 _._ 99 _π_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "763"
+chars = "278-304"
+text = "DMRG numerical calculations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "763"
+chars = "407-435"
+text = "four-sublattice rotated frame"
+
+[[blocks]]
+sections = ["problem"]
+lines = "767"
+chars = "8-36"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "767"
+chars = "55-82"
+text = "two types of magnetic orders"
+
+[[blocks]]
+sections = ["problem"]
+lines = "767"
+chars = "139-160"
+text = "Kitaev-Heisenberg case"
+
+[[blocks]]
+sections = ["method"]
+lines = "767"
+chars = "166-188"
+text = "test the magnetic order"
+
+[[blocks]]
+sections = ["method"]
+lines = "769"
+chars = "1-13"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "769"
+chars = "96-162"
+text = "small fields _hxy_ = 2 _×_ 10 _[−]_[4] and _hy_ = 2 _×_ 10 _[−]_[4]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "769"
+chars = "323-443"
+text = "patterns of spin expectation values in Fig. 10 (a) for _hxy_ and Fig. 10 (b) for _hy_ are consistent with the predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "769"
+chars = "516-535"
+text = "distorted-LLRR order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "769"
+chars = "587-609"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["method"]
+lines = "775"
+chars = "15-36"
+text = "DMRG numerical results"
+
+[[blocks]]
+sections = ["problem"]
+lines = "775"
+chars = "245-276"
+text = "two system sizes _L_ = 48 and 96"
+
+[[blocks]]
+sections = ["truth"]
+lines = "775"
+chars = "300-359"
+text = "relation between energy change and applied fields are linear"
+
+[[blocks]]
+sections = ["truth"]
+lines = "775"
+chars = "403-416"
+text = "magnetic order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "775"
+chars = "455-505"
+text = "energy changes ∆ _Ey_ is indeed larger than ∆ _Exy_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "775"
+chars = "527-566"
+text = "consistent with the distorted-LLRR order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "779"
+chars = "58-86"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "783"
+chars = "9-31"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "783"
+chars = "594-610"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "783"
+chars = "762-778"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "785"
+chars = "22-50"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "790"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0015-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "794"
+text = "(a)                                                                (b)<br>0.3 0.5<br>0.25<br>0.4<br>0.2<br>0.3<br>0.15<br>0.2<br>0.1<br>0.05 0.1<br>0 0<br>0 24 48 72 96 0 24 48 72 96<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "797"
+chars = "41-69"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["method"]
+lines = "797"
+chars = "271-283"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "797"
+chars = "304-361"
+text = "system of _L_ = 96 sites with periodic boundary conditions"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "797"
+chars = "562-669"
+text = "bond dimension _m_ and truncation error _ϵ_ in DMRG calculations are taken as _m_ = 1200, _ϵ_ = 10 _[−]_[10]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "800"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0015-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "804"
+text = "-0.1169<br>-0.117<br>-0.1171<br>-0.1172<br>-0.1173<br>L=48<br>L=96<br>-0.1174<br>0 2 4 6 8<br>10 [-4]<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "807"
+chars = "57-84"
+text = "KitaevHeisenberg-Gamma model"
+
+[[blocks]]
+sections = ["method"]
+lines = "807"
+chars = "264-276"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "807"
+chars = "295-353"
+text = "system sizes _L_ = 48 (blue lines) and _L_ = 96 (red lines)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "807"
+chars = "439-546"
+text = "bond dimension _m_ and truncation error _ϵ_ in DMRG calculations are taken as _m_ = 1200, _ϵ_ = 10 _[−]_[10]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "889"
+chars = "17-33"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["method"]
+lines = "895"
+chars = "155-167"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "899"
+chars = "45-57"
+text = "_c_ = 1 phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "899"
+chars = "66-88"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "899"
+chars = "103-126"
+text = "Kitaev spin liquid phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "899"
+chars = "149-176"
+text = "KitaevHeisenberg-Gamma model"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "921"
+chars = "39-53"
+text = "2D stripy order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "921"
+chars = "71-93"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["method"]
+lines = "921"
+chars = "128-147"
+text = "coupled-chain method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "921"
+chars = "227-255"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "931"
+chars = "24-46"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "979"
+chars = "63-85"
+text = "Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["method"]
+lines = "979"
+chars = "192-204"
+text = "DMRG numerics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "979"
+chars = "256-328"
+text = "ordered phase is identified having a left-left-right-right magnetic order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "983"
+chars = "33-88"
+text = "gapless phase with central charge value _c_ = 1 is found"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "983"
+chars = "140-168"
+text = "Kitaev-Heisenberg-Gamma model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "983"
+chars = "286-315"
+text = "1D left-left-right-right order"
+
+[[blocks]]
+sections = ["method"]
+lines = "989"
+chars = "588-604"
+text = "DMRG calculations"
+
+[[blocks]]
+sections = ["software"]
+lines = "989"
+chars = "644-667"
+text = "software package ITensor"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1025"
+chars = "179-192"
+text = "gapless points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1189"
+chars = "33-49"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1191"
+chars = "48-62"
+text = "magnetic orders"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1193"
+chars = "25-47"
+text = "Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1195"
+chars = "62-84"
+text = "Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1223"
+chars = "9-45"
+text = "LLRR order in Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1225"
+chars = "47-57"
+text = "spiral LLRR"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1225"
+chars = "62-84"
+text = "Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1228"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0022-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1234"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0022-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1237"
+chars = "36-52"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1240"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0022-15.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1247"
+chars = "35-63"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1249"
+chars = "8-36"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1257"
+chars = "9-61"
+text = "Distorted LLRR order in Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1259"
+chars = "8-36"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1259"
+chars = "87-106"
+text = "distorted LLRR order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1262"
+text = "![](.figures/arxiv__2408.07968/2408.07968.pdf-0023-07.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1267"
+chars = "23-51"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1269"
+chars = "8-36"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1287"
+chars = "65-81"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1289"
+chars = "24-52"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1291"
+chars = "8-36"
+text = "Kitaev-Heisenberg-Gamma chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1307"
+chars = "66-82"
+text = "magnetic ordering"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1315"
+chars = "1-72"
+text = "- 4 J. Chaloupka, G. Jackeli, and G. Khaliullin, _KitaevHeisenberg Model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1319"
+chars = "34-71"
+text = "_Kitaev-Heisenberg models for iridates"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1335"
+chars = "65-113"
+text = "_Phase Diagram of the Spin-1/2 Kitaev-Gamma Chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1337"
+chars = "113-123"
+text = "KitaevGamma"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1345"
+chars = "99-125"
+text = "_[Kitaev-Heisenberg] ladder"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1351"
+chars = "103-135"
+text = "_[Kitaev-Heisenberg-] Gamma chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1357"
+chars = "82-104"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1359"
+chars = "107-122"
+text = "KitaevHeisenberg"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1361"
+chars = "114-124"
+text = "Gamma model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1363"
+chars = "101-123"
+text = "Kitaev-Heisenberg chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1367"
+chars = "150-171"
+text = "_[Kitaev-Gamma][chain]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1371"
+chars = "132-150"
+text = "Kitaev-Gamma ladder"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1375"
+chars = "141-169"
+text = "Kitaev-Gamma-Heisenberg model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1377"
+chars = "113-128"
+text = "XY - Gamma chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1383"
+chars = "74-96"
+text = "Kitaev-Heisenberg model"
+
+[[blocks]]
+sections = ["software"]
+lines = "1403"
+chars = "67-73"
+text = "ITensor"

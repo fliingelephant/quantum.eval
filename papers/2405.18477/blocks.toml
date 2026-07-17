@@ -1,0 +1,1147 @@
+# Partition layer for papers/2405.18477 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "71-89"
+text = "Rydberg atom arrays"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "295-321"
+text = "finite-temperature scenario"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "355-392"
+text = "tensor network-based numerical toolbox"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "567-658"
+text = "ordered phases continuously shrinking because of thermal fluctuations at finite system sizes"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "688-769"
+text = "entanglement of formation and entanglement negativity of a half-system bipartition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "775-920"
+text = "numerically confirm that a conformal scaling law of entanglement extends from the zero-temperature critical points into the low-temperature regime"
+
+[[blocks]]
+sections = ["problem"]
+lines = "50"
+chars = "71-89"
+text = "Rydberg atom arrays"
+
+[[blocks]]
+sections = ["problem"]
+lines = "50"
+chars = "295-321"
+text = "finite-temperature scenario"
+
+[[blocks]]
+sections = ["method"]
+lines = "50"
+chars = "355-392"
+text = "tensor network-based numerical toolbox"
+
+[[blocks]]
+sections = ["truth"]
+lines = "50"
+chars = "567-654"
+text = "ordered phases continuously shrinking due to thermal fluctuations at finite system sizes"
+
+[[blocks]]
+sections = ["problem"]
+lines = "50"
+chars = "684-765"
+text = "entanglement of formation and entanglement negativity of a half-system bipartition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "50"
+chars = "771-916"
+text = "numerically confirm that a conformal scaling law of entanglement extends from the zero-temperature critical points into the low-temperature regime"
+
+[[blocks]]
+sections = ["problem"]
+lines = "56"
+chars = "100-154"
+text = "purestate and mixed-state entanglement characterization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "56"
+chars = "570-590"
+text = "mixed-state framework"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "58"
+chars = "30-53"
+text = "mixed-state entanglement"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "58"
+chars = "360-383"
+text = "mixed-state entanglement"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "58"
+chars = "403-427"
+text = "entanglement of formation"
+
+[[blocks]]
+sections = ["method"]
+lines = "58"
+chars = "454-510"
+text = "minimizations over all possible pure-state decompositions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "60"
+chars = "34-83"
+text = "finite-temperature physics of a Rydberg atom chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "60"
+chars = "129-161"
+text = "bipartite entanglement properties"
+
+[[blocks]]
+sections = ["method"]
+lines = "60"
+chars = "197-222"
+text = "Tree Tensor Operator (TTO)"
+
+[[blocks]]
+sections = ["method"]
+lines = "60"
+chars = "232-286"
+text = "tensor network ansatz for representing a density matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "60"
+chars = "355-415"
+text = "The TTO provides a global purification of the many-body state"
+
+[[blocks]]
+sections = ["method"]
+lines = "60"
+chars = "486-581"
+text = "thermal TTOs were constructed by manually stacking individually computed Hamiltonian eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "60"
+chars = "672-718"
+text = "our algorithm performs the numerical conversion"
+
+[[blocks]]
+sections = ["method"]
+lines = "60"
+chars = "727-764"
+text = "Locally Purified Tensor Network (LPTN)"
+
+[[blocks]]
+sections = ["method"]
+lines = "60"
+chars = "771-780"
+text = "to the TTO"
+
+[[blocks]]
+sections = ["method"]
+lines = "60"
+chars = "783-837"
+text = "where the LPTN is suitable for imaginary time evolution"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "60"
+chars = "943-956"
+text = "bond dimension"
+
+[[blocks]]
+sections = ["problem"]
+lines = "60"
+chars = "975-989"
+text = "system’s purity"
+
+[[blocks]]
+sections = ["problem"]
+lines = "60"
+chars = "1107-1129"
+text = "entanglement negativity"
+
+[[blocks]]
+sections = ["problem"]
+lines = "60"
+chars = "1143-1208"
+text = "entanglement of formation as the mixed-state entanglement measures"
+
+[[blocks]]
+sections = ["truth"]
+lines = "60"
+chars = "1232-1306"
+text = "finite-temperature extensions of zero-temperature quantum critical scalings"
+
+[[blocks]]
+sections = ["method"]
+lines = "68"
+chars = "1-16"
+text = "## **I. METHOD**"
+
+[[blocks]]
+sections = ["method"]
+lines = "70"
+chars = "1-752"
+text = "In order to construct an efficient numerical algorithm for studying finite-temperature physics, it is important to choose an appropriate representation of the density matrix. Since the TTO representation is well-suited for the extraction of the otherwise hardly accessible mixed-state properties in a low-temperature regime, here we develop the algorithm for constructing the TTO density matrix for quantum many-body systems at thermal equilibrium. In this section, we first provide a recap of TTOs and their advantages in representing and compressing the density matrix. Then, we provide the definitions of two mixed state entanglement measures and clarify how to extract them from a TTO. Finally, we present the main steps of our numerical algorithm."
+
+[[blocks]]
+sections = ["method"]
+lines = "72"
+chars = "1-30"
+text = "## **A. Tree Tensor Operator**"
+
+[[blocks]]
+sections = ["method"]
+lines = "74"
+chars = "1-357"
+text = "A TTO (Fig. 1a) is a natural tensor network ansatz for encoding a mixed state density matrix; by construction, it is loopless, guarantees positivity of the corresponding density matrix and, by performing isometrisation [46], allows us to compress all information about the mixed state probabilities and bipartite entanglement into a single tensor (Fig. 1b)."
+
+[[blocks]]
+sections = ["method"]
+lines = "76"
+chars = "31-44"
+text = "TTO algorithms"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "79"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0002-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "82"
+chars = "746-812"
+text = "In the TTO structure, the middle connecting link corresponds to the"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "85"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0002-09.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "89"
+text = "a) b) Ky<br>R=<br>m m<br>= compressed<br>xX? RR‘ density matrix<br>c) T = 0 . 5 Ω T = 3 Ω<br>Norm loss:<br>10 [−] [1] 10 [−] [1]<br>0.005<br>10 [−] [3] 10 [−] [3]<br>pj pj Norm loss:<br>10 [−] [5] 10 [−] [5] 0.4342<br>a S|<br>10 [−] [7] 10 [−] [7]<br>d dd dd ddd 10 [−] [9] i 10 [−] [9] 1<br>0 5 10 15 20 25 30 0 5 10 15 20 25 30<br>j j<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "92"
+chars = "11-51"
+text = "Tree Tensor Operator (TTO) density matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+chars = "176-192"
+text = "In the TTO ansatz"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+chars = "235-269"
+text = "tree tensor network-like structures"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "92"
+chars = "350-429"
+text = "The bond dimension _m_ corresponds to the bound for system-to-system correlation"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "92"
+chars = "436-518"
+text = "the bond dimension _K_ 0 is the number of pure states we keep in the density matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+chars = "525-573"
+text = "When isometrized towards the uppermost tensor _R_"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+chars = "581-647"
+text = "remaining (gray) tensors in a TTO are local unitary transformations"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+chars = "656-765"
+text = "all the information about bipartite entanglement between the system’s halves is concentrated in the tensor _R_"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+chars = "799-867"
+text = "its singular values are the square roots of mixed state probabilities"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "92"
+chars = "1021-1065"
+text = "truncating to _K_ 0 = 10 lowest-energy states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "92"
+chars = "1068-1170"
+text = "The norm loss is larger for the higher temperature (right) with respect to the lower temperature (left)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "94"
+chars = "1-620"
+text = "sum over eigenstates in Eq. (1), and thus we have direct access to the number of states kept in the density matrix, determined by the corresponding bond dimension _K_ 0 (Fig. 1a). With the ability to keep only the first _K_ 0 eigenstates and discard the information about the rest, we keep the computational cost of TTO algorithms low, while retaining the physically accurate approximation. Altogether, we employ two separate bond dimension bounds in the TTO: _m_ as the bond dimension bounding system-to-system correlations and _K_ 0 as the bound for the mixing bond dimension, i.e., for systemenvironment correlations."
+
+[[blocks]]
+sections = ["method"]
+lines = "96"
+chars = "1-49"
+text = "## **B. Extracting the mixed-state entanglement**"
+
+[[blocks]]
+sections = ["method"]
+lines = "98"
+chars = "1-272"
+text = "As described in Fig. 1b, the complete information about the bipartite entanglement between the system’s halves is contained in the TTO’s root tensor _R_ . Thus, _RR[†]_ represents a compressed density matrix from which we can compute the mixed-state entanglement measures."
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "102"
+chars = "1-257"
+text = "operator with the substitution i _t → β/_ 2, where _t_ is a real time variable. Therefore, for obtaining the density matrix at a certain temperature we can evolve the identity matrix using the standard time evolution algorithms, with an imaginary time step."
+
+[[blocks]]
+sections = ["method"]
+lines = "104"
+chars = "1-352"
+text = "FIG. 2. **Partial transpose of a TTO density matrix for computing the entanglement negativity.** Only the root tensors (purple) are relevant for extracting the entanglement negativity, thus the rest of the TTO can be discarded. Then, the partial transpose with respect to half of the system equals to flipping the corresponding legs (orange and green)."
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "109"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "112"
+chars = "156-257"
+text = "The computation of the partial transpose _ρ_ ˆ _[⊤][N/]_[2] from a TTO is graphically shown in Fig. 2."
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "117"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0003-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "120"
+chars = "260-359"
+text = "Here, we compute it using the procedure presented in Ref. [40], improved as described in Appendix B."
+
+[[blocks]]
+sections = ["method"]
+lines = "120"
+chars = "361-416"
+text = "**C. Obtaining the Tree Tensor Operator density matrix**"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "122"
+chars = "1-314"
+text = "To access the system’s properties at an arbitrary temperature, we evolve the infinite-temperature density matrix according to the imaginary time evolution [51– 53]. This is possible due to the fact that an infinitetemperature density matrix, _ρ_ ˆ _∞_ , is proportional to an identity matrix, allowing us to write:"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "125"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0003-10.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "128"
+chars = "1-107"
+text = "In the last expression from Eq. (4) we recognize the form of a unitary time evolution of the density matrix"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "130"
+chars = "1-418"
+text = "However, we cannot perform imaginary time evolution directly on a TTO: the representation of an identity matrix as a TTO would require the _K_ 0 dimension to scale exponentially with system size which prohibits the simulation in terms of computational resources. For this reason, we take a deviation via the matrix product state’s mixed state counterpart - the LPTN, which encodes the identity matrix in a trivial way."
+
+[[blocks]]
+sections = ["method"]
+lines = "132"
+chars = "1-381"
+text = "We evolve LPTN in imaginary time using the timedependent variational principle (TDVP) [54, 55] algorithm. For details on the TDVP algorithm see Ref. [56, 57]. Once we obtain the finite-temperature LPTN density matrix, we convert it to a TTO with an iterative procedure described in Appendix A. The whole procedure for obtaining a TTO thermal density matrix is summarized in Fig. 3."
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "134"
+chars = "1-668"
+text = "The timestep we use in imaginary time evolution is _dβ/_ 2 = 0 _._ 05 for obtaining the finite temperature phase diagrams in Section III. The value is chosen based on the convergence study, showing that eventual errors are the largest in the vicinity of quantum critical transitions. The value of _dβ/_ 2 taken for the analysis at critical regions carried out in Section IV is thus further reduced to _dβ/_ 2 = 0 _._ 025. The maximal entanglement bond dimension in LPTN and TTO is _m_ = 50, and the maximal number of pure states we keep in the TTO density matrix is _K_ 0 = 100. The error resulting from truncation in LPTN to TTO conversion is analyzed in Section III."
+
+[[blocks]]
+sections = ["problem"]
+lines = "136"
+chars = "1-35"
+text = "## **II. RYDBERG ATOM HAMILTONIAN**"
+
+[[blocks]]
+sections = ["problem"]
+lines = "138"
+chars = "1-203"
+text = "We consider a system of two-level Rydberg atoms pinned by optical tweezers. Such system realizes a spin1 _/_ 2 model by associating the two spin states with the ground state _|g⟩_ and Rydberg state _|r⟩_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0003-17.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "144"
+chars = "164-438"
+text = "The Rabi frequency Ω and detuning ∆ are the laser-atom coupling parameters. The units are chosen such that the reduced Planck constant is ℏ = 1. It is convenient to express the long-range Rydberg interactions in terms of the Rydberg blockade radius per lattice spacing _RB/a_"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "149"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "153"
+text = "; oOo -apAND e-4PAI2 .. , e-dphIR Temperature ; T Temperature<br>» ad paebl<br>Cool down via<br>imaginary time  Convert<br>evolution<br>LPTN LPTN oo TTO<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "156"
+chars = "1-766"
+text = "FIG. 3. **An algorithm for obtaining the thermal density matrix in the TTO form** . An infinite-temperature density matrix is always proportional to an identity matrix, and it is therefore straightforward to write in the LPTN form. We take this infinite-temperature density matrix as an initial state and evolve it via the imaginary time evolution, i.e., consecutively applying the operator _e[−]_[d] _[β] H/_[ˆ] 2 on both sides of the LPTN. Here, d _β/_ 2 is an imaginary time step which, in terms of physical interpretation, represents a small decrease in temperature. This way, we can reach a density matrix at an arbitrarily low temperature. Once we reach the desired temperature, we convert the LPTN into the TTO form with the procedure described in Appendix A."
+
+[[blocks]]
+sections = ["problem"]
+lines = "158"
+chars = "1-194"
+text = "in which the interaction is much larger than the Rabi frequency, so the state with more than one excited atom within that radius is shifted far from resonance and thus dynamically decoupled [1]."
+
+[[blocks]]
+sections = ["problem"]
+lines = "160"
+chars = "1-318"
+text = "We study a chain of _N_ Rydberg atoms described by the Hamiltonian in Eq. (5) with open boundary conditions. In numerical simulations, we set to zero all the interactions that are more than four lattice spacings apart. We choose the lattice spacing _a_ as the unit of length and Rabi frequency Ω as the unit of energy."
+
+[[blocks]]
+sections = ["problem"]
+lines = "162"
+chars = "1-1193"
+text = "As thoroughly analyzed in the literature, ground states of many-body Rydberg chains are known to exhibit a rich phase diagram [19, 58–62]. In the regime of small detuning ∆ _/_ Ω, the leading contribution comes from the Rabi term, resulting in a low occupancy of the Rydberg state throughout a system and a disordered phase without any excitation pattern. Increasing the detuning ∆ _/_ Ω, the system starts to favor excitations of the atoms, however, the Rydberg interaction contribution tends to suppress nearby excitations. The interplay between these two contributions results in different excitation patterns, depending on the blockade radius _RB/a_ . The emergent phases turn out to be the crystalline phases of Z _p_ symmetry-breaking order (period- _p_ ), starting from Z2 in the low _RB/a_ region, and going towards the higher orders as _RB/a_ increases [19, 61]. Accordingly, the transitions between these phases belong to variety of different criticality classes. Moreover, it was shown that the Rydberg phase diagram hosts as well the incommensurate floating phases between disordered and crystalline phases [24, 58, 60–62], located in the regions from above the Z3 lobe and higher."
+
+[[blocks]]
+sections = ["problem"]
+lines = "164"
+chars = "83-188"
+text = "measure the entanglement negativity _EN_ between two halves of the system at temperature _T_ = 0 _._ 025 Ω"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "169"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0004-08.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "7-11"
+text = "Potts"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "13-14"
+text = "Z3"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "48-57"
+text = "Disordered"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "97-98"
+text = "Z2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "230-234"
+text = "Ising"
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "413-524"
+text = "We can distinguish two crystalline phases, the ones with Z2 and Z3 symmetry-breaking order regimes respectively."
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "526-620"
+text = "The transition between the Z2 and disordered phase corresponds to the Ising universality class."
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "622-720"
+text = "The green star and blue diamond mark the critical transition points that are analyzed in Section IV"
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "925-1069"
+text = "the line of maximal entanglement is slightly shifted with respect to the Potts critical point position as a consequence of the finite-size effect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "178"
+chars = "130-219"
+text = "phase diagram in Fig. 4 is in line with the existing results obtained via the entanglement"
+
+[[blocks]]
+sections = ["truth"]
+lines = "183"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "187"
+chars = "79-88"
+text = "Norm loss:"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "187"
+chars = "179-187"
+text = "10%1%0.1%"
+
+[[blocks]]
+sections = ["truth"]
+lines = "190"
+chars = "241-350"
+text = "system transitions from the pure ground state at low temperature into the finite-temperature mixture of states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "190"
+chars = "357-454"
+text = "drops in purity for certain values of _Rb/a_ correspond to the points of quantum phase transitions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "190"
+chars = "525-572"
+text = "ground state resilience to temperature decreases"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "190"
+chars = "727-911"
+text = "Blue curves track the accuracy of the results and denote a temperature above which the norm loss caused by truncation error becomes larger than the certain value indicated in the legend"
+
+[[blocks]]
+sections = ["truth"]
+lines = "192"
+chars = "303-539"
+text = "The transition between the Z3 and the disordered phase is more complex, and in the parameter range of our simulations, it contains the nonconformal chiral transition line and an isolated point of the three-state Potts universality class."
+
+[[blocks]]
+sections = ["problem"]
+lines = "194"
+chars = "124-148"
+text = "systems of 6 _n_ +1 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "194"
+chars = "276-324"
+text = "analyze the systems of _N_ = 13, 25, and 31 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "196"
+chars = "1-45"
+text = "## **III. FINITE TEMPERATURE PHASE DIAGRAMS**"
+
+[[blocks]]
+sections = ["problem"]
+lines = "198"
+chars = "153-170"
+text = "compute the purity"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "201"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "204"
+chars = "168-183"
+text = "compute from TTO"
+
+[[blocks]]
+sections = ["method"]
+lines = "204"
+chars = "240-266"
+text = "with TTOs we have access to"
+
+[[blocks]]
+sections = ["truth"]
+lines = "208"
+chars = "437-588"
+text = "in the vicinity of quantum critical points in Fig. 5 where the gap decreases (and in thermodynamic limit closes), we can observe the drops in the purity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "208"
+chars = "605-693"
+text = "at quantum critical transition points we observe a pure state even at finite temperatures"
+
+[[blocks]]
+sections = ["truth"]
+lines = "208"
+chars = "735-899"
+text = "As we go towards the larger system sizes, the energy levels become more dense and the transition into the finite-temperature mixed phase occurs at lower temperatures"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "210"
+chars = "1-717"
+text = "Recall that the accuracy of our method is limited by the number of excited states we keep in a density matrix, _K_ 0. This means that, when the state becomes more mixed, the state truncation error becomes larger at fixed _K_ 0. An easy way of estimating the error induced by discarding the excited states is by tracking the norm loss during the LPTN to TTO conversion. The blue lines in Fig. 5 indicate the temperatures after which the preserved norm falls under a certain factor. As expected, the error increases with the system size for a fixed temperature value. This is because the number of excited states in the spectrum grows exponentially with the system size, and thus, increasing the system size, the number"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "215"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "219"
+chars = "600-604"
+text = "= 0.5"
+
+[[blocks]]
+sections = ["problem"]
+lines = "222"
+chars = "187-385"
+text = "plot the threshold temperature after which the purity _γ_ falls below the cutoff value _γcut_ = 0 _._ 5 (up) and _γcut_ = 0 _._ 9 (bottom) as a function of blockade radius _RB/a_ and detuning ∆ _/_ Ω"
+
+[[blocks]]
+sections = ["problem"]
+lines = "222"
+chars = "388-488"
+text = "The results are shown for _N_ = 13, 25, 31 sites. The temperature range is _T_ = [0 _._ 025 _,_ 1] Ω."
+
+[[blocks]]
+sections = ["truth"]
+lines = "222"
+chars = "490-657"
+text = "The plots outline the features of the ground phase state diagram, and one can distinguish the Z2 and Z3 symmetry-breaking phases shrinking as the temperature increases."
+
+[[blocks]]
+sections = ["truth"]
+lines = "222"
+chars = "676-820"
+text = "for almost all the Hamiltonian parameter values, the temperature of _T_ = 0 _._ 025 Ω is low enough for purity to be higher than _γcut_ = 0 _._ 9"
+
+[[blocks]]
+sections = ["truth"]
+lines = "222"
+chars = "905-1113"
+text = "The exceptions are gray regions in case of _N_ = 25 and _N_ = 31 for _γcut_ = 0 _._ 9, located between Z2 and Z3 lobe, for which our temperature range was not low enough to determine the threshold temperature."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "224"
+chars = "1-137"
+text = "of states _K_ 0 will represent a smaller ratio of all possible states. A more detailed convergence analysis is carried out in Appendix C."
+
+[[blocks]]
+sections = ["truth"]
+lines = "226"
+chars = "490-809"
+text = "The plot minima correspond to the borders between the phases, and the ground state becomes more stable as we go deeper into the crystalline phases. Again, we observe that the transition from the ground state to a mixture of excited states occurs faster for larger systems, i.e., as we go towards the thermodynamic limit."
+
+[[blocks]]
+sections = ["problem"]
+lines = "232"
+chars = "1-62"
+text = "## **IV. MIXED-STATE ENTANGLEMENT AT QUANTUM CRITICAL POINTS**"
+
+[[blocks]]
+sections = ["problem"]
+lines = "234"
+chars = "34-66"
+text = "conformal phase transition points"
+
+[[blocks]]
+sections = ["problem"]
+lines = "234"
+chars = "137-221"
+text = "two points belonging to the Ising universality class and the Potts universality class"
+
+[[blocks]]
+sections = ["method"]
+lines = "234"
+chars = "285-309"
+text = "Exploiting the TTO ansatz"
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "236"
+chars = "1-489"
+text = "In order to improve the convergence of the results, we truncate the _K_ 0 dimension even further and keep the first _K_ 0 = 10 states in the density matrix in the computation of entanglement of formation. Note that, as discussed in Section III, reducing the number of states in the density matrix increases the error in the high-temperature region. Therefore, we carry out the entanglement of formation analysis only in the low-temperature region in which the norm loss is smaller than 1%."
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "241"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0007-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "245"
+chars = "1-22"
+text = "Ising transition point"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "245"
+chars = "45-66"
+text = "Potts transition point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "248"
+chars = "466-571"
+text = "The curves show a good agreement in scaling with respect to the order of magnitude of entanglement values."
+
+[[blocks]]
+sections = ["truth"]
+lines = "248"
+chars = "573-676"
+text = "The shape of the rescaled curves correspond to the functions _gN_ ( _·_ ) and _gF_ ( _·_ ) from Eq. (7)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "250"
+chars = "80-417"
+text = "From both entanglement measures, we observe that entanglement is approximately constant up to a certain temperature, after which it starts to decrease. Following the analysis from Section III, the temperature region in which the entanglement is constant corresponds to the temperature region in which the state remains approximately pure."
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "255"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0007-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "260"
+chars = "103-556"
+text = "Rescaling both entanglement measure curves, the results in Fig. 7 show a good agreement with Eq. (7). The slight discrepancy in the scaling of _N_ = 13 entanglement negativity at the Ising critical point is most likely due to the finite system size. Altogether, Eq. (7) represents a tool for estimating the many-body mixed-state entanglement measures in the low-temperature region of conformal critical points, based on the results for small system size."
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "264"
+chars = "1-767"
+text = "We have presented a tensor network algorithm for obtaining a thermal many-body density matrix and exploited our approach to study the finite-temperature effects on one-dimensional Rydberg atom systems of up to 31 particles. By computing the purity for different Hamiltonian parameters, we have studied the transition from the low-temperature pure state to the finite-temperature mixed state and demonstrated how the system’s response to the temperature depends strongly on the structure of the low-energy part of the spectrum. Indeed, the transition from the gapped to the gapless point in the phase diagram is characterized by sudden drops in the property’s resilience to the temperature. By plotting the temperature resilience of the system’s purity over the Hamil-"
+
+[[blocks]]
+sections = ["truth"]
+lines = "268"
+chars = "1-428"
+text = "tonian parameters, we have identified the crystalline Z2 and Z3 - symmetry-breaking phases and clearly observed how they shrink when increasing the temperature. We have recognized the ground state phase transition curves as the curves where the system’s properties are the most sensitive to temperature. Moreover, as expected, larger systems have shown higher sensitivity to temperature effects in comparison to smaller systems."
+
+[[blocks]]
+sections = ["truth"]
+lines = "270"
+chars = "1-880"
+text = "The Rydberg chain ground state phase diagram hosts a variety of different criticality classes, and we have analyzed the temperature effects on the entanglement at the Ising and the three-state Potts quantum critical points using the mixed-state entanglement monotones negativity and entanglement of formation. Both monotones have shown the same behavior where entanglement stays unaltered up to a certain temperature and then decreases towards higher temperatures. By performing a finitesize scaling analysis of both entanglement monotones, we have provided numerical evidence that the entanglement scaling law at conformal critical points extends from the zero temperature point to the low-temperature region. Therefore, this scaling law can be used to estimate the many-body mixed-state entanglement for large system sizes, based on the results obtained for a small system size."
+
+[[blocks]]
+sections = ["method"]
+lines = "272"
+chars = "355-601"
+text = "Our algorithm represents an efficient way of obtaining the density matrix and provides adaptability to convert from LPTN geometry, suitable for imaginary time evolution, to TTO geometry, suitable for characterization of the mixed state properties."
+
+[[blocks]]
+sections = ["method"]
+lines = "272"
+chars = "1106-1115"
+text = "into a TTO"
+
+[[blocks]]
+sections = ["software"]
+lines = "276"
+chars = "42-82"
+text = "Quantum Green Tea software version 0.3.23"
+
+[[blocks]]
+sections = ["software"]
+lines = "276"
+chars = "88-120"
+text = "Quantum Tea Leaves version 0.4.46"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "280"
+chars = "1149-1221"
+text = "We acknowledge computational resources by Cineca on the Leonardo machine."
+
+[[blocks]]
+sections = ["method"]
+lines = "282"
+chars = "1-41"
+text = "## **Appendix A: LPTN to TTO conversion**"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "284"
+chars = "1-1574"
+text = "Here, we explain the algorithm for converting the LPTN density matrix into TTO form. Since both LPTN and TTO contain two sides of the network that are Hermitian conjugated to each other, referred to as _X_ and _X[†]_ in Fig. 1, it is enough to discard one of them and perform all the computations on only one of the sides. The procedure follows the steps in Fig. 8. Starting from the _N_ -site LPTN, where _N_ = 2 _[n]_ , _n_ being an integer, we first contract pairs of tensors (Fig. 8a). Then, we apply a truncated singular value decomposition (SVD) to the obtained tensors over a bipartition of links as indicated with purple dashed lines in Fig. 8b. The singular values are contracted to the upper tensors, and the lower tensors will remain unitary with respect to the corresponding bipartition of links. These lower tensors represent the log( _N_ )-th layer of the TTO. To create a base for building the next layer, we again apply a truncated SVD to the yellow tensors according to the specified bipartition (Fig. 8c), and this time contract the singular values to the lower tensors. In this case, the upper tensors stay unitary. Since the total density matrix contains as well the Hermitian conjugate part contracted over the upper bonds, we can ignore these upper unitary tensors because they contract with their Hermitian conjugates to an identity (Fig. 8d). We obtain the tensor network form as in Fig. 8e. The upper layer of tensors in Fig. 8e has the LPTN-like form of half as many particles. Therefore, we can iterate the described procedure to build the rest of"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "289"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "293"
+text = "a) one side of N-site LPTN b)<br>SVD SVD<br>contract singular values to<br>upper tensors<br>c) d)<br>SVD SVD<br>contract singular values to<br>an it<br>lower tensors<br>e)<br>LPTN of N/2 sites, repeat the<br>steps a) - d)<br>!<br>TTO tensors of log(N)-th<br>layer<br>corn<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "296"
+chars = "1-408"
+text = "FIG. 8. **Conversion from Locally Purified Tensor Network to Tree Tensor Operator** . Black dotted rectangles denote the contraction of the enclosed tensors. The purple dashed line defines the bipartition of links for singular value decomposition (SVD). Moreover, the gray color of a tensor denotes that the tensor is unitary with respect to the appropriate bipartition of links defined by the preceding SVD."
+
+[[blocks]]
+sections = ["method"]
+lines = "298"
+chars = "1-292"
+text = "the TTO layers. Notice that this procedure by its construction guarantees that the isometry center is installed to the uppermost tensor. Moreover, to increase the accuracy of our method we make sure that at each singular value truncation, the isometry center of LPTN is placed at that tensor."
+
+[[blocks]]
+sections = ["method", "method_params", "problem"]
+lines = "300"
+chars = "1-576"
+text = "As noted above, TTOs are compatible only with the number of sites that are powers of two, however, the system sizes needed to realize the period-2 and period3 phases in the Rydberg phase diagram are not powers of two. To overcome this issue, we run the imaginary time evolution on the odd-sited LPTN, and then insert the dummy sites decoupled from the rest of the system on the LPTN’s edges. This way, the sites are artificially padded on both ends of the LPTN such that the new total number of sites is a power of two, without affecting any of the properties that we measure."
+
+[[blocks]]
+sections = ["method"]
+lines = "302"
+chars = "1-57"
+text = "## **Appendix B: Entanglement of formation minimization**"
+
+[[blocks]]
+sections = ["method"]
+lines = "304"
+chars = "1-223"
+text = "To minimize entanglement of formation in Eq. (3), we need to find the optimal pure state decomposition of the density matrix. As explained in Ref. [40], a certain pure state decomposition of a density matrix is parametrized"
+
+[[blocks]]
+sections = ["method"]
+lines = "306"
+chars = "1-142"
+text = "by a unitary matrix applied to TTO’s uppermost tensor. Therefore, the optimization time depends heavily on how we sample the unitary matrices."
+
+[[blocks]]
+sections = ["method"]
+lines = "308"
+chars = "1-331"
+text = "Here, we improve the method proposed in Ref. [40], which relied on constructing the unitary matrix as an exponential of the Hermitian matrix. The drawback of such an approach is that a small change in a parameter of the Hermitian matrix can, in general, result in a large change in the elements of the corresponding unitary matrix."
+
+[[blocks]]
+sections = ["method", "software_params"]
+lines = "310"
+chars = "1-253"
+text = "We solve this issue by using the Nelder-Mead algorithm, which is a simplex-based optimization method. We construct each point of the simplex by multiplying the initial guess for the unitary matrix with _squashed_ Haar-random unitary matrices, defined as"
+
+[[blocks]]
+sections = ["method", "software_params"]
+lines = "313"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0009-10.png)"
+
+[[blocks]]
+sections = ["method", "software_params"]
+lines = "316"
+chars = "1-333"
+text = "where _U_ Haar = _U[†] DU_ is an eigenvalue decomposition of the Haar-random unitary matrix [70], and _α ∈_ [0 _,_ 1]. This way, we ensure that in every iteration of the search algorithm, the elements of a new guess for the unitary matrix are arbitrarily close to the elements of a previous guess, controlled with the parameter _α_ ."
+
+[[blocks]]
+sections = ["software_params"]
+lines = "318"
+chars = "1-503"
+text = "Moreover, using physical intuition we can pick a convenient initial guess for the unitary matrix based on the following reasoning. The properties of the density matrix change continuously with increasing temperature. Therefore, if we run the entanglement of formation computation for temperature points starting from the lowest temperature, we can choose the initial guess of every new point to be the optimized unitary matrix from a previous point. Such a choice additionally speeds up the computation."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "320"
+chars = "1-39"
+text = "## **Appendix C: Convergence analysis**"
+
+[[blocks]]
+sections = ["method"]
+lines = "322"
+chars = "53-84"
+text = "LPTN to TTO conversion algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "322"
+chars = "86-118"
+text = "depends on the bond dimension _m_"
+
+[[blocks]]
+sections = ["method", "method_params", "problem", "truth"]
+lines = "322"
+chars = "366-503"
+text = "We generate LPTN states with imaginary time evolution timestep _dt_ = 0 _._ 025, in the temperature regime _T/_ Ω= [0 _._ 02 _,_ 0 _._ 4]."
+
+[[blocks]]
+sections = ["method"]
+lines = "322"
+chars = "505-592"
+text = "To provide a meaningful analysis of the convergence of the LPTN to TTO conversion scheme"
+
+[[blocks]]
+sections = ["method"]
+lines = "322"
+chars = "617-661"
+text = "LPTN state from which we start the conversion"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "322"
+chars = "663-696"
+text = "is converged in the bond dimension"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "322"
+chars = "699-843"
+text = "By increasing the bond dimension from _m_ = 30 to _m_ = 60, values of LPTN energy remain unchanged up to 8[th] digit for every temperature point."
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "322"
+chars = "885-905"
+text = "these bond dimensions"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "324"
+chars = "1-109"
+text = "In the LPTN to TTO conversion, we fix the bond dimension _K_ 0 = 100, i.e., we keep the first 100 states in a"
+
+[[blocks]]
+sections = ["method", "method_params", "problem", "truth"]
+lines = "328"
+chars = "1-498"
+text = "density matrix. We compare the data for bond dimensions _m_ = [30, 40, 50, 60]. To measure the accuracy of the conversion, we track the state’s norm loss due to singular value truncations during the conversion (Fig. 9a) and compare the energy of the resulting TTO with the corresponding energy of the LPTN (Fig. 9b). To give an intuition on how this reflects on the convergence of entanglement results, we show the convergence of entanglement negativity for different bond dimensions _m_ (Fig. 9c)."
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "330"
+chars = "1-803"
+text = "Before continuing to the convergence analysis results, it is useful to highlight the different roles of the bond dimensions _m_ and _K_ 0 in a TTO. Interpretation of _K_ 0 is straightforward, as _K_ 0 is simply the final number of pure states we keep in the density matrix. Interpretation of _m_ is, however, much more subtle: if one thinks of a TTO as multiple pure TTN states stacked together, TTO’s _m_ contains entanglement distributed over many pure states. Thus, a required _m_ depends on the amount of entanglement of each pure state and overall mixedness of a state - more entanglement in each pure state requires larger _m_ , but also larger mixedness requires larger _m_ as there are more pure states to be covered. The distribution between the two contributions within _m_ is not transparent."
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "332"
+chars = "1-1092"
+text = "Back to convergence, as already discussed in Sec. III, increasing the temperature means increasing the number of excited states that contribute to the density matrix. Therefore, the accuracy of results decreases as the number of states _K_ 0 becomes insufficient to describe a physical state. This reflects directly on the norm loss in Fig. 9a. As we can see, the norm loss curves do not significantly vary with the bond dimension _m_ , thus for these bond dimensions it is the choice of _K_ 0 that sets the limit to the overall accuracy of the results. Note that the norm loss would be influenced by _m_ for smaller values of _m_ . We denote the regime in which the norm loss is smaller than 1% with a black vertical line, physically representing an approximate temperature at which _K_ 0 = 100 states are enough to describe a thermal density matrix. Therefore, we expect our results to be accurate below this threshold temperature. Since the norm loss and the threshold temperature depend on the system size and the point in the phase diagram, we show the norm loss lines as well in Fig. 5."
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "334"
+chars = "1-780"
+text = "By looking at the energy curves in Fig. 9b, the TTO results in the region below the threshold temperature coincide with the LPTN reference values. Also, the entanglement negativity in Fig. 9c is well-converged with _m_ within this region. The energy and the negativity at the Potts point and the negativity at the Ising point appear not to be converged with _m_ in the temperature regions above the threshold temperature. We attribute this to the above-discussed effect where larger mixedness of the system requires a larger bond dimension. Nevertheless, this region is not of interest because the accuracy is limited by _K_ 0 and not _m_ , therefore we do not expect accurate results there. An additional remark regarding the convergence results is that, even though the _m_ = 30"
+
+[[blocks]]
+sections = ["problem", "method_params", "truth"]
+lines = "337"
+text = "![](.figures/arxiv__2405.18477/2405.18477.pdf-0010-05.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "341"
+text = "Ising transition point Potts transition point<br>TTO data: m = 30 m = 40 m = 50 m = 60<br>a)<br>b) LPTN data LPTN data<br>c)<br>Norm loss<br>Energy<br>Entanglement negativity<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "344"
+chars = "1-638"
+text = "FIG. 9. **Convergence of LPTN to TTO conversion algorithm with the bond dimension** _m_ . Norm loss during the conversion (a), energy (b), and entanglement negativity (c) are computed at the Ising and the Potts critical points of the Rydberg model for _N_ = 31 sites. The bond dimension _m_ of the TTO and the corresponding LPTN state are the same. The bond dimension _K_ 0 is fixed to _K_ 0 = 100. The vertical line in all plots denotes a threshold temperature below which the norm loss during the LPTN to TTO conversion is smaller than 1%. The LPTN energy curve (blue curve) in (b) represents the reference values computed for _m_ = 60."
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "346"
+chars = "1-155"
+text = "energy curve for the Potts point coincides with the reference LPTN curve in the plot, we expect this to be an accidental artifact of unconvergence in _m_ ."
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "348"
+chars = "1-319"
+text = "In this analysis, we keep the bond dimension _m_ the same for both LPTN and TTO states, but in general, they do not have to be the same. A good choice is that _m_ TTO is larger or equal to _m_ LPTN. Overall, we suggest the following strategy for picking the bond dimensions for LPTN to TTO conversion of thermal states:"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "350"
+chars = "1-55"
+text = "1. Choose _m_ LPTN such that LPTN states are converged."
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "352"
+chars = "1-80"
+text = "2. Pick _K_ 0 and tune _m_ TTO such that the norm loss has converged in _m_ TTO."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "354"
+chars = "1-102"
+text = "3. Read out the threshold temperature below which the norm loss is smaller than the desired precision."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "356"
+chars = "1-129"
+text = "4. If the threshold temperature is too low for the purpose of the simulation, repeat the steps 1 _. −_ 3 _._ with a larger _K_ 0."
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "360"
+chars = "1-104"
+text = "5. Double-check if the properties have converged with _m_ TTO in region below the threshold temperature."
+
+[[blocks]]
+sections = ["method"]
+lines = "448"
+chars = "113-132"
+text = "tree tensor networks"
+
+[[blocks]]
+sections = ["method"]
+lines = "450"
+chars = "99-130"
+text = "Positive tensor network approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "452"
+chars = "32-67"
+text = "density-matrix renormalization group"
+
+[[blocks]]
+sections = ["method"]
+lines = "452"
+chars = "83-103"
+text = "matrix product states"
+
+[[blocks]]
+sections = ["method"]
+lines = "460"
+chars = "104-128"
+text = "tensor networks anthology"
+
+[[blocks]]
+sections = ["method"]
+lines = "470"
+chars = "62-93"
+text = "Matrix product density operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "472"
+chars = "42-104"
+text = "Mixed-state dynamics in one-dimensional quantum lattice systems"
+
+[[blocks]]
+sections = ["method"]
+lines = "476"
+chars = "116-151"
+text = "Time-dependent variational principle"
+
+[[blocks]]
+sections = ["method"]
+lines = "478"
+chars = "146-166"
+text = "matrix product states"
+
+[[blocks]]
+sections = ["method"]
+lines = "482"
+chars = "148-168"
+text = "matrix-product states"
+
+[[blocks]]
+sections = ["method"]
+lines = "484"
+chars = "127-148"
+text = "tensor network methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "498"
+chars = "221-245"
+text = "tensor network efficiency"
+
+[[blocks]]
+sections = ["method"]
+lines = "500"
+chars = "73-111"
+text = "Matrix product operator representations"
+
+[[blocks]]
+sections = ["method"]
+lines = "502"
+chars = "67-119"
+text = "tensor networks for thermal states and time evolution"
+
+[[blocks]]
+sections = ["software"]
+lines = "504"
+chars = "233-255"
+text = "Quantum TEA: qtealeaves"

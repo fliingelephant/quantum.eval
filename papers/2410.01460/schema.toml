@@ -9,9 +9,159 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevE.111.024109"
 arxiv_version = "2410.01460v1"
+md_sha256 = "c0c77590f1640a387a3f4ad4bbc5c10280f9a35611a49632385f972efa99266c"
 
 [candidate_notes]
 model = "two AFM Ising replicas coupled by non-local interactions, square lattice; TRG contraction of the classical partition function"
 headline = "transition lines (first- vs second-order regimes); central charge / exponents establishing Ashkin-Teller marginal criticality; resolves MC-vs-TN tension for J1-J2 Ising universality"
 compute = "classical Ising TRG, minutes-scale on laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+[problem]
+model = "Two anti-ferromagnetic Ising replicas, A and B, on square lattices coupled by a non-local spin-spin interaction. The intra-replica couplings are anti-ferromagnetic and the inter-replica coupling is ferromagnetic on horizontal edges and anti-ferromagnetic on vertical edges. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:105,111,141"
+convention = "The dimensionless Hamiltonian is written as -βH with couplings J1 and J2; the two intra-replica terms carry -J2 and the inter-replica terms carry ±J1. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:108,111"
+lattice = "Two replicas on the same two-dimensional square lattice; the paper also describes a half-step shift as an equivalent representation. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:105,111"
+symmetry = "The phase diagram is symmetric under J1 → -J1 and under exchange J1 ↔ J2, with the latter implemented by replica exchanges and line flips. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:111-129"
+boundary_conditions = "Not stated explicitly in the rendered paper; the numerical targets use stripe widths L and a transfer matrix. Inferred from the setup and estimator descriptions in Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:225-227,245"
+phase_context = "The relevant phases are paramagnetic and anti-ferromagnetic, with two symmetry-related transition lines and both first- and second-order regimes. The order parameter is a staggered magnetization of either replica. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:229-233,239-241"
+
+[[problem.targets]]
+panel = "fig5_magnetization"
+quantity = "Average staggered magnetization density <m^A>(x)"
+ensemble = "Classical two-replica partition function in a small staggered magnetic field"
+axes = ["x", "<m^A>"]
+instance = "Lines perpendicular to J1 = J2, parameterized by J1(x)=J0+x and J2(x)=J0-x, for J0 = 0.30, 0.40, 0.50, 0.60, 0.70, 0.80; h = 10^-3"
+tier = "light"
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:218-222,231-241"
+
+[[problem.targets]]
+panel = "fig6_free_energy_fss"
+quantity = "Finite-size free-energy difference log10(F∞-F(L)) versus log10(1/L^2), with the central charge read from the fit intercept"
+ensemble = "Critical-line coupling points"
+axes = ["log10(1/L^2)", "log10(F∞-F(L))"]
+instance = "(J1,J2) = (0.612965,-0.605170), (0.448669,-0.134480), and (0.440618,0); χ = 48"
+tier = "light"
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:245,253"
+
+[[problem.targets]]
+panel = "fig7_central_charge_surface"
+quantity = "Central charge c over the coupling plane"
+ensemble = "Finite-size free-energy scaling from the largest transfer-matrix eigenvalue"
+axes = ["J1", "-J2", "c"]
+instance = "BTRG scan with χ = 16 states"
+tier = "light"
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:255-257,264-268"
+
+[[problem.targets]]
+panel = "fig8_central_charge_maxima"
+quantity = "Maximum central charge on the two symmetry-related transition branches"
+ensemble = "Finite-size free-energy scaling"
+axes = ["J1 on the first branch", "-J2 on the second branch", "maximum c"]
+instance = "Branch scans with χ = 16, 24, 32, and 48 states"
+tier = "light"
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:257-259,264-268"
+
+[[problem.targets]]
+panel = "fig9_x1_convergence"
+quantity = "First scaling dimension x1 versus the number n of renormalization iterations"
+ensemble = "Points on the first critical line"
+axes = ["n", "x1"]
+instance = "BTRG transfer-matrix calculation with χ = 96"
+tier = "light"
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:264-268"
+
+[[problem.targets]]
+panel = "fig10_scaling_dimensions"
+quantity = "The first three scaling dimensions x1, x2, and x3 along both critical lines"
+ensemble = "Transfer-matrix eigenvalue gaps"
+axes = ["J1 on the first branch", "-J2 on the second branch", "xn"]
+instance = "Additional calculations with χ = 64 and 96; measurements taken in the intermediate-size plateau after 12 iterations"
+tier = "light"
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:268,273"
+
+[[problem.targets]]
+panel = "fig11_scaling_dimensions"
+quantity = "The first five scaling dimensions x1 through x5, including the Ashkin-Teller-based x4 estimate and the thermal dimension xt"
+ensemble = "Transfer-matrix eigenvalue gaps along both critical lines"
+axes = ["J1 on the first branch", "-J2 on the second branch", "xn"]
+instance = "Critical-line points with χ = 48, 64, and 96 as described for the plotted estimates"
+tier = "light"
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:273-285"
+
+[method]
+family = "Tensor-network renormalization for a two-dimensional classical partition function"
+algorithm = "Bond-Weighted Tensor Renormalization Group (BTRG), derived from square-lattice TRG"
+representation = "The partition function is represented as a product of rank-4 tensors; each tensor is decomposed by SVD on odd and even sites, the resulting rank-3 tensors are contracted, and bond weights are inserted between the factors. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:153-179,181-213"
+transfer_matrix_route = "A χ × χ transfer matrix is formed by contracting the tensor; its largest eigenvalue gives the free-energy density, and eigenvalue gaps give scaling dimensions. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:218-227,264-268"
+estimators = [
+  "Staggered magnetization from a finite difference of the free-energy density. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:231-241",
+  "Central charge from finite-size scaling of f(L) at the maximum along the critical line. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:245-257",
+  "Scaling dimensions from the transfer-matrix gap relation. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:268,273"
+]
+valid_alternatives = [
+  "Tensor-network renormalization: TRG, HOTRG, or CTMRG routes can produce the same partition-function and transfer-matrix targets. Inferred from the tensor-network route and the paper's comparison to TRG-family studies in Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:91-97,151-213.",
+  "Transfer-matrix finite-size methods can produce free energies, transition indicators, and conformal data for the same classical model. Inferred from the target definitions and transfer-matrix estimator in Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:93,225-227.",
+  "Monte Carlo finite-size scaling can produce the phase-boundary and critical-behavior targets, although not through the paper's transfer-matrix gap estimator. Inferred from the paper's discussion of Monte Carlo studies and the target observables in Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:65,91-93,218-291."
+]
+
+[method_params]
+bond_dimension = {values = [16, 24, 32, 48, 64, 96], meaning = "number of retained singular values / states χ", provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:179,233,257,268"}
+iterations = {values = [12, 32], meaning = "BTRG iterations used for the plotted campaigns; n changes the stripe width by √2 per iteration", provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:222,233,253,268"}
+bond_weight_exponent = {chosen = -0.5, TRG_value = 0.5, meaning = "exponent k in the inserted bond weight", provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:213"}
+lattice_growth = {factor = "√2", largest_reported_width = "√2^33 ≃ 92,680", provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:179,253"}
+free_energy_fit = {form = "quadratic in 1/L^2 with a 1/L^4 correction", discard_threshold = 1e-12, provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:245,250,253"}
+critical_line_search = {initial_states = 16, refined_states = [24, 32, 48], dichotomy_accuracy = 1e-5, provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:255-257"}
+
+[software]
+eigensolver = "Lanczos eigensolver as implemented in the ARPACK library. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:221,227"
+code_package = "No paper-specific BTRG code package or programming language is named. Inferred from the absence of a code name in the numerical-method and implementation passages, Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:151-213,225-253"
+valid_tools = [
+  "ARPACK or another Lanczos-compatible sparse eigensolver for the transfer matrix. Inferred from the stated eigensolver role in Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:225-227."
+]
+
+[software_params]
+reported = false
+notes = "No solver tolerance, thread count, hardware setting, or API-specific option is reported. The paper only notes finite accuracy in the largest-eigenvalue estimate. Inferred from Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:253"
+
+[anchors]
+ising_checks = [
+  "At J2 = 0, the ferromagnetic Ising critical point has β = 1/8, ν = 1, and c = 1/2. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:51",
+  "At J1 = 0, the two sublattices decouple and the central charge is c = 1. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:51"
+]
+decoupled_points = "The two replicas decouple at (0,-1/2 ln(1+√2)) ≃ (0,-0.44069) and (1/2 ln(1+√2),0) ≃ (0.44069,0). Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:373"
+finite_size_relation = "At a conformally invariant critical point, f(L)=f∞-πc/(6L^2)+O(1/L^4). Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:245,250"
+ashkin_teller_relations = "The Ashkin-Teller reference relations are xσ=1/8, xστ=1/(8-4y), and yt=(3-2y)/(2-y), with y in [0,3/2]. Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:273-285"
+
+[truth.fig5_magnetization]
+csv = "truth_fig5_magnetization.csv"
+tolerance = 0.04
+provenance = "Inferred: digitized from the plotted curves in Fig. 5; the panel definition and h = 10^-3 are Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:218-222."
+
+[truth.fig6_free_energy_fss]
+csv = "truth_fig6_free_energy_fss.csv"
+tolerance = 0.08
+provenance = "Inferred: digitized from Fig. 6 because no table is supplied; the three coupling points, χ = 48, and plotted axes are Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:245."
+
+[truth.fig7_central_charge_surface]
+csv = "truth_fig7_central_charge_surface.csv"
+tolerance = 0.06
+provenance = "Inferred: digitized representative points from the Fig. 7 surface; the χ = 16 panel definition is Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:257,264-268."
+
+[truth.fig8_central_charge_maxima]
+csv = "truth_fig8_central_charge_maxima.csv"
+tolerance = 0.01
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:259,264-268; the additional curve points are digitized from Fig. 8."
+
+[truth.fig9_x1_convergence]
+csv = "truth_fig9_x1_convergence.csv"
+tolerance = 0.015
+provenance = "Inferred: digitized representative curves from Fig. 9; χ = 96 and the first-critical-line setting are Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:264-268."
+
+[truth.fig10_scaling_dimensions]
+csv = "truth_fig10_scaling_dimensions.csv"
+tolerance = 0.008
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:273; values are supplemented by digitization of Fig. 10."
+
+[truth.fig11_scaling_dimensions]
+csv = "truth_fig11_scaling_dimensions.csv"
+tolerance = 0.04
+provenance = "Literal papers/2410.01460/2410.01460_first-order-transition-and-marginal-critical-behavior-in-a-t.md:273-285; the plotted curves are digitized from Fig. 11."

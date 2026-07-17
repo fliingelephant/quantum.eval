@@ -1,0 +1,604 @@
+# Partition layer for papers/2410.01460 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-61"
+text = "First-order transition and marginal critical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "5"
+chars = "122-150"
+text = "tensor-network implementation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-55"
+text = "First-order transition and marginal critical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "15"
+chars = "116-144"
+text = "tensor-network implementation"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "137-183"
+text = "tensor network renormalization group techniques"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "407-432"
+text = "marginal critical behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "654-721"
+text = "two transition lines, featuring both first- and second-order regimes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "743-852"
+text = "central charge and the critical exponents are shown to be compatible with the Ashkin-Teller universality class"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "963-1007"
+text = "recent studies with tensor network techniques"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "3-55"
+text = "First-order transition and marginal critical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "41"
+chars = "143-189"
+text = "Tensor-Network Renormalization-Group techniques"
+
+[[blocks]]
+sections = ["truth"]
+lines = "41"
+chars = "411-436"
+text = "marginal critical behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "41"
+chars = "653-719"
+text = "two transition lines, featuring both first and second-order regimes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "41"
+chars = "741-850"
+text = "central charge and the critical exponents are shown to be compatible with the Ashkin-Teller universality class"
+
+[[blocks]]
+sections = ["method"]
+lines = "41"
+chars = "957-1001"
+text = "recent studies with Tensor-Network techniques"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "48"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0001-08.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "51"
+text = "with σi,j ∈{−1; +1}. The ferromagnetic Ising model is recovered when J2 = 0. The system undergoes therefore a ferromagnetic-paramagnetic second-order phase transition at the self-dual coupling J1 =[1] 2[ln(1 +] √2) [1, 2]. The critical behavior belongs to the Ising universality class with magnetic and thermal critical exponents β = 1/8 and ν = 1 and a central charge c = 1/2. When J1 = 0, the system decouples into two sublattices, at 45[◦] of the original lattice and with a lattice step √2 (Fig. 1). Each one of these sublattices undergoes a transition from an anti-ferromagnetic phase to the paramagnetic phase at J2 = 12[ln(1][+] √2). The associated critical behavior also belongs to the Ising universality class. The central charge of the model is c = 2 × 2[1][= 1.] "
+
+[[blocks]]
+sections = ["problem"]
+lines = "56"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0001-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "1-63"
+text = "FIG. 1. Ising model with nearest and next-to-nearest couplings."
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "69-114"
+text = "black edges are the ferromagnetic couplings J1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "121-174"
+text = "dashed edges are anti-ferromagnetic with a coupling J2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "219-264"
+text = "two sublattices that are decoupled when J1 = 0"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "74"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0002-02.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "80"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0002-04.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "86"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0002-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "93"
+chars = "17-63"
+text = "Tensor-Network Renormalization Group techniques"
+
+[[blocks]]
+sections = ["method"]
+lines = "93"
+chars = "919-957"
+text = "Tensor-Network techniques open the door"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "93"
+chars = "1322-1346"
+text = "different bond dimensions"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "93"
+chars = "1411-1426"
+text = "truncation error"
+
+[[blocks]]
+sections = ["method"]
+lines = "93"
+chars = "1458-1496"
+text = "Tensor Renormalization Group algorithms"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "77-130"
+text = "simulations by Tensor Renormalization Group algorithms"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "41-54"
+text = "BTRG algorithm"
+
+[[blocks]]
+sections = ["truth"]
+lines = "97"
+chars = "188-241"
+text = "shown to belong to the AshkinTeller universality class"
+
+[[blocks]]
+sections = ["method"]
+lines = "101"
+text = "## II. MODEL AND ALGORITHM "
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "103"
+text = "## A. The model and its continuum limit "
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "13-47"
+text = "two anti-ferromagnetic Ising models"
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "69-112"
+text = "coupled by a non-local spin-spin interaction"
+
+[[blocks]]
+sections = ["problem"]
+lines = "108"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "360-433"
+text = "third line of Eq. 5 is an interaction term that couples these two replicas"
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "455-527"
+text = "ferromagnetic on horizontal edges and anti-ferromagnetic on vertical ones"
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "773-810"
+text = "symmetric under a change of sign of J1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "114"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "72-112"
+text = "symmetric under the exchange of J1 and J2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "141-163"
+text = "invariant under J1 ↔ J2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "172-235"
+text = "spins of the two replicas are first exchanged on every two sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "120"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "136-158"
+text = "inter-layer Hamiltonian"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "199-247"
+text = "sum over the plaquettes of a checkerboard lattice"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "132"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "138"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-14.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "1-53"
+text = "FIG. 2. Representation of the model defined by Eq. 5."
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "250-293"
+text = "anti-ferromagnetic intra-layer couplings −J2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "351-387"
+text = "ferromagnetic interlayer couplings J1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "413-456"
+text = "anti-ferromagnetic inter-layer couplings −J1"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "146"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-17.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "151"
+text = "## B. The BTRG algorithm "
+
+[[blocks]]
+sections = ["method"]
+lines = "153"
+text = "The BTRG algorithm derives from the Tensor Renormalization Group (TRG) algorithm introduced by Levin and Nave [24, 25]. The original TRG algorithm was proposed first for the triangular lattice before being extended to the square lattice [26]. The starting point is a decomposition of the partition function as a product of rank 4 tensors: "
+
+[[blocks]]
+sections = ["method"]
+lines = "156"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-21.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "159"
+text = "A tensor T is located at each vertex α of the lattice. Eα denotes the subset of edges of the lattice connecting the vertex α to its neighbors. Bond variables si are carried by the edges of the lattice. The bond variable si appears among the indices of the two tensors located at the vertices that are connected by the bond i. In the simple case of the Ising model, a possible decomposition of the partition function consists in identifying the bond variables si with the Ising spins σi (or with (σi + 3)/2 ∈{1, 2} in the numerical implementation). The tensors T are then located at the center of the plaquettes of the square lattice and correspond to the Boltzmann weight of this plaquette: "
+
+[[blocks]]
+sections = ["method"]
+lines = "162"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0003-23.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+text = "This formulation makes it easy to construct the effective statistical weight T[eff] resulting from the decimation of a spin σi. T[eff] is given by the contraction of the two tensors at the two edges of the bond carrying the spin σi "
+
+[[blocks]]
+sections = ["method"]
+lines = "170"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+text = "It is a rank 6 tensor. Iterating this procedure leads to a partition function with fewer and fewer spins but with tensors of larger and larger ranks that rapidly become unmanageable by a computer. The solution proposed by Levin and Nave relies on a Singular Value Decomposition (SVD) of each tensor before any decimation. The SVD is performed in two different ways: "
+
+[[blocks]]
+sections = ["method"]
+lines = "176"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "179"
+text = "for odd and even lattice sites (Fig. 3). U and V are unitary matrices that are reshaped into rank 3 tensors. Each rank 4 tensor T is replaced by the contraction of either the two rank 3 tensors Usisj sn �Λsn and �Λsn Vskslsn on even sites or Uslsisn �Λsn and �Λsn Vsj sksn on odd sites. As can be seen on Fig. 3, the new tensors form a lattice with two kinds of plaquettes with either 4 or 8 sites. The 4 tensors of the plaquettes with 4 sites can be contracted, leaving a single rank 4 tensor. Performing this operation in all such plaquettes leads to a new lattice of rank 4 tensors with a lattice step larger by a factor √2 and oriented at 45[◦] of the initial one. The above-detailed procedure is exact. However, if the dimension of the tensors is initially χ[4] , the dimension of the rank 3 tensors after the SVD of Eq. 14 is χ × χ × χ[2] . After contraction, the final tensors have a dimension (χ[2] )[4] . Again, after a few iterations of this algorithm, the tensors become exponentially large. To circumvent this problem, the SVD Eq. 14 can be limited to the χ largest singular values. This truncation ensures that the dimension of the rank 3 tensors U and V are χ[3] , leading to a tensor T of dimension χ[4] after contraction. This algorithm belongs to the class of variational methods. Indeed, the truncation minimizes the error defined as the Hilbert-Schmidt norm ||T − Ttrunc|| where Ttrunc is the result of the truncation of T . "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "181"
+text = "The accuracy of the TRG algorithm can be improved by introducing a weight w on each bond of the lattice [27]. The decomposition Eq. 11 of the partition function is replaced by "
+
+[[blocks]]
+sections = ["method"]
+lines = "184"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "187"
+text = "The Bond-Weighted Tensor Renormalization Group algorithm (BTRG) is very similar to the TRG algorithm. "
+
+[[blocks]]
+sections = ["method"]
+lines = "190"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "197"
+text = "FIG. 3. TRG algorithm on the square lattice. Tensors are represented as disks with different colors on even and odd sites. The bonds between them carry the variables si that have to be integrated out to compute the partition function. Each variable si appears among the indices of the two tensors at both edges of the bond i. Above and below, the Singular Value Decomposition of the tensor T on odd and even sites allows to write the tensor T as the contraction of two rank 3 tensors U √Λ and √ΛV . In the center, the new lattice obtained after the decomposition of all tensors T . On the right, the bonds of the square plaquettes have been integrated out, leaving a square lattice of new effective tensors represented in orange color. "
+
+[[blocks]]
+sections = ["method"]
+lines = "200"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "208"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0004-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "211"
+text = "FIG. 4. BTRG algorithm on the square lattice. The difference with the TRG algorithm lies in the presence of diagonal tensors on each edge of the lattice. They are represented as black dots on the figure. "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "213"
+text = "The main difference lies in the way the rank 4 tensors T are decomposed after the SVD of Eq. 14. Each tensor T is replaced by the contraction of either the two rank 3 tensors Usisj sn (Λsn )[k] and (Λsn )[k] Vskslsn on even sites or Uslsisn (Λsn )[k] and (Λsn )[k] Vsj sksn on odd sites. Between these two rank 3 tensors, a new weight (Λsn )[1][−][2][k] is introduced. k is a free parameter. The TRG algorithm is recovered when k = 1/2. It was suggested that the optimal choice is k = −1/2 [27]. The algorithm is depicted on Fig. 4. "
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "software", "truth"]
+lines = "218"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "software", "truth"]
+lines = "221"
+text = "**----- Start of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "truth"]
+lines = "222"
+text = "Free energy and critical exponents can be estimated<br>☎<br>from the χ χ × χ transfer matrix M transfer matrix M M of the system obtained<br>by contraction of the tensor T [28–31]: ☛☛☞☞ ✌✌ ✁✁✂✂✍✝✁✁<br>✁✂✟ ☛☞ ✌ ✁✂✆✁<br>Msi,sk = � Tsisj sksj . (16) ☛☞ ✌ ✁✂✞✁<br>sj ☛☞ ✌ ✁✂✎✁<br>The largest eigenvalues λii of the transfer matrix M are ✁✂✞ ☛☞ ✌ ✁✂✟✁<br>then estimated using the Lanczos algorithm as imple-<br>✁✂✝<br>mented in the Arpack library [32]. The free energy den-<br>sity of the system is given by the logarithm of the largest<br>eigenvalue λ0:0:: ✁✂✄<br>f (L) = − [1] (17)<br>L [ln][ λ][0] ✁<br>� ✁✂✄ � ✁✂☎✆ � ✁✂☎ � ✁✂✁✆ ✁ ✁✂✁✆ ✁✂☎<br>where the width L of the system is related to the number ✠<br>n<br>n of BTRG iterations by √2 .<br>FIG. 5. Average staggered magnetization density ⟨m [A] ⟩ along<br>lines perpendicular to the diagonal J1 = J2. The staggered<br>III. PHASE DIAGRAM magnetization has been estimated by coupling a small mag-<br>netic field h = 10 [−][3] to the system.<br>A. Phases and transitions<br>Fig. 5. The transition becomes steeper as J0 is increased.<br>The state of the system is readily determined at several This suggests the possibility of a first-order phase at large<br>points of the phase diagram. At the point J11 = J22 = 0, J0.<br>equivalent to an infinite temperature, the Ising spins In the limit J1 → +∞ and J2 → 0, the Ising spins<br>are uncoupled so the equilibrium state of the system are only coupled to their neighbors in the other replica.<br>is the paramagnetic state. One may therefore assume The coupling is ferromagnetic in the horizontal direction<br>that there exists a finite region of the phase diagram, of the lattice but anti-ferromagnetic in the vertical one.<br>containing the point J11 = J22 = 0, where the param- The quantity<br>agnetic phase is stable. In the limit J22 → +∞∞ and<br>J11 → 0, the two replicas are uncoupled and ordered anti- M¯ [A] = � �σi,j [A] [+][ σ] i [B] +1,j [−] [σ] i [A] +1,j+1 [−] [σ] i,j [B] +1� (21)<br>ferromagnetically. An anti-ferromagnetic phase is there- i,j<br>fore expected in a region the phase diagram containing even<br>this point. The⟨Mtwo [A,B] average⟩ = �(staggered−1) [i][+][j] ⟨σi,j [A,B] magnetizations [⟩] (18) nately,isbrokennon-zeroitbyisaonnotmagneticaveragepossiblefieldwhento coupledaddthe thisup-downtoZeemanM¯ [A] symmetry. Unfortu-couplingis<br>i,j to our implementation of the BTRG algorithm because<br>are expected to take a non-zero value in this phase when we assumed that all vertices of the tensor network were<br>a small magnetic field h is coupled to the system by a equivalent, while such a Zeeman coupling implies inequiv-<br>Zeeman Hamiltonian hM [[A,B]] . We measured these stag- alent plaquettes. Nevertheless, the behavior of ⟨M [¯] [A] ⟩ can<br>gered magnetizations along different lines perpendicular be deduced from the symmetry of the Hamiltonian under<br>to the diagonal J11 = J2 J22 and parameterized as the exchange J1 ↔ J2 when the transformations Eq. 7<br>and 8 are successively performed. One can check that the<br>J1(x) = J0 + x, J2(x) = J0 − x (19) image of the order parameter Eq. 21 under these trans-<br>formations is, as expected, the staggered magnetization<br>where the parameter x allows to move along these lines Eq. 18. As consequence, the behavior of ⟨M [¯] [A] (x)⟩ along<br>and J00 identifies the different lines by their intersection the lines perpendicular to the diagonal J1 = J2 is sim-<br>J11 = J22 = J00 with the diagonal. BTRG simulations ply given by the reflection ⟨M [A] (−x)⟩ of the staggered<br>were performed with χ = 32 states and 32 iterations for magnetization.<br>several values of the staggered magnetic field h.. The<br>staggered magnetization density is estimated from the<br>finite-difference of the free energy density B. Critical lines<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "225"
+text = "Free energy and critical exponents can be estimated from the χ χ × χ transfer matrix M transfer matrix M M of the system obtained by contraction of the tensor T [28–31]: "
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "227"
+text = "The largest eigenvalues λii of the transfer matrix M are then estimated using the Lanczos algorithm as implemented in the Arpack library [32]. The free energy density of the system is given by the logarithm of the largest eigenvalue λ0:0:: "
+
+[[blocks]]
+sections = ["problem"]
+lines = "231"
+chars = "58-106"
+text = "a small magnetic field h is coupled to the system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "231"
+chars = "147-237"
+text = "measured these staggered magnetizations along different lines perpendicular to the diagonal"
+
+[[blocks]]
+sections = ["problem", "method", "method_params"]
+lines = "233"
+text = "where the parameter x allows to move along these lines and J00 identifies the different lines by their intersection J11 = J22 = J00 with the diagonal. BTRG simulations were performed with χ = 32 states and 32 iterations for several values of the staggered magnetic field h.. The staggered magnetization density is estimated from the finite-difference of the free energy density "
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "236"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "90-130"
+text = "transition line in the half plane J2 > J1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "158-186"
+text = "possibly a first-order regime"
+
+[[blocks]]
+sections = ["problem"]
+lines = "241"
+chars = "35-68"
+text = "small magnetic fields h ≃ 10[−][3]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "72-109"
+text = "A phase transition is clearly observed"
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "anchors", "truth"]
+lines = "245"
+text = "� ✁ transition line is expected in the half-plane J11 > J2.2.. In this section, we determine more precisely the location of these two transition lines in the second-order regime and study the critical behavior. � ✞ Assuming that conformal invariance holds for this system, the free energy density is expected to scale with the � ✝ stripe width L as [33] 1 � ✆ f (L) = f∞ − 6[πc] L[2][+][ O] � L[4] � (22) at the critical point. The universal constant c is the � ☎✄ 2DcentralIsingchargemodelwhichand c takes= 1 forthethevalueAshkin-Tellerc = 1/2 formodel.the � ✁✂ � ✁✄ � ✟ ✠�✡☎☛✂☞ ✌✍ � ☎✄ � ✂ Away from criticality, the constant c is not universal anymore and takes a smaller value. However, it was shown FIG.F∞ − F6.(LLogarithm) versus the logarithm of 1(base 10) of the/L[2] freefor couplings (energy differenceJ1, J2) to that this constant increases monotonically along the equal to (0.612965, −0.605170), (0.448669, −0.134480), and Renormalization-Group flow and is maximum at the fixed (0.440618, 0). The symbols correspond to the data points and point [34]. The critical point can therefore be determined the dashed curves to the quadratic fit. The central charge c as the location of the maximum of c. We estimated the is related to the vertical intercept. The number of states is free energy density from the largest eigenvalue of the χ = 48. transfer matrix (Eq. 17). The central charge c is then estimated from the Finite-Size Scaling Eq. 22. To take into account the first correction to this behavior, a quadratic (J1, J2)J1, J2)1, J2), J2)2)) while keeping only χ = 16 states in the BTRG fit with 1/L[2] was performed: "
+
+[[blocks]]
+sections = ["method"]
+lines = "250"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0006-03.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "software", "software_params", "truth"]
+lines = "253"
+text = "A cubic fit does not yield significantly different results. Two difficulties were however encountered: the lattice size is multiplied by a factor √2 at each iteration of the BTRG algorithm. As a consequence, our lattice sizes are distributed exponentially, and not linearly, as would be the case with a more traditional transfer matrix calculation. We have checked for the Ising model and the Ashkin-Teller model along its critical line that the fit gives nevertheless the expected central charge. We assume that it is also the case for our J1 − J2 model. The second difficulty is that the free energy does not behave as 1/L[2] at large lattice sizes (our largest lattice size is 33 √2 ≃ 92, 680) but tends towards a plateau, due to the finite number of states χ kept in the BTRG calculation and to the finite accuracy in the estimation of the largest eigenvalue λ0 with the Arpack library. To circumvent this problem, we discarded all free energies f (Ln) such that |f (Ln) − f (Ln−1)| < 10[−][12] where {Ln} are the set of lattices sizes given by the BTRG algorithm. Examples of fits of the free energy density are shown on Fig. 6 for three different points on the critical line. Because the lattice sizes are distributed exponentially, logarithms are plotted. One clearly sees on Fig. 6 the plateau reached by the free energy at large lattice sizes. "
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "truth"]
+lines = "257"
+text = "(J1, J2)J1, J2)1, J2), J2)2)) while keeping only χ = 16 states in the BTRG algorithm. The location of the maxima was then refined by dichotomy until reaching an accuracy of 10[−][5] . A few points around the maxima were selected and used to initiate a new search by dichotomy with χ = 24 states. The procedure was repeated for 32 and 48 states. The central charge is plotted for χ = 16 in Fig. 7. Two branches are clearly observed. As expected (Sec. II A), they are images of each other under the exchange J1 ↔ J2. The two branches seem to merge at J1 = J2 ≃ 0.6. Beyond this point, i.e. for J1 ≳ 0.6, the free energy density f (L) reaches a plateau already for small lattice sizes L so that no fit can be performed. For χ = 24, the free energy density f (L) can be fitted only for J1 ≲ 0.40 (first branch) or J2 ≲ 0.40 (second branch). For χ = 32 and 48, the fit is reliable only for J1 ≲ 0.33 (first branch) or J2 ≲ 0.33 (second branch). In contrast to the case χ = 16, the two branches do not merge anymore. This does not imply that there is no phase transition for J1 ≳ 0.33. A phase transition was indeed observed in Sec. III A. However, the relation Eq. 17 holds only for second-order phase transitions when the RG fixed point is conformally invariant. The phase transition beyond J1 ≳ 0.33 is therefore probably of first order. "
+
+[[blocks]]
+sections = ["problem", "method_params", "truth"]
+lines = "259"
+text = "The maxima of the central charge are plotted in the two branches on Fig. 8. For χ = 16, the central charge is approximatively constant for J1, J2 ≲ 0.4, then decreases rapidly and vanishes for J1, J2 ≃ 0.6. For χ = 24, 32 and 48, this decrease is much less pronounced. Instead, the central charge varies slowly from c = 0.9774 at (J1, J2) equal to (0, −0.44062) and (0.44062, 0) [36] to c = 0.9383 at (J1, J2) equal to (0.33620, −0.49206) and (0.49206, −0.33620) for χ = 48. Close values are ob- "
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "truth"]
+lines = "264"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0007-01.png)"
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "anchors", "truth"]
+lines = "268"
+text = "✂☎✄ ✟✠ ✡ ✂☎✂✂✂✂✂✂<br>✟✠ ✡ ✂☎✂✄✄☛✁✂<br>✟✠ ✡ ✂☎✂☛☛☞✄✂<br>✟✠ ✡ ✂☎✂✌✍✄☛✂<br>✂☎✁� ✟✠ ✡ ✂☎✂☞✎✌�✂<br>✟✠ ✡ ✂☎✁✁✄✂✌✂<br>✟✠ ✡ ✂☎✁✏☛☛☞✂<br>✄ ✁ ✂☎✁ ✟✟✠✠ ✡✡ ✂✂☎☎✁✁✍�✌✎✏☞✎✁✂✂<br>✁✂✌ ✁✂✄ ✟✠ ✡ ✂☎✄✂✁✍✄✂<br>✁✂✡ ✁✂☎ ✟✠ ✡ ✂☎✄✄☛✁✏✂<br>✁✂✟ ✁✂✆ ✂☎✂� ✟✠ ✡ ✂☎✄☛✌��✂<br>✁✂☎✁ ✁✂✁✠✂✟ ✝✞ ✟✟✠✠ ✡✡ ✂✂☎☎✄✄✌✎☞✁✏✎✍✌✂✂<br>✁ ☛ ✁✂✄ ☛ ✁✂☎ ☛☛✝✁☞✂✆ ☛ ✁✂✟ ☛ ✁✂✠ ☛ ✁✂✡ ✁✂✡ ✂ � ✁✂ ✁� ✄✂ ✄� ✟✟✠✠ ✡✡ ✂✂☎☎✏✏✏✁✌✏✄✍✎✂✂✂<br>✆<br>FIG. 7. Central charge c versus the couplings J1 and −J2 for FIG. 9. First scaling dimension x1 versus the number of it-<br>χ = 16 states in the BTRG algorithm. erations of the BTRG algorithm with χ = 96. The different<br>curves correspond to different points on the first critical line.<br>value.<br>✞<br>✁✂✝<br>IV. CRITICAL BEHAVIOR<br>✁✂✄ The scaling dimensions xn of the scaling operators of<br>the theory can be estimated from the gaps between the<br>✁✂☎ eigenvalues λn of the transfer matrix and the largest one<br>λ0. The gap-exponent relation states that<br>✁✂✆<br>xn = − [L] . (24)<br>2π [ln][ λ] λ [n] 0<br>✁<br>� ✁✂✄ � ✁✂☎ � ✁✂✆ ✁ ✁✂✆ ✁✂☎ ✁✂✄<br>✟ To improve the accuracy on the xn, additional calcula-<br>tions were performed with χ = 64 and 96 states along the<br>FIG. 8. Maximum of the central charge c in the two branches two critical lines previously determined with χ = 48. As<br>versus the coupling J1 in the first branch (blue symbols) and discussed in details in Ref. [29], the estimation of the scal-<br>versus −J2 in the second branch (red symbols). The different ing dimensions require to choose carefully the lattice size.<br>symbols correspond to different number of states (χ = 16 for At too small lattice sizes, Finite-Size corrections cannot<br>+, 24 for ×, 32 for ∗ and 48 for ◦). be neglected and yield systematic deviations of the esti-<br>mated scaling dimensions. At intermediate lattice sizes,<br>a plateau is observed on Fig 9 for various points on the<br>tained for χ = 32 while much larger deviations are ob- critical line. However, at large lattice sizes, the estimates<br>served for χ = 24. Surprisingly, a few points at c ≃ 0.498 of the scaling dimensions either diverge or tends to zero,<br>around (J1, J2) ≃ (0.61, −0.59) and (0.59, −0.61) can be as would be case in the ferromagnetic or paramagnetic<br>seen on the figure for χ = 48 but not for the other number case. Due to the finite number of states χ kept in the<br>of states. The free energy density of one of these points BTRG algorithm, the system is indeed gapped and not<br>is plotted on Fig. 6. Nothing special can be observed. really critical. We measured the scaling dimensions in<br>Our interpretation is that, probably due to a numerical the plateau, after 12 iterations of the BTRG algorithm.<br>instability, the BTRG algorithm took the system to a The three first scaling dimensions along the two<br>fixed point which is critical for one of the two replicas critical curves are plotted on Fig. 10. The difference<br>but trivial (either paramagnetic or anti-ferromagnetic) between the first two scaling dimensions x1 and x2<br>for the other. is at most 4.10 [−][4] so it can be assumed that they are<br>In the Ashkin-Teller model, the central charge is ex- degenerated. They take a value close to 1/8 at the points<br>pected to remain constant at c = 1 along the self-dual (0, [1] 2 [ln(1 +] √2)) and (− [1] 2 [ln(1 +] √2), 0) where the two<br>critical line. Our numerical data for the J1 − J2 Ising Ising replicas are not coupled. When going away from<br>model show deviations that are at most 6% from this these points, they decrease down to a value 0.118 at<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "method_params", "anchors", "truth"]
+lines = "273"
+text = "✞ ✁✂☎✝ ✁✂✝ ✁✂☎ ✁✂✆ ✁✂✄ ✁✂✆✝ ✁✂☎ ✁✂✆ ✁ � ✁✂✄ � ✁✂☎ ✁ ✁✂☎ ✁✂✄ � ✁✂✄ � ✁✂☎ ✁ ✁✂☎ ✁✂✄ ✞ ✟ FIG. 10. Three first scaling dimensions xn along the two FIG. 11. Five first scaling dimensions xn along the two critical critical lines versus the coupling J1 in the first branch (blue lines versus the coupling J1 in the first branch (blue symbols) symbols) and versus −J2 in the second branch (red symbols). and versus −J2 in the second branch (red symbols). The black The different symbols correspond to n = 1 for +, 2 for × and dashed curves are only guide to the eyes. The dashed curve 3 for ◦. The black dashed curves are only guide to the eyes. for x4 (∗) has been computed using a parabolic approximation of x3 (◦) and the assumption of a Ashkin-Teller universality class. χ = 64 and 0.116 at χ = 96, i.e. a relative deviation of 6% from 1/8. Note that the same decrease was observed for the central charge. Assuming that x1 and x2 are pendence on J1 (resp. J2) of the 4th scaling dimensions constant and equal to xσ = 1/8, one can associate them of our J1 − J2 model is in good agreement with this to the magnetization density of each Ising replicas. prediction of xt. This provides strong evidence that the model belongs to the Ashkin-Teller universality class. As can be observed on Fig. 10, the third scaling dimension x3 takes the value 0.254 at χ = 64 and 0.255 at One can see on the figure that the gap with the 5th χ = 96, close to 1/4, at the points where the Ising replicas scaling dimension vanishes at the Ising point for χ = 96. decouple and decreases significantly along the two critical It is a pure coincidence. For χ = 64, the 5th scaling lines. Remarkably, the data points fall reasonably close dimension x5 takes a value close to ≃ 0.92. A crossing to a simple parabola[1] 4[−][1] 8[(][J][1][/J][t][)][2][with][ J][t][≃][0][.][427.][The] with the 4th scaling dimensions is therefore observed for range of variation of the third scaling dimension x3 is J1 ≃ 0.13. For χ = 48, x5 ≃ 0.82 and the crossing with similar to that of the scaling dimension xστ of the pox4 occurs at larger couplings J1. We therefore expect larization density of the Ashkin-Teller model, which dethat, for χ > 96, the 5th scaling dimension take valcreases along the self-dual critical line, going from 1/4 ues larger than 1 so that the gap with x4 does not close at the Ising point to 1/8 at the 4-state Potts point. If anymore. One should also mention that, as discussed the similarity is actually a correspondence, it would imearlier, the estimation of the critical line is reliable only ply that our J1 − J2 model belongs to the 4-state Potts for J1 ≲ 0.33 or J2 ≲ 0.33. As a consequence, all scaling universality class when J1 = Jt (resp. J2 = Jt) on the dimensions xn computed for J1 > 0.33 or J2 > 0.33 take first (resp. second) branch. values either very small or very large and, in this case, The fact that the third scaling dimension goes from 1/4/44 are not visible on the figure. Surprisingly, the two points to 1/8, like/8, like8, like the scaling dimension xστστ of the polarization at J1 ≃ 0.40344 and J2 ≃ 0.40344 are an exception and density of the Ashkin-Teller model, is not sufficient to delead to estimates of the scaling dimensions xn consistent clare that our J1 − J1 −1 − − J22 model belongs to the Ashkin-Teller with the Ashkin-Teller universality class. "
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "275"
+text = "The fact that the third scaling dimension goes from 1/4/44 to 1/8, like/8, like8, like the scaling dimension xστστ of the polarization density of the Ashkin-Teller model, is not sufficient to declare that our J1 − J1 −1 − − J22 model belongs to the Ashkin-Teller universality class. In the latter, the critical exponents have been shown to be [14–16] "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "280"
+text = "![](.figures/arxiv__2410.01460/2410.01460.pdf-0008-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "283"
+chars = "189-217"
+text = "BTRG Tensor-Network algorithm"
+
+[[blocks]]
+sections = ["truth"]
+lines = "283"
+chars = "228-274"
+text = "provided evidence that the two transition lines"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "285"
+text = "where the parameter y is in the range [0; 3/2] along the critical line. Using the ansatz xστ = 14[−] 8[1][(][J][1][/J][t][)][.][2] that was introduced above, we extracted the parameter y and plotted the scaling dimension xt = 2 − yt of the energy density. As can be observed on Fig. 11, the de- "
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "1-46"
+text = "include both a first and a second-order regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "291"
+chars = "29-206"
+text = "our estimates of the central charge and of the magnetic, electric, and thermal critical exponents along the critical line are compatible with the Ashkin-Teller universality class"
+
+[[blocks]]
+sections = ["method"]
+lines = "347"
+chars = "33-69"
+text = "Tensor Renormalization Group Approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "349"
+chars = "42-71"
+text = "Tensor Network Renormalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "353"
+chars = "42-83"
+text = "Bond-Weighted Tensor Renormalization Group"
+
+[[blocks]]
+sections = ["method"]
+lines = "355"
+chars = "82-111"
+text = "Tensor Network Renormalization"
+
+[[blocks]]
+sections = ["software"]
+lines = "365"
+chars = "52-70"
+text = "ARPACK Users’ Guide"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "373"
+text = "- [35] Note that the two Ising replicas decouple at the points (0, −[1] 2[ln(1 +] √2)) ≃ (0, −0.44069) and ([1] 2[ln(1 +] √2), 0) of the transition lines. "

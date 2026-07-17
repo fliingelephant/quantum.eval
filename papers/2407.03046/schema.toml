@@ -9,9 +9,383 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevB.111.045125"
 arxiv_version = "2407.03046v3"
+md_sha256 = "b61e22cb0035d3995b836dc691902f89487413ceafb745b153a39b4d33ecd157"
 
 [candidate_notes]
 model = "1D Hubbard chain + SSH coupling to optical phonons, half-filled and doped; classic VMC with backflow-inspired Jastrow-Slater pair-product (BCS) ansatz"
 headline = "phase diagram: Mott vs Peierls insulator at half filling; doped spin-gapped metal (gapless charge, gapped spin, two Fermi points) on L~50-100 chains; bosonization-level identification"
 compute = "1D polynomial-cost VMC, few-to-hundreds of parameters: minutes-to-hours on CPU"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "One-dimensional Hubbard-Su-Schrieffer-Heeger electron-phonon chain: nearest-neighbor hopping modulated by optical-phonon displacements, onsite Hubbard repulsion U, and one harmonic oscillator per lattice site."
+model_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:73; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:76"
+convention = "The hopping t is the energy scale; the dimensionless electron-phonon coupling is lambda = t alpha^2/(m omega^2) = t alpha_tilde^2/(hbar omega), and calculations fix hbar omega/t = 1."
+convention_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:115-121"
+instance = "One spatial dimension, L-site periodic chains, total spin projection sum_i S_i^z = 0, half filling N_e = L and hole doping N_e < L with delta = 1 - N_e/L; the reported campaigns use L = 40, 50, 80, and 120."
+instance_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:203; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:297; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:337"
+observables = "Relative variational-energy error epsilon, density N(q), spin S(q), bond B(q) structure factors, and half-filled and doped phase labels inferred from dimerization and structure-factor singularities."
+observables_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:107; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:215; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:323"
+
+[[problem.targets]]
+panel = "1a"
+quantity = "Relative variational-energy error epsilon(lambda) for No Backflow, Backflow - No J_ep, and Backflow wave functions"
+setup = "L = 50, half filling, U/t = 4; x-axis lambda"
+tier = "medium"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:107"
+
+[[problem.targets]]
+panel = "1b"
+quantity = "Relative variational-energy error epsilon(lambda) for No Backflow, Backflow - No J_ep, and Backflow wave functions"
+setup = "L = 50, half filling, U/t = 10; x-axis lambda"
+tier = "medium"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:107"
+
+[[problem.targets]]
+panel = "2"
+quantity = "Half-filled phase label, Mott or Peierls, over the (U/t, lambda) plane"
+setup = "hbar omega/t = 1, L = 50; filled circles mark calculated points"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:193"
+
+[[problem.targets]]
+panel = "3a"
+quantity = "Density structure factor N(q)"
+setup = "Half filling, L = 50, U/t = 4, lambda = 0.04, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:215"
+
+[[problem.targets]]
+panel = "3b"
+quantity = "Spin structure factor S(q)"
+setup = "Half filling, L = 50, U/t = 4, lambda = 0.04, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:215"
+
+[[problem.targets]]
+panel = "3c"
+quantity = "Bond structure factor B(q)"
+setup = "Half filling, L = 50, U/t = 4, lambda = 0.04, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:215"
+
+[[problem.targets]]
+panel = "3d"
+quantity = "Density structure factor N(q)"
+setup = "Half filling, L = 50, U/t = 4, lambda = 0.25, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:215"
+
+[[problem.targets]]
+panel = "3e"
+quantity = "Spin structure factor S(q)"
+setup = "Half filling, L = 50, U/t = 4, lambda = 0.25, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:215"
+
+[[problem.targets]]
+panel = "3f"
+quantity = "Bond structure factor B(q)"
+setup = "Half filling, L = 50, U/t = 4, lambda = 0.25, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:215"
+
+[[problem.targets]]
+panel = "4a"
+quantity = "Density structure factor N(q)"
+setup = "L = 50, U/t = 4, lambda = 0.04, delta = 0.08, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:241"
+
+[[problem.targets]]
+panel = "4b"
+quantity = "Spin structure factor S(q)"
+setup = "L = 50, U/t = 4, lambda = 0.04, delta = 0.08, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:241"
+
+[[problem.targets]]
+panel = "4c"
+quantity = "Density structure factor N(q)"
+setup = "L = 50, U/t = 4, lambda = 0.04, delta = 0.16, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:241"
+
+[[problem.targets]]
+panel = "4d"
+quantity = "Spin structure factor S(q)"
+setup = "L = 50, U/t = 4, lambda = 0.04, delta = 0.16, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:241"
+
+[[problem.targets]]
+panel = "4e"
+quantity = "Density structure factor N(q)"
+setup = "L = 50, U/t = 4, lambda = 0.04, delta = 0.32, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:241"
+
+[[problem.targets]]
+panel = "4f"
+quantity = "Spin structure factor S(q)"
+setup = "L = 50, U/t = 4, lambda = 0.04, delta = 0.32, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:241"
+
+[[problem.targets]]
+panel = "5a"
+quantity = "Density structure factor N(q)"
+setup = "L = 50, U/t = 4, lambda = 0.25, delta = 0.08, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:287"
+
+[[problem.targets]]
+panel = "5b"
+quantity = "Spin structure factor S(q)"
+setup = "L = 50, U/t = 4, lambda = 0.25, delta = 0.08, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:287"
+
+[[problem.targets]]
+panel = "5c"
+quantity = "Density structure factor N(q)"
+setup = "L = 50, U/t = 4, lambda = 0.25, delta = 0.16, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:287"
+
+[[problem.targets]]
+panel = "5d"
+quantity = "Spin structure factor S(q)"
+setup = "L = 50, U/t = 4, lambda = 0.25, delta = 0.16, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:287"
+
+[[problem.targets]]
+panel = "5e"
+quantity = "Density structure factor N(q)"
+setup = "L = 50, U/t = 4, lambda = 0.25, delta = 0.32, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:287"
+
+[[problem.targets]]
+panel = "5f"
+quantity = "Spin structure factor S(q)"
+setup = "L = 50, U/t = 4, lambda = 0.25, delta = 0.32, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:287"
+
+[[problem.targets]]
+panel = "6a"
+quantity = "Density structure factor N(q)"
+setup = "L = 50, U = 0, lambda = 0.16, delta = 0.08, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:309"
+
+[[problem.targets]]
+panel = "6b"
+quantity = "Spin structure factor S(q)"
+setup = "L = 50, U = 0, lambda = 0.16, delta = 0.08, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:309"
+
+[[problem.targets]]
+panel = "6c"
+quantity = "Bond structure factor B(q)"
+setup = "L = 50, U = 0, lambda = 0.16, delta = 0.08, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:309"
+
+[[problem.targets]]
+panel = "7"
+quantity = "Doped phase label, Luttinger or Luther-Emery metal, over the (lambda, delta) plane"
+setup = "U/t = 4, hbar omega/t = 1, L = 50; singularities in S(q) determine the labels"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:323-325"
+
+[[problem.targets]]
+panel = "8a"
+quantity = "Density structure factor N(q) under size scaling"
+setup = "lambda = 0.25, delta = 0.15, L = 40, 80, 120, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:337"
+
+[[problem.targets]]
+panel = "8b"
+quantity = "Spin structure factor S(q) under size scaling"
+setup = "lambda = 0.25, delta = 0.15, L = 40, 80, 120, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:337"
+
+[[problem.targets]]
+panel = "8c"
+quantity = "Bond structure factor B(q) under size scaling"
+setup = "lambda = 0.25, delta = 0.15, L = 40, 80, 120, 0 <= q <= 2 pi"
+tier = "light"
+provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:337"
+
+[method]
+family = "Variational Monte Carlo (VMC)"
+family_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:27"
+algorithm = "Generalized Jastrow-Slater wave function: phonon condensate times phonon-dependent pair-product/BCS electronic state times electron-electron, phonon-phonon, and electron-phonon Jastrow factors; Metropolis sampling and stochastic-reconfiguration optimization."
+algorithm_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:63-65; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:125-145; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:203"
+valid_families = ["variational Monte Carlo", "matrix-product-state / DMRG"]
+valid_families_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:221"
+valid_algorithms = ["phonon-dependent backflow VMC", "standard Jastrow-Slater / BCS VMC", "DMRG with an MPS"]
+valid_algorithms_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:147-171; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:221"
+
+[method_params]
+sampler = "Metropolis Markov chain over electron and phonon configurations; electron proposals are single or double nearest-neighbor hops and phonon proposals are X_j -> X_j + Delta with Delta uniform on [-Delta_max, Delta_max]."
+sampler_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:139-145"
+samples = "The Monte Carlo estimate averages M sampled configurations; the paper does not state a numerical M."
+samples_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:139-142"
+phonon_cutoff = "DMRG benchmark truncates the local phonon Hilbert space at 10 bosons per site."
+phonon_cutoff_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:221"
+bond_dimension = "DMRG MPS bond dimension is above chi = 1200 and reaches chi = 2400 in some cases."
+bond_dimension_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:221"
+energy_variance = "The DMRG total-energy variance is below 0.007 t^2 at half filling and below 0.09 t^2 in the doped calculations."
+energy_variance_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:221; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:311"
+
+[software]
+vmc_code = "A JAX-based variational Monte Carlo code using mpi4jax for parallel CPUs."
+vmc_code_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:203; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:349"
+dmrg_code = "ITensor Software Library for the DMRG benchmark."
+dmrg_code_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:221"
+valid_tools = ["JAX + mpi4jax", "ITensor"]
+valid_tools_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:203; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:221"
+
+[software_params]
+dmrg_translation_setting = "The benchmark MPS has no translational symmetry for computational efficiency."
+dmrg_translation_setting_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:221"
+parallelism = "The VMC implementation runs on parallel CPUs through mpi4jax."
+parallelism_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:203"
+
+[anchors]
+zero_coupling_limits = "At lambda = 0 the model is the Mott-insulating limit with no electron-phonon coupling; at U = 0 the half-filled limit is Peierls insulating."
+zero_coupling_limits_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:251"
+fermi_momentum = "For hole doping delta, k_F = pi(1 - delta)/2 and the correlation singularities occur at 2 k_F."
+fermi_momentum_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:297"
+structure_factor_diagnostics = "Power-law real-space correlations give momentum-space cusps and gapless excitations; exponential decay gives smooth structure factors and gapped excitations; N(q) proportional to q^2 at small q diagnoses a charge gap."
+structure_factor_diagnostics_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:275; Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:289-293"
+transition_class = "The Mott-Peierls transition is expected to be Kosterlitz-Thouless, with an exponentially small Peierls spin gap near the transition."
+transition_class_provenance = "Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:251"
+
+[truth."1a"]
+csv = "truth_1a.csv"
+tolerance = 0.005
+provenance = "Inferred Figure 1 upper-panel digitization; the text also states epsilon approximately 0.01 for the best wave function at U/t = 4 (Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:225)."
+
+[truth."1b"]
+csv = "truth_1b.csv"
+tolerance = 0.005
+provenance = "Inferred Figure 1 lower-panel digitization; the text also states epsilon approximately 0.02 for the best wave function at U/t = 10 (Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:225)."
+
+[truth."2"]
+value = "Mott/Peierls phase labels and crossover boundary digitized from the half-filled phase diagram."
+tolerance = "phase-label exact; boundary uncertainty about 0.01 in lambda"
+provenance = "Inferred Figure 2 image digitization, with setup stated literally in 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:193."
+
+[truth."3a"]
+csv = "truth_3a.csv"
+tolerance = 0.03
+provenance = "Inferred Figure 3(a) digitization."
+[truth."3b"]
+csv = "truth_3b.csv"
+tolerance = 0.03
+provenance = "Inferred Figure 3(b) digitization."
+[truth."3c"]
+csv = "truth_3c.csv"
+tolerance = 0.10
+provenance = "Inferred Figure 3(c) digitization; the text explicitly reports B(pi) approximately 30 in the Peierls panel (Literal 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:291)."
+[truth."3d"]
+csv = "truth_3d.csv"
+tolerance = 0.03
+provenance = "Inferred Figure 3(d) digitization."
+[truth."3e"]
+csv = "truth_3e.csv"
+tolerance = 0.05
+provenance = "Inferred Figure 3(e) digitization."
+[truth."3f"]
+csv = "truth_3f.csv"
+tolerance = 0.30
+provenance = "Inferred Figure 3(f) digitization."
+
+[truth."4a"]
+csv = "truth_4a.csv"
+tolerance = 0.03
+provenance = "Inferred Figure 4(a) digitization."
+[truth."4b"]
+csv = "truth_4b.csv"
+tolerance = 0.05
+provenance = "Inferred Figure 4(b) digitization."
+[truth."4c"]
+csv = "truth_4c.csv"
+tolerance = 0.03
+provenance = "Inferred Figure 4(c) digitization."
+[truth."4d"]
+csv = "truth_4d.csv"
+tolerance = 0.05
+provenance = "Inferred Figure 4(d) digitization."
+[truth."4e"]
+csv = "truth_4e.csv"
+tolerance = 0.03
+provenance = "Inferred Figure 4(e) digitization."
+[truth."4f"]
+csv = "truth_4f.csv"
+tolerance = 0.05
+provenance = "Inferred Figure 4(f) digitization."
+
+[truth."5a"]
+csv = "truth_5a.csv"
+tolerance = 0.04
+provenance = "Inferred Figure 5(a) digitization."
+[truth."5b"]
+csv = "truth_5b.csv"
+tolerance = 0.05
+provenance = "Inferred Figure 5(b) digitization."
+[truth."5c"]
+csv = "truth_5c.csv"
+tolerance = 0.04
+provenance = "Inferred Figure 5(c) digitization."
+[truth."5d"]
+csv = "truth_5d.csv"
+tolerance = 0.05
+provenance = "Inferred Figure 5(d) digitization."
+[truth."5e"]
+csv = "truth_5e.csv"
+tolerance = 0.04
+provenance = "Inferred Figure 5(e) digitization."
+[truth."5f"]
+csv = "truth_5f.csv"
+tolerance = 0.05
+provenance = "Inferred Figure 5(f) digitization."
+
+[truth."6a"]
+csv = "truth_6a.csv"
+tolerance = 0.03
+provenance = "Inferred Figure 6(a) digitization."
+[truth."6b"]
+csv = "truth_6b.csv"
+tolerance = 0.03
+provenance = "Inferred Figure 6(b) digitization."
+[truth."6c"]
+csv = "truth_6c.csv"
+tolerance = 0.08
+provenance = "Inferred Figure 6(c) digitization."
+
+[truth."7"]
+value = "Luttinger/Luther-Emery phase labels and transition boundary digitized from the (lambda, delta) phase diagram."
+tolerance = "phase-label exact; boundary uncertainty about 0.01 in lambda or delta"
+provenance = "Inferred Figure 7 image digitization; the construction criterion is stated literally in 2407.03046_insulating-and-metallic-phases-in-the-one-dimensional-hubbar.md:323-325."
+
+[truth."8a"]
+csv = "truth_8a.csv"
+tolerance = 0.04
+provenance = "Inferred Figure 8(a) digitization."
+[truth."8b"]
+csv = "truth_8b.csv"
+tolerance = 0.04
+provenance = "Inferred Figure 8(b) digitization."
+[truth."8c"]
+csv = "truth_8c.csv"
+tolerance = 0.15
+provenance = "Inferred Figure 8(c) digitization."

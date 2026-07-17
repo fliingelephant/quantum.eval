@@ -9,9 +9,246 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevB.110.054411"
 arxiv_version = "2405.08688v1"
+md_sha256 = "0eada96f4d5244fb0825796b50f653e12bfed70aad1e280eabc3c3eb61ebd6a3"
 
 [candidate_notes]
 model = "spatially anisotropic spin-1/2 square-lattice Heisenberg AFM (coupled chains, lambda=J'/J); SSE, sign-free + continuous-similarity-transformation magnon expansion"
 headline = "E/N, staggered magnetization, spin gap, transverse correlation length vs anisotropy; SSE and semi-analytic magnon expansion agree; analytic dispersion<->correlation-length relation"
 compute = "moderate-anisotropy curves at L<=32, beta~2L: laptop, minutes-to-hour. CAVEAT: small-lambda high-precision extrapolations are NOT laptop -- target the moderate-lambda sub-results"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Spin-1/2 easy-axis anisotropic Heisenberg (XXZ) antiferromagnet on the square lattice, with H = J sum over nearest-neighbor bonds of [lambda/2 (S_i^+ S_j^- + S_i^- S_j^+) + S_i^z S_j^z]."
+model_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:91-94"
+convention = "J is the antiferromagnetic exchange scale; lambda = J_xy/J_z is the easy-axis anisotropy, 0 <= lambda <= 1; energies are reported in units of J; the staggered magnetization is chosen positive."
+convention_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:91-99"
+dimension = 2
+dimension_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:55,153"
+lattice = "Bipartite square lattice; the model is unfrustrated."
+lattice_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:97"
+state = "Ground state / zero-temperature thermodynamic limit."
+state_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:49,153-155"
+parameter_range = "lambda in [0, 1], from the Ising limit to the isotropic Heisenberg point."
+parameter_range_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:91,97,315"
+qmc_boundary_conditions = "Periodic boundary conditions, N = L^2 sites; campaigns use L = 48, 64, 72 for energy and magnetization, L up to 384 for the gap near lambda = 1, and L up to 100 for the correlation length."
+qmc_boundary_conditions_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:153-155,181,193,209"
+cst_boundary_conditions = "Finite L^2-site clusters with odd linear lengths L in {17, 19, 21} and antiperiodic boundary conditions, extrapolated to the thermodynamic limit."
+cst_boundary_conditions_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:247-253"
+finite_size_analysis = "Energy uses leading L^-3 extrapolation; magnetization uses leading L^-1 behavior with the square root taken after extrapolation; correlation length uses a cubic polynomial in 1/L."
+finite_size_analysis_provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:155,193,209"
+
+[[problem.targets]]
+panel = "fig1_energy"
+quantity = "Ground-state energy per site e0/J versus lambda in the thermodynamic limit, with QMC and CST series retained in the answer data."
+axes = "x: lambda; y: e0/J"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:257,275"
+
+[[problem.targets]]
+panel = "fig1_magnetization"
+quantity = "Ground-state staggered sublattice magnetization m^z versus lambda in the thermodynamic limit, with QMC and CST series retained in the answer data."
+axes = "x: lambda; y: m^z"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:257,275"
+
+[[problem.targets]]
+panel = "fig1_gap"
+quantity = "Ground-state one-magnon spin gap Delta/J versus lambda in the thermodynamic limit, with QMC and CST series retained in the answer data."
+axes = "x: lambda; y: Delta/J"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:257,275"
+
+[[problem.targets]]
+panel = "fig2_corr_L16"
+quantity = "Rescaled transverse correlation r_ij <S_i^x S_j^x> versus r_ij at lambda = 0.96 for L = 16."
+axes = "x: r_ij; y: r_ij <S_i^x S_j^x>"
+tier = "light"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:284,287"
+
+[[problem.targets]]
+panel = "fig2_corr_L32"
+quantity = "Rescaled transverse correlation r_ij <S_i^x S_j^x> versus r_ij at lambda = 0.96 for L = 32."
+axes = "x: r_ij; y: r_ij <S_i^x S_j^x>"
+tier = "light"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:284,287"
+
+[[problem.targets]]
+panel = "fig2_corr_L48"
+quantity = "Rescaled transverse correlation r_ij <S_i^x S_j^x> versus r_ij at lambda = 0.96 for L = 48."
+axes = "x: r_ij; y: r_ij <S_i^x S_j^x>"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:284,287"
+
+[[problem.targets]]
+panel = "fig2_corr_L64"
+quantity = "Rescaled transverse correlation r_ij <S_i^x S_j^x> versus r_ij at lambda = 0.96 for L = 64."
+axes = "x: r_ij; y: r_ij <S_i^x S_j^x>"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:284,287"
+
+[[problem.targets]]
+panel = "fig3_xi"
+quantity = "Ground-state transverse correlation length xi^x versus lambda in the thermodynamic limit, comparing the CST and two QMC estimators."
+axes = "x: lambda; y: xi^x"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:299,307"
+
+[[problem.targets]]
+panel = "fig4_energy"
+quantity = "Thermodynamic-limit deviation e0_CST/J - e0_QMC/J versus lambda."
+axes = "x: lambda; y: e0_CST/J - e0_QMC/J"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:483,499"
+
+[[problem.targets]]
+panel = "fig4_magnetization"
+quantity = "Thermodynamic-limit deviation m^z_CST - m^z_QMC versus lambda."
+axes = "x: lambda; y: m^z_CST - m^z_QMC"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:483,499"
+
+[[problem.targets]]
+panel = "fig4_gap"
+quantity = "Thermodynamic-limit deviation Delta_CST/J - Delta_QMC/J versus lambda."
+axes = "x: lambda; y: Delta_CST/J - Delta_QMC/J"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:483,499"
+
+[[problem.targets]]
+panel = "fig5_xi"
+quantity = "Differences between the three thermodynamic-limit transverse correlation-length estimates and the QMC correlation-function-fit estimate versus lambda."
+axes = "x: lambda; y: xi^x - xi^x_QMC,corr.func.fit"
+tier = "medium"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:489,533"
+
+[method]
+chosen = [
+  { family = "qmc", algorithm = "stochastic series expansion (SSE) with directed-loop updates", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:81,105-141" },
+  { family = "semi-analytic flow", algorithm = "continuous similarity transformation (CST) in a Dyson-Maleev bosonic representation, with self-consistent Bogoliubov transformation", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:211-237" }
+]
+valid_alternatives = [
+  { family = "qmc", algorithms = ["world-line loop", "worm", "SSE with loop updates"], provenance = "Inferred These routes sample sign-free square-lattice spin systems and can estimate ground-state observables and correlations." },
+  { family = "tensor network", algorithms = ["2D DMRG", "PEPS"], provenance = "Inferred These methods can produce finite-size ground-state observables and correlation functions for the same unfrustrated model." },
+  { family = "exact diagonalization / series", algorithms = ["finite-cluster exact diagonalization", "linked-cluster or spin-wave series"], provenance = "Inferred These routes can produce finite-size or asymptotic estimates of the listed observables, subject to their size/range limits." }
+]
+
+[method_params]
+parameters = [
+  { name = "SSE expansion-order cutoff", value = "Fixed operator-string length M with M much greater than the average expansion order <n> proportional to N beta", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:131-138" },
+  { name = "QMC gap-estimator order and temperature", value = "Moment order m = 5 and beta = 2 pi / Delta-tilde; L approximately 2 beta, with L up to 384 near lambda = 1", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:163-181" },
+  { name = "CST truncation", value = "Retain constant, bilinear, and quartic normal-ordered terms; omit genuine hexatic terms", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:235-237" },
+  { name = "CST finite-difference field", value = "Alternating-field derivative evaluated with h_alt approximately 10^-7 J", provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:239-245" }
+]
+
+[software]
+stated = "No named numerical package or codebase is reported; the paper specifies algorithms and provides figure data."
+stated_provenance = "Inferred The rendered paper names SSE/directed-loop QMC and CST but gives no software package, repository, or implementation name."
+valid_tools = ["Any sign-free SSE/loop-QMC implementation", "Any CST/flow-equation implementation"]
+valid_tools_provenance = "Inferred The valid tool set follows the two numerical routes and does not depend on a named API."
+
+[software_params]
+reported = "No implementation-only solver tolerances, threading settings, API toggles, or package-specific parameters are stated."
+reported_provenance = "Inferred The methods section reports algorithmic and physical parameters but no software-level configuration."
+
+[anchors]
+[[anchors.items]]
+name = "Ising-limit spin gap"
+value = "Delta = 2 J at lambda = 0"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:97"
+
+[[anchors.items]]
+name = "Heisenberg-point gap"
+value = "Delta = 0 at lambda = 1 when SU(2) symmetry is restored"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:97"
+
+[[anchors.items]]
+name = "Dispersion to correlation length"
+value = "1/xi = Im(k0), where the analytically continued one-particle dispersion satisfies omega(k0) = 0"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:417,453"
+
+[[anchors.items]]
+name = "Long-range correlation asymptotic"
+value = "In d spatial dimensions, G_r is proportional to exp(-r/xi) / r^(d/2); in two dimensions this is exp(-r/xi)/r"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:371,439-453"
+
+[[anchors.items]]
+name = "Second-moment prefactors"
+value = "For the 1/r^(d/2) asymptotic in d = 1, 2, 3, the analytic prefactors are sqrt(8/3), sqrt(2), and sqrt(4/3), respectively"
+provenance = "Literal papers/2405.08688/2405.08688_quantitative-description-of-long-range-order-in-the-mml-math.md:473-479"
+
+[[anchors.items]]
+name = "Exact Ising markers"
+value = "At lambda = 0, Fig. 1 marks the exact Ising-limit energy and magnetization values e0/J = -1/2 and m^z = 1/2"
+provenance = "Inferred The green exact marker in the Fig. 1 image is read against the plotted axes; the spin-1/2 Ising limit fixes these values."
+
+[truth.fig1_energy]
+data = "truth_fig1_energy.csv"
+reference_series = "qmc_mean; cst_mean is retained for the comparison curve"
+tolerance = 0.00002
+provenance = "Inferred The QMC and CST series are supplied by the paper-linked Zenodo figure-data record 10.5281/zenodo.11189975 (Fig1_Energy_QMC.txt and Fig1_Energy_CST.txt); tolerance covers QMC statistical error and curve sampling."
+
+[truth.fig1_magnetization]
+data = "truth_fig1_magnetization.csv"
+reference_series = "qmc_mean; cst_mean is retained for the comparison curve"
+tolerance = 0.001
+provenance = "Inferred The QMC and CST series are supplied by the paper-linked Zenodo figure-data record 10.5281/zenodo.11189975 (Fig1_Mag_QMC.txt and Fig1_Mag_CST.txt); tolerance covers QMC statistical error and curve sampling."
+
+[truth.fig1_gap]
+data = "truth_fig1_gap.csv"
+reference_series = "qmc_mean; cst_mean is retained for the comparison curve"
+tolerance = 0.01
+provenance = "Inferred The QMC and CST series are supplied by the paper-linked Zenodo figure-data record 10.5281/zenodo.11189975 (Fig1_Gap_QMC.txt and Fig1_Gap_CST.txt); tolerance covers QMC statistical error and plotted sampling."
+
+[truth.fig2_corr_L16]
+data = "truth_fig2_corr_L16.csv"
+reference_series = "QMC L = 16"
+tolerance = 0.00005
+provenance = "Inferred The curve is supplied by the paper-linked Zenodo figure-data record 10.5281/zenodo.11189975 (Fig2_QMC_L16.txt)."
+
+[truth.fig2_corr_L32]
+data = "truth_fig2_corr_L32.csv"
+reference_series = "QMC L = 32"
+tolerance = 0.00005
+provenance = "Inferred The curve is supplied by the paper-linked Zenodo figure-data record 10.5281/zenodo.11189975 (Fig2_QMC_L32.txt)."
+
+[truth.fig2_corr_L48]
+data = "truth_fig2_corr_L48.csv"
+reference_series = "QMC L = 48"
+tolerance = 0.00005
+provenance = "Inferred The curve is supplied by the paper-linked Zenodo figure-data record 10.5281/zenodo.11189975 (Fig2_QMC_L48.txt)."
+
+[truth.fig2_corr_L64]
+data = "truth_fig2_corr_L64.csv"
+reference_series = "QMC L = 64"
+tolerance = 0.00005
+provenance = "Inferred The curve is supplied by the paper-linked Zenodo figure-data record 10.5281/zenodo.11189975 (Fig2_QMC_L64.txt)."
+
+[truth.fig3_xi]
+data = "truth_fig3_xi.csv"
+reference_series = "qmc_second_moment_mean and qmc_corrfuncfit_mean; cst_mean is retained for comparison"
+tolerance = 0.02
+provenance = "Inferred The CST and two QMC estimator series are supplied by the paper-linked Zenodo figure-data record 10.5281/zenodo.11189975 (Fig3_CST.txt, Fig3_QMC_2ndmoment.txt, and Fig3_QMC_corrfuncfit.txt)."
+
+[truth.fig4_energy]
+data = "truth_fig4_energy.csv"
+reference_series = "cst_minus_qmc"
+tolerance = 0.00005
+provenance = "Inferred Computed as CST minus QMC from the linked Fig1_Energy_CST.txt and Fig1_Energy_QMC.txt series; propagated source errors are included in the CSV."
+
+[truth.fig4_magnetization]
+data = "truth_fig4_magnetization.csv"
+reference_series = "cst_minus_qmc"
+tolerance = 0.001
+provenance = "Inferred Computed as CST minus QMC from the linked Fig1_Mag_CST.txt and Fig1_Mag_QMC.txt series; propagated source errors are included in the CSV."
+
+[truth.fig4_gap]
+data = "truth_fig4_gap.csv"
+reference_series = "cst_minus_qmc"
+tolerance = 0.01
+provenance = "Inferred Computed as CST minus QMC from the linked Fig1_Gap_CST.txt and Fig1_Gap_QMC.txt series; propagated source errors are included in the CSV."
+
+[truth.fig5_xi]
+data = "truth_fig5_xi.csv"
+reference_series = "cst_minus_qmc_fit, qmc_second_minus_qmc_fit, and qmc_fit_minus_qmc_fit"
+tolerance = 0.2
+provenance = "Inferred Computed relative to the QMC correlation-function-fit series from the linked Fig3_CST.txt, Fig3_QMC_2ndmoment.txt, and Fig3_QMC_corrfuncfit.txt files; propagated source errors are included in the CSV."

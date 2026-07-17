@@ -1,0 +1,2227 @@
+# Partition layer for papers/2405.08688 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "175-290"
+text = "ground-state energy per site, the sublattice magnetization, the spin gap, and the transverse spin correlation length"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "422-446"
+text = "quantum Monte Carlo (QMC)"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "523-601"
+text = "continuous similarity transformations in terms of elementary magnon excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "604-804"
+text = "Our findings confirm the applicability and quantitative validity of both approaches along the full parameter axis from the Ising point to the symmetry-restoring phase transition at the Heisenberg point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "826-882"
+text = "quantitative reference results in the thermodynamic limit"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "29"
+chars = "901-1025"
+text = "analytically derive the relation between the dispersion and the correlation length at zero temperature in arbitrary dimension"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "1040-1076"
+text = "improved second-moment QMC estimators"
+
+[[blocks]]
+sections = ["problem"]
+lines = "49"
+chars = "175-289"
+text = "groundstate energy per site, the sublattice magnetization, the spin gap, and the transverse spin correlation length"
+
+[[blocks]]
+sections = ["method"]
+lines = "49"
+chars = "421-445"
+text = "quantum Monte Carlo (QMC)"
+
+[[blocks]]
+sections = ["method"]
+lines = "49"
+chars = "522-600"
+text = "continuous similarity transformations in terms of elementary magnon excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "603-803"
+text = "Our findings confirm the applicability and quantitative validity of both approaches along the full parameter axis from the Ising point to the symmetry-restoring phase transition at the Heisenberg point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "825-881"
+text = "quantitative reference results in the thermodynamic limit"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "49"
+chars = "900-1024"
+text = "analytically derive the relation between the dispersion and the correlation length at zero temperature in arbitrary dimension"
+
+[[blocks]]
+sections = ["method"]
+lines = "49"
+chars = "1039-1075"
+text = "improved second-moment QMC estimators"
+
+[[blocks]]
+sections = ["method"]
+lines = "71"
+chars = "99-121"
+text = "interactionfree magnons"
+
+[[blocks]]
+sections = ["method"]
+lines = "71"
+chars = "252-285"
+text = "magnon-magnon scattering processes"
+
+[[blocks]]
+sections = ["method"]
+lines = "71"
+chars = "352-377"
+text = "interaction of the magnons"
+
+[[blocks]]
+sections = ["method"]
+lines = "71"
+chars = "570-645"
+text = "continuous basis change, namely a continuous similarity transformation (CST)"
+
+[[blocks]]
+sections = ["method"]
+lines = "71"
+chars = "662-711"
+text = "number of magnons in the target basis is conserved"
+
+[[blocks]]
+sections = ["method"]
+lines = "71"
+chars = "839-876"
+text = "dispersion can be read off immediately"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "102-237"
+text = "ground-state energy per site _e_ 0, the sublattice magnetization _m[z]_ , the spin gap ∆, and the transverse spin correlation length _ξ_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "294-322"
+text = "two very different approaches"
+
+[[blocks]]
+sections = ["method"]
+lines = "75"
+chars = "28-30"
+text = "CST"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "1-156"
+text = "inal model expressed by magnon creation and annihilation operators to an effective model in magnon operators, but with conservation of the number of magnons"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "163-260"
+text = "CST consists in setting up a general flow equation in all couplings and solving this flow equation"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "267-399"
+text = "first step is analytical, the second numerical eventually providing the coupling constants of a magnonic model in second quantization"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "437-450"
+text = "semianalytical"
+
+[[blocks]]
+sections = ["method"]
+lines = "81"
+chars = "25-135"
+text = "quantum Monte Carlo (QMC) simulations using the stochastic series expansion (SSE) algorithm with directed-loops"
+
+[[blocks]]
+sections = ["method"]
+lines = "81"
+chars = "157-197"
+text = "well established numerically exact method"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "70-80"
+text = "CST and QMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "83"
+chars = "170-309"
+text = "capture the phase transition from the gapped ordered phase at any finite anisotropy to the gapless Heisenberg point with full SU(2) symmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "83"
+chars = "348-461"
+text = "critical exponents at this symmetry-restoring phase transition are given exactly by the ones from spin-wave theory"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "15-67"
+text = "Heisenberg quantum antiferromagnet with _S_ = 1 _/_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+chars = "109-155"
+text = "anisotropy parameter _λ_ = _Jxy/Jz ∈_ [0 _,_ 1]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "94"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0002-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "40-84"
+text = "The model is bipartite and thus unfrustrated."
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "89-124"
+text = "breaks the Z2 symmetry of spin flips"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "160-260"
+text = "long-range alternating] magnetic order with a finite sublattice magnetization _m_ at zero temperature"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "97"
+chars = "357-433"
+text = "At the spin isotropic point _λ_ = 1 the continuous SU(2) symmetry is restored"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "97"
+chars = "475-535"
+text = "magnons, become Goldstone bosons with vanishing spin gap ∆= 0"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "97"
+chars = "542-605"
+text = "For any value 0 _≤ λ <_ 1 a finite energy gap ∆ _>_ 0 is present"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "97"
+chars = "614-661"
+text = "takes the value 2 _J_ in the Ising limit _λ_ = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "99"
+chars = "1-54"
+text = "Goldstone excitations and not by critical fluctuations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "99"
+chars = "61-139"
+text = "associated exponents are expected to correspond exactly to the spin-wave values"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "99"
+chars = "161-278"
+text = "confirmed by high-order series expansions about the Ising limit as well as CST for the closing of the one-magnon gap ∆"
+
+[[blocks]]
+sections = ["truth"]
+lines = "99"
+chars = "293-316"
+text = "with an exponent 1 _/_ 2"
+
+[[blocks]]
+sections = ["method"]
+lines = "105"
+chars = "1-39"
+text = "## _1. Quantum Monte Carlo simulations_"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "27-40"
+text = "SSE QMC method"
+
+[[blocks]]
+sections = ["method"]
+lines = "110"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0002-15.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "113"
+chars = "26-68"
+text = "orthonormal basis of the full Hilbert space"
+
+[[blocks]]
+sections = ["method"]
+lines = "113"
+chars = "133-183"
+text = "H_ is decomposed into a sum of local bond operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "113"
+chars = "350-362"
+text = "non-branching"
+
+[[blocks]]
+sections = ["method"]
+lines = "113"
+chars = "480-501"
+text = "product state of local"
+
+[[blocks]]
+sections = ["method"]
+lines = "113"
+chars = "584-615"
+text = "a suitable bond decomposition is"
+
+[[blocks]]
+sections = ["method"]
+lines = "116"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0002-17.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "119"
+chars = "43-68"
+text = "offdiagonal bond operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "122"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0002-19.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "125"
+chars = "85-114"
+text = "ordered operator sequence _Sn_"
+
+[[blocks]]
+sections = ["method"]
+lines = "128"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0002-21.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "137-185"
+text = "truncate the sum to a maximal expansion order _M_"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "199-261"
+text = "average expansion order is (sharply) centered around _⟨n⟩∝ N β_"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "265-327"
+text = "this cutoff does not introduce any systematic error in practice"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "350-364"
+text = "ensure _M ≫⟨n⟩_"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "370-397"
+text = "fixed length operator string"
+
+[[blocks]]
+sections = ["method"]
+lines = "138"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0003-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "141"
+chars = "535-558"
+text = "Markov Chain Monte Carlo"
+
+[[blocks]]
+sections = ["method"]
+lines = "141"
+chars = "648-697"
+text = "diagonal operators are inserted or removed in _SM_"
+
+[[blocks]]
+sections = ["method"]
+lines = "141"
+chars = "771-790"
+text = "directed-loop update"
+
+[[blocks]]
+sections = ["method"]
+lines = "141"
+chars = "871-932"
+text = "global and efficient update to sample different operator types"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "143"
+chars = "192-221"
+text = "word-line based loop algorithm"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "143"
+chars = "291-328"
+text = "classical Swendsen-Wang cluster update"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "143"
+chars = "381-419"
+text = "directed-loop update in the SSE picture"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "143"
+chars = "685-729"
+text = "possibility to backtrack the loop propagation"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "143"
+chars = "762-769"
+text = "“bounce”"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "143"
+chars = "780-834"
+text = "probability for these bounces becomes large for _λ →_ 0"
+
+[[blocks]]
+sections = ["method"]
+lines = "143"
+chars = "1011-1050"
+text = "perform a unitary rotation in spin space"
+
+[[blocks]]
+sections = ["method"]
+lines = "146"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0003-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "149"
+chars = "1-123"
+text = "Rotating the Hamiltonian in spin space such that the largest matrix elements are associated with offdiagonal bond operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "149"
+chars = "193-212"
+text = "directed-loop update"
+
+[[blocks]]
+sections = ["method"]
+lines = "151"
+chars = "10-72"
+text = "always carry out simulations for the rotated Hamiltonian _H_[˜]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "153"
+chars = "89-189"
+text = "always simulate quadratic lattice geometries with _N_ = _L_[2] sites and periodic boundary conditions"
+
+[[blocks]]
+sections = ["method"]
+lines = "155"
+chars = "1-19"
+text = "In terms of the SSE"
+
+[[blocks]]
+sections = ["method"]
+lines = "155"
+chars = "26-73"
+text = "energy is related to the average expansion order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "155"
+chars = "156-216"
+text = "ground-state energy _e_ 0 per spin in the thermodynamic limit"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "155"
+chars = "241-325"
+text = "linear system lengths _L_ = _{_ 48 _,_ 64 _,_ 72 _}_ at inverse temperature _β_ = _L_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "155"
+chars = "331-409"
+text = "linearly extrapolate the data, using the leading finite size behavior _L[−]_[3]"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "11-88"
+text = "spectrum of the Hamiltonian is not directly accessible within the SSE approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "119-154"
+text = "imaginary time correlation functions"
+
+[[blocks]]
+sections = ["method"]
+lines = "160"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0003-11.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "163"
+chars = "207-354"
+text = "groundstate excitation gap ∆can be efficiently estimated in the thermodynamic limit (TDL) based on a (convergent) sequence of moments of _C_ ( _τ_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "166"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0003-13.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "169"
+chars = "73-118"
+text = "gap estimator ∆ _m,β_ is then given as follows"
+
+[[blocks]]
+sections = ["method"]
+lines = "172"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0003-15.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "175"
+chars = "11-36"
+text = "numbers _xm,k_ are defined"
+
+[[blocks]]
+sections = ["method"]
+lines = "178"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0003-17.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "113-218"
+text = "suitable operator for the one-magnon excitations is the staggered magnetization in the spin- _x_ direction"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "361-381"
+text = "gap estimator ∆ _m,β_"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "181"
+chars = "555-560"
+text = "m_ = 5"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "181"
+chars = "567-583"
+text = "β_ = 2 _π/_ ∆,[˜]"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "601-652"
+text = "initial guess of ∆, for which we use the CST results"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "181"
+chars = "699-734"
+text = "linear system lengths of _L ≈_ 2 _β_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "181"
+chars = "738-813"
+text = "including system lengths up to _L_ = 384 near the isotropic Heisenberg point"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "190"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0004-02.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "193"
+chars = "37-102"
+text = "factor 3 is included for _λ_ = 1 to account for the SU(2) symmetry"
+
+[[blocks]]
+sections = ["method"]
+lines = "193"
+chars = "207-237"
+text = "during the directed-loop update"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "338-421"
+text = "linear system sizes _L_ = _{_ 48 _,_ 64 _,_ 72 _}_ at inverse temperatures _β_ = _L_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "444-489"
+text = "leading finite-size scaling behavior _L[−]_[1]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "684-777"
+text = "linear system sizes _L_ = _{_ 96 _,_ 128 _,_ 140 _,_ 160 _}_ at inverse temperatures _β_ = _L_"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "195"
+chars = "5-40"
+text = "transverse correlation length _ξ[x]_"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "195"
+chars = "57-122"
+text = "exponential asymptotic decay of the spin-spin correlation function"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "195"
+chars = "201-229"
+text = "always][fi-] nite for _λ <_ 1"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "195"
+chars = "343-367"
+text = "algebraic factor 1 _/rij_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "195"
+chars = "449-501"
+text = "general derivation of the algebraic correction factor"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "512-560"
+text = "saddle point approximation for general dimensions"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "647-673"
+text = "QMC simulations in Sec. III"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "750-809"
+text = "perform a fit of the numerical data to this asymptotic decay"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "195"
+chars = "925-971"
+text = "staggered spin structure factor _S[x]_ ( _⃗q_ )"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "198"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0004-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "201"
+chars = "179-201"
+text = "second-moment estimator"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "204"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0004-07.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "207"
+chars = "160-225"
+text = "factor _√_ 2 is specific to the algebraic correction term 1 _/rij_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "207"
+chars = "315-347"
+text = "focus on the regime _λ ≥_ 0 _._ 8"
+
+[[blocks]]
+sections = ["method"]
+lines = "207"
+chars = "356-423"
+text = "efficient simulations can be carried out without performing the spin"
+
+[[blocks]]
+sections = ["method"]
+lines = "209"
+chars = "92-104"
+text = "directed-loop"
+
+[[blocks]]
+sections = ["problem"]
+lines = "209"
+chars = "168-200"
+text = "polynomials of degree 3 in 1 _/L_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "209"
+chars = "206-240"
+text = "linear system sizes up to _L_ = 100"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "209"
+chars = "249-280"
+text = "inverse temperature _β_ = 1 _/L_"
+
+[[blocks]]
+sections = ["method"]
+lines = "211"
+chars = "1-45"
+text = "## _2. Continuous Similarity Transformations_"
+
+[[blocks]]
+sections = ["method"]
+lines = "213"
+chars = "9-34"
+text = "semi-analytic CST approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "213"
+chars = "51-113"
+text = "spin model (1) in terms of bosons according to Dyson and Maleev"
+
+[[blocks]]
+sections = ["method"]
+lines = "216"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0004-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "219"
+chars = "159-180"
+text = "_a_ bosons are located"
+
+[[blocks]]
+sections = ["method"]
+lines = "219"
+chars = "187-208"
+text = "_b_ bosons are located"
+
+[[blocks]]
+sections = ["method"]
+lines = "219"
+chars = "248-273"
+text = "_δ_ link nearest neighbors"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "21-59"
+text = "Fourier transform the bosonic operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "386-419"
+text = "standard Bogoliubov transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "549-565"
+text = "self-consistently"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "221"
+chars = "636-668"
+text = "normal-ordering all quartic terms"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "671-730"
+text = "Normal-ordering is meant here relative to the bosonic vacuum"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "732-766"
+text = "after the Bogoliubov transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "859-916"
+text = "Truncating the resulting Hamiltonian at the bilinear level"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "1103-1137"
+text = "self-consistent Hartree-Fock theory"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "15-39"
+text = "keeping all quartic terms"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "68-89"
+text = "three classes of terms"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "141-169"
+text = "changing this number by _±_ 2"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "182-210"
+text = "changing this number by _±_ 4"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+chars = "6-108"
+text = "quartic Hamiltonian is not manifestly hermitian because of the properties of the Dyson-Maleev represen-"
+
+[[blocks]]
+sections = ["method"]
+lines = "229"
+chars = "18-34"
+text = "apply a CST to it"
+
+[[blocks]]
+sections = ["method"]
+lines = "232"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0005-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "235"
+chars = "18-63"
+text = "continuous flow parameter running from _ℓ_ = 0"
+
+[[blocks]]
+sections = ["method"]
+lines = "235"
+chars = "140-182"
+text = "effective Hamiltonian _H_ eff = _H_ ( _∞_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "235"
+chars = "235-287"
+text = "selfconsistently determined Bogoliubov transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "235"
+chars = "498-540"
+text = "particle conserving generator _η_ pc( _ℓ_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "235"
+chars = "636-676"
+text = "terms which increase the number of bosons"
+
+[[blocks]]
+sections = ["method"]
+lines = "235"
+chars = "740-780"
+text = "terms which decrease the number of bosons"
+
+[[blocks]]
+sections = ["method"]
+lines = "237"
+chars = "75-124"
+text = "conserves_ the number of excitations, here magnons"
+
+[[blocks]]
+sections = ["method"]
+lines = "237"
+chars = "137-211"
+text = "energy of single-magnon states can be read off directly from the dispersion"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "237"
+chars = "382-411"
+text = "finite cluster of _L_[2] sites"
+
+[[blocks]]
+sections = ["method"]
+lines = "237"
+chars = "548-597"
+text = "quartic terms are also commuted with quartic terms"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "237"
+chars = "743-772"
+text = "hexatic terms are not included"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "237"
+chars = "846-897"
+text = "small truncation error for intermediate anisotropies"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "237"
+chars = "904-974"
+text = "close to the isotropic point _λ_ = 1 we hardly detect truncation errors"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "239"
+chars = "5-64"
+text = "constant arising in _H_ eff is the ground-state energy _E_ 0"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "239"
+chars = "71-125"
+text = "total sublattice magnetization _M[z]_ in _z_ -direction"
+
+[[blocks]]
+sections = ["method"]
+lines = "239"
+chars = "143-233"
+text = "derivative of the ground-state energy with respect to an alternating magnetic field _h_ alt"
+
+[[blocks]]
+sections = ["method"]
+lines = "242"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0005-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "245"
+chars = "60-94"
+text = "compute the derivative by the ratio"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "245"
+chars = "139-171"
+text = "small _h_ alt _≈_ 10 _[−]_[7] _J_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "247"
+chars = "5-74"
+text = "ground-state energy per site and the sublattice magnetization per site"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "247"
+chars = "125-141"
+text = "magnon dispersion"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "247"
+chars = "175-204"
+text = "minimum defines the spin gap ∆"
+
+[[blocks]]
+sections = ["problem"]
+lines = "247"
+chars = "214-241"
+text = "located at _⃗k_ = ( _π, π_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "247"
+chars = "248-306"
+text = "correlation length is computed based on the full dispersion"
+
+[[blocks]]
+sections = ["method"]
+lines = "247"
+chars = "319-367"
+text = "direction _**n**_ = _**e** x_ in reciprocal space"
+
+[[blocks]]
+sections = ["method"]
+lines = "250"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0005-09.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "253"
+chars = "162-190"
+text = "leading power law corrections"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "253"
+chars = "227-284"
+text = "we never found a value of _κ_ with a finite imaginary part"
+
+[[blocks]]
+sections = ["problem"]
+lines = "253"
+chars = "370-408"
+text = "extrapolated to the thermodynamic limit"
+
+[[blocks]]
+sections = ["problem"]
+lines = "253"
+chars = "426-463"
+text = "results for _L ∈{_ 17 _,_ 19 _,_ 21 _}"
+
+[[blocks]]
+sections = ["problem"]
+lines = "253"
+chars = "470-501"
+text = "antiperiodic boundary conditions"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "257"
+chars = "1-136"
+text = "The key results of the ground-state properties of the anisotropic spin-1/2 Heisenberg AFM on the square lattice are collected in Fig. 1."
+
+[[blocks]]
+sections = ["method"]
+lines = "257"
+chars = "142-214"
+text = "CST data for the groundstate energy, spin gap, and the correlation length"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "256-305"
+text = "Overall, the QMC and CST data agree extremely well"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "259"
+chars = "48-110"
+text = "relative errors of the QMC data are of order _O_ (10 _[−]_[6] )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "117-179"
+text = "systematic error of the finite-size extrapolation is negligible"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "259"
+chars = "233-267"
+text = "error of the CST data is systematic"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "259"
+chars = "361-414"
+text = "truncation of the flowing Hamiltonian to quartic order"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "259"
+chars = "453-589"
+text = "finite-size effect can be assessed by varying the extrapolations and the boundary conditions, and we estimate it to be _O_ (10 _[−]_[5] )"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "259"
+chars = "723-790"
+text = "above _λ ≈_ 0 _._ 4, the CST data start to deviate from the QMC data"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "793-898"
+text = "This deviation appears to be systematic, since it does not change in sign and furthermore evolves smoothly"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "905-997"
+text = "deviation becomes maximum around _λ ≈_ 0 _._ 9, where it is of order _O_ (2 _·_ 10 _[−]_[4] )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "1000-1031"
+text = "Still the agreement is very good"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "261"
+chars = "89-147"
+text = "relative statistical QMC errors of order _O_ (10 _[−]_[3] )"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "261"
+chars = "150-168"
+text = "In terms of the CST"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "261"
+chars = "175-312"
+text = "error of the finite-size effect and the effect of approximating a derivative by a ratio in the CST data is estimated as _O_ (10 _[−]_[4] )"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "261"
+chars = "319-482"
+text = "deviation between the data from QMC and CST becomes here maximal around _λ ≈_ 0 _._ 9 as well and is of the order of _O_ (5 _·_ 10 _[−]_[3] ), which is _≈_ 1 _._ 3%"
+
+[[blocks]]
+sections = ["truth"]
+lines = "261"
+chars = "485-604"
+text = "This deviation, similarly to the deviation observed for the energy, does not change sign and evolves relatively smoothly"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "261"
+chars = "616-688"
+text = "presume that it is systematic and can be attributed to the CST truncation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "261"
+chars = "691-799"
+text = "Still, the agreement of the data from the two distinct approaches over the whole parameter range is very good"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "263"
+chars = "1-234"
+text = "Next, we address the value of the spin gap ∆. The relative statistical errors of the QMC data are of order _O_ (10 _[−]_[3] ) and near the isotropic Heisenberg point of order _O_ (10 _[−]_[2] ). The relative error estimate for the CST"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "268"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "272"
+text = "− 0 . 50<br>− 0 . 55 e 0 /J − e [iso] 0 [/J]<br>e 0 /J − e [iso] 0 /J<br>∝ (1  − λ ) [σ]<br>− 0 . 60 10 [−] [3]<br>σ = 0 . 988(3)<br>− 0 . 65 1  − λ<br>10 [−] [3]<br>0 . 50 CST<br>Ising<br>QMC<br>0 . 45 m [z] − m [z] iso<br>σ = 0 . 50(5)<br>0 . 40 0.01<br>m [z] −m [z] iso<br>0 . 35 ∝ (1  − λ ) [σ]<br>1  − λ<br>10 [−] [3]<br>0 . 30<br>2 . 0<br>1 . 5 ∆ /J<br>1 . 0 10 [−] [1]<br>∆ /J ∝ (1  − λ ) [σ]<br>0 . 5 σ = 0 . 51(3)<br>1  − λ<br>10 [−] [3] 10 [−] [2]<br>0 . 0<br>0 . 0 0 . 2 0 . 4 0 . 6 0 . 8 1 . 0<br>λ<br>/J<br>0<br>e<br>z<br>m<br>/J<br>∆<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "275"
+chars = "53-85"
+text = "CST (circles) and QMC (triangles)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "275"
+chars = "165-198"
+text = "exact result of the 2D Ising model"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "275"
+chars = "201-263"
+text = "All QMC errors are statistical and smaller than the marker size"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "275"
+chars = "319-381"
+text = "relative statistical QMC errors are of order _O_ (10 _[−]_[6] )"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "275"
+chars = "388-457"
+text = "systematic error of the CST data is estimated to be _O_ (10 _[−]_[5] )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "275"
+chars = "485-561"
+text = "energy approaches its isotropic value linearly agreeing with previous results"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "275"
+chars = "634-696"
+text = "relative statistical QMC errors are of order _O_ (10 _[−]_[3] )"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "275"
+chars = "703-733"
+text = "CST error is _O_ (10 _[−]_[4] )"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "275"
+chars = "749-800"
+text = "we presume that the CST has a small systematic error"
+
+[[blocks]]
+sections = ["truth"]
+lines = "275"
+chars = "828-934"
+text = "sublattice magnetization approaches its isotropic value like a square root agreeing with mean-field results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "275"
+chars = "1005-1081"
+text = "data provides strong evidence for ∆ _∝_ ~~_√_~~ 1 _− λ_ as assumed previously"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "277"
+chars = "1-113"
+text = "data yields _O_ (10 _[−]_[4] ) and lower for _λ <_ 0 _._ 9 and rises up to 0 _._ 66% close to the isotropic point"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "277"
+chars = "133-207"
+text = "small systematic deviation of the CST data, both approaches agree very well"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "232-328"
+text = "doublelogarithmic plot in the inset of the lowest panel in Fig. 1 displays an excellent agreement"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "378-411"
+text = "spin gap vanishes in a square root"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "280"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0006-04.png)"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "284"
+text = "10 [−] [1] L = 16<br>L = 32<br>L = 48<br>L = 64<br>10 [−] [2]<br>10 [−] [3]<br>10 [−] [4] λ  = 0 . 96<br>0 5 10 15 20 25 30<br>rij<br> ⟩x j<br>x SSi<br> ⟨<br>ij<br>r<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "287"
+chars = "9-124"
+text = "Rescaled transverse spin-spin correlations _rij⟨Si[x][S] j[x][⟩]_[,] obtained from QMC simulations at _λ_ = 0 _._ 96"
+
+[[blocks]]
+sections = ["problem"]
+lines = "287"
+chars = "130-209"
+text = "functions of the distance _rij_ for systems of different linear system sizes _L_"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "287"
+chars = "263-314"
+text = "approach towards the anticipated asymptotic behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "1-21"
+text = "fashion _∝ √_ 1 _− λ_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "71-172"
+text = "magnetization approaches its value for the isotropic Heisenberg model also following a square root law"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "292"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0006-07.png)"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "296"
+text = "15 . 0<br>CST<br>QMC, second moment estimator<br>12 . 5 QMC, correlation function fit<br>10 . 0<br>7 . 5<br>5 . 0<br>2 . 5<br>0 . 0<br>0 . 80 0 . 85 0 . 90 0 . 95 1 . 00<br>λ<br>x<br>ξ<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "299"
+chars = "9-103"
+text = "Ground-state transverse correlation length _ξ[x]_ as function of _λ_ in the infinite size limit"
+
+[[blocks]]
+sections = ["method"]
+lines = "299"
+chars = "105-149"
+text = "obtained by CST (circles) and QMC (triangles)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "301"
+chars = "79-143"
+text = "long-range ordered phase at all values of _λ_ in the ground state"
+
+[[blocks]]
+sections = ["method"]
+lines = "301"
+chars = "261-302"
+text = "magnons stand for transversal fluctuations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "301"
+chars = "352-388"
+text = "transversal correlation length _ξ[x]_"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "301"
+chars = "408-499"
+text = "dominantly exponential decay of _⟨Si[x][S] j[x][⟩∝]_[exp(] _[−][r][ij][/ξ][x]_[)] _[/r][ij]_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "303"
+chars = "56-125"
+text = "additional algebraic factor 1 _/rij_ appears in the asymptotic scaling"
+
+[[blocks]]
+sections = ["method"]
+lines = "303"
+chars = "188-202"
+text = "QMC simulations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "307"
+chars = "25-37"
+text = "λ_ = 0 _._ 96"
+
+[[blocks]]
+sections = ["problem"]
+lines = "307"
+chars = "78-105"
+text = "periodic boundary conditions"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "307"
+chars = "232-303"
+text = "rescaled quantity _rij⟨Si[x][S] j[x][⟩]_ approaches an exponential decay"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "307"
+chars = "325-434"
+text = "fitting the rescaled QMC data for _L_ = 64 to an exponential decay within the regime of _rij_ between 5 and 20"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "307"
+chars = "533-574"
+text = "improved second-moment estimator in Eq. 14"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "307"
+chars = "684-731"
+text = "including systems up to _L_ = 100 with _β_ = _L_"
+
+[[blocks]]
+sections = ["method"]
+lines = "307"
+chars = "735-830"
+text = "In CST, we describe the dispersion _ω_ ( _**k**_ ) obtained numerically by a sum of cosine terms"
+
+[[blocks]]
+sections = ["method"]
+lines = "307"
+chars = "887-951"
+text = "determine the correlation length by solving for the zeros in (18)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "307"
+chars = "954-1006"
+text = "Again, as shown in Fig. 3, the agreement is very good"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "309"
+chars = "1-261"
+text = "Concerning the power laws upon approaching the isotropic Heisenberg point, the CST and the QMC data sets strongly support the linear behavior of the groundenergy and square-root behavior for the sublattice magnetization, the spin gap, and the correlation length"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "315-347"
+text = "linked according to _ξ ∝_ 1 _/_ ∆"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "309"
+chars = "360-412"
+text = "power laws agree with the results of spin wave theory"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "309"
+chars = "502-551"
+text = "does not represent a true quantum phase transition"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "309"
+chars = "585-613"
+text = "same long-range ordered phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "620-639"
+text = "observed gap closure"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "309"
+chars = "694-748"
+text = "restoration of the continuous symmetry of spin rotation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "790-805"
+text = "Goldstone bosons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "858-906"
+text = "exponents remain the same as in mean-field theory"
+
+[[blocks]]
+sections = ["truth"]
+lines = "309"
+chars = "909-962"
+text = "Our findings are further in agreement with very recent"
+
+[[blocks]]
+sections = ["method"]
+lines = "309"
+chars = "964-967"
+text = "DMRG"
+
+[[blocks]]
+sections = ["problem", "method", "truth"]
+lines = "313"
+chars = "31-160"
+text = "ground-state properties of the anisotropic spin-1/2 Heisenberg AFM on the twodimensional square lattice in the thermodynamic limit"
+
+[[blocks]]
+sections = ["method"]
+lines = "313"
+chars = "194-283"
+text = "two approaches, namely unbiased SSE QMC simulations as well as the semianalytic CST method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "315"
+chars = "30-167"
+text = "ground-state energy _e_ 0, the excitation gap ∆, the sublattice magnetization _m[z]_ , as well as the transverse correlation length _ξ[x]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "315"
+chars = "183-251"
+text = "very good agreement of both approaches over the whole parameter range"
+
+[[blocks]]
+sections = ["method"]
+lines = "315"
+chars = "409-436"
+text = "In terms of the CST approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "317"
+chars = "20-99"
+text = "statistical accuracy of QMC methods is severely limited, due to the sign problem"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "329"
+chars = "26-196"
+text = "generalization of the results of Ref. [39] from one to any spatial dimension concerning the computation of the correlation length based on the full one-particle dispersion"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "329"
+chars = "220-259"
+text = "derive the leading power law corrections"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "331"
+chars = "15-125"
+text = "translationally invariant system on a lattice in which the elementary excitations are bosonic and display a gap"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "334"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0007-14.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "337"
+chars = "198-245"
+text = "Neglecting the interaction, the dispersion reads"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "340"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0007-16.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "345"
+chars = "9-28"
+text = "correlation _G⃗r_ :="
+
+[[blocks]]
+sections = ["anchors"]
+lines = "345"
+chars = "98-116"
+text = "at zero temperature"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "347"
+chars = "53-124"
+text = "saddle point approximation, also known as method of the steepest descent"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "350"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-03.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "354"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "358"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-05.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "361"
+chars = "1-33"
+text = "If we include interaction effects"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "361"
+chars = "293-331"
+text = "multi-boson contributions form continua"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "361"
+chars = "521-611"
+text = "weights of the single-boson states are reduced due to hybridization with multi-boson states"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "364"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-07.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "369"
+chars = "48-67"
+text = "power law correction"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "369"
+chars = "102-121"
+text = "exponential decrease"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "369"
+chars = "134-147"
+text = "this power law"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "369"
+chars = "149-196"
+text = "differs from the classical Ornstein-Zernicke law"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "371"
+chars = "94-145"
+text = "integration over the wave vectors is two-dimensional"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "371"
+chars = "171-236"
+text = "assuming rotational invariance of the asymptotic behavior in space"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "371"
+chars = "308-370"
+text = "integrand in (A4) is rotationally invariant in reciprocal space"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "371"
+chars = "443-488"
+text = "found that _ξ_ hardly depends on the direction"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "371"
+chars = "531-641"
+text = "difference is only a few percent in the range _ξ ≈_ 1 and vanishes exponentially for larger correlation lengths"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "374"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-11.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "377"
+chars = "28-87"
+text = "constant background stemming from the summand _−_ 1 in (A3b)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "379"
+chars = "31-99"
+text = "significant contributions results from small values of the dispersion"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "379"
+chars = "191-236"
+text = "saddle point approximation needs to be invoked"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "381"
+chars = "1-62"
+text = "Under the assumption of rotational invariance Eq. (A4) becomes"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "383"
+chars = "24-109"
+text = "dispersion can be described by a sum of trigonometric functions so that it is analytic"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "383"
+chars = "126-189"
+text = "finite gap 0 _<_ ∆ _≤ ωk_ avoids the occurrence of singularities"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "386"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-16.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "390"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-17.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "393"
+chars = "66-105"
+text = "substitute _k_ by _k_ ( _z_ ) fulfilling"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "396"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-19.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "400"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-20.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "403"
+chars = "53-126"
+text = "saddle point approximation as in the one dimensional case yielding finally"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "405"
+chars = "24-59"
+text = "point in C with _k_ ( _z_ 0) = _k_ 0"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "408"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-23.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "412"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-24.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "415"
+chars = "1-6"
+text = "By _γ_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "417"
+chars = "6-40"
+text = "1 _/ξ_ = Im( _k_ 0) from _ωk_ 0 = 0"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "417"
+chars = "67-146"
+text = "additional power law results from the asymptotic behavior of the Bessel function"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "420"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0008-27.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "425"
+chars = "77-171"
+text = "Assuming rotational invariance as in two dimensions the integration over the solid angle yields"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "428"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0009-02.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "431"
+chars = "24-112"
+text = "exponential dependence remains the same, but the power law exponent is lowered by 1 _/_ 2"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "434"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0009-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "437"
+chars = "5-59"
+text = "saddle point approximation to obtain (A16) stated above"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "439"
+chars = "1-174"
+text = "Eq. (A16) constitutes the powerful generalization of the one-dimensional result in Ref. [39] to arbitrary dimension including the leading multiplicative power law corrections"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "441"
+chars = "65-130"
+text = "replacing in the Ornstein-Zernike law for the correlation function"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "443"
+text = "## **Appendix B: QMC estimator for the correlation length** "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "445"
+chars = "1-50"
+text = "with 1 _/ξ_ = Im( _k_ 0) from _ωk_ 0 = 0 as before"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "447"
+chars = "30-79"
+text = "obvious generalization of the above findings reads"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "450"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0009-11.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "453"
+chars = "1-58"
+text = "in _d_ dimensions with 1 _/ξ_ = Im( _k_ 0) from _ωk_ 0 = 0"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "453"
+chars = "61-174"
+text = "Note that _d −_ 1 factors of _[√] r_ in the denominator result from a phase space argument or geometrical dilution"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "453"
+chars = "200-240"
+text = "stems from the saddle point approximation"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "455"
+chars = "47-100"
+text = "integrate in (A4) over all angles at fixed modulus _q_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "458"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0009-14.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "461"
+chars = "216-303"
+text = "The integration over _k⊥_ is carried out with the help of the _δ_ -distribution yielding"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "464"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0009-16.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "468"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0009-17.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "471"
+chars = "44-100"
+text = "final integration over _q_ , we use again the asymptotics"
+
+[[blocks]]
+sections = ["method"]
+lines = "473"
+chars = "34-46"
+text = "QMC estimator"
+
+[[blocks]]
+sections = ["anchors", "method"]
+lines = "473"
+chars = "178-226"
+text = "Ornstein-Zernike form of the correlation function"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "473"
+chars = "351-388"
+text = "improved second-moment estimator reads"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "476"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0009-20.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "479"
+chars = "95-152"
+text = "numerical prefactor in the above estimator is of order one"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "479"
+chars = "246-306"
+text = "for _d_ = 1 and _d_ = 3 the prefactor simplifies to 1 exactly"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "479"
+chars = "315-350"
+text = "for _d_ = 2 it reads ~~�~~ 16 _/_ 15"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "479"
+chars = "724-811"
+text = "corresponding prefactors ~~�~~ 8 _/_ 3, _√_ 2, and ~~�~~ 4 _/_ 3 for _d_ = 1 _,_ 2 _,_ 3"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "481"
+chars = "1-65"
+text = "## **Appendix C: Quantitative comparison of CST and QMC results**"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "483"
+chars = "17-116"
+text = "quantitative comparison of the CST and QMC results in terms of the statistical and systematic errors"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "483"
+chars = "133-295"
+text = "deviations of the CST data relative to the QMC data is plotted for the ground-state energy per site _e_ 0, the magnetization per site _m[z]_ , and the energy gap ∆"
+
+[[blocks]]
+sections = ["truth"]
+lines = "483"
+chars = "298-406"
+text = "In energy and magnetization the deviation is remarkably small for small values of _λ_ growing for large _λ_ ."
+
+[[blocks]]
+sections = ["method_params", "truth"]
+lines = "483"
+chars = "433-517"
+text = "truncation of the tracked terms on quartic level corresponding to scaling dimension 2"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "483"
+chars = "535-554"
+text = "systematic deviation"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "483"
+chars = "556-633"
+text = "which we had observed before in the binding energies of twomagnon bound states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "487"
+chars = "22-72"
+text = "deviations of the spin gap which is rather constant"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "487"
+chars = "95-156"
+text = "systematic origin linked to the truncation in the CST approach"
+
+[[blocks]]
+sections = ["truth"]
+lines = "487"
+chars = "175-254"
+text = "deviations decrease in all three quantities upon approaching the isotropic point"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "487"
+chars = "280-445"
+text = "justification of the truncation according to scaling dimension which allows us to find the relevant effective model close to the isotropic point almost quantitatively"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "489"
+chars = "30-97"
+text = "deviation of three ways to access the transversal correlation length"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "489"
+chars = "104-160"
+text = "two QMC estimators agree well below the one percent level"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "489"
+chars = "168-266"
+text = "minor deviations may result from uncertainties in performing the actual finite-size fitting process"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "489"
+chars = "273-333"
+text = "CST results acquire large errors close to the isotropic point"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "489"
+chars = "347-411"
+text = "correlation length depends inverse proportionally on the spin gap"
+
+[[blocks]]
+sections = ["truth"]
+lines = "489"
+chars = "421-503"
+text = "tiny inaccuracies in the latter induce large inaccuracies in the correlation length"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "492"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0010-03.png)"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "496"
+text = "0 . 00020<br>0 . 00015<br>0 . 00010<br>0 . 00005<br>0 . 00000<br>CST<br>QMC<br>0 . 0025<br>0 . 0000<br>− 0 . 0025<br>− 0 . 0050<br>0 . 02<br>0 . 00<br>− 0 . 02<br>0 . 0 0 . 3 0 . 6 0 . 9 0 . 98 0 . 99 1 . 00<br>λ λ<br>QMC e 0<br>e 0  −<br>z QMC<br>m<br>−<br>zm<br>QMC<br>∆<br>−<br>∆<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "499"
+chars = "1-228"
+text = "FIG. 4. Quantitative comparison of the CST and QMC results in the TDL of the ground-state energy _e_ 0 (top panels), the ground-state magnetization _m[z]_ (middle panels), and the spin gap ∆(bottom panels) as a function of _λ_ ."
+
+[[blocks]]
+sections = ["method"]
+lines = "515"
+chars = "86-108"
+text = "Magnon-Higgs Scattering"
+
+[[blocks]]
+sections = ["method"]
+lines = "521"
+chars = "69-166"
+text = "Continuous similarity transformation for critical phenomena: easy-axis antiferromagnetic XXZ model"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "526"
+text = "![](.figures/arxiv__2405.08688/2405.08688.pdf-0011-01.png)"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "530"
+text = "0 . 0<br>− 0 . 2 0 . 00<br>− 0 . 02<br>− 0 . 4<br>− 0 . 04<br>0 . 80 0 . 85 0 . 90<br>− 0 . 6<br>CST<br>QMC, second moment estimator<br>QMC, correlation function fit<br>− 0 . 8<br>0 . 80 0 . 85 0 . 90 0 . 95 1 . 00<br>λ<br> fit funccorr ..,<br>x QMC<br>ξ<br> −<br>x<br>ξ<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth", "method", "problem"]
+lines = "533"
+chars = "1-196"
+text = "FIG. 5. Quantitative comparison of CST (circles) and QMC (triangles) results of the ground-state transverse correlation length _ξ[x]_ extrapolated to the thermodynamic limit as a function of _λ_ ."
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "168-190"
+text = "two-magnon bound states"
+
+[[blocks]]
+sections = ["method"]
+lines = "547"
+chars = "42-95"
+text = "Quantum Monte Carlo simulation method for spin systems"
+
+[[blocks]]
+sections = ["method"]
+lines = "549"
+chars = "23-82"
+text = "Stochastic series expansion method with operator-loop update"
+
+[[blocks]]
+sections = ["method"]
+lines = "551"
+chars = "44-82"
+text = "Quantum monte carlo with directed loops"
+
+[[blocks]]
+sections = ["method"]
+lines = "553"
+chars = "43-110"
+text = "Generalized directed loop method for quantum Monte Carlo simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "565"
+chars = "26-39"
+text = "loop algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "567"
+chars = "73-95"
+text = "Monte Carlo simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "569"
+chars = "43-81"
+text = "Dual Monte Carlo and cluster algorithms"
+
+[[blocks]]
+sections = ["method"]
+lines = "573"
+chars = "36-69"
+text = "stochastic series expansion method"
+
+[[blocks]]
+sections = ["method"]
+lines = "575"
+chars = "29-115"
+text = "Generalized Moment Method for Gap Estimation and Quantum Monte Carlo Level Spectroscopy"
+
+[[blocks]]
+sections = ["method"]
+lines = "579"
+chars = "37-122"
+text = "Monte Carlo simulations of the spin-1/2 Heisenberg antiferromagnet on a square lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "581"
+chars = "99-125"
+text = "stochastic series expansion"
+
+[[blocks]]
+sections = ["method"]
+lines = "583"
+chars = "14-18"
+text = "Dyson"
+
+[[blocks]]
+sections = ["method"]
+lines = "585"
+chars = "14-19"
+text = "Maleev"
+
+[[blocks]]
+sections = ["method"]
+lines = "587"
+chars = "19-49"
+text = "Flow equations for hamiltonians"
+
+[[blocks]]
+sections = ["method"]
+lines = "589"
+chars = "25-46"
+text = "Flow Equation Approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "591"
+chars = "36-72"
+text = "Perturbation theory by flow equations"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "595"
+chars = "60-146"
+text = "Universal relation between the dispersion curve and the ground-state correlation length"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "599"
+chars = "123-161"
+text = "Magnon dispersion and structure factors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "609"
+chars = "30-166"
+text = "Figure data to ”Quantitative decription of long- range order in the anisotropic spin1/2 Heisenberg antiferromagnet on the square lattice”"
+
+[[blocks]]
+sections = ["truth"]
+lines = "609"
+chars = "169-191"
+text = "10.5281/zenodo.11189975"
