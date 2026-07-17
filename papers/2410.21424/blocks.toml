@@ -1,0 +1,1287 @@
+# Partition layer for papers/2410.21424 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "16-28"
+text = "Haldane Phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "10-22"
+text = "Haldane Phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "362-406"
+text = "infinite density-matrix renormalization group"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "422-448"
+text = "highly robust Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "543-579"
+text = "parameters to probe the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "628-665"
+text = "efficient adiabatic preparation scheme"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "725-767"
+text = "spin fractionalization in the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "40"
+chars = "12-24"
+text = "Haldane phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "52"
+chars = "362-406"
+text = "infinite density-matrix renormalization group"
+
+[[blocks]]
+sections = ["truth"]
+lines = "52"
+chars = "422-448"
+text = "highly robust Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "52"
+chars = "545-581"
+text = "parameters to probe the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "52"
+chars = "630-667"
+text = "efficient adiabatic preparation scheme"
+
+[[blocks]]
+sections = ["truth"]
+lines = "52"
+chars = "727-769"
+text = "spin fractionalization in the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "56"
+chars = "742-793"
+text = "A prime example for this is the spin-1 Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "56"
+chars = "1081-1115"
+text = "realize such a spin-1 Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "58"
+chars = "60-114"
+text = "study the Haldane phase in quasi-one-dimensional chains"
+
+[[blocks]]
+sections = ["truth"]
+lines = "58"
+chars = "478-523"
+text = "proposals for the Haldane phase have been made"
+
+[[blocks]]
+sections = ["method"]
+lines = "62"
+chars = "494-554"
+text = "infinite density-matrix renormalization group (infinite DMRG)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "62"
+chars = "576-606"
+text = "appearance of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "62"
+chars = "679-711"
+text = "ground state of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "62"
+chars = "828-910"
+text = "Signatures of the Haldane phase, such as the string order parameter and edge states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "62"
+chars = "1010-1080"
+text = "experimental signatures of the Haldane phase have already been observed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "68"
+chars = "106-180"
+text = "fractionalization of the edge spin degrees of freedoms in the Haldane phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "72"
+chars = "56-93"
+text = "one-dimensional chain of Rydberg atoms"
+
+[[blocks]]
+sections = ["problem"]
+lines = "72"
+chars = "146-184"
+text = "three states, _|_ + _⟩ , |_ 0 _⟩ , |−⟩_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0002-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "78"
+chars = "11-44"
+text = "quantized along the magnetic field"
+
+[[blocks]]
+sections = ["problem"]
+lines = "80"
+chars = "193-236"
+text = "many-body Hamiltonian of this Rydberg system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "83"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0002-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "86"
+chars = "30-45"
+text = "spin-1 operators"
+
+[[blocks]]
+sections = ["problem"]
+lines = "86"
+chars = "104-137"
+text = "dipole-dipole interaction strength"
+
+[[blocks]]
+sections = ["problem"]
+lines = "86"
+chars = "151-167"
+text = "anisotropy energy"
+
+[[blocks]]
+sections = ["software"]
+lines = "88"
+chars = "92-117"
+text = "_pairinteraction_ software"
+
+[[blocks]]
+sections = ["problem"]
+lines = "88"
+chars = "712-745"
+text = "magnetic field of _B_ = 60 _._ 7 G"
+
+[[blocks]]
+sections = ["problem"]
+lines = "88"
+chars = "755-829"
+text = "distance (angle) was fixed at _r_ = 11 _._ 6 _µ_ m ( _θ_ = 35 _._ 1 _[◦]_ )"
+
+[[blocks]]
+sections = ["problem"]
+lines = "90"
+chars = "1-34"
+text = "van der Waals interaction strength"
+
+[[blocks]]
+sections = ["problem"]
+lines = "90"
+chars = "73-129"
+text = "express all energies as frequencies in units of _h ·_ MHz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "92"
+chars = "1-49"
+text = "While the Haldane phase was originally introduced"
+
+[[blocks]]
+sections = ["truth"]
+lines = "92"
+chars = "200-228"
+text = "can protect the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "94"
+chars = "1-37"
+text = "A famous example of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "94"
+chars = "493-529"
+text = "general property of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "100"
+chars = "184-213"
+text = "does feature the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "100"
+chars = "288-340"
+text = "stabilize the Haldane phase for the antiferromagnetic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "100"
+chars = "472-542"
+text = "whether the Haldane phase could be measured in a finite size experiment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "100"
+chars = "670-732"
+text = "further stabilize the Haldane phase and make it more accessible"
+
+[[blocks]]
+sections = ["truth"]
+lines = "100"
+chars = "967-993"
+text = "a more stable Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "100"
+chars = "1185-1220"
+text = "thus can stabilize the Haldane phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "106"
+chars = "337-376"
+text = "z_ -component of the total magnetization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "108"
+chars = "288-316"
+text = "for _n_ = 80 is _ω/h ≈_ 7 GHz"
+
+[[blocks]]
+sections = ["problem"]
+lines = "108"
+chars = "541-566"
+text = "focus on the case _n_ = 80"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0003-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "121"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0003-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "125"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0003-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "133"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0003-14.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "140"
+chars = "472-530"
+text = "J_[00] = _J[±]_[0] to be fulfilled for _θ ≈_ 35 _._ 1 _[◦]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "150"
+chars = "653-727"
+text = "dominant one and captures the physics of the additional term _V_ in eq. (2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "152"
+chars = "102-117"
+text = "∆ _/h ≈_ 100 MHz"
+
+[[blocks]]
+sections = ["problem"]
+lines = "157"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "163"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0004-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "166"
+chars = "73-85"
+text = "infinite DMRG"
+
+[[blocks]]
+sections = ["software"]
+lines = "166"
+chars = "98-112"
+text = "_TeNPy_ library"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "166"
+chars = "125-151"
+text = "bond dimension of _χ_ = 400"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "166"
+chars = "553-576"
+text = "Inside the Haldane phase"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "166"
+chars = "633-650"
+text = "log 2 _≈_ 0 _._ 69"
+
+[[blocks]]
+sections = ["problem"]
+lines = "172"
+chars = "140-222"
+text = "1 _/r_[6] dependence of the van der Waals term compared to the 1 _/r_[3] dependence"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "174"
+chars = "115-162"
+text = "∼_ 5000 energetically nearby Rydberg pair states"
+
+[[blocks]]
+sections = ["software"]
+lines = "174"
+chars = "174-199"
+text = "_pairinteraction_ software"
+
+[[blocks]]
+sections = ["truth"]
+lines = "174"
+chars = "320-361"
+text = "difference between _V_[diag] and _V_[offd]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "178"
+chars = "4-33"
+text = "choose _J[xy]_ as energy scale"
+
+[[blocks]]
+sections = ["problem"]
+lines = "178"
+chars = "136-151"
+text = "over _D_ and _V_"
+
+[[blocks]]
+sections = ["method"]
+lines = "178"
+chars = "594-606"
+text = "infinite DMRG"
+
+[[blocks]]
+sections = ["software"]
+lines = "178"
+chars = "619-633"
+text = "_TeNPy_ library"
+
+[[blocks]]
+sections = ["truth"]
+lines = "178"
+chars = "651-676"
+text = "focus on the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "180"
+chars = "101-115"
+text = "_Large-D phase_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "180"
+chars = "233-257"
+text = "topological trivial phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "187"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0005-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "190"
+chars = "219-249"
+text = "spin-1/2 ferromagnetic XY phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "190"
+chars = "650-674"
+text = "Ising ferromagnetic phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "190"
+chars = "706-759"
+text = "two degenerate ground states are simple product states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "192"
+chars = "22-54"
+text = "spin-1 antiferromagnetic XY phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "192"
+chars = "191-224"
+text = "both off-diagonal order parameters"
+
+[[blocks]]
+sections = ["truth"]
+lines = "192"
+chars = "399-454"
+text = "phase transition from the XY1 phase to the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "192"
+chars = "461-508"
+text = "Berezinskii-Kosterlitz-Thouless (BKT) transition"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "192"
+chars = "659-680"
+text = "bond dimension scaling"
+
+[[blocks]]
+sections = ["method"]
+lines = "192"
+chars = "721-743"
+text = "infinite DMRG algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "194"
+chars = "182-191"
+text = "in DMRG by"
+
+[[blocks]]
+sections = ["truth"]
+lines = "194"
+chars = "398-469"
+text = "Thus, we call this phase a][ Z][2] _[broken] antiferromagnetic XY phase_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "196"
+chars = "1-35"
+text = "We now focus on the _Haldane phase_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "196"
+chars = "123-152"
+text = "finite string order parameters"
+
+[[blocks]]
+sections = ["problem"]
+lines = "199"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "202"
+chars = "10-76"
+text = "measure for the hidden antiferromagnetic order in the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "202"
+chars = "161-185"
+text = "larger][than][0] _[.]_[4]"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "202"
+chars = "292-298"
+text = "4 _/_ 9"
+
+[[blocks]]
+sections = ["truth"]
+lines = "202"
+chars = "311-357"
+text = "Haldane phase using the degenerate entanglement"
+
+[[blocks]]
+sections = ["method"]
+lines = "204"
+chars = "41-52"
+text = "infinite MPS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "204"
+chars = "114-174"
+text = "non-trivial phase factors in their projective representations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "204"
+chars = "201-247"
+text = "significant overlap with the perfect AKLT state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "204"
+chars = "296-341"
+text = "properties of the Haldane phase see appendix B"
+
+[[blocks]]
+sections = ["problem"]
+lines = "206"
+chars = "30-75"
+text = "point _D_ = _−J[xy]_ and _V_ = 0 _._ 6 _J[xy]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "206"
+chars = "124-152"
+text = "lies inside the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "210"
+chars = "157-188"
+text = "the Haldane phase in more detail"
+
+[[blocks]]
+sections = ["truth"]
+lines = "212"
+chars = "210-248"
+text = "parameters to realize the Haldane phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "217"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0005-15.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "220"
+chars = "30-73"
+text = "interatomic distance of _r_ = 11 _._ 6 _µ_ m"
+
+[[blocks]]
+sections = ["problem"]
+lines = "220"
+chars = "81-123"
+text = "magnetic field of strength _B_ = 60 _._ 7 G"
+
+[[blocks]]
+sections = ["problem"]
+lines = "220"
+chars = "149-177"
+text = "angle of _θ_ = 35 _._ 1 _[◦]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "220"
+chars = "280-324"
+text = "anisotropy energy of _D/h_ = _−_ 4 _._ 47 MHz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "220"
+chars = "382-413"
+text = "Jnn[xy][/h]_[=][4] _[.]_[47 MHz]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "220"
+chars = "420-452"
+text = "_[V][nn][/h]_[=][2] _[.]_[68 MHz]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "220"
+chars = "481-538"
+text = "point _D_ = _−Jnn[xy]_[and] _[V][nn]_[=] 0 _._ 6 _Jnn[xy]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "220"
+chars = "769-805"
+text = "_[α][≈]_[3][for] dipolar interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "220"
+chars = "811-852"
+text = "_α ≈_ 6 for the van der Waals interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "222"
+chars = "138-173"
+text = "_Jnn_[+0] _[/h]_[=][4] _[.]_[36 MHz]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "222"
+chars = "180-217"
+text = "_Jnn[−]_[0] _[/h]_[=][4] _[.]_[59 MHz]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "222"
+chars = "219-257"
+text = "are][not][exactly][the][same][anymore.]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "226"
+chars = "170-208"
+text = "magnetization is localized at the edges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "226"
+chars = "257-306"
+text = "edge states hybridize due to the small system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "226"
+chars = "354-386"
+text = "edge spin correlation is non-zero"
+
+[[blocks]]
+sections = ["truth"]
+lines = "226"
+chars = "388-430"
+text = "_|⟨S_ 1 _[z][S]_ 10 _[z][⟩| ≈]_[0] _[.]_[4]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "226"
+chars = "446-469"
+text = "vanishes][in][the][bulk]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "226"
+chars = "471-506"
+text = "_|⟨S_ 1 _[z][S]_ 6 _[z][⟩| ≈]_[0][.]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "226"
+chars = "514-539"
+text = "reveals][the][edge][states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "125-187"
+text = "small symmetry breaking of the _D_ 2 and time reversal symmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "228-245"
+text = "0 _._ 03 _Jnn[xy]_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "269-331"
+text = "small splitting of the] four ground states of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "417-463"
+text = "features of the Haldane phase are still visible"
+
+[[blocks]]
+sections = ["truth"]
+lines = "230"
+chars = "123-166"
+text = "measure the Haldane phase and its properties"
+
+[[blocks]]
+sections = ["method"]
+lines = "230"
+chars = "218-236"
+text = "calculated via DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "230"
+chars = "242-278"
+text = "tensor network time-evolution methods"
+
+[[blocks]]
+sections = ["software"]
+lines = "230"
+chars = "291-305"
+text = "_TeNPy_ library"
+
+[[blocks]]
+sections = ["problem"]
+lines = "230"
+chars = "326-354"
+text = "system size of _L_ = 10 atoms"
+
+[[blocks]]
+sections = ["truth"]
+lines = "230"
+chars = "400-441"
+text = "separated edge states of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "230"
+chars = "545-623"
+text = "four ground states with total magnetizations _M_ tot = _−_ 1 _,_ 0 _,_ 0 _,_ +1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "230"
+chars = "631-708"
+text = "gap above the ground state manifold to the excited states of about _∼_ 600 kHz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "230"
+chars = "715-777"
+text = "ground state manifold is split by a small amount of _∼±_ 70 kHz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "230"
+chars = "955-983"
+text = "fractional edge magnetization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "230"
+chars = "1034-1087"
+text = "edge states are already well separated from each other"
+
+[[blocks]]
+sections = ["truth"]
+lines = "230"
+chars = "1173-1208"
+text = "values of almost exactly _±_ 0 _._ 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "232"
+chars = "42-75"
+text = "ground states of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "232"
+chars = "163-217"
+text = "Haldane phase is a symmetry protected topological phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "234"
+chars = "354-420"
+text = "fourfold near-degenerate ground state manifold of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "234"
+chars = "621-643"
+text = "gap of at least 600 kHz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "236"
+chars = "155-201"
+text = "does not work for the AKLT state and our system"
+
+[[blocks]]
+sections = ["truth"]
+lines = "238"
+chars = "521-634"
+text = "ground state manifold during this sweep is always well separated from the excited states by a gap of about 600 kHz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "238"
+chars = "655-717"
+text = "adiabatically sweep from the product state to the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "238"
+chars = "726-758"
+text = "never going through a gap closing"
+
+[[blocks]]
+sections = ["truth"]
+lines = "242"
+chars = "87-156"
+text = "driven adiabatically and always stays inside the ground state manifold"
+
+[[blocks]]
+sections = ["truth"]
+lines = "244"
+chars = "264-342"
+text = "oscillations correspond to Rabi oscillations of the fractionalized spin-1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "244"
+chars = "776-812"
+text = "time between _−_ 0 _._ 5 and +0 _._ 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "248"
+chars = "73-104"
+text = "oscillations between _−_ 1 and 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "248"
+chars = "281-310"
+text = "system changes from _−_ 1 to 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "248"
+chars = "323-421"
+text = "clear signature of the fractionalization of the spin-1 chain into effective spin1 _/_ 2 edge states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "250"
+chars = "175-207"
+text = "large overlap with the AKLT state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "250"
+chars = "468-557"
+text = "fidelity of the prepared state with the desired final ground state is larger than 0 _._ 98"
+
+[[blocks]]
+sections = ["truth"]
+lines = "250"
+chars = "585-629"
+text = "energy gap does not depend on the system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "250"
+chars = "698-721"
+text = "works for larger systems"
+
+[[blocks]]
+sections = ["truth"]
+lines = "254"
+chars = "225-337"
+text = "with the Haldane phase, which is characterized by a hidden antiferromagnetic order and fractionalized edge states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "254"
+chars = "344-387"
+text = "aforementioned Haldane phase can be realized"
+
+[[blocks]]
+sections = ["truth"]
+lines = "254"
+chars = "636-660"
+text = "prepare the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "254"
+chars = "776-815"
+text = "edge state features of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "254"
+chars = "963-1003"
+text = "spin-1 Haldane phase in Rydberg platforms"
+
+[[blocks]]
+sections = ["truth"]
+lines = "254"
+chars = "1067-1096"
+text = "study the spin-1 Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "258"
+chars = "21-53"
+text = "ground state of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "258"
+chars = "80-123"
+text = "ground state properties of the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "258"
+chars = "439-450"
+text = "0] _[.]_[29]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "258"
+chars = "484-498"
+text = "0] of _[.]_[49]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "268"
+chars = "291-322"
+text = "resolution of 100 _×_ 100 points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "272"
+chars = "5-34"
+text = "data that support the findings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "279"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0008-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "285"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0008-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "293"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0008-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "297"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0008-14.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "302"
+chars = "121-151"
+text = "properties of the Haldane phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "304"
+chars = "62-139"
+text = "S_ 0 _[x] ,_ 500[and] _[S]_ 0 _[z] ,_ 500[for][two][spins][separated][by][500]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "308"
+chars = "45-83"
+text = "finite value in the whole Haldane phase"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "308"
+chars = "188-209"
+text = "finite bond dimensions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "308"
+chars = "426-463"
+text = "finite values inside the Haldane phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "310"
+chars = "157-181"
+text = "infinite MPS ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "310"
+chars = "376-413"
+text = "overlap peeks inside the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "310"
+chars = "419-443"
+text = "reaches values close to 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "310"
+chars = "503-530"
+text = "very close to the AKLT state"
+
+[[blocks]]
+sections = ["method"]
+lines = "312"
+chars = "321-335"
+text = "infinite MPS if"
+
+[[blocks]]
+sections = ["truth"]
+lines = "312"
+chars = "488-505"
+text = "phase factor of +1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "312"
+chars = "552-584"
+text = "ground state in the Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "312"
+chars = "647-664"
+text = "phase factor _−_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "312"
+chars = "694-750"
+text = "topological counterpart of the symmetric Large- _D_ phase"
+
+[[blocks]]
+sections = ["problem"]
+lines = "316"
+chars = "123-142"
+text = "_r_ = 11 _._ 6 _µ_ m"
+
+[[blocks]]
+sections = ["problem"]
+lines = "316"
+chars = "177-196"
+text = "_r_ = 58 _._ 0 _µ_ m"
+
+[[blocks]]
+sections = ["software"]
+lines = "316"
+chars = "226-251"
+text = "_pairinteraction_ software"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "316"
+chars = "560-586"
+text = "energy window of _±_ 80 GHz"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "316"
+chars = "616-628"
+text = "76 _≤ n ≤_ 85"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "316"
+chars = "662-668"
+text = "_l ≤_ 4"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "316"
+chars = "880-905"
+text = "energy window of _±_ 2 GHz"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "316"
+chars = "1076-1101"
+text = "up to _∼_ 5000 pair states"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "318"
+chars = "117-142"
+text = "9 _×_ 9 interaction matrix"
+
+[[blocks]]
+sections = ["software_params", "problem"]
+lines = "321"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0009-07.png)"
+
+[[blocks]]
+sections = ["software_params", "problem"]
+lines = "325"
+chars = "1-12"
+text = "V [++]<br>ij"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "328"
+chars = "157-203"
+text = "values smaller than 0 _._ 01 MHz are not listed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "335"
+chars = "208-408"
+text = "4.36<br>4.59<br>4.46<br>2.99<br>2.38<br>1.10<br>1.10<br>1.84<br>2.13|0.56<br>0.59<br>0.57<br>0.05<br>0.04<br>0.02<br>0.02<br>0.03<br>0.03|0.17<br>0.17<br>0.17|0.07<br>0.07<br>0.07|0.04<br>0.04<br>0.04|"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "164-187"
+text = "_D/h_ = _−_ 4 _._ 47 MHz"
+
+[[blocks]]
+sections = ["problem"]
+lines = "342"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0009-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "354"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0010-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "358"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0010-03.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "370"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0010-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "380"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0010-12.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "383"
+chars = "253-293"
+text = "find a gap-closing point during the sweep"
+
+[[blocks]]
+sections = ["problem"]
+lines = "390"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0010-16.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "394"
+text = "![](.figures/arxiv__2410.21424/2410.21424.pdf-0010-17.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "425"
+chars = "97-133"
+text = "Constructing the spin-1 Haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "429"
+chars = "660-741"
+text = "gapped preparation path to the ground state of Haldane phase for our Rydberg model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "46-78"
+text = "Verification of the Haldane Phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "20-39"
+text = "Spin 1 haldane phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "487"
+chars = "180-211"
+text = "Symmetry-Protected Haldane Phase"
+
+[[blocks]]
+sections = ["software"]
+lines = "501"
+chars = "92-120"
+text = "Tensor Network Python (TeNPy)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "509"
+chars = "99-111"
+text = "Haldane Phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "513"
+chars = "81-116"
+text = "Time-evolving a matrix product state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "519"
+chars = "158-177"
+text = "Spin-1 Haldane phase"

@@ -9,6 +9,7 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/1bjs-mf2l"
 arxiv_version = "2508.08376v3"
+md_sha256 = "d427327e9e2406d95e83903d9d2d4f13c9f118b4b09be599e8164eefaeacc813"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
@@ -16,3 +17,245 @@ model = "perturbed Z4 quantum-double model (maps to two coupled quantum Ising mo
 headline = "continuous toric-code <-> double-semion transition, XY* universality; order parameter + correlation length; exact TC/DS wavefunctions + anyon-deconfinement theory"
 compute = "headline physics established at D<=6, chi<=100: minutes-to-hours per point on CPU. Per-target tier: highest-precision exponent (D=7, chi=160) is beyond light -- select D<=6 targets"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Perturbed Z4 quantum double model on the square lattice, combining the fixed-point Z4 QD Hamiltonian, the fixed-point DS construction, and perturbations proportional to h_x, h_z, and h_w."
+model_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:66-91"
+convention = "Z4 qudits live on edges; X shifts the qudit and Z supplies its phase, with vertex and plaquette operators A_v and B_p. Electric charges and magnetic fluxes are labeled by e^n and m^k, and dyons by e^n m^k."
+convention_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:66-72"
+dimension = "(2 + 1)D quantum model"
+dimension_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:26,62"
+lattice = "Square lattice, with primal and dual lattices used for the string and loop operators."
+lattice_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:66,84,96"
+instance = "Infinite-lattice ground-state calculations are organized as phase-diagram scans and one-dimensional paths in (h_x,h_z,h_w): the main numerical study uses h_x = -1, the symmetry line h_w = h_z, and the transverse line h_w = 2.980 - h_z; supplemental scans include h_x = 0.5, h_x = 0, and (h_x,h_z) = (0.5,0.1)."
+instance_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:124,140,148,557-573"
+observables = "Condensation string order parameters for e^2, e^2 m^2, and m^2, plus Wilson-loop area-law coefficients alpha(e), alpha(em), and alpha(m), with phase labels and critical exponents extracted from their scans."
+observables_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:96-110,134-138"
+
+[[problem.targets]]
+panel = "fig3"
+quantity = "Phase diagram on the h_x = -1 plane: Z4 QD, TC, DS, and trivial regions, their transition boundaries, and the multicritical point."
+axes = "h_w versus h_z at fixed h_x = -1"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:120-124"
+
+[[problem.targets]]
+panel = "fig4a"
+quantity = "Area-law coefficients alpha(e), alpha(em), and alpha(m) along h_x = -1 and h_w = h_z."
+axes = "h_w, with the critical point h_c on the h_w = h_z line"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:140-142,159-166"
+
+[[problem.targets]]
+panel = "fig4b"
+quantity = "Condensation order parameters for e^2, e^2 m^2, and m^2 along h_x = -1 and h_w = h_z."
+axes = "h_w, with the critical point h_c on the h_w = h_z line"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:140-142,159-166"
+
+[[problem.targets]]
+panel = "fig4c"
+quantity = "Fitted double-log slope 2 nu_+ for the area-law coefficients on line (i)."
+axes = "ln(|h_w - h_c|)"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:146,159-166"
+
+[[problem.targets]]
+panel = "fig4d"
+quantity = "Fitted condensation-order exponents beta_phi and beta_- on line (i)."
+axes = "ln(|h_w - h_c|)"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:146,159-166"
+
+[[problem.targets]]
+panel = "fig4e"
+quantity = "Area-law coefficients alpha(e), alpha(em), and alpha(m) along line (ii), h_x = -1 and h_w = 2.980 - h_z."
+axes = "h_w along the path transverse to h_w = h_z"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:148,159-166"
+
+[[problem.targets]]
+panel = "fig4f"
+quantity = "Condensation order parameters for e^2, e^2 m^2, and m^2 along line (ii)."
+axes = "h_w along the path transverse to h_w = h_z"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:148,159-166"
+
+[[problem.targets]]
+panel = "fig4g"
+quantity = "Fitted double-log slope 2 nu_- for the area-law coefficients on line (ii)."
+axes = "ln(|h_w - h_c|)"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:150,159-166"
+
+[[problem.targets]]
+panel = "fig4h"
+quantity = "Fitted condensation-order exponent beta_phi' on line (ii)."
+axes = "ln(|h_w - h_c|)"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:150,159-166"
+
+[[problem.targets]]
+panel = "figS2"
+quantity = "Supplemental phase diagrams at h_x = 0.5, 0, and -1, including the change from first-order to continuous multicritical behavior."
+axes = "h_w versus h_z on three fixed-h_x planes"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:545-559"
+
+[[problem.targets]]
+panel = "figS3a"
+quantity = "Area-law coefficients alpha(e), alpha(em), and alpha(m) on the (h_x,h_z) = (0.5,0.1) scan as h_w varies."
+axes = "h_w"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:561-575"
+
+[[problem.targets]]
+panel = "figS3b"
+quantity = "Condensation order parameters for e^2, e^2 m^2, and m^2 on the (0.5,0.1) scan as h_w varies."
+axes = "h_w"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:561-575"
+
+[[problem.targets]]
+panel = "figS3c"
+quantity = "Fitted area-law exponent 2 nu for the conventional Ising* transition on the (0.5,0.1) scan."
+axes = "ln(|h_w - h_c^Ising|)"
+tier = "medium"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:569-575"
+
+[[problem.targets]]
+panel = "figS3d"
+quantity = "Fitted condensation-order exponent beta for <e^2 m^2> on the (0.5,0.1) scan."
+axes = "ln(|h_w - h_c^Ising|)"
+tier = "medium"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:569-575"
+
+[[problem.targets]]
+panel = "figS4a"
+quantity = "Condensation order parameters on h_x = -1 and h_w = h_z across the first-order Z4-QD/trivial transition."
+axes = "h_w = h_z"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:578-587"
+
+[[problem.targets]]
+panel = "figS4b"
+quantity = "Area-law coefficients on h_x = -1 and h_w = h_z across the first-order Z4-QD/trivial transition."
+axes = "h_w = h_z"
+tier = "light"
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:578-587"
+
+[method]
+family = "PEPS tensor-network ground-state approximation"
+family_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:62,138,547"
+algorithm = "Map the perturbed Z4 QD model to a two-coupled (2 + 1)D quantum Ising model, variationally optimize C4v-symmetric infinite PEPS, and evaluate observables with C4v-symmetric CTMRG contraction and automatic differentiation."
+algorithm_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:62,126-138,545-547"
+valid_alternatives = ["Quantum Monte Carlo on the dual model", "Finite-size exact diagonalization for transition checks", "Other PEPS tensor-network ground-state algorithms"]
+valid_alternatives_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:46,138; Inferred alternatives that can evaluate the stated phase and order-parameter targets."
+
+[method_params]
+bond_dimension = "iPEPS bond dimension D is varied; the main figure uses D = 4, 5, 6, 7, while supplemental scans use D = 5, 6, 7 or D = 4, 5, 6 as listed in the captions."
+bond_dimension_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:166,547,573,585"
+environment_dimension = "CTMRG environment bond dimension chi is varied, with chi = 100 and 160 reported in the supplemental convergence scans."
+environment_dimension_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:547,573,585,591"
+
+[software]
+named_software = "No package or implementation name is given; the paper states that code and data are available on Zenodo."
+named_software_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:174"
+valid_tools = ["An implementation of C4v-symmetric iPEPS with CTMRG contraction and automatic differentiation"]
+valid_tools_provenance = "Inferred from the numerical route stated in Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:547"
+
+[software_params]
+stated_parameters = "No implementation-specific software parameters are stated separately from the iPEPS bond dimension and CTMRG environment dimension."
+stated_parameters_provenance = "Inferred from the full rendered paper; the implementation details reported at Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:547,573,585 are method-level D and chi settings."
+
+[anchors]
+fixed_point_and_anyon_checks = "The fixed-point Z4 QD Hamiltonian, the DS construction, Z4 anyon spins/braiding, and the Abelian condensation rules provide analytic checks for the phase labels."
+fixed_point_and_anyon_checks_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:66-86,376-399"
+phase_table_checks = "Table I and Tables S1-S2 give exact zero/nonzero condensation and confinement patterns for Z4 QD, TC, DS, and trivial phases."
+phase_table_checks_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:96-105,380-399,535-541"
+tfim_check = "The transverse-field Ising critical field h_c^TFIM = 3.044330(6) is used to anchor special limits and the conventional Ising* supplemental scan."
+tfim_check_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:280,447,575"
+field_theory_check = "The O(2) phi^4 Wilson-Fisher theory, its scaling dimensions, and the derived nu/beta values are analytic predictions used to interpret the XY* multicritical point, not digitized paper outputs."
+field_theory_check_provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:593-633"
+
+[truth]
+
+[truth.fig3]
+value = { hx = -1.000, hz_c = 1.490, hw_c = 1.490, phases = "Z4 QD, TC, DS, and trivial" }
+tolerance = { hz_c = 0.02, hw_c = 0.02 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:120-124,140-142"
+
+[truth.fig4a]
+value = { critical_hw = 1.490, below_critical = "alpha(e)=alpha(em)=alpha(m)=0", above_critical = "all three area-law coefficients nonzero" }
+tolerance = { critical_hw = 0.02 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:142,159-166"
+
+[truth.fig4b]
+value = { critical_hw = 1.490, below_critical = "all three condensation order parameters zero", above_critical = "e^2, e^2 m^2, and m^2 condense" }
+tolerance = { critical_hw = 0.02 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:142,159-166"
+
+[truth.fig4c]
+value = { two_nu_plus = 1.344 }
+tolerance = { two_nu_plus = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:163,166"
+
+[truth.fig4d]
+value = { beta_phi = 0.349, beta_minus = 0.830 }
+tolerance = { beta_phi = 0.03, beta_minus = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:163,166"
+
+[truth.fig4e]
+value = { critical_hw = 1.490, relation = "e is confined for h_w>h_z; e^n m^k is confined for h_w<h_z; m is confined away from h_w=h_z" }
+tolerance = { critical_hw = 0.02 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:148,159-166"
+
+[truth.fig4f]
+value = { critical_hw = 1.490, phase_order = "TC for h_z>h_w; DS for h_w>h_z", condensates = "e^2 m^2 on the DS side and e^2 on the TC side" }
+tolerance = { critical_hw = 0.02 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:148,159-166"
+
+[truth.fig4g]
+value = { two_nu_minus = 1.134 }
+tolerance = { two_nu_minus = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:163,166"
+
+[truth.fig4h]
+value = { beta_phi_prime = 0.294 }
+tolerance = { beta_phi_prime = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:163,166"
+
+[truth.figS2]
+value = "Phase-diagram topology for h_x=0.5, 0, and -1: separated TC/DS at h_x=0.5, a four-phase meeting point at h_x=0, and an XY*-type multicritical geometry at h_x=-1."
+tolerance = "Qualitative phase labels and boundary topology must match the three plotted panels."
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:550-559"
+
+[truth.figS3a]
+value = { critical_hw = 1.292, alpha_e = ">0 above h_c", alpha_em = "0 above h_c", alpha_m = ">0 above h_c" }
+tolerance = { critical_hw = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:566-575"
+
+[truth.figS3b]
+value = { critical_hw = 1.292, condensate = "e^2 m^2 > 0 above h_c", noncondensates = "e^2=m^2=0 above h_c" }
+tolerance = { critical_hw = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:566-575"
+
+[truth.figS3c]
+value = { two_nu = 1.260 }
+tolerance = { two_nu = 0.04 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:569-573"
+
+[truth.figS3d]
+value = { beta = 0.326 }
+tolerance = { beta = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:569-575"
+
+[truth.figS4a]
+value = { transition_hw = 0.980, order_parameters = "discontinuous across the transition" }
+tolerance = { transition_hw = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:578-587"
+
+[truth.figS4b]
+value = { transition_hw = 0.980, area_law_coefficients = "discontinuous across the transition" }
+tolerance = { transition_hw = 0.03 }
+provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:578-587"

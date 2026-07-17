@@ -1,0 +1,1535 @@
+# Partition layer for papers/2505.04704 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-52"
+text = "Disorder-Free Localization and Fragmentation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-46"
+text = "Disorder-Free Localization and Fragmentation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "347-359"
+text = "ergodic phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "369-419"
+text = "fragmented phase that is nonthermal but delocalized"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "434-473"
+text = "disorder-free many-body localized regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "539-586"
+text = "preserves spatial matter inhomogeneities in time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "605-641"
+text = "distinct temporal scalings of entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "5-48"
+text = "Disorder-Free Localization and Fragmentation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "346-358"
+text = "ergodic phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "368-418"
+text = "fragmented phase that is nonthermal but delocalized"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "433-472"
+text = "disorder-free many-body localized regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "538-585"
+text = "preserves spatial matter inhomogeneities in time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "604-640"
+text = "distinct temporal scalings of entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "51-83"
+text = "Hilbert space fragmentation (HSF)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "99-129"
+text = "disorderfree localization (DFL)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "60"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0001-14.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "64"
+text = "10<br>(a)<br>Hilbert space<br>fragmentation SU(2)<br>irrep basis<br>(HSF)<br>j, m→<br>m 0 ,  0 →<br>1<br>Disorder−free localization @| r - 2 [,] [ +] [1] 2 - )<br>(DFL) @| g - 12 [,][ →] [1] 2 - )<br>Ergodic<br>0<br>0 g [2] 10<br>(b) SU(2) [gauge] singlet !(b) = | !GI →↑ !(0 , 0 , 0 , 0 , 0 , 0 , 0 , 0)<br>0 0 0 0 g r 0 0 g r 0 0 0 0 0 0 g r 0 0 g r<br>be & YS 8 FF BB & YY<br>(c) |) !(c) = | !SS →↑ | !(0 , 1 / 2 , 1 / 2 , 0 , 1 / 2 , 1 / 2 , 0 , 0)<br>0 0 g r g r 0 0 g r 0 0 g r 0 0 g r 0 0 g r<br>vt ef r @ g YF 8 r 8 g FF<br>mattersite gaugelink backchargeround ( b 1 , . . . bn, . . . , bN )<br>n n, n +1 bn superselection sector<br>0<br>0 0 0 0 0 0 0 0<br>0 0 0 0<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "66-68"
+text = "DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "186-304"
+text = "survives in time if the system is initialized in a superposition of an extensive number of gauge superselection sectors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "73"
+chars = "307-309"
+text = "DFL"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "75"
+chars = "105-121"
+text = "quadratic Casimir"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "75"
+chars = "124-193"
+text = "_E_[ˆ][2] _|j, m_ L _, m_ R _⟩_ = _j_ ( _j_ + 1) _|j, m_ L _, m_ R _⟩_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+chars = "234-296"
+text = "hardcore-gluon truncation and restrict _j ∈{_ 0 _,_ 1 _/_ 2 _}_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "82"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0002-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "798-800"
+text = "DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "984-986"
+text = "DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "997-999"
+text = "HSF"
+
+[[blocks]]
+sections = ["problem"]
+lines = "85"
+chars = "1376-1407"
+text = "13-dimensional single-site basis"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "1566-1568"
+text = "DFL"
+
+[[blocks]]
+sections = ["problem"]
+lines = "85"
+chars = "1665-1678"
+text = "hardcore-gluon"
+
+[[blocks]]
+sections = ["method"]
+lines = "85"
+chars = "2278-2298"
+text = "exact diagonalization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "85"
+chars = "2314-2319"
+text = "_N_ =8"
+
+[[blocks]]
+sections = ["problem"]
+lines = "85"
+chars = "2481-2488"
+text = "periodic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "2493-2504"
+text = "localization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "2540-2542"
+text = "DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "136-151"
+text = "emergence of DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "215-230"
+text = "evidence for HSF"
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
+chars = "42-52"
+text = "observe DFL"
+
+[[blocks]]
+sections = ["problem"]
+lines = "89"
+chars = "89-171"
+text = "(1+1)D hardcore-gluon SU(2) Yang–Mills LGT coupled with flavorless dynamical matter"
+
+[[blocks]]
+sections = ["truth"]
+lines = "91"
+chars = "4-29"
+text = "Disorder-free localization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "91"
+chars = "44-46"
+text = "DFL"
+
+[[blocks]]
+sections = ["problem"]
+lines = "93"
+chars = "36-220"
+text = "interaction between flavorless quark matter fields of mass _m_ 0, living on lattice sites _n_ , and SU(2) gauge fields living on lattice links ( _n, n_ + 1), coupled with strength _g_ 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "96"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0002-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "99"
+chars = "143-262"
+text = "2-site charge density wave configuration (staggered chain with two empty sites alternated with two doubly occupied ones)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "99"
+chars = "273-343"
+text = "gauge fields can be in any of the _j ∈{_ 0 _,_ 1 _/_ 2 _}_ SU(2) irreps"
+
+[[blocks]]
+sections = ["problem"]
+lines = "101"
+chars = "37-56"
+text = "chromoelectric basis"
+
+[[blocks]]
+sections = ["problem"]
+lines = "101"
+chars = "88-100"
+text = "_j ∈_ N _/_ 2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "108"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "112"
+text = "(a) IDE (b)<br>0 . 0 0 . 1 0 . 2<br>GI (DE) GI ( t ) SS (DE) SS ( t )<br>10 3 2 1 . 00<br>9 m =1 , g [2] =1 1 m =10 , g [2] =10 2 m =10 , g [2] =2 3<br>8 0 . 75<br>7<br>6 0 . 50<br>5<br>4 0 . 25<br>3<br>2 0 . 00<br>1 1<br>° 0 . 25<br>0 a TY<br>0 1 2 3 4 5 6 7 8 9 10 0 250 500 750 1000 0 250 500 750 1000 0 250 500 750 1000<br>g [2] time t time t time t<br>)<br>t<br>(<br>I<br>m<br>imbalance<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "115"
+chars = "275-314"
+text = "ergodic (1), DFL (2), and HSF (3) phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "120"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "29-31"
+text = "DFL"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0003-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "132"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "135"
+chars = "878-962"
+text = "acquires finite values, signaling long-time localization of the initial configuration"
+
+[[blocks]]
+sections = ["problem"]
+lines = "137"
+chars = "163-184"
+text = "timeaveraged imbalance"
+
+[[blocks]]
+sections = ["problem"]
+lines = "139"
+chars = "1-36"
+text = "intermediate time window ∆ _t_ = 300"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "101-158"
+text = "representing the ergodic (1), DFL (2), and HSF (3) regions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "291-354"
+text = "does not remain finite at long times in any of the three regimes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "364-366"
+text = "HSF"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "411-417"
+text = "ergodic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "468-474"
+text = "ergodic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "528-530"
+text = "HSF"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "536-538"
+text = "DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "560-588"
+text = "approaches a nonzero DE value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "602-648"
+text = "persistent memory of the initial matter pattern"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "682-702"
+text = "model may exhibit DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "141"
+chars = "47-67"
+text = "observed localization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "141"
+chars = "214-229"
+text = "ergodic behavior"
+
+[[blocks]]
+sections = ["problem"]
+lines = "144"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0003-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "148"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0003-14.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "156"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "160"
+text = "(a) ∆ p (b)<br>0 . 00 0 . 05 0 . 10 0 . 15 0 . 20 0 . 25 ---- p 1(ME) -—- p 1(DE) —- p 2(ME) —o— p 2(DE)<br>109 0 . 5 {| GI 0 . 400 SetOra ‘O saa SS -----+---)<br>8 Ay\\<br>7 0 . 4 = 0 . 375 Q \\<br>6 0 . 3 Ory 0 . 350 \\<br>5 aN \\\\<br>4 0 . 2 Nae Qs. DS, 0 . 325 A ‘0S<br>3 fe) Q<br>2 0 . 1 norev Oo5 0 . 300 S og<br>1 Naas 219-0 -0-5 0 . 275 0-00  -616-G<br>0 0 . 0<br>0 1 2 3 4 5 6 7 8 9 10 0 . 0 2 . 5 5 . 0 7 . 5 10 . 0 12 . 5 15 . 0 0 . 0 2 . 5 5 . 0 7 . 5 10 . 0 12 . 5 15 . 0<br>g [2] g [2] g [2]<br>q<br>p<br>m<br>populations<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "168"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "97-154"
+text = "significant region where the ME and DE predictions deviate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "172-213"
+text = "absence of thermalization in the GI sector"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "289-314"
+text = "nonergodic behavior to HSF"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "476-482"
+text = "ergodic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "513-559"
+text = "excluded from the preliminary DFL phase diagram"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "600-602"
+text = "DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "675-681"
+text = "ergodic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "171"
+chars = "736-791"
+text = "different dynamical phases explored by the initial state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "67-75"
+text = "DFL phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "359-374"
+text = "fragmented phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "519-564"
+text = "confirming the thermal behavior of the initial"
+
+[[blocks]]
+sections = ["truth"]
+lines = "175"
+chars = "107-203"
+text = "ME and DE predictions diverge strongly due to the emergence of the previously discussed DFL phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "175"
+chars = "243-322"
+text = "dominant contribution of the dynamics comes from the double-occupancy population"
+
+[[blocks]]
+sections = ["truth"]
+lines = "175"
+chars = "369-392"
+text = "baryon-like (quark pair)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "175"
+chars = "398-429"
+text = "antibaryon-like (antiquark pair)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "175"
+chars = "685-720"
+text = "crucial role of baryonic excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "32-54"
+text = "hallmark feature of DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "146-176"
+text = "many-body localized (MBL) phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "210-244"
+text = "ergodic systems governed by the ETH"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "247-292"
+text = "quantum correlations spread linearly with time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "298-307"
+text = "MBL phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "310-361"
+text = "entanglement entropy grows logarithmically with time"
+
+[[blocks]]
+sections = ["problem"]
+lines = "177"
+chars = "415-435"
+text = "bipartite von Neumann"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "951-976"
+text = "linear entanglement growth"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "1031-1058"
+text = "compatible with an MBL phase"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "182"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+text = "15 . 0<br>12<br>11 S max 12 . 5<br>10<br>9 10 . 0<br>8<br>7 7 . 5<br>6<br>5 5 . 0<br>4<br>iy 2 . 5<br>3 SS<br>2<br>0 . 0<br>10 [−] [2] 10 [−] [1] 10 [0] 10 [1] 10 [2] g [2]<br>time t<br>S<br>entropy<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "189"
+chars = "115-131"
+text = "logarithmic scale"
+
+[[blocks]]
+sections = ["truth"]
+lines = "189"
+chars = "296-305"
+text = "linear fit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "189"
+chars = "351-394"
+text = "S_ = 2 _._ 94(2) _·_ log( _t_ ) +1 _._ 33(3)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "189"
+chars = "479-485"
+text = "_S_ max"
+
+[[blocks]]
+sections = ["problem", "method", "anchors"]
+lines = "189"
+chars = "718-770"
+text = "exact matrix product state with bond dimension _χ_ =4"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "189"
+chars = "788-852"
+text = "entanglement entropy at the initial time starts from _S_ =log _χ_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "82-104"
+text = "lower saturation values"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "362-405"
+text = "entanglement entropy scales linearly in time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "432-457"
+text = "compatible with ergodicity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "358-391"
+text = "identified three different regimes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "411-431"
+text = "thermal ergodic phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "445-488"
+text = "nonthermal yet delocalized fragmented regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "494-517"
+text = "a DFL phase that emerges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "605-667"
+text = "initial imbalance in the matter distribution persists over time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "678-719"
+text = "entanglement entropy grows logarithmically"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "722-739"
+text = "reminiscent of MBL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "776-833"
+text = "strongly shaped by non-Abelian excitations such as baryons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "843-900"
+text = "DFL regime, characterized by large gauge coupling and mass"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "193"
+chars = "923-951"
+text = "background-charge truncations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "64-89"
+text = "stability of the DFL phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "192-208"
+text = "robustness of DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "199"
+chars = "104-144"
+text = "faithfully captures the DFL phenomenology"
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "203"
+chars = "78-143"
+text = "ed-lgt Library for Exact Diagonalization of Lattice Gauge Theories"
+
+[[blocks]]
+sections = ["software"]
+lines = "203"
+chars = "152-190"
+text = "Simulation data are available on Zenodo"
+
+[[blocks]]
+sections = ["method"]
+lines = "239"
+chars = "33-68"
+text = "Time-dependent variational principle"
+
+[[blocks]]
+sections = ["method"]
+lines = "239"
+chars = "85-90"
+text = "krylov"
+
+[[blocks]]
+sections = ["method"]
+lines = "525"
+chars = "99-134"
+text = "Time-dependent variational principle"
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "545"
+chars = "21-75"
+text = "edlgt: Exact diagonalization for lattice gauge theories"
+
+[[blocks]]
+sections = ["software"]
+lines = "545"
+chars = "78-83"
+text = "Zenodo"
+
+[[blocks]]
+sections = ["software", "truth"]
+lines = "547"
+chars = "76-177"
+text = "Data and code for ”disorder-free localization and fragmentation in a non-abelian lattice gauge theory”"
+
+[[blocks]]
+sections = ["software"]
+lines = "547"
+chars = "180-185"
+text = "Zenodo"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "40-83"
+text = "Disorder-Free Localization and Fragmentation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "565"
+chars = "6-55"
+text = "HARDCORE-GLUON QUDIT MODEL WITH BACKGROUND CHARGES"
+
+[[blocks]]
+sections = ["problem"]
+lines = "567"
+chars = "142-166"
+text = "hardcore-gluon truncation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "570"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0012-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "576"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0012-07.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "582"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0012-09.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "585"
+chars = "220-237"
+text = "quadratic][Casimir"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "588"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0012-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "594"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0012-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "600"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0012-15.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "605"
+chars = "6-53"
+text = "Hardcore-gluon and background charge truncations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "607"
+chars = "172-239"
+text = "hardcore-gluon_ approximation, which bounds _j ∈{_ 0 _,_ 1 _/_ 2 _}_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "607"
+chars = "367-491"
+text = "A similar truncation is performed on the irreps of the static background charges ( _jb, mb_ ) where _jb ∈{_ 0 _,_ 1 _/_ 2 _}_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "609"
+chars = "94-121"
+text = "hardcore-gluon approximation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "609"
+chars = "328-359"
+text = "distinctive DFL behavior emerges"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "609"
+chars = "373-436"
+text = "restricting the background charges to the lowest two spin irreps"
+
+[[blocks]]
+sections = ["truth"]
+lines = "609"
+chars = "449-500"
+text = "sufficient to resolve the onset and structure of DFL"
+
+[[blocks]]
+sections = ["problem"]
+lines = "613"
+chars = "616-663"
+text = "13-dimensional single dressed-site Hilbert space"
+
+[[blocks]]
+sections = ["problem"]
+lines = "620"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "626"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "630"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "633"
+chars = "63-174"
+text = "two background-charge sectors of Eqs. (S8) and (S9) are completely decoupled and do not interact with each other"
+
+[[blocks]]
+sections = ["problem"]
+lines = "638"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "641"
+chars = "203-213"
+text = "Z2-symmetry"
+
+[[blocks]]
+sections = ["problem"]
+lines = "644"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "650"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "656"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-14.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "665"
+chars = "274-308"
+text = "even parity sector of a Z2 symmetry"
+
+[[blocks]]
+sections = ["problem"]
+lines = "668"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-19.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "674"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-21.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "680"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-23.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "684"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0013-24.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "694"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0014-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "699"
+chars = "1-14"
+text = "To observe DFL"
+
+[[blocks]]
+sections = ["problem"]
+lines = "699"
+chars = "47-133"
+text = "equal superposition of all the possible configurations of singlesite background charges"
+
+[[blocks]]
+sections = ["problem"]
+lines = "699"
+chars = "790-818"
+text = "blocks of _x_ empty (e) sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "699"
+chars = "859-897"
+text = "blocks of _x_ doubly occupied (o) sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "699"
+chars = "946-1000"
+text = "initial matter imbalance, defined in Eq.(5), equal to 1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "704"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0014-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "708"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0014-07.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "711"
+chars = "93-98"
+text = "x_ = 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "711"
+chars = "129-157"
+text = "sequence of two fully _empty_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "711"
+chars = "182-207"
+text = "two fully _occupied_ sites"
+
+[[blocks]]
+sections = ["method"]
+lines = "715"
+chars = "6-44"
+text = "MPS representation of the initial state"
+
+[[blocks]]
+sections = ["method"]
+lines = "717"
+chars = "4-24"
+text = "exact diagonalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "717"
+chars = "329-354"
+text = "matrix product state (MPS)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "720"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0014-12.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "723"
+chars = "209-239"
+text = "MPS with bond dimension _χ_ = 4"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "726"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0014-14.png)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "732"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0014-16.png)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "738"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0014-18.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "741"
+chars = "34-74"
+text = "initial value of the entanglement entropy"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "743"
+chars = "6-39"
+text = "EFFECTIVE MODEL AT LARGE COUPLINGS"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "745"
+chars = "8-28"
+text = "strong-coupling limit"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "750"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0015-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "754"
+text = "1 . 0 m  = 1 , g [2] = 1 m  = 1 , g [2] = 10 m  = 1 , g [2] = 20<br>effective<br>0 . 5 SU(2)<br>0 . 0<br>− 0 . 5<br>0 20 40 60 80 100 0 20 40 60 80 100 0 20 40 60 80 100<br>time t time t time t<br>)<br>t<br>(<br>I<br>imbalance<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "757"
+chars = "12-46"
+text = "Comparison with the effective model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "757"
+chars = "51-125"
+text = "Imbalance as a function of time for different gauge couplings at fixed mass"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "759"
+chars = "201-286"
+text = "model effectively reduces to the Hilbert subspace made of only _|_ 5 _⟩_ and _|_ 1 _⟩_"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "759"
+chars = "341-427"
+text = "model simplifies to a Heisenberg model with a staggered magnetic field along the z-axis"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "762"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0015-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "767"
+chars = "227-302"
+text = "agreement between Eq.(1) and Eq. (S23) becomes significant for _g_[2] _∼_ 20"
+
+[[blocks]]
+sections = ["truth"]
+lines = "767"
+chars = "418-471"
+text = "effective model fails to describe the system evolution"
+
+[[blocks]]
+sections = ["truth"]
+lines = "767"
+chars = "592-635"
+text = "loses its initial-state configuration memory"
+
+[[blocks]]
+sections = ["truth"]
+lines = "767"
+chars = "646-709"
+text = "occurrence of DFL induced by the superposition of charge sectors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "767"
+chars = "743-766"
+text = "to escape thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "767"
+chars = "1015-1049"
+text = "dynamics already fail to thermalize"
+
+[[blocks]]
+sections = ["problem"]
+lines = "772"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0015-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "778"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0015-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "784"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0015-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "790"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0015-14.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "804"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0016-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "808"
+text = "10 [−] [1]<br>10 [−] [5]<br>10 [−] [9]<br>10 [−] [13]<br>10 [−] [17]<br>6 . 0<br>4 . 0<br>2 . 0<br>0 . 0<br>− 75 − 50 − 25 0 25 50 75 100<br>energy E<br>O<br>overlap<br>S<br>entropy<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "811"
+chars = "12-47"
+text = "Spectral properties of Fragmentation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "816"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0016-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "822"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0016-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "825"
+chars = "120-130"
+text = "thermalizes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "825"
+chars = "159-212"
+text = "nonthermal behavior due to Hilbert-space fragmentation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "830"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0016-09.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "833"
+chars = "6-32"
+text = "HILBERT SPACE FRAGMENTATION"
+
+[[blocks]]
+sections = ["truth"]
+lines = "835"
+chars = "21-74"
+text = "nonthermal yet delocalized region of the phase diagram"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "838"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0016-12.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "842"
+text = "1 . 0 1 . 0<br>0 . 9 QMBS 0 . 8<br>0 . 8 HSF 0 . 6<br>0 . 7 0 . 4<br>0 . 6 0 . 2<br>0 . 5 0 . 0<br>0 . 4 0 2 4 6 8 10 12 14<br>0 . 3<br>0 . 2<br>0 . 1<br>0 . 0<br>4 . 0<br>3 . 5<br>3 . 0<br>2 . 5 4<br>2 . 0 3<br>1 . 5 2<br>1 . 0 1<br>0 . 5 0<br>0 2 4 6 8 10 12 14<br>0 . 0<br>0 100 200 300 400 500<br>time t<br>F<br>fidelity<br>S<br>entropy<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "845"
+chars = "12-48"
+text = "Dynamical properties of Fragmentation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "845"
+chars = "372-393"
+text = "this fragmented regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "847"
+chars = "1-33"
+text = "Hilbert space fragmentation (HSF)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "847"
+chars = "471-592"
+text = "Hamiltonian spectrum is well fragmented into tiny different vertical energy bands which do not communicate with each other"
+
+[[blocks]]
+sections = ["truth"]
+lines = "847"
+chars = "604-635"
+text = "separated in energy by ∆ _E ∼_ 8"
+
+[[blocks]]
+sections = ["truth"]
+lines = "847"
+chars = "666-709"
+text = "_not_ dense as the one observed in QMB scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "849"
+chars = "179-218"
+text = "Such a feature is absent in the HSF case"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "854"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0017-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "858"
+text = "0 . 4<br>p ( t ) DE ME<br>0 . 2<br>0 . 0<br>0 . 5<br>0 . 4<br>0 . 3<br>0 200 400 600 800 1000<br>t<br>1<br>p<br>population<br>2<br>p<br>population<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "861"
+chars = "12-36"
+text = "Absence of thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "863"
+chars = "182-189"
+text = "HSF case"
+
+[[blocks]]
+sections = ["truth"]
+lines = "865"
+chars = "29-50"
+text = "lack of thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "865"
+chars = "233-348"
+text = "long-time dynamics of both populations predicted by the DE do not converge to the thermal values predicted by the ME"
+
+[[blocks]]
+sections = ["truth"]
+lines = "865"
+chars = "393-430"
+text = "localization with the SS initial state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "865"
+chars = "448-479"
+text = "do not consider it a genuine DFL"
+
+[[blocks]]
+sections = ["truth"]
+lines = "865"
+chars = "517-526"
+text = "due to HSF"
+
+[[blocks]]
+sections = ["truth"]
+lines = "867"
+chars = "6-41"
+text = "ERGODIC ENTANGLEMENT ENTROPY SCALING"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "7-20"
+text = "ergodic regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "57-81"
+text = "spread _linearly_ in time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "167-192"
+text = "compatible with ergodicity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "360-373"
+text = "linear scaling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "390-413"
+text = "SS _logarithmic_ scaling"
+
+[[blocks]]
+sections = ["problem"]
+lines = "869"
+chars = "709-735"
+text = "time window ∆ _t_ = 2 _._ 5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "871"
+chars = "395-439"
+text = "confirms the ergodic nature of the GI sectors"
+
+[[blocks]]
+sections = ["method"]
+lines = "873"
+chars = "6-34"
+text = "EXACT DIAGONALIZATION METHODS"
+
+[[blocks]]
+sections = ["method"]
+lines = "875"
+chars = "73-93"
+text = "Exact Diagonalization"
+
+[[blocks]]
+sections = ["problem"]
+lines = "875"
+chars = "194-202"
+text = "under PBC"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "875"
+chars = "234-251"
+text = "Z2-link symmetries"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "875"
+chars = "359-385"
+text = "which we resolve everywhere"
+
+[[blocks]]
+sections = ["problem"]
+lines = "875"
+chars = "479-497"
+text = "half-filling sector"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "875"
+chars = "582-598"
+text = "momentum-symmetry"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "875"
+chars = "601-623"
+text = "which we do not resolve"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "875"
+chars = "714-739"
+text = "spatial inversion symmetry"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "875"
+chars = "1044-1076"
+text = "+1 sector of the inversion parity"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "875"
+chars = "1079-1121"
+text = "projecting the Hamiltonian onto this sector"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "875"
+chars = "1123-1162"
+text = "guarantees no degeneracy in the spectrum"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "880"
+text = "![](.figures/arxiv__2505.04704/2505.04704.pdf-0018-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "884"
+text = "GI SS 15 . 0<br>8 S max 12 S max 12 . 5<br>10<br>6 10 . 0<br>8<br>7 . 5<br>4 6<br>5 . 0<br>4<br>2 S SS =2 . 94(2) log( t ) + 1 . 33(3)<br>2 2 . 5<br>S GI =0 . 386(6) t  + 0 . 43(2) (a) (b)<br>0 0 0 . 0<br>0 1 2 3 4 5 6 7 8 9 10 0 1 2 3 4 5 6 7 8 9 10 g [2]<br>time t time t<br>S<br>entropy<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "887"
+chars = "358-367"
+text = "linear fit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "887"
+chars = "399-439"
+text = "_S_ GI = 0 _._ 386(6) _· t_ + 0 _._ 43(2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "887"
+chars = "453-467"
+text = "logarithmic fit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "887"
+chars = "499-543"
+text = "_S_ SS = 2 _._ 94(2) log( _t_ ) + 1 _._ 33(3)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "887"
+chars = "596-664"
+text = "maximal bipartite entanglement entropy value _S_ max = log _N_ subsys"
+
+[[blocks]]
+sections = ["method"]
+lines = "891"
+chars = "78-80"
+text = "MPS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "893"
+chars = "57-85"
+text = "ergodicity breaking phenomena"
+
+[[blocks]]
+sections = ["method"]
+lines = "893"
+chars = "195-221"
+text = "MPS algorithms such as TEBD"
+
+[[blocks]]
+sections = ["method"]
+lines = "893"
+chars = "266-308"
+text = "TDVP (Time-Dependent Variational Principle)"
+
+[[blocks]]
+sections = ["method"]
+lines = "893"
+chars = "393-421"
+text = "exact diagonalization methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "893"
+chars = "458-477"
+text = "full energy spectrum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "893"
+chars = "498-519"
+text = "onset of fragmentation"

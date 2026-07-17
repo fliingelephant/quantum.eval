@@ -8,9 +8,313 @@ tier = "light"
 kind = "physics"
 status = "rendered"
 arxiv_version = "2506.10806v2"
+md_sha256 = "94e9e3a18d649d60190b4f67f876a5c6b881a30569f95954a580e44390dbe4c2"
 
 [candidate_notes]
 model = "kinetically constrained Rydberg-implementable spin model with weak fragmentation; ED + analytic scar construction"
 headline = "exact scar-tower energies; quench fidelity revivals; approximate-scar damping via emergent two-body loss"
 compute = "laptop: ED N~20-28"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Spin-1/2 anisotropic Heisenberg model on an equilateral triangular ladder with nearest-neighbor exchange and Ising interactions, reduced in the highly anisotropic regime to the kinetically constrained effective Hamiltonian H_eff."
+model_provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:43-57"
+convention = "Spin-up is the magnon state |•⟩, spin-down is the hole state |◦⟩, n_i=(σ_i^z+I)/2, J is the exchange coupling, V is the Ising coupling, and the conserved charges are the magnon number N_I and, for V≫J, the magnon-bond number N_II."
+convention_provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:49-57"
+instance = "Open boundary conditions with L physical sites; two virtual |◦⟩ sites are included at each edge. Symmetry sectors are labelled by (N_I,N_II), and the headline sectors include L=11,17,19 and the size sweeps reported in the figures."
+instance_provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:69-71; 291"
+
+[[problem.targets]]
+panel = "fig1b_connectivity"
+quantity = "Connectivity graph and fragment decomposition of the (N_I=N_II=7), L=11 symmetry sector"
+ensemble = "Constrained computational-basis configurations in the stated symmetry sector"
+axes = "Connectivity graph"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:69"
+
+[[problem.targets]]
+panel = "fig1c_entropy"
+quantity = "Eigenstate entanglement entropy S(E)"
+ensemble = "All eigenstates in the (N_I=N_II=10), L=17 symmetry sector"
+axes = "E versus S"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:69"
+
+[[problem.targets]]
+panel = "fig1c_spacing"
+quantity = "Level-spacing distribution P(s)"
+ensemble = "Spatial-inversion-symmetric thermal subsector of the (N_I=N_II=10), L=17 sector"
+axes = "s versus P(s)"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:69"
+
+[[problem.targets]]
+panel = "fig2a_sector_count"
+quantity = "Number of distinct symmetry sectors versus system size L"
+ensemble = "All sectors of the constrained Hamiltonian"
+axes = "L versus dimension/count"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:91"
+
+[[problem.targets]]
+panel = "fig2a_krylov_count"
+quantity = "Number of disjoint Krylov subspaces versus system size L"
+ensemble = "All dynamically disconnected Krylov subspaces"
+axes = "L versus dimension/count"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:91"
+
+[[problem.targets]]
+panel = "fig2b_fragmentation_ratio"
+quantity = "Largest-fragment fraction D_max/D_S"
+ensemble = "Ten largest fragmented symmetry sectors, ranked by D_S"
+axes = "L versus D_max/D_S"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:75; 91"
+
+[[problem.targets]]
+panel = "fig2d_attached_l2"
+quantity = "Krylov-space dimension for an l=2 string attached to a frozen cluster"
+ensemble = "Root-state constructions based on |Z_10⟩"
+axes = "L versus Krylov-space dimension"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:107"
+
+[[problem.targets]]
+panel = "fig2d_free_l2"
+quantity = "Krylov-space dimension for a free l=2 string"
+ensemble = "Root-state constructions based on |Z_10⟩"
+axes = "L versus Krylov-space dimension"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:107"
+
+[[problem.targets]]
+panel = "fig2d_l3"
+quantity = "Krylov-space dimension for a long l=3 string / thermal subsector"
+ensemble = "Root-state constructions based on |Z_10⟩"
+axes = "L versus Krylov-space dimension"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:107"
+
+[[problem.targets]]
+panel = "fig3a_connectivity"
+quantity = "Two-quasiparticle connectivity graph and elastic-to-inelastic collision path"
+ensemble = "The (N_I=N_II=11), L=19 symmetry sector generated from |ψ_2⟩"
+axes = "Connectivity graph"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:141; 147"
+
+[[problem.targets]]
+panel = "fig3b_correlation"
+quantity = "Real part of the reservoir autocorrelation Re[G_nn(t)]"
+ensemble = "Collisions at n=(L−1)/6 for L=19,25,31"
+axes = "Jt versus Re[G_nn(t)]"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:147"
+
+[[problem.targets]]
+panel = "fig3c_population"
+quantity = "Scar-space population versus time"
+ensemble = "Exact dynamics for interaction strengths V_3/J=0,2,4"
+axes = "Jt versus scar-space population"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:147"
+
+[[problem.targets]]
+panel = "figS3c_counts"
+quantity = "Number of configurations of a single magnon string with l=L/2 and dimension of the whole Krylov sector"
+ensemble = "Single-string sector and its full Krylov sector"
+axes = "System size L versus dimension"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:411"
+
+[[problem.targets]]
+panel = "figS5_lmax"
+quantity = "Probability distribution P(l_max) of the maximum string length"
+ensemble = "Scar spaces and primary subsectors at L=16,18,20,22"
+axes = "l_max versus P(l_max)"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:485"
+
+[[problem.targets]]
+panel = "figS6c_correlation"
+quantity = "Real and imaginary parts of G_nn(t), including K=1 and K=3 pseudomode fits"
+ensemble = "Collision at n=(L−1)/6 for L=19"
+axes = "Jt versus Re[G_nn(t)] and Im[G_nn(t)]"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:547"
+
+[[problem.targets]]
+panel = "figS6d_population"
+quantity = "Scar-space population ⟨Π_s⟩ for V_3=0"
+ensemble = "Exact dynamics and Markovian/non-Markovian reduced models"
+axes = "Jt versus population"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:547"
+
+[[problem.targets]]
+panel = "figS7_overlap"
+quantity = "Logarithmic scar-space population log[⟨Π_s⟩] across eigenstates"
+ensemble = "Eigenstates at L=19 for ξ=1,0.8,0.6"
+axes = "E versus log[⟨Π_s⟩]"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:593"
+
+[[problem.targets]]
+panel = "figS7_zero_mode"
+quantity = "Energy of the many-body-caged zero mode"
+ensemble = "Collision-generated Hilbert space at L=19"
+axes = "Eigenenergy"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:595; 598"
+
+[[problem.targets]]
+panel = "text_two_quasiparticle_scaling"
+quantity = "Dimension of the two-quasiparticle subspace and number of couplings to the thermal space"
+ensemble = "Two-quasiparticle scar subspace"
+axes = "Asymptotic scaling in L"
+tier = "light"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:579"
+
+[method]
+family = "Exact diagonalization / finite-size exact dynamics"
+family_provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:73; 121; 147"
+algorithm = "Enumerate constrained computational-basis configurations and Krylov components, diagonalize finite symmetry-sector Hamiltonians, and evolve the finite system or reduced density matrix for the correlation and population panels."
+algorithm_provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:73; 121; 157; 581"
+valid_alternatives = ["Sparse exact diagonalization with graph/BFS Krylov enumeration", "Lanczos/Krylov spectral decomposition or matrix-exponential propagation", "Direct Liouvillian integration for the Lindblad model", "Pseudomode master-equation integration for the non-Markovian model"]
+valid_alternatives_provenance = "Inferred Each listed route can produce the finite-sector spectra, graph dimensions, correlation functions, or density-matrix populations defined by the paper's targets."
+
+[method_params]
+parameters = [
+  { name = "Markovian correlation-time window", value = "1/J", provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:527; 530" },
+  { name = "Pseudomode count", value = "K=1 and K=3 are fitted; K=3 is reported sufficient for quantitative prediction", provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:547; 575" },
+  { name = "Pseudomode fit parameters", value = "Detunings Δ_σ,n, coupling strengths λ_σ,n, and decay rates κ_σ,n", provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:569" }
+]
+note = "No ED truncation, convergence cutoff, or sweep-count parameter is reported; L, symmetry-sector labels, V_3/J, and ξ are physical problem instances or target axes, not method knobs."
+note_provenance = "Inferred The rendered paper reports finite-size sectors and physical interaction sweeps but no ED convergence setting."
+
+[software]
+named = []
+named_provenance = "Inferred No numerical software package, library, or code name appears in the rendered paper."
+valid_tools = ["Any sparse eigensolver and Krylov-graph implementation", "Any exact finite-size time-evolution implementation", "Any Lindblad or pseudomode master-equation solver"]
+valid_tools_provenance = "Inferred These are tool substitutions for the numerical routes stated in [method]; the paper does not constrain the implementation package."
+
+[software_params]
+parameters = []
+provenance = "Inferred No implementation-specific solver tolerance, threading choice, API toggle, or other software knob is reported."
+
+[anchors]
+[[anchors.entries]]
+name = "golden_ratio"
+value = 1.618033988749895
+use = "Analytic exponential base for the number of isolated-string configurations."
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:427"
+
+[[anchors.entries]]
+name = "exact_scar_tower_length"
+value = "M=(L−2)/3 for L=6k−1"
+use = "Closed-form check for the exact single-quasiparticle scar tower."
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:121"
+
+[[anchors.entries]]
+name = "zero_mode_energy"
+value = 0.0
+use = "Exact energy of the many-body-caged state written in the supplemental construction."
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:595; 598"
+
+[truth]
+
+[truth.fig1b_connectivity]
+value = "Two Krylov subspaces: a thermal subsector K_t and an exact scar space K_s."
+tolerance = "categorical"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:69"
+
+[truth.fig1c_entropy]
+value = "Scar eigenstates show area-law entanglement while the nearby ETH-like eigenstates show volume-law entanglement."
+tolerance = "categorical scaling"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:125"
+
+[truth.fig1c_spacing]
+value = "Wigner-Dyson level-spacing distribution in the thermal subsector."
+tolerance = "categorical"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:69; 125"
+
+[truth.fig2a_sector_count]
+csv = "truth_fig2a_sector_count.csv"
+tolerance = 0.2
+provenance = "Inferred Digitized from Fig. 2(a) image linked at 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:84 and captioned at :91; tolerance covers log-plot digitization."
+
+[truth.fig2a_krylov_count]
+csv = "truth_fig2a_krylov_count.csv"
+tolerance = 0.2
+provenance = "Inferred Digitized from Fig. 2(a) image linked at 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:84 and captioned at :91; tolerance covers log-plot digitization."
+
+[truth.fig2b_fragmentation_ratio]
+csv = "truth_fig2b_fragmentation_ratio.csv"
+tolerance = 0.08
+provenance = "Inferred Digitized from Fig. 2(b) image linked at 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:84 and captioned at :91; tolerance covers point-reading uncertainty."
+
+[truth.fig2d_attached_l2]
+value = "Dimension scales proportionally to L for an l=2 string attached to a cluster."
+tolerance = "scaling"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:107"
+
+[truth.fig2d_free_l2]
+value = "Dimension scales proportionally to L^2 for a free l=2 string."
+tolerance = "scaling"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:107"
+
+[truth.fig2d_l3]
+value = "The l=3 long-string subsector scales as approximately 1.8^L and approaches the symmetry-sector size."
+tolerance = "scaling"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:107"
+
+[truth.fig3a_connectivity]
+value = "An elastic two-quasiparticle scar tower is connected to an inelastic path that grows short strings and reaches an exponentially large thermal space."
+tolerance = "categorical structure"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:141; 147"
+
+[truth.fig3b_correlation]
+csv = "truth_fig3b_correlation.csv"
+tolerance = 0.2
+provenance = "Inferred Digitized from the three Re[G_nn(t)] curves in Fig. 3(b), image linked at 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:128 and captioned at :147; tolerance covers curve digitization."
+
+[truth.fig3c_population]
+csv = "truth_fig3c_population.csv"
+tolerance = 0.08
+provenance = "Inferred Digitized from the exact-marker curves in Fig. 3(c), image linked at 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:128 and captioned at :147; tolerance covers curve digitization."
+
+[truth.figS3c_counts]
+value = { single_string_fit = "0.8×2^L/L", whole_sector_fit = "(2.2+0.32l)×φ^(l−1)", l = "L/2" }
+tolerance = "fit form"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:411"
+
+[truth.figS5_lmax]
+csv = "truth_figS5_lmax.csv"
+tolerance = 0.08
+provenance = "Inferred Digitized from the scar-space and primary-subsector histograms in Fig. S5, image linked at 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:478 and captioned at :485; tolerance covers bar-height reading."
+
+[truth.figS6c_correlation]
+csv = "truth_figS6c_correlation.csv"
+tolerance = 0.2
+provenance = "Inferred Digitized from the exact Re/Im[G_nn(t)] curves and K=1,K=3 fits in Fig. S6(c), image linked at 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:536 and captioned at :547; tolerance covers curve digitization."
+
+[truth.figS6d_population]
+csv = "truth_figS6d_population.csv"
+tolerance = 0.08
+provenance = "Inferred Digitized from the exact, Markovian, and non-Markovian population curves in Fig. S6(d), image linked at 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:544 and captioned at :547; tolerance covers curve digitization."
+
+[truth.figS7_overlap]
+value = "For ξ=1,0.8,0.6 at L=19, atypically large scar-space overlaps form visible spikes near the effective-Hamiltonian eigenenergies; the spikes grow as ξ decreases."
+tolerance = "categorical trend"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:593; 595"
+
+[truth.figS7_zero_mode]
+value = 0.0
+tolerance = 0.0
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:595; 598"
+
+[truth.text_two_quasiparticle_scaling]
+value = { subspace_dimension = "O(L^2)", thermal_couplings = "O(L)" }
+tolerance = "asymptotic scaling"
+provenance = "Literal 2506.10806_constructing-quantum-many-body-scars-from-hilbert-space-frag.md:579"

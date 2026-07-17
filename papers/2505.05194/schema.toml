@@ -9,9 +9,384 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/6jpk-yj56"
 arxiv_version = "2505.05194v2"
+md_sha256 = "9d2dce8ccf4fb85cc81b729c341dba9e457311916520f7c4d057dcf1160a3268"
 
 [candidate_notes]
 model = "frustrated J1-J2 classical q-state clock model (even q>4), 2D square lattice; CTMRG contraction of the classical partition function (+ classical MC)"
 headline = "phase diagram: stripe phase with emergent discrete Zq order forbidden microscopically; BKT / Ising / Landau-incompatible transition locations; Zq-deformed sine-Gordon effective theory"
 compute = "classical clock-model CTMRG, small local tensor, modest chi: minutes on CPU. Strongest 2D-TN light candidate"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Frustrated two-dimensional classical q-state clock model on the square lattice with ferromagnetic nearest-neighbor J1 and antiferromagnetic next-nearest-neighbor J2 interactions; the numerical study uses even q > 4 and concentrates on J2/J1 > 1/2."
+model_provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:47-55"
+convention = "J1 and J2 are nonnegative; clock angles are θi = 2πki/q with ki ∈ {0,...,q−1}; the Hamiltonian has Zq rotations and Z2 reflections, with square-lattice symmetries."
+convention_provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:50-55"
+instance = "Two-dimensional square lattice; competing nearest- and next-nearest-neighbor couplings; q = 6 for the main phase diagram and q = 8, 10, 12 for the generality checks; temperature is reported as T/J1 and coupling as J2/J1."
+instance_provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:47,79-85,399-407"
+observables = ["phase regions and transition classes", "entanglement entropy S", "correlation length ξ", "Zq order parameter ⟨e^{iθ}⟩", "nematic order parameter κ", "staggered magnetization m̃", "effective-angle histograms", "cos(qΘ)", "free energy f and df/dx"]
+observables_provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:89-109,120-156,487-505,617-637,653-679"
+
+[[problem.targets]]
+panel = "fig1_phase_diagram_q6"
+quantity = "q = 6 phase regions and transition classes in the (J2/J1,T/J1) plane"
+ensemble = "thermodynamic-limit dual-lattice CTMRG, with q = 6"
+axes = "J2/J1 versus T/J1"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:79-85,120-156"
+
+[[problem.targets]]
+panel = "fig1_effective_angles_q6"
+quantity = "histogram peak locations of the staggered-magnetization effective clock angle in the Z+6 AFM ⊕ Z2 NM and Z−6 AFM ⊕ Z2 NM phases"
+ensemble = "CMC snapshots, L = 64, J2/J1 = 0.52, T/J1 = 0.14 and 0.17"
+axes = "effective angle"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:89-107"
+
+[[problem.targets]]
+panel = "fig1_local_angles_q6"
+quantity = "local clock-angle histogram structure on one rotated √2 × √2 sublattice"
+ensemble = "single CMC snapshots at the same q = 6, J2/J1 = 0.52, T/J1 = 0.14 and 0.17 points"
+axes = "local angle"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:95-107"
+
+[[problem.targets]]
+panel = "fig1_observables_q6"
+quantity = "S on original and dual lattices, ⟨e^{iθ}⟩, and κ as functions of T/J1"
+ensemble = "anisotropic CTMRG, q = 6, J2/J1 = 0.52"
+axes = "T/J1"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:109-111"
+
+[[problem.targets]]
+panel = "fig1_complex_order_q6"
+quantity = "frequency distribution of the complex staggered order parameter m̃"
+ensemble = "2.5 × 10^6 CMC snapshots at q = 6, J2/J1 = 0.52; L = 64 and 384"
+axes = "Re(m̃) versus Im(m̃)"
+tier = "medium"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:103-107"
+
+[[problem.targets]]
+panel = "fig2_critical_scaling_q6"
+quantity = "correlation-length scaling at the BKT and Z2-NM-to-PM Ising transitions"
+ensemble = "dual-system CTMRG at q = 6, J2/J1 = 0.52"
+axes = "ξ versus T/J1"
+tier = "medium"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:120-144"
+
+[[problem.targets]]
+panel = "fig2_landau_c1_q6"
+quantity = "finite-entanglement scaling of the EE peak at the direct Z+6/Z−6 transition"
+ensemble = "anisotropic CTMRG, q = 6, J2/J1 = 0.52"
+axes = "S versus log ξ"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:144,152-156"
+
+[[problem.targets]]
+panel = "fig4_q8_q10_q12_phase_checks"
+quantity = "phase-diagram structure and emergent-phase extent for q = 8, 10, and 12"
+ensemble = "dual-system isotropic CTMRG, with q varied"
+axes = "J2/J1 versus T/J1"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:399-405,443-447"
+
+[[problem.targets]]
+panel = "fig4_q8_angles_and_snapshots"
+quantity = "q = 8 effective-angle histograms, local-angle histograms, and real-space clock-state snapshots"
+ensemble = "CMC, J2/J1 = 0.52, L = 64, T/J1 = 0.08, 0.11, 0.20, 0.39"
+axes = "effective/local angle and 64 × 64 lattice coordinates"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:407-441"
+
+[[problem.targets]]
+panel = "fig5_q6_snapshots"
+quantity = "real-space clock-state snapshots in four q = 6 phases"
+ensemble = "CMC, J2/J1 = 0.52, L = 64, T/J1 = 0.14, 0.17, 0.23, 0.30"
+axes = "64 × 64 lattice coordinates and clock-state labels"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:424-441"
+
+[[problem.targets]]
+panel = "figS1_order_parameters_q6_052"
+quantity = "κ, |⟨m̃⟩|, and cos(qΘ) versus T/J1"
+ensemble = "CMC L = 64 and anisotropic CTMRG, q = 6, J2/J1 = 0.52"
+axes = "T/J1"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:503-535"
+
+[[problem.targets]]
+panel = "figS2_nematic_width"
+quantity = "temperature width of the intermediate Z2 NM phase for q = 6, 8, 10, 12"
+ensemble = "anisotropic CTMRG on the original lattice, J2/J1 = 0.52, χ = 96"
+axes = "T/J1"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:510-517,539"
+
+[[problem.targets]]
+panel = "figS3_order_parameters_q6_06"
+quantity = "κ and cos(qΘ) convergence with CMC system size"
+ensemble = "CMC L = 64 and 128, q = 6, J2/J1 = 0.6"
+axes = "T/J1"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:520-541"
+
+[[problem.targets]]
+panel = "figS7_entanglement_scaling"
+quantity = "EE saturation in ordered phases and finite-entanglement scaling in QLRO ⊕ Z2 NM"
+ensemble = "dual-system isotropic CTMRG, q = 6, J2/J1 = 0.52"
+axes = "S versus χ and S versus log ξ"
+tier = "medium"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:631-647"
+
+[[problem.targets]]
+panel = "figS8_dual_ee_difference"
+quantity = "isotropic-minus-anisotropic EE difference in nematic and PM phases"
+ensemble = "dual-system CTMRG, q = 6, J2/J1 = 0.52"
+axes = "T/J1"
+tier = "light"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:649,658-665"
+
+[[problem.targets]]
+panel = "figS9_first_order_checks"
+quantity = "free-energy kinks, derivative discontinuities, and cos(qΘ) across first-order and direct Z±6 transitions"
+ensemble = "anisotropic CTMRG on the original lattice, q = 6, χ = 128"
+axes = "T/J1 or J2/J1, as specified by panel"
+tier = "medium"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:651-679"
+
+[method]
+selected = "Classical Monte Carlo with single-spin-flip Metropolis updates, complemented by tensor-network contraction using anisotropic CTMRG on the original lattice and isotropic CTMRG on the dual lattice."
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:67-79"
+
+[[method.routes]]
+name = "single-spin-flip Metropolis classical Monte Carlo"
+role = "finite-size snapshots and order parameters, especially deep inside phases"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:67,483-487"
+
+[[method.routes]]
+name = "anisotropic corner transfer matrix renormalization group"
+role = "thermodynamic-limit original-lattice partition-function contraction and narrow phase-boundary resolution"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:69,575-589"
+
+[[method.routes]]
+name = "isotropic corner transfer matrix renormalization group on the dual model"
+role = "thermodynamic-limit contraction with a single-site unit cell and higher bond dimension"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:71-77,591-603"
+
+[[method.alternatives]]
+route = "A finite-size classical Monte Carlo sampler for q-state spins"
+valid_for = "snapshot and bulk-order targets, but not the full thermodynamic-limit phase-boundary campaign"
+provenance = "Inferred from the CMC target definitions and the paper's stated limitation to deep-in-phase properties: papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:67,483-487"
+
+[[method.alternatives]]
+route = "An anisotropic CTMRG implementation for the original tensor network"
+valid_for = "original-lattice thermodynamic-limit observables and phase-boundary targets"
+provenance = "Inferred from the original-lattice TN construction and contraction description: papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:557-589"
+
+[[method.alternatives]]
+route = "An isotropic CTMRG implementation for the constrained dual tensor network"
+valid_for = "dual-lattice entanglement, correlation-length, and phase-diagram targets"
+provenance = "Inferred from the dual TN's full D4 symmetry and isotropic contraction description: papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:591-603"
+
+[method_params]
+[[method_params.entries]]
+name = "CMC update"
+value = "single-spin-flip Metropolis update"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:67,483"
+
+[[method_params.entries]]
+name = "CMC equilibration steps"
+value = 500000
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:485"
+
+[[method_params.entries]]
+name = "CMC measurement steps"
+value = 50000
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:485"
+
+[[method_params.entries]]
+name = "independent CMC initial realizations"
+value = "over 20 to 80"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:485"
+
+[[method_params.entries]]
+name = "original-lattice anisotropic CTMRG unit cell"
+value = "4 × 4"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:69,577"
+
+[[method_params.entries]]
+name = "dual-lattice isotropic CTMRG unit cell"
+value = "single-site"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:77"
+
+[[method_params.entries]]
+name = "main-text MPS bond dimension"
+value = "χ = 128 for q = 6"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:79-81,589"
+
+[[method_params.entries]]
+name = "critical-scaling bond dimensions"
+value = "χ = 640; comparison curves χ = 192, 256, 384, 512"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:141,144"
+
+[[method_params.entries]]
+name = "finite-entanglement-scaling bond dimensions"
+value = "χ = 48, 64, 80, 112, with χ ∈ [40:112] for the peak fit"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:144"
+
+[[method_params.entries]]
+name = "main-text EE comparison bond dimensions"
+value = "χ = 96 and 80"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:104"
+
+[[method_params.entries]]
+name = "supplemental q = 8, 10, 12 CTMRG bond dimension"
+value = "χ = 128"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:421"
+
+[[method_params.entries]]
+name = "supplemental nematic-width bond dimension"
+value = "χ = 96"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:517"
+
+[[method_params.entries]]
+name = "direct-transition scan spacing"
+value = "10^-6 in J2/J1 or T/J1 as scanned"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:669"
+
+[software]
+selected = "ITensors.jl for the CTMRG calculations; the CMC implementation is not named."
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:183"
+
+[[software.tools]]
+name = "ITensors.jl"
+role = "tensor-network calculation library"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:183,393-395"
+
+[[software.alternatives]]
+name = "another tensor-network library implementing the stated CTMRG contractions"
+valid_for = "CTMRG targets, subject to reproducing the chosen tensor network and method parameters"
+provenance = "Inferred from the paper's method-level CTMRG description and its separate naming of ITensors.jl: papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:69,575-603,183"
+
+[software_params]
+entries = []
+note = "No implementation-only solver tolerance, threading setting, API toggle, or other software knob is stated; χ, unit cells, sampling counts, and scan spacing are method parameters."
+provenance = "Inferred from the named software and the complete numerical-setup passages at papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:67-81,183,483-485,575-603"
+
+[anchors]
+[[anchors.entries]]
+name = "microscopic symmetry group"
+value = "Zq rotations and Z2 reflections generate Dq ≃ Zq ⋊ Z2"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:53-55"
+
+[[anchors.entries]]
+name = "q = 2 and q → ∞ limits"
+value = "q = 2 gives the J1-J2 Ising model; q → ∞ gives the J1-J2 XY model with exact O(2) symmetry"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:59"
+
+[[anchors.entries]]
+name = "q = 4 exact mapping"
+value = "the q = 4 clock model maps to two decoupled J1-J2 Ising models via the stated two-Ising-variable encoding"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:327"
+
+[[anchors.entries]]
+name = "BKT and Ising reference scaling"
+value = "ξ ∼ exp(const/√|T−TBKT|) at BKT; ξ ∼ |T−TIsing|^−ν with ν = 1 for the Ising transition"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:120-132"
+
+[[anchors.entries]]
+name = "finite-entanglement CFT scaling"
+value = "S = (c/6) log ξ + b"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:156,634"
+
+[[anchors.entries]]
+name = "effective-field-theory scaling dimensions"
+value = "[cos ϕ] = K, [cos(qϑ)] = q^2/(4K), and [cos(2qϑ)] = q^2/K; the critical window is 2 ≤ K ≤ q^2/8"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:146-154"
+
+[[anchors.entries]]
+name = "dual local constraint"
+value = "cos(σ(i,x̂)+σ(i,ŷ)+σ(i+x̂,ŷ)+σ(i+ŷ,x̂)) = 1"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:71-77,591-603"
+
+[truth]
+[truth.fig1_phase_diagram_q6]
+value = { q = 6, frustration_boundary = "J2/J1 = 1/2", phases = ["Z+6 FM", "QLRO", "PM", "Z+6 AFM ⊕ Z2 NM", "QLRO ⊕ Z2 NM", "Z2 NM", "Z−6 AFM ⊕ Z2 NM"], transition_classes = ["BKT", "Ising", "first-order", "Landau-incompatible continuous"], approximate_nematic_disappearance = "J2/J1 ≳ 0.65" }
+tolerance = "categorical phase/transition match; approximate locations within the plotted resolution"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:79-85,120-156,181"
+
+[truth.fig1_effective_angles_q6]
+value = { q = 6, J2_over_J1 = 0.52, temperatures = [0.14, 0.17], Zplus_centers = "2kπ/6", Zminus_centers = "(2k+1)π/6" }
+tolerance = 0.05
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:95-107"
+
+[truth.fig1_local_angles_q6]
+value = { Zplus_structure = "two prominent AFM peaks separated by π", Zminus_structure = "two pairs of peaks; within-pair separation 2π/6 and pair spacing π" }
+tolerance = 0.05
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:95-107"
+
+[truth.fig1_observables_q6]
+value = { q = 6, J2_over_J1 = 0.52, observables = ["S original", "S dual", "⟨e^{iθ}⟩", "κ"], temperature_axis = "T/J1", phase-boundary_signal = "EE kinks" }
+tolerance = "curve/phase-boundary match within plotted resolution"
+provenance = "Inferred from digitizing the observables in Fig. 1(e): papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:100,109"
+
+[truth.fig1_complex_order_q6]
+value = { q = 6, J2_over_J1 = 0.52, temperatures = [0.14, 0.154295, 0.17], sizes = [64, 384], transition_signature = "rotationally invariant distribution at T/J1 = 0.154295" }
+tolerance = "qualitative distribution match; finite-size deviations allowed"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:103-107"
+
+[truth.fig2_critical_scaling_q6]
+value = { q = 6, J2_over_J1 = 0.52, BKT_form = "ξ ∼ exp(const/√|T−TBKT|)", Ising_exponent = 1, transitions = ["Z−6 AFM ⊕ Z2 NM ↔ QLRO ⊕ Z2 NM", "Z2 NM ↔ PM"] }
+tolerance = "exponent/form match; transition locations digitized from Fig. 2(a)"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:120-144"
+
+[truth.fig2_landau_c1_q6]
+value = { q = 6, J2_over_J1 = 0.52, central_charge = 1.00, quoted_uncertainty = 0.05, symmetry = "emergent O(2)" }
+tolerance = 0.05
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:144,152-156"
+
+[truth.fig4_q8_q10_q12_phase_checks]
+value = { q_values = [8, 10, 12], all_q8_phases_observed = true, emergent_Zminus_phase_extent = "decreases as q increases", XY_limit = "vanishes in the q → ∞ limit is predicted, not numerically established" }
+tolerance = "qualitative phase-set and monotonic-extent match"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:399-405,443-447"
+
+[truth.fig4_q8_angles_and_snapshots]
+value = { q = 8, J2_over_J1 = 0.52, L = 64, Zplus_temperature = 0.08, Zminus_temperature = 0.11, QLRO_NM_temperature = 0.20, PM_temperature = 0.39, Zplus_centers = "even multiples of π/8", Zminus_centers = "odd multiples of π/8" }
+tolerance = 0.05
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:407,421,433-441"
+
+[truth.fig5_q6_snapshots]
+value = { q = 6, J2_over_J1 = 0.52, L = 64, temperatures = [0.14, 0.17, 0.23, 0.30], emergent_signature = "two state-pairs separated by Δk = 1 in the Z− phase" }
+tolerance = "qualitative snapshot and state-pair match"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:431,441"
+
+[truth.figS1_order_parameters_q6_052]
+value = { q = 6, J2_over_J1 = 0.52, L = 64, quantities = ["κ", "|⟨m̃⟩|", "cos(qΘ)"], Zplus_cos_qTheta = "+1", Zminus_cos_qTheta = "−1", PM_cos_qTheta = "0" }
+tolerance = 0.05
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:503-535"
+
+[truth.figS2_nematic_width]
+value = { J2_over_J1 = 0.52, width_q6 = 0.0065, width_q10 = 0.009, width_q12 = 0.009 }
+tolerance = 0.0005
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:517,539"
+
+[truth.figS3_order_parameters_q6_06]
+value = { q = 6, J2_over_J1 = 0.6, sizes = [64, 128], Zminus_cos_qTheta_limit = -1 }
+tolerance = 0.05
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:537,541"
+
+[truth.figS7_entanglement_scaling]
+value = { J2_over_J1 = 0.52, T_Zminus = 0.224, T_Z2NM = 0.242, T_critical = 0.232, central_charge = 1.00, quoted_uncertainty = 0.04 }
+tolerance = 0.05
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:643-647"
+
+[truth.figS8_dual_ee_difference]
+value = { J2_over_J1 = 0.52, nematic_difference = "log 2", PM_difference = 0, QLRO_NM_difference = "approximately log 2" }
+tolerance = 0.05
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:649,665"
+
+[truth.figS9_first_order_checks]
+value = { first_order_J2_over_J1 = [0.503, 0.505, 0.5], direct_transition_first_order_for = "J2/J1 ≲ 0.51", direct_transition_continuous_for = "J2/J1 > 0.51", tested_ratios = [0.51, 0.52, 0.525], tested_center_temperatures = [0.13085, 0.1542, 0.1636] }
+tolerance = "transition-class match; plotted discontinuities within figure resolution"
+provenance = "Literal papers/2505.05194/2505.05194_two-dimensional-j-1-j-2-clock-model-enhanced-symmetries-emer.md:653-679"

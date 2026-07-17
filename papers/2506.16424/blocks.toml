@@ -1,0 +1,3750 @@
+# Partition layer for papers/2506.16424 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-25"
+text = "Pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-19"
+text = "Pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1-34"
+text = "Weak first-order pseudocriticality"
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "440-493"
+text = "SU(N) generalization of the Heisenberg antiferromagnet"
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "584-597"
+text = "1+1 dimensions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "620-637"
+text = "near a complex CFT"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "716-746"
+text = "quantum Monte Carlo simulations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "752-763"
+text = "continuous N"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "779-801"
+text = "improved loop estimator"
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "811-836"
+text = "Rényi entanglement entropy"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "849-876"
+text = "nonequilibrium work protocol"
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "908-931"
+text = "track the central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "994-1033"
+text = "excellent agreement with CFT predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1063-1072"
+text = "region N>2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1085-1116"
+text = "CFT moves into the complex plane"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1122-1207"
+text = "pseudocritical drifts enable us to recover the real part of the complex central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "1264-1317"
+text = "N=3 is also equivalent to the spin-1 biquadratic model"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "29"
+chars = "1354-1460"
+text = "dimerized phase of the spin-1 chain, demonstrating that it is pseudocritical and proximate to a complex CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "5-21"
+text = "Pseudocriticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1-34"
+text = "Weak first-order pseudocriticality"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "442-503"
+text = "SU( _N_ ) generalization of the the Heisenberg antiferromagnet"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "594-607"
+text = "1+1 dimensions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "630-647"
+text = "near a complex CFT"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "729-747"
+text = "quantum Monte Carlo"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "765-778"
+text = "_continuous N_"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "794-816"
+text = "improved loop estimator"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "826-852"
+text = "R´enyi entanglement entropy"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "865-892"
+text = "nonequilibrium work protocol"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "924-947"
+text = "track the central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1013-1052"
+text = "excellent agreement with CFT predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1082-1095"
+text = "region _N >_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1108-1139"
+text = "CFT moves into the complex plane"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1145-1230"
+text = "pseudocritical drifts enable us to recover the real part of the complex central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "1287-1344"
+text = "_N_ = 3 is also equivalent to the spin-1 biquadratic model"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "43"
+chars = "1379-1485"
+text = "dimerized phase of the spin-1 chain, demonstrating that it is pseudocritical and proximate to a complex CFT"
+
+[[blocks]]
+sections = ["method"]
+lines = "51"
+chars = "102-144"
+text = "density matrix renormalization group (DMRG)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "51"
+chars = "246-327"
+text = "scale-dependent value of the central charge that drifts toward zero at large sizes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "51"
+chars = "429-491"
+text = "accurate determination of the _real part_ of the central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "55"
+chars = "27-66"
+text = "finite-size drifts of the central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "82-118"
+text = "complex-CFT-induced pseudocriticality"
+
+[[blocks]]
+sections = ["problem"]
+lines = "55"
+chars = "132-154"
+text = "1+1D quantum spin model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "55"
+chars = "286-319"
+text = "Heisenberg model as a special case"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "55"
+chars = "420-490"
+text = "spin-1 biquadratic chain as a special case in the pseudocritical regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "515-561"
+text = "dimerized phase of the spin-1 chain is in close"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "264-275"
+text = "closed loops"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "309-318"
+text = "QMC weight"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "529-550"
+text = "interpolating ensemble"
+
+[[blocks]]
+sections = ["problem"]
+lines = "59"
+chars = "726-734"
+text = "R´enyi EE"
+
+[[blocks]]
+sections = ["method"]
+lines = "59"
+chars = "744-771"
+text = "nonequilibrium work protocol"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "1-26"
+text = "proximity to a complex CFT"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "43-67"
+text = "quantum Monte Carlo (QMC)"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "88-153"
+text = "loop representation of our SU( _N_ ) spin chain partition function"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "300-321"
+text = "real values of _N >_ 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "342-406"
+text = "_continuously_ tune the distance from the complex-CFT for _N >_ 2"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "478-523"
+text = "the loop representation allows us to develop a"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "63"
+chars = "525-601"
+text = "highly efficient algorithm for computing the R´enyi entanglement entropy (EE)"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "658-676"
+text = "nonequilibrium work"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "704-723"
+text = "loop-based estimator"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "789-831"
+text = "finite-size estimates of the central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "874-908"
+text = "critical and pseudocritical regimes"
+
+[[blocks]]
+sections = ["problem"]
+lines = "63"
+chars = "944-982"
+text = "subsystem oscillations of the R´enyi EE"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "63"
+chars = "997-1037"
+text = "power given by the Potts thermal exponent"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "36-106"
+text = "SU( _N_ ) generalization of the Heisenberg antiferromagnetic spin chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "127-244"
+text = "fundamental representation of SU( _N_ ) on one sublattice and the conjugate to the fundamental on the other sublattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "272-314"
+text = "singlet can be formed on two adjacent sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "68"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0002-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "71"
+chars = "36-92"
+text = "color or flavor index of the SU( _N_ ) degrees of freedom"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "1-37"
+text = "When _N_ = 2 this model is equivalent"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "130-170"
+text = "power-law correlated, gapless groundstate"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "73"
+chars = "264-285"
+text = "central charge _c_ = 1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "297-332"
+text = "For _N_ = 3 this model is equivalent"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "341-364"
+text = "spin-1 biquadratic model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "444-493"
+text = "gapped groundstate residing in the dimerized phase"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "75"
+chars = "44-94"
+text = "mapped to the quantum Potts chain with _Q_ = _N_[2]"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "75"
+chars = "213-242"
+text = "classical O( _n_ ) loop models"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "75"
+chars = "399-409"
+text = "complex-CFT"
+
+[[blocks]]
+sections = ["problem"]
+lines = "75"
+chars = "480-507"
+text = "critical-pseudocritical line"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "1-15"
+text = "_QMC Technique_"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "39-75"
+text = "algorithm for computing the R´enyi EE"
+
+[[blocks]]
+sections = ["problem"]
+lines = "77"
+chars = "112-135"
+text = "continuous values of _N_"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "233-270"
+text = "standard QMC simulations of this model"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "322-351"
+text = "highly precise loop estimators"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "412-463"
+text = "spin symmetry to greatly reduce the stochastic error"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "479-494"
+text = "a loop estimator"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "503-531"
+text = "R´enyi EE was first developed"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "537-575"
+text = "ground state projector simulations [51]"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "602-636"
+text = "finite-temperature simulations [41]"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "683-710"
+text = "nonequilibrium loop protocol"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "750-771"
+text = "computing R´enyi EE in"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "773-809"
+text = "standard QMC simulations [25, 26, 53]"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "867-905"
+text = "ground state projector simulations [54]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "79"
+chars = "5-20"
+text = "second R´enyi EE"
+
+[[blocks]]
+sections = ["problem"]
+lines = "79"
+chars = "89-126"
+text = "reduced density matrix of a region _A_"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "79"
+chars = "214-232"
+text = "sufficiently] large"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "79"
+chars = "242-274"
+text = "only the ground state contributes"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "315-380"
+text = "free energy difference between two generalized partition functions"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "582-643"
+text = "loop decomposition in the resummed stochastic series expansion"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "84"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth", "method"]
+lines = "88"
+text = "ZXX = [[�]] c [[w][c][N][ ℓ]][[c][N][ ℓ]][[N][ ℓ]][[ ℓ]] c [[X]] , where the weight 6<br>on the expansion order [57] and is in-<br>X and the spin degeneracy factor N [[ℓ]] c [[X]] de- 5 N =3.6<br>number of loops formed by the trace con-<br>denoted as ℓ [[X]] c [[.]] [[Importantly,]] [[Z][A]][[A]] [[and]] [[Z]] [[∅]] 4 N =3.0<br>their degeneracy factors, since the number N =2.4<br>3<br>on the trace condition, with ℓ [[∅]] c [[≥]] [[ℓ][A]][[A]] c [[,]] N =2.0<br>2 N =1.6<br>a highly efficient loop-based pro-<br>N =1.2<br>S 2 by introducing an interpolating<br>1 N =1.0<br>N =0.8<br>Z ( λ ) = � wcN [λℓ] c [A] [+(1] [−][λ] [)] [ℓ] [∅] c (2) 0 N =0.6<br>c N =0.4<br>− 1<br> Z ∅ and  Z (1) =  ZAA . Following [25, 26],<br>0 5 10 15 20 25 30 35 40 45<br>via a nonequilibrium simulation of lA<br> N<br> +<br>2<br>S<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+text = "over configurations: _ZXX_ =[[�]] _c[[w][c][N][ ℓ]][[c][N][ ℓ]][[N][ ℓ]][[ ℓ]] c[[X]]_ , where the weight factor _wc_ depends on the expansion order [57] and is independent of _X_ and the spin degeneracy factor _N[[ℓ]] c[[X]]_ depends on the number of loops formed by the trace condition over _X_ , denoted as _ℓ[[X]] c_[[.]][[Importantly,]] _[[Z][A]][[A]]_[[and]] _[[Z]]_[[∅]] differ only in their degeneracy factors, since the number of loops depends on the trace condition, with _ℓ_[[∅]] _c[[≥]][[ℓ][A]][[A]] c_[[,]] see Fig. (1). "
+
+[[blocks]]
+sections = ["method"]
+lines = "93"
+chars = "20-55"
+text = "highly efficient loop-based protocol"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "97-136"
+text = "nonequilibrium simulation of _Z_ ( _λ_ )"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "95"
+chars = "144-168"
+text = "_λ_ is varied from 0 to 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "171-200"
+text = "In each nonequilibrium process"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "206-237"
+text = "corresponding work is calculated"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "9-49"
+text = "R´enyi EE as a function of subsystem size"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "66-123"
+text = "chain of length _L_ = 48 with periodic boundary conditions"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "155-190"
+text = "Colored points are obtained from QMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "302-320"
+text = "fit to scaling form"
+
+[[blocks]]
+sections = ["problem"]
+lines = "97"
+chars = "338-388"
+text = "numerically fitted central charges and and exponent"
+
+[[blocks]]
+sections = ["method"]
+lines = "100"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0003-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "46-65"
+text = "Jarzynski’s equality"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "96-139"
+text = "statistically exact formula to compute _S_ 2"
+
+[[blocks]]
+sections = ["method"]
+lines = "103"
+chars = "206-244"
+text = "independent nonequilibrium trajectories"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "105"
+chars = "1-61"
+text = "all _N >_ 2 the chain is dimerized in the thermodynamic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "105"
+chars = "77-131"
+text = "finite-size data still closely follows the scaling form"
+
+[[blocks]]
+sections = ["truth"]
+lines = "105"
+chars = "224-265"
+text = "Only at our largest value of _N_ = 3 _._ 6"
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "539-600"
+text = "subtraction scheme that cancels out the effect of oscillations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "41-65"
+text = "strongly dimerized region"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "113-134"
+text = "efficient QMC sampling"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "153-227"
+text = "long tunneling times required to move between the two dimerization patterns"
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "288-310"
+text = "replica shifting method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "317-355"
+text = "substantially improves our data quality"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "36-77"
+text = "_S_ 2 data as a function of subsystem size"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "83-148"
+text = "periodic chains of length _L_ = 48 and _N ∈_ [0 _._ 4 _,_ 3 _._ 6]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "109"
+chars = "151-191"
+text = "For gapless antiferromagnetic spin chains"
+
+[[blocks]]
+sections = ["problem"]
+lines = "111"
+chars = "68-147"
+text = "convergence of _c_ ( _L_ ), the central charge extracted from chains of size _L_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "111"
+chars = "186-210"
+text = "predicted values from CFT"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "114"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "117"
+chars = "86-185"
+text = "logarithmic term is characteristic of gapless spin chains described by a CFT with central charge _c_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "214-241"
+text = "subleading oscillatory piece"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "397-414"
+text = "decay exponent _x_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "120"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0003-14.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "123"
+chars = "94-128"
+text = "same central charge as in the Potts"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "123"
+chars = "194-235"
+text = "complex-valued central charge when _N >_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "273-360"
+text = "finite-size estimates _c_ ( _L_ ) converge almost perfectly to the real part _ℜ_ ( _c_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "428-472"
+text = "eventually drift to zero at much larger sizes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "123"
+chars = "590-611"
+text = "agreement with the CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "82-145"
+text = "_S_ 2( _lA_ ) changes from concave up to concave down at _N_ = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "154-201"
+text = "exactly zero at _N_ = 1 since _ZA_ = _Z_ ∅ there"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "228-254"
+text = "central charge changes sign"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "336-411"
+text = "stronger oscillations due to a greater tendency to form dimers at larger _N_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "130"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth", "anchors"]
+lines = "134"
+text = "(a) c CFT N = 2.4 (b) 2 (c) c CFT<br>1 . 75 ℜ ( c CFT) N = 2.2 ℜ ( c CFT)<br>N = 2.0<br>N = 1.8<br>1 . 50 N = 1.6 1<br>N = 1.4<br>1 . 25 2 . 0<br>c c 0 2  − yT [Potts]<br>1 . 00 1 . 5<br>x<br>N = 3.6<br>0 . 75 N = 3.4 − 1 1 . 0<br>N = 3.2<br>N = 3.0 0 . 5<br>0 . 50 N = 2.8 0 . 0 0 . 5 1 . 0 1 . 5 2 . 0<br>N = 2.6 − 2 N<br>0 16 32 48 64 0 20 40 60 80 0 . 0 0 . 6 1 . 2 1 . 8 2 . 4 3 . 0 3 . 6<br>L L N<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "15-72"
+text = "The central charge extracted from chains of total size _L_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "137"
+chars = "78-98"
+text = "various values of _N_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "137"
+chars = "133-163"
+text = "central charge given by Eq. (5)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "137"
+chars = "179-212"
+text = "the central charge becomes complex"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "241-276"
+text = "real part as dashed horizontal lines"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "311-357"
+text = "direct convergence to the CFT value is observed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "414-467"
+text = "_c_ ultimately flows to zero in our model when _N >_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "489-510"
+text = "drift dominated regime"
+
+[[blocks]]
+sections = ["problem"]
+lines = "137"
+chars = "619-666"
+text = "form of the drift in Eq. (19) can be used to fit"
+
+[[blocks]]
+sections = ["problem"]
+lines = "137"
+chars = "721-791"
+text = "extracted values of the central charge compared with the CFT prediction"
+
+[[blocks]]
+sections = ["problem"]
+lines = "137"
+chars = "997-1049"
+text = "decay exponent associated with subsystem oscillations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "1075-1124"
+text = "closely match two minus the Potts thermal exponent"
+
+[[blocks]]
+sections = ["truth"]
+lines = "139"
+chars = "5-72"
+text = "agreement found in the region _N <_ 1 with a negative central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "139"
+chars = "124-186"
+text = "decay exponent _x_ , extracted from fits to Eq. (4) for _N ≤_ 2"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "139"
+chars = "197-243"
+text = "remarkable agreement with _x_ = 2 _− yT_[Potts]"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "142"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "145"
+chars = "267-309"
+text = "slight deviations of _x_ from the CFT value"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "145"
+chars = "360-388"
+text = "known logarithmic corrections"
+
+[[blocks]]
+sections = ["truth"]
+lines = "145"
+chars = "451-490"
+text = "we can no longer match _x_ to a CFT form"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "147"
+chars = "24-92"
+text = "drift-dominated regime shown in Fig. (3b) for values of _N ≥_ 2 _._ 6"
+
+[[blocks]]
+sections = ["truth"]
+lines = "147"
+chars = "129-197"
+text = "monotonically decreasing _c_ ( _L_ ) from small to larger size chains"
+
+[[blocks]]
+sections = ["truth"]
+lines = "147"
+chars = "225-275"
+text = "deviate significantly from the real part of Eq. (5)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "147"
+chars = "405-484"
+text = "real part of the CFT central charge can be recovered based on finite-size drifts"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "149"
+chars = "1-41"
+text = "central charge near the Potts complex CFT"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "152"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0004-08.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "155"
+chars = "49-108"
+text = "Here _cR_ is the real part of the complex CFT central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "155"
+chars = "267-300"
+text = "remarkable agreement with Eq. (19)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "155"
+chars = "429-459"
+text = "resulting fitted values of _cR_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "155"
+chars = "521-595"
+text = "largest value of _N_ = 3 _._ 6, which corresponds to a _Q ≈_ 13 Potts model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "155"
+chars = "605-670"
+text = "accurately recover the real part of the complex CFT central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "33-74"
+text = "complex CFT driven pseudocritical behavior"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "201-235"
+text = "statistically exact QMC simulations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "294-333"
+text = "excellent agreement with CFT predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "355-426"
+text = "region _N >_ 2 where we see the effect of complex-valued central charges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "448-499"
+text = "region of negative real central charges when _N <_ 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "157"
+chars = "596-698"
+text = "powerlaw decay of the subsystem oscillations of the R´enyi EE is governed by the Potts thermal exponent"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "161"
+chars = "136-177"
+text = "dimerized spin-1 bilinearbiquadratic chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "161"
+chars = "207-244"
+text = "proximate complex CFT found at _N_ = 3"
+
+[[blocks]]
+sections = ["truth"]
+lines = "161"
+chars = "470-522"
+text = "actually contain the complex CFT in the phase diagram"
+
+[[blocks]]
+sections = ["truth"]
+lines = "161"
+chars = "699-730"
+text = "investigate complex CFTs in 1+1D"
+
+[[blocks]]
+sections = ["method"]
+lines = "215"
+chars = "130-148"
+text = "quantum Monte Carlo"
+
+[[blocks]]
+sections = ["method"]
+lines = "217"
+chars = "32-68"
+text = "Resummation-based quantum Monte Carlo"
+
+[[blocks]]
+sections = ["method"]
+lines = "219"
+chars = "17-91"
+text = "Out-of-equilibrium protocol for R´enyi entropies via the Jarzynski equality"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "47-65"
+text = "Nonequilibrium Work"
+
+[[blocks]]
+sections = ["method"]
+lines = "255"
+chars = "45-80"
+text = "Resummationbased quantum Monte Carlo"
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "115-145"
+text = "Quantum Monte Carlo Simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "275"
+chars = "109-139"
+text = "Quantum Monte Carlo Simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "277"
+chars = "85-105"
+text = "exact diagonalization"
+
+[[blocks]]
+sections = ["problem", "method_params"]
+lines = "277"
+chars = "108-131"
+text = "ground state convergence"
+
+[[blocks]]
+sections = ["problem"]
+lines = "277"
+chars = "157-184"
+text = "extraction of central charge"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "277"
+chars = "187-225"
+text = "efficiency of the R´enyi EE computation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "277"
+chars = "239-256"
+text = "spin wave velocity"
+
+[[blocks]]
+sections = ["method"]
+lines = "279"
+chars = "151-181"
+text = "quantum Monte Carlo simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "281"
+chars = "147-176"
+text = "quantum Monte Carlo simulation"
+
+[[blocks]]
+sections = ["method"]
+lines = "289"
+chars = "11-19"
+text = "Jarzynski"
+
+[[blocks]]
+sections = ["method"]
+lines = "289"
+chars = "22-44"
+text = "Nonequilibrium Equality"
+
+[[blocks]]
+sections = ["method"]
+lines = "319"
+chars = "139-160"
+text = "Monte Carlo simulation"
+
+[[blocks]]
+sections = ["method"]
+lines = "325"
+text = "## **Benchmarking with Exact Diagonalization** "
+
+[[blocks]]
+sections = ["method"]
+lines = "327"
+chars = "17-34"
+text = "QMC implementation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "327"
+chars = "54-84"
+text = "2nd R´enyi entanglement entropy"
+
+[[blocks]]
+sections = ["method"]
+lines = "327"
+chars = "100-125"
+text = "exact diagonalization (ED)"
+
+[[blocks]]
+sections = ["method"]
+lines = "327"
+chars = "172-181"
+text = "QMC and ED"
+
+[[blocks]]
+sections = ["problem"]
+lines = "327"
+chars = "189-254"
+text = "periodic chain of length _L_ = 8 and for _N_ = 2 _,_ 3 _,_ 4 _,_ 6"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "265-307"
+text = "excellent agreement between the two methods"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "336-378"
+text = "confirming the accuracy of our QMC approach"
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "330"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0007-09.png)"
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "334"
+text = "2 . 0<br>1 . 5<br>S 2<br>1 . 0<br>0 . 5<br>N = 2 N = 4<br>N = 3 N = 6<br>0 . 0<br>0 . 0 2 . 5 5 . 0 7 . 5<br>lA<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "337"
+chars = "26-46"
+text = "computed REE ( _S_ 2)"
+
+[[blocks]]
+sections = ["method"]
+lines = "337"
+chars = "58-78"
+text = "RSSE-based QMC method"
+
+[[blocks]]
+sections = ["method"]
+lines = "337"
+chars = "137-164"
+text = "exact diagonalization values"
+
+[[blocks]]
+sections = ["problem"]
+lines = "337"
+chars = "199-264"
+text = "periodic chain of length _L_ = 8 and for _N_ = 2 _,_ 3 _,_ 4 _,_ 6"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "275-329"
+text = "perfect agreement between QMC and exact diagonalization"
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "340"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0007-11.png)"
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "344"
+text = "2 . 0 (a) 2 . 0 (b)<br>1 . 8 1 . 8<br>1 . 6 1 . 6<br>S 2 S 2<br>1 . 4 1 . 4<br>1 . 2 1 . 2<br>Without replica shift With replica shift<br>1 . 0 N = 3, L = 48 1 . 0 N = 3, L = 48<br>0 16 32 48 0 16 32 48<br>lA lA<br>(c) 2 . 0 (d)<br>2 . 00<br>1 . 8<br>1 . 75<br>S 2 S 2 1 . 6<br>1 . 50 1 . 4<br>1 . 25 Without replica shift 1 . 2 With replica shift<br>N = 3, L = 64 1 . 0 N = 3, L = 64<br>1 . 00<br>0 21 42 63 0 21 42 63<br>lA lA<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "347"
+chars = "32-79"
+text = "REE ( _S_ 2) as a function of the subsystem size"
+
+[[blocks]]
+sections = ["method"]
+lines = "347"
+chars = "99-141"
+text = "using with and without replica shift method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "347"
+chars = "147-153"
+text = "_N_ = 3"
+
+[[blocks]]
+sections = ["method"]
+lines = "347"
+chars = "182-206"
+text = "without the replica shift"
+
+[[blocks]]
+sections = ["problem"]
+lines = "347"
+chars = "212-226"
+text = "_L_ = 48 _,_ 64"
+
+[[blocks]]
+sections = ["method"]
+lines = "347"
+chars = "251-319"
+text = "tunneling time required to move between the two dimerization patterns"
+
+[[blocks]]
+sections = ["truth"]
+lines = "347"
+chars = "366-395"
+text = "can not compute REE accurately"
+
+[[blocks]]
+sections = ["method"]
+lines = "347"
+chars = "426-463"
+text = "additional update of the replica shift"
+
+[[blocks]]
+sections = ["truth"]
+lines = "347"
+chars = "466-494"
+text = "we can compute REE accurately"
+
+[[blocks]]
+sections = ["method"]
+lines = "349"
+text = "## **Replica shift update for** _N >_ 2 "
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "351"
+text = "As discussed in the main text, for _N >_ 2, the ground state is in the dimerized phase. For a periodic chain, two kinds of dimer coverings are possible and standard RSSE loop updates suffer ergodicity problems while transitioning from one type of dimer covering to another. To solve this problem, during the nonequilibrium work measurement, additional to the standard RSSE loop updates, we use an extra update termed as “replica shift update” where we shift all the bond-operators in the operatorstring by one lattice unit, either to the left or to the right (with equal probability), and we accept this move with a probability depending on the weight ratio. When we shift the operator-string by one lattice unit, total number of loops in a configurations may change, as a result the weight of the configuration also changes. "
+
+[[blocks]]
+sections = ["method"]
+lines = "353"
+text = "We will now outline the algorithm for the replica shift. In what follows, we assume that we are computing the free energy difference _−_ log( _ZA_ 2 _/ZA_ 1), where _A_ 2 and _A_ 1 are arbitrary sets of lattice sites. we first equilibrate the system in the _ZA_ 1 ensemble of configurations (i.e. at _λ_ = 0). To compute the nonequilibrium work done in transitioning from the _ZA_ 1 ensemble to the _ZA_ 2 ensemble the parameter _λ_ is incrementally increased from 0 to 1. After each increment of _λ_ , an additional “replica shift "
+
+[[blocks]]
+sections = ["problem", "method_params", "truth"]
+lines = "358"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0008-01.png)"
+
+[[blocks]]
+sections = ["problem", "method_params", "truth"]
+lines = "362"
+text = "− 1 . 25<br>N = 1 . 6<br>− 0 . 32<br>− 1 . 30 0 . 68<br>S 2 S 2 S 2<br>− 0 . 33<br>− 1 . 35 0 . 66<br>N = 0 . 4 − 0 . 34 N = 0 . 8<br>2 4 2 4 2 4<br>β β β<br>NL NL NL<br>0 . 98 N = 2 . 0 1 . 37 N = 3 . 0 1 . 47 N = 3 . 6<br>1 . 36<br>S 2 0 . 96 S 2 S 2<br>1 . 46<br>1 . 35<br>0 . 94<br>1 . 45<br>1 . 34<br>2 4 2 4 2 4<br>β β β<br>NL NL NL<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method", "method_params", "problem", "truth"]
+lines = "365"
+text = "FIG. 6. In order to probe the ground state in a finite temperature QMC methods, it is necessary to choose sufficiently large _β_ value, where _β_ = _T_[1][is][the][inverse][temperature.][Here][we][show][the][convergence][of][the][half][system][REE][of][a][periodic] _[L]_[ = 16] site chain as function of _NLβ_[for][various] _[N]_[values.][For][smaller] _[N]_[,][it][converges][at][much][higher][values][of] _NLβ_[compared][to][larger] _N_ . Based on this convergence, we have chosen _NLβ_[=] _[x]_[,][where] _[x]_[=][4][for][0] _[<][N][<]_[0] _[.]_[5,] _[x]_[=][3][for][0] _[.]_[5] _[<][N][<]_[1] _[.]_[0,] _[x]_[=][2][for] 1 _._ 0 _< N <_ 2 _._ 0, and _x_ = 1 for _N ≥_ 2 _._ 0. "
+
+[[blocks]]
+sections = ["method"]
+lines = "367"
+chars = "1-39"
+text = "update” is performed prior to measuring"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "369"
+chars = "5-100"
+text = "For each replica, decide with probability 0 _._ 5 whether to attempt a bond shift left or right."
+
+[[blocks]]
+sections = ["method"]
+lines = "371"
+chars = "35-169"
+text = "accept the shift with a probability equal to the ratio of the weight of the shifted configuration to that of the original configuration"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "374"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0008-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "377"
+chars = "19-52"
+text = "full QMC weight of a configuration"
+
+[[blocks]]
+sections = ["method"]
+lines = "377"
+chars = "72-125"
+text = "change in the total number of loops in a configuration"
+
+[[blocks]]
+sections = ["method"]
+lines = "377"
+chars = "172-201"
+text = "after the replica shift update"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "379"
+chars = "24-44"
+text = "computed REE ( _S_ 2)"
+
+[[blocks]]
+sections = ["method"]
+lines = "379"
+chars = "79-98"
+text = "replica shift update"
+
+[[blocks]]
+sections = ["problem"]
+lines = "379"
+chars = "117-160"
+text = "periodic chain of size _L_ = 48 and _L_ = 64"
+
+[[blocks]]
+sections = ["truth"]
+lines = "379"
+chars = "211-239"
+text = "compute _S_ 2 more accurately"
+
+[[blocks]]
+sections = ["method"]
+lines = "383"
+chars = "19-47"
+text = "finite-temperature QMC method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "385"
+chars = "56-98"
+text = "half-system REE of a periodic 16-site chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "197-280"
+text = "REE converges at significantly higher values of _β/_ ( _NL_ ) compared to larger _N_"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "385"
+chars = "308-340"
+text = "choose the inverse temperature as"
+
+[[blocks]]
+sections = ["method"]
+lines = "387"
+text = "## **Comparison with the SSE method** "
+
+[[blocks]]
+sections = ["method"]
+lines = "389"
+text = "In the resummed stochastic series expansion (RSSE)QMC the partition functions have a loop decomposition that is expressed as a sum over loop configurations: _Z_ =[�] _c[w][c][N][ ℓ][c]_[, where the weight factor] _[ w][c]_[only depends] on the expansion order and _N[ℓ][c]_ is the spin degeneracy which depends on the total number of loops in configuration [24]. In other words, each loop configuration in the RSSE corresponds to _N[ℓ][c]_ spin configurations in the SSE. This means that RSSE can sample spin configurations more efficiently than SSE, as demonstrated by the shorter autocorrelation times observed in RSSEQMC compared to conventional SSE-QMC [24]. This motivates the expectation that a nonequilibrium work method based on RSSE will outperform the SSE-based "
+
+[[blocks]]
+sections = ["method"]
+lines = "393"
+text = "method when computing the REE. "
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "396"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0009-02.png)"
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "400"
+text = "N = 2 SSE RSSE<br>0 . 98<br>5<br>S 2 0 . 96<br>0<br>10 [2] 10 [4]<br>n bins<br>0 . 94<br>10 [3] 10 [5]<br>tf − ti<br>1 . 45<br>N = 3 SSE RSSE<br>4<br>1 . 40 2<br>S 2<br>0<br>10 [2] 10 [4]<br>n bins<br>1 . 35<br>10 [3] 10 [5]<br>tf − ti<br>RSSE<br>/σ<br>SSE<br>σ<br>RSSE<br>/σ<br>SSE<br>σ<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "403"
+chars = "9-50"
+text = "Comparison between the SSE and RSSE method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "403"
+chars = "68-98"
+text = "half chain entanglement entropy"
+
+[[blocks]]
+sections = ["problem"]
+lines = "403"
+chars = "105-155"
+text = "periodic chain of length _L_ = 16 for _N_ = 2 and 3"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "403"
+chars = "178-206"
+text = "quench duration ( _tf − ti_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "260-294"
+text = "results from the two methods differ"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "306-366"
+text = "as the quench becomes slower, they converge to the same value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "448-487"
+text = "ratio of the error bars for both methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "405"
+chars = "30-55"
+text = "nonequilibrium work method"
+
+[[blocks]]
+sections = ["method"]
+lines = "405"
+chars = "90-109"
+text = "SSE-QMC and RSSE-QMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "405"
+chars = "127-157"
+text = "half-chain entanglement entropy"
+
+[[blocks]]
+sections = ["problem"]
+lines = "405"
+chars = "165-216"
+text = "periodic chain of length _L_ = 16 with _N_ = 2 and 3"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "405"
+chars = "240-267"
+text = "quench duration ( _tf −ti_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "405"
+chars = "342-397"
+text = "results obtained from the two methods differ appreciably"
+
+[[blocks]]
+sections = ["truth"]
+lines = "405"
+chars = "439-477"
+text = "both methods converge to the same value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "72-172"
+text = "RSSE-based method consistently outperforms the SSE-based method over the entire range of quench rates"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "407"
+chars = "184-196"
+text = "RSSE produces"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "198-273"
+text = "significantly smaller error bars and approaches the correct asymptotic value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "347-385"
+text = "ratio of error bars for the two methods"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "407"
+chars = "458-502"
+text = "RSSE-based method has much smaller error bars"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "407"
+chars = "516-535"
+text = "the SSE-based method"
+
+[[blocks]]
+sections = ["problem"]
+lines = "409"
+chars = "6-65"
+text = "Extracting central charge and scaling dimension from the REE"
+
+[[blocks]]
+sections = ["problem"]
+lines = "411"
+chars = "5-120"
+text = "REE of a block subsystem of size _lA_ in a gapless critical spin chain of size _L_ with periodic boundary conditions"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "414"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0009-08.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "420"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0009-10.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "426"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0009-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "429"
+chars = "76-112"
+text = "strong antiferromagnetic correlations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "429"
+chars = "131-144"
+text = "central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "429"
+chars = "242-255"
+text = "decay exponent"
+
+[[blocks]]
+sections = ["problem"]
+lines = "431"
+chars = "1-97"
+text = "For _N ≤_ 2 we extract the central charge and the decay exponent from the REE data by doing a fit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "143-180"
+text = "extracted values of the central charge"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "431"
+chars = "184-190"
+text = "_c_ QMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "201-225"
+text = "decay exponent ( _x_ QMC)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "431"
+chars = "243-270"
+text = "corresponding CFT prediction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "352-395"
+text = "excellent agreement with the CFT predictions"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "433"
+chars = "1-57"
+text = "For _N >_ 2, since the ground state is no longer critical"
+
+[[blocks]]
+sections = ["truth"]
+lines = "433"
+chars = "64-101"
+text = "REE will begin to deviate from Eq. (9)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "433"
+chars = "118-138"
+text = "the REE still follows"
+
+[[blocks]]
+sections = ["problem"]
+lines = "433"
+chars = "330-355"
+text = "extract the central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "433"
+chars = "382-399"
+text = "subtraction method"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "438"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0010-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "442"
+text = "− 1 . 8 N = 0.2 − 0 . 25 N = 0.8 0 . 6 1 . 2<br>− 2 . 0<br>S 2 S 2 − 0 . 30 S 2 0 . 5 S 2 1 . 0<br>− 2 . 2<br>− 0 . 35<br>− 2 . 4 0 . 4 0 . 8<br>N = 1.4 N = 2.0<br>− 0 . 40<br>0 20 40 0 20 40 0 20 40 0 20 40<br>lA lA lA lA<br>2 . 00<br>1 . 6<br>1 . 75 2 . 0<br>2 . 0<br>1 . 4<br>S 2 S 2 1 . 50 S 2 S 2<br>1 . 2 1 . 5<br>1 . 25 1 . 5<br>1 . 0 N = 2.6 N = 3.0 N = 3.6 N = 4.0<br>1 . 00<br>0 20 40 0 20 40 0 20 40 0 20 40<br>lA lA lA lA<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "445"
+chars = "9-90"
+text = "Computed REE ( _S_ 2) for chain of size _L_ = 48 with periodic boundary conditions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "445"
+chars = "137-233"
+text = "_N_ = 0 _._ 2 _,_ 0 _._ 8 _,_ 1 _._ 4 _,_ 2 _._ 0 _,_ 2 _._ 6 _,_ 3 _._ 0 _,_ 3 _._ 6 _,_ 4 _._ 0"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "270-279"
+text = "QMC values"
+
+[[blocks]]
+sections = ["problem"]
+lines = "445"
+chars = "311-350"
+text = "fits to the Calabrese–Cardy scaling form"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "364-440"
+text = "excellent agreement between the Calabrese–Cardy scaling form and the REE data"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "481-495"
+text = "REE is negative"
+
+[[blocks]]
+sections = ["problem"]
+lines = "445"
+chars = "727-779"
+text = "Calabrese–Cardy scaling form is still a very good fit"
+
+[[blocks]]
+sections = ["problem"]
+lines = "445"
+chars = "785-817"
+text = "we can extract the central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "932-950"
+text = "disagreement starts"
+
+[[blocks]]
+sections = ["problem"]
+lines = "445"
+chars = "953-1012"
+text = "the Calabrese–Cardy scaling form fits well for the upper arc"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "1137-1164"
+text = "system is strongly dimerized"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "1187-1224"
+text = "REE getting flat as the _lA_ increases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "447"
+chars = "1-22"
+text = "size _lA_ 1 and _lA_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "450"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0010-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "454"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0010-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "458"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0010-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "461"
+chars = "18-64"
+text = "pair of subsystems of length ( _lA_ 1 _, lA_ 2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "461"
+chars = "76-102"
+text = "both are either even or odd"
+
+[[blocks]]
+sections = ["problem"]
+lines = "461"
+chars = "110-176"
+text = "∆ _S_ osc _lA_ 2 _,lA_ 1 is very small and we can neglect this term"
+
+[[blocks]]
+sections = ["problem"]
+lines = "461"
+chars = "191-219"
+text = "compute the central charge as"
+
+[[blocks]]
+sections = ["problem"]
+lines = "464"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0010-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "467"
+chars = "17-112"
+text = "two such subsystem pairs, one where both subsystems are of even length and another of odd length"
+
+[[blocks]]
+sections = ["problem"]
+lines = "470"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0010-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "473"
+chars = "16-90"
+text = "total contribution from both neglected oscillatory terms approximately zero"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "473"
+chars = "97-158"
+text = "final central charge is taken as the average of the two values"
+
+[[blocks]]
+sections = ["problem"]
+lines = "475"
+chars = "15-93"
+text = "plot the REE as a function of subsystem size for a periodic chain with 48 sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "475"
+chars = "159-200"
+text = "fitted to the Calabrese–Cardy scaling form"
+
+[[blocks]]
+sections = ["truth"]
+lines = "475"
+chars = "272-353"
+text = "Deviations from the Calabrese–Cardy scaling form begin to emerge for _N >_ 2 _._ 6"
+
+[[blocks]]
+sections = ["truth"]
+lines = "475"
+chars = "384-425"
+text = "noticeable discrepancy appears near _L/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "475"
+chars = "495-613"
+text = "Calabrese–Cardy scaling form continues to describe the REE well for small subsystem sizes but breaks down around _L/_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "477"
+chars = "4-29"
+text = "extract the central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "477"
+chars = "44-134"
+text = "two pairs of subsystem lengths: ( _L/_ 4 _, L/_ 4 _−_ 2) and ( _L/_ 4 _−_ 1 _, L/_ 4 _−_ 3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "477"
+chars = "239-331"
+text = "ground state’s gapped nature is expected to have minimal influence at smaller subsystem sizes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "477"
+chars = "344-421"
+text = "deviation from the Calabrese–Cardy scaling form is most pronounced near _L/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "477"
+chars = "436-489"
+text = "allows for a reliable extraction of the central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "481"
+text = "## **Central charge drift analysis** "
+
+[[blocks]]
+sections = ["problem"]
+lines = "483"
+chars = "39-64"
+text = "dimerized phase ( _N >_ 2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "483"
+chars = "71-200"
+text = "finite size central charge ( _c_ ( _L_ )) has a downward drift as _L_ increases and it will become zero in the thermodynamic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "483"
+chars = "203-284"
+text = "Computed _c_ ( _L_ ) values for _N ∈_ [2 _._ 6 _,_ 3 _._ 6] are listed in Table II"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "483"
+chars = "294-344"
+text = "extract the real part of the complex central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "483"
+chars = "366-394"
+text = "central charge drift relation"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "486"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0011-03.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "489"
+chars = "30-43"
+text = "fit parameters"
+
+[[blocks]]
+sections = ["problem"]
+lines = "489"
+chars = "58-100"
+text = "real part of the complex CFT central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "489"
+chars = "187-228"
+text = "three-parameter fit to extract _cR, α, Lo_"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "492"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0011-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "495"
+chars = "55-102"
+text = "many _L_ 0 values will fit the drift relation 19"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "498"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0011-07.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "502"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0011-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "505"
+chars = "38-69"
+text = "systematic errors in the fitting"
+
+[[blocks]]
+sections = ["problem"]
+lines = "505"
+chars = "121-154"
+text = "leave out one data point at a time"
+
+[[blocks]]
+sections = ["problem"]
+lines = "505"
+chars = "387-408"
+text = "standard error formula"
+
+[[blocks]]
+sections = ["truth"]
+lines = "505"
+chars = "464-521"
+text = "Final values of the fit parameters are listed in Table III"
+
+[[blocks]]
+sections = ["truth"]
+lines = "507"
+chars = "129-155"
+text = "observe the opposite effect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "507"
+chars = "360-414"
+text = "robust values for the fitted value of _cR_ in all cases"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "511"
+chars = "86-215"
+text = "maximum central charge ( _c_ max) that a 1D critical local nearest neighbor Hamiltonian with the local Hilbert space dimension _d_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "511"
+chars = "217-245"
+text = "can have is _c_ max _≤ d −_ 1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "511"
+chars = "256-281"
+text = "SU( _N_ ) Heisenberg chain"
+
+[[blocks]]
+sections = ["problem"]
+lines = "511"
+chars = "325-346"
+text = "and the central charge"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "514"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0011-13.png)"
+
+[[blocks]]
+sections = ["anchors", "problem", "truth"]
+lines = "518"
+text = "2<br>SU( N ) chain<br>c − d conjecture<br>1<br>c<br>0<br>−<br>1<br>−<br>2<br>0 . 0 0 . 5 1 . 0 1 . 5 2 . 0 2 . 5 3 . 0<br>N<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "521"
+chars = "21-72"
+text = "central charge _c_ of the SU( _N_ ) Heisenberg chain"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "521"
+chars = "100-165"
+text = "maximum allowed central charge predicted by the _c − d_ conjecture"
+
+[[blocks]]
+sections = ["truth"]
+lines = "521"
+chars = "206-255"
+text = "central charge exceeds the conjectured upper bound"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "523"
+chars = "15-31"
+text = "_c_ max _≤ N −_ 1"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "525"
+chars = "24-68"
+text = "central charge values for the SU( _N_ ) chain"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "525"
+chars = "79-115"
+text = "_c_ = 1 _−_[6][(] _[g][−] g_[1][)][2]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "243-311"
+text = "where the central charge becomes complex, only its real part is shown"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "378-420"
+text = "central charge values bigger than the bound"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "470-521"
+text = "supports the _c − d_ conjecture in the unitary cases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "547-624"
+text = "illustrates violations that can occur due to non-unitarity for non-integer _N_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "527"
+text = "## **Spin wave velocity (velocity of the excitations)** "
+
+[[blocks]]
+sections = ["method"]
+lines = "529"
+chars = "1-30"
+text = "Finite temperature QMC methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "529"
+chars = "156-199"
+text = "At criticality, the imaginary time direction"
+
+[[blocks]]
+sections = ["problem"]
+lines = "529"
+chars = "316-389"
+text = "velocity, called the spin wave velocity or the velocity of the excitations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "529"
+chars = "480-511"
+text = "temporal winding number ( _Wτ_ )"
+
+[[blocks]]
+sections = ["problem"]
+lines = "529"
+chars = "557-588"
+text = "spatial winding numbers ( _Wr_ )"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "534"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0012-01.png)"
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "538"
+text = "10 . 0 π 2 QMC<br>0 . 01 N =2<br>7 . 5<br>0 . 00<br>v<br>− 0 . 01<br>5 . 0<br>0 . 635 0 . 640<br>β/L<br>2 . 5<br>0 1 2 3 4<br>N<br> 2  ⟩τ<br>W<br>⟩−⟨<br> 2 x<br>W<br>⟨<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "10-56"
+text = "Spin wave velocity ( _v_ ) as a function of _N_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "541"
+chars = "122-161"
+text = "the theoretical value of _v_ for _N_ = 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "188-206"
+text = "_v_ = 1 _._ 5708(1)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "541"
+chars = "227-272"
+text = "the theoretical prediction _π/_ 2 = 1 _._ 5707"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "327-385"
+text = "difference between the square of the spatial winding number"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "407-462"
+text = "the square of the temporal winding number _⟨Wτ_[2] _[⟩]_"
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "514-554"
+text = "The orange data points are the QMC values"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "561-592"
+text = "solid green line is a linear fit"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "624-641"
+text = "root ( _β[∗] /L_ )"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "763-776"
+text = "_v_ = _L/β[∗]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "541"
+chars = "780-807"
+text = "gives the spin wave velocity"
+
+[[blocks]]
+sections = ["problem"]
+lines = "543"
+chars = "40-98"
+text = "computed using the spatial and the temporal winding numbers"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "545"
+chars = "24-110"
+text = "square of the temporal winding number is related to the uniform magnetic susceptibility"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "548"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0012-05.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "551"
+chars = "9-77"
+text = "square of the spatial winding number is related to the spin stiffness"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "554"
+text = "![](.figures/arxiv__2506.16424/2506.16424.pdf-0012-07.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "557"
+text = "For an unfrustrated antiferromagnetic system whose ground state is a singlet, _⟨Wτ_[2] _[⟩−→]_[0][in][the][limit] _[β][−→∞]_ ( _T −→_ 0). Similarly in the limit _β −→_ 0 ( _T −→∞_ ), we will have _⟨Wτ_[2] _[⟩][>]_[0.][In][the][limit] _[β][−→∞]_[(] _[T][−→]_[0)][a][system] with long-range order or quasiorder ( 1D system with power-law decaying correlations) has a nonzero stiffness constant for any _L_ . So we will have _⟨Wr_[2] _[⟩∼][β]_[in][this] limit. In the limit, _β −→_ 0 ( _T −→∞_ ), the system will be in the disordered phase so we will have _⟨Wr_[2] _[⟩−→]_[0.][Due] to the different limiting behaviors of the temporal and spatial winding numbers as a function of _β_ , there will be a crossing point _β_ = _β[∗]_ ( _L_ ) for each _L_ , where _⟨Wτ_[2][(] _[β][∗]_[)] _[⟩]_[=] _⟨Wr_[2][(] _[β][∗]_[)] _[⟩]_[and][the][finte-size][estimate][of][the][spin][wave] velocity is given by _v_ ( _L_ ) = _L/β[∗]_ , which converges to the thermodynamic value in the limit _L −→∞_ "
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "559"
+chars = "25-74"
+text = "computed spin wave velocities as a function of _N_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "219-266"
+text = "_v_ ( _L_ ) converges to the thermodynamic limit"
+
+[[blocks]]
+sections = ["problem"]
+lines = "559"
+chars = "321-351"
+text = "liner fit to determine the root"
+
+[[blocks]]
+sections = ["problem"]
+lines = "559"
+chars = "491-504"
+text = "_v_ = _L/β[∗]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "559"
+chars = "508-535"
+text = "gives the spin wave velocity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "551-591"
+text = "_v_ decays exponentially as _N_ increases"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "559"
+chars = "653-709"
+text = "value of _v_ is known theoretically to be equal to _π/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "721-794"
+text = "QMC value agrees with the theoretical prediction within statistical errors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "851-889"
+text = "For _N_ = 3, we have _v_ = 1 _._ 216(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "563"
+chars = "2-4"
+text = "_N_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "563"
+chars = "6-11"
+text = "_x_CFT"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "563"
+chars = "13-18"
+text = "_x_QMC"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "563"
+chars = "20-25"
+text = "_c_CFT"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "563"
+chars = "27-32"
+text = "_c_QMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "565"
+chars = "2-6"
+text = "0_._2"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "565"
+chars = "8-12"
+text = "1.820"
+
+[[blocks]]
+sections = ["truth"]
+lines = "565"
+chars = "14-20"
+text = "1.85(7)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "565"
+chars = "22-28"
+text = "-1.4719"
+
+[[blocks]]
+sections = ["truth"]
+lines = "565"
+chars = "30-38"
+text = "-1.475(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "566"
+chars = "2-6"
+text = "0_._4"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "566"
+chars = "8-12"
+text = "1.659"
+
+[[blocks]]
+sections = ["truth"]
+lines = "566"
+chars = "14-20"
+text = "1.67(6)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "566"
+chars = "22-28"
+text = "-1.0210"
+
+[[blocks]]
+sections = ["truth"]
+lines = "566"
+chars = "30-39"
+text = "-1.0190(9)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "567"
+chars = "2-6"
+text = "0_._6"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "567"
+chars = "8-12"
+text = "1.512"
+
+[[blocks]]
+sections = ["truth"]
+lines = "567"
+chars = "14-20"
+text = "1.52(1)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "567"
+chars = "22-28"
+text = "-0.6323"
+
+[[blocks]]
+sections = ["truth"]
+lines = "567"
+chars = "30-39"
+text = "-0.6297(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "568"
+chars = "2-6"
+text = "0_._8"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "568"
+chars = "8-12"
+text = "1.377"
+
+[[blocks]]
+sections = ["truth"]
+lines = "568"
+chars = "14-20"
+text = "1.39(1)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "568"
+chars = "22-28"
+text = "-0.2948"
+
+[[blocks]]
+sections = ["truth"]
+lines = "568"
+chars = "30-39"
+text = "-0.2934(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "569"
+chars = "2-6"
+text = "1_._0"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "569"
+chars = "8-11"
+text = "1.25"
+
+[[blocks]]
+sections = ["truth"]
+lines = "569"
+chars = "13-16"
+text = "1.25"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "569"
+chars = "18-20"
+text = "0.0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "569"
+chars = "22-24"
+text = "0.0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "570"
+chars = "2-6"
+text = "1_._2"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "570"
+chars = "8-12"
+text = "1.128"
+
+[[blocks]]
+sections = ["truth"]
+lines = "570"
+chars = "14-20"
+text = "1.12(1)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "570"
+chars = "22-27"
+text = "0.2583"
+
+[[blocks]]
+sections = ["truth"]
+lines = "570"
+chars = "29-37"
+text = "0.2568(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "571"
+chars = "2-6"
+text = "1_._4"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "571"
+chars = "8-12"
+text = "1.008"
+
+[[blocks]]
+sections = ["truth"]
+lines = "571"
+chars = "14-20"
+text = "1.00(1)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "571"
+chars = "22-27"
+text = "0.4849"
+
+[[blocks]]
+sections = ["truth"]
+lines = "571"
+chars = "29-37"
+text = "0.4812(5)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "572"
+chars = "2-6"
+text = "1_._6"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "572"
+chars = "8-12"
+text = "0.886"
+
+[[blocks]]
+sections = ["truth"]
+lines = "572"
+chars = "14-20"
+text = "0.89(1)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "572"
+chars = "22-27"
+text = "0.6834"
+
+[[blocks]]
+sections = ["truth"]
+lines = "572"
+chars = "29-37"
+text = "0.6803(9)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "573"
+chars = "2-6"
+text = "1_._8"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "573"
+chars = "8-12"
+text = "0.751"
+
+[[blocks]]
+sections = ["truth"]
+lines = "573"
+chars = "14-21"
+text = "0.785(5)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "573"
+chars = "23-28"
+text = "0.8556"
+
+[[blocks]]
+sections = ["truth"]
+lines = "573"
+chars = "30-38"
+text = "0.8497(5)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "574"
+chars = "2-6"
+text = "2_._0"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "574"
+chars = "8-10"
+text = "0.5"
+
+[[blocks]]
+sections = ["truth"]
+lines = "574"
+chars = "12-18"
+text = "0.59(1)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "574"
+chars = "20-22"
+text = "1.0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "574"
+chars = "24-31"
+text = "0.994(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "575"
+chars = "2-6"
+text = "2_._2"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "575"
+chars = "8-23"
+text = "0.471+_i_0_._208"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "25-31"
+text = "0.53(1)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "575"
+chars = "33-48"
+text = "1.117+_i_0_._016"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "50-57"
+text = "1.117(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "576"
+chars = "2-6"
+text = "2_._4"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "576"
+chars = "8-23"
+text = "0.443+_i_0_._286"
+
+[[blocks]]
+sections = ["truth"]
+lines = "576"
+chars = "25-32"
+text = "0.414(3)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "576"
+chars = "34-49"
+text = "1.226+_i_0_._044"
+
+[[blocks]]
+sections = ["truth"]
+lines = "576"
+chars = "51-58"
+text = "1.213(3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "580"
+chars = "10-33"
+text = "Extracted central charge"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "580"
+chars = "37-43"
+text = "_c_ QMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "580"
+chars = "46-63"
+text = "and decay exponent"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "580"
+chars = "67-73"
+text = "_x_ QMC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "580"
+chars = "81-120"
+text = "fits to the Calabrese–Cardy scaling form"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "580"
+chars = "196-224"
+text = "corresponding CFT predictions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "580"
+chars = "268-323"
+text = "extracted central charge values show excellent agreement"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "580"
+chars = "448-476"
+text = "known logarithmic corrections"
+
+[[blocks]]
+sections = ["truth"]
+lines = "580"
+chars = "483-507"
+text = "discrepancies for _N >_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "584"
+chars = "2-4"
+text = "_N_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "584"
+chars = "6-8"
+text = "_L_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "584"
+chars = "10-17"
+text = "_c_(_L_)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "586"
+chars = "3-4"
+text = "24"
+
+[[blocks]]
+sections = ["truth"]
+lines = "586"
+chars = "6-14"
+text = "1.2999(8)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "587"
+chars = "3-4"
+text = "28"
+
+[[blocks]]
+sections = ["truth"]
+lines = "587"
+chars = "6-14"
+text = "1.2992(7)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "588"
+chars = "3-4"
+text = "32"
+
+[[blocks]]
+sections = ["truth"]
+lines = "588"
+chars = "6-13"
+text = "1.300(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "589"
+chars = "3-4"
+text = "40"
+
+[[blocks]]
+sections = ["truth"]
+lines = "589"
+chars = "6-13"
+text = "1.290(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "590"
+chars = "2-6"
+text = "2_._6"
+
+[[blocks]]
+sections = ["problem"]
+lines = "590"
+chars = "8-9"
+text = "48"
+
+[[blocks]]
+sections = ["truth"]
+lines = "590"
+chars = "11-18"
+text = "1.287(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "591"
+chars = "3-4"
+text = "56"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "6-13"
+text = "1.276(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "592"
+chars = "3-4"
+text = "64"
+
+[[blocks]]
+sections = ["truth"]
+lines = "592"
+chars = "6-13"
+text = "1.263(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "593"
+chars = "3-4"
+text = "72"
+
+[[blocks]]
+sections = ["truth"]
+lines = "593"
+chars = "6-13"
+text = "1.258(4)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "594"
+chars = "3-4"
+text = "80"
+
+[[blocks]]
+sections = ["truth"]
+lines = "594"
+chars = "6-13"
+text = "1.247(4)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "595"
+chars = "3-4"
+text = "24"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "6-14"
+text = "1.3682(9)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "596"
+chars = "3-4"
+text = "28"
+
+[[blocks]]
+sections = ["truth"]
+lines = "596"
+chars = "6-14"
+text = "1.3643(9)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "597"
+chars = "3-4"
+text = "32"
+
+[[blocks]]
+sections = ["truth"]
+lines = "597"
+chars = "6-13"
+text = "1.355(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "598"
+chars = "3-4"
+text = "40"
+
+[[blocks]]
+sections = ["truth"]
+lines = "598"
+chars = "6-13"
+text = "1.336(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "599"
+chars = "2-6"
+text = "2_._8"
+
+[[blocks]]
+sections = ["problem"]
+lines = "599"
+chars = "8-9"
+text = "48"
+
+[[blocks]]
+sections = ["truth"]
+lines = "599"
+chars = "11-18"
+text = "1.315(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "600"
+chars = "3-4"
+text = "56"
+
+[[blocks]]
+sections = ["truth"]
+lines = "600"
+chars = "6-13"
+text = "1.289(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "601"
+chars = "3-4"
+text = "64"
+
+[[blocks]]
+sections = ["truth"]
+lines = "601"
+chars = "6-13"
+text = "1.265(4)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "602"
+chars = "3-4"
+text = "72"
+
+[[blocks]]
+sections = ["truth"]
+lines = "602"
+chars = "6-13"
+text = "1.238(5)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "603"
+chars = "3-4"
+text = "80"
+
+[[blocks]]
+sections = ["truth"]
+lines = "603"
+chars = "6-13"
+text = "1.208(7)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "604"
+chars = "3-4"
+text = "20"
+
+[[blocks]]
+sections = ["truth"]
+lines = "604"
+chars = "6-14"
+text = "1.4580(4)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "605"
+chars = "3-4"
+text = "24"
+
+[[blocks]]
+sections = ["truth"]
+lines = "605"
+chars = "6-13"
+text = "1.425(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "606"
+chars = "3-4"
+text = "28"
+
+[[blocks]]
+sections = ["truth"]
+lines = "606"
+chars = "6-13"
+text = "1.411(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "607"
+chars = "3-4"
+text = "32"
+
+[[blocks]]
+sections = ["truth"]
+lines = "607"
+chars = "6-13"
+text = "1.384(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "608"
+chars = "2-6"
+text = "3_._0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "608"
+chars = "8-9"
+text = "40"
+
+[[blocks]]
+sections = ["truth"]
+lines = "608"
+chars = "11-18"
+text = "1.337(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "609"
+chars = "3-4"
+text = "48"
+
+[[blocks]]
+sections = ["truth"]
+lines = "609"
+chars = "6-13"
+text = "1.289(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "610"
+chars = "3-4"
+text = "56"
+
+[[blocks]]
+sections = ["truth"]
+lines = "610"
+chars = "6-13"
+text = "1.235(4)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "611"
+chars = "3-4"
+text = "64"
+
+[[blocks]]
+sections = ["truth"]
+lines = "611"
+chars = "6-13"
+text = "1.179(5)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "612"
+chars = "3-4"
+text = "72"
+
+[[blocks]]
+sections = ["truth"]
+lines = "612"
+chars = "6-13"
+text = "1.130(8)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "613"
+chars = "3-4"
+text = "20"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "6-14"
+text = "1.5090(8)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "614"
+chars = "3-4"
+text = "24"
+
+[[blocks]]
+sections = ["truth"]
+lines = "614"
+chars = "6-13"
+text = "1.457(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "615"
+chars = "3-4"
+text = "28"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "6-13"
+text = "1.430(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "616"
+chars = "3-4"
+text = "32"
+
+[[blocks]]
+sections = ["truth"]
+lines = "616"
+chars = "6-13"
+text = "1.383(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "617"
+chars = "2-6"
+text = "3_._2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "617"
+chars = "8-9"
+text = "40"
+
+[[blocks]]
+sections = ["truth"]
+lines = "617"
+chars = "11-18"
+text = "1.304(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "618"
+chars = "3-4"
+text = "48"
+
+[[blocks]]
+sections = ["truth"]
+lines = "618"
+chars = "6-13"
+text = "1.213(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "619"
+chars = "3-4"
+text = "56"
+
+[[blocks]]
+sections = ["truth"]
+lines = "619"
+chars = "6-13"
+text = "1.117(4)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "620"
+chars = "3-4"
+text = "64"
+
+[[blocks]]
+sections = ["truth"]
+lines = "620"
+chars = "6-13"
+text = "1.023(5)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "621"
+chars = "3-4"
+text = "72"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "6-13"
+text = "0.909(8)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "622"
+chars = "3-4"
+text = "20"
+
+[[blocks]]
+sections = ["truth"]
+lines = "622"
+chars = "6-13"
+text = "1.545(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "623"
+chars = "3-4"
+text = "24"
+
+[[blocks]]
+sections = ["truth"]
+lines = "623"
+chars = "6-13"
+text = "1.472(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "624"
+chars = "3-4"
+text = "28"
+
+[[blocks]]
+sections = ["truth"]
+lines = "624"
+chars = "6-13"
+text = "1.430(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "625"
+chars = "2-6"
+text = "3_._4"
+
+[[blocks]]
+sections = ["problem"]
+lines = "625"
+chars = "8-15"
+text = "32<br>36"
+
+[[blocks]]
+sections = ["truth"]
+lines = "625"
+chars = "17-36"
+text = "1.359(2)<br>1.304(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "626"
+chars = "3-4"
+text = "40"
+
+[[blocks]]
+sections = ["truth"]
+lines = "626"
+chars = "6-13"
+text = "1.22092)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "627"
+chars = "3-4"
+text = "44"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "6-13"
+text = "1.161(4)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "628"
+chars = "3-4"
+text = "48"
+
+[[blocks]]
+sections = ["truth"]
+lines = "628"
+chars = "6-13"
+text = "1.093(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "629"
+chars = "3-4"
+text = "20"
+
+[[blocks]]
+sections = ["truth"]
+lines = "629"
+chars = "6-13"
+text = "1.567(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "630"
+chars = "3-4"
+text = "24"
+
+[[blocks]]
+sections = ["truth"]
+lines = "630"
+chars = "6-13"
+text = "1.466(1)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "631"
+chars = "3-4"
+text = "28"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "6-13"
+text = "1.40291)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "632"
+chars = "2-6"
+text = "3_._6"
+
+[[blocks]]
+sections = ["problem"]
+lines = "632"
+chars = "8-9"
+text = "32"
+
+[[blocks]]
+sections = ["truth"]
+lines = "632"
+chars = "11-18"
+text = "1.297(2)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "633"
+chars = "3-4"
+text = "36"
+
+[[blocks]]
+sections = ["truth"]
+lines = "633"
+chars = "6-13"
+text = "1.222(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "634"
+chars = "3-4"
+text = "40"
+
+[[blocks]]
+sections = ["truth"]
+lines = "634"
+chars = "6-13"
+text = "1.114(3)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "635"
+chars = "3-4"
+text = "44"
+
+[[blocks]]
+sections = ["truth"]
+lines = "635"
+chars = "6-13"
+text = "1.005(4)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "639"
+chars = "11-29"
+text = "System size ( _L_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "639"
+chars = "41-61"
+text = "central charge values"
+
+[[blocks]]
+sections = ["problem"]
+lines = "639"
+chars = "108-153"
+text = "fit these to the central charge drift relation"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "639"
+chars = "167-217"
+text = "extract the real part of the complex central charge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "645"
+chars = "2-4"
+text = "_N_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "645"
+chars = "6-11"
+text = "_c_CFT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "13-16"
+text = "_cR_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "18-20"
+text = "_α_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "22-25"
+text = "_L_0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "27-30"
+text = "_L_0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "646"
+chars = "2-6"
+text = "2_._6"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "646"
+chars = "8-23"
+text = "1.328+_i_0_._079"
+
+[[blocks]]
+sections = ["truth"]
+lines = "646"
+chars = "25-32"
+text = "1.321(8)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "646"
+chars = "34-41"
+text = "0.006(4)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "646"
+chars = "43-49"
+text = "0.03(8)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "646"
+chars = "51-65"
+text = "686603(1325758)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "647"
+chars = "2-6"
+text = "2_._8"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "647"
+chars = "8-23"
+text = "1.424+_i_0_._117"
+
+[[blocks]]
+sections = ["truth"]
+lines = "647"
+chars = "25-31"
+text = "1.43(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "647"
+chars = "33-39"
+text = "0.05(2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "647"
+chars = "41-44"
+text = "2(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "647"
+chars = "46-56"
+text = "10120(3810)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "648"
+chars = "2-6"
+text = "3_._0"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "648"
+chars = "8-23"
+text = "1.514+_i_0_._157"
+
+[[blocks]]
+sections = ["truth"]
+lines = "648"
+chars = "25-31"
+text = "1.52(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "648"
+chars = "33-39"
+text = "0.21(3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "648"
+chars = "41-45"
+text = "11(3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "648"
+chars = "47-55"
+text = "2258(133)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "649"
+chars = "2-6"
+text = "3_._2"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "649"
+chars = "8-23"
+text = "1.599+_i_0_._199"
+
+[[blocks]]
+sections = ["truth"]
+lines = "649"
+chars = "25-31"
+text = "1.58(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "649"
+chars = "33-39"
+text = "0.33(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "649"
+chars = "41-45"
+text = "14(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "649"
+chars = "47-54"
+text = "1338(22)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "650"
+chars = "2-6"
+text = "3_._4"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "650"
+chars = "8-23"
+text = "1.680+_i_0_._243"
+
+[[blocks]]
+sections = ["truth"]
+lines = "650"
+chars = "25-31"
+text = "1.68(3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "650"
+chars = "33-39"
+text = "0.39(4)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "650"
+chars = "41-45"
+text = "12(2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "650"
+chars = "47-53"
+text = "908(30)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "651"
+chars = "2-6"
+text = "3_._6"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "651"
+chars = "8-23"
+text = "1.756+_i_0_._287"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "25-31"
+text = "1.74(6)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "33-38"
+text = "0.5(1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "40-44"
+text = "13(4)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "46-52"
+text = "679(33)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "655"
+chars = "12-35"
+text = "Extracted fit parameters"
+
+[[blocks]]
+sections = ["problem"]
+lines = "655"
+chars = "46-74"
+text = "central charge drift analysis"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "655"
+chars = "129-184"
+text = "corresponding CFT values for the complex central charges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "655"
+chars = "217-237"
+text = "fitted values of _cR_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "655"
+chars = "244-311"
+text = "excellent agreement with the real part of the complex central charge"

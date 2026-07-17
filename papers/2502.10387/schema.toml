@@ -9,9 +9,168 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/821h-8yjz"
 arxiv_version = "2502.10387v2"
+md_sha256 = "a3070495b93f91c9be7b7fe20255806adf486572d39deadeb1e88c04cd8f4eaa"
 
 [candidate_notes]
 model = "spin-1 chain hosting an equally-spaced scar tower (ladder-operator generated); sparse/symmetry-resolved ED + autocorrelators/time evolution"
 headline = "anomalous non-decaying autocorrelation / finite stiffness carried by the scar subspace; dynamical symmetry restricted to scars + generalized-ETH backbone"
 compute = "dim 3^L; L~12-16 with symmetry (up to ~5e6): sparse ED, minutes-to-hours on laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = 'Spin-1 chain with H = J sum_j(S^x_j S^x_{j+1} + S^y_j S^y_{j+1}) + h sum_j(S^z_j + 1) + D sum_j((S^z_j)^2 - 1) + J_3 sum_j(S^x_j S^x_{j+3} + S^y_j S^y_{j+3}).'
+model_provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:64-70"
+convention = "S_j^a are spin-1 operators; hbar = 1; the Hamiltonian conserves total z-magnetization."
+convention_provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:70"
+instance = "Main campaign: even open chain L = 60, O = (S^+_{L/2})^2 at the chain center, coherent state |zeta = -i>, J = 1, D = 0.1, J_3 = 0.5, h = 0.5, and times through t = 8."
+instance_provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:124,134"
+secondary_instances = "The matrix-element panel uses exact diagonalization at L = 10; the Appendix B cross-check uses PBC at L = 60 and compares it with the OBC campaign."
+secondary_instances_provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:226,504-508"
+ensemble = "Coherent scar-subspace product state for Figs. 1-3 and 6; infinite-temperature state for Fig. 4; scar/eigenstate matrix elements for Fig. 5."
+ensemble_provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:124,134,148,170,226,506"
+
+[[problem.targets]]
+panel = "fig1"
+quantity = "Real part of the connected autocorrelator C(x,t) for O = (S^+_{L/2})^2"
+observable = "Re <O†(x,t) O(0,0)>_c"
+axes = "x and t, with t from 0 to 8"
+state = "coherent state |zeta = -i> in the scarred subspace W"
+tier = "light"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:124,134"
+
+[[problem.targets]]
+panel = "fig2"
+quantity = "Dynamical critical exponent z inferred from the rescaled autocorrelator and eta(t)"
+observable = "eta(t) = sum_x |Re[e^(i omega t) C(x,t)]|^2"
+axes = "rescaled spatial profile and eta(t) for t from 2 to 8"
+state = "coherent state |zeta = -i>"
+supporting_panels = ["fig3"]
+tier = "light"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:136-150"
+
+[[problem.targets]]
+panel = "fig4"
+quantity = "Infinite-temperature absolute autocorrelator at the same local operator"
+observable = "|<O†(x,t) O(0,0)>_{0,c}|"
+axes = "x and t from 0 to 5"
+state = "infinite-temperature state"
+tier = "light"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:148,170"
+
+[[problem.targets]]
+panel = "fig5"
+quantity = "Off-diagonal matrix-element anomaly between a scar and nearby eigenstates"
+observable = "|<E_i|(S^+_{L/2})^2|N>|^2 versus E_i - N omega"
+axes = "energy difference E_i - N omega, with N = L/2 and L = 10"
+state = "exact-eigenstate matrix elements"
+tier = "light"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:226,238"
+
+[[problem.targets]]
+panel = "fig6"
+quantity = "eta(t) comparison between the OBC campaign and the PBC algorithm"
+observable = "eta(t)"
+axes = "t, with the comparison reliable through approximately t = 8"
+state = "coherent state; PBC and OBC implementations"
+tier = "light"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:504-508,564"
+
+[method]
+chosen = "MPS real-time evolution with TDVP for the autocorrelators; TEBD followed by two-site and one-site TDVP for the periodic-boundary cross-check; exact diagonalization for the L = 10 matrix-element panel."
+chosen_provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:134,226,238,564"
+valid_families = ["mps", "ed"]
+valid_algorithms = ["TDVP or another real-time MPS integrator for the correlator targets", "TEBD plus TDVP for the PBC correlator cross-check", "sparse or dense exact diagonalization for the L = 10 matrix-element target"]
+alternatives_provenance = "Inferred Each alternative can produce the corresponding target at the stated light sizes; the paper explicitly uses the MPS and ED routes above."
+
+[method_params]
+[[method_params.items]]
+name = "Main maximal bond dimension m"
+value = "300"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:134"
+
+[[method_params.items]]
+name = "TEBD time step, truncation/error parameter, and switch time"
+value = "delta t = 0.02, epsilon = 10^-14, t_f = 0.2"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:564"
+
+[[method_params.items]]
+name = "TDVP time step, truncation/error parameter, and sweep count"
+value = "delta t = 0.1, epsilon = 10^-12, n_sweeps = 1"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:564"
+
+[[method_params.items]]
+name = "Periodic-boundary bond-dimension threshold"
+value = "Dmax (numeric value not stated)"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:564"
+
+[software]
+chosen = "ITensor library for the tensor-network simulations; the exact-diagonalization implementation is not named."
+chosen_provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:134,648-650"
+valid_tools = ["ITensor or another MPS tensor-network library for the correlator targets", "A sparse or dense ED package for the L = 10 matrix-element target"]
+alternatives_provenance = "Inferred The paper names ITensor but does not constrain the implementation beyond the numerical routes and targets."
+
+[software_params]
+items = []
+note = "No implementation-only software knob is stated; the reported time steps, error parameters, bond dimensions, and sweep count are method parameters."
+note_provenance = "Inferred The numerical details in the paper survive an implementation swap and therefore belong in method_params."
+
+[anchors]
+[[anchors.items]]
+name = "Scar tower energy spacing"
+value = "E_N = omega N with omega = 2 h, N = 0,...,L"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:75-78"
+
+[[anchors.items]]
+name = "Restricted dynamical symmetry"
+value = "[H,J^+] - omega J^+ = 0 on W"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:81,84"
+
+[[anchors.items]]
+name = "Coherent-state revival"
+value = "e^(-i H t)|zeta> = |e^(-i omega t) zeta>"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:89,94"
+
+[[anchors.items]]
+name = "Hydrodynamic scaling form"
+value = "C(x,t) approximately t^(-1/z) f(x/t^(1/z))"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:111,128"
+
+[[anchors.items]]
+name = "Infinite-volume saddle relation"
+value = "rho = |zeta_rho|^2/(1 + |zeta_rho|^2)"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:367,370"
+
+[[anchors.items]]
+name = "Projector weight"
+value = "F(|zeta|^2) = (1 + |zeta|^2)^(-2)"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:190"
+
+[[anchors.items]]
+name = "Infinite-temperature t = 0 normalization"
+value = "4/3 approximately 1.33"
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:170"
+
+[truth.fig1]
+csv = "truth_fig1.csv"
+tolerance = "0.05 per digitized sample"
+provenance = "Inferred Coarse digitization of Figure 1 from the rendered PDF page; the caption is Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:124."
+
+[truth.fig2]
+value = 1.5
+tolerance = 0.15
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:140,260"
+
+[truth.fig4]
+value = 1.3333333333333333
+tolerance = 0.03
+provenance = "Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:170"
+
+[truth.fig5]
+value = 1.0
+tolerance = 0.2
+provenance = "Inferred Figure 5 red-square point digitized from the rendered PDF; the target definition and qualitative comparison are Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:226,238."
+
+[truth.fig6]
+csv = "truth_fig6.csv"
+tolerance = "0.006 per digitized eta(t) sample"
+provenance = "Inferred Coarse digitization of the PBC/OBC eta(t) comparison in Figure 6; the stated agreement window is Literal 2502.10387_transport-in-a-system-with-a-tower-of-quantum-many-body-scar.md:564."

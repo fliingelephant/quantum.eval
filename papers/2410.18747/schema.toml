@@ -9,9 +9,297 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevB.111.125150"
 arxiv_version = "2410.18747v2"
+md_sha256 = "c48f7b79c5fcfb2783ebd9f7b67b199f6f077096293b54d34917df1e0aafb332"
 
 [candidate_notes]
 model = "triangular-lattice spin-1/2 J1-J2 Heisenberg in the U(1) Dirac spin-liquid regime; Gutzwiller-projected parton VMC (+ ED cross-check at 36 sites)"
 headline = "monopole excitation energy vs charge Q matching QED3 field-theory predictions; per-size Q=1 singlet/triplet energies at L=8,10 stated"
 compute = "few-parameter Gutzwiller ansatz; per-size energies at L<=12 minutes-to-hours on CPU. Per-target tier: full gaplessness extrapolation (L=28) beyond light -- select per-size targets"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Spin-1/2 J1-J2 Heisenberg model on the triangular lattice, with Hamiltonian H = J1 sum_<ij> Si·Sj + J2 sum_<<ik>> Si·Sk."
+model_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:85-95"
+convention = "J1 = 1 and J2 = 1/8; the paper studies the highly frustrated spin-liquid regime."
+convention_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:67,79"
+lattice = "Triangular lattice with primitive vectors a1 = (1, 0) and a2 = (1/2, sqrt(3)/2)."
+lattice_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:79"
+boundary_conditions = "Periodic boundary conditions on L x L clusters with even L, N = L x L sites, and Tj = L aj."
+boundary_conditions_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:79"
+sector = "Physical one-spin-per-site S = 1/2 sector; charge-Q monopoles are studied in singlet and triplet sectors, including Q = 1 and higher Q."
+sector_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:67,79,193-195"
+comparison_normalization = "For the Fig. 6 comparison, the paper uses Nf = 4 and multiplies variational results by C = 0.24."
+comparison_normalization_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:231,247"
+
+[[problem.targets]]
+panel = "ed_ground_energy"
+quantity = "6 x 6 ground-state variational energy E0/J1"
+ensemble = "lowest-energy fully symmetric variational ground-state Ansatz"
+axes = "scalar"
+instance = "L = 6"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:215"
+
+[[problem.targets]]
+panel = "ed_ground_overlap"
+quantity = "overlap of the ground-state Ansatz with the exact ground state"
+ensemble = "same 6 x 6 state"
+axes = "scalar"
+instance = "L = 6"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:215"
+
+[[problem.targets]]
+panel = "ed_excited_energy"
+quantity = "energy E/J1 of the two degenerate excited fully symmetric variational states"
+ensemble = "rotation eigenvalues exp(+- i 2 pi/3)"
+axes = "scalar"
+instance = "L = 6"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:215"
+
+[[problem.targets]]
+panel = "ed_excited_overlap"
+quantity = "overlap of the excited variational state with the second lowest exact state in the same subspace"
+ensemble = "same 6 x 6 excited subspace"
+axes = "scalar"
+instance = "L = 6"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:215"
+
+[[problem.targets]]
+panel = "fig3_projection"
+quantity = "six largest squared projection norms Nk^2 of Q = 1 monopoles onto fixed-momentum subspaces"
+ensemble = "triplet and singlet Gutzwiller-projected monopoles"
+axes = "momentum subspace -> Nk^2"
+instance = "L = 6, N = 36"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:130-137"
+
+[[problem.targets]]
+panel = "q1_exact_overlap"
+quantity = "overlap of Q = 1 triplet and singlet monopoles with exact lowest-energy eigenstates"
+ensemble = "triplet; singlet"
+axes = "sector -> overlap"
+instance = "L = 6"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:223"
+
+[[problem.targets]]
+panel = "q1_normalized_overlap"
+quantity = "overlap after normalizing the projected monopole state"
+ensemble = "triplet; singlet"
+axes = "sector -> overlap"
+instance = "L = 6"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:223"
+
+[[problem.targets]]
+panel = "spinon_triplet_energy_overlap"
+quantity = "triplet particle-hole spinon and monopole variational energies plus their unnormalized and normalized overlaps"
+ensemble = "triplet sector"
+axes = "energy/J1 and overlap"
+instance = "L = 6, k = (-2 pi/3, 2 pi/sqrt(3))"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:225-233"
+
+[[problem.targets]]
+panel = "spinon_singlet_energy_overlap"
+quantity = "singlet particle-hole spinon and monopole variational energies plus their unnormalized and normalized overlaps"
+ensemble = "singlet sector"
+axes = "energy/J1 and overlap"
+instance = "L = 6"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:233"
+
+[[problem.targets]]
+panel = "q1_momenta"
+quantity = "thermodynamic momenta of Q = 1 triplet and singlet monopoles"
+ensemble = "projected and unprojected states"
+axes = "k = (kx, ky)"
+instance = "L -> infinity"
+tier = "medium"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:193-195,273"
+
+[[problem.targets]]
+panel = "fig4"
+quantity = "amplitudes A, A' and momentum phases k1, k2, k1', k2' versus L"
+ensemble = "Q = 1 triplet and one singlet; projected and unprojected"
+axes = "L -> amplitude or phase"
+instance = "L = 4-80"
+tier = "medium"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:184-191,241"
+
+[[problem.targets]]
+panel = "fig5"
+quantity = "Q = 1 monopole gap E1 - E0 versus inverse linear system size"
+ensemble = "singlet and triplet monopoles"
+axes = "1/L -> E1-E0"
+instance = "L = 6, 8, 10, 12, 16, 20, 24, 28, 32"
+tier = "medium"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:206-213,243"
+
+[[problem.targets]]
+panel = "q1_gap_limit"
+quantity = "thermodynamic-limit Q = 1 monopole gap"
+ensemble = "singlet and triplet"
+axes = "1/L -> 0"
+instance = "L -> infinity"
+tier = "medium"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:243,273"
+
+[[problem.targets]]
+panel = "fig6"
+quantity = "charge-Q singlet monopole energies E_Q-E0 and scaled values C L (E_Q-E0)"
+ensemble = "L = 12, 16, 20, 24, 28"
+axes = "Q -> energy difference and scaled energy"
+instance = "Q = 2-9; Nf = 4; C = 0.24"
+tier = "medium"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:228-231,245-247"
+
+[[problem.targets]]
+panel = "localized_overlap"
+quantity = "squared overlap alpha^2 of the localized-flux state with the Dirac state"
+ensemble = "two localized gauge fluxes"
+axes = "scalar"
+instance = "large L"
+tier = "medium"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:257-259"
+
+[[problem.targets]]
+panel = "localized_excitation_energy"
+quantity = "orthogonal localized-flux excitation energy (Eexc-E0)/J1"
+ensemble = "two localized gauge fluxes"
+axes = "scalar"
+instance = "thermodynamic-limit estimate"
+tier = "medium"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:259-265"
+
+[[problem.targets]]
+panel = "fig7_correlations"
+quantity = "rescaled nearest-neighbor spin-spin energies S(i,j) around two localized fluxes"
+ensemble = "Gutzwiller-projected localized-flux state"
+axes = "bond position -> S(i,j)"
+instance = "L = 8"
+tier = "light"
+provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:251-263"
+
+[method]
+route = "Fermionic Abrikosov parton construction with a quadratic spin-diagonal hopping auxiliary Hamiltonian, Gutzwiller projection into the one-fermion-per-site Hilbert space, and variational energy evaluation."
+route_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:67,81-121"
+algorithm = "Fill single-particle orbitals of the auxiliary hopping Hamiltonian, construct charge-Q flux configurations, project, and evaluate observables with variational Monte Carlo; exact diagonalization is used for the 6 x 6 cross-check."
+algorithm_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:99-121,165,199-223,239-245"
+valid_families = ["vmc", "ed"]
+valid_families_provenance = "Inferred Both variational Monte Carlo and exact diagonalization can produce the finite-cluster energy, overlap, momentum, and correlation targets in this paper."
+valid_algorithms = ["Gutzwiller-projected fermionic-parton VMC", "exact diagonalization of the finite spin Hamiltonian"]
+valid_algorithms_provenance = "Inferred The target observables are finite-cluster wave-function and energy quantities; these two algorithm families can produce them."
+
+[method_params]
+entries = ["No tunable method-level convergence parameters, such as a cutoff, sweep count, or sample count, are stated in the rendered paper."]
+provenance = "Inferred The paper specifies the ansatz and cluster/charge instances but does not report a tunable numerical parameter governing convergence."
+
+[software]
+named_software = "No numerical code or software package is named."
+named_software_provenance = "Inferred No named implementation appears in the rendered paper; the acknowledgements mention computing resources but not software."
+valid_tools = ["Any implementation of the stated VMC/ED routes that can evaluate the listed targets."]
+valid_tools_provenance = "Inferred Tool identity is not part of the paper's reported numerical route."
+
+[software_params]
+entries = ["No implementation-specific solver, threading, tolerance, or API setting is stated."]
+provenance = "Inferred No software-specific numerical knob appears in the rendered paper."
+
+[anchors]
+q1_momenta = "Triplet k = (-2 pi/3, 2 pi/sqrt(3)); singlets k = (-2 pi/3, 0) and (pi/3, +- pi/sqrt(3))."
+q1_momenta_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:193-195"
+large_q_scaling = "For large Q, the stated field-theory scaling form is (E_Q-E0) approximately Q^(3/2)/L."
+large_q_scaling_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:247"
+field_theory_flavors = "The Dirac construction has Nf = 4 gapless fermions, and the Fig. 6 comparison sets Nf = 4."
+field_theory_flavors_provenance = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:67,247"
+
+[truth]
+notes = "Stated scalar values are literal. Curves are digitized from the extracted figure images with tolerances chosen to cover plot-pixel uncertainty. Figure 7's plotted image is present in the PDF but absent from the frozen Markdown renderer output; its truth is therefore retained as a qualitative caption-level result."
+
+[truth.ed_ground_energy]
+value = -18.271
+tolerance = 0.001
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:215"
+
+[truth.ed_ground_overlap]
+value = 0.929
+tolerance = 0.001
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:215"
+
+[truth.ed_excited_energy]
+value = -17.688
+tolerance = 0.001
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:215"
+
+[truth.ed_excited_overlap]
+value = 0.803
+tolerance = 0.001
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:215"
+
+[truth.fig3_projection]
+value = [0.5423, 0.07297, 0.09053, 0.4986, 0.07362, 0.07147]
+tolerance = 0.0001
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:133-137"
+
+[truth.q1_exact_overlap]
+value = [0.69, 0.62]
+tolerance = 0.01
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:223"
+
+[truth.q1_normalized_overlap]
+value = [0.91, 0.87]
+tolerance = 0.01
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:223"
+
+[truth.spinon_triplet_energy_overlap]
+value = [-17.762, -17.817, 0.67, 0.92]
+tolerance = 0.01
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:233"
+
+[truth.spinon_singlet_energy_overlap]
+value = [-17.776, -17.694, 0.64, 0.90]
+tolerance = 0.01
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:233"
+
+[truth.q1_momenta]
+value = "Triplet (-2 pi/3, 2 pi/sqrt(3)); singlets (-2 pi/3, 0), (pi/3, +- pi/sqrt(3))."
+tolerance = 0.01
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:193-195"
+
+[truth.fig4]
+file = "truth_fig4.csv"
+tolerance = 0.01
+source = "Inferred Digitization of Fig. 4 from the extracted figure image, anchored by the caption at 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:184-191"
+
+[truth.fig5]
+file = "truth_fig5.csv"
+tolerance = 0.01
+source = "Inferred Digitization of Fig. 5 from the extracted figure image, anchored by 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:206-213"
+
+[truth.q1_gap_limit]
+value = 0.0
+tolerance = 0.02
+source = "Inferred The paper states that the Q = 1 monopole excitations become gapless in the thermodynamic limit at 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:243,273"
+
+[truth.fig6]
+file = "truth_fig6.csv"
+tolerance = 0.6
+source = "Inferred Digitization of Fig. 6 from the extracted figure image, anchored by 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:228-231,245-247"
+
+[truth.localized_overlap]
+value = 0.85
+tolerance = 0.02
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:259"
+
+[truth.localized_excitation_energy]
+value = 0.87
+tolerance = 0.02
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:259-265"
+
+[truth.fig7_correlations]
+value = "The rescaled nearest-neighbor spin-spin deviations of the localized-flux state are confined to the vicinity of the perturbation; no numeric table is stated in the rendered Markdown."
+tolerance = "qualitative caption-level result"
+source = "Literal 2410.18747_monopole-excitations-in-the-mml-math-xmlns-mml-http-www-w3-o.md:257,263"

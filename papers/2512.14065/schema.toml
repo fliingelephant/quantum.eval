@@ -8,6 +8,7 @@ tier = "light"
 kind = "physics"
 status = "rendered"
 arxiv_version = "2512.14065v1"
+md_sha256 = "8f7fe02d1566d469d9fa300e4312e5101972d0bb2e35711e508adbb6986e098b"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
@@ -15,3 +16,339 @@ model = "1D spin-1 chain with tunable long-range hopping (Hermitian core; non-He
 headline = "integrability->chaos crossover: <r> from Poisson (~0.386) to GOE (~0.530), while an exact scar tower survives with coherent revivals; analytic tower construction"
 compute = "dim 3^L, L~10-14 (<=4.8e6): laptop ED. Core reproducible target = Hermitian Poisson->GOE + scar revivals"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "One-dimensional periodic spin-1 chain with H = J_h H_h + J_c H_c + J_z H_z + Σ_n J_n H_n: nearest-neighbor Heisenberg exchange, chiral three-spin coupling, Zeeman field, and antisymmetric long-range spin exchange."
+model_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:55-61; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:91-119"
+convention = "Spin-1 local basis m_j ∈ {+1, 0, −1}; periodic boundary conditions; real couplings define the Hermitian limit and complex J_c/J_n define the non-Hermitian cases."
+convention_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:67-85; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:113-119; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:195-195; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:417-419"
+instance = "Calculations use PBC, a single long-range distance n = 3 for the main numerical analysis, and the symmetry-resolved (M, k) = (0, 0) sector unless a caption gives a full Hilbert space (N = 8) or a different diagnostic size."
+instance_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:175-175; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:187-189; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:227-227; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:293-305"
+symmetry = "Total magnetization M and crystal momentum k are conserved; the numerical spectral diagnostics are taken in (M, k) = (0, 0)."
+symmetry_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:125-151; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:187-189"
+
+[[problem.targets]]
+panel = "fig1"
+quantity = "mean adjacent-level spacing ratio ⟨r⟩ as a function of ln(J_n)"
+axes = "ln(J_n) → ⟨r⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:187-187"
+
+[[problem.targets]]
+panel = "fig2"
+quantity = "mean level-spacing ratio ⟨r⟩ phase map"
+axes = "ln(J_c), ln(J_n) → ⟨r⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:189-189"
+
+[[problem.targets]]
+panel = "fig3a"
+quantity = "central-spectrum nearest-neighbor spacing distribution P(s) and mean ratio ⟨r⟩ at J_n = 0"
+axes = "s → P(s); scalar ⟨r⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:227-227"
+
+[[problem.targets]]
+panel = "fig3b"
+quantity = "Krylov complexity C_K(t) at J_n = 0"
+axes = "lg(t) → C_K(t)"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:227-227"
+
+[[problem.targets]]
+panel = "fig3c"
+quantity = "central-spectrum nearest-neighbor spacing distribution P(s) and mean ratio ⟨r⟩ at J_n = 0.2"
+axes = "s → P(s); scalar ⟨r⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:227-227"
+
+[[problem.targets]]
+panel = "fig3d"
+quantity = "Krylov complexity C_K(t) at J_n = 0.2"
+axes = "lg(t) → C_K(t)"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:227-227"
+
+[[problem.targets]]
+panel = "fig4"
+quantity = "minimum bipartite von Neumann entropy S_A among eigenstates across the Hermitian crossover"
+axes = "E → S_A; compare J_n = 0 and 0.2"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:293-293"
+
+[[problem.targets]]
+panel = "fig5"
+quantity = "fidelity F(t) of coherent tower-state superpositions and the Néel state"
+axes = "t ∈ [0, 30] → F(t), β ∈ {0.1, 0.5, 2.0} plus Néel"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:305-305"
+
+[[problem.targets]]
+panel = "fig6a"
+quantity = "non-Hermitian CSR angular average ⟨cos θ⟩ phase map versus J_n"
+axes = "ln(Re J_n), ln(Im J_n) → ⟨cos θ⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:353-353"
+
+[[problem.targets]]
+panel = "fig6b"
+quantity = "non-Hermitian CSR angular average ⟨cos θ⟩ phase map versus J_c"
+axes = "ln(Re J_c), ln(Im J_c) → ⟨cos θ⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:353-353"
+
+[[problem.targets]]
+panel = "fig7a"
+quantity = "CSR distribution in the complex plane for Case I"
+axes = "Re(λ_j), Im(λ_j); scalar ⟨cos θ_j⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:383-383"
+
+[[problem.targets]]
+panel = "fig7b"
+quantity = "Krylov complexity C_K(t) for Case I"
+axes = "t → C_K(t)"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:383-383"
+
+[[problem.targets]]
+panel = "fig8a"
+quantity = "minimum right-eigenvector entanglement entropy S_A versus Re(E) for Case I"
+axes = "Re(E) → S_A; compare J_n = 0 and 0.2i"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:397-397"
+
+[[problem.targets]]
+panel = "fig8b"
+quantity = "minimum right-eigenvector entanglement entropy S_A versus Im(E) for Case I"
+axes = "Im(E) → S_A; compare J_n = 0 and 0.2i"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:397-397"
+
+[[problem.targets]]
+panel = "fig9"
+quantity = "non-Hermitian Case-I fidelity F(t) of coherent tower-state superpositions and the Néel state"
+axes = "t ∈ [0, 30] → F(t), β ∈ {0.1, 0.5, 2.0} plus Néel"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:413-413"
+
+[[problem.targets]]
+panel = "fig10a"
+quantity = "CSR distribution for Case II with J_n = 0"
+axes = "Re(λ_j), Im(λ_j); scalar ⟨cos θ_j⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:451-451"
+
+[[problem.targets]]
+panel = "fig10b"
+quantity = "Krylov complexity C_K(t) for Case II with J_n = 0"
+axes = "lg(t) → C_K(t)"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:451-451"
+
+[[problem.targets]]
+panel = "fig10c"
+quantity = "CSR distribution for Case II with J_n = 0.2i"
+axes = "Re(λ_j), Im(λ_j); scalar ⟨cos θ_j⟩"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:451-451"
+
+[[problem.targets]]
+panel = "fig10d"
+quantity = "Krylov complexity C_K(t) for Case II with J_n = 0.2i"
+axes = "lg(t) → C_K(t)"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:451-451"
+
+[[problem.targets]]
+panel = "fig11a"
+quantity = "minimum right-eigenvector entanglement entropy S_A versus Re(E) for Case II"
+axes = "Re(E) → S_A; compare J_n = 0 and 0.2i"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:469-469"
+
+[[problem.targets]]
+panel = "fig11b"
+quantity = "minimum right-eigenvector entanglement entropy S_A versus Im(E) for Case II"
+axes = "Im(E) → S_A; compare J_n = 0 and 0.2i"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:469-469"
+
+[[problem.targets]]
+panel = "fig12"
+quantity = "non-Hermitian Case-II fidelity F(t) of coherent tower-state superpositions and the Néel state"
+axes = "t ∈ [0, 30] → F(t), β ∈ {0.1, 0.5, 2.0} plus Néel"
+tier = "light"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:479-479"
+
+[method]
+family = "Exact diagonalization (ED) over symmetry-resolved spin-1 blocks, with a bi-Lanczos Krylov reduction for dynamical diagnostics."
+family_provenance = "Inferred from the complete eigenvalue/eigenvector spectra and stated Hilbert-space dimensions in Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:227-227, together with the explicit bi-Lanczos construction in Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:229-279"
+algorithm = "Bi-Lanczos recursion constructs biorthogonal right/left Krylov bases and a tridiagonal effective Hamiltonian; the paper uses the resulting C_K(t) for Hermitian and non-Hermitian dynamics."
+algorithm_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:229-279; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:583-689"
+valid_alternatives = ["dense ED", "sparse ED with Lanczos or Arnoldi", "Krylov time evolution"]
+valid_alternatives_provenance = "Inferred from the ED targets and the method family; the paper’s stated route is Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:229-279"
+
+[method_params]
+notes = "No tunable ED convergence cutoff, Krylov dimension, residual tolerance, or level-window parameter is stated. System sizes, symmetry sectors, initial states, and plotted time axes remain problem-side instances."
+provenance = "Inferred from a full-paper review; the explicit algorithm description gives recursion and reorthogonalization but no operator-set convergence value in Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:229-279 and Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:583-689"
+
+[software]
+primary = "QuSpin (rendered as Quspin in the acknowledgments), used as the numerical calculation library."
+primary_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:497-497; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:807-809"
+valid_tools = ["QuSpin", "equivalent exact-diagonalization and time-evolution library"]
+valid_tools_provenance = "Inferred from the stated numerical-library use in Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:497-497"
+
+[software_params]
+notes = "No implementation-only solver tolerances, threading settings, sparse-backend choices, or API-specific toggles are reported."
+provenance = "Inferred from a full-paper review; the only explicit software disclosure is Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:497-497"
+
+[anchors]
+level_spacing_reference = "Poisson ⟨r⟩ ≈ 0.386; GOE ⟨r⟩ ≈ 0.536; GUE ⟨r⟩ ≈ 0.603."
+level_spacing_reference_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:203-203"
+csr_reference = "For the CSR angular statistic, the thermodynamic reference values are ⟨cos θ⟩ ≈ 0 for integrable systems and ⟨cos θ⟩ ≈ −0.24 for chaotic systems."
+csr_reference_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:373-399"
+scar_tower = "|ψ(N, N−p)⟩ = Ω⁻¹(S⁻)ᵖ|⇑⟩, with E(p) = J_h N + J_z(N−p), and H_n annihilates the tower."
+scar_tower_provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:155-171; Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:575-581"
+
+[truth.fig1]
+csv = "truth_fig1.csv"
+tolerance = 0.025
+source = "Inferred figure digitization"
+provenance = "Inferred from the Figure 1 image and caption at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:180-187; tolerance covers raster sampling"
+
+[truth.fig2]
+csv = "truth_fig2.csv"
+tolerance = 0.05
+source = "Inferred figure digitization"
+provenance = "Inferred from the Figure 2 heatmap image and caption at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:180-189; tolerance covers colorbar and raster sampling"
+
+[truth.fig3a]
+value = 0.392
+tolerance = 0.01
+metric = "mean level-spacing ratio ⟨r⟩"
+source = "Literal caption value"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:227-227"
+
+[truth.fig3b]
+csv = "truth_fig3b.csv"
+tolerance = 0.10
+source = "Inferred figure digitization"
+provenance = "Inferred from the Figure 3(b) Krylov-complexity trace at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:220-227"
+
+[truth.fig3c]
+value = 0.529
+tolerance = 0.01
+metric = "mean level-spacing ratio ⟨r⟩"
+source = "Literal caption value"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:227-227"
+
+[truth.fig3d]
+csv = "truth_fig3d.csv"
+tolerance = 0.10
+source = "Inferred figure digitization"
+provenance = "Inferred from the Figure 3(d) Krylov-complexity trace at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:220-227"
+
+[truth.fig4]
+value = 1.65
+tolerance = 0.20
+metric = "minimum plotted S_A"
+source = "Inferred figure digitization"
+provenance = "Inferred from the orange low-entanglement point in Figure 4 at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:286-293; tolerance covers point-pixel reading"
+
+[truth.fig5]
+csv = "truth_fig5.csv"
+tolerance = 0.08
+source = "Inferred figure digitization, with coherent curves checked against Eq. (32)"
+provenance = "Inferred from Figure 5 and its stated β values at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:298-305"
+
+[truth.fig6a]
+csv = "truth_fig6a.csv"
+tolerance = 0.05
+source = "Inferred figure digitization"
+provenance = "Inferred from the left phase-map panel of Figure 6 at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:346-353"
+
+[truth.fig6b]
+csv = "truth_fig6b.csv"
+tolerance = 0.05
+source = "Inferred figure digitization"
+provenance = "Inferred from the right phase-map panel of Figure 6 at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:346-353"
+
+[truth.fig7a]
+value = -0.192
+tolerance = 0.01
+metric = "angular average ⟨cos θ_j⟩"
+source = "Literal caption value"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:383-383"
+
+[truth.fig7b]
+csv = "truth_fig7b.csv"
+tolerance = 0.10
+source = "Inferred figure digitization"
+provenance = "Inferred from the Figure 7(b) Krylov-complexity trace at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:379-383"
+
+[truth.fig8a]
+value = 1.65
+tolerance = 0.20
+metric = "minimum plotted S_A"
+source = "Inferred figure digitization"
+provenance = "Inferred from the orange low-entanglement point in Figure 8(a) at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:390-397"
+
+[truth.fig8b]
+value = 1.65
+tolerance = 0.20
+metric = "minimum plotted S_A"
+source = "Inferred figure digitization"
+provenance = "Inferred from the orange low-entanglement point in Figure 8(b) at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:390-397"
+
+[truth.fig9]
+csv = "truth_fig9.csv"
+tolerance = 0.10
+source = "Inferred figure digitization, with coherent curves checked against Eq. (32)"
+provenance = "Inferred from Figure 9 and its caption at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:406-413"
+
+[truth.fig10a]
+value = -0.028
+tolerance = 0.01
+metric = "angular average ⟨cos θ_j⟩"
+source = "Literal caption value"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:451-451"
+
+[truth.fig10b]
+csv = "truth_fig10b.csv"
+tolerance = 0.10
+source = "Inferred figure digitization"
+provenance = "Inferred from the Figure 10(b) Krylov-complexity trace at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:444-451"
+
+[truth.fig10c]
+value = -0.187
+tolerance = 0.01
+metric = "angular average ⟨cos θ_j⟩"
+source = "Literal caption value"
+provenance = "Literal 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:451-451"
+
+[truth.fig10d]
+csv = "truth_fig10d.csv"
+tolerance = 0.10
+source = "Inferred figure digitization"
+provenance = "Inferred from the Figure 10(d) Krylov-complexity trace at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:444-451"
+
+[truth.fig11a]
+value = 1.65
+tolerance = 0.20
+metric = "minimum plotted S_A"
+source = "Inferred figure digitization"
+provenance = "Inferred from the orange low-entanglement point in Figure 11(a) at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:462-469"
+
+[truth.fig11b]
+value = 1.65
+tolerance = 0.20
+metric = "minimum plotted S_A"
+source = "Inferred figure digitization"
+provenance = "Inferred from the orange low-entanglement point in Figure 11(b) at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:462-469"
+
+[truth.fig12]
+csv = "truth_fig12.csv"
+tolerance = 0.10
+source = "Inferred figure digitization, with coherent curves checked against Eq. (32)"
+provenance = "Inferred from Figure 12 and its caption at 2512.14065_integrability-breaking-and-coherent-dynamics-in-hermitian-an.md:472-479"

@@ -7,6 +7,7 @@ family = "ed"
 tier = "light"
 kind = "physics"
 status = "rendered"
+md_sha256 = "25e31a042cf80309555d35185d8aa98c144035d93e471141bf2c1c4cfd525563"
 doi = "10.1103/hdy9-dr9m"
 arxiv_version = "2506.22114v2"
 
@@ -16,3 +17,250 @@ model = "spin-1/2 chain with engineered PST couplings + projected chaotic pertur
 headline = "transfer fidelity -> 1 at revival time despite GOE bulk spectrum; transfer subspace = the N+1 scar eigenstates; exact su(2) spectrum-generating algebra"
 compute = "N=12 spin-1/2 (4096) and N=8 spin-1 (6561): full ED in seconds on laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Two related open one-dimensional spin-chain models: a spin-1/2 chain with engineered nearest-neighbour PST couplings and a spin-1 chain embedding of the same PST dynamics; each is studied with generic and projector-protected interactions."
+model_provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:66, 120-126, 168-196"
+convention = "For spin-1/2, X, Y, and Z are Pauli operators in the |0>,|1> basis; for spin-1, X^(1), Y^(1), and Z^(1) act on the |->,|0>,|+> local basis. The field is along z and the engineered coupling is lambda_n = lambda sqrt(n(N-n)); the numerical examples use omega = 0 and lambda = 1."
+convention_provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:66, 72, 118, 172-184"
+instance = "Spin-1/2 targets use N = 12, local dimension d = 2, all-up or all-down background, and |psi> = (|0> + |1>)/sqrt(2). Spin-1 targets use N = 8, local dimension d = 3, all-plus or all-minus background, and |psi> = (|+> + |->)/sqrt(2). The base chain is one-dimensional; the spin-1 generic interaction is an arbitrary two-body Hermitian operator, while the spin-1/2 generic example is a local three-spin Hermitian operator."
+instance_provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:118, 126, 152, 170-198, 176"
+initial_state = "The transferred state starts at site 1 and is read out at site N after time-independent Hamiltonian evolution, with a local unitary correction on the final spin."
+initial_state_provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:50, 66, 84, 90"
+
+[[problem.targets]]
+panel = "fig2a"
+quantity = "Corrected state-transfer fidelity F(t)"
+ensemble = "Spin-1/2 N=12: H_PST, H_thermal, and H_scar, with all-up and all-down backgrounds where plotted or supplied by the paper-linked data."
+axes = "J t versus F(t); revival times tau_m"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:92, 118, 134, 158-160"
+
+[[problem.targets]]
+panel = "fig2b"
+quantity = "Bulk normalized nearest-neighbour level-spacing distribution P(s) for H_thermal"
+ensemble = "Spin-1/2 N=12, central 50% of the exact spectrum"
+axes = "Normalized level spacing s versus density P(s)"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:126, 118"
+
+[[problem.targets]]
+panel = "fig2c"
+quantity = "Bulk normalized nearest-neighbour level-spacing distribution P(s) for H_scar"
+ensemble = "Spin-1/2 N=12, central 50% of the exact spectrum"
+axes = "Normalized level spacing s versus density P(s)"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:152, 118"
+
+[[problem.targets]]
+panel = "fig2d"
+quantity = "Half-chain eigenstate entanglement entropy S_alpha versus energy for H_thermal"
+ensemble = "Spin-1/2 N=12 full spectrum; entropy from tracing out the left half"
+axes = "Energy eigenvalue E_alpha versus S_alpha"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:130-132, 118"
+
+[[problem.targets]]
+panel = "fig2e"
+quantity = "Half-chain eigenstate entanglement entropy S_alpha versus energy for H_scar"
+ensemble = "Spin-1/2 N=12 full spectrum; scar outliers included"
+axes = "Energy eigenvalue E_alpha versus S_alpha"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:152-156, 118"
+
+[[problem.targets]]
+panel = "fig3a"
+quantity = "Corrected state-transfer fidelity F(t)"
+ensemble = "Spin-1 N=8: H_PST^(1), H_thermal^(1), and H_scar^(1), with plus and minus backgrounds"
+axes = "J t versus F(t); revival times tau_m"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:176, 184-190, 218-222"
+
+[[problem.targets]]
+panel = "fig3b"
+quantity = "Bulk normalized nearest-neighbour level-spacing distribution P(s) for H_thermal^(1)"
+ensemble = "Spin-1 N=8, central 50% of the exact spectrum"
+axes = "Normalized level spacing s versus density P(s)"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:176, 196-198"
+
+[[problem.targets]]
+panel = "fig3c"
+quantity = "Bulk normalized nearest-neighbour level-spacing distribution P(s) for H_scar^(1)"
+ensemble = "Spin-1 N=8, central 50% of the exact spectrum"
+axes = "Normalized level spacing s versus density P(s)"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:176, 212"
+
+[[problem.targets]]
+panel = "fig3d"
+quantity = "Half-chain eigenstate entanglement entropy S_alpha versus energy for H_thermal^(1)"
+ensemble = "Spin-1 N=8 full spectrum; entropy from the half-chain reduced state"
+axes = "Energy eigenvalue E_alpha versus S_alpha"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:176, 212"
+
+[[problem.targets]]
+panel = "fig3e"
+quantity = "Half-chain eigenstate entanglement entropy S_alpha versus energy for H_scar^(1)"
+ensemble = "Spin-1 N=8 full spectrum; scar outliers included"
+axes = "Energy eigenvalue E_alpha versus S_alpha"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:176, 212"
+
+[[problem.targets]]
+panel = "fig4a"
+quantity = "Spin-1 state-transfer infidelity 1-F(tau_1) scaling exponent under global-X perturbation"
+ensemble = "N=8 spin-1 chain; comparison of H_PST^(1) and H_scar^(1) with H_global-X"
+axes = "Perturbation strength epsilon versus 1-F(tau_1)"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:402-406, 422"
+
+[[problem.targets]]
+panel = "fig4b"
+quantity = "Spin-1 state-transfer infidelity 1-F(tau_1) scaling exponent under local-X perturbation"
+ensemble = "N=8 spin-1 chain; comparison of H_PST^(1) and H_scar^(1) with H_local-X"
+axes = "Perturbation strength epsilon versus 1-F(tau_1)"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:402-406, 422"
+
+[[problem.targets]]
+panel = "fig4c"
+quantity = "Spin-1 state-transfer infidelity 1-F(tau_1) scaling exponent under global-YY perturbation"
+ensemble = "N=8 spin-1 chain; comparison of H_PST^(1) and H_scar^(1) with H_global-YY"
+axes = "Perturbation strength epsilon versus 1-F(tau_1)"
+tier = "light"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:402-406, 422"
+
+[method]
+family = "Exact diagonalization (ED)"
+algorithm = "Finite-size full-spectrum diagonalization for level statistics and eigenstate entanglement, with direct finite-dimensional unitary time evolution for fidelity curves."
+valid_alternatives = ["Dense full diagonalization", "A full sparse eigensolver for the spectral panels plus Krylov or matrix-exponential propagation for dynamics"]
+provenance = "Inferred from the full finite spectra/eigenstate entropies and finite-size time-evolution results reported in 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:126, 130-134, 152, 160, 196-198"
+uncertainty = "The rendered paper does not name the diagonalization or time-propagation routine; ED is the route inferred from the reported full spectra and eigenstate-resolved quantities."
+uncertainty_provenance = "Inferred from the same passages; no explicit software or solver name appears in the rendered paper."
+
+[method_params]
+reported = false
+note = "No method-specific convergence, truncation, sweep, projection-time, or sampling parameter is reported. System sizes and coupling choices are problem parameters."
+provenance = "Inferred from the complete rendered paper."
+
+[software]
+reported = false
+paper_software = "No numerical package or code name is stated; the paper points to a paper-linked data record."
+valid_tools = ["Any dense or full-spectrum linear-algebra implementation supporting finite-dimensional Hamiltonians"]
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:248, 366; Inferred from the absence of a package name in the rendered paper."
+
+[software_params]
+reported = false
+note = "No solver tolerance, threading, API toggle, random-seed convention, or other implementation-only setting is stated in the rendered paper."
+provenance = "Inferred from the complete rendered paper."
+
+[anchors]
+[[anchors.items]]
+name = "Exact PST fidelity at the first transfer time"
+value = "F(tau_1) = 1"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:92"
+
+[[anchors.items]]
+name = "Effective-spin restriction"
+value = "H_subspace = 2 lambda J_x with J = (N-1)/2"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:100-102"
+
+[[anchors.items]]
+name = "PST revival times"
+value = "tau_m = pi (m - 1/2) / lambda"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:102"
+
+[[anchors.items]]
+name = "Spin-1/2 scar-subspace size"
+value = "N + 1 QMBS states"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:152, 154, 156"
+
+[[anchors.items]]
+name = "Spin-1 scar-subspace size"
+value = "N + 1 states in the minimal protected subspace"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:212, 218, 390"
+
+[[anchors.items]]
+name = "Spin-1 interaction-count decomposition"
+value = "36 of 81 two-spin interaction types commute with the projector-protected construction"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:224"
+
+[truth.fig2a]
+file = "truth_fig2a.csv"
+source = "Paper-linked Figshare raw dynamical data for N12_d2_range3_rdidx0; the CSV is a sampled reconstruction of the paper's plotted time series."
+tolerance = 0.02
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; setup and qualitative outcomes are Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:92, 118, 134, 158-160."
+
+[truth.fig2b]
+file = "truth_fig2b.csv"
+source = "Paper-linked Figshare raw N=12 chaotic spectral data; central-50-percent normalized spacing histogram."
+tolerance = 0.10
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; qualitative GUE comparison is Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:126."
+
+[truth.fig2c]
+file = "truth_fig2c.csv"
+source = "Paper-linked Figshare raw N=12 scar spectral data; central-50-percent normalized spacing histogram."
+tolerance = 0.10
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; qualitative chaotic/QMBS result is Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:152."
+
+[truth.fig2d]
+file = "truth_fig2d.csv"
+source = "Paper-linked Figshare raw N=12 chaotic spectral data; sampled energy/half-chain entropy points."
+tolerance = 0.15
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; entropy definition and interpretation are Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:130-132."
+
+[truth.fig2e]
+file = "truth_fig2e.csv"
+source = "Paper-linked Figshare raw N=12 scar spectral data; sampled energy/half-chain entropy points."
+tolerance = 0.15
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; scar outlier interpretation is Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:152-156."
+
+[truth.fig3a]
+file = "truth_fig3a.csv"
+source = "Paper-linked Figshare raw dynamical data for N8_d3_range2_rdidx0; the CSV is a sampled reconstruction of the paper's plotted time series."
+tolerance = 0.02
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; setup and qualitative outcomes are Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:176, 184-190, 218-222."
+
+[truth.fig3b]
+file = "truth_fig3b.csv"
+source = "Paper-linked Figshare raw N=8 spin-1 chaotic spectral data; central-50-percent normalized spacing histogram."
+tolerance = 0.10
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; qualitative chaotic result is Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:176, 196-198."
+
+[truth.fig3c]
+file = "truth_fig3c.csv"
+source = "Paper-linked Figshare raw N=8 spin-1 scar spectral data; central-50-percent normalized spacing histogram."
+tolerance = 0.10
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; qualitative chaotic/QMBS result is Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:212."
+
+[truth.fig3d]
+file = "truth_fig3d.csv"
+source = "Paper-linked Figshare raw N=8 spin-1 chaotic spectral data; sampled energy/half-chain entropy points."
+tolerance = 0.15
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; panel semantics are Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:176."
+
+[truth.fig3e]
+file = "truth_fig3e.csv"
+source = "Paper-linked Figshare raw N=8 spin-1 scar spectral data; sampled energy/half-chain entropy points."
+tolerance = 0.15
+provenance = "Inferred from paper-linked data record DOI 10.6084/m9.figshare.29517941.v1; scar outlier interpretation is Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:212."
+
+[truth.fig4a]
+value = 2.0
+tolerance = 0.15
+source = "Paper text and figure 4(a): global-X perturbation"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:406"
+
+[truth.fig4b]
+value = 2.0
+tolerance = 0.15
+source = "Paper text and figure 4(b): local-X perturbation"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:406"
+
+[truth.fig4c]
+value = 2.0
+tolerance = 0.15
+source = "Paper text and figure 4(c): global-YY perturbation"
+provenance = "Literal 2506.22114_perfect-quantum-state-transfer-through-a-chaotic-spin-chain.md:406"

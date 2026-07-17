@@ -9,9 +9,333 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PRXQuantum.6.020332"
 arxiv_version = "2410.21424v2"
+md_sha256 = "c6f2c08a9843dd5327d353338d77ed97298003267632e9a1844ecad07dce6b7b"
 
 [candidate_notes]
 model = "effective spin-1 chain from three Rydberg states (dipole-dipole 1/r^3 + vdW 1/r^6); iDMRG. Theory proposal, no experimental data"
 headline = "iDMRG phase diagram with robust Haldane region: string order + doubly-degenerate entanglement spectrum; SPT classification backbone"
 compute = "spin-1 (dim 3), modest chi; long-range couplings need MPO sum-of-exponentials -- slightly heavier than NN chain; laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = { value = "One-dimensional spin-1 chain with dipole-dipole XY couplings proportional to 1/r_ij^3, single-ion anisotropy D, and van der Waals terms proportional to 1/r_ij^6, as written in eq. (2).", provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:70-90" }
+convention = { value = "The three local states are |+>, |0>, and |->; energies are expressed as frequencies in h·MHz; J^xy is the energy scale, and the simplified Hamiltonian preserves D2 and time-reversal symmetry while conserving M_tot.", provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:72-92,106" }
+instance = { value = "Thermodynamic-limit phase diagram in D/J^xy and V/J^xy, plus an experimentally proposed finite chain of L=10 Rb atoms with r=11.6 μm, B=60.7 G, θ=35.1°, and zero electric field; the full finite-chain Hamiltonian retains interactions through fifth neighbors.", provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:176-178,214-220,230,314-316" }
+
+[[problem.targets]]
+panel = "fig2cd_experimental_point"
+quantity = "Rydberg-to-spin-1 interaction calibration at the proposed point, including D/h, nearest-neighbor J^xy/h and V/h, and the dipolar and van der Waals distance exponents"
+ensemble = "two-Rydberg-atom interaction calculation and the proposed Rb chain"
+axes = "r, θ, D/J^xy, V/J^xy; selected point r=11.6 μm, θ=35.1°"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:214-220"
+
+[[problem.targets]]
+panel = "fig3_marked_point"
+quantity = "Ground-state entanglement entropy and phase identity at the marked point of the infinite phase diagram"
+ensemble = "infinite spin-1 chain"
+axes = "D/J^xy and V/J^xy over the phase-diagram grid; marked point D/J^xy=-1, V/J^xy=0.6"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:166,176-178,202-206"
+
+[[problem.targets]]
+panel = "fig4_edge_profile"
+quantity = "Site-resolved local magnetization for the four finite-chain ground states, with edge and bulk spin correlations"
+ensemble = "four ground states of the L=10 open chain, M_tot=-1,0,0,+1"
+axes = "site i=1,...,10; edge correlation (1,10), bulk correlation (1,6), and summed three-site edge magnetization"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:224-230"
+
+[[problem.targets]]
+panel = "fig5_gap"
+quantity = "Lowest-energy spectrum and ground-state-manifold separation during the staggered-field adiabatic sweep"
+ensemble = "ten lowest states of the L=10 chain"
+axes = "sweep field μ; E-E0 in h·MHz, including the final manifold splitting"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:232-238"
+
+[[problem.targets]]
+panel = "fig5_fidelity"
+quantity = "Overlap of the instantaneous state with the initial product state, AKLT state, and final M_tot=0 ground state; prepared-state fidelity at the stated sweep time"
+ensemble = "adiabatic sweep of the L=10 chain"
+axes = "sweep field μ and total sweep time"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:234,238,250"
+
+[[problem.targets]]
+panel = "fig6_edge_rotation"
+quantity = "Time-dependent AKLT-state overlaps and total/edge magnetization after rotating the left half of the chain"
+ensemble = "state initially in the M_tot=-1 ground state of the L=10 chain"
+axes = "time t in μs; Ω/h=0.25 MHz; five leftmost sites driven"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:244-248,260"
+
+[[problem.targets]]
+panel = "fig7a_string_x"
+quantity = "x string-order parameter S^x_{0,500} at the marked point of the infinite phase diagram"
+ensemble = "infinite MPS ground state"
+axes = "D/J^xy and V/J^xy; two spins separated by 500 sites; 100×100 grid"
+sample = "marked point D/J^xy=-1, V/J^xy=0.6"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:268,302-304"
+
+[[problem.targets]]
+panel = "fig7b_string_z"
+quantity = "z string-order parameter S^z_{0,500} at the marked point of the infinite phase diagram"
+ensemble = "infinite MPS ground state"
+axes = "D/J^xy and V/J^xy; two spins separated by 500 sites; 100×100 grid"
+sample = "marked point D/J^xy=-1, V/J^xy=0.6"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:268,302-304"
+
+[[problem.targets]]
+panel = "fig7c_aklt_overlap"
+quantity = "Largest transfer-matrix eigenvalue giving the infinite-system AKLT overlap per two-site unit cell at the marked point"
+ensemble = "infinite MPS ground state compared with the perfect AKLT unit cell"
+axes = "D/J^xy and V/J^xy; 100×100 grid"
+sample = "marked point D/J^xy=-1, V/J^xy=0.6"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:268,310"
+
+[[problem.targets]]
+panel = "fig7d_time_reversal_phase"
+quantity = "Projective phase factor of time-reversal symmetry at the marked point"
+ensemble = "infinite MPS ground state"
+axes = "D/J^xy and V/J^xy; 100×100 grid"
+sample = "marked point D/J^xy=-1, V/J^xy=0.6"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:268,312"
+
+[[problem.targets]]
+panel = "finite_string_order"
+quantity = "Finite-size x and z string-order parameters for the prepared ground state"
+ensemble = "L=10 ground state"
+axes = "S^x_{3,8} and S^z_{3,8}"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:256-258"
+
+[[problem.targets]]
+panel = "table1_j_plus0"
+quantity = "J^+0_ij/h interaction strength versus pair separation |i-j|"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2,3,4,5"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[[problem.targets]]
+panel = "table1_j_minus0"
+quantity = "J^-0_ij/h interaction strength versus pair separation |i-j|"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2,3,4,5"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[[problem.targets]]
+panel = "table1_j_00"
+quantity = "J^00_ij/h interaction strength versus pair separation |i-j|"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2,3,4,5"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[[problem.targets]]
+panel = "table1_v_diag"
+quantity = "V^diag_ij/h interaction strength versus pair separation |i-j| for the listed entries"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2; smaller values are omitted by the paper"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[[problem.targets]]
+panel = "table1_v_offd"
+quantity = "V^offd_ij/h interaction strength versus pair separation |i-j| for the listed entries"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2; smaller values are omitted by the paper"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[[problem.targets]]
+panel = "table1_v_plus0"
+quantity = "V^+0_ij/h interaction strength versus pair separation |i-j| for the listed entries"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2; smaller values are omitted by the paper"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[[problem.targets]]
+panel = "table1_v_minus0"
+quantity = "V^-0_ij/h interaction strength versus pair separation |i-j| for the listed entries"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2; smaller values are omitted by the paper"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[[problem.targets]]
+panel = "table1_v_plusplus"
+quantity = "V^++_ij/h interaction strength versus pair separation |i-j| for the listed entries"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2; smaller values are omitted by the paper"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[[problem.targets]]
+panel = "table1_v_minusminus"
+quantity = "V^--_ij/h interaction strength versus pair separation |i-j| for the listed entries"
+ensemble = "full Rydberg pair Hamiltonian"
+axes = "|i-j|=1,2; smaller values are omitted by the paper"
+tier = "light"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:328-335"
+
+[method]
+route = { value = "Infinite DMRG/iDMRG for the thermodynamic-limit phase diagram; finite DMRG and tensor-network time evolution for the L=10 ground-state, preparation, and dynamics results.", provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:166-178,230" }
+algorithm = { value = "Matrix-product-state ground-state optimization with infinite DMRG for the phase map, finite-chain DMRG for the four ground states, and tensor-network time evolution for the driven edge-state target.", provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:166,178,230,244-248" }
+valid_alternatives = { value = "VUMPS or another MPS ground-state solver for the infinite-chain targets; finite DMRG or exact diagonalization for L=10; TEBD or TDVP for the time-dependent target.", provenance = "Inferred from the one-dimensional spin-1 ground-state and local-dynamics targets identified in papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:166-178,230,246" }
+
+[method_params]
+bond_dimension = { value = "Bond dimension χ=400 for the infinite phase-diagram calculation.", provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:166" }
+
+[software]
+primary = { value = "TeNPy is used for the DMRG and tensor-network calculations; pairinteraction is used for the Rydberg pair-interaction calculation.", provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:88,166,174,178,230,316" }
+valid_tools = { value = "A tensor-network library implementing MPS ground-state and time-evolution algorithms, plus a Rydberg interaction-potential solver, can produce the corresponding targets.", provenance = "Inferred from the target definitions and the two software roles in papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:166-178,230,316" }
+
+[software_params]
+pair_basis = { value = "The pairinteraction calculation keeps single-atom states within ±80 GHz of the 80S, 80P, and 81S manifolds with 76≤n≤85 and l≤4, then keeps pair states within ±2 GHz of M_pair=±2,±1,0; this yields up to about 5000 states per subspace and a 9×9 effective interaction matrix after direct rotation.", provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:316-318" }
+
+[anchors]
+[[anchors.entries]]
+name = "Perfect-AKLT string order"
+value = "S^{x,y,z}_{1,∞}=4/9"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:202"
+
+[[anchors.entries]]
+name = "Perfect-AKLT entanglement entropy"
+value = "log 2 ≈ 0.69 for cutting one singlet bond"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:166"
+
+[[anchors.entries]]
+name = "Large-D limiting state"
+value = "For D→∞ the ground state is the product state with every spin in |0>"
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:180"
+
+[truth.fig2cd_experimental_point]
+value = { D_over_h_MHz = -4.47, Jnnxy_over_h_MHz = 4.47, Vnn_over_h_MHz = 2.68, alpha_dipolar = 3.0, alpha_vdw = 6.0 }
+tolerance = { D_over_h_MHz = 0.01, Jnnxy_over_h_MHz = 0.01, Vnn_over_h_MHz = 0.02, alpha_dipolar = 0.2, alpha_vdw = 0.2 }
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:220"
+
+[truth.fig3_marked_point]
+value = { entropy = 0.69, phase = "Haldane" }
+tolerance = { entropy = 0.05, phase = 0.0 }
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:166,202,206"
+
+[truth.fig4_edge_profile]
+value = { edge_correlation = 0.4, bulk_correlation = 0.0, three_site_edge_magnetization = 0.5 }
+tolerance = { edge_correlation = 0.1, bulk_correlation = 0.05, three_site_edge_magnetization = 0.05 }
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:226,230"
+
+[truth.fig5_gap]
+value = { excitation_gap_kHz = 600.0, manifold_splitting_kHz = 70.0 }
+tolerance = { excitation_gap_kHz = 100.0, manifold_splitting_kHz = 20.0 }
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:230,234,238"
+
+[truth.fig5_fidelity]
+value = 0.98
+comparison = ">"
+tolerance = 0.01
+sweep_time_us = 5.0
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:250"
+
+[truth.fig6_edge_rotation]
+value = { edge_magnetization_min = -0.5, edge_magnetization_max = 0.5, total_magnetization_min = -1.0, total_magnetization_max = 0.0, pi_rotation_time_us = 2.0 }
+tolerance = { edge_magnetization = 0.05, total_magnetization = 0.05, pi_rotation_time_us = 0.1 }
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:244-248"
+
+[truth.fig7a_string_x]
+value = 0.4
+comparison = ">"
+tolerance = 0.05
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:202,304,308"
+
+[truth.fig7b_string_z]
+value = 0.4
+comparison = ">"
+tolerance = 0.05
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:202,304,308"
+
+[truth.fig7c_aklt_overlap]
+value = 0.90
+comparison = "close_to"
+tolerance = 0.15
+provenance = "Inferred from the color at the marked point in the rendered Fig. 7c panel, supported by Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:268,310"
+
+[truth.fig7d_time_reversal_phase]
+value = -1.0
+tolerance = 0.0
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:312"
+
+[truth.finite_string_order]
+value = { Sx_3_8 = 0.49, Sz_3_8 = 0.29 }
+tolerance = { Sx_3_8 = 0.03, Sz_3_8 = 0.03 }
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:258"
+
+[truth.table1_j_plus0]
+value = [4.36, 0.56, 0.17, 0.07, 0.04]
+axes = [1, 2, 3, 4, 5]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"
+
+[truth.table1_j_minus0]
+value = [4.59, 0.59, 0.17, 0.07, 0.04]
+axes = [1, 2, 3, 4, 5]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"
+
+[truth.table1_j_00]
+value = [4.46, 0.57, 0.17, 0.07, 0.04]
+axes = [1, 2, 3, 4, 5]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"
+
+[truth.table1_v_diag]
+value = [2.99, 0.05]
+axes = [1, 2]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"
+
+[truth.table1_v_offd]
+value = [2.38, 0.04]
+axes = [1, 2]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"
+
+[truth.table1_v_plus0]
+value = [1.10, 0.02]
+axes = [1, 2]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"
+
+[truth.table1_v_minus0]
+value = [1.10, 0.02]
+axes = [1, 2]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"
+
+[truth.table1_v_plusplus]
+value = [1.84, 0.03]
+axes = [1, 2]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"
+
+[truth.table1_v_minusminus]
+value = [2.13, 0.03]
+axes = [1, 2]
+unit = "h·MHz"
+tolerance = 0.005
+provenance = "Literal papers/2410.21424/2410.21424_spin-1-haldane-phase-in-a-chain-of-rydberg-atoms.md:330-335"

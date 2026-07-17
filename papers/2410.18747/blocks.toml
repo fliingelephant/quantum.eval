@@ -1,0 +1,1199 @@
+# Partition layer for papers/2410.18747 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["problem"]
+lines = "5"
+text = "title: \"Monopole excitations in the  <mml:math xmlns:mml=\\\"http://www.w3.org/1998/Math/MathML\\\"><mml:mrow><mml:mi>U</mml:mi><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:math>  Dirac spin liquid on the triangular lattice\""
+
+[[blocks]]
+sections = ["problem"]
+lines = "15-17"
+text = "# Monopole excitations in the \n<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mrow><mml:mi>U</mml:mi><mml:mo>(</mml:mo><mml:mn>1</mml:mn><mml:mo>)</mml:mo></mml:mrow></mml:math>\n Dirac spin liquid on the triangular lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "358-422"
+text = "by the (Abrikosov) fermionic representation of the spin operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "526-566"
+text = "supplemented by the Gutzwiller projection"
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "627-726"
+text = "Heisenberg model on the triangular lattice with nearest- ($J_1$) and next-neighbor ($J_2$) couplings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "762-843"
+text = "singlet and triplet monopoles with $Q=1$ become gapless in the thermodynamic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "859-927"
+text = "the energies for generic $Q$ agree with field-theoretical predictions"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "29"
+chars = "1043-1109"
+text = "magnetic $\\pi$-fluxes are concentrated in the triangular plaquettes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1152-1228"
+text = "showing that these kind of states do not play a relevant role at low energies"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1231-1296"
+text = "All our findings lend support to a stable $U(1)$ Dirac spin liquid"
+
+[[blocks]]
+sections = ["problem"]
+lines = "33"
+text = "# **Monopole excitations in the** _U_ (1) **Dirac spin liquid on the triangular lattice** "
+
+[[blocks]]
+sections = ["method"]
+lines = "47"
+chars = "359-423"
+text = "by the (Abrikosov) fermionic representation of the spin operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "47"
+chars = "475-515"
+text = "supplemented by the Gutzwiller projection"
+
+[[blocks]]
+sections = ["problem"]
+lines = "47"
+chars = "577-678"
+text = "Heisenberg model on the triangular lattice with nearest- ( _J_ 1) and next-neighbor ( _J_ 2) couplings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "47"
+chars = "714-797"
+text = "singlet and triplet monopoles with _Q_ = 1 become gapless in the thermodynamic limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "47"
+chars = "813-881"
+text = "the energies for generic _Q_ agree with field-theoretical predictions"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "47"
+chars = "997-1062"
+text = "magnetic _π_ -fluxes are concentrated in the triangular plaquettes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "47"
+chars = "1093-1169"
+text = "showing that these kind of states do not play a relevant role at low energies"
+
+[[blocks]]
+sections = ["truth"]
+lines = "47"
+chars = "1172-1238"
+text = "All our findings lend support to a stable _U_ (1) Dirac spin liquid"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "801-859"
+text = "nearest-neighbor Heisenberg model on the triangular lattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "1050-1083"
+text = "the _J_ 1 _− J_ 2 Heisenberg model"
+
+[[blocks]]
+sections = ["method"]
+lines = "57"
+chars = "65-84"
+text = "parton constructions"
+
+[[blocks]]
+sections = ["method"]
+lines = "57"
+chars = "140-188"
+text = "auxiliary fermionic or bosonic degrees of freedom"
+
+[[blocks]]
+sections = ["method"]
+lines = "57"
+chars = "406-428"
+text = "meanfield approximation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "57"
+chars = "1847-1895"
+text = "the _J_ 1 _− J_ 2 model on the triangular lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "57"
+chars = "1910-1934"
+text = "exact low-energy spectrum"
+
+[[blocks]]
+sections = ["method"]
+lines = "57"
+chars = "2006-2026"
+text = "a parton construction"
+
+[[blocks]]
+sections = ["method"]
+lines = "62"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0002-01.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "284-321"
+text = "fermionic and gauge degrees of freedom"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "48-89"
+text = "within Gutzwiller-projected wave functions"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "307-424"
+text = "The construction of variational wave functions relies on the parton approach, supplemented by the Gutzwiller projector"
+
+[[blocks]]
+sections = ["problem"]
+lines = "67"
+chars = "532-555"
+text = "_J_ 2 _/J_ 1 _≈_ 1 _/_ 8"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "563-619"
+text = "mean-field (quadratic) Hamiltonian has hopping terms only"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "721-817"
+text = "fermionic spectrum possesses a couple of Dirac points in the Brillouin zone (for each spin value)"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "868-1020"
+text = "Then, charge- _Q_ monopoles are constructed by changing the fermionic hoppings, so as to insert a 2 _πQ_ flux, uniformly distributed in the whole lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "1023-1092"
+text = "For _Q_ = 1, we observe gapless excitations in the thermodynamic limit"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "67"
+chars = "1236-1267"
+text = "particle-hole spinon excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "1349-1380"
+text = "are large on the 6 _×_ 6 cluster"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "1443-1572"
+text = "Monopoles with charge- _Q_ ( _Q >_ 1) are also considered, and their energetics agree well with the field-theoretical calculations"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "67"
+chars = "1704-1783"
+text = "where a magnetic _π_ flux is fully concentrated in a single triangular plaquette"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "1900-2004"
+text = "they have a large overlap with the ground-state wave function and do not represent low-energy excitations"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "9-58"
+text = "Hopping amplitudes _χij_ for the Dirac spin liquid"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "112-143"
+text = "the hoppings _χij_ = 1 and _−_ 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "178-205"
+text = "magnetic fluxes (0 and _π_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "72"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0002-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "75"
+chars = "9-81"
+text = "Pattern of the phases of hoppings _θij_ for the uniform monopole _Ansatz_"
+
+[[blocks]]
+sections = ["method"]
+lines = "75"
+chars = "103-167"
+text = "The numbers indicate the values of the phases in units of 2 _π/N_"
+
+[[blocks]]
+sections = ["method"]
+lines = "75"
+chars = "171-206"
+text = "Each plaquette has a flux of 2 _π/N_"
+
+[[blocks]]
+sections = ["method"]
+lines = "75"
+chars = "210-330"
+text = "The total hopping amplitude is given by _χije[iθ][ij]_ , where _χij_ = _±_ 1 is the underlying pattern of the Dirac state"
+
+[[blocks]]
+sections = ["method"]
+lines = "75"
+chars = "333-433"
+text = "The last column of hoppings result in translation symmetry being broken along both lattice directions"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "99-127"
+text = "the variational wave function"
+
+[[blocks]]
+sections = ["problem"]
+lines = "79"
+chars = "1-265"
+text = "sis vectors **a** 1 = (1 _,_ 0) and **a** 2 = (1 _/_ 2 _, √_ 3 _/_ 2). Periodicboundary conditions on clusters with _N_ = _L × L_ ( _L_ even) sites are considered, i.e., defined by **T** _j_ = _L_ **a** _j_ , with _j_ = 1 _,_ 2. We fix _J_ 1 = 1 and _J_ 2 = 1 _/_ 8"
+
+[[blocks]]
+sections = ["method"]
+lines = "81"
+chars = "1-40"
+text = "## **II. MODEL AND PARTON CONSTRUCTION**"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "1-22"
+text = "In the parton approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "83"
+chars = "68-112"
+text = "fermionic creation and annihilation operators"
+
+[[blocks]]
+sections = ["problem"]
+lines = "85"
+chars = "31-102"
+text = "Hamiltonian of interacting _S_ = 1 _/_ 2 spins on the triangular lattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "88"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0002-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "92"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0002-13.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "95"
+chars = "1-198"
+text = "where **S** _i_ = ( _Si[x][, S] i[y][, S] i[z]_[)][is][the][spin][1/2][operator][on][site] _i_ and _⟨ij⟩_ ( _⟨⟨ik⟩⟩_ ) denotes nearest-neighbor (next-nearestneighbor) bonds on the triangular lattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "99"
+chars = "1-333"
+text = "Hamiltonian (1) is quartic in the fermionic operators and cannot be solved in general; still, in the spirit of a mean-field decoupling, a quadratic (auxiliary) Hamiltonian can be defined, whose eigenstates determine the variational wave functions. In the simplest case, the auxiliary model includes only (spindiagonal) hopping terms:"
+
+[[blocks]]
+sections = ["method"]
+lines = "102"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0003-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "105"
+chars = "1-588"
+text = "where _χij_ is the hopping amplitude that, in the general case, can be complex, implying the presence of a magnetic field in the auxiliary Hamiltonian. The magnetic flux through a given plaquette is determined by the argument of the product of hoppings around it. Notice that the unitary (gauge) transformation _cj,σ → e[iθ][j] cj,σ_ on the site _j_ modifies the phase of the hopping amplitude of the six bonds emanating from _j_ , without changing the magnetic flux through each of the 2 _N_ elementary (triangular) plaquettes, and the paths around the cluster along **a** 1 and **a** 2."
+
+[[blocks]]
+sections = ["method"]
+lines = "107"
+chars = "1-452"
+text = "In general, eigenstates are easily obtained by a matrix diagonalization; then, a many-body state _|_ Φ _⟩_ with _N_ fermions is attained by filling suitable single-particle states, e.g., the lowest-energy ones. Since the hopping amplitudes _χij_ do not depend on the spin, the spatial part of the eigenvectors can be chosen to be the same for _σ_ = _↑_ and _↓_ . Then, whenever both levels are occupied, the resulting many-body state is a spin singlet."
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "109"
+chars = "1-89"
+text = "The constraint of one fermion per site is fulfilled by including the Gutzwiller projector"
+
+[[blocks]]
+sections = ["method"]
+lines = "112"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0003-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "115"
+chars = "108-186"
+text = "a suitable wave function for the original spin Hamiltonian is formally given by"
+
+[[blocks]]
+sections = ["method"]
+lines = "118"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "121"
+chars = "66-91"
+text = "quantum Monte Carlo scheme"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "127"
+chars = "1-689"
+text = "An accurate variational approximation of the ground state is obtained by filling the lowest-energy states of the auxiliary Hamiltonian (3) with _χij_ = _±_ 1, so to have _π_ (0) magnetic fluxes on downward (upward) triangular plaquettes [10, 46], see Fig. 1. In addition, periodic or antiperiodic boundary conditions along each direction can be imposed, thus giving four possible choices of the boundary conditions. The flux pattern of Fig. 1 is realized by breaking the translational symmetry in the auxiliary Hamiltonian (as in the Hofstadter problem [47]), giving rise to a periodic lattice with a 2 _×_ 1 unit cell in the simplest Landau gauge. Notably, in the thermodynamic limit, the"
+
+[[blocks]]
+sections = ["method", "problem", "truth"]
+lines = "130"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0003-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "134"
+text = "0.5423<br>0.07297<br>0.09053<br>0.4986<br>0.07362<br>0.07147<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "137"
+chars = "9-56"
+text = "Projection of the Gutzwiller-projected monopoles"
+
+[[blocks]]
+sections = ["problem"]
+lines = "137"
+chars = "111-125"
+text = "6 _×_ 6 cluster"
+
+[[blocks]]
+sections = ["problem"]
+lines = "137"
+chars = "178-212"
+text = "modulus (squared) of the projection"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "296-339"
+text = "**k** = ( _−_ 2 _π/_ 3 _,_ 2 _π/_ ~~_√_~~ 3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "137"
+chars = "412-440"
+text = "**k** = ( _−_ 2 _π/_ 3 _,_ 0)"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "1-67"
+text = "fermionic (unprojected) spectrum possesses two Dirac cones per spin"
+
+[[blocks]]
+sections = ["method"]
+lines = "139"
+chars = "85-118"
+text = "Gutzwiller-projected wave function"
+
+[[blocks]]
+sections = ["method"]
+lines = "141"
+chars = "1-701"
+text = "Whenever the unprojected wave function is a singlet, reversing the fluxes through upward and downward triangles does not change the Gutzwiller-projected state. In fact, the particle-hole transformation _Ph_ (i.e., _cj,σ → c[†] j,σ_[)][changes] sign to the auxiliary Hamiltonian, thus reversing the flux pattern; then, if _|_ Φ _⟩_ is an eigenstate corresponding to one choice of fluxes, then _Ph |_ Φ _⟩_ is an eigenstate for the reversed one (and identical boundary condtions). Moreover, _PGPh |_ Φ _⟩_ coincides with _PG |_ Φ _⟩_ , because _PG_ commutes with _Ph_ and the effect of the latter one is simply to reverse all the spins; but, in a singlet state, the spin flip leaves the state unaltered."
+
+[[blocks]]
+sections = ["method"]
+lines = "143"
+chars = "1-1224"
+text = "Let us now discuss the conditions under which the previous wave function is unique. The inversion symmetry _I_ swaps up and down triangles, leaving the boundary conditions unchanged. Then, the composite transformation _I_[˜] = _GI I_ , defined as the inversion followed by a suitable gauge transformation _GI_ , changes _H_ aux _→−H_ aux, i.e., it anticommutes with the auxiliary Hamiltonian. As a consequence, for every single-particle level _ϵ_ , an energy level _−ϵ_ is also present and˜ _I_[˜] brings one eigenstate˜ _|ϕ⟩_ into the other. Furthermore, _I_[2] = 1, implying that _I_ has eigenvalues _±_ 1. For _ϵ_ = 0, it is possible to define two states _|ϕ⟩± I_[˜] _|ϕ⟩_ with opposite eigenvalues of _I_[˜] ; therefore, a different number of +1 and _−_ 1 eigenvalues implies the existence of zero-energy particle states. Then, we focus on the inversion operator _I_[˜] , whose eigenstates can be constructed from states in which electrons are localized on sites of the lattice (and have a definite spin value), _|_ **R** _, σ⟩_ . Let us consider a _L × L_ cluster, where the hopping pattern is shown in Fig. 1 and the coordinates of the sites are denoted by **R** = _n_ 1 **a** 1 + _n_ 2 **a** 2. Here, the gauge trans-"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "149"
+text = "|(0_,_0)<br>(_L/_2_,_0)<br>(0_, L/_2)<br>(_L/_2_, L/_2)|+1<br>_eiLπ/_2<br>_eiLπ/_2<br>+1|+1<br>_eiLπ/_2<br>_−eiLπ/_2<br>_−_1|+1<br>_−eiLπ/_2<br>_eiLπ/_2<br>_−_1|+1<br>_−eiLπ/_2<br>_−eiLπ/_2<br>+1|"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "153"
+chars = "1-161"
+text = "TABLE I. The eigenvalues of the _I_[˜] operator of the four states that are left unchanged by the inversion for the different choices of the boundary conditions."
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "155"
+chars = "788-847"
+text = "The eigenvalues of these four cases are reported in Table I."
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "155"
+chars = "1087-1152"
+text = "eight zero-energy states (taking into account the spin degeneracy)"
+
+[[blocks]]
+sections = ["method"]
+lines = "155"
+chars = "1539-1597"
+text = "performing the diagonalization of the auxiliary Hamiltonian"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "157"
+chars = "1-1170"
+text = "Although the fermionic Hamiltonian breaks the translational symmetry of the lattice, translational invariance is restored after Gutzwiller projection, because both elementary translations along the primitive vectors **a** 1 and **a** 2 leave all the fluxes unchanged and do not modify the boundary conditions. This means that, after a translation, it is possible to recover the original hopping pattern via a suitable gauge transformation. Therefore, we define the magnetic translation operators _T_[˜] _j_ = _GTj Tj_ . These symmetry operators commute with _H_ aux (although they do not commute with each other) implying that, whenever the many particle ground state of _H_ aux is unique, it must also be an eigenstate of both _T_[˜] _j_ . Since the gauge transformation commutes with the Gutzwiller projection and can be always chosen to act as the identity on _|_ Ψ _⟩_ , the Gutzwiller-projected states are then zero-momentum eigenstates of the translation operators _Tj_ . This is actually the case for three out of four possible boundary conditions for which no zero-energy modes are present, showing that we can find three linearly independent variational states."
+
+[[blocks]]
+sections = ["method"]
+lines = "159"
+chars = "1-120"
+text = "Finally, we consider the elementary rotation _R_ by 26 _π_ around the origin. This symmetry operation changes by _π_ all"
+
+[[blocks]]
+sections = ["method"]
+lines = "161"
+chars = "170-770"
+text = "At half filling, if we combine the rotation with the previously defined particle-hole transformation _Ph_ , the Hamiltonian acquires a further global minus sign and then the fluxes through the elementary triangles go back to their original value without affecting the boundary conditions. This means that, by performing a suitable gauge transformation _GR_ , the combined symmetry _PhRGR_ acts as a permutator on the three states. Therefore, in order to build a variational state that is eigenstate of the rotation operator, an appropriate linear combination of these three states must be constructed."
+
+[[blocks]]
+sections = ["problem"]
+lines = "163"
+chars = "1-46"
+text = "## **B. The** _Q_ = 1 **monopole excitations**"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "165"
+chars = "1-1542"
+text = "The _Q_ = 1 monopole excitations are constructed by inserting a 2 _π_ flux on top of the Dirac state, spreading it uniformly through all the elementary plaquettes of the lattice [34, 35, 39]. Inserting a _−_ 2 _π_ flux would yield an antimonopole, whose wave function is the complex conjugate of the monopole one. One possible choice for the fermionic hoppings is shown in Fig. 2, where the additional flux is equally distributed in the two triangles within each unit cell. It should be noted that, on a closed manifold such as the torus, the existence of a monopole with total flux 2 _π_ is always accompanied by a _−_ 2 _π_ flux, which is effectively hidden (modulo 2 _π_ ) in a single plaquette (e.g., in our setup, at the top-right corner). Most importantly, the pattern of the hopping amplitudes is not translationally invariant and it is not possible to restore the symmetry by using a gauge transformation (unlike for the Dirac state discussed above). Indeed, the (gauge invariant) fluxes along the loops wrapping around the torus are not uniform, which are not left invariant upon translation (in addition, different choices for the boundary conditions do not lead to different states). The Gutzwiller-projected states are also not translationally invariant. Still, it is possible to find a gauge transformation _GT[m] j_[for which the hopping amplitudes] that determine the symmetry breaking are confined along lines or columns of _O_ ( _L_ ) bonds [34]. As a result, translational symmetries are restored in the thermodynamic limit."
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "24-92"
+text = "the average momentum of the unprojected wave function is evaluated by"
+
+[[blocks]]
+sections = ["method"]
+lines = "170"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0004-10.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "173"
+chars = "53-120"
+text = "the average momentum of the Gutzwiller-projected state is defined by"
+
+[[blocks]]
+sections = ["method"]
+lines = "176"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0004-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "1-68"
+text = "which may be evaluated by using the variational Monte Carlo approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "174-214"
+text = "amplitude _A_ = 1 in the unprojected case"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "217-250"
+text = "or _A[′]_ = 1 in the projected one"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "184"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "188"
+text = "1.00.90.80.7 ● ● ■ [●●][■] ■● ■● ■ ● ■ ■ ■ ■ ■ ■ ■ ■ 1.00.90.8 ● ● [●] ● ■● ■● ■● ■ ■ ■ ■ ■ ■ ■ ■<br>0.6 ● ■ [■] (a) ● projected triplet monopole 0.7 ■ [■] (d) ● projected singlet monopole<br>0.5 ■ unprojected triplet monopole 0.6 ■ [■] ■ unprojected singlet monopole<br>0.4 ■ 0.5<br>- 13 ● ● ● [●●] ■ ● ■ ● ■● ■ ■ ■ ■ ■ ■ ■ ■ -0.325- 13 ● ●● ● ■● ■● ■● ■ ■ ■ ■ ■ ■ ■ ■<br>-0.34 ■ [■■] (b) -0.34 ■ [■■] (e)<br>-0.345 -0.345 ■<br>■ [■] -0.35<br>■■ -0.14 ■<br>0.345 ■<br>-0.15<br>0.34<br>0.33130 ● ● ■■■ ●●● ■ ● 20■ ● ■● ■ ■ (c ■ ) 40 ■ ■ 60 ■ ■ 80 ■ -0.16- 160 ●● ■■● ● ■ ● 20■ ● ■ ● ■ ■ (f ■ ) 40 ■ ■ 60 ■ ■ 80 ■<br>L L<br>A and A' A and A'<br>' k 1 '1 k<br> and k 1  and k 1<br>' k 2 '2 k<br> and k 2  and k 2<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["method"]
+lines = "191"
+chars = "9-111"
+text = "Amplitude and phase of unprojected and Gutzwiller-projected states (see Eqs. (6) and (7), respectively)"
+
+[[blocks]]
+sections = ["method"]
+lines = "191"
+chars = "365-402"
+text = "error-bars of the Monte Carlo sampling"
+
+[[blocks]]
+sections = ["method"]
+lines = "193"
+chars = "24-93"
+text = "modifies the single particle spectrum of the auxiliary Hamiltonian (3)"
+
+[[blocks]]
+sections = ["method"]
+lines = "193"
+chars = "1699-1736"
+text = "diagonalize a pair of 4 _×_ 4 matrices"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "2125-2186"
+text = "The triplet has momentum **k** = ( _−_ 2 _π/_ 3 _,_ 2 _π/√_ 3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "2192-2271"
+text = "the singlets have **k** = ( _−_ 2 _π/_ 3 _,_ 0) and **k** = ( _π/_ 3 _, ±π/√_ 3)"
+
+[[blocks]]
+sections = ["method"]
+lines = "193"
+chars = "2282-2364"
+text = "the total wave function can be factorized, splitting fermions with up and down spin"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "195"
+chars = "1-54"
+text = "Within the adopted choice of the hoppings (see Fig. 2)"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "290-429"
+text = "two additional fermions (with opposite spins, which is suitable for both triplet and singlet states) must be added on the zero-energy states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "769-861"
+text = "The results discussed previously correspond to the triplet state (in the thermodynamic limit)"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "1245-1306"
+text = "a total of two triplet and six singlet states are constructed."
+
+[[blocks]]
+sections = ["method"]
+lines = "199"
+chars = "1-32"
+text = "## **A. Exact diagonalizations**"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "201"
+chars = "25-65"
+text = "exact calculations on the 6 _×_ 6 cluster"
+
+[[blocks]]
+sections = ["method"]
+lines = "201"
+chars = "309-377"
+text = "lowest-energy single-particle states of the auxiliary Hamiltonian (3)"
+
+[[blocks]]
+sections = ["method"]
+lines = "201"
+chars = "483-561"
+text = "three wave functions with all the symmetries of the original (spin) Hamiltonian"
+
+[[blocks]]
+sections = ["truth"]
+lines = "206"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "210"
+text = "0.6<br>● Singlet monopole ▲●<br>0.5 ▲ Triplet monopole ●<br>▲<br>0.4<br>●<br>▲<br>●<br>0.3 ▲<br>●<br>▲<br>0.2 ● ▲●<br>▲● ▲● ▲<br>0.1<br>0. 0<br>0 1 1 1 1 1 1 1 1<br>32 24 20 16 12 10 8 6<br>1<br>L<br>0<br> E<br> -<br>1<br>E<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "213"
+chars = "9-33"
+text = "Monopole gap _E_ 1 _−E_ 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "213"
+chars = "87-129"
+text = "Both triplet and singlet cases are reported"
+
+[[blocks]]
+sections = ["method"]
+lines = "215"
+chars = "95-128"
+text = "lowest-energy variational _Ansatz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "215"
+chars = "137-172"
+text = "energy _E_ 0 _/J_ 1 = _−_ 18 _._ 271"
+
+[[blocks]]
+sections = ["truth"]
+lines = "215"
+chars = "178-231"
+text = "overlap with the exact ground state equal to 0 _._ 929"
+
+[[blocks]]
+sections = ["truth"]
+lines = "215"
+chars = "274-304"
+text = "energy _E/J_ 1 = _−_ 17 _._ 688"
+
+[[blocks]]
+sections = ["truth"]
+lines = "215"
+chars = "310-392"
+text = "overlap with the second lowest-energy state in the same subspace equal to 0 _._ 803"
+
+[[blocks]]
+sections = ["method"]
+lines = "215"
+chars = "476-534"
+text = "linear superposition of three different boundary conditions"
+
+[[blocks]]
+sections = ["method"]
+lines = "215"
+chars = "595-631"
+text = "a _single_ complex boundary condition"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "217"
+chars = "144-227"
+text = "a (non-normalized) state by the projection _Pk_ on a given subspace with fixed **k**"
+
+[[blocks]]
+sections = ["method"]
+lines = "220"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0006-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "88-124"
+text = "diagonalization of the 4 _×_ 4 matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "318-354"
+text = "**k** = ( _−_ 2 _π/_ 3 _,_ 2 _π/√_ 3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "376-404"
+text = "**k** = ( _−_ 2 _π/_ 3 _,_ 0)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "615-622"
+text = "0 _._ 69"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "628-635"
+text = "0 _._ 62"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "771-796"
+text = "normalized monopole states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "860-867"
+text = "0 _._ 91"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "873-880"
+text = "0 _._ 87"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "225"
+chars = "67-98"
+text = "particle-hole spinon excitations"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+chars = "113-187"
+text = "starting from the Dirac state (with the hopping amplitudes given in Fig. 1)"
+
+[[blocks]]
+sections = ["method"]
+lines = "225"
+chars = "202-240"
+text = "a different occupation of the fermionic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0006-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "231"
+chars = "22-39"
+text = "Variational energy"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "231"
+chars = "276-336"
+text = "scaling dimensions obtained by field-theoretical calculations"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "231"
+chars = "446-503"
+text = "leading-order contribution proportional to _Nf_ (set to 4)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "231"
+chars = "509-530"
+text = "the _O_ (1) correction"
+
+[[blocks]]
+sections = ["method"]
+lines = "233"
+chars = "464-486"
+text = "27-dimensional subspace"
+
+[[blocks]]
+sections = ["method"]
+lines = "233"
+chars = "506-562"
+text = "9 linearly independent states for each boundary condition"
+
+[[blocks]]
+sections = ["method"]
+lines = "233"
+chars = "609-675"
+text = "optimal linear combination minimizing the energy (after projection)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "745-773"
+text = "E_ sp _/J_ 1 = _−_ 17 _._ 762"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "818-845"
+text = "E_ 1 _/J_ 1 = _−_ 17 _._ 817"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "918-925"
+text = "0 _._ 67"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "931-938"
+text = "0 _._ 92"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "1047-1075"
+text = "E_ sp _/J_ 1 = _−_ 17 _._ 776"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "1116-1143"
+text = "E_ 1 _/J_ 1 = _−_ 17 _._ 694"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "1186-1193"
+text = "0 _._ 64"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "1199-1206"
+text = "0 _._ 90"
+
+[[blocks]]
+sections = ["truth"]
+lines = "233"
+chars = "1237-1320"
+text = "bare spinons and monopoles do not exist as free particles and cannot be disentangled"
+
+[[blocks]]
+sections = ["method"]
+lines = "239"
+chars = "1-33"
+text = "## **B. Variational Monte Carlo**"
+
+[[blocks]]
+sections = ["method"]
+lines = "241"
+chars = "52-83"
+text = "variational Monte Carlo approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "241"
+chars = "321-377"
+text = "unprojected values ( _A_ and _ki_ ), evaluated by Eq. (6)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "241"
+chars = "393-456"
+text = "all the absolute values converge to 1 in the thermodynamic limit"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "241"
+chars = "484-584"
+text = "the convergence in presence of the Gutzwiller projection is much faster than in the unprojected cases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "601-708"
+text = "A[′]_ for the projected triplet monopole at _L_ = 16 already exceeds _A_ for the unprojected one at _L_ = 80"
+
+[[blocks]]
+sections = ["method"]
+lines = "243"
+chars = "155-174"
+text = "variational energies"
+
+[[blocks]]
+sections = ["method"]
+lines = "243"
+chars = "342-365"
+text = "Monte Carlo calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "243"
+chars = "521-557"
+text = "diagonalization of the 4 _×_ 4 matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "243"
+chars = "787-849"
+text = "In the thermodynamic limit, monopole excitations become gapless"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "245"
+chars = "75-109"
+text = "including a magnetic flux of 2 _πQ_"
+
+[[blocks]]
+sections = ["method"]
+lines = "245"
+chars = "157-189"
+text = "2 _Q_ zero-energy levels per spin"
+
+[[blocks]]
+sections = ["method"]
+lines = "245"
+chars = "302-327"
+text = "filled with 2 _Q_ fermions"
+
+[[blocks]]
+sections = ["method"]
+lines = "245"
+chars = "494-582"
+text = "construct states with fermions occupying (with opposite spins) the same zero-energy level"
+
+[[blocks]]
+sections = ["method"]
+lines = "245"
+chars = "659-685"
+text = "Gutzwiller-projected states"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "245"
+chars = "852-946"
+text = "field-theoretical calculations of Ref. [41] for the leading-order term in the 1 _/Nf_ expansion"
+
+[[blocks]]
+sections = ["problem"]
+lines = "245"
+chars = "949-994"
+text = "Our results for _EQ − E_ 0 are reported Fig. 6"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "247"
+chars = "1-14"
+text = "_Nf_ expansion"
+
+[[blocks]]
+sections = ["problem"]
+lines = "247"
+chars = "643-655"
+text = "C_ = 0 _._ 24"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "247"
+chars = "1251-1324"
+text = "the scaling form ( _EQ − E_ 0) _≈ Q_[3] _[/]_[2] _/L_ for large _Q_ values"
+
+[[blocks]]
+sections = ["truth"]
+lines = "247"
+chars = "1471-1516"
+text = "very good collapse to field theory predictions"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "249"
+chars = "35-175"
+text = "the total gauge flux 2 _πQ_ is spread uniformly in each plaquette, thus affecting the structure of the fermionic hopping in the whole lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "249"
+chars = "275-312"
+text = "not be part of the low-energy spectrum"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "249"
+chars = "368-445"
+text = "concentrating the full (2 _π_ ) magnetic flux in a single rhomboidal plaquette"
+
+[[blocks]]
+sections = ["problem"]
+lines = "251"
+chars = "143-192"
+text = "the creation of a couple of nearestneighbor visons"
+
+[[blocks]]
+sections = ["method"]
+lines = "254"
+text = "![](.figures/arxiv__2410.18747/2410.18747.pdf-0007-09.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "257"
+chars = "23-63"
+text = "the state containing two localized fluxes"
+
+[[blocks]]
+sections = ["method"]
+lines = "257"
+chars = "83-100"
+text = "the Dirac _Ansatz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "116-245"
+text = "spin-spin correlations of _|_ Ψloc _⟩_ differ from the ones of the Dirac state _|_ Ψ0 _⟩_ only in the vicinity of the perturbation"
+
+[[blocks]]
+sections = ["method"]
+lines = "259"
+chars = "17-38"
+text = "this variational state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "40-82"
+text = "has a large overlap with the Dirac _Ansatz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "164-181"
+text = "α_[2] _≈_ 0 _._ 85"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "440-477"
+text = "( _E_ exc _− E_ 0) _/J_ 1 _≈_ 0 _._ 87"
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "13-62"
+text = "The hopping amplitudes _χij_ of the Dirac _Ansatz_"
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "184-245"
+text = "Solid and dashed lines denote the hoppings _χij_ = 1 and _−_ 1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "263"
+chars = "266-325"
+text = "Rescaled nearest-neighbor energies _S_ ( _i, j_ ) of Eq. (9)"
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "335-368"
+text = "Gutzwiller-projected wave function"
+
+[[blocks]]
+sections = ["truth"]
+lines = "265"
+chars = "99-184"
+text = "relatively high energy and are not particularly relevant for the low-energy properties"
+
+[[blocks]]
+sections = ["method"]
+lines = "273"
+chars = "290-364"
+text = "employing the parton construction supplemented by the Gutzwiller projection"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "464-492"
+text = "acquire the predicted momenta"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "273"
+chars = "535-638"
+text = "the convergence with _L_ is much faster for the Gutzwillerprojected states than for the unprojected ones"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "647-678"
+text = "monopole excitations are gapless"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "746-793"
+text = "a large overlap with particle-hole spinon states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "889-958"
+text = "nice agreement between the variational energy of charge- _Q_ monopoles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "1213-1321"
+text = "a large overlap with the Dirac wave function (and the orthogonal component corresponds to high-energy states)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "273"
+chars = "1324-1466"
+text = "All these outcomes give confirmation that the (fermionic) parton construction captures the correct description of the _U_ (1) Dirac spin liquid"
+
+[[blocks]]
+sections = ["method"]
+lines = "351"
+chars = "94-97"
+text = "DMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "369"
+chars = "34-63"
+text = "Quantum Monte Carlo Approaches"

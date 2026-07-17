@@ -1,0 +1,982 @@
+# Partition layer for papers/2506.22114 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-15"
+text = "Perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "50-56"
+text = "chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "14"
+chars = "3-9"
+text = "Perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "14"
+chars = "44-50"
+text = "chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "26"
+chars = "126-149"
+text = "chaotic many-body system"
+
+[[blocks]]
+sections = ["truth"]
+lines = "26"
+chars = "384-430"
+text = "perfect quantum state transfer} can be achieved"
+
+[[blocks]]
+sections = ["truth"]
+lines = "26"
+chars = "459-473"
+text = "quantum chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "26"
+chars = "612-636"
+text = "chaotic many-body systems"
+
+[[blocks]]
+sections = ["truth"]
+lines = "30"
+chars = "5-11"
+text = "Perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "30"
+chars = "46-52"
+text = "chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "38"
+chars = "126-149"
+text = "chaotic many-body system"
+
+[[blocks]]
+sections = ["truth"]
+lines = "38"
+chars = "379-425"
+text = "perfect quantum state transfer_ can be achieved"
+
+[[blocks]]
+sections = ["truth"]
+lines = "38"
+chars = "454-468"
+text = "quantum chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "38"
+chars = "607-631"
+text = "chaotic many-body systems"
+
+[[blocks]]
+sections = ["truth"]
+lines = "44"
+chars = "340-379"
+text = "chaotic and strongly interacting systems"
+
+[[blocks]]
+sections = ["truth"]
+lines = "48"
+chars = "137-151"
+text = "quantum chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "48"
+chars = "401-442"
+text = "perfect quantum state transfer is possible"
+
+[[blocks]]
+sections = ["truth"]
+lines = "48"
+chars = "498-512"
+text = "quantum chaotic"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "50"
+chars = "260-281"
+text = "Perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "50"
+chars = "657-667"
+text = "thermalised"
+
+[[blocks]]
+sections = ["truth"]
+lines = "52"
+chars = "31-55"
+text = "perfect transfer protocol"
+
+[[blocks]]
+sections = ["truth"]
+lines = "52"
+chars = "70-105"
+text = "bulk of the spectrum remains thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "54"
+chars = "164-200"
+text = "perfect state transfer is implemented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "54"
+chars = "282-306"
+text = "suppresses state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "54"
+chars = "482-514"
+text = "facilitate perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "54"
+chars = "539-551"
+text = "being chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "54"
+chars = "613-658"
+text = "exactly spanned by the set of QMBS eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "54"
+chars = "678-769"
+text = "protected against the interactions that otherwise suppress coherent transport of information"
+
+[[blocks]]
+sections = ["truth"]
+lines = "54"
+chars = "785-852"
+text = "demonstration of perfect state transfer through the chaotic spin-1/2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "54"
+chars = "997-1020"
+text = "example of perfect state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "62"
+chars = "30-69"
+text = "perfect quantum state transfer can occur"
+
+[[blocks]]
+sections = ["truth"]
+lines = "62"
+chars = "101-115"
+text = "quantum chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "64"
+chars = "10-16"
+text = "PERFECT"
+
+[[blocks]]
+sections = ["problem"]
+lines = "66"
+chars = "58-87"
+text = "chain of _N_ spin-1/2 particle"
+
+[[blocks]]
+sections = ["problem"]
+lines = "69"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0002-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "72"
+chars = "123-154"
+text = "_λn_ = _λ_ ~~�~~ _n_ ( _N − n_ )"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "75"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0002-07.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "78"
+chars = "34-53"
+text = "_t_ = _τ_ 1 = 2 _πλ_"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "81"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0002-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "84"
+chars = "122-153"
+text = "the action of a spin-1/2 unitary"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0002-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "90"
+chars = "79-130"
+text = "reduced density matrix of the last spin in the chain"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "92"
+chars = "51-82"
+text = "clearly showing _F_ ( _τ_ 1) = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "94"
+chars = "32-53"
+text = "perfect state transfer"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "97"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0002-15.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "102"
+chars = "1-20"
+text = "Hˆ subspace = 2 _λJ_"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "102"
+chars = "432-458"
+text = "with _J_ = ( _N −_ 1) _/_ 2"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "102"
+chars = "737-784"
+text = "after an evolution time _t_ = _τ_ 1 = _π/_ 2 _λ_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "102"
+chars = "788-847"
+text = "implementing the transfer of the excitation across the chain"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "102"
+chars = "886-940"
+text = "perfect state transfer at periodic intervals thereafter"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "104"
+chars = "43-64"
+text = "perfect state transfer"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0002-19.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "110"
+chars = "483-511"
+text = "transfer fidelity is given by"
+
+[[blocks]]
+sections = ["truth"]
+lines = "118"
+chars = "345-402"
+text = "results in perfect state transfer for either initial state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "118"
+chars = "606-643"
+text = "[inhibits][state][transfer][for][both]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "118"
+chars = "884-893"
+text = "[supports]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "118"
+chars = "905-913"
+text = "[perfect]"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "118"
+chars = "949-976"
+text = "is outside the QMBS subspace"
+
+[[blocks]]
+sections = ["truth"]
+lines = "118"
+chars = "1068-1078"
+text = "are chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "118"
+chars = "1169-1205"
+text = "generally follow a volume law scaling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "118"
+chars = "1229-1273"
+text = "has a small number of non-thermal eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "118"
+chars = "1276-1359"
+text = "which are responsible for the perfect state transfer despite the model being chaotic"
+
+[[blocks]]
+sections = ["problem"]
+lines = "118"
+chars = "1381-1397"
+text = "_N_ = 12, _ω_ = 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "123"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0003-03.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+chars = "23-66"
+text = "local operator with support over a few sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+chars = "314-361"
+text = "randomly generated three-spin Hermitian operator"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+chars = "394-436"
+text = "level spacing statistics for _H_[ˆ] thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "126"
+chars = "486-565"
+text = "closely matches that of a random matrix from the Gaussian unitary ensemble (GUE)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "126"
+chars = "586-607"
+text = "quantum chaotic system"
+
+[[blocks]]
+sections = ["truth"]
+lines = "128"
+chars = "163-189"
+text = "generic chaotic Hamiltonian"
+
+[[blocks]]
+sections = ["problem"]
+lines = "130"
+chars = "113-142"
+text = "halfchain entanglement entropy"
+
+[[blocks]]
+sections = ["problem"]
+lines = "130"
+chars = "145-180"
+text = "computed via the von Neumann entropy"
+
+[[blocks]]
+sections = ["problem"]
+lines = "132"
+chars = "46-105"
+text = "reduced density matrix obtained by tracing out the left half"
+
+[[blocks]]
+sections = ["truth"]
+lines = "132"
+chars = "173-208"
+text = "we observe high entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "132"
+chars = "231-285"
+text = "volumelaw scaling characteristic of thermal eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "134"
+chars = "11-42"
+text = "quantum chaotic level statistics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "134"
+chars = "119-167"
+text = "state transfer fidelity is significantly degraded"
+
+[[blocks]]
+sections = ["truth"]
+lines = "134"
+chars = "427-460"
+text = "rapidly saturates to _F ≈_ 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "134"
+chars = "539-582"
+text = "infinite-temperature (maximally mixed) state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "136"
+chars = "10-16"
+text = "PERFECT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "136"
+chars = "38-44"
+text = "CHAOTIC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "138"
+chars = "66-135"
+text = "facilitate perfect state transfer despite the spin chain being chaotic"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0003-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "149"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0004-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "152"
+chars = "457-504"
+text = "indicate that the Hamiltonian is quantum chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "152"
+chars = "960-1083"
+text = "small subset of _N_ + 1 non-thermal eigenstates near the middle of the energy spectrum with significantly lower entanglement"
+
+[[blocks]]
+sections = ["truth"]
+lines = "152"
+chars = "1086-1115"
+text = "These are the QMBS eigenstates"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "154"
+chars = "85-103"
+text = "set of _N_ + 1 QMBS"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "154"
+chars = "405-440"
+text = "It follows that this state is a QMBS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "154"
+chars = "557-581"
+text = "zero-entanglement outlier"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "156"
+chars = "27-92"
+text = "states _|n⟩_ (defined in Eq. 5) are annihilated by every projector"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "156"
+chars = "334-361"
+text = "is “invisible” to the Hamil-"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "156"
+chars = "611-641"
+text = "harmonically spaced eigenvalues"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "156"
+chars = "1089-1129"
+text = "subvolume scaling _S_ ent _≤_ log _[N]_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "156"
+chars = "1141-1162"
+text = "they][are][non-thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "156"
+chars = "1212-1251"
+text = "low (but non-zero) entanglement outliers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "158"
+chars = "81-147"
+text = "dynamics relevant to perfect state transfer are entirely unaffected"
+
+[[blocks]]
+sections = ["truth"]
+lines = "158"
+chars = "253-261"
+text = "[perfect]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "160"
+chars = "155-206"
+text = "demonstrates that perfect state transfer is possible"
+
+[[blocks]]
+sections = ["truth"]
+lines = "160"
+chars = "221-252"
+text = "spin chain being quantum chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "160"
+chars = "435-469"
+text = "state transfer is highly suppressed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "162"
+chars = "23-54"
+text = "perfect state transfer generated"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "162"
+chars = "464-495"
+text = "does have a _non-local_ symmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "162"
+chars = "633-668"
+text = "necessary for perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "166"
+chars = "203-224"
+text = "perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "168"
+chars = "9-15"
+text = "PERFECT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "168"
+chars = "37-43"
+text = "CHAOTIC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "170"
+chars = "42-90"
+text = "perfect state transfer in a quantum chaotic chain"
+
+[[blocks]]
+sections = ["truth"]
+lines = "170"
+chars = "370-412"
+text = "perfect state transfer can also be achieved"
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "204-212"
+text = "[perfect]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "609-639"
+text = "supports perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "800-809"
+text = "[chaotic.]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "1080-1088"
+text = "[perfect]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "176"
+chars = "1119-1137"
+text = "model being chaotic"
+
+[[blocks]]
+sections = ["problem"]
+lines = "181"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0005-03.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "184"
+chars = "6-29"
+text = "_λn_ = _λ n_ ( _N − n_ )"
+
+[[blocks]]
+sections = ["problem"]
+lines = "187"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0005-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "190"
+chars = "30-69"
+text = "leads to perfect state transfer at times"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "196"
+chars = "27-63"
+text = "arbitrary two-body Hermitian operator"
+
+[[blocks]]
+sections = ["truth"]
+lines = "196"
+chars = "357-366"
+text = "suppresses"
+
+[[blocks]]
+sections = ["problem"]
+lines = "203"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0005-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "209"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0005-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "212"
+chars = "135-151"
+text = "generally chaotic"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "212"
+chars = "194-220"
+text = "hosts a set of _N_ + 1 QMBS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "212"
+chars = "246-274"
+text = "with low entanglement entropy"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "215"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0005-15.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "218"
+chars = "32-65"
+text = "are all annihated by the projector"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "218"
+chars = "250-328"
+text = "subspace spanned by these states is therefore invisible to the interaction term"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "218"
+chars = "455-482"
+text = "element of the QMBS subspace"
+
+[[blocks]]
+sections = ["truth"]
+lines = "218"
+chars = "560-615"
+text = "We therefore expect perfect state transfer starting from"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "224"
+chars = "124-141"
+text = "3[2] _×_ 3[2] = 81"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "224"
+chars = "190-219"
+text = "81 different interaction types"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "224"
+chars = "338-384"
+text = "annihilate 45 of the possible interaction types"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "224"
+chars = "393-441"
+text = "commuting with the remaining 36 interaction types"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "224"
+chars = "489-540"
+text = "36 of the possible 81 kinds of two-spin interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "27-68"
+text = "perfect quantum state transfer is possible"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "103-127"
+text = "presence of quantum chaos"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "207-222"
+text = "chaotic dynamics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "470-486"
+text = "otherwise chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "228"
+chars = "504-536"
+text = "supporting perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "242"
+chars = "373-392"
+text = "chaotic spin-1 chain"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "242"
+chars = "598-658"
+text = "exactly the scar subspace required for perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "316"
+chars = "153-183"
+text = "perfect quantum many-body scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "328"
+chars = "62-68"
+text = "Perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "330"
+chars = "84-90"
+text = "Perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "338"
+chars = "16-22"
+text = "Perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "340"
+chars = "127-133"
+text = "perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "342"
+chars = "106-112"
+text = "Perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "344"
+chars = "239-262"
+text = "quantum chaotic behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "354"
+chars = "71-85"
+text = "chaotic systems"
+
+[[blocks]]
+sections = ["truth"]
+lines = "366"
+chars = "71-77"
+text = "Perfect"
+
+[[blocks]]
+sections = ["truth"]
+lines = "366"
+chars = "112-118"
+text = "chaotic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "378"
+chars = "105-123"
+text = "chaotic spin1 chain"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "390"
+chars = "153-171"
+text = "_N_ +1)-dimensional"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "390"
+chars = "207-228"
+text = "perfect state transfer"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "390"
+chars = "407-428"
+text = "perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "402"
+chars = "36-57"
+text = "perfect state transfer"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "402"
+chars = "97-147"
+text = "36 of the possible 81 types of two-spin interaction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "406"
+chars = "197-226"
+text = "time of perfect state transfer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "406"
+chars = "290-370"
+text = "infidelity scales as 1 _− F_ ( _τ_ 1) _∼ ϵ_[2] with the perturbation strength _ϵ_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "406"
+chars = "505-549"
+text = "integrable perfect state transfer Hamiltonian"
+
+[[blocks]]
+sections = ["truth"]
+lines = "406"
+chars = "639-680"
+text = "show the scaling 1 _− F_ ( _τ_ 1) _∼ ϵ_[2]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "406"
+chars = "746-902"
+text = "state transfer fidelity is worse when the perturbation is added to the integrable Hamiltonian than when it is added to the non-integrable scarred Hamiltonian"
+
+[[blocks]]
+sections = ["problem"]
+lines = "409"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0009-06.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "415"
+text = "![](.figures/arxiv__2506.22114/2506.22114.pdf-0010-01.png)"

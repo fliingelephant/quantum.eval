@@ -1,0 +1,1789 @@
+# Partition layer for papers/2505.05194 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "50-122"
+text = "Enhanced Symmetries, Emergent Orders, and Landau-Incompatible Transitions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "44-116"
+text = "Enhanced Symmetries, Emergent Orders, and Landau-Incompatible Transitions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "29"
+chars = "41-142"
+text = "frustrated J_{1}-J_{2} classical q-state clock model with even q>4 on a two-dimensional square lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "321-360"
+text = "low-temperature Z_{q}-broken ferromagnet"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "366-453"
+text = "intermediate XY-like critical quasi-long-range-ordered phase with emergent U(1) symmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "462-488"
+text = "high-temperature paramagnet"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "532-839"
+text = "five distinct regimes: the disordered paramagnet, a stripe-ordered phase breaking Z_{q}×Z_{2} symmetry, two Z_{2}-broken nematic phases (one with and one without quasi-long-range order), and an exotic stripe phase with emergent discrete Z_{q} spin degrees of freedom prohibited in the microscopic Hamiltonian"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "854-959"
+text = "this seemingly forbidden Z_{q} order emerges via a relevant operator in the infrared long-wavelength limit"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "1060-1128"
+text = "large-scale corner transfer matrix renormalization group calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "29"
+chars = "1147-1179"
+text = "classical Monte Carlo simulations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "29"
+chars = "1185-1331"
+text = "map the complete phase diagram and identify Berezinskii-Kosterlitz-Thouless, Ising, first-order, and unconventional Landau-incompatible transitions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "50-122"
+text = "Enhanced symmetries, emergent orders, and Landau-incompatible transitions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "41-138"
+text = "frustrated J1-J2 classical q-state clock model with even q > 4 on a two-dimensional square lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "313-349"
+text = "low-temperature Zq-broken ferromagnet"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "355-450"
+text = "intermediate XY-like critical quasi-long-range–ordered (QLRO) phase with emergent U (1) symmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "459-485"
+text = "high-temperature paramagnet"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "525-804"
+text = "five distinct regimes: the disordered paramagnet, a stripe-ordered phase breaking Zq × Z2 symmetry, two Z2-broken nematic phases (one with and one without QLRO), and an exotic stripe phase with emergent discrete Zq spin degrees of freedom prohibited in the microscopic Hamiltonian"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "819-921"
+text = "this seemingly forbidden Zq order emerges via a relevant operator in the infrared long-wavelength limit"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "1023-1091"
+text = "large-scale corner transfer matrix renormalization group calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "43"
+chars = "1110-1142"
+text = "classical Monte Carlo simulations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "1148-1294"
+text = "map the complete phase diagram and identify Berezinskii–Kosterlitz–Thouless, Ising, first-order, and unconventional Landau-incompatible transitions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "47"
+chars = "144-316"
+text = "2D frustrated q-state clock model [14] on a square lattice with nearest-neighbor ferromagnetic (FM) coupling J1 and next-nearest-neighbor antiferromagnetic (AFM) coupling J2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "50"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0001-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "1-104"
+text = "Here J1(2) ≥ 0, and θi = 2πki/q with ki ∈ 0, . . . , q − 1 denotes the clock angle at site i ≡ (ix, iy)."
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "106-156"
+text = "The Hamiltonian (1) is symmetric under Zq rotations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "183-196"
+text = "Z2 reflections"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "55"
+chars = "1-34"
+text = "and generate the dihedral group Dq"
+
+[[blocks]]
+sections = ["problem"]
+lines = "55"
+chars = "115-196"
+text = "We focus on even q, since odd values introduce additional, nontrivial frustration."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "57"
+chars = "1-108"
+text = "The standard clock model (J2 = 0) exhibits an emergent U (1) symmetry for q > 4 at intermediate temperatures"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "59"
+chars = "16-88"
+text = "the Hamiltonian (1) reduces to the wellknown J1-J2 Ising model when q = 2"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "59"
+chars = "324-390"
+text = "q →∞, the model becomes the J1-J2 XY model with exact O(2) symmetry"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "59"
+chars = "541-659"
+text = "the ground-state energy (i.e., at T = 0) is independent of the relative orientation between the two √2 × √2 sublattices"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "22-80"
+text = "classical Monte Carlo (CMC) and tensor network (TN) studies"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "177-238"
+text = "This intermediate phase lacks QLRO but retains Z2-broken order"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "193-213"
+text = "finite and even q > 4"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "221-259"
+text = "concentrating on the J2/J1 > 1/2 regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "409-516"
+text = "frustration in combination with an RG-relevant perturbation stabilizes a distinct emergent discrete Zq order"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "1-21"
+text = "The numerical methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "87-110"
+text = "standard CMC simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "199-233"
+text = "single-spin-flip Metropolis updates"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "254-279"
+text = "long autocorrelation times"
+
+[[blocks]]
+sections = ["method"]
+lines = "67"
+chars = "418-420"
+text = "CMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "19-21"
+text = "CMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "43-52"
+text = "TN methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "92-143"
+text = "corner transfer matrix renormalization group (CTMRG)"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "210-214"
+text = "2D TN"
+
+[[blocks]]
+sections = ["method"]
+lines = "69"
+chars = "280-296"
+text = "anisotropic CTMRG"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "69"
+chars = "346-360"
+text = "4 × 4 unit cell"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "71"
+chars = "30-91"
+text = "equivalent model on the dual lattice by placing spins on bonds"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "74"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0002-06.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "77"
+chars = "1-99"
+text = "with the local constraint cos(σ(i,xˆ) + σ(i,yˆ) + σ(i+ˆx,yˆ) + σ(i+ˆy,xˆ)) = 1 at each site-index i"
+
+[[blocks]]
+sections = ["problem"]
+lines = "77"
+chars = "106-165"
+text = "bond variables σb take values that are even multiples of π/q"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "244-316"
+text = "allowing efficient contraction via the original isotropic CTMRG algorithm"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "77"
+chars = "327-355"
+text = "using a single-site unit cell"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "50-72"
+text = "phase diagram for q = 6"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "119-147"
+text = "results for q = 8, 10, and 12"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "79"
+chars = "274-342"
+text = "entanglement entropy (EE) S of the boundary matrixproduct state (MPS)"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "356-383"
+text = "computed via isotropic CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "413-427"
+text = "MPS bond dimen-"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "81"
+chars = "1-13"
+text = "sion χ = 128."
+
+[[blocks]]
+sections = ["truth"]
+lines = "83"
+chars = "1-91"
+text = "For J2/J1 < 1/2, the phase diagram closely mirrors that of the standard q-state clock model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "83"
+chars = "174-300"
+text = "for J2/J1 > 1/2, the diagram becomes significantly richer, exhibiting five distinct phases and various transitions between them"
+
+[[blocks]]
+sections = ["truth"]
+lines = "83"
+chars = "684-742"
+text = "resulting in a stripe-ordered phase with 2q-fold degeneracy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "83"
+chars = "769-794"
+text = "Z[+] q[AFM][⊕] Z2 NM phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "40-65"
+text = "an emergent U (1) symmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "258-287"
+text = "yielding a critical QLRO state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "385-419"
+text = "resulting in the QLRO ⊕ Z2 NM phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "85"
+chars = "496-529"
+text = "a narrow, non-critical Z2 NM phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "102-168"
+text = "another non-critical phase with 2q-fold degeneracy and stripe order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "360-402"
+text = "taking values that are odd multiples of π/q"
+
+[[blocks]]
+sections = ["truth"]
+lines = "87"
+chars = "574-615"
+text = "Z[−] q[AFM][⊕][Z][2][NM][[][83][]][phase.]"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "89"
+chars = "38-108"
+text = "computing the staggered magnetization on one of the √2 × √2 sublattices"
+
+[[blocks]]
+sections = ["method"]
+lines = "89"
+chars = "119-130"
+text = "CMC snapshot"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "92"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0002-14.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "95"
+chars = "1-142"
+text = "where ix(y) runs over the rotated sublattice and L is the linear size of the system. Figure 1(c) shows histograms of the effective clock angle"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "191-193"
+text = "CMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "95"
+chars = "303-346"
+text = "[the][angles][cluster][around][2][kπ/q][for]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "95"
+chars = "389-426"
+text = "[phase,][they][center][at] (2k + 1)π/q"
+
+[[blocks]]
+sections = ["method"]
+lines = "95"
+chars = "572-590"
+text = "single CMC snapshot"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "100"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "104"
+chars = "865-867"
+text = "MPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "104"
+chars = "2018-2022"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "104"
+chars = "2120-2122"
+text = "CMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "104"
+chars = "2363-2365"
+text = "CMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "104"
+chars = "2604-2608"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "104"
+chars = "2883-2885"
+text = "CMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "1-61"
+text = "two prominent peaks separated by π reflect standard AFM order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "149-196"
+text = "Within each pair the peaks are separated by 2π/q"
+
+[[blocks]]
+sections = ["truth"]
+lines = "107"
+chars = "203-265"
+text = "the pairs themselves are spaced by π relative to their midpoint"
+
+[[blocks]]
+sections = ["problem", "method", "method_params", "truth"]
+lines = "109"
+chars = "174-312"
+text = "First, we compute the EE for both the original and dual systems using anisotropic CTMRG with 4 × 4 and 2 × 2 unit cells, respectively [84]."
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "109"
+chars = "468-576"
+text = "Zq symmetry-breaking is detected via the non-zero Zq order parameter ⟨e[iθ] ⟩ at a representative CTMRG site."
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "109"
+chars = "578-641"
+text = "The Z2 NM order is identified using the nematic order parameter:"
+
+[[blocks]]
+sections = ["truth"]
+lines = "109"
+chars = "801-861"
+text = "This quantity approaches κ ∼±1 deep within the nematic phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "113"
+text = "|**Phases**<br>Zq **symm.**<br>**is critical**<br>Z2 **symm.**<br>?<br>**(spatial)**<br>Z+<br>q FM<br>Broken<br>No<br>Unbroken<br>QLRO<br>–<br>Yes<br>Unbroken<br>Z+<br>q AFM ⊕Z2 NM<br>Broken<br>No<br>Broken<br>QLRO ⊕Z2 NM<br>–<br>Yes<br>Broken<br>Z2 NM<br>–<br>No<br>Broken<br>Z−<br>q AFM ⊕Z2 NM<br>Broken (!)<br>No<br>Broken<br>PM<br>Unbroken<br>No<br>Unbroken<br>~~ae~~|**Phases**<br>Zq **symm.**<br>**is critical**<br>Z2 **symm.**<br>?<br>**(spatial)**<br>Z+<br>q FM<br>Broken<br>No<br>Unbroken<br>QLRO<br>–<br>Yes<br>Unbroken<br>Z+<br>q AFM ⊕Z2 NM<br>Broken<br>No<br>Broken<br>QLRO ⊕Z2 NM<br>–<br>Yes<br>Broken<br>Z2 NM<br>–<br>No<br>Broken<br>Z−<br>q AFM ⊕Z2 NM<br>Broken (!)<br>No<br>Broken<br>PM<br>Unbroken<br>No<br>Unbroken<br>~~ae~~||"
+
+[[blocks]]
+sections = ["truth"]
+lines = "115-116"
+text = "|TABLE I. **Phases of the system.** Summary of all phases<br>and their corresponding symmetry attributes. The exclama-<br>tion mark for the Z−<br>q<br>AFM ⊕Z2 NM highlights that the<br>effective Zq spins are emergent.<br>The critical nature of the<br>respective QLRO phases, is confirmed by critical EE scal-|||\n|ing [85–87], see [70].|||"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "120"
+chars = "21-90"
+text = "The transitions involving both the critical phases are of the BKT type"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "125"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "129"
+chars = "1-114"
+text = "1<br>K Disordered<br>1/2<br>Critical<br>8/q [2]<br>SSB [−] SSB [+]<br>2/q [2] ⟨ϑ⟩ = (2k + 1)π/q ⟨ϑ⟩ = 2kπ/q<br>0 γ"
+
+[[blocks]]
+sections = ["anchors", "truth", "method"]
+lines = "132"
+chars = "1-421"
+text = "exp �1/ ~~�~~ |T − TBKT|�, with TBKT being the transition temperature. We confirm this by fitting the χ-dependent correlation length (see Fig. 2(a)), computed directly from the fixed-point MPS tensors [70]. In contrast, the Z2 NM ↔ PM transition belongs to the Ising universality class, with ξ scaling as ξ ∼|T − TIsing|[−][ν] with the universal exponent ν being 1 and TIsing being the transition temperature (Fig. 2(a))."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "134"
+chars = "1-56"
+text = "FIG. 3. **Phase diagram of the effective field theory.**"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "137"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "141"
+chars = "940-957"
+text = "MPS bond dimension"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "144"
+chars = "1-48"
+text = "FIG. 2. **Characterizing critical transitions.**"
+
+[[blocks]]
+sections = ["method"]
+lines = "144"
+chars = "98-100"
+text = "MPS"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "144"
+chars = "102-115"
+text = "bond dimension"
+
+[[blocks]]
+sections = ["method"]
+lines = "144"
+chars = "611-615"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "144"
+chars = "701-714"
+text = "bond dimension"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "149"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0004-07.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "152"
+chars = "325-404"
+text = "Remarkably, we also uncover a line of Landau-incompatible continuous transitions"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "154"
+chars = "530-619"
+text = "For q > 4, a critical phase is obtained for 2 ≤ K ≤ q[2] /8 where no operator is relevant."
+
+[[blocks]]
+sections = ["method_params"]
+lines = "156"
+chars = "52-80"
+text = "bonddimension-dependent peaks"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "156"
+chars = "340-364"
+text = "different bond dimensions"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "156"
+chars = "376-570"
+text = "The resulting scaling (Fig. 2(c)) indicates that the criticality is governed by a CFT with c = 1. Moreover, as shown in Fig. 1(g), the system at this transition exhibits an emergent O(2) symmetry"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "169"
+chars = "1-131"
+text = "TABLE II. Correspondence between phases of the effective field theory and those of the microscopic model in various limiting cases."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "171"
+chars = "169-277"
+text = "For J2/J1 < 1/2, we can interpret the field ϑ to be a coarse-grained version of the microscopic q-fold rotors"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "173"
+chars = "252-530"
+text = "The former generates the exotic Z[−] q[AFM][order][with][seemingly][prohibited][expec-] tation values. Unlike the usual case where an irrelevant operator yields emergent symmetry [1], here the discrete Z[−] q[degrees][of][freedom][emerge][because][cos(][qϑ][)][becomes] relevant."
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "175"
+chars = "302-440"
+text = "these two phases are Landau-incompatible and a direct continuous transition is the classical equivalent of ‘deconfined quantum criticality’"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "233-309"
+text = "both Z2 NM order and QLRO vanish together with increasing T once J2/J1 ≳ 0.65"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "181"
+chars = "140-242"
+text = "corner transfer matrix renormalization group techniques supplanted by classical Monte-Carlo simulations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "181"
+chars = "268-315"
+text = "existence of a discretely ordered emergent phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "181"
+chars = "446-510"
+text = "traditional phase transitions such as Ising, BKT, and first-order"
+
+[[blocks]]
+sections = ["software"]
+lines = "183"
+chars = "1566-1644"
+text = "The CTMRG calculations have been performed using ITensors.jl library [99, 100]."
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "47-74"
+text = "Monte Carlo study of duality"
+
+[[blocks]]
+sections = ["method"]
+lines = "299"
+chars = "30-54"
+text = "Tensor network simulation"
+
+[[blocks]]
+sections = ["method"]
+lines = "323"
+chars = "32-51"
+text = "Monte Carlo analysis"
+
+[[blocks]]
+sections = ["method"]
+lines = "325"
+chars = "104-128"
+text = "tensor network approaches"
+
+[[blocks]]
+sections = ["method"]
+lines = "329"
+chars = "43-61"
+text = "Monte Carlo Methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "331"
+chars = "11-20"
+text = "Metropolis"
+
+[[blocks]]
+sections = ["method"]
+lines = "335"
+chars = "36-86"
+text = "Corner Transfer Matrix Renormalization Group Method"
+
+[[blocks]]
+sections = ["method"]
+lines = "337"
+chars = "36-67"
+text = "Corner Transfer Matrix Algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "341"
+chars = "93-163"
+text = "Faster methods for contracting infinite two-dimensional tensor networks"
+
+[[blocks]]
+sections = ["method"]
+lines = "343"
+chars = "33-69"
+text = "Tensor Renormalization Group Approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "347"
+chars = "43-91"
+text = "Tensorentanglement renormalization group approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "349"
+chars = "33-62"
+text = "Tensor Network Renormalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "351"
+chars = "91-117"
+text = "Tensor Network Contractions"
+
+[[blocks]]
+sections = ["method"]
+lines = "353"
+chars = "46-79"
+text = "Developments in the Tensor Network"
+
+[[blocks]]
+sections = ["method"]
+lines = "355"
+chars = "18-66"
+text = "Density Matrix and Tensor Network Renormalization"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "363"
+chars = "62-77"
+text = "unit cell choice"
+
+[[blocks]]
+sections = ["software"]
+lines = "393"
+chars = "60-83"
+text = "ITensor Software Library"
+
+[[blocks]]
+sections = ["method", "software"]
+lines = "393"
+chars = "89-115"
+text = "Tensor Network Calculations"
+
+[[blocks]]
+sections = ["software"]
+lines = "395"
+chars = "57-88"
+text = "Codebase release 0.3 for ITensor"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "191-203"
+text = "phase diagram"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "403"
+chars = "1-449"
+text = "To confirm this generality, we present numerical results for q = 8, 10, and 12. In Fig. 4(a), we show the schematic phase diagram for the system with q = 8. This diagram is constructed based on the pattern of EE, as shown in Fig. 4(b), obtained using isotropic CTMRG for the dual system (2). The phase diagram closely resembles the q = 6 one, with all phases listed in Tab. I observed for q = 8. However, the phase featuring emergent Z[−] 8[-spins,]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "405"
+chars = "1-84"
+text = "i.e., the Z[−] 8[AFM][⊕][Z][2][NM][phase,][diminishes][in][size][as] q is increased."
+
+[[blocks]]
+sections = ["method"]
+lines = "407"
+chars = "72-152"
+text = "compute the staggered magnetization m˜ (Eq. (3)) within a single √2×√2 sublattice"
+
+[[blocks]]
+sections = ["method"]
+lines = "407"
+chars = "260-281"
+text = "multiple CMC snapshots"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "357-419"
+text = "these angles take values corresponding to even multiples of π/8"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "497-547"
+text = "the angles are centered around odd multiples of π/8"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "409"
+chars = "1-162"
+text = "Similar to the q = 6 case, this emergence can be understood by examining the distribution of local clock angles on a √2 × √2 sublattice from a single CMC snapshot"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "414"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "418"
+chars = "1-15"
+text = "10..0080 (a) PM"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "421"
+chars = "1-48"
+text = "FIG. 4. **Phases of the system for** q > 6 **.**"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "421"
+chars = "257-337"
+text = "obtained from isotropic CTMRG for the dual system with MPS bond dimension χ = 128"
+
+[[blocks]]
+sections = ["method"]
+lines = "421"
+chars = "395-410"
+text = "computed via CMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "421"
+chars = "627-629"
+text = "CMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "421"
+chars = "779-781"
+text = "CMC"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "421"
+chars = "1204-1284"
+text = "obtained from isotropic CTMRG for the dual system with MPS bond dimension χ = 128"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "424"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0009-03.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "428"
+chars = "1-214"
+text = "States 0,3 States 1,4 States 2,5<br>64<br>T/J1 = 0.14 T/J1 = 0.17<br>48<br>32<br>16<br>1<br>64<br>T/J1 = 0.23 T/J1 = 0.30<br>48<br>32<br>16<br>1<br>1 16 32 48 64 1 16 32 48 64<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "431"
+chars = "1-64"
+text = "FIG. 5. **Real-space snapshots of clock states for** q = 6 **.**"
+
+[[blocks]]
+sections = ["truth"]
+lines = "433"
+chars = "237-284"
+text = "Within each pair, the peaks are separated by π/4"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "435"
+chars = "163-237"
+text = "Fig. 4(e) shows real-space snapshots of the clock states in the four phases"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "438"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0009-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "251-325"
+text = "These real-space snapshots clearly reveal the emergence of the new Zq order"
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "529-671"
+text = "In the long-wavelength limit this structure corresponds to effective half-integer clock states, with spin orientations at odd multiples of π/q."
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "443"
+chars = "1-142"
+text = "Our field-theoretical framework predicts that the phase with emergent Z[−] q[degrees][of][freedom][should][persist][for] all finite even q > 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "447"
+chars = "68-132"
+text = "the domain of the emergent phase indeed shrinks with increasing q"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "450"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0010-02.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "454"
+chars = "1-133"
+text = "1<br>cos( =| [q] 2 [ϑ] [)]<br>0 xXx XT | sin( =| [q] 2 [ϑ] [)]<br>x<br>atx<br>a4 x<br>atx<br>T<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "457"
+chars = "1-47"
+text = "FIG. 6. **Charged defects at the domain wall.**"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "461"
+chars = "1-106"
+text = "The continuous transition between the Landauincompatible Z[±] q[AFM][ ⊕][Z][2][NM phases exhibits key fea-"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "463"
+chars = "312-433"
+text = "the two Landau-incompatible ordered phases are characterized by the order parameters cos(qϑ/2) and sin(qϑ/2), respectively"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "465"
+chars = "883-1081"
+text = "Consequently, the continuous transition between the Z[±] q[ordered][phases,][obtained][by] condensing these domain walls, simultaneously destroys the Z[+] q[order][but][produces][the][Z][−] q[order.]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "467"
+chars = "77-149"
+text = "Enhanced symmetries, emergent orders, and Landau-incompatible transitions"
+
+[[blocks]]
+sections = ["method"]
+lines = "479"
+chars = "43-174"
+text = "technical details on the classical Monte Carlo (CMC) simulations and the corner transfer matrix renormalization group (CTMRG) method"
+
+[[blocks]]
+sections = ["method"]
+lines = "479"
+chars = "224-253"
+text = "from CMC and CTMRG simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "481"
+chars = "6-53"
+text = "Deatils on the classical Monte Carlo simulations"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "483"
+chars = "1-49"
+text = "We employ classical Monte Carlo (CMC) simulations"
+
+[[blocks]]
+sections = ["method"]
+lines = "483"
+chars = "250-260"
+text = "CMC updates"
+
+[[blocks]]
+sections = ["method"]
+lines = "483"
+chars = "265-292"
+text = "single-spin Metropolis flips"
+
+[[blocks]]
+sections = ["method"]
+lines = "483"
+chars = "422-424"
+text = "CMC"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "485"
+chars = "14-142"
+text = "5 × 10[5] equilibration steps and 5 × 10[4] measurement steps for CMC, considering over 20 to 80 independent initial realizations"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "485"
+chars = "314-369"
+text = "Temperature is then incrementally increased or decreased"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "487"
+chars = "1-80"
+text = "We primarily compute two types of order parameters to identify phase transitions"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "450-470"
+text = "for each CMC snapshot"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "490"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0011-10.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "493"
+chars = "83-144"
+text = "We then compute the CMC average ⟨m˜ ⟩ over different snapshots"
+
+[[blocks]]
+sections = ["method"]
+lines = "496"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0011-12.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "500"
+chars = "1-332"
+text = "1.0<br>QLRO  ⊕ℤ2 NM<br>0.8<br>0.6<br>0.4 ∑, CMC, L = 64<br>|h ˜mi|, CMC, L = 64<br>0.2 ∑, CTMRG<br>|h ˜mi|, CTMRG<br>0.0<br>1.0<br>cos(q£), CMC, L = 64<br>0.5<br>0.0<br>°0.5<br>°1.0<br>0.14 0.16 0.18 0.20 0.22 0.24 0.26<br>T/J1<br>PM<br>6  AFM   NM<br> NM 6  AFM      NM<br>ℤ+ ℤ2<br>ℤ2⊕ ℤ− ⊕ℤ2<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "503"
+chars = "1-64"
+text = "FIG. 1. **Order parameters for** q = 6 **at** J2/J1 = 0.52 **.**"
+
+[[blocks]]
+sections = ["method"]
+lines = "503"
+chars = "290-321"
+text = "computed using anisotropic CTMRG"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "505"
+chars = "203-320"
+text = "we focus on the phase Θ of the CMC-averaged ⟨m˜ ⟩ and use cos(qΘ) as an order parameter to signal Zq symmetry breaking"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "510"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0012-01.png)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "514"
+chars = "1-31"
+text = "1.4<br>1.3<br>1.2<br>1.1<br>1.0"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "517"
+chars = "1-46"
+text = "FIG. 2. **The extent of the** Z2 **NM phase.**"
+
+[[blocks]]
+sections = ["method"]
+lines = "517"
+chars = "343-366"
+text = "anisotropic CTMRG method"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "517"
+chars = "412-439"
+text = "MPS bond dimension of χ = 96"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "520"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0012-03.png)"
+
+[[blocks]]
+sections = ["method", "method_params", "truth"]
+lines = "524"
+chars = "1-341"
+text = "1.0<br>0.8<br>0.6<br>0.4<br>QLRO<br>∑, CMC, L = 64 ⊕<br>0.2 ∑, CMC, L = 128 ℤ2 NM<br>∑, CTMRG<br>0.0<br>1.0<br>cos(q£), CMC, L = 64<br>cos(q£), CMC, L = 128<br>0.5<br>0.0<br>°0.5<br>°1.0<br>0.20 0.25 0.30 0.35 0.40 0.45<br>T/J1<br>ℤ2<br>ℤ+<br>⊕<br>ℤ2 ℤ− ⊕ℤ2<br> NM PM<br>6  AFM<br> NM<br>6  AFM      NM<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "530"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0012-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "533"
+chars = "38-50"
+text = "CMC snapshots"
+
+[[blocks]]
+sections = ["truth"]
+lines = "533"
+chars = "199-244"
+text = "cos(qΘ) is expected to take values close to +1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "533"
+chars = "371-399"
+text = "cos(qΘ) should be close to −1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "533"
+chars = "476-505"
+text = "cos(qΘ) should average to zero"
+
+[[blocks]]
+sections = ["method", "truth", "method_params"]
+lines = "535"
+chars = "1-195"
+text = "In Fig. 1, by fixing q = 6, we present the order parameters κ (top panel), cos(qΘ) (bottom panel), and the absolute value | ⟨m˜ ⟩| (top panel), computed via CMC for a linear system size of L = 64"
+
+[[blocks]]
+sections = ["method"]
+lines = "535"
+chars = "343-406"
+text = "anisotropic corner transfer matrix renormalization group (CTMRG)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "535"
+chars = "421-429"
+text = "unit cell"
+
+[[blocks]]
+sections = ["method"]
+lines = "535"
+chars = "497-499"
+text = "CMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "535"
+chars = "564-568"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "535"
+chars = "688-690"
+text = "CMC"
+
+[[blocks]]
+sections = ["method"]
+lines = "535"
+chars = "881-885"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "535"
+chars = "1006-1010"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "539"
+chars = "529-632"
+text = "the width of the Z2 NM phase for q = 6 is ∆(T/J1) ≈ 0.0065, while for q = 10 or 12 it is ∆(T/J1) ≈ 0.009"
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "82-101"
+text = "includes CMC results"
+
+[[blocks]]
+sections = ["method"]
+lines = "541"
+chars = "189-191"
+text = "CMC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "541"
+chars = "215-309"
+text = "in the Z[−] q[AFM][⊕][Z][2][NM][phase,][cos(][q][Θ)][increasingly] converges toward expected −1"
+
+[[blocks]]
+sections = ["method"]
+lines = "546"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0013-01.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "550"
+chars = "1-355"
+text = "δ δ δ δ δ Cul A u [1] A u [2] A u [3] A u [4] Cur<br>W W W W A +$040¢ l [1] δ W δ W A r [1]<br>δ δ δ δ δ<br>W W W W A 2000+ l [2] W δ W δ A r [2]<br>δ δ δ δ δ<br>W W W W 7 2eeet A l [3] δ W δ W A r [3]<br>δ δ δ δ δ<br>W W W W A 2606+ l [4] W δ W δ A r [4]<br>δ δ δ δ δ C soboel dl A d [1] A d [2] A d [3] A d [4] Cdr<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["method"]
+lines = "553"
+chars = "1-65"
+text = "FIG. 4. **TN representation of the** J1 **-** J2 **clock model.**"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "553"
+chars = "160-181"
+text = "contraction of a 2D TN"
+
+[[blocks]]
+sections = ["method"]
+lines = "553"
+chars = "251-252"
+text = "TN"
+
+[[blocks]]
+sections = ["method"]
+lines = "553"
+chars = "314-342"
+text = "directional anisotropic CTMRG"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "553"
+chars = "358-370"
+text = "4×4 unit cell"
+
+[[blocks]]
+sections = ["method"]
+lines = "555"
+chars = "6-64"
+text = "Details on the corner transfer matrix renormalization group"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "557"
+chars = "1-58"
+text = "The partition function of the 2D J1-J2 q-state clock model"
+
+[[blocks]]
+sections = ["method"]
+lines = "560"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0013-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "563"
+chars = "19-57"
+text = "can be expressed as a 2D tensor network"
+
+[[blocks]]
+sections = ["method"]
+lines = "563"
+chars = "60-61"
+text = "TN"
+
+[[blocks]]
+sections = ["method"]
+lines = "566"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0013-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "569"
+chars = "52-106"
+text = "the tensor indices for nearest-neighbor (NN) spin pairs"
+
+[[blocks]]
+sections = ["method"]
+lines = "572"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0013-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "575"
+chars = "1-77"
+text = "This 2D TN, after a 45[o] rotation, can be contracted efficiently using CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "575"
+chars = "155-182"
+text = "TN does not have D4 symmetry"
+
+[[blocks]]
+sections = ["method"]
+lines = "575"
+chars = "253-257"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "577"
+chars = "63-127"
+text = "we employ a 4 × 4 unit cell in the anisotropic CTMRG calculations"
+
+[[blocks]]
+sections = ["method"]
+lines = "580"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0013-12.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "584"
+chars = "1-136"
+text = "W ˜ W ˜ W ˜ W ˜ C A C<br>W ˜ W ˜ W ˜ W ˜<br>˜ ˜ ˜ ˜ A W ˜ A<br>W W W W ><br>W ˜ W ˜ W ˜ W ˜ C A C<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["method"]
+lines = "587"
+chars = "1-49"
+text = "FIG. 5. **TN representation of the dual system.**"
+
+[[blocks]]
+sections = ["method"]
+lines = "587"
+chars = "131-152"
+text = "contraction of a 2D TN"
+
+[[blocks]]
+sections = ["method"]
+lines = "587"
+chars = "228-229"
+text = "TN"
+
+[[blocks]]
+sections = ["method"]
+lines = "587"
+chars = "291-305"
+text = "isotropic CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "589"
+chars = "71-125"
+text = "boundary fixed-point matrix-product state (MPS) tensors"
+
+[[blocks]]
+sections = ["method"]
+lines = "589"
+chars = "160-183"
+text = "corner transfer matrices"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "589"
+chars = "193-335"
+text = "The increased unit-cell size makes the anisotropic CTMRG computationally demanding, and we therefore restrict the MPS bond dimension to χ = 128"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "591"
+chars = "16-78"
+text = "we consider the dual system by defining bond degrees of freedom"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "594"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0013-16.png)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "598"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0013-17.png)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "601"
+chars = "13-76"
+text = "The bond variables σb take values that are even multiples of π/q"
+
+[[blocks]]
+sections = ["method"]
+lines = "601"
+chars = "147-200"
+text = "TN representation of the partition function for Eq.(6)"
+
+[[blocks]]
+sections = ["method"]
+lines = "603"
+chars = "92-242"
+text = "this 2D TN, as depicted in the left panel of Fig. 5, exhibits full D4 symmetry, allowing us to employ the fully isotropic original formulation of CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "603"
+chars = "270-293"
+text = "all CTMs and MPS tensors"
+
+[[blocks]]
+sections = ["method"]
+lines = "603"
+chars = "378-380"
+text = "MPS"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "603"
+chars = "382-395"
+text = "bond dimension"
+
+[[blocks]]
+sections = ["method"]
+lines = "608"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0014-01.png)"
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "612"
+chars = "1-179"
+text = "Cul C ur A<br>ρ  = T [ iso] horiz [=]<br>Cdl C dr A<br>Au [1] Au [2] Au [3] Au [4]<br>T [ aniso]<br>horiz [=]<br>Ad [1] Ad [2] Ad [3] Ad [4]<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["method"]
+lines = "615"
+chars = "55-118"
+text = "The reduced density matrix ρ is obtained by contracting all CTMs"
+
+[[blocks]]
+sections = ["method"]
+lines = "615"
+chars = "155-208"
+text = "In the case of isotropic CTMRG, all CTMs are identical"
+
+[[blocks]]
+sections = ["method"]
+lines = "615"
+chars = "321-353"
+text = "using the up and down MPS tensors"
+
+[[blocks]]
+sections = ["method"]
+lines = "615"
+chars = "356-376"
+text = "For anisotropic CTMRG"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "615"
+chars = "397-405"
+text = "unit cell"
+
+[[blocks]]
+sections = ["method"]
+lines = "615"
+chars = "472-474"
+text = "MPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "615"
+chars = "612-614"
+text = "MPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "617"
+chars = "1-140"
+text = "In the CTMRG framework, free energy (per site), observables and correlation functions can be directly computed from the CTMs and MPS tensors"
+
+[[blocks]]
+sections = ["method"]
+lines = "617"
+chars = "235-246"
+text = "boundary MPS"
+
+[[blocks]]
+sections = ["anchors", "method"]
+lines = "620"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0014-04.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "623"
+chars = "36-102"
+text = "To compute the correlation length from the fixed-point boundary MPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "623"
+chars = "206-226"
+text = "using the MPS tensors"
+
+[[blocks]]
+sections = ["anchors", "method"]
+lines = "626"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0014-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "629"
+chars = "1-40"
+text = "where ϵ0 is the dominant eigenvalue of T"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "631"
+chars = "29-174"
+text = "we show the saturation of EE with increasing χ in the Z[−] q[AFM][⊕][Z][2][NM][and] the Z2 NM phases, confirming that these phases are noncritical"
+
+[[blocks]]
+sections = ["anchors", "method"]
+lines = "634"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0014-09.png)"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "637"
+chars = "121-268"
+text = "By fitting this scaling law inside the QLRO ⊕ Z2 NM phase in the bottom panel of Fig. 7, we verify that this phase is described by a CFT with c = 1."
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "640"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0014-11.png)"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "644"
+chars = "1-231"
+text = "2.2<br>2.0<br>1.8<br>S T = 0.224<br>1.6<br>T = 0.242<br>1.4<br>1.2<br>1.0<br>128 256 χ 512 1014<br>2.1<br>2.0 T = 0.232<br>S<br>1.9<br>1.8<br>c = 1.00(4)<br>1.7<br>4.5 5.0 5.5 6.0 6.5<br>log ξ<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "647"
+chars = "1-44"
+text = "FIG. 7. **Scaling of entanglement entropy.**"
+
+[[blocks]]
+sections = ["method"]
+lines = "647"
+chars = "98-148"
+text = "calculated for the dual system with isotropic CTMRG"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "647"
+chars = "167-200"
+text = "saturation of EE with increasing χ"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "156-185"
+text = "analyzed using isotropic CTMRG"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "649"
+chars = "188-279"
+text = "this Z2 breaking results in an additional log 2 contribution to the EE in the nematic phases"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "298-300"
+text = "MPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "326-330"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "487-526"
+text = "anisotropic CTMRG with a 2 × 2 unit cell"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "649"
+chars = "534-550"
+text = "minimal unit cell"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "684-688"
+text = "CTMRG"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "658"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0015-01.png)"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "662"
+chars = "1-238"
+text = "2.0<br>1.5<br>QLRO<br>S ⊕<br>1.0 ℤ2 NM<br>0.5<br>Anisotropic<br>Isotropic<br>0.0<br>0.14 0.16 0.18 0.20 0.22 0.24 0.26<br>T/J1<br>ℤ+ ℤ− ⊕ℤ2<br>⊕<br>ℤ2<br>ℤ2<br>6  AFM  6  AFM      NM PM<br> NM<br> NM<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "665"
+chars = "1-52"
+text = "FIG. 8. **Entanglement entropy in the dual system.**"
+
+[[blocks]]
+sections = ["method"]
+lines = "665"
+chars = "105-155"
+text = "computed using both anisotropic and isotropic CTMRG"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "669"
+chars = "133-225"
+text = "Using a grid spacing of 10[−][6] , we find that the transition for J2/J1 ≳ 0.51 is continuous"
+
+[[blocks]]
+sections = ["method"]
+lines = "669"
+chars = "384-408"
+text = "representative CTMRG site"
+
+[[blocks]]
+sections = ["truth", "method"]
+lines = "672"
+text = "![](.figures/arxiv__2505.05194/2505.05194.pdf-0015-05.png)"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "676"
+chars = "1-704"
+text = "°2 £10 [°][4] ° 1.016<br>(a) °0.35 (d)<br>°3<br>°4 °0.40<br>°5 J2/J1 = 0.503 °0.45 J2/J1 = 0.503<br>0.1472 0.1474 0.1476 0.1478 0.1472 0.1474 0.1476 0.1478<br>T/J1 T/J1<br>£10 [°][5] ° 1.01<br>°60 (b) °0.10 (e)<br>°0.12<br>°61<br>°0.14<br>°62 J2/J1 = 0.505 °0.16 J2/J1 = 0.505<br>0.1136 0.1137 0.1138 0.1136 0.1137 0.1138<br>T/J1 T/J1<br>(c) T/JT/J11 = 0= 0..0306 21 (f)<br>0<br>°1<br>°2<br>0.498 0.500 0.502 0.498 0.500 0.502<br>J2/J1 J2/J1<br>1.0<br>(g)<br>0.5<br>J2/J1 = 0.51<br>0.0<br>J2/J1 = 0.52<br>°0.5 J2/J1 = 0.525<br>°1.0<br>0.0 0.5 1.0 1.5 2.0<br>¢(T/J1) £10 [°][4]<br>°°°°0111998000002004....<br>f<br>df/dx<br>f<br>df/dx<br>f<br>df/dx<br>£)<br>q<br>cos(<br>**----- End of picture text -----**"
+
+[[blocks]]
+sections = ["truth", "method", "method_params"]
+lines = "679"
+chars = "1-36"
+text = "FIG. 9. **First order transitions.**"
+
+[[blocks]]
+sections = ["method"]
+lines = "679"
+chars = "1131-1201"
+text = "calculated using anisotropic CTMRG in the original lattice with χ = 128"
+
+[[blocks]]
+sections = ["method"]
+lines = "683"
+chars = "32-56"
+text = "Tensor network simulation"
+
+[[blocks]]
+sections = ["method"]
+lines = "687"
+chars = "42-60"
+text = "Monte Carlo Methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "689"
+chars = "10-19"
+text = "Metropolis"
+
+[[blocks]]
+sections = ["method"]
+lines = "691"
+chars = "35-85"
+text = "Corner Transfer Matrix Renormalization Group Method"
+
+[[blocks]]
+sections = ["method"]
+lines = "693"
+chars = "35-66"
+text = "Corner Transfer Matrix Algorithm"
+
+[[blocks]]
+sections = ["method"]
+lines = "701"
+chars = "92-162"
+text = "Faster methods for contracting infinite two-dimensional tensor networks"
+
+[[blocks]]
+sections = ["method"]
+lines = "703"
+chars = "109-187"
+text = "Phase Transition of the q-State Clock Model: Duality and Tensor Renormalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "707"
+chars = "46-79"
+text = "Developments in the Tensor Network"
+
+[[blocks]]
+sections = ["method"]
+lines = "709"
+chars = "18-66"
+text = "Density Matrix and Tensor Network Renormalization"

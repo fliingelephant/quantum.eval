@@ -9,9 +9,212 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/fhfy-dh85"
 arxiv_version = "2505.04704v2"
+md_sha256 = "035ec954aba41198e22e83b7a74195c927f07b73bb8aad5a00c75364d2539823"
 
 [candidate_notes]
 model = "(1+1)D SU(2) lattice gauge theory with dynamical matter, PBC; sparse ED in the gauge-invariant qudit basis (ed-lgt), quench evolution"
 headline = "three-regime dynamical phase diagram: ergodic vs fragmented (nonthermal, delocalized) vs disorder-free MBL from quenching superselection-sector superpositions; degenerate PT + superselection fragmentation argument"
 compute = "local dim 13; N=6 (~4.8e6) laptop-comfortable, headline mechanism visible at N<=6-7 (paper's N=8 is near-ceiling)"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "(1+1)D hardcore-gluon SU(2) Yang-Mills lattice gauge theory coupled to flavorless dynamical staggered matter, with the Kogut-Susskind Hamiltonian of Eq. (1)."
+model_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:89"
+convention = "Natural units c = hbar = 1; the Hamiltonian is rescaled to dimensionless mass m and gauge coupling g^2."
+convention_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:89,659"
+instance = "N = 8 dressed sites with periodic boundary conditions; 13-dimensional local dressed-site Hilbert space, six zero-background-charge states and seven finite-background-charge states."
+instance_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:85,613,653"
+gauge_truncation = "Hardcore-gluon and background-charge truncations retain j and j_b in {0, 1/2}; gauge links use the chromoelectric irrep basis."
+gauge_truncation_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:75,101,607"
+sectors = "GI means the zero-background-charge SU(2) gauge-invariant sector; SS is an equal superposition over background-charge superselection sectors with b_n^k in {0, 1/2}."
+sectors_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:82,96,117"
+filling = "Half-filling, selected as the zero-baryon-number-density sector N_b = p_1 + 2 p_2 = 0."
+filling_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:875"
+initial_state = "The SS state is a superposition of all background-charge configurations, each with a two-site charge-density-wave matter pattern (two empty sites alternating with two doubly occupied sites) and gauge irreps j in {0, 1/2}; the GI comparison state has the same matter pattern with no active gauge fields."
+initial_state_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:93,99,103"
+observables = "Matter imbalance I(t), single- and double-occupancy populations p_1(t) and p_2(t), half-chain bipartite von Neumann entropy S(t), eigenstate overlap/fidelity, and DE/ME comparisons."
+observables_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:123,141,151,177"
+
+[[problem.targets]]
+panel = "fig1a"
+quantity = "Dynamical phase map: ergodic, Hilbert-space-fragmented, and disorder-free-localized regimes."
+axes = "m in [0, 10] and g^2 in [0, 10], schematic phase boundaries"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:67,139,171"
+
+[[problem.targets]]
+panel = "fig2a"
+quantity = "Diagonal-ensemble matter imbalance I_DE for the SS initial state."
+axes = "m in [0, 10] and g^2 in [0, 10] grid"
+ensemble = "diagonal ensemble"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:115,135"
+
+[[problem.targets]]
+panel = "fig2b"
+quantity = "Time evolution and time-averaged matter imbalance for GI and SS initial states at three mass-coupling points, with DE reference values."
+axes = "t up to 1000; (m, g^2) = (1, 1), (10, 10), (10, 2); time-average window Delta_t = 300"
+ensemble = "diagonal ensemble comparison"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:115,137,139"
+
+[[problem.targets]]
+panel = "fig3a"
+quantity = "Average deviation Delta_p between DE and ME predictions for single- and double-occupancy quark populations in the GI sector."
+axes = "m in [0, 10] and g^2 in [0, 10] grid"
+ensemble = "diagonal versus microcanonical ensembles"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:163,165,168"
+
+[[problem.targets]]
+panel = "fig3b"
+quantity = "ME and DE average populations p_1 and p_2 for GI and SS states at fixed m = 1 while varying g^2."
+axes = "g^2 in [0, 15], with GI and SS initial states"
+ensemble = "microcanonical and diagonal ensembles"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:163,173,175"
+
+[[problem.targets]]
+panel = "fig4"
+quantity = "Half-chain bipartite entanglement entropy S in the SS sector as a function of time for a range of gauge couplings."
+axes = "m = 1; g^2 in [0, 15]; logarithmic time axis; base-two entropy"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:177,189"
+
+[[problem.targets]]
+panel = "s1"
+quantity = "Imbalance dynamics from the truncated SU(2) model and the strong-coupling effective model."
+axes = "m = 1; g^2 = 1, 10, 20; t in [0, 100]; GI initial state of Eq. (4)"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:757,767"
+
+[[problem.targets]]
+panel = "s2_spectrum"
+quantity = "GI-sector eigenstate overlap O and half-chain eigenstate entanglement entropy S versus energy in the fragmented regime."
+axes = "m = 10, g^2 = 2; initial state of Eq. (4); energy-resolved spectrum"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:811,847"
+
+[[problem.targets]]
+panel = "s2_dynamics"
+quantity = "GI-sector return fidelity and half-chain entanglement entropy versus time in the fragmented regime."
+axes = "m = 10, g^2 = 2; initial state of Eq. (4); t in [0, 500]"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:811,849"
+
+[[problem.targets]]
+panel = "s3"
+quantity = "GI-sector return fidelity and half-chain entanglement entropy versus time, with comparison to scarred dynamics."
+axes = "m = 10, g^2 = 2; initial state of Eq. (4); t in [0, 500]"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:845,849"
+
+[[problem.targets]]
+panel = "s4"
+quantity = "Meson and baryon density populations p_1(t) and p_2(t) compared with ME and DE predictions."
+axes = "m = 10, g^2 = 2; GI initial state; t in [0, 1000]"
+ensemble = "microcanonical and diagonal ensembles"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:861,865"
+
+[[problem.targets]]
+panel = "s5"
+quantity = "Time-averaged half-chain entanglement entropy in GI and SS sectors, including the reported linear and logarithmic fits."
+axes = "m = 1; g^2 in [0, 15]; t in [0, 10]; base-two entropy; averaging window Delta_t = 2.5"
+tier = "light"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:867,869,887"
+
+[method]
+family = "Exact diagonalization"
+algorithm = "Full-spectrum exact diagonalization with symmetry-resolved Hamiltonian blocks and spectral DE/ME postprocessing."
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:873,875"
+valid_alternatives = "Inferred target-compatible routes are full-spectrum ED implementations and, for time-series-only targets at smaller accessible sizes, Krylov/Lanczos or tensor-network time evolution; the paper explicitly discusses MPS, TEBD, and TDVP as alternatives with different size/time limitations."
+valid_alternatives_provenance = "Inferred from the target definitions at 123,151,177 and the alternative-method discussion at 891-893"
+
+[method_params]
+symmetry_resolution = "For the ED block structure, Z2-link symmetries are resolved; momentum is left unresolved; the +1 inversion-parity sector is projected to remove momentum degeneracies. The physical half-filling choice is recorded under problem.filling."
+symmetry_resolution_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:875"
+
+[software]
+name = "ed-lgt"
+description = "Library for Exact Diagonalization of Lattice Gauge Theories; simulation data and code are deposited on Zenodo."
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:203,545,547"
+valid_tools = "Inferred: any full-spectrum ED implementation that supports the dressed-site Hamiltonian and the stated symmetry sectors can produce the targets."
+valid_tools_provenance = "Inferred from the ED route and symmetry requirements at 873-875"
+
+[software_params]
+notes = "No implementation-specific eigensolver tolerances, threading settings, noise tricks, or API toggles are stated."
+provenance = "Inferred from the rendered paper; the only implementation details reported are the method and symmetry choices at 875."
+
+[anchors]
+su2_casimir = "E^2 |j, m_L, m_R> = j(j+1) |j, m_L, m_R>, the exact chromoelectric Casimir relation."
+su2_casimir_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:75,585"
+effective_model = "At strong coupling in the zero-background-charge sector, the two-state effective Hamiltonian is H_eff = 4/(g^2 + m) sum_n sigma_n . sigma_(n+1) + m sum_n (-1)^n sigma_n^z."
+effective_model_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:745,759,762"
+initial_entropy = "The exact SS initial MPS has bond dimension chi = 4, so its initial entropy is log chi."
+initial_entropy_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:189,723"
+max_entropy = "The maximal half-chain entropy is log N_subsys when all allowed subsystem configurations are equally probable."
+max_entropy_provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:887"
+
+[truth]
+notes = "Values in the explicit-fit entries are literal. CSV-backed entries are sparse digitizations of the rendered figure panels; tolerances are intentionally wider than pixel uncertainty and should be human-ratified."
+
+[truth.fig1a]
+value = "Three schematic regions: ergodic at low m and low-to-moderate g^2, HSF at large m and low-to-moderate g^2, and DFL at sufficiently large g^2 outside the HSF region."
+tolerance = "categorical; phase boundaries are schematic rather than numerical"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:67,139,171"
+
+[truth.fig2a]
+value = "See truth_fig2a.csv for representative digitized I_DE samples from the rendered heat map."
+tolerance = 0.04
+provenance = "Inferred from figure digitization of 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:108-115"
+
+[truth.fig2b]
+value = "See truth_fig2b.csv for representative t=0 and long-time digitized imbalance values at the three labeled parameter points."
+tolerance = 0.05
+provenance = "Inferred from figure digitization of 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:108-115"
+
+[truth.fig3a]
+value = "See truth_fig3a.csv for representative digitized Delta_p samples from the rendered heat map."
+tolerance = 0.04
+provenance = "Inferred from figure digitization of 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:156-163"
+
+[truth.fig3b]
+value = "See truth_fig3b.csv for representative digitized GI and SS p_1/p_2 ME and DE values at m=1."
+tolerance = 0.03
+provenance = "Inferred from figure digitization of 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:156-175"
+
+[truth.fig4]
+value = "At m=1 and g^2=15 in the SS sector, S = 2.94(2) log(t) + 1.33(3); sparse curve samples are in truth_fig4.csv."
+tolerance = "fit coefficient uncertainty is literal: slope +/- 0.02 and intercept +/- 0.03; curve samples use +/- 0.15"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:189; Inferred curve samples from the rendered panel at 182-189"
+
+[truth.s1]
+value = "See truth_s1.csv for sparse digitized imbalance samples comparing the truncated SU(2) and effective curves."
+tolerance = 0.08
+provenance = "Inferred from figure digitization of 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:750-757"
+
+[truth.s2_spectrum]
+value = "The GI spectrum forms separated vertical energy bands with approximate separation Delta_E = 8; overlap and eigenstate entropy samples are in truth_s2_spectrum.csv."
+tolerance = "Delta_E +/- 1; digitized plotted values use panel-dependent tolerances recorded in the CSV"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:811,847; Inferred digitization from 804-811"
+
+[truth.s2_dynamics]
+value = "See truth_s2_dynamics.csv for sparse digitized fidelity and entropy samples in the fragmented regime."
+tolerance = 0.12
+provenance = "Inferred from figure digitization of 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:804-811"
+
+[truth.s3]
+value = "See truth_s3.csv for sparse digitized HSF fidelity and entropy samples; the paper reports damped short-time oscillations and longer irregular revivals."
+tolerance = 0.12
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:845,849,863; Inferred digitization from 838-845"
+
+[truth.s4]
+value = "At m=10 and g^2=2, the GI p_1 and p_2 DE traces remain separated from the ME reference values; representative digitized values are in truth_s4.csv."
+tolerance = 0.03
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:861,865; Inferred digitization from 854-861"
+
+[truth.s5]
+value = "At m=1 and g^2=15, S_GI = 0.386(6)t + 0.43(2) and S_SS = 2.94(2) log(t) + 1.33(3); sparse curve samples are in truth_s5.csv."
+tolerance = "literal fit uncertainties: GI slope +/- 0.006, GI intercept +/- 0.02, SS slope +/- 0.02, SS intercept +/- 0.03; curve samples use +/- 0.15"
+provenance = "Literal 2505.04704_disorder-free-localization-and-fragmentation-in-a-non-abelia.md:887; Inferred curve samples from 880-887"

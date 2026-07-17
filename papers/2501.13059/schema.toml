@@ -9,9 +9,287 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevB.111.064404"
 arxiv_version = "2501.13059v1"
+md_sha256 = "b49081130dbbe00f8f1e11d99b9d952857412d772ad64db2d09cac9f3e25ee70"
 
 [candidate_notes]
 model = "spin-1 J1-J2 Heisenberg chain near the first-order transition at J2 ~= 0.76 J1; time-dependent DMRG for S(q,omega)"
 headline = "S(q,omega): spinon confinement into bound states evolving into magnon modes, incommensurate dispersion; single-mode-approximation + confinement picture"
 compute = "spin-1 chain, short-ranged correlations keep chi modest; tDMRG + FT, a few hours on laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "Spin-1 antiferromagnetic J1-J2 chain with H = J1 Σ_i S_i·S_{i+1} + J2 Σ_i S_i·S_{i+2}."
+model_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:47-53"
+convention = "J1 and J2 are the nearest- and next-nearest-neighbour couplings; energies are reported in units of J1, and the main observable is the zero-temperature longitudinal dynamical structure factor Szz(k,ω)."
+convention_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:73-81"
+instance = "Finite one-dimensional spin-1 chain with open boundary conditions; the main DSF campaign uses N = 200 sites and scans J2 from 0 to 1.5 J1, with focused scans around J2/J1 = 0.7–0.8. The gap comparison also uses N = 120 for J2/J1 = 0.3."
+instance_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:83-93,103-113,183-185,217-219"
+
+[[problem.targets]]
+panel = "table1"
+quantity = "DSF spectral gap ΔE and reference first-excited-state gap E1−E0 at selected J2/J1 and finite-chain lengths"
+ensemble = "zero-temperature longitudinal DSF; finite open chains"
+axes = "J2/J1, ΔE/J1, E1−E0/J1, chain length"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:103-110"
+
+[[problem.targets]]
+panel = "fig1b"
+quantity = "Location of the minimum in the N = 200 DSF spectral-gap curve"
+ensemble = "zero-temperature longitudinal DSF; N = 200"
+axes = "J2/J1 → gap/J1"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:99-113"
+
+[[problem.targets]]
+panel = "fig2"
+quantity = "Equal-time longitudinal structure factor Szz(k) obtained by integrating the DSF"
+ensemble = "zero-temperature ground state; J2/J1 = 0.3, 0.5, 0.7, 1.5"
+axes = "k, Szz(k)"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:101-135"
+
+[[problem.targets]]
+panel = "fig4"
+quantity = "Longitudinal DSF Szz(k,ω) overview and lowest bright spectral branch"
+ensemble = "zero-temperature N = 200 chain; J2/J1 = 0, 0.35, 0.5, 0.75, 1.5"
+axes = "k, ω/J1, spectral weight"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:181-209"
+
+[[problem.targets]]
+panel = "fig5"
+quantity = "Single-magnon, two-magnon, and three-magnon continua overlaid on the DSF"
+ensemble = "zero-temperature N = 200 chain; J2/J1 = 0, 0.2, 0.35, 0.43, 0.5, 0.6"
+axes = "k, ω/J1, continuum boundaries"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:187-225; figure digitized from bundled source PDF p. 7 because the rendered Markdown has no Fig. 5 image link"
+
+[[problem.targets]]
+panel = "fig6"
+quantity = "DSF section-cut peak and continuum threshold for the two-magnon bound state"
+ensemble = "zero-temperature longitudinal DSF; (J2/J1,k) = (0.35,0.16π), (0.35,π), (0.43,π), (0.5,π)"
+axes = "ω/J1, Szz(k,ω)"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:193-197,242-249"
+
+[[problem.targets]]
+panel = "fig7a"
+quantity = "First-order transition location from the NN-correlation drop and NNN-correlation jump"
+ensemble = "zero-temperature ground state; J2 scan"
+axes = "J2/J1, NN and NNN correlations"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:217-219,290-297"
+
+[[problem.targets]]
+panel = "fig7c"
+quantity = "Domain-wall SMA spinon-dispersion minimum and its comparison with the DSF minimum"
+ensemble = "transition-point spinon calculation at J2/J1 = 0.76"
+axes = "k/π, ω/J1"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:235-263,265-275,297"
+
+[[problem.targets]]
+panel = "fig7f"
+quantity = "Fitted two-spinon continuum coverage of the transition-point DSF"
+ensemble = "transition-point DSF at J2/J1 = 0.76"
+axes = "k/π, ω/J1, spectral-weight coverage"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:267-275,297"
+
+[[problem.targets]]
+panel = "table3"
+quantity = "Effective tight-binding hopping coefficients generated by the domain-wall and fitted spinon dispersions"
+ensemble = "transition-point domain-wall/spinon calculation"
+axes = "δ, γδ, fitted γ̃δ"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:333-349"
+
+[[problem.targets]]
+panel = "fig9"
+quantity = "Visible two-spinon-continuum minimum momentum used for the transition-region section cuts"
+ensemble = "zero-temperature N = 200 chain; J2/J1 = 0.707, 0.7355, 0.76, 0.77, 0.78 and grouped cuts on either side"
+axes = "k_min/π"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:337-381"
+
+[[problem.targets]]
+panel = "fig10"
+quantity = "Reduced Brillouin-zone periodicity of the large-J2 magnon branch"
+ensemble = "zero-temperature N = 200 chain; J2/J1 = 0.8, 1.0, 1.5"
+axes = "period/π"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:385-391; figure digitized from bundled source PDF p. 12 because the rendered Markdown has no Fig. 10 image link"
+
+[[problem.targets]]
+panel = "fig11"
+quantity = "AKLT/NNN-AKLT variational-energy crossing and slopes"
+ensemble = "VBS-state energy comparison across J2/J1"
+axes = "J2/J1, ground-state energy"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:497-511"
+
+[[problem.targets]]
+panel = "fig12"
+quantity = "Velocity of the spin-spin-correlation wavefront versus J2/J1"
+ensemble = "early-time correlation propagation; first 20–40 time steps"
+axes = "J2/J1, v"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:579-597"
+
+[[problem.targets]]
+panel = "fig13"
+quantity = "Lower and upper two-spinon-continuum boundaries at k = π and fitted dispersion amplitude"
+ensemble = "transition-point DSF at J2/J1 = 0.76"
+axes = "ω/J1, Szz(k=π,ω), continuum bounds"
+tier = "light"
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:599-617"
+
+[method]
+family = "mps"
+algorithm = "Ground-state one-site DMRG followed by time-dependent DMRG (tDMRG) real-time evolution; single-mode approximation (SMA) on MPS states for magnon and domain-wall/spinon dispersions."
+algorithm_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:61-67,69-93,137-179,235-237"
+valid_families = ["mps"]
+valid_families_provenance = "Inferred from the N = 200 finite-chain spectral targets: an MPS family route is required at the reported sizes."
+valid_algorithms = ["tDMRG/DMRG", "MPS real-time evolution via TEBD or TDVP", "MPS correction-vector or continued-fraction spectral-function methods"]
+valid_algorithms_provenance = "Inferred from the finite one-dimensional DSF target and the paper's stated DMRG route."
+
+[method_params]
+ground_state_bond_dimension = 250
+ground_state_bond_dimension_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:83"
+ground_state_variance_j2_below_06 = 1e-8
+ground_state_variance_j2_below_06_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:83"
+ground_state_variance_j2_at_or_above_06 = 1e-5
+ground_state_variance_j2_at_or_above_06_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:83"
+trotter_order = 1
+trotter_order_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:85"
+time_step_j2_below_08_over_j1 = 0.02
+time_step_j2_below_08_over_j1_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:85"
+time_step_j2_at_or_above_08_over_j1 = 0.01
+time_step_j2_at_or_above_08_over_j1_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:85"
+time_evolution_bond_dimension = 250
+time_evolution_bond_dimension_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:85"
+gaussian_filter_sigma_over_tf = 0.276
+gaussian_filter_sigma_over_tf_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:93"
+final_time_rule = "t_f ~ N/(2v), with v determined from correlation spreading"
+final_time_rule_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:91,595-597"
+velocity_fit_window = "first 20–40 time steps"
+velocity_fit_window_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:595"
+spinon_fit_cosine_terms = 4
+spinon_fit_cosine_terms_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:265-275"
+spinon_fit_amplitude_over_j1 = 2.48
+spinon_fit_amplitude_over_j1_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:601-617"
+
+[software]
+reported = "No package or code name is stated; the paper identifies DMRG/tDMRG methods and reports simulations on the Jed cluster."
+reported_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:83-93,437"
+valid_tools = ["generic DMRG/tDMRG implementation", "generic MPS tensor-network library"]
+valid_tools_provenance = "Inferred from the numerical targets and the absence of a named implementation."
+
+[software_params]
+reported = "No implementation-specific solver tolerances, API toggles, threading settings, or noise schedules are stated."
+reported_provenance = "Inferred from the complete rendered paper; the numerical knobs that are stated are method-level DMRG/tDMRG or SMA parameters."
+
+[anchors]
+classical_incommensurate_threshold_j2_over_j1 = 0.25
+classical_incommensurate_threshold_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:53"
+aklt_energy_slope = 0.4444444444
+aklt_energy_slope_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:509"
+nnn_aklt_energy_slope = -1.3333333333
+nnn_aklt_energy_slope_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:509"
+vbs_energy_crossing_j2_over_j1 = 0.75
+vbs_energy_crossing_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:499-511"
+large_j2_brilouin_zone_period = "π"
+large_j2_brilouin_zone_period_provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:391"
+
+[truth]
+
+[truth.table1]
+value = [
+  { j2_over_j1 = 0.0, reference_gap_over_j1 = 0.4123, dsf_gap_over_j1 = 0.4154, length = 200 },
+  { j2_over_j1 = 0.3, reference_gap_over_j1 = 0.7132, dsf_gap_over_j1 = 0.7132, length = 120 },
+  { j2_over_j1 = 0.5, reference_gap_over_j1 = 0.7176, dsf_gap_over_j1 = 0.7007, length = 200 },
+  { j2_over_j1 = 0.8, reference_gap_over_j1 = 0.2212, dsf_gap_over_j1 = 0.2147, length = 200 },
+]
+tolerance = 0.001
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:103-110"
+
+[truth.fig1b]
+value = 0.76
+units = "J2/J1"
+tolerance = 0.01
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:113"
+
+[truth.fig2]
+csv = "truth_fig2.csv"
+tolerance = 0.5
+provenance = "Inferred sparse digitization of the supplied Fig. 2 raster; tolerance covers plot-pixel and curve-overlap uncertainty."
+
+[truth.fig4]
+csv = "truth_fig4.csv"
+tolerance = 0.12
+provenance = "Inferred sparse digitization of the supplied Fig. 4 raster for the lowest bright branch; tolerance covers raster resolution and branch broadening."
+
+[truth.fig5]
+csv = "truth_fig5.csv"
+tolerance = 0.15
+provenance = "Inferred sparse digitization of Fig. 5 from the bundled source PDF page 7; the rendered Markdown omits the Fig. 5 image link."
+
+[truth.fig6]
+csv = "truth_fig6.csv"
+tolerance = 0.12
+provenance = "Inferred sparse digitization of the supplied Fig. 6 section-cut raster; tolerance covers line-width and axis-reading uncertainty."
+
+[truth.fig7a]
+value = 0.76
+units = "J2/J1"
+tolerance = 0.01
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:219,297"
+
+[truth.fig7c]
+value = { domain_wall_minimum_k_over_pi = 0.6580, dsf_minimum_k_over_pi = 0.6129 }
+tolerance = 0.01
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:237"
+
+[truth.fig7f]
+value = { continuum_upper_bound_over_j1 = 5.0, dsf_spectral_weight_covered = 0.995 }
+tolerance = { continuum_upper_bound_over_j1 = 0.15, dsf_spectral_weight_covered = 0.005 }
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:275"
+
+[truth.table3]
+value = [
+  { delta = 0, gamma = 1.333, fitted_gamma = 1.716 },
+  { delta = 1, gamma = -0.222, fitted_gamma = -0.293 },
+  { delta = 2, gamma = 0.306, fitted_gamma = 0.273 },
+  { delta = 3, gamma = 0.259, fitted_gamma = 0.32 },
+  { delta = 4, gamma = 0.099, fitted_gamma = 0.16 },
+]
+tolerance = 0.002
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:341-349"
+
+[truth.fig9]
+value = 0.6129
+units = "k_min/π"
+tolerance = 0.01
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:363-381"
+
+[truth.fig10]
+value = 1.0
+units = "period/π"
+tolerance = 0.02
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:385-391; source-PDF Fig. 10 p. 12"
+
+[truth.fig11]
+value = { aklt_slope = 0.4444444444, nnn_aklt_slope = -1.3333333333, crossing_j2_over_j1 = 0.75 }
+tolerance = 0.01
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:499-511"
+
+[truth.fig12]
+csv = "truth_fig12.csv"
+tolerance = 0.15
+provenance = "Inferred sparse digitization of the supplied Fig. 12 raster; tolerance covers point-marker and axis-reading uncertainty."
+
+[truth.fig13]
+value = { fitted_amplitude_over_j1 = 2.48, continuum_upper_bound_over_j1 = 5.0, spectral_weight_covered = 0.995 }
+tolerance = { fitted_amplitude_over_j1 = 0.08, continuum_upper_bound_over_j1 = 0.15, spectral_weight_covered = 0.005 }
+provenance = "Literal papers/2501.13059/2501.13059_bound-states-and-deconfined-spinons-in-the-dynamical-structu.md:601-617"

@@ -9,9 +9,419 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/7j6x-74f1"
 arxiv_version = "2503.09452v2"
+md_sha256 = "b48e3d8af054c967075f40a167232f46fd4be0ab9734260e3e1f1980701df3fd"
 
 [candidate_notes]
 model = "1D spinless-fermion chains with East-constrained (facilitated) hopping of range q; symmetry-resolved sparse ED in the fragmented space + transfer-matrix enumeration"
 headline = "freezing (strong->weak fragmentation) transition at critical filling n_c = 1/(q+1); anomalous transport subdiffusive->superdiffusive; generalized-Catalan / transfer-matrix analytic backbone"
 compute = "constrained space << 2^L: L~24-30 (dims 1e5-1e6), sparse ED minutes-to-hours on laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "One-dimensional spinless-fermion quantum East models with particle-number-conserving facilitated hoppings of range q; the range-q Hamiltonian and kinetic projectors are given in Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:67-87."
+convention = "Fermion occupation n_j is the binary basis convention; the model conserves total particle number, breaks inversion symmetry, has a sublattice symmetry sending H to -H, and uses t_l = 1 unless explicitly varied; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:81-87."
+instance = "The numerics use particle-number sectors N_f on chains of length L, with OBC for fragmentation, ground-state, and autocorrelator studies and PBC for transport; q = 1, 2, 3 are treated numerically and q is treated analytically; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:177-181 and 535-557."
+sizes = "Reported sizes include ED/enumeration data through L = 24 or 26 for longer-range models, transfer-matrix sequences through L = 15, static spectra at L = 18 or 24, and QDT transport through L = 28; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:287-327, 485-491, 549-579, 803-865."
+boundary_conditions = ["OBC: Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:81-87", "PBC: Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:535-557"]
+sectors = "Filling sectors N_f, with n_f = N_f/L where plotted; ranges q = 1, 2, 3 and selected q = 7, 14, 20 analytical checks; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:271-287, 331-385."
+observables = ["fragment dimensions D_frag and D_sum", "number of fragments N_frag and frozen states N_froz", "ground-state energy, density profile, entanglement entropy, gap, and dispersion", "bulk/boundary autocorrelation C_j(t) and Mazur lower bound C_j^M", "infinite-temperature transport correlator C̃(r,t) and its decay/spreading"]
+
+[[problem.targets]]
+panel = "table_I"
+quantity = "D_frag sequence for the simple range-2 FS fragment"
+ensemble = "OBC root state with ψ_L = 0, ψ_M = 100 repeated, ψ_R = 1"
+axes = "number of 100 blocks in ψ_M versus D_frag"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:229-263"
+
+[[problem.targets]]
+panel = "table_II"
+quantity = "largest-fragment root states and dimensions in range 2"
+ensemble = "OBC, even/odd L listed in the table"
+axes = "L versus root state and D_frag"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:297-327"
+
+[[problem.targets]]
+panel = "table_III"
+quantity = "largest-fragment dimensions in range 3"
+ensemble = "OBC, L = 6 through 20"
+axes = "L versus root state and D_frag"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:331-357"
+
+[[problem.targets]]
+panel = "table_IV"
+quantity = "number of fragments N_frag in range 2"
+ensemble = "OBC transfer-matrix count"
+axes = "L versus N_frag"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:707-723"
+
+[[problem.targets]]
+panel = "table_V"
+quantity = "number of fragments N_frag in range 3"
+ensemble = "OBC transfer-matrix count"
+axes = "L versus N_frag"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:725-737"
+
+[[problem.targets]]
+panel = "table_VI"
+quantity = "number of frozen states N_froz in range 2"
+ensemble = "OBC transfer-matrix count"
+axes = "L versus N_froz"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:747-765"
+
+[[problem.targets]]
+panel = "table_VII"
+quantity = "periodic-boundary frozen-state count N_froz in range 2"
+ensemble = "PBC transfer-matrix count"
+axes = "L versus N_froz^PBC"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:767-793"
+
+[[problem.targets]]
+panel = "table_VIII"
+quantity = "number of frozen states N_froz in range 3"
+ensemble = "OBC transfer-matrix count"
+axes = "L versus N_froz"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:797-801"
+
+[[problem.targets]]
+panel = "fig2_q2"
+quantity = "location of the largest D_frag in range 2"
+ensemble = "OBC, L = 150, Frey-Sellers evaluation"
+axes = "D_frag versus N_f"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:297-327 and 369-369"
+
+[[problem.targets]]
+panel = "fig2_q3"
+quantity = "location of the largest D_frag in range 3"
+ensemble = "OBC, L = 150, Frey-Sellers evaluation"
+axes = "D_frag versus N_f"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:361-371"
+
+[[problem.targets]]
+panel = "fig3_q7_q14_q20"
+quantity = "minimum filling of the largest fragment for q = 7, 14, 20"
+ensemble = "OBC, L = 80 and 150, root identification followed by Frey-Sellers evaluation"
+axes = "D_frag versus N_f"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:375-385"
+
+[[problem.targets]]
+panel = "fig4_q1_q2_q3"
+quantity = "OBC freezing transition from D_max/D_sum"
+ensemble = "OBC, q = 1, 2, 3 and several filling fractions"
+axes = "D_max/D_sum versus L"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:424-435"
+
+[[problem.targets]]
+panel = "fig5_q1_q2_q3"
+quantity = "PBC freezing transition from D_max/D_sum"
+ensemble = "PBC, q = 1, 2, 3, L = 12, 14, 16, 18"
+axes = "1 - D_max/D_sum versus n_f"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:437-449"
+
+[[problem.targets]]
+panel = "fig6_q1_q2_q3"
+quantity = "ground-state energy versus filling"
+ensemble = "OBC, q = 1, 2, 3, L = 14 through 24"
+axes = "E_GS versus N_f"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:441-471"
+
+[[problem.targets]]
+panel = "fig7_density_entropy"
+quantity = "ground-state density profile and central-cut entanglement entropy"
+ensemble = "OBC, q = 1, 2, 3, several L"
+axes = "〈n_j〉 versus j/L; S_{L/2} versus L"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:457-481"
+
+[[problem.targets]]
+panel = "fig8_gap_cft_dispersion"
+quantity = "range-2 low-energy gap, entanglement scaling, and dispersion"
+ensemble = "PBC, q = 2, N_f = L/2 + 1, L = 14 through 24"
+axes = "Δ versus L; S_l versus ln g(l); E(k) versus k"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:485-521"
+
+[[problem.targets]]
+panel = "fig9_q2_autocorrelation"
+quantity = "bulk and boundary unequal-time autocorrelators"
+ensemble = "OBC, q = 2, L = 18, N_f = L/3, L/2, L/3 - 2"
+axes = "C_j(t) versus t at j = 3, L/2 + 1, L"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:493-575"
+
+[[problem.targets]]
+panel = "fig10_mazur_bound"
+quantity = "Mazur-bound saturation profile and size dependence"
+ensemble = "OBC, q = 2, critical, strongly fragmented, and weakly fragmented fillings"
+axes = "C_j^M versus j/L and L"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:505-527 and 598-613"
+
+[[problem.targets]]
+panel = "fig11_q1_transport"
+quantity = "infinite-temperature transport decay for range 1"
+ensemble = "PBC QDT, q = 1, critical and weakly fragmented fillings"
+axes = "C̃_{L/2}(t) versus t"
+tier = "medium"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:535-559 and 625-627"
+
+[[problem.targets]]
+panel = "fig12_q2_transport"
+quantity = "infinite-temperature transport decay for range 2"
+ensemble = "PBC QDT, q = 2, critical, largest-fragment, and weakly fragmented fillings"
+axes = "C̃_{L/2}(t) versus t; robustness versus t_2/t_1"
+tier = "medium"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:561-577 and 657-677"
+
+[[problem.targets]]
+panel = "fig13_q3_transport"
+quantity = "infinite-temperature transport decay for range 3"
+ensemble = "PBC QDT, q = 3, critical and weakly fragmented fillings"
+axes = "C̃_{L/2}(t) versus t"
+tier = "medium"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:579-589 and 673-677"
+
+[[problem.targets]]
+panel = "fig14_fragment_distribution"
+quantity = "fragment-size distribution N_frag versus D_frag"
+ensemble = "OBC range-2, strong, critical, and weak fragmentation"
+axes = "N_frag versus D_frag"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:867-900"
+
+[[problem.targets]]
+panel = "fig15_low_energy"
+quantity = "low-energy spectrum across filling sectors"
+ensemble = "q = 1, 2, 3; OBC and PBC; L = 18"
+axes = "E versus N_f"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:950-968"
+
+[[problem.targets]]
+panel = "fig16_dispersion_entropy"
+quantity = "low-energy dispersion and bipartite entanglement profile"
+ensemble = "PBC q = 1 and q = 3 at their ground-state fillings"
+axes = "E(k) versus k; S_l versus l/L"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:948-984"
+
+[[problem.targets]]
+panel = "fig17_krylov_goe"
+quantity = "entanglement spectrum and level-spacing statistics within largest fragments"
+ensemble = "OBC, q = 2 and q = 3, L = 18"
+axes = "S_{L/2} versus E; P(s) versus s"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:954-994"
+
+[[problem.targets]]
+panel = "fig18_q1_autocorrelation"
+quantity = "range-1 bulk and boundary autocorrelators"
+ensemble = "OBC q = 1, L = 18, critical/below/above-critical fillings"
+axes = "C_j(t) versus t"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:998-1066"
+
+[[problem.targets]]
+panel = "fig19_q1_q3_mazur"
+quantity = "range-1 and range-3 Mazur-bound profiles"
+ensemble = "OBC q = 1 and q = 3 at critical, strongly fragmented, and weakly fragmented fillings"
+axes = "C_j^M versus j/L"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:1000-1028 and 1069-1076"
+
+[[problem.targets]]
+panel = "fig20_spatial_transport"
+quantity = "spatial spreading of the infinite-temperature correlator"
+ensemble = "PBC q = 1, 2, 3 at critical fillings and t = 10, 50, 100, 200"
+axes = "C̃(r,t) versus r"
+tier = "medium"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:1030-1114"
+
+[[problem.targets]]
+panel = "table_IX_X_XI_XII"
+quantity = "non-FS fragment dimensions and k_t-Dyck mappings"
+ensemble = "OBC range-2 and range-3 root-state families"
+axes = "number of repeated 100 or 1000 blocks versus D_root/D_frag"
+tier = "light"
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:873-944"
+
+[method]
+paper_route = "The numerical route is sparse exact diagonalization within particle-number sectors, numerical basis enumeration/root identification for fragment connectivity, transfer-matrix enumeration for fragment and frozen-state counts, and dynamical quantum typicality for PBC infinite-temperature transport; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:89-91, 121-157, 177-199, 535-557."
+algorithm = "Root representatives are found by successive local substitutions to the most dilute binary string; ED then resolves spectra and time dynamics, while QDT replaces a trace by evolution of a random typical state; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:95-103, 121-147, 549-555."
+valid_alternatives = "Valid alternatives are any exact-diagonalization implementation for static sectors and OBC dynamics, any transfer-matrix implementation for the combinatorial counts, and any random-state typicality implementation for the PBC transport correlator; Inferred from the route descriptions at Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:177-199 and 549-555."
+
+[method_params]
+reported = "No convergence cutoff, Krylov dimension, time-step, or number of random typical states is reported. The method-specific transfer matrices are 8 × 8 for q = 2 and 16 × 16 for q = 3; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:177-181 and 707-731."
+transfer_matrix_sizes = "q = 2: 8 × 8; q = 3: 16 × 16; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:179-181 and 745-799."
+
+[software]
+named = "No software package, programming language, or code repository is named in the paper; the valid tool set is therefore implementation-agnostic ED, transfer-matrix, and QDT software. Inferred from the absence of a named package in the rendered paper and the explicit method descriptions at Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:177-199 and 535-557."
+
+[software_params]
+reported = "No solver tolerance, threading setting, API toggle, or named software parameter is reported. The only implementation-level perturbation is a small diagonal disorder w = 0.01 used in the level-spacing plots to remove accidental degeneracies while preserving fragmentation; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:970-994."
+diagonal_disorder = "w = 0.01 for the level-spacing analysis; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:994-994."
+
+[anchors]
+hamiltonian = "The displayed range-q Hamiltonian and kinetic-projector construction are the model definition/cross-check; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:69-87."
+tight_binding_dispersion = "For the simple integrable fragments, E_p = -2 cos(πp/(N_A+2)); Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:207-223."
+catalan_triangle = "The Catalan-triangle count C_1(n,k) and its recursion/formula are given in Appendix D; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:803-821."
+frey_sellers = "The Frey-Sellers recurrence and closed form are the analytic counting cross-check for the FS root class; Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:823-865."
+transport_definitions = "The definitions of C̃(r,t), its scaling form, and the QDT estimator are displayed in Eqs. (21)-(23); Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:537-555."
+
+[truth.table_I]
+value = [1, 3, 12, 55, 273, 1428, 7752, 43263]
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:229-263"
+
+[truth.table_II]
+value = [6, 10, 19, 34, 65, 120, 228, 431, 822, 1575, 3006, 5820, 11139, 21717, 41643]
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:305-325"
+
+[truth.table_III]
+value = [3, 6, 10, 20, 35, 69, 125, 246, 455, 896, 1680, 3308, 6626, 12343, 23559]
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:331-357"
+
+[truth.table_IV]
+value = [13, 20, 31, 47, 70, 104, 154, 227, 334, 491, 721, 1058]
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:707-723"
+
+[truth.table_V]
+value = [25, 36, 51, 74, 106, 149, 207, 288, 401, 557, 771]
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:725-737"
+
+[truth.table_VI]
+value = [10, 13, 19, 28, 39, 53, 73, 102, 142, 196, 270]
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:747-765"
+
+[truth.table_VII]
+value = [6, 7, 8, 9, 14, 20, 27, 35, 48, 67, 93]
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:767-793"
+
+[truth.table_VIII]
+value = [18, 21, 27, 39, 56, 75, 97, 125, 165, 222, 298]
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:773-785"
+
+[truth.fig2_q2]
+value = "N_f = L/2 + 1 for the largest fragment at L = 150; D_frag at L/2 is nearly comparable"
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:327-327 and 369-369"
+
+[truth.fig2_q3]
+value = "N_f = L/2 for the largest fragment at L = 150"
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:361-371"
+
+[truth.fig3_q7_q14_q20]
+value = "For q = 7, 14, 20 the reported minimum fillings are N_f = L/2 - 2, L/2 - 6, and L/2 - 9, respectively"
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:381-385"
+
+[truth.fig4_q1_q2_q3]
+value = [0.5, 0.3333333333, 0.25]
+tolerance = 0.001
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:431-435"
+
+[truth.fig5_q1_q2_q3]
+value = [0.5, 0.3333333333, 0.25]
+tolerance = 0.01
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:437-449"
+
+[truth.fig6_q1_q2_q3]
+value = "q = 1: N_f = L/2 + 2, +3, +4 as L grows; q = 2: N_f = L/2 + 1 and +2; q = 3: N_f = L/2, +1 (two states), and +2"
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:443-471"
+
+[truth.fig7_density_entropy]
+value = "Ground-state density ranges are (0.5,0.8), (0.5,0.65), and (0.5,0.6) for q = 1,2,3; the leftmost frozen-site counts are 1,3,4"
+tolerance = 0.01
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:457-481"
+
+[truth.fig8_gap_cft_dispersion]
+value = { z = 1.044, central_charge = 1.46, central_charge_uncertainty = 0.015, low_energy_mode = "linear near k = π" }
+tolerance = 0.015
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:485-521"
+
+[truth.fig9_q2_autocorrelation]
+value = "At N_f = L/3 all three sites have finite long-time saturation ordered left boundary > right boundary > bulk; at N_f = L/2 only the left boundary remains finite; at N_f = L/3 - 2 all three remain finite"
+tolerance = 0.02
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:503-575"
+
+[truth.fig10_mazur_bound]
+value = "The lower bound is non-uniform near the left edge; critical bulk/right-edge decay is approximately 1/sqrt(L), strongly fragmented decay is slower, and weakly fragmented bulk/right-edge decay is approximately 1/L"
+tolerance = 0.05
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:523-527 and 613-613"
+
+[truth.fig11_q1_transport]
+value = { critical_beta_tau = [[0.65,174.0],[0.64,242.0],[0.56,286.0],[0.58,397.0]], weak_z = [3.57,3.45,3.23] }
+tolerance = 0.05
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:557-559 and 625-627"
+
+[truth.fig12_q2_transport]
+value = { critical_beta_tau = [[0.29,625.0],[0.33,1247.0],[0.31,1984.0]], largest_z = [0.93,0.92,0.96,1.02], weak_beta = [0.55,0.48,0.45], robustness = { t2_over_t1_0_1 = [0.65,23.69], t2_over_t1_0_5_z = 1.08 } }
+tolerance = 0.05
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:561-577 and 657-657"
+
+[truth.fig13_q3_transport]
+value = { critical_beta_tau = [[0.19,3843.0],[0.29,13643.0]], weak_z = [1.39,1.30,1.32] }
+tolerance = 0.05
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:579-579 and 673-677"
+
+[truth.fig14_fragment_distribution]
+value = { largest_fragment_counts = { critical = 2, strongly_fragmented = 8, weakly_fragmented = 1 } }
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:867-900"
+
+[truth.fig15_low_energy]
+value = "OBC: q=1 ground state at L/2+3; q=2 at L/2+1 and L/2+2; q=3 four states at L/2, L/2+1 (two), and L/2+2. PBC: q=2 and q=3 become non-degenerate with subsequent excitations in other sectors"
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:952-968"
+
+[truth.fig16_dispersion_entropy]
+value = "q = 1 and q = 3 have linear low-energy dispersion near k = π and semicircular S_l profiles consistent with logarithmic entanglement scaling"
+tolerance = 0.05
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:948-984"
+
+[truth.fig17_krylov_goe]
+value = "GOE level-spacing statistics rather than Poisson; rainbow-like entanglement spectra in the largest fragments"
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:970-994"
+
+[truth.fig18_q1_autocorrelation]
+value = "The range-1 critical/below/above-critical profiles reproduce the range-2 qualitative behavior: left boundary non-thermal in all cases, bulk/right boundary thermal only above critical filling"
+tolerance = 0.02
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:998-1000 and 1066-1066"
+
+[truth.fig19_q1_q3_mazur]
+value = "Range-1 and range-3 Mazur profiles are qualitatively identical to range 2 across critical, strongly fragmented, and weakly fragmented fillings"
+tolerance = 0.02
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:1000-1028 and 1069-1076"
+
+[truth.fig20_spatial_transport]
+value = "At critical fillings and intermediate times, C̃(r,t) is non-Gaussian with slow spatial spreading; q=1 spreads fastest and q=3 slowest"
+tolerance = 0.02
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:1030-1114"
+
+[truth.table_IX_X_XI_XII]
+value = { range2_root1 = [1,2,7,30,143,728,3876], range2_root2 = [1,3,12,55,273,1428,7752], range2_kt_dyck = [2,7], range3_root1 = [1,2,9,52,340,2394], range3_root2 = [1,3,15,91,612,4389], range3_root3 = [1,4,22,140,969,7084], range3_kt_dyck = [2,9] }
+tolerance = 0
+source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:879-944"

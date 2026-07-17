@@ -1,0 +1,5740 @@
+# Partition layer for papers/2503.09452 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "53-88"
+text = "freezing transition, and its effects"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "47-82"
+text = "freezing transition, and its effects"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "35-101"
+text = "strong-to-weak fragmentation transition, namely freezing transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "27"
+chars = "423-475"
+text = "enumerative combinatorics and transfer matrix methods"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "525-543"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "27"
+chars = "591-654"
+text = "generalization of Catalan numbers introduced by Frey and Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "764-776"
+text = "lower filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "792-804"
+text = "n_c = 1/(q+1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "862-908"
+text = "emergence of ground states at multiple fillings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "924-935"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "960-970"
+text = "criticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "977-1019"
+text = "logarithmic scaling of entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1119-1132"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1155-1169"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1232-1279"
+text = "inhomogeneous long-time autocorrelation profiles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1500-1518"
+text = "anomalous transport"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1548-1633"
+text = "size-stretched exponential relaxation through superdiffusive to subdiffusive behaviors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "1893-1911"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "49-84"
+text = "freezing transition, and its effects"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "39-109"
+text = "strong-to-weak fragmentation transition, namely the freezing transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "39"
+chars = "437-489"
+text = "enumerative combinatorics and transfer matrix methods"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "539-557"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "39"
+chars = "605-668"
+text = "generalization of Catalan numbers introduced by Frey and Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "780-792"
+text = "lower filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "807-829"
+text = "_nc_ = 1 _/_ ( _q_ + 1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "886-932"
+text = "emergence of ground states at multiple fillings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "989-1004"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1050-1061"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1086-1096"
+text = "criticality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1103-1145"
+text = "logarithmic scaling of entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1245-1258"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1281-1295"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1355-1402"
+text = "inhomogeneous long-time autocorrelation profiles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1493-1531"
+text = "strong-to-weak fragmentation transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1716-1734"
+text = "anomalous transport"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "1764-1849"
+text = "size-stretched exponential relaxation through superdiffusive to subdiffusive behaviors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "2099-2117"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "295-308"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "190-203"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "304-317"
+text = "thermalization"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "45"
+chars = "899-904"
+text = "Krylov"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "917-930"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "108-123"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "458-476"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "790-806"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "831-849"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "1022-1040"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "1192-1210"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "39-133"
+text = "one-dimensional facilitated particle-number-conserving quantum East models of spinless fermions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "273-291"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method", "anchors", "truth"]
+lines = "55"
+chars = "353-370"
+text = "Dyck combinatorics"
+
+[[blocks]]
+sections = ["method"]
+lines = "55"
+chars = "532-556"
+text = "enumerative combinatorics"
+
+[[blocks]]
+sections = ["method"]
+lines = "55"
+chars = "567-589"
+text = "transfer matrix methods"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "682-720"
+text = "strong-to-weak fragmentation transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "735-750"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "753-775"
+text = "_nc_ = 1 _/_ ( _q_ + 1)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "55"
+chars = "827-894"
+text = "generalization of the Catalan numbers introduced by Frey and Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "1016-1028"
+text = "lower filling"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "55"
+chars = "1660-1666"
+text = "Catalan"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "71-82"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "117-132"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "159-170"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "240-292"
+text = "filling fraction for ground state in the range-1 case"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "57"
+chars = "386-389"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "57"
+chars = "422-428"
+text = "Catalan"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "550-593"
+text = "multiple ground states at different fillings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "640-660"
+text = "total degeneracy of 2"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "57"
+chars = "899-905"
+text = "Catalan"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "936-948"
+text = "ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "1005-1054"
+text = "entanglement entropy following logarithmic scaling"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "57"
+chars = "1097-1108"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "1147-1161"
+text = "minimum filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "1171-1186"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "1196-1207"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "1337-1348"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "57"
+chars = "1364-1376"
+text = "lower filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "26-44"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "59"
+chars = "77-86"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "216-230"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "326-339"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "443-461"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "558-611"
+text = "non-thermal active boundaries and bulk autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "620-638"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "659-669"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "63"
+chars = "203-230"
+text = "dynamical quantum typicality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "264-282"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "455-473"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "518-554"
+text = "size-stretched exponential relaxation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "557-560"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "586-607"
+text = "transient subdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "636-659"
+text = "transient superdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "679-697"
+text = "transient ballistic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "737-753"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "883-901"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "196-206"
+text = "root states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "426-441"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "65"
+chars = "451-503"
+text = "enumerative combinatorics and transfer matrix methods"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "578-596"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "723-734"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "799-817"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "826-839"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "862-876"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["problem"]
+lines = "69"
+chars = "78-135"
+text = "facilitated quantum East model with range- _q_ constraints"
+
+[[blocks]]
+sections = ["problem"]
+lines = "78"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0003-03.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "28-59"
+text = "kinetic constraint of range- _q_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "84"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0003-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "36-69"
+text = "conserve the total particle number"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "159-191"
+text = "inversion symmetry transformation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "87"
+chars = "420-452"
+text = "_tl_ = 1 for most of the analysis"
+
+[[blocks]]
+sections = ["method"]
+lines = "89"
+chars = "11-36"
+text = "ROOT IDENTIFICATION METHOD"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "201-235"
+text = "numerical evidence of fragmentation"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "291-326"
+text = "complete analytical characterization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "91"
+chars = "601-619"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "91"
+chars = "625-636"
+text = "ground state"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "491-523"
+text = "finding canonical representations"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "542-551"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "97"
+chars = "1220-1241"
+text = "Dyck words/ Dyck paths"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "97"
+chars = "1249-1252"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "1633-1642"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "1698-1737"
+text = "successively substituting 110’s by 101’s"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "2015-2024"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "2074-2108"
+text = "construction of the transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "97"
+chars = "2268-2277"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "99"
+chars = "14-50"
+text = "remove _ψL_ from the counting problem"
+
+[[blocks]]
+sections = ["truth"]
+lines = "101"
+chars = "166-203"
+text = "stays frozen under dynamical evolution"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "103"
+chars = "217-232"
+text = "Catalan triangle"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "103"
+chars = "315-318"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "103"
+chars = "326-329"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "106"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0004-06.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "110"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0004-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "113"
+chars = "162-210"
+text = "uniquely labeled by similar representative states"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "115"
+chars = "248-261"
+text = "Catalan number"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "117"
+chars = "292-322"
+text = "element of the Catalan triangle"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "117"
+chars = "421-427"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method"]
+lines = "119"
+chars = "9-21"
+text = "range-2 model"
+
+[[blocks]]
+sections = ["method"]
+lines = "121"
+chars = "94-133"
+text = "canonical representation for root states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "121"
+chars = "380-418"
+text = "strong-to-weak fragmentation transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "125"
+chars = "51-134"
+text = "validation of our analytical results with numerics is limited to range-3 constraints"
+
+[[blocks]]
+sections = ["truth"]
+lines = "125"
+chars = "265-283"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "127"
+chars = "539-542"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "127"
+chars = "762-771"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "127"
+chars = "986-1039"
+text = "successively substitute all 1110’s, 1010’s, and 0110’s"
+
+[[blocks]]
+sections = ["method"]
+lines = "127"
+chars = "1286-1295"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "127"
+chars = "1354-1375"
+text = "transfer matrix method"
+
+[[blocks]]
+sections = ["method"]
+lines = "127"
+chars = "1394-1427"
+text = "numerical basis enumeration method"
+
+[[blocks]]
+sections = ["method"]
+lines = "127"
+chars = "1486-1495"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "129"
+chars = "137-172"
+text = "subtracted from the counting problem"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "9-30"
+text = "_ψM_ is units of 100’s"
+
+[[blocks]]
+sections = ["method"]
+lines = "133"
+chars = "189-231"
+text = "removed from the dimension counting problem"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "135"
+chars = "200-206"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "135"
+chars = "231-246"
+text = "Frey and Sellers"
+
+[[blocks]]
+sections = ["method"]
+lines = "135"
+chars = "347-356"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "138"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "144"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0005-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "147"
+chars = "168-177"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "147"
+chars = "284-295"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["method"]
+lines = "147"
+chars = "362-371"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "147"
+chars = "509-525"
+text = "2 _t_ -Dyck paths"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "147"
+chars = "892-898"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method"]
+lines = "151"
+chars = "64-88"
+text = "canonical representations"
+
+[[blocks]]
+sections = ["method"]
+lines = "154"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0005-13.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "41-72"
+text = "most dilute string configuration"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "319-352"
+text = "numerical basis enumeration method"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "369-390"
+text = "transfer matrix method"
+
+[[blocks]]
+sections = ["method"]
+lines = "157"
+chars = "435-495"
+text = "representative states again can be recast in a separable form"
+
+[[blocks]]
+sections = ["method"]
+lines = "163"
+chars = "9-37"
+text = "_ψM_ is a substring of 1000’s"
+
+[[blocks]]
+sections = ["method"]
+lines = "165"
+chars = "282-326"
+text = "must be deducted while counting the dimension"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "121-130"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "167"
+chars = "242-265"
+text = "FS sequence with _m_ = 4"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "405-414"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "752-761"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "167"
+chars = "838-848"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method"]
+lines = "167"
+chars = "946-955"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "167"
+chars = "1071-1086"
+text = "3 _t_ Dyck paths"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "510-519"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "586-595"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "171"
+chars = "716-754"
+text = "the FS sequence [46] with _m_ = _q_ + 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "779-788"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "171"
+chars = "903-913"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "922-931"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "1039-1067"
+text = "dominant class of root states"
+
+[[blocks]]
+sections = ["method"]
+lines = "171"
+chars = "1101-1121"
+text = "analytical treatments"
+
+[[blocks]]
+sections = ["method"]
+lines = "177"
+chars = "47-82"
+text = "implement the transfer matrix method"
+
+[[blocks]]
+sections = ["method"]
+lines = "177"
+chars = "412-426"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "548-609"
+text = "number of fragments in the model with range-1 constraint grows"
+
+[[blocks]]
+sections = ["method"]
+lines = "177"
+chars = "673-687"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "743-747"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "145-167"
+text = "8 _×_ 8 transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "179"
+chars = "181-185"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "251-260"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "424-438"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "502-516"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "179"
+chars = "609-647"
+text = "Nfrag_ in this model grows as 1 _._ 466"
+
+[[blocks]]
+sections = ["method"]
+lines = "179"
+chars = "700-727"
+text = "numerically obtained results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "179"
+chars = "764-780"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["truth"]
+lines = "181"
+chars = "56-60"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "184-208"
+text = "16 _×_ 16 transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "181"
+chars = "231-235"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "278-296"
+text = "root identification"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "419-433"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "181"
+chars = "516-520"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "544-558"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "181"
+chars = "625-642"
+text = "growth of 1 _._ 38"
+
+[[blocks]]
+sections = ["method"]
+lines = "181"
+chars = "710-736"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["truth"]
+lines = "183"
+chars = "27-78"
+text = "growth of _Nfrag_ decreases with an increasing range"
+
+[[blocks]]
+sections = ["truth"]
+lines = "187"
+chars = "114-148"
+text = "fragments comprising a single state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "120-124"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "139-174"
+text = "grows exponentially with system size"
+
+[[blocks]]
+sections = ["method"]
+lines = "191"
+chars = "250-272"
+text = "transfer matrix methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "193"
+chars = "87-101"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "183-228"
+text = "Nfroz_ in the range-1 model grows as 1 _._ 466"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "143-165"
+text = "8 _×_ 8 transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "181-185"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "360-374"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "195"
+chars = "409-423"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "509-563"
+text = "Nfroz_ in this model grows with system size as 1 _._ 38"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "127-131"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "197"
+chars = "161-185"
+text = "16 _×_ 16 transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "197"
+chars = "296-310"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "553-592"
+text = "Nfroz_ asymptotically grows as 1 _._ 325"
+
+[[blocks]]
+sections = ["method"]
+lines = "197"
+chars = "639-665"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["truth"]
+lines = "199"
+chars = "61-65"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "199"
+chars = "144-148"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "203"
+chars = "114-148"
+text = "noninteracting tight-binding models"
+
+[[blocks]]
+sections = ["method"]
+lines = "207"
+chars = "82-91"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "207"
+chars = "341-419"
+text = "effective Hamiltonian with the fragment reduces to a simple tight-binding model"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "209"
+chars = "135-177"
+text = "dispersion of such an effective Hamiltonian"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "213"
+chars = "133-195"
+text = "integrable fragment is represented by the following root states"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "215"
+chars = "57-108"
+text = "nearest-neighbor non-interacting tight-binding model"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "215"
+chars = "458-470"
+text = "tight-binding"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "215"
+chars = "723-751"
+text = "dispersion can be computed as"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "219"
+chars = "24-98"
+text = "similar integrable fragment can be represented by the following root states"
+
+[[blocks]]
+sections = ["method"]
+lines = "221"
+chars = "79-88"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "221"
+chars = "411-503"
+text = "effective Hamiltonians for all such fragments reduce to a nearest-neighbor tightbinding model"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "14-36"
+text = "root state construction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "237"
+chars = "60-98"
+text = "strong-to-weak fragmentation transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "237"
+chars = "155-173"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "237"
+chars = "468-477"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "237"
+chars = "496-511"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "237"
+chars = "828-840"
+text = "Dyck sequence"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "237"
+chars = "893-899"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "240"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0008-05.png)"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "244"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0008-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "247"
+chars = "30-46"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "250"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0008-08.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "253"
+chars = "6-22"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["truth"]
+lines = "253"
+chars = "81-129"
+text = "weakly fragmented Hilbert space above halffilling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "255"
+chars = "41-105"
+text = "filling at which this model manifests the largest fragment shifts"
+
+[[blocks]]
+sections = ["truth"]
+lines = "255"
+chars = "247-262"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "255"
+chars = "305-314"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "255"
+chars = "428-434"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "258"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0008-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "261"
+chars = "31-47"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["truth"]
+lines = "261"
+chars = "103-111"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "261"
+chars = "206-230"
+text = "critical filling fraction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "261"
+chars = "240-278"
+text = "strong-to-weak fragmentation transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "261"
+chars = "287-295"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "261"
+chars = "391-406"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "261"
+chars = "470-479"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "56-65"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "263"
+chars = "130-139"
+text = "FreySeller"
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "191-217"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "265"
+chars = "99-105"
+text = "Catalan"
+
+[[blocks]]
+sections = ["truth"]
+lines = "265"
+chars = "209-225"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["truth"]
+lines = "265"
+chars = "303-341"
+text = "strong fragmentation below half-filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "70-88"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "269"
+chars = "95-122"
+text = "analytically and numerically"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "215-230"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "269"
+chars = "270-281"
+text = "ground state"
+
+[[blocks]]
+sections = ["method"]
+lines = "271"
+chars = "73-82"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "271"
+chars = "138-158"
+text = "Frey-Sellers sequence"
+
+[[blocks]]
+sections = ["truth"]
+lines = "271"
+chars = "340-355"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "271"
+chars = "400-409"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "274"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0008-18.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "277"
+chars = "39-48"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "159-186"
+text = "_Dfrag_ ( _L_ ) _≃_ 1 _._ 89"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "280"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0008-20.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "283"
+chars = "21-37"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["truth"]
+lines = "283"
+chars = "103-111"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "283"
+chars = "259-305"
+text = "_nc_ = 1 _/_ 3 is the critical filling fraction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "283"
+chars = "315-333"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "283"
+chars = "476-488"
+text = "lower filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "287"
+chars = "126-191"
+text = "FS formula and are in perfect agreement with the numerical results"
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "29-44"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "56-71"
+text = "critical filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "289"
+chars = "145-154"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "289"
+chars = "404-415"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "292"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0009-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "295"
+chars = "294-313"
+text = "strong fragmentation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "295"
+chars = "322-331"
+text = "Dfrag/Dsum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "76-91"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "297"
+chars = "98-127"
+text = "numerical examination suggests"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "138-153"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "297"
+chars = "375-384"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "297"
+chars = "603-619"
+text = "basis enumeration"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "297"
+chars = "724-734"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "300"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0009-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "303"
+chars = "95-172"
+text = "range-2 constraint displaying two fillings for embodying the largest fragments"
+
+[[blocks]]
+sections = ["truth"]
+lines = "325"
+chars = "53-68"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "325"
+chars = "145-171"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "170-185"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "434-480"
+text = "no significant shift in the thermodynamic limit"
+
+[[blocks]]
+sections = ["method"]
+lines = "327"
+chars = "610-619"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "636-650"
+text = "minimum filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "327"
+chars = "698-707"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "327"
+chars = "762-773"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "880-894"
+text = "minimum filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "331"
+chars = "75-99"
+text = "critical filling fraction"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "331"
+chars = "195-206"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["method"]
+lines = "331"
+chars = "256-265"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "331"
+chars = "282-297"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "335"
+chars = "8-28"
+text = "Frey-Sellers sequence"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "338"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0010-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "341"
+chars = "48-57"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "341"
+chars = "140-149"
+text = "Dfrag/Dsum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "341"
+chars = "215-250"
+text = "critical filling in the range-3 case"
+
+[[blocks]]
+sections = ["truth"]
+lines = "341"
+chars = "292-307"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "343"
+chars = "41-56"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "343"
+chars = "118-127"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "346"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0010-05.png)"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "350"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0010-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "357"
+chars = "63-78"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "359"
+chars = "93-104"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "359"
+chars = "350-359"
+text = "Dfrag/Dsum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "359"
+chars = "411-441"
+text = "strong HSF below _nc_ = 1 _/_ 4"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "45-60"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "361"
+chars = "288-321"
+text = "numerical basis enumeration method"
+
+[[blocks]]
+sections = ["method"]
+lines = "361"
+chars = "328-337"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "361"
+chars = "549-558"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "361"
+chars = "603-613"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "641-656"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "364"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0010-10.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "367"
+chars = "39-48"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "367"
+chars = "128-166"
+text = "largest fragment lies at three fillings"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "369"
+chars = "105-116"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "369"
+chars = "148-163"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "371"
+chars = "45-60"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "371"
+chars = "70-84"
+text = "minimum filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "371"
+chars = "87-96"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "371"
+chars = "167-189"
+text = "does not show any shift"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "371"
+chars = "282-293"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["method"]
+lines = "375"
+chars = "67-76"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "375"
+chars = "168-203"
+text = "utilize Eq. D5 with _m_ = ( _q_ + 1)"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "378"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0011-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "385"
+chars = "153-171"
+text = "root identification"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "385"
+chars = "209-220"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "269-283"
+text = "minimum filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "385"
+chars = "294-309"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "389"
+chars = "162-203"
+text = "Frey-Sellers sequence with _m_ = ( _q_ +1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "389"
+chars = "262-277"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "389"
+chars = "316-325"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "392"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0011-06.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "395"
+chars = "106-117"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "395"
+chars = "226-242"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "398"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0011-08.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "14-66"
+text = "critical filling fraction for the freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "96-105"
+text = "Dfrag/Dsum"
+
+[[blocks]]
+sections = ["method"]
+lines = "403"
+chars = "5-23"
+text = "root identification"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "151-166"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "403"
+chars = "421-430"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "433-461"
+text = "lead to _q_ in total fillings"
+
+[[blocks]]
+sections = ["truth"]
+lines = "403"
+chars = "510-524"
+text = "minimum filling"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "406"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0011-11.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "409"
+chars = "245-271"
+text = "examine the minimum filling"
+
+[[blocks]]
+sections = ["method"]
+lines = "409"
+chars = "380-389"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "409"
+chars = "586-650"
+text = "minimum values of _Nf_ for the occurrence of the largest fragment"
+
+[[blocks]]
+sections = ["method", "truth", "anchors"]
+lines = "412"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0011-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "415"
+chars = "326-344"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "415"
+chars = "382-439"
+text = "pushes the critical filling fraction towards a lower value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "415"
+chars = "571-586"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "415"
+chars = "619-671"
+text = "minimum value of _Nf_ for the manifestation of _Dmax_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "45-63"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "424"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0012-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "34-42"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["method"]
+lines = "431"
+chars = "210-219"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "431"
+chars = "236-261"
+text = "using the Catalan triangle"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "431"
+chars = "278-296"
+text = "FreySeller sequence"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "408-480"
+text = "behavior of _Dmax/Dsum_ switches from the exponential decay to a constant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "211-219"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "435"
+chars = "330-336"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "435"
+chars = "342-353"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "404-412"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "415-482"
+text = "radically switches its behavior from exponential decay to a constant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "617-632"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "435"
+chars = "642-660"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "188-196"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["method"]
+lines = "437"
+chars = "261-294"
+text = "numerical basis enumeration method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "463-471"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "474-494"
+text = "sharply change from 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "203-214"
+text = "ground state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "443"
+chars = "565-568"
+text = "Dyck"
+
+[[blocks]]
+sections = ["truth"]
+lines = "443"
+chars = "657-672"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "443"
+chars = "690-701"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "443"
+chars = "816-857"
+text = "ground state filling also displays a shift"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "313-328"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "449"
+chars = "17-25"
+text = "Dmax/Dsum"
+
+[[blocks]]
+sections = ["method"]
+lines = "451"
+chars = "43-61"
+text = "root identification"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "451"
+chars = "87-106"
+text = "Frey-Seller sequence"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "133-144"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "185-200"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "342-371"
+text = "manifests two ground states at"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "438-450"
+text = "ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "632-647"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "783-812"
+text = "presence of four ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "989-1001"
+text = "ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "1295-1310"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "77-102"
+text = "exponentially large number"
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "137-149"
+text = "ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "390-401"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "466-483"
+text = "total number of GS"
+
+[[blocks]]
+sections = ["method"]
+lines = "453"
+chars = "603-612"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "453"
+chars = "668-677"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "734-745"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "932-947"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "986-1000"
+text = "minimum filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "1098-1109"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "48-59"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "316-327"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "444-455"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "558-590"
+text = "density profile spreads uniformly"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "734-762"
+text = "first site is strictly frozen"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "1802-1813"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "1925-1936"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "459"
+chars = "127-138"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "459"
+chars = "236-247"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "464"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0014-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "471"
+chars = "33-44"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "471"
+chars = "385-396"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "471"
+chars = "930-942"
+text = "ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "471"
+chars = "987-998"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "474"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0014-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "19-30"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "288-299"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "1132-1143"
+text = "ground state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "485"
+chars = "57-60"
+text = "Dyck"
+
+[[blocks]]
+sections = ["truth"]
+lines = "485"
+chars = "596-605"
+text = "degenerate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "485"
+chars = "607-618"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "485"
+chars = "791-802"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "485"
+chars = "1068-1079"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "485"
+chars = "1182-1193"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "485"
+chars = "1375-1384"
+text = "energy gap"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "488"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0015-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "491"
+chars = "65-78"
+text = "central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "491"
+chars = "306-343"
+text = "indicates _c_ = 1 _._ 46 _±_ 0 _._ 015"
+
+[[blocks]]
+sections = ["truth"]
+lines = "491"
+chars = "520-540"
+text = "linear _k_ dispersion"
+
+[[blocks]]
+sections = ["truth"]
+lines = "495"
+chars = "53-67"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "495"
+chars = "189-198"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "495"
+chars = "218-232"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "495"
+chars = "309-327"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "495"
+chars = "427-465"
+text = "strong-to-weak fragmentation transition"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "500"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0015-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "67-85"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "104-120"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "148-166"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "433-451"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "507-556"
+text = "saturates at a finite value in the long-time limit"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "574-593"
+text = "non-thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "702-711"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "894-907"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "1029-1038"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "1222-1240"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "1408-1421"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "1539-1548"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "1651-1666"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "1836-1854"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "1975-1991"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "2165-2184"
+text = "non-thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "2200-2269"
+text = "bulk and rightmost boundary almost approach close to the thermal value"
+
+[[blocks]]
+sections = ["truth"]
+lines = "503"
+chars = "2390-2406"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "505"
+chars = "139-148"
+text = "saturation"
+
+[[blocks]]
+sections = ["method", "anchors", "truth"]
+lines = "505"
+chars = "156-192"
+text = "utilizing the Mazur-Suzuki inequality"
+
+[[blocks]]
+sections = ["truth"]
+lines = "505"
+chars = "269-273"
+text = "Mazur"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "508"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0015-10.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "514"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0016-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "521"
+chars = "359-372"
+text = "central charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "283-301"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "326-344"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "366-382"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "481-496"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "546-550"
+text = "Mazur"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "568-577"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "596-627"
+text = "completely inhomogeneous profile"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "817-827"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "829-838"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "1102-1120"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "1232-1241"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "1508-1524"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "1820-1829"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "523"
+chars = "1868-1886"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "64-73"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "115-119"
+text = "Mazur"
+
+[[blocks]]
+sections = ["truth"]
+lines = "525"
+chars = "174-187"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "51-66"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "103-121"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "192-208"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "290-305"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "642-672"
+text = "almost parallel to 1 _/√L_ line"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "707-720"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "882-891"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "902-916"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1053-1068"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1127-1145"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1344-1353"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1556-1572"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1639-1648"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1801-1815"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1817-1846"
+text = "closely follow the 1 _/L_ line"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1868-1881"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "527"
+chars = "1901-1917"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "529"
+chars = "200-204"
+text = "Mazur"
+
+[[blocks]]
+sections = ["truth"]
+lines = "533"
+chars = "36-40"
+text = "Mazur"
+
+[[blocks]]
+sections = ["truth"]
+lines = "533"
+chars = "52-61"
+text = "saturation"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "540"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0017-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "546"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0017-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "549"
+chars = "155-166"
+text = "subdiffusive"
+
+[[blocks]]
+sections = ["method"]
+lines = "549"
+chars = "461-494"
+text = "quantum dynamical typicality (QDT)"
+
+[[blocks]]
+sections = ["method"]
+lines = "549"
+chars = "606-631"
+text = "exact diagonalization (ED)"
+
+[[blocks]]
+sections = ["method"]
+lines = "549"
+chars = "658-660"
+text = "QDT"
+
+[[blocks]]
+sections = ["method"]
+lines = "549"
+chars = "731-744"
+text = "random typical"
+
+[[blocks]]
+sections = ["method"]
+lines = "552"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0017-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "555"
+chars = "220-269"
+text = "random numbers chosen from a Gaussian distribution"
+
+[[blocks]]
+sections = ["method"]
+lines = "555"
+chars = "481-482"
+text = "ED"
+
+[[blocks]]
+sections = ["truth"]
+lines = "557"
+chars = "246-264"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "557"
+chars = "706-721"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "557"
+chars = "768-783"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "557"
+chars = "933-950"
+text = "size-stretched ex-"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "23-26"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "251-264"
+text = "size-stretched"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "412-449"
+text = "transient subdiffusive power-law decay"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "506-522"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "910-928"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "559"
+chars = "1245-1247"
+text = "MPS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "1323-1338"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+chars = "1349-1365"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "102-117"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "168-183"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "290-306"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "344-362"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "437-464"
+text = "best numerical fit with SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "650-684"
+text = "transient ballistic power-law decay"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "721-736"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "907-910"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "1146-1162"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "1181-1196"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "563"
+chars = "28-36"
+text = "ballistic"
+
+[[blocks]]
+sections = ["method"]
+lines = "563"
+chars = "97-118"
+text = "level spacing analysis"
+
+[[blocks]]
+sections = ["truth"]
+lines = "563"
+chars = "147-162"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "563"
+chars = "224-237"
+text = "non-integrable"
+
+[[blocks]]
+sections = ["truth"]
+lines = "563"
+chars = "340-358"
+text = "ballistic transport"
+
+[[blocks]]
+sections = ["truth"]
+lines = "568"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0018-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "193-211"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "230-246"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "274-292"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "322-337"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "435-454"
+text = "non-thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "463-477"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "506-515"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "679-695"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "707-716"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "801-815"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "836-851"
+text = "thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "866-884"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "902-926"
+text = "autocorrelation functions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "943-952"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "996-1015"
+text = "non-thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "575"
+chars = "1036-1045"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "577"
+chars = "232-256"
+text = "nearly ballistic behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "577"
+chars = "304-319"
+text = "much slower SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "90-105"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "123-139"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "224-227"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "680-708"
+text = "superdiffusive powerlaw decay"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "975-993"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "1059-1070"
+text = "subdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "1089-1102"
+text = "superdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "1112-1120"
+text = "ballistic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "1134-1150"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "581"
+chars = "58-61"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "581"
+chars = "70-88"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "581"
+chars = "180-211"
+text = "stretched exponential relaxation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "583"
+chars = "27-42"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "583"
+chars = "275-290"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "586"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0018-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "589"
+chars = "874-892"
+text = "may cause this SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "589"
+chars = "897-912"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "24-63"
+text = "transient ballistic power-law relaxation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "115-130"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "227-242"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "320-336"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "378-386"
+text = "ballistic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "591"
+chars = "434-447"
+text = "superdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "598"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0019-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "606"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0019-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "18-22"
+text = "Mazur"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "40-49"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "204-213"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "228-243"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "278-296"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "376-392"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "578-587"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "607-636"
+text = "completely non-uniform profile"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "743-758"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "783-792"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "902-920"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "953-962"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "613"
+chars = "1225-1240"
+text = "thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "18-34"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "237-245"
+text = "ballistic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "370-383"
+text = "superdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "431-447"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "517-525"
+text = "ballistic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "530-543"
+text = "superdiffusive"
+
+[[blocks]]
+sections = ["method"]
+lines = "619"
+chars = "613-634"
+text = "transfer matrix method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "619"
+chars = "797-812"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "619"
+chars = "1013-1079"
+text = "generalization of the Catalan number introduced by Frey and Sellers"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "619"
+chars = "1178-1181"
+text = "Dyck"
+
+[[blocks]]
+sections = ["truth"]
+lines = "619"
+chars = "1266-1304"
+text = "strong-to-weak fragmentation transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "619"
+chars = "1418-1446"
+text = "critical filling analytically"
+
+[[blocks]]
+sections = ["truth"]
+lines = "619"
+chars = "1574-1586"
+text = "lower filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "56-71"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "131-142"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "234-243"
+text = "degenerate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "245-256"
+text = "ground state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "621"
+chars = "363-366"
+text = "Dyck"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "504-525"
+text = "multiple ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "658-669"
+text = "ground state"
+
+[[blocks]]
+sections = ["method"]
+lines = "621"
+chars = "729-747"
+text = "root identification"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "621"
+chars = "818-829"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "882-896"
+text = "minimum filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "924-935"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "1087-1098"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "621"
+chars = "1152-1170"
+text = "logarithmic scaling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "623"
+chars = "68-82"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "623"
+chars = "120-138"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "623"
+chars = "263-279"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "623"
+chars = "335-366"
+text = "non-thermal bulk becomes thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "127-142"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "183-198"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "201-217"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "266-281"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "403-416"
+text = "size-stretched"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "442-445"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "637-652"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "682-693"
+text = "subdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "627"
+chars = "846-864"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "629"
+chars = "67-91"
+text = "autocorrelation functions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "629"
+chars = "142-160"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "629"
+chars = "272-281"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "629"
+chars = "338-342"
+text = "Mazur"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "29-47"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "631"
+chars = "145-177"
+text = "dynamical quantum typically (QDT)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "342-385"
+text = "size-stretched exponential relaxation (SSER)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "395-410"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "414-425"
+text = "subdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "444-457"
+text = "superdiffusive"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "467-475"
+text = "ballistic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "631"
+chars = "489-505"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "633"
+chars = "268-279"
+text = "ground state"
+
+[[blocks]]
+sections = ["method"]
+lines = "633"
+chars = "311-331"
+text = "Frey-Sellers sequence"
+
+[[blocks]]
+sections = ["truth"]
+lines = "635"
+chars = "11-24"
+text = "thermalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "650"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0020-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "653"
+chars = "249-270"
+text = "transfer matrix method"
+
+[[blocks]]
+sections = ["method"]
+lines = "653"
+chars = "287-320"
+text = "numerical basis enumeration method"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "81-99"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "146-161"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "217-232"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "241-257"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "367-370"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "591-599"
+text = "ballistic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "954-957"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "1158-1166"
+text = "ballistic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "1372-1375"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "657"
+chars = "1469-1477"
+text = "ballistic"
+
+[[blocks]]
+sections = ["method"]
+lines = "664"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0021-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "670"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0022-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "677"
+chars = "61-76"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "677"
+chars = "187-190"
+text = "SSER"
+
+[[blocks]]
+sections = ["truth"]
+lines = "677"
+chars = "428-441"
+text = "superdiffusive"
+
+[[blocks]]
+sections = ["method"]
+lines = "682"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0022-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "688"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0022-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "691"
+chars = "53-62"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "704"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0022-13.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "707"
+chars = "93-107"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "711"
+chars = "135-149"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "711"
+chars = "545-559"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "711"
+chars = "613-627"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "714"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0023-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "114-118"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "198-202"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "271-275"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "717"
+chars = "438-464"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "496-500"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "513-517"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "530-534"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "717"
+chars = "551-555"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "720"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0023-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "723"
+chars = "12-16"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "723"
+chars = "128-154"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["method"]
+lines = "725"
+chars = "1-15"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "728"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0023-07.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "731"
+chars = "125-129"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "731"
+chars = "195-199"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "731"
+chars = "302-306"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "731"
+chars = "476-480"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "734"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0023-09.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "737"
+chars = "11-15"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "739"
+chars = "37-41"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "739"
+chars = "86-90"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "739"
+chars = "106-110"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "739"
+chars = "127-131"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "739"
+chars = "148-152"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "739"
+chars = "169-173"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "743"
+chars = "12-16"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "745"
+chars = "68-72"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["method"]
+lines = "745"
+chars = "218-232"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "745"
+chars = "558-572"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "745"
+chars = "713-722"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "749"
+chars = "54-58"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["method"]
+lines = "749"
+chars = "106-120"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "749"
+chars = "221-235"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "749"
+chars = "629-643"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "756"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "759"
+chars = "104-108"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "759"
+chars = "174-178"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "759"
+chars = "254-258"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "759"
+chars = "381-385"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "762"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "765"
+chars = "12-16"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "767"
+chars = "204-208"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["method"]
+lines = "770"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "773"
+chars = "198-212"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "776"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-09.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "779"
+chars = "143-147"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "779"
+chars = "192-196"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "779"
+chars = "276-280"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "782"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-11.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "785"
+chars = "36-40"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["truth"]
+lines = "790"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0024-14.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "793"
+chars = "13-17"
+text = "Nfroz"
+
+[[blocks]]
+sections = ["method"]
+lines = "795"
+chars = "71-97"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["method"]
+lines = "799"
+chars = "153-167"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "799"
+chars = "246-260"
+text = "transfer matrix"
+
+[[blocks]]
+sections = ["method"]
+lines = "801"
+chars = "172-198"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "812"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0025-02.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "818"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0025-04.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "821"
+chars = "30-36"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "821"
+chars = "105-111"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "823"
+chars = "25-31"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "826"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0025-07.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "830"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0025-08.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "836"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0025-10.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "844"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0025-13.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "854"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0025-15.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "857"
+chars = "27-38"
+text = "Frey-Sellers"
+
+[[blocks]]
+sections = ["method"]
+lines = "857"
+chars = "247-256"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "857"
+chars = "273-282"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "857"
+chars = "476-533"
+text = "mapping each 1 and 0 in the binary strings to the integers"
+
+[[blocks]]
+sections = ["method"]
+lines = "859"
+chars = "121-130"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "859"
+chars = "180-235"
+text = "Using the local transitions allowed in the range-2 model"
+
+[[blocks]]
+sections = ["method"]
+lines = "859"
+chars = "289-298"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "861"
+chars = "24-34"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method"]
+lines = "861"
+chars = "138-193"
+text = "map 1’s and 0’s in the remaining strings to 2’s and -1’s"
+
+[[blocks]]
+sections = ["method"]
+lines = "861"
+chars = "734-743"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "861"
+chars = "801-811"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "861"
+chars = "1108-1118"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method"]
+lines = "867"
+chars = "18-42"
+text = "Distribution of fragments"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "123-138"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "171-186"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "203-218"
+text = "critical filling"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "869"
+chars = "334-394"
+text = "Nfrag_ is the largest for the frozen and integrable fragments"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "785-789"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "799-814"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "883-912"
+text = "Nfrag_ are two, eight, and one"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "921-936"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "939-957"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "963-979"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "1194-1212"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "1240-1255"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "869"
+chars = "1281-1290"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "1460-1476"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "869"
+chars = "1494-1504"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "1536-1540"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "1598-1613"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "869"
+chars = "1672-1681"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "1846-1850"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "1958-1973"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "2044-2062"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "2185-2200"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "869"
+chars = "2209-2225"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["method"]
+lines = "869"
+chars = "2273-2282"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "871"
+chars = "196-211"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method"]
+lines = "873"
+chars = "51-60"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "879"
+chars = "81-90"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "879"
+chars = "203-289"
+text = "dimensional growth can be captured utilizing another generalization of Catalan sequence"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "879"
+chars = "319-322"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "879"
+chars = "358-367"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "879"
+chars = "563-589"
+text = "numerical basis enumeration"
+
+[[blocks]]
+sections = ["method"]
+lines = "879"
+chars = "647-656"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "888"
+chars = "74-83"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "888"
+chars = "182-191"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "890"
+chars = "97-103"
+text = "Catalan"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "890"
+chars = "231-241"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "890"
+chars = "299-324"
+text = "concept of _kt_ -Dyck path"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "890"
+chars = "735-738"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "893"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0026-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "896"
+chars = "91-100"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "896"
+chars = "163-166"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "896"
+chars = "201-234"
+text = "mapping of the allowed transitions"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "896"
+chars = "275-278"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "896"
+chars = "566-569"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "896"
+chars = "962-965"
+text = "Dyck"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "33-37"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "138-156"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "174-192"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "211-227"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "337-341"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "472-476"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "523-539"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "600-604"
+text = "Nfrag"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "705-721"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "793-847"
+text = "number of the largest fragments at the critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "877-892"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "900"
+chars = "932-947"
+text = "critical filling"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "905"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0027-03.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "908"
+chars = "60-69"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "908"
+chars = "299-315"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "908"
+chars = "379-389"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method"]
+lines = "908"
+chars = "417-426"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "908"
+chars = "640-649"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "910"
+chars = "273-282"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "910"
+chars = "445-455"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method"]
+lines = "910"
+chars = "548-557"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "910"
+chars = "593-596"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "910"
+chars = "807-810"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "910"
+chars = "1024-1027"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "914"
+chars = "72-81"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "914"
+chars = "130-200"
+text = "dimensional growth can be captured utilizing the combinatorics sequence"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "914"
+chars = "212-215"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "914"
+chars = "279-288"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "914"
+chars = "307-323"
+text = "asymptotic growth"
+
+[[blocks]]
+sections = ["method"]
+lines = "914"
+chars = "537-546"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "917"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0027-08.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "920"
+chars = "59-62"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "920"
+chars = "102-111"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "920"
+chars = "207-216"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "920"
+chars = "235-238"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "925"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0028-01.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "929"
+chars = "50-53"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "932"
+chars = "39-48"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors", "truth"]
+lines = "932"
+chars = "115-172"
+text = "whose growth can be captured using the _kt_ -Dyck sequence"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "932"
+chars = "272-275"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "932"
+chars = "512-515"
+text = "Dyck"
+
+[[blocks]]
+sections = ["truth"]
+lines = "942"
+chars = "32-62"
+text = "dimensional growth of fragments"
+
+[[blocks]]
+sections = ["method"]
+lines = "942"
+chars = "96-105"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "942"
+chars = "258-265"
+text = "FS class"
+
+[[blocks]]
+sections = ["method"]
+lines = "942"
+chars = "295-304"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "942"
+chars = "325-335"
+text = "FS sequence"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "944"
+chars = "102-105"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "944"
+chars = "150-159"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "944"
+chars = "214-223"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "944"
+chars = "261-270"
+text = "root state"
+
+[[blocks]]
+sections = ["method"]
+lines = "944"
+chars = "373-382"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "946"
+chars = "169-233"
+text = "single filling is not sufficient to capture low-energy properties"
+
+[[blocks]]
+sections = ["truth"]
+lines = "946"
+chars = "387-396"
+text = "degenerate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "946"
+chars = "398-410"
+text = "ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "946"
+chars = "531-540"
+text = "degenerate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "948"
+chars = "59-70"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "948"
+chars = "127-148"
+text = "linear- _k_ dispersion"
+
+[[blocks]]
+sections = ["truth"]
+lines = "948"
+chars = "407-418"
+text = "semicircular"
+
+[[blocks]]
+sections = ["truth"]
+lines = "948"
+chars = "575-587"
+text = "ground states"
+
+[[blocks]]
+sections = ["method"]
+lines = "952"
+chars = "20-40"
+text = "low-lying excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "952"
+chars = "240-252"
+text = "ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "952"
+chars = "501-512"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "952"
+chars = "727-736"
+text = "degenerate"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "954"
+chars = "18-23"
+text = "Krylov"
+
+[[blocks]]
+sections = ["truth"]
+lines = "954"
+chars = "36-49"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "956"
+chars = "19-34"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "956"
+chars = "64-77"
+text = "non-integrable"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "956"
+chars = "124-155"
+text = "Krylov-restricted thermalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "956"
+chars = "301-310"
+text = "root state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "956"
+chars = "391-406"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "961"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0029-01.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "965"
+chars = "72-75"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method"]
+lines = "965"
+chars = "331-340"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "965"
+chars = "460-463"
+text = "Dyck"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "965"
+chars = "542-545"
+text = "Dyck"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "211-222"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "401-410"
+text = "degenerate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "446-499"
+text = "and a non-degenerate ground state ( _Nf_ = _L/_ 2 + 1)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "658-669"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "795-823"
+text = "four degenerate ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "898-907"
+text = "degenerate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "968"
+chars = "909-920"
+text = "ground state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "970"
+chars = "105-131"
+text = "sharp rainbow-like spectrum"
+
+[[blocks]]
+sections = ["truth"]
+lines = "970"
+chars = "160-175"
+text = "thermal behavior"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "970"
+chars = "320-332"
+text = "level spacing"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "972"
+chars = "26-38"
+text = "level spacing"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "972"
+chars = "82-134"
+text = "level spacing distribution follows the GOE statistics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "972"
+chars = "151-157"
+text = "Poisson"
+
+[[blocks]]
+sections = ["truth"]
+lines = "972"
+chars = "252-267"
+text = "largest fragment"
+
+[[blocks]]
+sections = ["truth"]
+lines = "977"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0030-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "984"
+chars = "347-368"
+text = "linear- _k_ dispersion"
+
+[[blocks]]
+sections = ["truth"]
+lines = "984"
+chars = "462-473"
+text = "semicircular"
+
+[[blocks]]
+sections = ["truth"]
+lines = "984"
+chars = "580-592"
+text = "ground states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "984"
+chars = "625-668"
+text = "log_ ( _L_ ) scaling of entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "987"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0030-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "991"
+chars = "197-199"
+text = "GOE"
+
+[[blocks]]
+sections = ["truth"]
+lines = "991"
+chars = "201-203"
+text = "GOE"
+
+[[blocks]]
+sections = ["method"]
+lines = "994"
+chars = "118-127"
+text = "root state"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "994"
+chars = "213-225"
+text = "level spacing"
+
+[[blocks]]
+sections = ["software_params"]
+lines = "994"
+chars = "286-328"
+text = "small diagonal disorder with _w_ = 0 _._ 01"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "542-548"
+text = "rainbow"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "994"
+chars = "642-647"
+text = "Krylov"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "660-673"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "768-774"
+text = "rainbow"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "994"
+chars = "893-905"
+text = "level spacing"
+
+[[blocks]]
+sections = ["truth"]
+lines = "994"
+chars = "949-951"
+text = "GOE"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "994"
+chars = "984-997"
+text = "non-integrable"
+
+[[blocks]]
+sections = ["truth"]
+lines = "998"
+chars = "36-50"
+text = "autocorrelators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "50-74"
+text = "autocorrelation functions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "221-236"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "312-336"
+text = "autocorrelation functions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "371-410"
+text = "identical behaviors to the range-2 model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "481-496"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "598-617"
+text = "non-thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "753-772"
+text = "non-thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "788-803"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "818-833"
+text = "thermal behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "845-860"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "909-922"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "1093-1102"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1000"
+chars = "1113-1147"
+text = "long-time autocorrelation functions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1002"
+chars = "39-52"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1022"
+chars = "94-107"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1024"
+chars = "94-107"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1028"
+chars = "7-22"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1032"
+chars = "34-52"
+text = "anomalous transport"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1032"
+chars = "138-153"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1032"
+chars = "655-672"
+text = "anomalous dynamics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1032"
+chars = "751-764"
+text = "slow spreading"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1042"
+chars = "129-134"
+text = "Krylov"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1054"
+chars = "60-73"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1059"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0032-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1066"
+chars = "164-182"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1066"
+chars = "205-221"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1066"
+chars = "249-267"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1066"
+chars = "319-371"
+text = "identical behavior as seen in the range-2 constraints"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1069"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0032-03.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "21-25"
+text = "Mazur"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "43-52"
+text = "saturation"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "206-221"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "315-330"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "333-351"
+text = "strongly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "368-383"
+text = "critical filling"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "386-402"
+text = "weakly fragmented"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1076"
+chars = "421-476"
+text = "identical behaviors to that observed in the range-2 case"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1107"
+text = "![](.figures/arxiv__2503.09452/2503.09452.pdf-0033-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1114"
+chars = "242-280"
+text = "does not exhibit the Gaussian spreading"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1114"
+chars = "382-399"
+text = "anomalous dynamics"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1120"
+chars = "38-96"
+text = "Generalizing bailey’s Generalization of the catalan Numbers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1126"
+chars = "91-104"
+text = "thermalization"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1134"
+chars = "87-90"
+text = "Dyck"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1144"
+chars = "62-75"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1148"
+chars = "76-94"
+text = "freezing transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1152"
+chars = "107-120"
+text = "thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1180"
+chars = "11-15"
+text = "Mazur"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1190"
+chars = "99-111"
+text = "level spacing"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1216"
+chars = "38-44"
+text = "Catalan"

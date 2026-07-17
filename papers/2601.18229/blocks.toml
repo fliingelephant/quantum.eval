@@ -1,0 +1,2176 @@
+# Partition layer for papers/2601.18229 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-17"
+text = "Breakdown"
+
+[[blocks]]
+sections = ["problem"]
+lines = "5"
+chars = "22-88"
+text = "bosonic Thouless pump due to interaction in a quasiperiodic lattice"
+
+[[blocks]]
+sections = ["truth"]
+lines = "13"
+chars = "3-11"
+text = "Breakdown"
+
+[[blocks]]
+sections = ["problem"]
+lines = "13"
+chars = "16-82"
+text = "bosonic Thouless pump due to interaction in a quasiperiodic lattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "23"
+chars = "20-86"
+text = "effect of inter-particle interaction on the quantized Thouless pump"
+
+[[blocks]]
+sections = ["problem"]
+lines = "23"
+chars = "95-137"
+text = "bosonic quasiperiodic Aubry-Andr{\\'e} model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "143-231"
+text = "find that the quantization of the pumped charge breaks down already for weak interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "251-325"
+text = "pumped charge undergoes sharp changes as a function of interaction strength"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "356-391"
+text = "closing of specific doublon channels"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "411-489"
+text = "quantization revives in the hard-core limit at very large interaction strengths"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "491-543"
+text = "where the bosons are subject to a hardcore constraint"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "546-641"
+text = "Interestingly, the stability of isolated doublons under the pump depends on the band they are in"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "644-702"
+text = "For repulsive interactions and a suitably fixed pump period"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "705-807"
+text = "doublons in the lowest band are pumped stably while doublons in higher bands dissociate during the pump"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "809-852"
+text = "with one particle decaying into a lower band"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "855-917"
+text = "This asymmetry leads to the decay of the total energy over time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "920-1006"
+text = "in stark contrast to the typical Floquet heating expected for a driven many-body system"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "5-13"
+text = "Breakdown"
+
+[[blocks]]
+sections = ["problem"]
+lines = "27"
+chars = "18-84"
+text = "bosonic Thouless pump due to interaction in a quasiperiodic lattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "39"
+chars = "20-86"
+text = "effect of inter-particle interaction on the quantized Thouless pump"
+
+[[blocks]]
+sections = ["problem"]
+lines = "39"
+chars = "95-134"
+text = "bosonic quasiperiodic Aubry-Andr´e model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "140-228"
+text = "find that the quantization of the pumped charge breaks down already for weak interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "248-322"
+text = "pumped charge undergoes sharp changes as a function of interaction strength"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "353-388"
+text = "closing of specific doublon channels"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "408-486"
+text = "quantization revives in the hard-core limit at very large interaction strengths"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "488-540"
+text = "where the bosons are subject to a hardcore constraint"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "543-638"
+text = "Interestingly, the stability of isolated doublons under the pump depends on the band they are in"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "641-699"
+text = "For repulsive interactions and a suitably fixed pump period"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "702-804"
+text = "doublons in the lowest band are pumped stably while doublons in higher bands dissociate during the pump"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "806-849"
+text = "with one particle decaying into a lower band"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "852-914"
+text = "This asymmetry leads to the decay of the total energy over time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "917-1003"
+text = "in stark contrast to the typical Floquet heating expected for a driven many-body system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "43"
+chars = "638-655"
+text = "Aubry-Andr´e model"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "43"
+chars = "657-749"
+text = "exhibits quantized pumping when the phase of the potential is adiabatically changed with time"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "43"
+chars = "760-844"
+text = "This topological response originates from the topology of the underlying energy bands"
+
+[[blocks]]
+sections = ["problem"]
+lines = "51"
+chars = "114-145"
+text = "quasiperiodic Aubry-Andr´e chain"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "51"
+chars = "329-403"
+text = "For strong quasiperiodic potentials, the eigenstates are strongly localized"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "51"
+chars = "412-516"
+text = "hierarchical order of gaps arises from higher-order tunneling processes connecting distant resonant sites"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "51"
+chars = "530-617"
+text = "pump protocol, which consists of sliding the quasiperiodic modulation across the lattice"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "51"
+chars = "620-708"
+text = "Landau-Zener transitions between these resonant sites facilitate the pumping of particles"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "51"
+chars = "711-760"
+text = "Due to this hierarchy of increasingly smaller gaps"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "51"
+chars = "763-829"
+text = "a truly adiabatic pump is impossible in such quasiperidodic systems"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "51"
+chars = "844-983"
+text = "pumping period _T_ can be chosen such that its inverse is smaller than all gaps up to a certain order, but much larger than all smaller ones"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "51"
+chars = "986-1138"
+text = "A key finding was the surprising resilience of quantization in the Thouless pump, notably persisting beyond the disorder-induced closure of spectral gaps"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "51"
+chars = "1141-1223"
+text = "This gap closure conventionally signifies a breakdown condition in periodic systems"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "53"
+chars = "54-196"
+text = "pump period where the pump is approximately adiabatic up to the first-order energy gaps that are the largest gaps in the non-interacting system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "256-298"
+text = "central sites are singly occupied by bosons"
+
+[[blocks]]
+sections = ["problem"]
+lines = "53"
+chars = "301-382"
+text = "see Fig. 1, and time evolve it according to the pump protocol of [12], see Eq. (5)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "385-461"
+text = "We find that the interaction between particles significantly affects the pump"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "482-546"
+text = "even weak interactions can cause a breakdown of quantized pumping"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "549-574"
+text = "Conversely, in the case of"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "576-598"
+text = "very strong interaction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "53"
+chars = "605-638"
+text = "quantized Thouless pump is revived"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "53"
+chars = "640-674"
+text = "as expected due to the emergence of"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "58"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0002-01.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "62"
+text = "γ<br>Δ<br>j<br>( a )<br>aM sites ( j ) Δ j  = Δ cos(2 πβj  +  γ )<br>E /Δ E /Δ<br>( b ) C  = −3<br>C  = 1<br>C  = −2 C  = 4<br>C  = 1<br>C  = −3<br>Δ Δ<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "15-89"
+text = "Potential energy landscape (in arbitrary units with _β_ = _√_ 2 _/_ 2) of a"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "91-124"
+text = "one-dimensional Aubry-Andr´e model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "239-350"
+text = "The circles represent the sites and the quasiperiodic onsite energy (∆ _j_ ), and the blue shaded circles depict"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "352-393"
+text = "singly-occupied sites in the initial state"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "65"
+chars = "396-450"
+text = "The two sites highlighted in red illustrate a resonance"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "65"
+chars = "453-481"
+text = "As depicted in the inset, the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "65"
+chars = "483-514"
+text = "variation of _γ_ during the pump"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "65"
+chars = "516-612"
+text = "gives rise to a Landau-Zener transition that pumps the particle from left to right and vice versa"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "65"
+chars = "615-718"
+text = "The dotted line marks the position of the center of the first-order gaps in the single-particle spectrum"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "65"
+chars = "809-1013"
+text = "The first-order gaps define the three bands (left) with different Chern numbers ( _C_ ) and the higher-order gaps successively divide the bands into a fractal of subbands (second-order gaps shown on right)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "67"
+chars = "5-82"
+text = "hardcore limit, where the system can be mapped to the non-interacting fermions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "85-152"
+text = "In the regime of intermediate interaction strengths, we observe some"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "154-187"
+text = "sharp changes in the pumped charge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "189-217"
+text = "that we can trace back to the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "67"
+chars = "219-254"
+text = "closing of specific doublon channels"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "1-163"
+text = "Furthermore, we analyze the pumping of isolated doublons and uncover an interesting difference in the stability of the doublon pump depending on the initial energy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "194-280"
+text = "doublons in the lowest band are pumped stably while doublons in higher bands dissociate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "283-325"
+text = "transmitting one particle into a lower band"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "328-356"
+text = "This phenomenon results in an"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "358-377"
+text = "unusual energy decay"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "379-452"
+text = "in the driven many-body system, where the system continuously loses energy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "455-592"
+text = "This is in stark contrast to the usual Floquet heating that is accompanied by increase of energy in a periodically driven many-body system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "77"
+chars = "5-73"
+text = "model Hamiltonian that describes our quasiperiodic interacting system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "77"
+chars = "75-97"
+text = "consists of three terms"
+
+[[blocks]]
+sections = ["problem"]
+lines = "80"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0002-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "83"
+chars = "1-21"
+text = "where _H_ ˆkin is the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "83"
+chars = "23-158"
+text = "kinetic energy term, _H_ ˆqp is the quasiperiodic potential term and _H_[ˆ] int represents the interaction between the bosonic particles"
+
+[[blocks]]
+sections = ["problem"]
+lines = "86"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0002-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "90"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0002-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "93"
+chars = "3-26"
+text = "Here,[ˆ] _bl_ and _nl_ ="
+
+[[blocks]]
+sections = ["problem"]
+lines = "93"
+chars = "62-82"
+text = "bosonic][annihilation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "93"
+chars = "90-144"
+text = "density operators on site _l_ in a chain with _L_ sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "93"
+chars = "147-354"
+text = "_J_ is the nearest-neighbour tunneling matrix element, ∆represents the strength of the quasiperiodic potential with irrational period _β_ = _√_ 2 _/_ 2, and _U_ denotes the on-site two-body interaction energy"
+
+[[blocks]]
+sections = ["problem"]
+lines = "93"
+chars = "357-404"
+text = "We use _J_ = 1, which defines the unit of energy"
+
+[[blocks]]
+sections = ["problem"]
+lines = "95"
+chars = "16-124"
+text = "pumping consists of linearly increasing the phase of the quasiperiodic modulation _γ_ ( _t_ ) with period _T_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "95"
+chars = "126-173"
+text = "such that _γ_ ( _t_ + _T_ ) = _γ_ ( _t_ ), i.e.:"
+
+[[blocks]]
+sections = ["problem"]
+lines = "98"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0002-15.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "101"
+chars = "1-134"
+text = "Previous work [12] by some of us contains a detailed discussion of the non-interacting pump in the stronglylocalized regime at large ∆"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "101"
+chars = "184-268"
+text = "single-particle spectrum contains a hierarchy of exponentially decreasing energy gaps"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "101"
+chars = "271-307"
+text = "_δE_ ( _k_ ) _∝ J[k] /_ ∆ _[k][−]_[1]"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "101"
+chars = "311-334"
+text = "These gaps correspond to"
+
+[[blocks]]
+sections = ["problem"]
+lines = "101"
+chars = "336-388"
+text = "resonances between two sites that are _k_ sites apart"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "101"
+chars = "391-586"
+text = "Due to the exponentially decreasing size of the gaps, one can set a suitable pump period _T_ so to be adiabatic for all gaps up to a particular order, while being fast compared to all smaller gaps"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "101"
+chars = "589-649"
+text = "The first-order gaps _k_ = 1 separate three energy bands with"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "101"
+chars = "651-685"
+text = "Chern numbers _C_ = 1, _−_ 2, and 1"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "101"
+chars = "687-713"
+text = "as illustrated in Fig. 1(b)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "101"
+chars = "716-847"
+text = "Smaller gaps further divide these primary bands into sub-bands with higher Chern numbers in a hierarchical structure [see Fig. 1(b)]"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "101"
+chars = "850-1107"
+text = "During pumping, an isolated atom will remain at its site until _γ_ ( _t_ ) is such that its site becomes resonant with its _k_ -th neighbor, see red sites in Fig. 1(a) for _k_ = 1, at which point it will transition to this resonant neighboring site following"
+
+[[blocks]]
+sections = ["problem"]
+lines = "101"
+chars = "1109-1158"
+text = "an approximately adiabatic Landau-Zener transition"
+
+[[blocks]]
+sections = ["problem"]
+lines = "106"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "110"
+text = "> 1<br>y<br>nj<br>2 4 | ;<br>‘ 7<br>0.5<br>(a) (b) (c) (d) (e)<br>0 0<br>> 0.2<br>d<br>2 _ & j<br>0.1<br>(f) (g) (h) (i) (j)<br>0 [1] ye 0<br>J J J<br>J<br> = 0  = 2  = 10  = 36  = 50<br>U U U U U<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "1-201"
+text = "Figure 2: Time evolution of the particle ( _ni_ ) and doublon density ( _di_ ) during the pump for _N_ = 7, ∆= 15 _J_ , and for different values of _U_ shown in the upper and lower panels, respectively"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "113"
+chars = "204-324"
+text = "For _U_ = 0, the initial cloud bifurcates into two branches with time, corresponding to the _C_ = _−_ 2 and _C_ = 1 bands"
+
+[[blocks]]
+sections = ["truth"]
+lines = "113"
+chars = "327-439"
+text = "For _U_ = 2 _J_ , 10 _J_ , and 36 _J_ , the time evolution of the density changes drastically compared to _U_ = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "113"
+chars = "442-548"
+text = "At very large _U_ = 50 _J_ , the time evolution of the density appears to be similar to the case of _U_ = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "113"
+chars = "551-628"
+text = "The time evolution of the doublon density is distinctly different in all cases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "651-719"
+text = "System size is _L_ = 40 and results are averaged over 40 realizations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "722-758"
+text = "i.e., 40 different values for _γ_ (0)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "115"
+chars = "30-82"
+text = "fixed period _T_ = 0 _._ 205 _πJ_ and large ∆= 15 _J_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "115"
+chars = "86-182"
+text = "where the first-order gaps dominate pumping [12] and study the effect of interactions on the pump"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "8-118"
+text = "initial state, we consider a ( _n_ = 1) product state that contains particles only in the center of the lattice"
+
+[[blocks]]
+sections = ["problem"]
+lines = "117"
+chars = "121-173"
+text = "The initial state for _N_ particles can be written as"
+
+[[blocks]]
+sections = ["problem"]
+lines = "119"
+chars = "20-96"
+text = "uniformly sampling the initial phase _γ_ (0) from the interval [0 _,_ 2 _π_ ]"
+
+[[blocks]]
+sections = ["problem"]
+lines = "126"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "51-82"
+text = "Because of the large ∆= 15 _J_ ,"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "88-117"
+text = "particles are highly localized"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "119-286"
+text = "and hence there is no significant expansion of the cloud without the drive. Hence, the particles can essentially only move because of the periodic drive during the pump"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "129"
+chars = "289-381"
+text = "Note that the initial state overlaps with states in all bands of the single-particle spectrum"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "12-87"
+text = "matrix-product-state (MPS) based timeevolving block decimation (TEBD) method"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "89-129"
+text = "to time evolve the initial product states"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "140-157"
+text = "In the TEBD method"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "158-189"
+text = ", the time-evolution operator is"
+
+[[blocks]]
+sections = ["method"]
+lines = "131"
+chars = "191-231"
+text = "Suzuki-Trotter decomposed in second order"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "234-327"
+text = "producing an error _O_ ( _δt_[3] ) per time step ( _δt_ ) of evolution which we consider to be"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "329-348"
+text = "_δt_ = 0 _._ 01 _/J_"
+
+[[blocks]]
+sections = ["software"]
+lines = "131"
+chars = "360-396"
+text = "implemented using the ITensor library"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "411-447"
+text = "maximum bond dimension is set to 1500"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "450-479"
+text = "which is never reached for the"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "481-511"
+text = "truncation error of 10 _[−]_[8]"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "131"
+chars = "559-609"
+text = "truncate the local bosonic Hilbert space to _n ≤_ 4"
+
+[[blocks]]
+sections = ["problem"]
+lines = "131"
+chars = "612-679"
+text = "To mitigate any dependence on specific values of the phase _γ_ , the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "131"
+chars = "681-729"
+text = "results are averaged over 40 independent realiza-"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "133"
+chars = "1-132"
+text = "To probe the influence of interactions on the pumping, we time evolve the initial state of Eq. (6) with the pump protocol in Eq. (5)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "133"
+chars = "135-179"
+text = "Figure 2 presents the time evoluˆ tion of the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "133"
+chars = "181-232"
+text = "local density _nj_ = _⟨nj⟩_ and doublon density _dj_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "133"
+chars = "234-282"
+text = "= 2[1] _[⟨][n]_[ˆ] _[j]_[(ˆ] _[n][j][−]_[1)] _[⟩]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "343-393"
+text = "the initial cloud splits into two distinct branches"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "133"
+chars = "395-502"
+text = "that directly indicate quantized Thouless pumping of particles in bands with different topological character"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "133"
+chars = "505-609"
+text = "the right-moving lower and upper bands with _C_ = 1 and the left-moving middle band with _C_ = _−_ 2 [12]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "612-665"
+text = "While the initial product state contains zero doublons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "668-712"
+text = "tunneling creates a finite number of doublons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "714-752"
+text = "already within the first tunneling time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "760-868"
+text = "Comparing the non-interacting case with the case of low interaction strength, _U_ = 2 _J_ [Fig. 2(b) and (g)]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "871-940"
+text = "we observe a difference in the time evolution of the density. We see a"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "942-1044"
+text = "finite particle density in between the two branches, indicating back-scattering due to the interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "1047-1108"
+text = "For stronger interactions _U_ = 10 _J_ [Fig. 2(c) and (h))], a"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "1110-1178"
+text = "high-density core remains longer and keeps spreading slowly over time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "1181-1257"
+text = "At the even higher interaction strength _U_ = 36 _J_ [Fig. 2(d) and (i)], the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "133"
+chars = "1259-1336"
+text = "leftmoving branch is strongly affected by the formation of long-lived doublons"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "140"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0004-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "148"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0004-03.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "151"
+chars = "6-56"
+text = "calculation is performed over a full pumping period"
+
+[[blocks]]
+sections = ["problem"]
+lines = "151"
+chars = "59-116"
+text = "specifically between times _t_ 1 = 2 _T_ and _t_ 2 = 3 _T_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "151"
+chars = "120-286"
+text = "To isolate and clearly identify the contributions to the pumped charge from the _C_ = 1 and _C_ = _−_ 2 bands, which are pumped in opposite directions for _U_ = 0, the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "151"
+chars = "288-387"
+text = "pumped charge _qj_ is summed separately over the right ( _QR_ ) and left half ( _QL_ ) of the system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "154"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0004-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "157"
+chars = "1-75"
+text = "where _j_ belongs to the right ( _R_ ) or left ( _L_ ) halves of the system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "157"
+chars = "78-163"
+text = "We normalize _QR_ and _QL_ at finite _U_ by their correspondind values in _U_ = 0 case"
+
+[[blocks]]
+sections = ["problem"]
+lines = "160"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0004-07.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "163"
+chars = "55-88"
+text = "_QR_ ( _U_ = 0) = _−QL_ ( _U_ = 0)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "165"
+chars = "11-158"
+text = "Pumped charge in the time window from _t_ 1 = 2 _T_ to _t_ 2 = 3 _T_ , normalized by the non-interacting case, as a function of interaction strength"
+
+[[blocks]]
+sections = ["problem"]
+lines = "165"
+chars = "160-226"
+text = "for ∆= 15 _J_ for (a) the right and (b) the left half of the system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "165"
+chars = "229-252"
+text = "The simulations employ a"
+
+[[blocks]]
+sections = ["problem"]
+lines = "165"
+chars = "254-420"
+text = "system size of _L_ = 40 sites, results are averaged over 40 initial values of _γ_ (0), and are shown for three different particle numbers _N_ = 5, _N_ = 6, and _N_ = 7"
+
+[[blocks]]
+sections = ["problem"]
+lines = "165"
+chars = "423-607"
+text = "The right insets show a magnified view of the weak-interaction regime, and the left inset in (b) shows how the ratio of _Q_[¯] _R/Q_[¯] _L_ changes as a function of interaction strength"
+
+[[blocks]]
+sections = ["truth"]
+lines = "165"
+chars = "614-717"
+text = "vertical dotted lines denote the values of _U_ where the system undergoes a sharp change in its behavior"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "165"
+chars = "719-761"
+text = "due to the resonances discussed in the text"
+
+[[blocks]]
+sections = ["truth"]
+lines = "167"
+chars = "1-64"
+text = "the right-moving branch is largely unaffected by the interaction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "167"
+chars = "67-270"
+text = "Finally, for very large interaction strength such as _U_ = 50 _J_ [Fig. 2(e) and (j)], the time evolution of the density becomes similar to the non-interacting case and the pumping becomes quantized again"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "167"
+chars = "273-301"
+text = "This signals the onset of the"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "167"
+chars = "303-326"
+text = "limit of hardcore bosons"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "167"
+chars = "329-406"
+text = "where dominant interactions fully suppress the formation of higher occupancies"
+
+[[blocks]]
+sections = ["problem"]
+lines = "171"
+chars = "50-187"
+text = "pumped charge, that is, the number of particles being pumped through bond _j_ of the 1D lattice in the time window between _t_ 1 and _t_ 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "171"
+chars = "190-228"
+text = "This is done by integrating the current"
+
+[[blocks]]
+sections = ["problem"]
+lines = "171"
+chars = "230-256"
+text = "_Ij_ ( _t_ ) = _−_ 2 _J_ Im"
+
+[[blocks]]
+sections = ["problem"]
+lines = "171"
+chars = "257-338"
+text = " _⟨_ Ψ( _t_ ) _|_[ˆ] _b[†] j_ +1[ˆ] _[b][j][|]_[Ψ(] _[t]_[)] _[⟩]_[on][that][bond]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "51-147"
+text = "already small values of _U_ are sufficient to reduce the pumped charge and break its quantization"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "173"
+chars = "198-439"
+text = "In this regime, the interaction modifies the local level structure and the energy gaps in the two-site Landau-Zener picture with two particles, thereby modifying the adiabaticity condition and potentially leading to a non-adiabatic transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "442-520"
+text = "The interaction effect hence quantitatively depends on the chosen pumping speed"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "173"
+chars = "527-615"
+text = "could, for a single isolated Landau-Zener problem, be cured by reducing the pumping speed"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "173"
+chars = "618-758"
+text = "For the full quasiperiodic problem, however, this is not possible since higher-order resonances with _k >_ 1 become relevant for slower pumps"
+
+[[blocks]]
+sections = ["truth"]
+lines = "173"
+chars = "790-848"
+text = "pump is generically not robust against on-site interactions"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "173"
+chars = "851-925"
+text = "in stark contrast to its exceptional robustness against disorder potentials"
+
+[[blocks]]
+sections = ["truth"]
+lines = "175"
+chars = "36-138"
+text = "left- and rightmoving bands are influenced differently by the interactions, leading to unequal currents"
+
+[[blocks]]
+sections = ["truth"]
+lines = "175"
+chars = "140-257"
+text = "with _Q_[¯] _R/Q_[¯] _L_ = 1. The left inset in Fig. 3(b) demonstrates that this ratio depends sharply on interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "1-44"
+text = "For very large interactions ( _U >_ 40 _J_ )"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "177"
+chars = "47-238"
+text = "once _U_ dominates over both kinetic ( _J_ ) and potential energy ∆, the interaction effects diminish as the system enters the hardcore regime, where double occupancies are suppressed, and the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "177"
+chars = "240-312"
+text = "pumped charges approach the quantized values of the non-interacting limit"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "182"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "42-58"
+text = "U  = 28 J ∆0 + ∆2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "69-91"
+text = "U  = 36 J ∆ − 1 + ∆ − 3"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "93-510"
+text = "2∆ − 2 +  U<br>fT |<br>0 . 0 0 . 5 1 . 0 1 . 5 0 . 0 0 . 5 1 . 0 1 . 5<br>t/T t/T<br>> 1 > 1 > 1 > 1<br>( b ) 2 j : nj ( d ) 2 nj ( g ) 2 , 1 [ nj ( i ) 2 i‘ I [ nj<br>0.5 0.5 0.5 0.5<br>> w & muy | Bi<br>1 > 1 > a ra | J > 1<br>;<br>0 0 0 0 0 0<br>> 0.2 > 0.2 > 0.2 > 0.2<br>( c ) ( e ) ( h ) ( j )<br>2 dj 2 dj 2 dj 2 dj<br>=& F 0.2 >- 0.2 >& , 0.2 =& 0.2<br>0 0 0 0<br>—10 0 10 —10 0 10 —10 0 10 —10 0 10<br>j j j j"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "515-619"
+text = "Figure 4: The figure is divided into two parts, (a)-(e) and (f)-(j), corresponding to the dotted lines at"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "621-634"
+text = "U 1 ∼ 29 J and"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "639-658"
+text = "U 2 ∼ 38 J in Fig. 3"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "661-752"
+text = "In both cases we examine values of U on both sides of the lines shown in Fig. 3 to highlight"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "761-831"
+text = "contrast in the dynamics between a doublon channel being open or closed"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "838-866"
+text = "Solid lines denote the energy"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "874-896"
+text = "a doublon on site j and"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "898-941"
+text = "dotted lines correspond to pairs of singlons"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "943-962"
+text = "on sites j and j + 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "965-988"
+text = "The initial phase of the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "993-1034"
+text = "quasiperiodic potential is γ (0) = 0 . 4 π"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "1040-1053"
+text = "U = 28 J < U 1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "1056-1110"
+text = "(b) and (c) depict the evolution of particle ( nj ) and"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "1115-1152"
+text = "doublon density ( dj ) starting from a"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "1154-1195"
+text = "pair of particles on sites j = 0 and j = 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "1198-1246"
+text = "corresponding to the orange dotted<br>line in (a)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "1249-1348"
+text = "The shaded area in (a) and red boxes in (b) and (c) indicate the time window where the energy of the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "1353-1417"
+text = "initially occupied channel crosses with the doublon on site j = 0"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "1420-1449"
+text = "(f)-(j) Analogous plots around"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "1451-1465"
+text = "U ∼ 38 J =  U 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "186"
+chars = "1474-1544"
+text = "γ (0) = 0 . 6 π with two particles initially on sites j = − 1 and j = 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "1551-1564"
+text = "U = 36 J < U 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "1567-1593"
+text = "long-lived doublons form in"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "1598-1661"
+text = "the left half of the system, but this is strongly suppressed for"
+
+[[blocks]]
+sections = ["truth"]
+lines = "186"
+chars = "1663-1676"
+text = "U = 40 J > U 2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "186"
+chars = "1682-1726"
+text = "J J J J<br> = 28  = 30  = 36  = 40<br>U U U U"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "1-180"
+text = "For intermediate interaction strength (20 _J_ ≲ _U_ ≲ 40 _J_ ), the left- and right-moving parts exhibit distinct behaviors, giving rise to unequal left- and right-flowing currents"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "241-283"
+text = "several sharp changes in the pumped charges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "286-314"
+text = "marked by the dotted lines at"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "317-352"
+text = "U_ 1 _≈_ 29 _J_ and _U_ 2 _≈_ 38 _J_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "365-426"
+text = "As we will argue below, these abrupt changes are caused by the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "428-463"
+text = "closing of specific doublon channels"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "1-120"
+text = "In Fig. 4(a)-(e), we focus on the first sharp change at around _U_ 1 _≈_ 29 _J_ , at which _Q_[¯] _R_ markedly increases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "132-201"
+text = "minimal setup with two particles starting on sites _j_ = 0 and _j_ = 2"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "204-226"
+text = "Figure 4(a) depicts the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "228-264"
+text = "total energy of the relevant channels"
+
+[[blocks]]
+sections = ["problem"]
+lines = "193"
+chars = "267-448"
+text = "Dotted lines represent the energies of pairs of singlons at sites _j_ and _j_ +2 and solid lines represent the total energy of doublon states when both particles occupy the same site"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "460-491"
+text = "for _U < U_ 1, these lines cross"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "507-541"
+text = "during the pump cycle such that the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "543-580"
+text = "pumping can convert a pair of singlons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "1-230"
+text = "into a doublon. Figures 4(b) and (c) show the time evolution of the particle _nj_ and doublon densities _dj_ , with the red boxes highlighting the shaded time window from (a). Figure 4(c) clearly shows that during the shaded time,"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "232-265"
+text = "a doublon can form on site _j_ = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "268-425"
+text = "This doublon then persists on that site for about one pumping period, as it can only dissociate at the next crossing of these levels one pumping period later."
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "427-530"
+text = "For _U > U_ 1, in contrast, the relevant levels do not cross anymore, and this doublon channel is closed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "550-591"
+text = "doublon formation gets strongly suppressed"
+
+[[blocks]]
+sections = ["truth"]
+lines = "195"
+chars = "661-789"
+text = "In the many-body case, the closing of this channel directly coincides with the marked increase in _Q_[¯] _R_ shown in the Fig. 3."
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "1-43"
+text = "An analogous effect can be found around the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "45-89"
+text = "second line in Fig. 3 at _U ∼_ 38 _J_ = _U_ 2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "197"
+chars = "92-189"
+text = "again using a minimal two-particle model, see Fig. 4(f)-(j). Here, the relevant channels are again"
+
+[[blocks]]
+sections = ["problem"]
+lines = "197"
+chars = "191-227"
+text = "two singlons on sites _j_ and _j_ + 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "230-246"
+text = "but in this case,"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "248-317"
+text = "their energies cross with that of a doublon on the middle site _j_ + 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "197"
+chars = "320-348"
+text = "For _U_ ≲ _U_ 2, we again ob-"
+
+[[blocks]]
+sections = ["problem"]
+lines = "202"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "206"
+chars = "388-431"
+text = "= 0<br>U<br>J<br> = 4<br>U<br>J<br> = 8<br>U"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "1-108"
+text = "Figure 5: Illustration of the asymmetry in the stability of the doublon pump depending on its initial energy"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "209"
+chars = "115-182"
+text = "time evolution of the density is plotted for different values of _U_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "209"
+chars = "184-231"
+text = ": _U_ = 0, _U_ = 4 _J_ , and _U_ = 8 _J_ . Here,"
+
+[[blocks]]
+sections = ["problem"]
+lines = "209"
+chars = "233-286"
+text = "two particles are initially placed at the central site"
+
+[[blocks]]
+sections = ["problem"]
+lines = "209"
+chars = "298-384"
+text = "initial values of _γ_ (0) = 1 _._ 2 _π_ (a-c), 0 _._ 8 _π_ (e-g), and 0 _._ 4 _π_ (i-k)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "209"
+chars = "386-429"
+text = "that correspond to the energies belonging to"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "209"
+chars = "431-496"
+text = "lower ( _C_ = 1) middle ( _C_ = _−_ 2), and upper ( _C_ = 1) bands"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "499-574"
+text = "respectively, for _U_ = 0. We see that, in the presence of interactions, the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "576-682"
+text = "pumping of doublons in the lowest band remains stable, whereas it is unstable for the middle and upper band"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "209"
+chars = "685-1048"
+text = "To explain the presence or absence of stability in each case, we plot the energy channels formed by local doublon (solid lines) and singlon (dotted lines) states in (d), (h), and (l) for the parameters considered in (c), (g) and (k) respectively. The arrows represent the path followed by the initial state during the evolution. In the first case (lower band), the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "1050-1120"
+text = "doublon successfully adiabatically moves from one site to the next site"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "1122-1193"
+text = "via a singlon state. In the other two cases (middle and upper band), the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "209"
+chars = "1195-1272"
+text = "dynamics becomes non-adiabatic and the doublon fails to move to the other site"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "11-74"
+text = "formation of doublons that typically live for one pumping period"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "85-180"
+text = "pumping behavior changes drastically once the doublon channel becomes inaccessible for _U > U_ 2"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "213"
+chars = "1-28"
+text = "In both discussed cases, the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "213"
+chars = "30-96"
+text = "doublon forms from two particles that are next-to-nearest neighbors"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "213"
+chars = "98-147"
+text = "and the channels differ by where the doublon forms"
+
+[[blocks]]
+sections = ["truth"]
+lines = "215"
+chars = "1-87"
+text = "other channels starting from nearest neighbors or particles even further apart, but the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "215"
+chars = "89-179"
+text = "closing of those channels does not give rise to significant signatures in the manybody case"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "217"
+chars = "10-36"
+text = "PUMPING OF A SINGLE DOUBLON"
+
+[[blocks]]
+sections = ["problem"]
+lines = "219"
+chars = "1-89"
+text = "In order to further analyze the differences between the different bands, we now move to a"
+
+[[blocks]]
+sections = ["problem"]
+lines = "219"
+chars = "91-147"
+text = "minimal model and explore the pumping of a single doublon"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "219"
+chars = "150-217"
+text = "While the singleparticle band structure is fully symmetric in energy"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "219"
+chars = "220-278"
+text = "with the top and bottom _C_ = 1 bands behaving identically,"
+
+[[blocks]]
+sections = ["truth"]
+lines = "219"
+chars = "280-395"
+text = "finite interactions break this symmetry and give rise to different behaviors for a doublon in the top or bottom band"
+
+[[blocks]]
+sections = ["problem"]
+lines = "219"
+chars = "401-496"
+text = "initialize a doublon on a site corresponding to the desired band by tuning the initial phase _γ_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "219"
+chars = "498-541"
+text = "and study the resulting pumping dynamics for"
+
+[[blocks]]
+sections = ["problem"]
+lines = "219"
+chars = "543-582"
+text = "different repulsive interactions _U ≥_ 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "219"
+chars = "585-700"
+text = "see Fig. 5, where the left, middle, and right columns correspond to the lower, middle, and upper bands, respectively"
+
+[[blocks]]
+sections = ["truth"]
+lines = "221"
+chars = "1-49"
+text = "In the non-interacting case [Fig. 5 (a,e,i)], the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "221"
+chars = "51-163"
+text = "two particles are always pumped independently but identically and hence naturally remain together during the pump"
+
+[[blocks]]
+sections = ["truth"]
+lines = "221"
+chars = "166-189"
+text = "irrespective of the band"
+
+[[blocks]]
+sections = ["truth"]
+lines = "221"
+chars = "192-305"
+text = "The very slight broadening of the left moving cloud stems from the bare tunneling and is also visible in Fig. 2(a)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "1-143"
+text = "In the interacting cases, in contrast, there is a significant difference between the lowest band [Fig. 5 (b,c)] and the other two bands. In the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "145-283"
+text = "lowest band, the interactions have, for the chosen pump speed, no influence on the pumping and the two particles are always pumped together"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "293-410"
+text = "middle and higher bands, in contrast, the interactions can lead to a dissociation of the doublon and to backscattering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "419-518"
+text = "one particle gets scattered into a lower band and subsequently is pumped into the opposite direction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "223"
+chars = "521-655"
+text = "Interestingly, this asymmetry can lead to a decrease in total energy in this pumped many-body system and is discussed further in Sec. V"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "225"
+chars = "1-104"
+text = "Similar to the previous discussion, this difference between the bands can be understood by analyzing the"
+
+[[blocks]]
+sections = ["problem"]
+lines = "225"
+chars = "106-169"
+text = "energy channels utilized by the two particles during the pumping"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "225"
+chars = "172-205"
+text = "shown at the bottom of Fig. 5. The"
+
+[[blocks]]
+sections = ["problem"]
+lines = "225"
+chars = "207-252"
+text = "initial state, i.e., a doublon on site _j_ = 0"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "225"
+chars = "255-582"
+text = "is denoted by the green line. For the lowest band [Fig. 5(d)], the doublon state first becomes resonant with the state of two neighboring single particles at sites _j_ = 0 and 1, plotted as the red dotted line. This state subsequently becomes resonant with the doublon state at site _j_ = 1 (blue). For that given pumping speed,"
+
+[[blocks]]
+sections = ["truth"]
+lines = "225"
+chars = "584-655"
+text = "these two transitions are adiabatic and hence the doublon remains intact"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "1-105"
+text = "For a doublon in the middle band, in contrast, the situation is reversed, and the doublon on site _j_ = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "107-166"
+text = "directly becomes resonant with a doublon on site _j_ = _−_ 1"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "227"
+chars = "169-302"
+text = "see the Fig. 5(h). Therefore, the transition is not a sequence of two single-particle transitions but a direct two-particle transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "305-337"
+text = "Since this is not fully adiabatic"
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "340-414"
+text = "a fraction of the doublon initially remains at site _j_ = 0 and then subse-"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "232"
+text = "![](.figures/arxiv__2601.18229/2601.18229.pdf-0007-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "236"
+text = "U = 0 U = 2 J U = 4 J U = 8 J<br>U = 16 J U = 28 J U = 50 J<br>( a ) 4<br>2<br>0<br>0 1 2 3<br>( b )<br>3<br>2<br>1<br>0<br>0 1 2 3<br>t/T<br>/J<br>E N<br> d ∑P ii<br>=<br>D<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "239"
+chars = "11-103"
+text = "Time evolution of (a) total energy and (b) total doublon number starting from a product state"
+
+[[blocks]]
+sections = ["problem"]
+lines = "239"
+chars = "119-186"
+text = "with _N_ = 7 particles and ∆= 15 _J_ , averaged over 40 realizations"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "239"
+chars = "189-265"
+text = "For the non-interacting ( _U_ = 0) and hardcore boson( _U/J_ = 50) cases, the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "267-301"
+text = "energy remains essentially constant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "304-422"
+text = "while it initially increases in the presence of finite repulsive interactions. Interestingly, for all interactions, the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "424-465"
+text = "total energy eventually starts to decrease"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "467-529"
+text = "and, for weaker interactions ( _U_ = 2 _J_ , 4 _J_ and 6 _J_ ),"
+
+[[blocks]]
+sections = ["truth"]
+lines = "239"
+chars = "531-598"
+text = "decreases below the initial energy already during the simulated time"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "9-50"
+text = "dissociates into two neighboring particles"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "83-123"
+text = "one now belongs to the lower _C_ = 1 band"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "126-235"
+text = "This changes the total energy and, since the lower band is pumped in the opposite direction, gives rise to the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "237-259"
+text = "observed backscattering"
+
+[[blocks]]
+sections = ["truth"]
+lines = "241"
+chars = "262-501"
+text = "The same mechanism applies to the upper band (right column). Based on our data and analysis, we expect that in a many-body system this process of dissociation of doublons continues until there are no doublons left in higher bands, see below"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "243"
+chars = "1-249"
+text = "We note that for attractive interactions, _U <_ 0, the situation changes as the doublon states are shifted downwards in energy instead of upwards. This changes the order of the level crossings in the Fig. 5(d), (h) and (l). As a consequence, now the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "243"
+chars = "251-360"
+text = "doublon pump in the upper band becomes stable while isolated doublons in the middle and lower bands dissociate"
+
+[[blocks]]
+sections = ["truth"]
+lines = "243"
+chars = "362-418"
+text = "during the pump, transmitting particles to the band above"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "243"
+chars = "421-572"
+text = "This occurs because for interaction _U →−U_ and phase _γ_ ( _t_ ) _→ γ_ ( _t_ ) + _π_ , the energy channels become mirror reflections about zero _E →−E_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "245"
+chars = "9-20"
+text = "ENERGY DECAY"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "247"
+chars = "1-71"
+text = "In a periodically driven isolated many-body system one normally expects"
+
+[[blocks]]
+sections = ["truth"]
+lines = "247"
+chars = "73-87"
+text = "Floquet heating"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "247"
+chars = "88-150"
+text = ", meaning that its total energy will generically rise with time"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "247"
+chars = "161-216"
+text = "as the system absorbs energy from the drive and heats up"
+
+[[blocks]]
+sections = ["truth"]
+lines = "249"
+chars = "1-23"
+text = "contrast, we observe an"
+
+[[blocks]]
+sections = ["truth"]
+lines = "249"
+chars = "25-44"
+text = "unusual energy decay"
+
+[[blocks]]
+sections = ["truth"]
+lines = "249"
+chars = "47-194"
+text = "Examples of this energy decay are shown in Fig. 6(a) and highlight that for intermediate interaction strength, _U_ = 2 _J_ , 4 _J_ , and 8 _J_ , the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "249"
+chars = "196-232"
+text = "energy drops below the initial energy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "249"
+chars = "234-268"
+text = "already on the simulated timescales"
+
+[[blocks]]
+sections = ["truth"]
+lines = "249"
+chars = "271-503"
+text = "These timescales match the times for the decay of the initially created doublons shown in Fig. 6(b), demonstrating that the underlying microscopic mechanism is directly related to the decay of individual doublons discussed in Sec. IV"
+
+[[blocks]]
+sections = ["truth"]
+lines = "251"
+chars = "1-40"
+text = "Starting from the initial product state,"
+
+[[blocks]]
+sections = ["truth"]
+lines = "251"
+chars = "42-79"
+text = "bare tunneling generates some doublons"
+
+[[blocks]]
+sections = ["truth"]
+lines = "251"
+chars = "81-196"
+text = "during the first tunneling times [63], as shown in Fig. 6(b), accompanied by an initial increase in the total energy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "251"
+chars = "266-320"
+text = "doublons in higher bands are unstable under the pumping"
+
+[[blocks]]
+sections = ["truth"]
+lines = "251"
+chars = "323-385"
+text = "and will dissociate with one particle ending up in a lower band"
+
+[[blocks]]
+sections = ["truth"]
+lines = "251"
+chars = "405-436"
+text = "total energy gradually decreases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "251"
+chars = "438-476"
+text = "until no doubons remain in higher bands"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "255"
+chars = "1-105"
+text = "In conclusion, we explored the effect of interactions on the Thouless pump in a quasiperiodic system, the"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "255"
+chars = "107-155"
+text = "AubryAndr´e model with on-site interacting bosons"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "255"
+chars = "158-445"
+text = "The time period and the strength of the quasiperiodic potential were chosen such that the two first-order gaps in the single-particle spectrum constitute the relevant energy scale. In the non-interacting limit, this leads to quantized charge pumping in the three first-order subbands with"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "255"
+chars = "447-481"
+text = "Chern numbers _C_ = 1, _−_ 2, and 1"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "1-16"
+text = "We find that the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "18-103"
+text = "pumped charge starts to deviate from the quantized value already for weak interactions"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "257"
+chars = "106-252"
+text = "This result is in sharp contrast with studies of the noninteracting pump in the presence of disorder, where the pump is extraordinarily robust [12]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "255-382"
+text = "For intermediate interactions we identified discrete doublon channels that significantly influence the pumped charge, leading to"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "384-437"
+text = "sharp changes at the points where these channels close"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "257"
+chars = "440-585"
+text = "At very large interaction strengths, where doublon formation is strongly suppressed, the system enters into the regime of hard-core bosons and the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "257"
+chars = "587-613"
+text = "quantized pump is recovered"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "1-197"
+text = "Finally, we demonstrated an interesting asymmetry where the dynamics of an isolated doublon under the pump depends on its initial energy and the sign of the interaction. For repulsive interactions,"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "199-243"
+text = "doublons in the lowest band are pumped stably"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "246-286"
+text = "In the higher two bands, in contrast, the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "288-353"
+text = "doublon pump breaks down in the presence of repulsive interactions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "364-423"
+text = "doublon dissociates by emitting a particle into a lower band"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "426-456"
+text = "This gives rise to a surprising"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "458-481"
+text = "decrease in total energy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "484-605"
+text = "contrary to the typical expectation of Floquet heating. For attractive interactions, the role of the bands is reversed and"
+
+[[blocks]]
+sections = ["truth"]
+lines = "259"
+chars = "607-652"
+text = "particles get transferred towards higher bands"
+
+[[blocks]]
+sections = ["method"]
+lines = "395"
+chars = "79-99"
+text = "matrix product states"
+
+[[blocks]]
+sections = ["method"]
+lines = "397"
+chars = "116-136"
+text = "matrix-product states"
+
+[[blocks]]
+sections = ["software"]
+lines = "399"
+chars = "60-115"
+text = "ITensor Software Library for Tensor Network Calculations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "419"
+chars = "73-81"
+text = "Breakdown"
+
+[[blocks]]
+sections = ["problem"]
+lines = "419"
+chars = "86-152"
+text = "bosonic thouless pump due to interaction in a quasiperiodic lattice"

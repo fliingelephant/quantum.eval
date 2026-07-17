@@ -1,0 +1,1652 @@
+# Partition layer for papers/2512.14065 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-52"
+text = "Integrability Breaking and Coherent Dynamics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "13"
+chars = "3-46"
+text = "Integrability Breaking and Coherent Dynamics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "23"
+chars = "374-442"
+text = "level-spacing statistics, Krylov complexity, and entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "523-568"
+text = "transition from integrability to quantum chaos"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "630-697"
+text = "crossover from Poissonian to Gaussian Orthogonal Ensemble statistics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "856-918"
+text = "tower of exact nonthermal eigenstates that evade thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "23"
+chars = "945-1024"
+text = "robust quantum many-body scars, retaining low entanglement and coherent dynamics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "5-48"
+text = "Integrability Breaking and Coherent Dynamics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "33"
+chars = "372-440"
+text = "level-spacing statistics, Krylov complexity, and entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "518-563"
+text = "transition from integrability to quantum chaos"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "622-689"
+text = "crossover from Poissonian to Gaussian Orthogonal Ensemble statistics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "848-910"
+text = "tower of exact nonthermal eigenstates that evade thermalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "33"
+chars = "937-1016"
+text = "robust quantum many-body scars, retaining low entanglement and coherent dynamics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "41"
+chars = "76-102"
+text = "complex spacing ratio (CSR)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "356-397"
+text = "universal integrability-breaking mechanism"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "449-529"
+text = "clear transition from Poissonian to Gaussian Orthogonal Ensemble (GOE) statistics"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "43"
+chars = "594-655"
+text = "analogous crossover characterized by CSR and Krylov complexity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "684-721"
+text = "tower of exact, nonthermal eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "43"
+chars = "833-899"
+text = "retain low entanglement and give rise to coherent fidelity revivals"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "227-316"
+text = "mapping the integrability-to-chaos transition using level statistics and Krylov complexity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "45"
+chars = "323-403"
+text = "identifies the persistence of scars through entanglement and fidelity diagnostics"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "45"
+chars = "468-536"
+text = "employing CSR and dynamical measures to confirm a parallel transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "51"
+chars = "9-35"
+text = "survival of the scar states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "55"
+chars = "383-449"
+text = "tower of many-body scar states residing in arbitrary energy sectors"
+
+[[blocks]]
+sections = ["problem"]
+lines = "58"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "61"
+chars = "107-395"
+text = "The coefficients _Jh_ , _Jc_ , _Jz_ , and _Jn_ characterize the relative strength and phase of the corresponding processes. Their complex nature implies that the Hermiticity of the full Hamiltonian is not guaranteed and depends sensitively on microscopic control parameters. The first term"
+
+[[blocks]]
+sections = ["problem"]
+lines = "64"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "67"
+chars = "1-191"
+text = "represents the spin-1 Heisenberg exchange interaction. At each lattice site _j_ the spin operators **S** _j_ = ( _Sj[x][, S] j[y][, S] j[z]_[)][ satisfy the] usual SU(2) commutation relations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "70"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "76"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-10.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "82"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "85"
+chars = "1-93"
+text = "In the _S[z]_ -basis the single-site eigenstates are labeled by _mj ∈ {_ +1 _,_ 0 _, −_ 1 _}_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "88"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-14.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "94"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-16.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "102"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-19.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "110"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-22.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "1-79"
+text = "represents a long-range spin-exchange process with hopping distance _n_ , where"
+
+[[blocks]]
+sections = ["problem"]
+lines = "116"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0002-24.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "119"
+chars = "1-150"
+text = "under periodic boundary conditions (PBC). The term _Hn_ naturally arises in systems with long-range dipole–dipole or spin– orbit-mediated interactions"
+
+[[blocks]]
+sections = ["problem"]
+lines = "125"
+chars = "69-129"
+text = "Each term in _H_ commutes with the total magnetization _S[z]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "132"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0003-02.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "138"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "1-944"
+text = "We will often parametrize a sector by the number of spinlowering operations _p_ relative to the fully polarized state (see below), so that _M_ = _N − p_ , where _p_ = 0 _,_ 1 _,_ 2 _, ...,_ 2 _N_ . (ii) Lattice translation symmetry: Assuming uniform couplings and PBC, the Hamiltonian is invariant under the one-site translation operator _T_ . Hence, crystal momentum _k_ is a good quantum number, and each sector _HM_ further splits into _HM_ =[�] _k[H][M,k]_[,][where] _[T][|][ψ][M,k][⟩]_[=] _[e][ik][ |][ψ][M,k][⟩]_[.][(iii)] Global SU(2) symmetry: The Heisenberg term _Hh_ and the chiral term _Hc_ are rotational scalars, satisfying [ **S**[2] _, Hh/c_ ] = 0 and [ _S[α] , Hh/c_ ] = 0 ( _α_ = _x, y_ ) [15, 51]. However, the subgroup generated by _S[z]_ an term _Hz_ and the nonlocal term _Hn_ break the full SU(2) symmetry down to the _U_ (1) . Consequently, the total spin **S**[2] is not a conserved quantity for the generic Hamiltonian."
+
+[[blocks]]
+sections = ["problem"]
+lines = "148"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "151"
+chars = "1-515"
+text = "where _M_ (total _S[z]_ ) and _k_ (crystal momentum) are exact quantum numbers for the full Hamiltonian defined above. If additionally _Jz_ = _Jn_ = 0 (pure SU(2)-symmetric point), each ( _M, k_ ) block further decomposes into irreducible SU(2) multiplets labeled by total spin _S_ tot (eigenvalues of **S**[2] ). If _Jc_ = 0 and all coefficients are real, spatial parity may also be a symmetry and can be used to refine the block decomposition; the presence of _Hc_ usually removes parity as a good quantum number."
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "155"
+chars = "40-101"
+text = "it possesses an exactly solvable tower of ferromagnetic states"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "158"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0003-12.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "161"
+chars = "46-129"
+text = "We can find their eigenenergies by evaluating the action of each term on this tower."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "163"
+chars = "1-759"
+text = "Because _Hh_ and _Hc_ are rotational scalars, they commute with _S[−]_ and thus act invariantly on the entire tower, yielding _Hh |ψ_ ( _N, N − p_ ) _⟩_ = _N |ψ_ ( _N, N − p_ ) _⟩_ and _Hc |ψ_ ( _N, N − p_ ) _⟩_ = 0 for all _p_ . The Zeeman term acts as _Hz |ψ_ ( _N, N − p_ ) _⟩_ = ( _N − p_ ) _|ψ_ ( _N, N − p_ ) _⟩_ , which follows from [ _S[z] ,_ ( _S[−]_ ) _[p]_ ] = _−p_ ( _S[−]_ ) _[p]_ . Finally, the nonlocal term _Hn_ annihilates every state in the tower, _Hn |ψ_ ( _N, N − p_ ) _⟩_ = 0. This arises because _|ψ_ ( _N, N − p_ ) _⟩_ is the _k_ = 0 (totally symmetric) _p_ -magnon state, and the antisymmetric structure of the _Hn_ operator [Eq. (11)] results in a vanishing eigenvalue for this uniform superposition (see Appendix A for more details)."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "168"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0003-16.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "171"
+chars = "1-246"
+text = "This tower of exact states spans all magnetization sectors _M_ = _N − p_ , featuring an energy spectrum that varies linearly with _M_ . Remarkably, these states remain robust even in the presence of the non-integrable interactions _Hc_ and _Hn_ ."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "173"
+chars = "1-831"
+text = "Here two points should be highlighted: 1. The crucial property that makes the states Eq. (16) exactly solvable is that they are the totally symmetric (zero-momentum) multiplet generated from the highest-weight state _|⇑⟩_ . Any Hamiltonian that (i) acts as a scalar on this multiplet (e.g. SU(2)-invariant twoand three-spin scalar operators) and (ii) annihilates the uniform magnon superposition (as _Hn_ does in the antisymmetric form above) will preserve the tower. 2. If one perturbs the model by terms that break translation invariance (disorder) or introduce momentum-dependent hopping that does not annihilate the _k_ = 0 magnon, the tower generically hybridizes with other states and ceases to be exact; nevertheless, for sufficiently weak perturbations the tower may survive as long-lived scarred eigenstates (quasi-exact)."
+
+[[blocks]]
+sections = ["problem"]
+lines = "175"
+chars = "224-315"
+text = "For simplicity, in the subsequent analysis, we focus on the case with a single _n_ = 3 term."
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "180"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0004-01.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "184"
+chars = "190-197"
+text = "ln( Jn )"
+
+[[blocks]]
+sections = ["problem"]
+lines = "187"
+chars = "9-99"
+text = "Dependence of the average level spacing ratio _⟨r⟩_ on the nonlocal hopping strength _Jn_ ."
+
+[[blocks]]
+sections = ["problem"]
+lines = "187"
+chars = "146-216"
+text = "parameters ( _Jh, Jc, Jz, n_ ) = (1 _,_ 1 _,_ 0 _._ 5 _,_ 3) under PBC."
+
+[[blocks]]
+sections = ["truth"]
+lines = "187"
+chars = "259-380"
+text = "clear transition from an integrable regime to a chaotic one, and eventually reenters the integrable regime at large _Jn_ ."
+
+[[blocks]]
+sections = ["problem"]
+lines = "187"
+chars = "406-510"
+text = "system size of _N_ = 12, within the ( _M, k_ ) = (0 _,_ 0) subspace whose Hilbert-space dimension is 6166"
+
+[[blocks]]
+sections = ["problem"]
+lines = "189"
+chars = "9-87"
+text = "Phase diagram in the plane of chiral coupling _Jc_ and nonlocal coupling _Jn_ ."
+
+[[blocks]]
+sections = ["problem"]
+lines = "189"
+chars = "113-194"
+text = "mean level-spacing ratio _⟨r⟩_ computed within the _HM_ =0 _,k_ =0 symmetry sector"
+
+[[blocks]]
+sections = ["truth"]
+lines = "189"
+chars = "245-408"
+text = "system remains integrable when either _Jc_ or _Jn_ is weak, whereas clear signatures of quantum chaos appear only when both couplings become comparable in magnitude"
+
+[[blocks]]
+sections = ["problem"]
+lines = "189"
+chars = "432-503"
+text = "system size _N_ = 12, corresponding to a Hilbert-space dimension of 6166"
+
+[[blocks]]
+sections = ["truth"]
+lines = "191"
+chars = "35-69"
+text = "QUANTUM SCAR IN THE HERMITIAN LIMIT"
+
+[[blocks]]
+sections = ["truth"]
+lines = "193"
+chars = "31-52"
+text = "intrgrablity and chaos"
+
+[[blocks]]
+sections = ["problem"]
+lines = "195"
+chars = "194-393"
+text = "We focus on the case where all coupling constants _Jh_ , _Jc_ , and _Jn_ are real. In this regime, the Hamiltonian remains Hermitian, allowing us to quantify integrability through spectral statistics."
+
+[[blocks]]
+sections = ["problem"]
+lines = "197"
+chars = "14-288"
+text = "we analyze the nearest-neighbor level spacings of the Hamiltonian eigenenergies. Denoting the ordered spectrum as _{Ei}_ , we define the level spacing as _si_ = _Ei_ +1 _− Ei_ . The statistical distribution of _{si}_ serves as a powerful diagnostic for quantum integrability."
+
+[[blocks]]
+sections = ["problem"]
+lines = "200"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0004-08.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "203"
+chars = "154-211"
+text = "Poisson distribution, yielding _⟨r⟩_ Poisson _≈_ 0 _._ 386"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "203"
+chars = "300-380"
+text = "Wigner-Dyson statistics, where _⟨r⟩_ GOE _≈_ 0 _._ 536 or _⟨r⟩_ GUE _≈_ 0 _._ 603"
+
+[[blocks]]
+sections = ["problem"]
+lines = "208"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0004-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "211"
+chars = "99-212"
+text = "compute the mean spacing ratio _⟨r⟩_ as a function of _Jn_ , within the symmetry-resolved subspace _HM_ =0 _,k_ =0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "258-366"
+text = "crossover from integrability to quantum chaos and then back to near-integrability as _Jn_ increases from zero"
+
+[[blocks]]
+sections = ["problem"]
+lines = "213"
+chars = "103-224"
+text = "phase diagram of the chiral coupling _Jc_ and the nonlocal coupling _Jn_ in terms of the average level spacing ratio _⟨r⟩_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "213"
+chars = "342-426"
+text = "remains in the integrable regime when both coupling parameters _Jc_ and _Jn_ are weak"
+
+[[blocks]]
+sections = ["truth"]
+lines = "213"
+chars = "467-533"
+text = "gradually transitions from an integrable to a non-integrable regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "213"
+chars = "646-700"
+text = "system still exhibits non-integrable (chaotic) behavior"
+
+[[blocks]]
+sections = ["truth"]
+lines = "213"
+chars = "867-1106"
+text = "For _Jn_ = 0, the Hamiltonian _H_ 0 corresponds to an integrable model, as evidenced by the Poissonian level-spacing statistics. Introducing a finite, yet small, _Jn_ breaks integrability and drives the system toward the Wigner–Dyson regime"
+
+[[blocks]]
+sections = ["truth"]
+lines = "215"
+chars = "64-160"
+text = "weak nonlocal perturbations generate scar-like coherent dynamics in an otherwise chaotic spectrum"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "220"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "224"
+chars = "1-243"
+text = "1.0<br>Possion 1.5<br>0.8<br>1.0<br>0.6<br>0.4<br>0.5<br>0.2<br>0.0<br>0.0<br>0 2 4 0 2 4 6<br>s lg( t )<br>0.8<br>GOE 1.5<br>0.6<br>1.0<br>0.4<br>0.5<br>0.2<br>0.0<br>0.0<br>0 2 4 0 2 4 6<br>s lg( t )<br>)( s )( tK<br>P C<br>)( s )( tK<br>P C"
+
+[[blocks]]
+sections = ["problem"]
+lines = "227"
+chars = "9-248"
+text = "Distribution of nearest-neighbor level spacings and the corresponding average ratio _⟨r⟩_ for the central part of the spectrum, together with the time evolution of the Krylov complexity of _HM_ =0 _,k_ =0 under periodic boundary conditions."
+
+[[blocks]]
+sections = ["problem"]
+lines = "227"
+chars = "282-342"
+text = "parameters ( _Jh, Jc, Jz, n_ ) = (1 _,_ 1 _,_ 0 _._ 5 _,_ 3)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "348-463"
+text = "_Jn_ = 0, panel (a) shows a Poissonian level-spacing distribution with _⟨r⟩≈_ 0 _._ 392, indicative of integrability"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "227"
+chars = "470-583"
+text = "panel (b) displays the Krylov complexity, which rapidly rises and saturates—characteristic of integrable dynamics."
+
+[[blocks]]
+sections = ["truth"]
+lines = "227"
+chars = "589-731"
+text = "_Jn_ = 0 _._ 2, panel (c) exhibits a Gaussian-orthogonalensemble (GOE) distribution with _⟨r⟩≈_ 0 _._ 529, signaling the onset of quantum chaos"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "227"
+chars = "740-880"
+text = "panel (d) shows a non-monotonic evolution of the Krylov complexity—initial growth, decay, and eventual saturation—typical of chaotic systems."
+
+[[blocks]]
+sections = ["problem"]
+lines = "227"
+chars = "1049-1204"
+text = "Panels (a) and (c) correspond to a system size of _N_ = 14 (Hilbert-space dimension 44046), while panels (b) and (d) correspond to _N_ = 10 (dimension 902)."
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "229"
+chars = "327-385"
+text = "iterative applications of _H_ followed by orthogonalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "231"
+chars = "1-67"
+text = "The bi-Lanczos algorithm maps the time evolution of a quantum state"
+
+[[blocks]]
+sections = ["method"]
+lines = "233"
+chars = "1-70"
+text = "diagnostic tool to distinguish between integrable and chaotic regimes."
+
+[[blocks]]
+sections = ["method"]
+lines = "235"
+chars = "1-154"
+text = "To construct the Krylov basis for a non-Hermitian Hamiltonian _H_ , one introduces two sets of biorthogonal basis vectors _{|qn⟩}_ and _{|pn⟩}_ satisfying"
+
+[[blocks]]
+sections = ["method"]
+lines = "238"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "242"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0005-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "245"
+chars = "1-89"
+text = "The subsequent Krylov vectors are generated recursively through the bi-Lanczos iteration:"
+
+[[blocks]]
+sections = ["method"]
+lines = "248"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0005-10.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "252"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0005-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "255"
+chars = "1-126"
+text = "where the coefficients _an_ , _bn_ , and _cn_ are determined so that the biorthogonality condition is maintained at each step."
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "257"
+chars = "1-82"
+text = "In this Krylov representation, the time-dependent wave function can be expanded as"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "260"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0005-14.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "263"
+chars = "1-270"
+text = "where _ϕn_ ( _t_ ) = _⟨pn|ψ_ ( _t_ ) _⟩_ denotes the projection of the evolving state onto the _n_ -th Krylov vector. The amplitudes _ϕn_ ( _t_ ) satisfy a discrete Schr¨odinger-like equation that resembles a single-particle tight-binding model on a semi-infinite chain:"
+
+[[blocks]]
+sections = ["method"]
+lines = "266"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0005-16.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "269"
+chars = "1-304"
+text = "Here _{an, bn, cn}_ are the Lanczos coefficients obtained from the bi-Lanczos recursion described in Appendix B 1. This recurrence relation is mathematically equivalent to a tightbinding chain where _an_ represents on-site energies and _bn_ , _cn_ denote the hopping amplitudes between neighboring sites."
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "271"
+chars = "1-92"
+text = "Once the coefficients _ϕn_ ( _t_ ) are obtained, the Krylov complexity is defined as [59–63]"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "274"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0005-19.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "277"
+chars = "1-143"
+text = "which quantifies the spread of the quantum state in the Krylov space, i.e., how far the evolved state has propagated along the effective chain."
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "279"
+chars = "126-444"
+text = "In integrable systems, _CK_ ( _t_ ) rapidly saturates to a steady plateau, reflectingquasi-periodicandrestricted motioninKrylovspace. In contrast, for chaotic systems, _CK_ ( _t_ ) exhibits a rapid initial growth followed by saturation at a much higher value, signaling extensive spreading across the Krylov basis [60]."
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "281"
+chars = "7-320"
+text = "within the subspace ( _M, k_ ) = (0 _,_ 0), we compute the Krylov complexity for various values of _Jn_ , using as the initial state the equal-weight linear superposition of the eigenstates of the Hermitian matrix obtained by taking the lower-triangular part of the Hamiltonian and restricting it to this subspace."
+
+[[blocks]]
+sections = ["truth"]
+lines = "281"
+chars = "364-448"
+text = "for _Jn_ = 0, the Krylov complexity quickly reaches a steady plateau, consistent with"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "286"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0006-01.png)"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "290"
+chars = "1-57"
+text = "6<br>5<br>4<br>3<br>2<br>− 20 − 10 0 10 17<br>E<br>A<br>S"
+
+[[blocks]]
+sections = ["problem"]
+lines = "293"
+chars = "9-204"
+text = "Von Neumann entanglement entropy, computed using Eq. (30), for a system of size _N_ = 12 under periodic boundary conditions (PBC) with parameters ( _Jh, Jc, Jz, n_ ) = (1 _,_ 1 _,_ 0 _._ 5 _,_ 3)."
+
+[[blocks]]
+sections = ["problem"]
+lines = "293"
+chars = "206-399"
+text = "Within the ( _M, k_ ) = (0 _,_ 0) subspace (Hilbert-space dimension is 6166), the entanglement entropies of all eigenstates are plotted for _Jn_ = 0 (blue dots) and _Jn_ = 0 _._ 2 (red circles)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "293"
+chars = "426-605"
+text = "persistence of a low-entanglement state in the lower-right region (an orange circle) across the integrable-to-chaotic transition, indicating its robustness as a quantum scar state."
+
+[[blocks]]
+sections = ["truth"]
+lines = "295"
+chars = "78-146"
+text = "pronounced growth before saturation, indicative of chaotic evolution."
+
+[[blocks]]
+sections = ["problem"]
+lines = "298"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0006-04.png)"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "302"
+chars = "1-134"
+text = "1 . 0<br>0 . 8<br>β = 0 . 1<br>0 . 6<br>β = 0 . 5<br>β = 2 . 0<br>0 . 4 N´eel<br>0 . 2<br>0 . 0<br>0 10 20 30<br>t<br>)<br>t<br>(<br>F"
+
+[[blocks]]
+sections = ["problem"]
+lines = "305"
+chars = "9-235"
+text = "Fidelity dynamics of the Hamiltonian _H_ with parameters ( _Jh, Jc, Jz, Jn, n_ ) = (1 _,_ 1 _,_ 0 _._ 5 _,_ 0 _._ 2 _,_ 3) under periodic boundary conditions, for a system size of _N_ = 8 with a Hilbert-space dimension of 6561."
+
+[[blocks]]
+sections = ["truth"]
+lines = "305"
+chars = "313-510"
+text = "clear periodic revivals are observed, indicating that this coherent state, or equivalently, the tower of states defined in Eq. (16), exhibits the characteristic behavior of a quantum many-body scar."
+
+[[blocks]]
+sections = ["truth"]
+lines = "305"
+chars = "525-661"
+text = "when initialized in the N´eel state, the fidelity rapidly decays to zero, signaling fast thermalization and the absence of scar dynamics."
+
+[[blocks]]
+sections = ["problem"]
+lines = "307"
+chars = "1-211"
+text = "compute the bipartite entanglement entropy of each eigenstate _|ψn⟩_ . The system is divided into two subsystems _A_ and _B_ , and for each eigenstate, we construct the reduced density matrix of subsystem _A_ as"
+
+[[blocks]]
+sections = ["problem"]
+lines = "310"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0006-07.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "313"
+chars = "1-47"
+text = "and define the von Neumann entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "315"
+chars = "13-51"
+text = "evidence of the Quantum many-body scars"
+
+[[blocks]]
+sections = ["truth"]
+lines = "317"
+chars = "105-231"
+text = "a set of nonthermal states originating from the tower states _{|ψn_ ( _N, N − p_ ) _⟩}_ can persist deep in the chaotic regime."
+
+[[blocks]]
+sections = ["problem"]
+lines = "319"
+chars = "26-223"
+text = "conservation of the total magnetization _S_ tot _[z]_[=][�] _j[S] j[z]_[divides][the][full][Hilbert][space][into] dynamically disconnected subspaces labeled by the quantum number _M_ = _S_ tot _[z]_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "324"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0006-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "79-173"
+text = "sharp dip corresponding to one particular eigenstate whose entanglement remains anomalously low"
+
+[[blocks]]
+sections = ["truth"]
+lines = "327"
+chars = "294-382"
+text = "tower survives as a scarred subspace even after the system becomes globally nonintegrable"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "329"
+chars = "74-130"
+text = "construct a coherent superposition of the tower states as"
+
+[[blocks]]
+sections = ["problem"]
+lines = "332"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0006-16.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "335"
+chars = "5-53"
+text = "study its fidelity dynamics under time evolution,"
+
+[[blocks]]
+sections = ["problem"]
+lines = "338"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0006-18.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "341"
+chars = "42-173"
+text = "pronounced periodic revivals for several choices of _β_ , signaling coherent oscillations characteristic of quantum many-body scars."
+
+[[blocks]]
+sections = ["problem"]
+lines = "346"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0007-01.png)"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "350"
+chars = "1-256"
+text = "0.1<br>4 4<br>0.10<br>0.0<br>0.05<br>2 2<br>0.1 0.00<br>0 0<br>0.05<br>0.2<br>2 2 0.10<br>0.3<br>0.15<br>4 4<br>0.4 0.20<br>5.0 2.5 0.0 2.5 5.0 5.0 2.5 0.0 2.5 5.0<br>ln[Re( Jn )] ln[Re( Jc )]<br>)] Jn ⟩ ) θ )] Jc ⟩ ) θ<br>cos( cos(<br>⟨ ⟨<br>ln[Im( ln[Im("
+
+[[blocks]]
+sections = ["problem"]
+lines = "353"
+chars = "9-113"
+text = "Phase diagrams of the non-Hermitian spin system under complex coupling parameters (a) _Jn_ and (b) _Jc_ ."
+
+[[blocks]]
+sections = ["truth"]
+lines = "353"
+chars = "141-208"
+text = "the system exhibits an integrable–nonintegrable–integrable crossover"
+
+[[blocks]]
+sections = ["truth"]
+lines = "353"
+chars = "412-508"
+text = "variations in its real part no longer drive a transition between integrable and chaotic behavior."
+
+[[blocks]]
+sections = ["truth"]
+lines = "353"
+chars = "547-603"
+text = "the system remains in the chaotic regime for small _|Jc|_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "353"
+chars = "620-714"
+text = "a sufficiently large imaginary component of _Jc_ suppresses the transition toward integrability"
+
+[[blocks]]
+sections = ["problem"]
+lines = "353"
+chars = "768-873"
+text = "parameters ( _Jh, Jz, n_ ) = (1 _,_ 0 _._ 5 _,_ 3), system size _N_ = 12, and Hilbert-space dimension 6166"
+
+[[blocks]]
+sections = ["problem"]
+lines = "355"
+chars = "1-38"
+text = "product state such as the N´eel state,"
+
+[[blocks]]
+sections = ["problem"]
+lines = "358"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0007-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "1-90"
+text = "shows rapid relaxation and the absence of revival, consistent with generic thermalization."
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "177-302"
+text = "constitute a scarred subspace that preserves coherent revivals even when the surrounding spectrum exhibits chaotic statistics."
+
+[[blocks]]
+sections = ["problem"]
+lines = "365"
+chars = "328-467"
+text = "its eigenvalue spectrum becomes complex. To characterize chaotic behavior in this regime, we employ the complex spacing ratio (CSR) analysis"
+
+[[blocks]]
+sections = ["problem"]
+lines = "368"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0007-08.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "371"
+chars = "121-212"
+text = "By construction, _|λj|_ ⩽ 1, and _λj_ distributes inside the unit disk in the complex plane."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "373"
+chars = "103-178"
+text = "integrable systems exhibit CSR statistics identical to those of uncorrelated"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "376"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0007-11.png)"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "380"
+chars = "1-131"
+text = "(a) 1.0 (b)<br>1.00<br>0.5<br>0.75<br>0.0<br>0.50<br>0.5 0.25<br>1.0 0.00<br>1 0 1 0 10 20<br>Re( λj ) t<br>) λj )( t<br>K<br>Im( C"
+
+[[blocks]]
+sections = ["problem"]
+lines = "383"
+chars = "9-116"
+text = "Spectral distribution and Krylov complexity of the non-Hermitian Hamiltonian _HM_ =0 _,k_ =0 with parameters"
+
+[[blocks]]
+sections = ["problem"]
+lines = "383"
+chars = "170-228"
+text = "Panel (a) shows the complex spacing ratio (CSR) statistics."
+
+[[blocks]]
+sections = ["truth"]
+lines = "383"
+chars = "234-371"
+text = "eigenvalues form a sparse distribution in the complex plane, yielding _⟨_ cos _θj⟩≈−_ 0 _._ 192, characteristic of nonintegrable behavior."
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "383"
+chars = "410-577"
+text = "Krylov complexity dynamics, which exhibits an initial rapid growth followed by decay and eventual saturation, a signature of chaotic evolution in non-Hermitian systems."
+
+[[blocks]]
+sections = ["truth"]
+lines = "383"
+chars = "624-726"
+text = "introduction of a complex-valued long-range coupling _Hn_ drives the system from integrability to chaos"
+
+[[blocks]]
+sections = ["problem"]
+lines = "383"
+chars = "817-936"
+text = "system size _N_ = 14 with Hilbert-space dimension 44046, while panel (b) uses _N_ = 10 with Hilbert-space dimension 902."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "385"
+chars = "23-65"
+text = "chaotic systems follow the Ginibre ensemble"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "390"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0008-01.png)"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "394"
+chars = "1-101"
+text = "6 6<br>5 5<br>4 4<br>3 3<br>2 2<br>20 10 0 10 17 5.0 2.5 0.0 2.5 5.0<br>Re( E ) Im( E )<br>A A<br>S S"
+
+[[blocks]]
+sections = ["problem"]
+lines = "397"
+chars = "9-126"
+text = "Von Neumann entanglement entropy computed using Eq. (30) for the right eigenvectors of _HM_ =0 _,k_ =0 with parameters"
+
+[[blocks]]
+sections = ["problem"]
+lines = "397"
+chars = "182-383"
+text = "The system size is _N_ = 12, and the Hilbert-space dimension is 6166. Panels (a) and (b) show the dependence of the entanglement entropy on the real and imaginary parts of the eigenvalues, respectively."
+
+[[blocks]]
+sections = ["problem"]
+lines = "397"
+chars = "385-514"
+text = "Blue dots correspond to the Hermitian case ( _Jn_ = 0), while red circles represent the non-Hermitian case ( _Jn_ = 0 _._ 2 _i_ )."
+
+[[blocks]]
+sections = ["truth"]
+lines = "397"
+chars = "516-701"
+text = "A common low-entanglement state appears in both parameter regimes (highlighted in orange), demonstrating the robustness of the quantum many-body scar against non-Hermitian perturbations."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "399"
+chars = "79-204"
+text = "approaches _⟨_ cos _θj⟩≈_ 0 for integrable systems and _⟨_ cos _θj⟩≈−_ 0 _._ 24 for chaotic systems in the thermodynamic limit"
+
+[[blocks]]
+sections = ["problem"]
+lines = "401"
+chars = "258-408"
+text = "we calculate the CSR and the related _⟨_ cos _θj⟩_ using Eq. (34) to determine how the integrable and chaotic characteristics vary with _Jc_ and _Jn_ ."
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "403"
+chars = "111-218"
+text = "introducing the complex term _Hn_ converts a Hermitian integrable system into a non-Hermitian chaotic system"
+
+[[blocks]]
+sections = ["problem"]
+lines = "406"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0008-06.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "410"
+chars = "1-134"
+text = "1 . 0<br>0 . 8<br>β = 0 . 1<br>0 . 6<br>β = 0 . 5<br>β = 2 . 0<br>0 . 4 N´eel<br>0 . 2<br>0 . 0<br>0 10 20 30<br>t<br>)<br>t<br>(<br>F"
+
+[[blocks]]
+sections = ["problem"]
+lines = "413"
+chars = "9-64"
+text = "Fidelity dynamics of the Hamiltonian _H_ with parameters"
+
+[[blocks]]
+sections = ["truth"]
+lines = "413"
+chars = "311-507"
+text = "clear periodic revivals are observed, indicating that this coherent state, or equivalently the tower of states defined in Eq. (16), exhibits the characteristic behavior of a quantum many-body scar."
+
+[[blocks]]
+sections = ["truth"]
+lines = "413"
+chars = "522-642"
+text = "for the N´eel state, the fidelity decays rapidly to zero, signaling fast thermalization and the absence of scar dynamics."
+
+[[blocks]]
+sections = ["problem"]
+lines = "417"
+chars = "56-148"
+text = "allowing the coupling _Jn_ to take complex values, while keeping _Jh_ , _Jc_ , and _Jz_ real."
+
+[[blocks]]
+sections = ["problem"]
+lines = "419"
+chars = "22-118"
+text = "non-Hermitian model with ( _Jh, Jc, Jz, n_ ) = (1 _,_ 1 _,_ 0 _._ 5 _,_ 3) and _Jn_ = 0 _._ 2 _i_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "421"
+chars = "44-122"
+text = "introduction of an imaginary _Jn_ drives the system from integrability to chaos"
+
+[[blocks]]
+sections = ["problem"]
+lines = "421"
+chars = "172-332"
+text = "Krylov complexity computed via Eq. (28), starting from an initial state given by an equal superposition of all eigenstates in the ( _M, k_ ) = (0 _,_ 0) subspace"
+
+[[blocks]]
+sections = ["truth"]
+lines = "421"
+chars = "339-446"
+text = "complexity first rises, then decays, and finally saturates, consistent with the dynamical signature of chaos"
+
+[[blocks]]
+sections = ["truth"]
+lines = "421"
+chars = "478-575"
+text = "CSR distribution in the complex plane, which displays the expected Ginibre-type repulsion pattern."
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "425"
+chars = "194-312"
+text = "compute the von Neumann entanglement entropy using Eq. (30) for the right eigenvectors of the nonHermitian Hamiltonian."
+
+[[blocks]]
+sections = ["truth"]
+lines = "425"
+chars = "384-418"
+text = "a low-entropy state remains present"
+
+[[blocks]]
+sections = ["truth"]
+lines = "425"
+chars = "549-612"
+text = "confirms the robustness of the scar tower described by Eq. (16)."
+
+[[blocks]]
+sections = ["problem"]
+lines = "427"
+chars = "64-138"
+text = "we evaluate the fidelity dynamics of the coherent state defined in Eq. (31)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "427"
+chars = "197-291"
+text = "the coherent state exhibits clear periodic revivals, while the N´eel state rapidly thermalizes."
+
+[[blocks]]
+sections = ["truth"]
+lines = "427"
+chars = "364-437"
+text = "continue to form a scar subspace even in the non-Hermitian chaotic regime."
+
+[[blocks]]
+sections = ["truth"]
+lines = "429"
+chars = "54-179"
+text = "complex-valued nonlocal coupling _Jn_ can drive the system from a Hermitian integrable phase to a non-Hermitian chaotic regime"
+
+[[blocks]]
+sections = ["problem"]
+lines = "431"
+chars = "14-20"
+text = "Case II"
+
+[[blocks]]
+sections = ["problem"]
+lines = "433"
+chars = "47-96"
+text = "allowing both _Jc_ and _Jn_ to take complex values"
+
+[[blocks]]
+sections = ["problem"]
+lines = "435"
+chars = "24-144"
+text = "two complementary diagnostics: the level-spacing ratio defined in Eq. (34) and the Krylov complexity defined in Eq. (28)."
+
+[[blocks]]
+sections = ["problem"]
+lines = "435"
+chars = "199-492"
+text = "panels (a) and (b) correspond to the case where _Jn_ = 0, while panels (c) and (d) show results for _Jn_ = 0 _._ 2 _i_ . The parameters are fixed as ( _Jh, Jc, n_ ) = (1 _, i,_ 3), and all cal= culations are performed within the ( _M, k_ ) (0 _,_ 0) subspace of the Hamiltonian _HM_ =0 _,k_ =0."
+
+[[blocks]]
+sections = ["truth"]
+lines = "437"
+chars = "1-124"
+text = "As _Jn_ increases from zero to a finite imaginary value, the system undergoes a clear transition from integrability to chaos"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "439"
+chars = "62-363"
+text = "compute the von Neumann entanglement entropy according to Eq. (30), focusing on the right eigenvectors of _HM_ =0 _,k_ =0. The results, displayed in Fig. 11, correspond to parameters ( _Jh, Jc, Jz, n_ ) = (1 _, i,_ 0 _._ 5 _,_ 3) for a system size of _N_ = 12, within a Hilbert space of dimension 6166."
+
+[[blocks]]
+sections = ["truth"]
+lines = "441"
+chars = "1-56"
+text = "The presence of low-entanglement eigenstates that remain"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "444"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0009-10.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "448"
+chars = "1-268"
+text = "1.0<br>1.00<br>0.5<br>0.75<br>0.0<br>0.50<br>0.5 0.25<br>1.0 0.00<br>1 0 1 0 25 50 75<br>Re( λj ) lg( t )<br>1.0<br>1.00<br>0.5<br>0.75<br>0.0<br>0.50<br>0.5 0.25<br>1.0 0.00<br>1 0 1 0 25 50 75<br>Re( λj ) lg( t )<br>) λj )( t<br>K<br>Im( C<br>) λj )( t<br>K<br>Im( C"
+
+[[blocks]]
+sections = ["truth", "problem"]
+lines = "451"
+chars = "283-337"
+text = "approximately uniform distribution in the complex plane"
+
+[[blocks]]
+sections = ["truth"]
+lines = "451"
+chars = "570-784"
+text = "spectral distribution becomes strongly nonuniform, with _⟨_ cos _θj⟩≈−_ 0 _._ 187, and the Krylov complexity exhibits rapid growth followed by decay and eventual saturation, indicating the onset of chaotic dynamics."
+
+[[blocks]]
+sections = ["problem"]
+lines = "451"
+chars = "786-935"
+text = "Panels (a) and (c) use a system size of _N_ = 14 (Hilbert-space dimension 44046), while panels (b) and (d) use _N_ = 10 (Hilbert-space dimension 902)."
+
+[[blocks]]
+sections = ["truth"]
+lines = "453"
+chars = "37-70"
+text = "survival of a tower of scar states"
+
+[[blocks]]
+sections = ["problem"]
+lines = "453"
+chars = "177-286"
+text = "evaluate the fidelity dynamics for both the coherent scar state _|ψβ⟩_ defined in Eq. (31) and the N´eel state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "455"
+chars = "82-152"
+text = "retain their scar-like behavior even in the presence of non-Hermiticity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "455"
+chars = "159-362"
+text = "persistence of coherent revivals in fidelity and the appearance of low-entanglement states confirm that the underlying scar subspace remains robust against complex deformations of the coupling parameters."
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "378-415"
+text = "again induces the transition to chaos."
+
+[[blocks]]
+sections = ["truth"]
+lines = "457"
+chars = "451-585"
+text = "both cases reveal that _Jn_ acts as a universal source of nonintegrability, controlling the crossover from regular to chaotic dynamics."
+
+[[blocks]]
+sections = ["problem"]
+lines = "462"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0010-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "466"
+chars = "1-82"
+text = "5 5<br>4 4<br>3 3<br>2 2<br>20 10 0 10 17 10 0 10<br>Re( E ) Im( E )<br>A A<br>S S"
+
+[[blocks]]
+sections = ["problem"]
+lines = "469"
+chars = "10-373"
+text = "Von Neumann entanglement entropy computed via Eq. (30) for the right eigenvectors of _HM_ =0 _,k_ =0 with parameters ( _Jh, Jc, Jz_ ) = (1 _, i,_ 0 _._ 5) and _n_ = 3. The system size is _N_ = 12, with a Hilbert-space dimension of 6166. Panels (a) and (b) show the entanglement entropy plotted against the real and imaginary parts of the eigenvalues, respectively."
+
+[[blocks]]
+sections = ["problem"]
+lines = "469"
+chars = "375-504"
+text = "Blue dots correspond to the Hermitian case ( _Jn_ = 0), while red circles represent the non-Hermitian case ( _Jn_ = 0 _._ 2 _i_ )."
+
+[[blocks]]
+sections = ["truth"]
+lines = "469"
+chars = "533-711"
+text = "a common low-entanglement eigenstate appears (highlighted in orange), demonstrating the persistence and robustness of the quantum many-body scar under non-Hermitian perturbations."
+
+[[blocks]]
+sections = ["problem"]
+lines = "472"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0010-03.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "476"
+chars = "1-134"
+text = "1 . 0<br>0 . 8<br>β = 0 . 1<br>0 . 6<br>β = 0 . 5<br>β = 2 . 0<br>0 . 4 N´eel<br>0 . 2<br>0 . 0<br>0 10 20 30<br>t<br>)<br>t<br>(<br>F"
+
+[[blocks]]
+sections = ["problem"]
+lines = "479"
+chars = "10-65"
+text = "Fidelity dynamics of the Hamiltonian _H_ with parameters"
+
+[[blocks]]
+sections = ["truth"]
+lines = "479"
+chars = "309-381"
+text = "clear periodic revivals are observed, indicating that this coherent state"
+
+[[blocks]]
+sections = ["truth"]
+lines = "479"
+chars = "520-640"
+text = "for the N´eel state, the fidelity decays rapidly to zero, signaling fast thermalization and the absence of scar dynamics."
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "1-100"
+text = "described by the Gaussian orthogonal ensemble, and eventually restores integrability at large _Jn_ ."
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "195-282"
+text = "a complex _Jn_ transforms a Hermitian integrable system into a non-Hermitian chaotic one"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "357-426"
+text = "loses integrability once the complex long-range coupling is introduced"
+
+[[blocks]]
+sections = ["truth"]
+lines = "483"
+chars = "63-189"
+text = "a family of QMBS states persists throughout both Hermitian and non-Hermitian regimes, maintaining coherent oscillatory dynamics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "489"
+chars = "1-77"
+text = "The data that support the findings of this article are openly available [64]."
+
+[[blocks]]
+sections = ["truth"]
+lines = "493"
+chars = "235-362"
+text = "increasing _Jn_ first drives the system from an integrable phase characterized by Poissonian level statistics to a chaotic phase"
+
+[[blocks]]
+sections = ["software"]
+lines = "497"
+chars = "55-60"
+text = "Quspin"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "501"
+chars = "18-60"
+text = "Proof that the Tower States are Eigenstates"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "503"
+chars = "1-574"
+text = "In this appendix, we prove that the tower of ferromagnetic states, defined in the main text as Eq. (16) are exact eigenstates of the full Hamiltonian _H_ . As shown in the main text, these states are trivially eigenstates of the SU(2)-symmetric Heisenberg term _Hh_ , the chiral interaction _Hc_ , and the Zeeman field _Hz_ . The remaining task is to demonstrate that they are also eigenstates of the nonlocal hopping term _Hn_ . For a fixed hopping distance _n_ ( _n_ = 0 _, N_ under PBCs), we define an operator (note that _Hn_ is a Hermitian operator, while _An_ is not)."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "506"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-03.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "509"
+chars = "1-128"
+text = "If _|ψ_ ( _N, N − p_ ) _⟩_ is an eigenstate of _An_ , it is automatically an eigenstate of _Hn_ . We now prove by induction that"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "512"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-05.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "518"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-07.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "521"
+chars = "133-191"
+text = "The commutator between _An_ and the total lowering operator"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "524"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-09.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "530"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-11.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "536"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-13.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "539"
+chars = "1-91"
+text = "Under periodic boundary conditions,[�] _j[S] j[−]_ + _n_[=][�] _j[S] j[−]_[,] and therefore"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "542"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-15.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "545"
+chars = "1-34"
+text = "Taking a further commutator yields"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "548"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-17.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "551"
+chars = "1-72"
+text = "Each term in the summation cancels exactly, giving the operator identity"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "554"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-19.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "557"
+chars = "1-34"
+text = "Equations (A5) and (A9) imply that"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "560"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-21.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "563"
+chars = "1-30"
+text = "Expanding the commutator gives"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "566"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-23.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "569"
+chars = "1-27"
+text = "It follows recursively that"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "572"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-25.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "575"
+chars = "1-28"
+text = "Since _Hn_ = _iAn_ , one has"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "578"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-27.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "581"
+chars = "1-286"
+text = "Therefore, the tower states _|ψ_ ( _N, N − p_ ) _⟩_ are eigenstates of _Hn_ with eigenvalue zero. Combined with their trivial eigenstate property under _Hh_ , _Hc_ , and _Hz_ , this completes the proof that all _|ψ_ ( _N, N − p_ ) _⟩_ are exact eigenstates of the full Hamiltonian _H_ ."
+
+[[blocks]]
+sections = ["method"]
+lines = "583"
+chars = "18-63"
+text = "Bi-Lanczos Algorithm for Non-Hermitian Systems"
+
+[[blocks]]
+sections = ["method"]
+lines = "585"
+chars = "1-369"
+text = "In order to analyze the Krylov complexity in non-Hermitian quantum systems, we employ the bi-Lanczos algorithm, which generalizes the conventional Lanczos recursion to handle non-Hermitian Hamiltonians. The method constructs two biorthogonal Krylov bases, _{|pn⟩}_ and _{|qn⟩}_ , corresponding to the right and left subspaces of the Liouvillian or Hamiltonian operator."
+
+[[blocks]]
+sections = ["method"]
+lines = "589"
+chars = "1-137"
+text = "We start from an arbitrary normalized initial state _|ψ_ 0 _⟩_ , and define the initial vectors of the right and left Krylov subspaces as"
+
+[[blocks]]
+sections = ["method"]
+lines = "592"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-33.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "595"
+chars = "1-55"
+text = "with the normalization condition _⟨q_ 0 _|p_ 0 _⟩_ = 1."
+
+[[blocks]]
+sections = ["method"]
+lines = "597"
+chars = "1-119"
+text = "At each recursion step _n_ , we apply both the Hamiltonian _H_ and its Hermitian conjugate _H[†]_ to the basis vectors:"
+
+[[blocks]]
+sections = ["method"]
+lines = "600"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-36.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "603"
+chars = "1-65"
+text = "To enforce biorthogonality, we define the Lanczos coefficients as"
+
+[[blocks]]
+sections = ["method"]
+lines = "606"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0011-38.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "611"
+chars = "1-64"
+text = "and remove the components along the previous two Krylov vectors,"
+
+[[blocks]]
+sections = ["method"]
+lines = "614"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "618"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-03.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "621"
+chars = "1-109"
+text = "where _bn_ and _cn_ are the normalization coefficients ensuring that _⟨qn_ +1 _|pn_ +1 _⟩_ = 1. Specifically,"
+
+[[blocks]]
+sections = ["method"]
+lines = "624"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "627"
+chars = "1-34"
+text = "The vectors are then normalized as"
+
+[[blocks]]
+sections = ["method"]
+lines = "630"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "633"
+chars = "1-243"
+text = "In practice, due to the non-unitary evolution in nonHermitian systems, small numerical errors can accumulate, breaking the biorthogonality condition. To mitigate this, a reorthogonalization procedure is performed after each iteration, ensuring"
+
+[[blocks]]
+sections = ["method"]
+lines = "636"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "641"
+chars = "1-125"
+text = "The bi-Lanczos recursion leads to a tridiagonal effective representation of the Hamiltonian in the biorthogonal Krylov basis:"
+
+[[blocks]]
+sections = ["method"]
+lines = "644"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "663"
+chars = "1-38"
+text = "and similarly for the adjoint relation"
+
+[[blocks]]
+sections = ["method"]
+lines = "666"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-22.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "669"
+chars = "1-76"
+text = "Thus, the projected Hamiltonian in the Krylov subspace takes the matrix form"
+
+[[blocks]]
+sections = ["method"]
+lines = "672"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-24.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "675"
+chars = "9-39"
+text = "Connection to Krylov Complexity"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "677"
+chars = "1-109"
+text = "Once the biorthogonal Krylov bases _{|pn⟩, |qn⟩}_ are constructed, the time-evolved state can be expressed as"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "680"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-27.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "683"
+chars = "1-202"
+text = "where the coefficients _ϕn_ ( _t_ ) obey a set of coupled differential equations governed by _H_ eff . The Krylov complexity, which measures the spread of the state in the Krylov basis, is then given by"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "686"
+text = "![](.figures/arxiv__2512.14065/2512.14065.pdf-0012-29.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "689"
+chars = "1-204"
+text = "For non-Hermitian systems, both left and right Krylov amplitudes contribute, and the norm is generalized to _⟨ψ_ ( _t_ ) _|ψ_ ( _t_ ) _⟩_ = � _n[|][ϕ][n]_[(] _[t]_[)] _[|]_[2][ in the biorthogonal sense.]"
+
+[[blocks]]
+sections = ["method"]
+lines = "739"
+chars = "71-76"
+text = "Krylov"
+
+[[blocks]]
+sections = ["method"]
+lines = "795"
+chars = "117-122"
+text = "Krylov"
+
+[[blocks]]
+sections = ["method"]
+lines = "797"
+chars = "75-80"
+text = "Krylov"
+
+[[blocks]]
+sections = ["method"]
+lines = "799"
+chars = "38-43"
+text = "Krylov"
+
+[[blocks]]
+sections = ["method"]
+lines = "801"
+chars = "47-52"
+text = "Krylov"
+
+[[blocks]]
+sections = ["method"]
+lines = "803"
+chars = "51-56"
+text = "Krylov"
+
+[[blocks]]
+sections = ["software"]
+lines = "807"
+chars = "34-39"
+text = "QuSpin"
+
+[[blocks]]
+sections = ["method"]
+lines = "807"
+chars = "76-96"
+text = "exact diagonalisation"
+
+[[blocks]]
+sections = ["software"]
+lines = "809"
+chars = "34-39"
+text = "QuSpin"
+
+[[blocks]]
+sections = ["method"]
+lines = "809"
+chars = "76-96"
+text = "exact diagonalisation"

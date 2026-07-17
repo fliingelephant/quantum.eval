@@ -1,0 +1,3310 @@
+# Partition layer for papers/2511.14878 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "129-139"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "31"
+chars = "617-638"
+text = "Fock space cage states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "759-791"
+text = "subextensive entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "911-942"
+text = "long-lived fidelity oscillations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "1007-1016"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "31"
+chars = "1038-1064"
+text = "commutant algebra framework"
+
+[[blocks]]
+sections = ["method"]
+lines = "31"
+chars = "1106-1162"
+text = "simultaneous eigenstates of non-commuting local operators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "1241-1272"
+text = "tower of volume-entangled states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "1288-1306"
+text = "mirror-dimer states"
+
+[[blocks]]
+sections = ["method"]
+lines = "35"
+chars = "75-113"
+text = "Fock-space cages and commutant algebras"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "129-139"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "49"
+chars = "616-637"
+text = "Fock space cage states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "758-790"
+text = "subextensive entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "909-940"
+text = "long-lived fidelity oscillations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "1005-1014"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "49"
+chars = "1040-1066"
+text = "commutant algebra framework"
+
+[[blocks]]
+sections = ["method"]
+lines = "49"
+chars = "1113-1169"
+text = "simultaneous eigenstates of non-commuting local operators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "1248-1279"
+text = "tower of volume-entangled states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+chars = "1295-1313"
+text = "mirror-dimer states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "86-96"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "467-476"
+text = "volume-law"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "610-620"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "65"
+chars = "570-580"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "1169-1178"
+text = "volume-law"
+
+[[blocks]]
+sections = ["truth"]
+lines = "69"
+chars = "1395-1404"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "71"
+chars = "1020-1055"
+text = "grows exponentially with system size"
+
+[[blocks]]
+sections = ["problem"]
+lines = "73"
+chars = "75-97"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "73"
+chars = "169-195"
+text = "Fockspace cage (FSC) states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "341-355"
+text = "subextensive EE"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "454-498"
+text = "equally spaced ladder of finite-energy states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "75"
+chars = "553-584"
+text = "long-lived fidelity oscillations"
+
+[[blocks]]
+sections = ["method"]
+lines = "75"
+chars = "698-700"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "77"
+chars = "86-88"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "77"
+chars = "481-490"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "51-77"
+text = "commutant algebra framework"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "206-229"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "270-310"
+text = "of multiple non-commuting local operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "378-401"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "734-746"
+text = "non-commuting"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "793-801"
+text = "clustered"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "818-867"
+text = "mirror-symmetric groupings of local exchange bonds"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "947-963"
+text = "numerical methods"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "1098-1107"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "1229-1231"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "1305-1336"
+text = "tower of volume-entangled states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "79"
+chars = "1344-1368"
+text = "set of mirrordimer states"
+
+[[blocks]]
+sections = ["problem"]
+lines = "81"
+chars = "243-265"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "81"
+chars = "282-284"
+text = "FSC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "86"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0003-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "89"
+chars = "188-282"
+text = "sharp central peak at _E_ =0 reflects the extensive degeneracy of exact zero-energy eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "86-94"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "91"
+chars = "163-165"
+text = "FSC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "95"
+chars = "361-383"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["problem"]
+lines = "99"
+chars = "15-176"
+text = "one-dimensional spin-1 _XY_ chain comprising an even number of sites _N_ =2 _L_ with periodic boundary conditions (PBC) in a perpendicular external magnetic field"
+
+[[blocks]]
+sections = ["problem"]
+lines = "102"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "47-98"
+text = "spin-1][operators][acting][on][lo-] cal basis states"
+
+[[blocks]]
+sections = ["problem"]
+lines = "105"
+chars = "228-275"
+text = "nearest-neighbor _XY_ exchange interaction _HXY_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "6-64"
+text = "uniform magnetic field of strength _h_ along the _z_ - axis"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "103-129"
+text = "total magnetization _S_ tot"
+
+[[blocks]]
+sections = ["problem"]
+lines = "107"
+chars = "360-399"
+text = "reflection, and translational symmetries"
+
+[[blocks]]
+sections = ["truth"]
+lines = "109"
+chars = "50-98"
+text = "extensive number of exact zero-energy eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "109"
+chars = "641-689"
+text = "acquire finite energies under _H_ 0 equal to _hM_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "111"
+chars = "177-192"
+text = "level-statistics"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "111"
+chars = "282-315"
+text = "hidden non-local _SU_ (2) symmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "111"
+chars = "462-477"
+text = "level statistics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "111"
+chars = "498-531"
+text = "Gaussian Orthogonal Ensemble (GOE)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "111"
+chars = "605-618"
+text = "not integrable"
+
+[[blocks]]
+sections = ["truth"]
+lines = "111"
+chars = "667-680"
+text = "non-integrable"
+
+[[blocks]]
+sections = ["method"]
+lines = "111"
+chars = "898-921"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "111"
+chars = "926-937"
+text = "noncommuting"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "111"
+chars = "1135-1181"
+text = "perturbed Hamiltonian _H_ scar= _H_ 0+ _V_ pert"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "123-148"
+text = "single-ion anisotropy term"
+
+[[blocks]]
+sections = ["problem"]
+lines = "113"
+chars = "197-244"
+text = "next-to-next-nearest-neighbor _XY_ exchange term"
+
+[[blocks]]
+sections = ["truth"]
+lines = "117"
+chars = "331-448"
+text = "remain exact eigenstates upon adding the anisotropy term, but are destroyed by the next-nearest-neighbor _XY_ exchange"
+
+[[blocks]]
+sections = ["truth"]
+lines = "117"
+chars = "463-545"
+text = "volume-entangled and mirror-dimer families of Sec. IV exhibit the opposite behavior"
+
+[[blocks]]
+sections = ["problem"]
+lines = "121"
+chars = "64-155"
+text = "chiral symmetry that plays a central role in generating its extensive zero-energy degeneracy"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "124"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "127"
+chars = "111-152"
+text = "spectrum of _HXY_ is symmetric around zero"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "67-133"
+text = "endows the Fock-space graph of _HXY_ with a rich internal structure"
+
+[[blocks]]
+sections = ["problem"]
+lines = "129"
+chars = "467-522"
+text = "i.e., every nonzero matrix element of _HXY_ is the same."
+
+[[blocks]]
+sections = ["problem"]
+lines = "131"
+chars = "28-56"
+text = "Fock-space graph is bipartite"
+
+[[blocks]]
+sections = ["problem"]
+lines = "134"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0004-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "141"
+chars = "3-92"
+text = "sublattice _A_ : basis states with _even_ number of _|_ 0 _⟩_ spins on even-numbered sites"
+
+[[blocks]]
+sections = ["problem"]
+lines = "143"
+chars = "3-91"
+text = "sublattice _B_ : basis states with _odd_ number of _|_ 0 _⟩_ spins on even-numbered sites"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "150"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0004-15.png)"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "155"
+chars = "99-144"
+text = "zero-energy modes in each magnetization sector"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "162"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0005-02.png)"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "170"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0005-05.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "176"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0005-07.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "182"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0005-09.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "185"
+chars = "53-75"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "185"
+chars = "77-112"
+text = "grows exponentially with system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "187"
+chars = "394-403"
+text = "volume-law"
+
+[[blocks]]
+sections = ["truth"]
+lines = "187"
+chars = "481-490"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["problem"]
+lines = "198"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0005-16.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "201"
+chars = "103-122"
+text = "annihilated by _HXY_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "201"
+chars = "174-230"
+text = "form an equispaced tower under the full Hamiltonian _H_ 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "206"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0005-19.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "209"
+chars = "44-69"
+text = "even magnetization sectors"
+
+[[blocks]]
+sections = ["truth"]
+lines = "211"
+chars = "122-131"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "211"
+chars = "208-258"
+text = "previously unreported families of exact eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "211"
+chars = "367-375"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "213"
+chars = "27-41"
+text = "FOCK-SPACE CAGE"
+
+[[blocks]]
+sections = ["method"]
+lines = "215"
+chars = "208-228"
+text = "Fock-space cage (FSC)"
+
+[[blocks]]
+sections = ["method"]
+lines = "219"
+chars = "156-158"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "219"
+chars = "241-290"
+text = "FSCs are effective in uncovering new scar families"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "28-30"
+text = "FSC"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "223"
+chars = "53-99"
+text = "support on a sparse set of basis configurations"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "401-423"
+text = "closed loop (or “cage”)"
+
+[[blocks]]
+sections = ["method"]
+lines = "223"
+chars = "640-642"
+text = "FSC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "225"
+chars = "56-203"
+text = "family of two-magnon states built by applying pairs of spin-raising operators at sites separated by a fixed distance _r_ to the ferromagnetic vacuum"
+
+[[blocks]]
+sections = ["problem"]
+lines = "228"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0006-05.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "231"
+chars = "205-233"
+text = "2 _L_ distinct configurations"
+
+[[blocks]]
+sections = ["method"]
+lines = "231"
+chars = "955-1013"
+text = "cancels exactly, and every would-be leakage path is blocked"
+
+[[blocks]]
+sections = ["truth"]
+lines = "231"
+chars = "1039-1075"
+text = "exact zero-energy eigenstate of _HXY_"
+
+[[blocks]]
+sections = ["method"]
+lines = "231"
+chars = "1304-1306"
+text = "FSC"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "236"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0006-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "243"
+chars = "77-91"
+text = "Fock-space cage"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "243"
+chars = "495-573"
+text = "Destructive interference ensures that all blue nodes receive zero net amplitude"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "248"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0006-11.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "251"
+chars = "12-62"
+text = "finite _r_ in the large- _L_ limit approaches ln(2)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "251"
+chars = "282-304"
+text = "violates the volume law"
+
+[[blocks]]
+sections = ["method"]
+lines = "251"
+chars = "332-334"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "253"
+chars = "34-48"
+text = "Fock-space cage"
+
+[[blocks]]
+sections = ["problem"]
+lines = "257"
+chars = "103-160"
+text = "larger hierarchy of exact zero-energy eigenstates of _HXY_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "257"
+chars = "246-268"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["problem"]
+lines = "260"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0006-16.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "268"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0007-02.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "274"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0007-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "277"
+chars = "1011-1013"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "281"
+chars = "285-335"
+text = "forms an equally spaced tower of _H_ 0 with spacing"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "281"
+chars = "392-439"
+text = "alternating phase structure of Eq. (12) enforces"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "281"
+chars = "517-575"
+text = "effective spacing of that particular tower doubles to 4 _h_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "286"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0007-09.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "313-328"
+text = "perfect revivals"
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "335-352"
+text = "period _T_ = _π/h_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "289"
+chars = "537-577"
+text = "definitive dynamical hallmark of scarring"
+
+[[blocks]]
+sections = ["truth"]
+lines = "295"
+chars = "82-91"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "295"
+chars = "226-249"
+text = "far below the Page value"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "298"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0007-14.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "304"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0007-16.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "307"
+chars = "185-220"
+text = "clear linear dependence on ln( _L_ )"
+
+[[blocks]]
+sections = ["truth"]
+lines = "307"
+chars = "234-267"
+text = "logarithmic growth of entanglement"
+
+[[blocks]]
+sections = ["truth"]
+lines = "321"
+chars = "159-183"
+text = "cancellation multiplicity"
+
+[[blocks]]
+sections = ["truth"]
+lines = "321"
+chars = "466-494"
+text = "active fraction remains small"
+
+[[blocks]]
+sections = ["truth"]
+lines = "321"
+chars = "600-625"
+text = "decreases with system size"
+
+[[blocks]]
+sections = ["method"]
+lines = "321"
+chars = "917-919"
+text = "FSC"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "324"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0008-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "331"
+chars = "1080-1089"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "333"
+chars = "326-335"
+text = "volume-law"
+
+[[blocks]]
+sections = ["method"]
+lines = "335"
+chars = "8-22"
+text = "Fock-space cage"
+
+[[blocks]]
+sections = ["truth"]
+lines = "337"
+chars = "386-403"
+text = "logarithmic growth"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "342"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0008-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "347"
+chars = "54-56"
+text = "FSC"
+
+[[blocks]]
+sections = ["problem"]
+lines = "347"
+chars = "622-636"
+text = "active fraction"
+
+[[blocks]]
+sections = ["problem"]
+lines = "347"
+chars = "1176-1190"
+text = "active fraction"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "352"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0009-01.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "359"
+chars = "233-319"
+text = "destructive interference at all blue nodes continues to confine the non-zero amplitudes"
+
+[[blocks]]
+sections = ["method"]
+lines = "359"
+chars = "344-358"
+text = "Fock-space cage"
+
+[[blocks]]
+sections = ["truth"]
+lines = "361"
+chars = "1-60"
+text = "this fraction decreases steadily with increasing system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "363"
+chars = "458-482"
+text = "cancellation multiplicity"
+
+[[blocks]]
+sections = ["method"]
+lines = "363"
+chars = "810-812"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "363"
+chars = "1120-1122"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "365"
+chars = "10-59"
+text = "algorithmic approaches have been proposed recently"
+
+[[blocks]]
+sections = ["method"]
+lines = "365"
+chars = "82-84"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "367"
+chars = "410-449"
+text = "search space becomes prohibitively large"
+
+[[blocks]]
+sections = ["method"]
+lines = "369"
+chars = "196-204"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "369"
+chars = "344-356"
+text = "non-commuting"
+
+[[blocks]]
+sections = ["truth"]
+lines = "369"
+chars = "493-543"
+text = "volume-law entanglement and mirror-dimer structures"
+
+[[blocks]]
+sections = ["method"]
+lines = "369"
+chars = "589-591"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "373"
+chars = "265-310"
+text = "Restricted Spectrum Generating Algebras (RSGA)"
+
+[[blocks]]
+sections = ["method"]
+lines = "373"
+chars = "385-408"
+text = "quasisymmetry formalisms"
+
+[[blocks]]
+sections = ["method"]
+lines = "373"
+chars = "764-767"
+text = "RSGA"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "379"
+chars = "6-19"
+text = "Bimagnon tower"
+
+[[blocks]]
+sections = ["truth"]
+lines = "379"
+chars = "112-123"
+text = "subextensive"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "380"
+chars = "6-24"
+text = "Bond-bimagnon tower"
+
+[[blocks]]
+sections = ["truth"]
+lines = "380"
+chars = "107-118"
+text = "subextensive"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "381"
+chars = "6-15"
+text = "FSC towers"
+
+[[blocks]]
+sections = ["truth"]
+lines = "381"
+chars = "241-252"
+text = "subextensive"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "382"
+chars = "6-21"
+text = "Volume-entangled"
+
+[[blocks]]
+sections = ["truth"]
+lines = "382"
+chars = "134-159"
+text = "extensive, Eqs. (28), (29)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "382"
+chars = "187-198"
+text = "subextensive"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "383"
+chars = "6-17"
+text = "Mirror-dimer"
+
+[[blocks]]
+sections = ["truth"]
+lines = "383"
+chars = "181-196"
+text = "mirror-paired: 0"
+
+[[blocks]]
+sections = ["problem"]
+lines = "387"
+chars = "73-95"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "387"
+chars = "318-361"
+text = "minimal set of non-commuting local operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "387"
+chars = "396-419"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "387"
+chars = "443-453"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "387"
+chars = "492-500"
+text = "commutant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "387"
+chars = "618-628"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "387"
+chars = "745-768"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "387"
+chars = "801-813"
+text = "non-commuting"
+
+[[blocks]]
+sections = ["method"]
+lines = "389"
+chars = "33-41"
+text = "COMMUTANT"
+
+[[blocks]]
+sections = ["method"]
+lines = "391"
+chars = "45-62"
+text = "commutant algebras"
+
+[[blocks]]
+sections = ["method"]
+lines = "391"
+chars = "443-445"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "394"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0010-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "397"
+chars = "9-17"
+text = "Commutant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "130-203"
+text = "small “non-thermal” subspace comprising exact eigenstates that violate ETH"
+
+[[blocks]]
+sections = ["truth"]
+lines = "399"
+chars = "274-284"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "401"
+chars = "113-121"
+text = "commutant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "273-282"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "401"
+chars = "371-418"
+text = "minimal subset of local non-commuting generators"
+
+[[blocks]]
+sections = ["method"]
+lines = "401"
+chars = "530-538"
+text = "commutant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "401"
+chars = "602-611"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "401"
+chars = "658-666"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "403"
+chars = "92-100"
+text = "commutant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "407"
+chars = "109-119"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "411"
+chars = "295-324"
+text = "do not commute with each other"
+
+[[blocks]]
+sections = ["method"]
+lines = "415"
+chars = "3-27"
+text = "The commutant algebra _C_"
+
+[[blocks]]
+sections = ["method"]
+lines = "417"
+chars = "288-296"
+text = "commutant"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "419"
+chars = "33-100"
+text = "scar eigenstates are recognized as the “singlets” of the algebra _A_"
+
+[[blocks]]
+sections = ["method"]
+lines = "419"
+chars = "119-142"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "421"
+chars = "69-125"
+text = "simultaneous eigenstates of non-commuting local operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "421"
+chars = "224-235"
+text = "noncommuting"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "428"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0011-11.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "431"
+chars = "78-105"
+text = "frustration-free eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "431"
+chars = "589-654"
+text = "simultaneous eigenstates of a set of non-commuting local operators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "431"
+chars = "689-699"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "433"
+chars = "15-23"
+text = "commutant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "433"
+chars = "252-262"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "433"
+chars = "470-532"
+text = "many local perturbations can be constructed from the generators"
+
+[[blocks]]
+sections = ["method"]
+lines = "435"
+chars = "84-135"
+text = "finding minimal sets of noncommuting local operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "435"
+chars = "167-190"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "443"
+chars = "5-14"
+text = "Clustering"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "53-76"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "263-286"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "460-501"
+text = "simultaneous eigenstates of the generators"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+chars = "869-892"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "445"
+chars = "945-955"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "447"
+chars = "84-133"
+text = "periodically clustering the nearest-neighbor bonds"
+
+[[blocks]]
+sections = ["method"]
+lines = "447"
+chars = "478-486"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "449"
+chars = "534-542"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "449"
+chars = "637-699"
+text = "explicitly build perturbations that break all simple symmetries"
+
+[[blocks]]
+sections = ["method"]
+lines = "453"
+chars = "21-29"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "455"
+chars = "47-53"
+text = "cluster"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "458"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0012-08.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "461"
+chars = "302-336"
+text = "minimal non-commuting generator set"
+
+[[blocks]]
+sections = ["method"]
+lines = "461"
+chars = "389-412"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "466"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0012-11.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "469"
+chars = "23-45"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "469"
+chars = "54-60"
+text = "cluster"
+
+[[blocks]]
+sections = ["method"]
+lines = "469"
+chars = "357-376"
+text = "blockdiagonalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "469"
+chars = "451-474"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "469"
+chars = "484-492"
+text = "clustered"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "474"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0012-14.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "477"
+chars = "6-36"
+text = "arbitrary periodic coefficients"
+
+[[blocks]]
+sections = ["truth"]
+lines = "477"
+chars = "395-431"
+text = "follows the Wigner-Dyson distribution"
+
+[[blocks]]
+sections = ["truth"]
+lines = "477"
+chars = "449-476"
+text = "Gaussian Orthogonal Ensemble"
+
+[[blocks]]
+sections = ["truth"]
+lines = "481"
+chars = "38-64"
+text = "robust low-entropy outliers"
+
+[[blocks]]
+sections = ["method"]
+lines = "483"
+chars = "26-35"
+text = "clustering"
+
+[[blocks]]
+sections = ["method"]
+lines = "483"
+chars = "163-174"
+text = "noncommuting"
+
+[[blocks]]
+sections = ["method"]
+lines = "485"
+chars = "8-26"
+text = "Reverse-engineering"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "76-84"
+text = "clustered"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "246-254"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "290-313"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "318-330"
+text = "non-commuting"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "361-390"
+text = "_reverse-engineering_ approach"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "429-499"
+text = "we numerically search for local operators that host them as eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "487"
+chars = "631-641"
+text = "annihilator"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "490"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0013-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "493"
+chars = "55-128"
+text = "analogous structure holds for a next-to-next nearest neighbor operator set"
+
+[[blocks]]
+sections = ["method"]
+lines = "493"
+chars = "196-206"
+text = "annihilator"
+
+[[blocks]]
+sections = ["method"]
+lines = "495"
+chars = "510-542"
+text = "admissible perturbations _V_ pert"
+
+[[blocks]]
+sections = ["method"]
+lines = "495"
+chars = "871-894"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "495"
+chars = "899-911"
+text = "non-commuting"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "498"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0013-08.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "501"
+chars = "9-24"
+text = "Level statistics"
+
+[[blocks]]
+sections = ["truth"]
+lines = "501"
+chars = "736-783"
+text = "distribution agrees with the analytic prediction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "501"
+chars = "799-826"
+text = "Gaussian Orthogonal Ensemble"
+
+[[blocks]]
+sections = ["truth"]
+lines = "501"
+chars = "860-889"
+text = "with average _⟨rα⟩≈_ 0 _._ 53."
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "503"
+chars = "37-55"
+text = "mirror-dimer states"
+
+[[blocks]]
+sections = ["method"]
+lines = "503"
+chars = "84-92"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "503"
+chars = "215-224"
+text = "clustering"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "503"
+chars = "481-542"
+text = "a _volume-entangled tower_ , which we describe in this section"
+
+[[blocks]]
+sections = ["truth"]
+lines = "511"
+chars = "37-81"
+text = "exact volumeentangled zero-energy eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "511"
+chars = "170-217"
+text = "simultaneous zero modes of the set of generators"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "516"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0014-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "519"
+chars = "28-37"
+text = "volume-law"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "524"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0014-04.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "530"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0014-06.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "533"
+chars = "267-288"
+text = "equal-weight structure"
+
+[[blocks]]
+sections = ["problem"]
+lines = "535"
+chars = "499-516"
+text = "maximally nonlocal"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "537"
+chars = "65-108"
+text = "total magnetization is _Mn_ = _−_ 2( _L−n_ )"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "542"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0014-11.png)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "548"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0014-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "551"
+chars = "118-129"
+text = "levelspacing"
+
+[[blocks]]
+sections = ["truth"]
+lines = "551"
+chars = "164-175"
+text = "Wigner–Dyson"
+
+[[blocks]]
+sections = ["truth"]
+lines = "551"
+chars = "213-255"
+text = "confirming that the model is non-integrable"
+
+[[blocks]]
+sections = ["truth"]
+lines = "555"
+chars = "595-626"
+text = "Under the fine-tuned bipartition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "555"
+chars = "789-843"
+text = "exhibits substantially higher EE than other exact scars"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "560"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0014-18.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "565"
+chars = "569-602"
+text = "EE grows linearly with system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "565"
+chars = "623-632"
+text = "volume-law"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "568"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0015-02.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "571"
+chars = "23-71"
+text = "matches the symmetry-resolved Page-curve behavior"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "576"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0015-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "579"
+chars = "188-243"
+text = "changes only very weakly as the system size is increased"
+
+[[blocks]]
+sections = ["truth"]
+lines = "582"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0015-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "585"
+chars = "131-137"
+text = "cluster"
+
+[[blocks]]
+sections = ["truth"]
+lines = "585"
+chars = "301-310"
+text = "volume-law"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "590"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0015-10.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "593"
+chars = "45-102"
+text = "subextensive EE scaling that grows at most logarithmically"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "107-136"
+text = "volumelaw entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "595"
+chars = "315-324"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "597"
+chars = "39-48"
+text = "volume-law"
+
+[[blocks]]
+sections = ["truth"]
+lines = "599"
+chars = "251-282"
+text = "long-lived fidelity oscillations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "599"
+chars = "372-381"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "604"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0016-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "607"
+chars = "143-152"
+text = "volume-law"
+
+[[blocks]]
+sections = ["truth"]
+lines = "607"
+chars = "227-258"
+text = "long-lived fidelity oscillations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "607"
+chars = "364-373"
+text = "volume-law"
+
+[[blocks]]
+sections = ["problem"]
+lines = "612"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0016-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "475-491"
+text = "_SAs_ = _L_ ln(3)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "493-522"
+text = "under the standard bipartition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "615"
+chars = "525-578"
+text = "but separable for the fine-tuned antipodal bipartition"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "617"
+chars = "37-80"
+text = "Mirror-dimer states with unconstrained spins"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "619"
+chars = "95-155"
+text = "simultaneous eigenstates of non-commuting clustered operators"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "624"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0016-09.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "627"
+chars = "213-255"
+text = "simultaneous zero modes of all the _M[k] j_"
+
+[[blocks]]
+sections = ["problem"]
+lines = "630"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0016-11.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "633"
+chars = "408-450"
+text = "nine possible two-site spin1 configurations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "633"
+chars = "776-798"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["truth"]
+lines = "635"
+chars = "188-201"
+text = "non-integrable"
+
+[[blocks]]
+sections = ["truth"]
+lines = "635"
+chars = "639-648"
+text = "volume-law"
+
+[[blocks]]
+sections = ["truth"]
+lines = "635"
+chars = "661-730"
+text = "each dimer cut by the bipartition contributes a fixed entropy of ln(3)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "635"
+chars = "897-925"
+text = "entanglement entropy vanishes"
+
+[[blocks]]
+sections = ["truth"]
+lines = "637"
+chars = "37-47"
+text = "non-thermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "637"
+chars = "259-331"
+text = "any configuration leaves the full state a zero-energy eigenstate of _HXY_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "637"
+chars = "358-401"
+text = "immune to local decoherence or perturbations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "643"
+chars = "590-625"
+text = "grows exponentially with system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "643"
+chars = "680-689"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "49-58"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "645"
+chars = "137-164"
+text = "Fock-Space Cage (FSC) states"
+
+[[blocks]]
+sections = ["method"]
+lines = "645"
+chars = "255-257"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "645"
+chars = "546-548"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "783-815"
+text = "subextensive entanglement entropy"
+
+[[blocks]]
+sections = ["truth"]
+lines = "645"
+chars = "1034-1065"
+text = "long-lived fidelity oscillations"
+
+[[blocks]]
+sections = ["method"]
+lines = "647"
+chars = "203-205"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "647"
+chars = "478-504"
+text = "commutant algebra framework"
+
+[[blocks]]
+sections = ["method"]
+lines = "647"
+chars = "562-627"
+text = "simultaneous eigenstates of multiple non-commuting local operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "106-128"
+text = "non-commuting operators"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "160-168"
+text = "clustered"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "290-316"
+text = "existence of the FSC states"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "336-338"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "389-397"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "649"
+chars = "420-443"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "651"
+chars = "40-42"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "651"
+chars = "62-70"
+text = "commutant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "289-326"
+text = "volume-law scaling under standard cuts"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "339-392"
+text = "sub-extensive EE under fine-tuned antipodal partitions"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "651"
+chars = "428-445"
+text = "mirrordimer states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "504-526"
+text = "two unconstrained spins"
+
+[[blocks]]
+sections = ["truth"]
+lines = "651"
+chars = "625-661"
+text = "exact zero-energy eigenstate of _HXY_"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "653"
+chars = "161-192"
+text = "minimal generating operator sets"
+
+[[blocks]]
+sections = ["method"]
+lines = "653"
+chars = "205-213"
+text = "commutant"
+
+[[blocks]]
+sections = ["truth"]
+lines = "653"
+chars = "324-333"
+text = "nonthermal"
+
+[[blocks]]
+sections = ["method"]
+lines = "653"
+chars = "987-1010"
+text = "simultaneous eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "653"
+chars = "1029-1041"
+text = "non-commuting"
+
+[[blocks]]
+sections = ["method"]
+lines = "655"
+chars = "185-213"
+text = "commutant algebra perspective"
+
+[[blocks]]
+sections = ["method"]
+lines = "655"
+chars = "313-371"
+text = "simultaneous eigenstates of non-commuting operator families"
+
+[[blocks]]
+sections = ["method"]
+lines = "655"
+chars = "402-425"
+text = "simple numerical methods"
+
+[[blocks]]
+sections = ["method"]
+lines = "655"
+chars = "470-482"
+text = "non-commuting"
+
+[[blocks]]
+sections = ["method"]
+lines = "655"
+chars = "619-625"
+text = "cluster"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "659"
+chars = "157-181"
+text = "Taylor expand cos(2 _θ_ )"
+
+[[blocks]]
+sections = ["method"]
+lines = "661"
+chars = "140-189"
+text = "non-commuting operators obtained from a clustering"
+
+[[blocks]]
+sections = ["method"]
+lines = "661"
+chars = "277-301"
+text = "studying such clusterings"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "664"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0018-03.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "670"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0018-05.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "678"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0018-08.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "687"
+chars = "35-70"
+text = "_x[M]_ **in the asymptotic expansion"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "690"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0018-13.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "693"
+chars = "140-165"
+text = "method of steepest descent"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "698"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0018-16.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "704"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0018-18.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "712"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0018-21.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "719"
+chars = "17-36"
+text = "detailed derivations"
+
+[[blocks]]
+sections = ["method"]
+lines = "721"
+chars = "9-23"
+text = "Fock space cage"
+
+[[blocks]]
+sections = ["method"]
+lines = "723"
+chars = "127-162"
+text = "natural interpretation as FSC states"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "723"
+chars = "187-217"
+text = "zero-energy eigenstate of _HXY_"
+
+[[blocks]]
+sections = ["method"]
+lines = "723"
+chars = "334-336"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "725"
+chars = "8-10"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "727"
+chars = "19-21"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "727"
+chars = "265-299"
+text = "clean two-path cancellation pattern"
+
+[[blocks]]
+sections = ["truth"]
+lines = "729"
+chars = "217-266"
+text = "active region becomes a densely connected subgraph"
+
+[[blocks]]
+sections = ["method"]
+lines = "731"
+chars = "8-10"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "733"
+chars = "51-53"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "739"
+chars = "3-27"
+text = "cancellation multiplicity"
+
+[[blocks]]
+sections = ["problem"]
+lines = "741"
+chars = "7-21"
+text = "active fraction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "743"
+chars = "171-218"
+text = "cancellation multiplicity _µ_ increases steadily"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "745"
+chars = "10-54"
+text = "Fock-space cage structure for bimagnon states"
+
+[[blocks]]
+sections = ["method"]
+lines = "745"
+chars = "480-482"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "747"
+chars = "56-88"
+text = "active fraction _ϕ_ remains small"
+
+[[blocks]]
+sections = ["truth"]
+lines = "749"
+chars = "62-99"
+text = "_ϕ_ decreases rapidly with system size"
+
+[[blocks]]
+sections = ["truth"]
+lines = "749"
+chars = "102-137"
+text = "vanishing in the thermodynamic limit"
+
+[[blocks]]
+sections = ["method"]
+lines = "749"
+chars = "168-170"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "749"
+chars = "280-282"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "751"
+chars = "59-61"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "765"
+chars = "12-14"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "765"
+chars = "126-150"
+text = "cancellation multiplicity"
+
+[[blocks]]
+sections = ["problem"]
+lines = "765"
+chars = "180-194"
+text = "active fraction"
+
+[[blocks]]
+sections = ["truth"]
+lines = "765"
+chars = "314-345"
+text = "active fraction _ϕ_ remain small"
+
+[[blocks]]
+sections = ["truth"]
+lines = "765"
+chars = "419-431"
+text = "_ϕ_ decreases"
+
+[[blocks]]
+sections = ["method"]
+lines = "765"
+chars = "699-701"
+text = "FSC"
+
+[[blocks]]
+sections = ["truth"]
+lines = "781"
+chars = "11-53"
+text = "FSC diagnostics for the bond-bimagnon tower"
+
+[[blocks]]
+sections = ["truth"]
+lines = "783"
+chars = "27-51"
+text = "cancellation multiplicity"
+
+[[blocks]]
+sections = ["problem"]
+lines = "783"
+chars = "126-140"
+text = "active fraction"
+
+[[blocks]]
+sections = ["method"]
+lines = "783"
+chars = "242-244"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "783"
+chars = "388-396"
+text = "commutant"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "792"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0020-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "795"
+chars = "82-84"
+text = "FSC"
+
+[[blocks]]
+sections = ["method"]
+lines = "797"
+chars = "74-76"
+text = "FSC"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "800"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0020-15.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "806"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0020-17.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "812"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0020-19.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "818"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0020-21.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "824"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0020-23.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "829"
+chars = "252-263"
+text = "Schmidt form"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "832"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-02.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "836"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-03.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "839"
+chars = "5-18"
+text = "von Neumann EE"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "842"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-05.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "852"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-09.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "858"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-11.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "861"
+chars = "170-210"
+text = "partition the chain into two equal halves"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "864"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-13.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "870"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-15.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "876"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-17.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "882"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-19.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "888"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-21.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "894"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-23.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "900"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-25.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "908"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0021-28.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "916"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-02.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "922"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "928"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-06.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "934"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-08.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "938"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-09.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "942"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-10.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "946"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-11.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "949"
+chars = "12-47"
+text = "von Neumann EE of the state _|r, n⟩_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "952"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-13.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "959"
+chars = "195-241"
+text = "largest bipartite entanglement among all towers"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "964"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-18.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "970"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-20.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "976"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-22.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "982"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-24.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "988"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-26.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "994"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0022-28.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "1002"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-02.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "1008"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "1014"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-06.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "1020"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-08.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "1026"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-10.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1029"
+chars = "71-107"
+text = "coefficient of the logarithm is exact"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1029"
+chars = "155-184"
+text = "plotting the exact EE obtained"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1029"
+chars = "280-360"
+text = "fit of the form _SL_[(] _[L/]_[2] _[,L][−]_[1)] = _m_ ln( _L_ )+ _c_ gives _m_ =1"
+
+[[blocks]]
+sections = ["method"]
+lines = "1031"
+chars = "9-57"
+text = "Restricted spectrum generating algebra of order-1"
+
+[[blocks]]
+sections = ["method"]
+lines = "1033"
+chars = "174-177"
+text = "RSGA"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1036"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-14.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1041"
+chars = "302-328"
+text = "total energy is _E_ 1=2 _h_"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1044"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-17.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1048"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-18.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1054"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-20.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1060"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-22.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1066"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-24.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1074"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-27.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1080"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-29.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1086"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-31.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1092"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-33.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1098"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0023-35.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "1101"
+chars = "42-76"
+text = "equidistant energies 2 _nh_ + _E_ 1"
+
+[[blocks]]
+sections = ["method"]
+lines = "1109"
+chars = "1-25"
+text = "## **1. Annihilation of**"
+
+[[blocks]]
+sections = ["method"]
+lines = "1109"
+chars = "41-47"
+text = "cluster"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "1114"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1117"
+chars = "32-38"
+text = "cluster"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "1120"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-07.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "1126"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1130"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-10.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1133"
+chars = "75-117"
+text = "only non-trivial action of an exchange term"
+
+[[blocks]]
+sections = ["method"]
+lines = "1136"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1142"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-14.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1148"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-16.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1152"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-17.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1160"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-20.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1166"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-22.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1172"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-24.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1178"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-26.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1184"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-28.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1190"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0024-30.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1198"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1204"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1210"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1215"
+chars = "36-51"
+text = "**by** _qi,i_ +1"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1217"
+chars = "49-65"
+text = "satisfy _qi,i_ +1"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1220"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-10.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1226"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-12.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1236"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-16.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1239"
+chars = "40-67"
+text = "simultaneous zeroeigenvector"
+
+[[blocks]]
+sections = ["method"]
+lines = "1241"
+chars = "1-50"
+text = "Following a similar line of reasoning one can show"
+
+[[blocks]]
+sections = ["method"]
+lines = "1244"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-19.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1247"
+chars = "106-155"
+text = "volume-entangled tower introduced in the main text"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1250"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-21.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "1256"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-23.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1262"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-25.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1268"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-27.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1271"
+chars = "226-279"
+text = "non-uniform amplitudes across different configurations"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1276"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-30.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1282"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0025-32.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1285"
+chars = "87-114"
+text = "coefficients 1, _−_ 2, and 1"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1285"
+chars = "148-255"
+text = "exact volume-entangled state _|_ V2 _⟩_ requires all three configurations to enter with the _same_ amplitude"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1294"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-03.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1300"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-05.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "1304"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-06.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "1310"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-08.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1313"
+chars = "92-117"
+text = "highly entangled EAP state"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1316"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-10.png)"
+
+[[blocks]]
+sections = ["problem", "truth"]
+lines = "1322"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-12.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "1328"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-14.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1334"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-16.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1340"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-18.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1346"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-20.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1352"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-22.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1358"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-24.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1364"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-26.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1367"
+chars = "81-133"
+text = "this property is inherited by all states in the tower"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1370"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-28.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "1373"
+chars = "8-53"
+text = "Entanglement entropy of volume-entangled tower"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "1378"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-31.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "1386"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0026-34.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "1389"
+chars = "167-187"
+text = "Schmidt decomposition"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "1393"
+chars = "6-38"
+text = "all non-zero Schmidt coefficients"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "1396"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-02.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "1402"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "1408"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-06.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "1414"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-08.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1417"
+chars = "16-37"
+text = "fine-tuned bipartition"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "1420"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-10.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "1428"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-13.png)"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "1434"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-15.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "1440"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-17.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "1446"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-19.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "1452"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-21.png)"
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "1458"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0027-23.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1461"
+chars = "126-200"
+text = "entanglement entropy under the fine-tuned bipartition grows logarithmically"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1465"
+chars = "243-274"
+text = "fitted coefficient _m≈_ 0 _._ 48"
+
+[[blocks]]
+sections = ["method"]
+lines = "1467"
+chars = "9-23"
+text = "Annihilation of"
+
+[[blocks]]
+sections = ["method"]
+lines = "1474"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-05.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1477"
+chars = "22-45"
+text = "mirror-dimer eigenstates"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1480"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-07.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1486"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-09.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1492"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1496"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1502"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-14.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1508"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-16.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1514"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-18.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1518"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-19.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1524"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-21.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1530"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-23.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "1536"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-25.png)"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1542"
+text = "![](.figures/arxiv__2511.14878/2511.14878.pdf-0028-27.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1545"
+chars = "7-29"
+text = "each mirror-dimer state"
+
+[[blocks]]
+sections = ["method", "truth"]
+lines = "1545"
+chars = "60-102"
+text = "common][zero] mode of all mirror generators"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1591"
+chars = "118-127"
+text = "volume law"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1597"
+chars = "60-69"
+text = "volume-law"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1597"
+chars = "81-103"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1679"
+chars = "31-53"
+text = "zero-energy eigenstates"
+
+[[blocks]]
+sections = ["method"]
+lines = "1695"
+chars = "34-59"
+text = "Localized Fock space cages"
+
+[[blocks]]
+sections = ["method"]
+lines = "1697"
+chars = "46-60"
+text = "Many-body cages"
+
+[[blocks]]
+sections = ["method"]
+lines = "1699"
+chars = "35-76"
+text = "Interference-caged quantum many-body scars"
+
+[[blocks]]
+sections = ["method"]
+lines = "1701"
+chars = "74-91"
+text = "Commutant Algebras"
+
+[[blocks]]
+sections = ["method"]
+lines = "1703"
+chars = "61-69"
+text = "commutant"
+
+[[blocks]]
+sections = ["method"]
+lines = "1705"
+chars = "73-120"
+text = "quantum many-body scars using commutant algebras"
+
+[[blocks]]
+sections = ["method"]
+lines = "1715"
+chars = "42-106"
+text = "Numerical methods for detecting symmetries and commutant algebras"
+
+[[blocks]]
+sections = ["truth"]
+lines = "1719"
+chars = "18-33"
+text = "Level statistics"
+
+[[blocks]]
+sections = ["problem"]
+lines = "1725"
+chars = "51-74"
+text = "coincides with the state"
+
+[[blocks]]
+sections = ["method"]
+lines = "1735"
+chars = "59-80"
+text = "From tunnels to towers"
+
+[[blocks]]
+sections = ["method"]
+lines = "1737"
+chars = "39-51"
+text = "Quasisymmetry"
+
+[[blocks]]
+sections = ["method"]
+lines = "1741"
+chars = "37-64"
+text = "Computational inverse method"
+
+[[blocks]]
+sections = ["method"]
+lines = "1743"
+chars = "39-103"
+text = "Deformed symmetry structures and quantum many-body scar subspaces"

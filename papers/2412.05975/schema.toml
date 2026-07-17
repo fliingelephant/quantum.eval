@@ -9,9 +9,283 @@ kind = "physics"
 status = "rendered"
 doi = "10.1103/PhysRevB.111.155105"
 arxiv_version = "2412.05975v2"
+md_sha256 = "f4974105f97a37cb9b45f71cd4952ffe7ba2e511d0d939987355e3d7876bed90"
 
 [candidate_notes]
 model = "1D half-filled BHZ model (two orbitals per site); Jastrow-Slater VMC, DMRG cross-check"
 headline = "phase diagram of interaction-induced phases vs interaction strength (order parameters + energies), corroborated by DMRG; topological band structure + symmetry analysis"
 compute = "1D VMC + modest DMRG cross-check: laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "One-dimensional Bernevig-Hughes-Zhang fermion model with two orbitals (η = ±1) and spin per site: H = H₀ + H_int, with onsite orbital energies ±M, intra-orbital hopping t, inter-orbital hopping i sσ λ, onsite intra-orbital Hubbard repulsion U, and nearest-neighbor density repulsion V."
+model_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:71-91"
+convention = "M ≥ 0, t > 0; the reported general calculations set t = λ = 1, and momenta use the periodic chain convention."
+convention_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:91,213"
+instance = "L-site periodic chain at half filling with Nₑ = 2L; the main finite-size calculations use L = 50 or 100, with V = 0 or V > 0 and the interaction scans shown in the target panels."
+instance_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:91,289,323,343,391,415"
+observables = ["phase of the many-body marker zσ", "spin string correlation and string-order parameter", "density parity correlation and parity-order parameter", "spin structure factor S(q)", "density structure factor N(q)", "CDW order parameter m_cdw", "variational energy per site"]
+observables_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:289,301,323,343,367-379"
+
+[[problem.targets]]
+panel = "fig3_phase_diagram"
+quantity = "Phase regions and transition boundaries in the (M/t, U/t) plane at V = 0 and t = λ"
+ensemble = "Ground-state phase classification from the Jastrow-Slater calculation"
+axes = ["M/t", "U/t"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:263"
+
+[[problem.targets]]
+panel = "fig4_string"
+quantity = "C_string(L/2) versus U/t at M/t = 0.5, V = 0 for L = 50 and 100, with the spin-1 Heisenberg reference"
+ensemble = "Jastrow-Slater VMC and DMRG spin-1 reference"
+axes = ["U/t", "C_string(L/2)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:289,293-301"
+
+[[problem.targets]]
+panel = "fig4_parity"
+quantity = "C_parity(L/2) versus U/t at M/t = 0.5, V = 0 for L = 50 and 100"
+ensemble = "Jastrow-Slater VMC"
+axes = ["U/t", "C_parity(L/2)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:289,301-307"
+
+[[problem.targets]]
+panel = "fig4_energy"
+quantity = "Strong-coupling variational energy per site E/(4t²/U) versus t²/U² in comparison with the L = 100 spin-1 Heisenberg DMRG energy"
+ensemble = "Jastrow-Slater VMC and DMRG spin-1 reference"
+axes = ["t²/U²", "E/(4t²/U)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:289,301"
+
+[[problem.targets]]
+panel = "fig5_u1_marker_phase"
+quantity = "arg(zσ) versus M/t at V = 0, U/t = 1, for L = 50 and 100"
+ensemble = "Jastrow-Slater VMC many-body marker"
+axes = ["M/t", "arg(zσ)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:323,333"
+
+[[problem.targets]]
+panel = "fig5_u6_marker_phase"
+quantity = "arg(zσ) versus M/t at V = 0, U/t = 6, for L = 50 and 100"
+ensemble = "Jastrow-Slater VMC many-body marker"
+axes = ["M/t", "arg(zσ)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:323,345"
+
+[[problem.targets]]
+panel = "fig5_u10_marker_phase"
+quantity = "arg(zσ) versus M/t at V = 0, U/t = 10, for L = 50 and 100"
+ensemble = "Jastrow-Slater VMC many-body marker"
+axes = ["M/t", "arg(zσ)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:323,345"
+
+[[problem.targets]]
+panel = "fig6_spin_structure"
+quantity = "Spin structure factor S(q) in the intermediate phase at L = 100, V = 0, U/t = 10, M/t = 5.9, including the small-q scaling inset"
+ensemble = "Jastrow-Slater VMC with DMRG comparison"
+axes = ["q", "S(q)", "q²/S(q)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:343"
+
+[[problem.targets]]
+panel = "fig6_density_structure"
+quantity = "Density structure factor N(q) in the intermediate phase at L = 100, V = 0, U/t = 10, M/t = 5.9, including the small-q scaling inset"
+ensemble = "Jastrow-Slater VMC with DMRG comparison"
+axes = ["q", "N(q)", "q²/N(q)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:343"
+
+[[problem.targets]]
+panel = "fig7_phase_diagram"
+quantity = "Phase regions and transition boundaries in the (M/t, V/t) plane at U/t = 6 and t = λ"
+ensemble = "Ground-state phase classification from the Jastrow-Slater calculation"
+axes = ["M/t", "V/t"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:357-363"
+
+[[problem.targets]]
+panel = "fig8_phase_diagram"
+quantity = "Phase regions and transition boundaries in the (M/t, V/t) plane at U/t = 10 and t = λ"
+ensemble = "Ground-state phase classification from the Jastrow-Slater calculation"
+axes = ["M/t", "V/t"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:363-365"
+
+[[problem.targets]]
+panel = "fig9_u6_cdw"
+quantity = "m_cdw versus V/t for L = 50, U/t = 6, at M/t = 0.5, 4.2, and 6.0"
+ensemble = "Jastrow-Slater VMC"
+axes = ["V/t", "m_cdw"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:391-399"
+
+[[problem.targets]]
+panel = "fig9_u10_cdw"
+quantity = "m_cdw versus V/t for L = 50, U/t = 10, at M/t = 2.0, 6.0, and 9.0"
+ensemble = "Jastrow-Slater VMC"
+axes = ["V/t", "m_cdw"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:391-401"
+
+[[problem.targets]]
+panel = "fig10_spin_structure"
+quantity = "Spin structure factor S(q) in the CDW3−1 phase at L = 100, V/t = 3, U/t = 10, M/t = 6"
+ensemble = "Jastrow-Slater VMC with DMRG comparison"
+axes = ["q", "S(q)", "q²/S(q)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:391"
+
+[[problem.targets]]
+panel = "fig10_density_structure"
+quantity = "Density structure factor N(q) in the CDW3−1 phase at L = 100, V/t = 3, U/t = 10, M/t = 6"
+ensemble = "Jastrow-Slater VMC with DMRG comparison"
+axes = ["q", "N(q)", "q²/N(q)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:391,401"
+
+[[problem.targets]]
+panel = "fig11_spin_structure"
+quantity = "Spin structure factor S(q) in the CDW4−0 phase at L = 100, V/t = 5, U/t = 10, M/t = 6"
+ensemble = "Jastrow-Slater VMC with DMRG comparison"
+axes = ["q", "S(q)", "q²/S(q)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:415"
+
+[[problem.targets]]
+panel = "fig11_density_structure"
+quantity = "Density structure factor N(q) in the CDW4−0 phase at L = 100, V/t = 5, U/t = 10, M/t = 6"
+ensemble = "Jastrow-Slater VMC with DMRG comparison"
+axes = ["q", "N(q)", "q²/N(q)"]
+tier = "light"
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:415"
+
+[method]
+primary = "Jastrow-Slater variational Monte Carlo over a spin-projected correlated Slater determinant"
+primary_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:217-247,267-273"
+cross_check = "Density-matrix renormalization group using a matrix-product-state ansatz"
+cross_check_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:95,271"
+valid_alternatives = ["Jastrow-Slater variational Monte Carlo", "DMRG", "exact diagonalization"]
+valid_alternatives_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:51,69,95"
+
+[method_params]
+wavefunction = "|Ψ_var⟩ = J_s J_d P_{S^z=0}|Φ₀⟩ with spin-spin and density-density Jastrow factors"
+wavefunction_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:217-229"
+variational_parameters = ["uᵅᵝ_{i,j}", "vᵅᵝ_{i,j}", "M̃", "λ̃₀,σ", "t̃_k", "λ̃_{k,η,σ}", "Δ", "h"]
+variational_parameters_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:229,247,267"
+symmetry_projection = "Projection onto S_tot^z = 0"
+symmetry_projection_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:229"
+dmrg_bond_dimension = "χ = 1600"
+dmrg_bond_dimension_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:271"
+
+[software]
+named = "ITensor Software Library for the DMRG comparison"
+named_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:271,533"
+valid_tool_set = ["ITensor"]
+valid_tool_set_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:271"
+
+[software_params]
+dmrg_ansatz_setup = "The Hamiltonian keeps periodic boundary conditions while the matrix-product-state ansatz is defined with open-boundary conditions."
+dmrg_ansatz_setup_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:95,271"
+energy_variance_check = "Total-energy variance below 0.0025 t²"
+energy_variance_check_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:271"
+
+[anchors]
+noninteracting_dispersion = "E_k = ±√([2t cos(k) + M]² + [2λ sin(k)]²)"
+noninteracting_dispersion_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:145-151"
+noninteracting_transition = "At half filling, M/t > 2 is trivial and M/t < 2 is topological; the spin-resolved Zak phase is 0 or π, respectively."
+noninteracting_transition_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:151-163"
+atomic_phase_reference = "At t = λ = 0 the Uniform, Trivial, CDW4−0, and CDW3−1 regions and their density patterns are analytic strong-coupling reference states."
+atomic_phase_reference_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:161,165-179"
+effective_spin_models = "Second-order hopping gives a spin-1/2 Heisenberg model in CDW3−1 and a spin-1 Heisenberg/Haldane description in the Uniform region."
+effective_spin_models_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:181-211"
+analytic_parity_limits = "C_parity(r) = 1 in the strong-coupling doubly occupied limit and vanishes in the non-interacting topological phase."
+analytic_parity_limits_provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:301-307"
+
+[truth.fig3_phase_diagram]
+value = "Categorical map: Topological (red) at low M/t, Trivial (blue) at high M/t, separated by an intermediate complex-marker region for finite U/t; boundaries digitized from Fig. 3."
+tolerance = 0.05
+provenance = "Inferred from the plotted phase boundaries in the figure embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:256-263; the paper states the phase labels and marker criterion at line 263."
+
+[truth.fig4_string]
+csv = "truth_fig4_string.csv"
+tolerance = 0.03
+provenance = "Inferred by digitization of the upper panel of Figure 4 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:282-289."
+
+[truth.fig4_parity]
+csv = "truth_fig4_parity.csv"
+tolerance = 0.03
+provenance = "Inferred by digitization of the lower panel of Figure 4 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:282-289."
+
+[truth.fig4_energy]
+value = "E/J = −2.366(1) for the extrapolated Jastrow-Slater energy and E/J = −2.4015 for the L = 100 spin-1 Heisenberg DMRG reference."
+tolerance = 0.002
+provenance = "Literal 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:301"
+
+[truth.fig5_u1_marker_phase]
+csv = "truth_fig5_u1_marker_phase.csv"
+tolerance = 0.08
+provenance = "Inferred by digitization of the upper panel of Figure 5 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:316-323; the text gives the observed jump interval at line 333."
+
+[truth.fig5_u6_marker_phase]
+csv = "truth_fig5_u6_marker_phase.csv"
+tolerance = 0.08
+provenance = "Inferred by digitization of the middle panel of Figure 5 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:316-323,345."
+
+[truth.fig5_u10_marker_phase]
+csv = "truth_fig5_u10_marker_phase.csv"
+tolerance = 0.08
+provenance = "Inferred by digitization of the lower panel of Figure 5 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:316-323,345."
+
+[truth.fig6_spin_structure]
+csv = "truth_fig6_spin_structure.csv"
+tolerance = 0.03
+provenance = "Inferred by digitization of the upper panel of Figure 6 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:336-343."
+
+[truth.fig6_density_structure]
+csv = "truth_fig6_density_structure.csv"
+tolerance = 0.05
+provenance = "Inferred by digitization of the lower panel of Figure 6 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:336-343."
+
+[truth.fig7_phase_diagram]
+value = "Categorical map: Topological, Trivial, intermediate, and fully gapped CDW4−0 regions in the (M/t,V/t) plane at U/t = 6; boundaries digitized from Fig. 7."
+tolerance = 0.05
+provenance = "Inferred from the phase-map image embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:354-363."
+
+[truth.fig8_phase_diagram]
+value = "Categorical map: Topological, Trivial, intermediate, CDW3−1, and fully gapped CDW4−0 regions in the (M/t,V/t) plane at U/t = 10; boundaries digitized from Fig. 8."
+tolerance = 0.05
+provenance = "Inferred from the phase-map image embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:354-365."
+
+[truth.fig9_u6_cdw]
+csv = "truth_fig9_u6_cdw.csv"
+tolerance = 0.15
+provenance = "Inferred by digitization of the upper-left panel of Figure 9 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:384-393."
+
+[truth.fig9_u10_cdw]
+csv = "truth_fig9_u10_cdw.csv"
+tolerance = 0.15
+provenance = "Inferred by digitization of the lower-left panel of Figure 9 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:384-393."
+
+[truth.fig10_spin_structure]
+csv = "truth_fig10_spin_structure.csv"
+tolerance = 0.08
+provenance = "Inferred by digitization of the upper-right panel of Figure 10 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:384-391."
+
+[truth.fig10_density_structure]
+csv = "truth_fig10_density_structure.csv"
+tolerance = 0.25
+provenance = "Inferred by digitization of the lower-right panel of Figure 10 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:384-391."
+
+[truth.fig11_spin_structure]
+csv = "truth_fig11_spin_structure.csv"
+tolerance = 0.005
+provenance = "Inferred by digitization of the upper panel of Figure 11 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:408-415."
+
+[truth.fig11_density_structure]
+csv = "truth_fig11_density_structure.csv"
+tolerance = 5.0
+provenance = "Inferred by digitization of the lower panel of Figure 11 embedded at 2412.05975_interaction-induced-phases-in-the-half-filled-bernevig-hughe.md:408-415."

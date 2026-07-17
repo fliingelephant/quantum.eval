@@ -1,0 +1,1516 @@
+# Partition layer for papers/2508.08376 — canonical, written by
+# scripts/anchor_blocks.py. Author blocks as quotes (no chars), then
+# re-run the anchor; never hand-edit offsets.
+
+[[blocks]]
+sections = ["truth"]
+lines = "5"
+chars = "9-18"
+text = "Continuous"
+
+[[blocks]]
+sections = ["truth"]
+lines = "14"
+chars = "3-12"
+text = "Continuous"
+
+[[blocks]]
+sections = ["truth"]
+lines = "26"
+chars = "319-358"
+text = "first order or via an intermediate phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "26"
+chars = "385-427"
+text = "directly continuous transition between them"
+
+[[blocks]]
+sections = ["problem"]
+lines = "26"
+chars = "599-648"
+text = "perturbed $\\mathbb{Z}_4$ quantum double (QD) model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "26"
+chars = "711-744"
+text = "continuous (2 + 1)D XY* transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "26"
+chars = "778-824"
+text = "mapping it to a two-coupled quantum Ising model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "26"
+chars = "850-928"
+text = "condensation order parameters and the area law coefficients of the Wilson loops"
+
+[[blocks]]
+sections = ["truth"]
+lines = "26"
+chars = "1036-1122"
+text = "become deconfined at the transition between $\\mathbb{Z}_2$ topologically ordered phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "30"
+chars = "5-14"
+text = "Continuous"
+
+[[blocks]]
+sections = ["truth"]
+lines = "42"
+chars = "307-346"
+text = "first order or via an intermediate phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "42"
+chars = "373-413"
+text = "direct continuous transition between them"
+
+[[blocks]]
+sections = ["problem"]
+lines = "42"
+chars = "573-610"
+text = "perturbed Z4 quantum double (QD) model"
+
+[[blocks]]
+sections = ["truth"]
+lines = "42"
+chars = "673-706"
+text = "continuous (2 + 1)D XY* transition"
+
+[[blocks]]
+sections = ["method"]
+lines = "42"
+chars = "740-786"
+text = "mapping it to a two-coupled quantum Ising model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "42"
+chars = "812-890"
+text = "condensation order parameters and the area law coefficients of the Wilson loops"
+
+[[blocks]]
+sections = ["truth"]
+lines = "42"
+chars = "974-1048"
+text = "become deconfined at the transition between Z2 topologically ordered phases"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "44"
+chars = "1016-1038"
+text = "duality transformations"
+
+[[blocks]]
+sections = ["method"]
+lines = "46"
+chars = "425-445"
+text = "exact diagonalization"
+
+[[blocks]]
+sections = ["method"]
+lines = "46"
+chars = "456-474"
+text = "quantum Monte Carlo"
+
+[[blocks]]
+sections = ["truth"]
+lines = "46"
+chars = "486-537"
+text = "the former method indicates a first-order transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "46"
+chars = "593-618"
+text = "intermediate gapless phase"
+
+[[blocks]]
+sections = ["method"]
+lines = "46"
+chars = "731-770"
+text = "deformed projected entangled pair states"
+
+[[blocks]]
+sections = ["truth"]
+lines = "49"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0001-10.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "52"
+chars = "303-342"
+text = "direct continuous TC-DS transition point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "52"
+chars = "452-471"
+text = "deconfined Z4 anyons"
+
+[[blocks]]
+sections = ["method"]
+lines = "54"
+chars = "2-5"
+text = "PEPS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "56"
+chars = "20-45"
+text = "confirm the existence of a"
+
+[[blocks]]
+sections = ["truth"]
+lines = "56"
+chars = "47-80"
+text = "direct continuous TC-DS transition"
+
+[[blocks]]
+sections = ["problem"]
+lines = "56"
+chars = "247-284"
+text = "perturbed Z4 quantum double (QD) model"
+
+[[blocks]]
+sections = ["method"]
+lines = "56"
+chars = "472-512"
+text = "continuous TC-DS transition, we introduce"
+
+[[blocks]]
+sections = ["method"]
+lines = "56"
+chars = "516-537"
+text = "duality transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "62"
+chars = "1-40"
+text = "two-coupled (2 + 1)D quantum Ising model"
+
+[[blocks]]
+sections = ["method"]
+lines = "62"
+chars = "83-127"
+text = "variationally optimized infinite PEPS (iPEPS)"
+
+[[blocks]]
+sections = ["method"]
+lines = "62"
+chars = "143-167"
+text = "automatic differentiation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "64"
+chars = "11-69"
+text = "condensation order parameters and the area law coefficients"
+
+[[blocks]]
+sections = ["truth"]
+lines = "64"
+chars = "131-195"
+text = "continuous TC-DS transition belongs to the XY* universality class"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "64"
+chars = "238-274"
+text = "continuous TC-DS transition resembles"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "64"
+chars = "278-310"
+text = "deconfined quantum critical point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "64"
+chars = "323-369"
+text = "direct continuous transition between two phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "64"
+chars = "371-454"
+text = "that spontaneously break different symmetries and exhibit fractionalized excitations"
+
+[[blocks]]
+sections = ["truth"]
+lines = "64"
+chars = "595-714"
+text = "One 1-form symmetry is broken spontaneously in the TC phase, while the other one is broken spontaneously in the DS phase"
+
+[[blocks]]
+sections = ["truth"]
+lines = "64"
+chars = "789-845"
+text = "become deconfined at the continuous TCDS transition point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "64"
+chars = "972-1045"
+text = "fractionalized anyons that are confined in both adjacent phases can emerge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "66"
+chars = "238-258"
+text = "perturbed Z4 QD model"
+
+[[blocks]]
+sections = ["problem"]
+lines = "66"
+chars = "343-407"
+text = "fixed-point Hamiltonian for the Z4 QD phase on the square lattice"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "69"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0002-04.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "72"
+text = "where the vertex and plaquette operators, _Av_ and _Bp_ , are illustrated in Fig. 2a, and are defined using the Z4 qudit operators: _X_ =[�][3] _n_ =0[|] _[n]_[⟩⟨][(] _[n]_[ +][ 1) mod 4][|][ ,] _[ Z]_[=][�][3] _n_ =0[i] _[n]_[ |] _[n]_[⟩⟨] _[n]_[|][.] Electric charges { _**e**_ , _**e**_[2] , _**e**_[3] } correspond to the eigenvalues {i, −1, −i} of _Av_ , while magnetic fluxes { _**m**_ , _**m**_[2] , _**m**_[3] } correspond to the same eigenvalues of _Bp_ . Their composites, _**e**[n]_ _**m**[k]_ ( _n_ , _k_ ∈ {1, 2, 3}), are known as dyons. Notice that charges (fluxes) are located on the primal (dual) lattice, and we adopt the convention in Ref. [35] that dyons live on the dual lattice. Further details on the anyon content of the Z2 topological order are provided in the Supplemental Material (SM) [42]. "
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "74"
+text = "According to anyon condensation theory [43–46], the Z4 QD model can undergo phase transitions to the TC phase by condensing the charge _**e**_[2] [47], and to the DS phase by condensing the dyon _**e**_[2] _**m**_[2] [20, 22]. Microscopically, the transition to the TC phase can be realized by a Hamiltonian HQD − _hz_ � _e[Z] e_[2][with] _[h][z]_ ≳ 0.657 [48]. In contrast, dyon condensation is less straightforward. Interestingly, the fixed-point DS model can be constructed using Z4 qudit operators [35]: "
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "77"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0002-07.png)"
+
+[[blocks]]
+sections = ["problem", "method"]
+lines = "81"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0002-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "84"
+chars = "41-62"
+text = "duality transformation"
+
+[[blocks]]
+sections = ["problem"]
+lines = "84"
+chars = "76-138"
+text = "multi-site local Hamiltonian terms of the perturbed Z4 QD model"
+
+[[blocks]]
+sections = ["method"]
+lines = "84"
+chars = "245-279"
+text = "mapped to a two-coupled Ising model"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "86"
+chars = "107-158"
+text = "The first term penalizes _semionic_ dyon excitations"
+
+[[blocks]]
+sections = ["problem"]
+lines = "86"
+chars = "360-383"
+text = "nearest neighboring edge"
+
+[[blocks]]
+sections = ["problem"]
+lines = "88"
+chars = "119-212"
+text = "perturbed][ Z][4] QD model to study topological phase transitions between the TC and DS phases"
+
+[[blocks]]
+sections = ["problem"]
+lines = "91"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0002-12.png)"
+
+[[blocks]]
+sections = ["problem"]
+lines = "94"
+chars = "30-66"
+text = "extensive set of conserved quantities"
+
+[[blocks]]
+sections = ["problem"]
+lines = "94"
+chars = "189-256"
+text = "Products of these operators generate the so-called 1-form symmetries"
+
+[[blocks]]
+sections = ["problem"]
+lines = "96"
+chars = "68-147"
+text = "We use non-local order parameters to detect spontaneous 1-form symmetry breaking"
+
+[[blocks]]
+sections = ["problem"]
+lines = "96"
+chars = "200-252"
+text = "One class of such non-local order parameters includes"
+
+[[blocks]]
+sections = ["problem"]
+lines = "96"
+chars = "640-712"
+text = "their non-zero expectation values imply the corresponding anyons condense"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "100"
+text = "TABLE I. **Condensation order parameters and area law coe** ffi **cients.** _S_ ( _S_[ˆ] ) denotes a semi-infinite long string on the primal (dual) lattice, _C_ ( _C_[ˆ] ) denote the a loop on the primal (dual) lattice, _R_ denotes the set of sites surround by the loop _C_ ( _C_[ˆ] ) and _aX_ is the area of the shape _X_ . The column “Def. in _H_ QD” lists the definition of the condensation order parameters and area law coefficients in the Z4 QD model, while “Def. in _H_ dual” for the two-coupled Ising model. The columns “Z4 QD”, “DS”, “TC” and “Trivial” show values of these quantities in the respective phases. "
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "102"
+text = "|Label|Def. in_H_QD<br>Def. in_H_dual Z4 QD<br>DS<br>TC Trivial|Def. in_H_QD<br>Def. in_H_dual Z4 QD<br>DS<br>TC Trivial|Def. in_H_QD<br>Def. in_H_dual Z4 QD<br>DS<br>TC Trivial|"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "104"
+text = "|Cond.<br>⟨**_e_**2⟩<br>⟨**_e_**2**_m_**2⟩<br>⟨**_m_**2⟩|����<br>��<br>_e_∈_S Z_2<br>_e_<br>�����<br>1/2<br>����<br>��<br>_e_∈ˆ_S W_2<br>_e_<br>�����<br>1/2<br>����<br>��<br>_e_∈ˆ_S X_2<br>_e_<br>�����<br>1/2||����<br>�<br>τ_z_<br>_i_<br>�����<br>0<br>0<br>>0<br>>0<br>����<br>�<br>τ_z_<br>_i_σ_x_<br>_i_<br>�����<br>0<br>>0<br>0<br>>0<br>����<br>�<br>σ_x_<br>_i_<br>�����<br>0<br>0<br>0<br>>0|"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "105"
+text = "|Conf.<br>α(**_e_**)<br>α(**_em_**)<br>α(**_m_**)|ln|ln<br>��<br>_e_∈_C Z_γ(_e_)<br>_e_<br>�<br>−_aC_<br><br>��<br>_e_∈ˆ_C X_ˆγ(_e_)<br>_e_<br>_Z_γ(_e_′)<br>_e_′<br>�<br>−_a_ˆ_C_<br>ln<br>��<br>_e_∈ˆ_C X_γ(_e_)<br>_e_<br>�<br>−_a_ˆ_C_|ln⟨�<br>_i_∈_R_ σ_z_<br>_i_ ⟩<br>−_aR_<br>0<br>>0<br>0<br>>0<br>ln⟨�<br>_i_∈_R_ τ_x_<br>_i_ σ_z_<br>_i_ ⟩<br>−_aR_<br>0<br>0<br>>0<br>>0<br>ln⟨�<br>_i_∈_R_ τ_x_<br>_i_ ⟩<br>−_aR_<br>0<br>>0<br>>0<br>>0|"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "110"
+chars = "62-82"
+text = "Wilson loop operators"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "110"
+chars = "450-470"
+text = "Wilson loop operators"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "110"
+chars = "850-869"
+text = "area law coefficient"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "110"
+chars = "872-912"
+text = "When α( _**e**_ ) > 0, it is the area law"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "110"
+chars = "939-953"
+text = "is confined. If"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "110"
+chars = "1122-1145"
+text = "is deconfined. Therefore"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "110"
+chars = "1163-1182"
+text = "area law coefficient"
+
+[[blocks]]
+sections = ["method"]
+lines = "110"
+chars = "1439-1465"
+text = "Mapping to a two-coupled (2"
+
+[[blocks]]
+sections = ["method"]
+lines = "110"
+chars = "1628-1655"
+text = "via a duality transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "110"
+chars = "1785-1812"
+text = "transverse-field Ising model"
+
+[[blocks]]
+sections = ["method"]
+lines = "110"
+chars = "1827-1855"
+text = "Wegner duality transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "110"
+chars = "1902-1933"
+text = "following duality transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "113"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0003-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "117"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0003-05.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "121"
+text = "Phase diagram ( hx =  − 1 . 000 plane)<br>TC Trivial<br>2<br>(i)<br>XY*<br>(ii)<br>1<br>Z4 QD DS<br>0<br>0 1 2<br>hw<br>hz<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["truth"]
+lines = "124"
+chars = "184-204"
+text = "3D Ising* transitions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "124"
+chars = "211-249"
+text = "red star marks the multi-critical point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "124"
+chars = "273-294"
+text = "XY* universality class"
+
+[[blocks]]
+sections = ["method"]
+lines = "126"
+chars = "159-198"
+text = "two-coupled (2 + 1)D quantum Ising model"
+
+[[blocks]]
+sections = ["method"]
+lines = "129"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0003-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "132"
+chars = "92-106"
+text = "duality mapping"
+
+[[blocks]]
+sections = ["method"]
+lines = "132"
+chars = "763-833"
+text = "duality transformation do not affect the evaluation of order parameters"
+
+[[blocks]]
+sections = ["method"]
+lines = "132"
+chars = "931-975"
+text = "standard (2 + 1)D quantum Ashkin-Teller model"
+
+[[blocks]]
+sections = ["method"]
+lines = "132"
+chars = "1436-1499"
+text = "duality transformations preserve the structure of phase diagrams"
+
+[[blocks]]
+sections = ["problem"]
+lines = "134"
+chars = "1-111"
+text = "The non-local condensation order parameters and the Wilson loop expectation values of the perturbed Z4 QD model"
+
+[[blocks]]
+sections = ["method"]
+lines = "138"
+chars = "46-76"
+text = "two-coupled quantum Ising model"
+
+[[blocks]]
+sections = ["method"]
+lines = "138"
+chars = "238-287"
+text = "two-coupled Ising model, which can be approximated"
+
+[[blocks]]
+sections = ["method"]
+lines = "138"
+chars = "295-320"
+text = "_C_ 4 _v_ -symmetric iPEPS"
+
+[[blocks]]
+sections = ["method"]
+lines = "138"
+chars = "365-383"
+text = "quantum Monte Carlo"
+
+[[blocks]]
+sections = ["method"]
+lines = "138"
+chars = "386-446"
+text = "iPEPS is more suitable to evaluate non-local order parameters"
+
+[[blocks]]
+sections = ["method"]
+lines = "138"
+chars = "457-509"
+text = "method of extracting area law coefficients from iPEPS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "138"
+chars = "852-879"
+text = "3D Ising* universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "138"
+chars = "994-1020"
+text = "continuous TC-DS transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "140"
+chars = "3-53"
+text = "Continuous topological phase transition between the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "140"
+chars = "146-195"
+text = "continuous TC-DS phase transition becomes possible"
+
+[[blocks]]
+sections = ["truth"]
+lines = "140"
+chars = "248-282"
+text = "continuous TC-DS transition emerges"
+
+[[blocks]]
+sections = ["truth"]
+lines = "140"
+chars = "439-500"
+text = "continuous TC-DS transition must occur at a point on this line"
+
+[[blocks]]
+sections = ["truth"]
+lines = "142"
+chars = "119-130"
+text = "_hc_ ≈ 1.490"
+
+[[blocks]]
+sections = ["truth"]
+lines = "142"
+chars = "181-272"
+text = "implying _**e**[n]_ , _**e**[n]_ _**m**[k]_ and _**m**[k]_ ( _n_ , _k_ ∈{1, 3}) are confined"
+
+[[blocks]]
+sections = ["truth"]
+lines = "142"
+chars = "482-548"
+text = "implying _**e**_[2] , _**e**_[2] _**m**_[2] and _**m**_[2] condense"
+
+[[blocks]]
+sections = ["truth"]
+lines = "142"
+chars = "665-693"
+text = "Z4 QD when _hw_ = _hz_ < _hc_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "142"
+chars = "699-736"
+text = "trivial phases when _hw_ = _hz_ > _hc_"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "144"
+chars = "171-192"
+text = "O(2) ϕ[4] field theory"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "144"
+chars = "493-573"
+text = "duality transformation gauges the Z2 × Z2 symmetry of the two-coupled Ising model"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "144"
+chars = "967-1019"
+text = "two-coupled Ising (perturbed Z4 quantum double) model"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "144"
+chars = "1091-1112"
+text = "O(2) ϕ[4] field theory"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "144"
+chars = "1126-1159"
+text = "3D XY (XY*) conformal field theory"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "146"
+chars = "1-12"
+text = "XY* theories"
+
+[[blocks]]
+sections = ["truth"]
+lines = "146"
+chars = "727-820"
+text = "The numerical results imply that the multicritical point belongs to the XY* universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "148"
+chars = "1-92"
+text = "**Continuous topological phase transition between the toric code and double semion phases.**"
+
+[[blocks]]
+sections = ["truth"]
+lines = "148"
+chars = "352-402"
+text = "**e**_ and _**e**_[3] are confined when _hw_ > _hz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "148"
+chars = "453-481"
+text = "are confined when _hw_ < _hz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "148"
+chars = "514-546"
+text = "are confined whenever _hw_ � _hz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "148"
+chars = "609-656"
+text = "_**e**_[2] _**m**_[2] condenses when _hw_ > _hz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "148"
+chars = "666-702"
+text = "_**e**_[2] condenses when _hw_ < _hz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "148"
+chars = "814-892"
+text = "system is in the TC phase when _hz_ > _hw_ and in the DS phase when _hw_ > _hz_"
+
+[[blocks]]
+sections = ["truth"]
+lines = "150"
+chars = "71-103"
+text = "critical exponent consistent with"
+
+[[blocks]]
+sections = ["truth"]
+lines = "150"
+chars = "484-558"
+text = "confirm that the multi-critical point belongs to the XY* universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "152"
+chars = "20-64"
+text = "continuous TC-DS transition exhibits features"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "152"
+chars = "71-113"
+text = "resemble deconfined quantum critical points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "152"
+chars = "595-635"
+text = "are confined in both the TC and DS phases"
+
+[[blocks]]
+sections = ["truth"]
+lines = "152"
+chars = "651-701"
+text = "deconfined at the continuous TC-DS transition point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "152"
+chars = "913-974"
+text = "fractionalized anyons with respect to the Z2 topological order"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "152"
+chars = "979-1073"
+text = "difference between the continuous TC-DS transition point and deconfined quantum critical points"
+
+[[blocks]]
+sections = ["truth"]
+lines = "154"
+chars = "180-228"
+text = "direct continuous phase transition exists between"
+
+[[blocks]]
+sections = ["truth"]
+lines = "159"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0005-01.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "163"
+chars = "64-78"
+text = "2 ν + = 1 . 344"
+
+[[blocks]]
+sections = ["truth"]
+lines = "163"
+chars = "139-152"
+text = "2 ν− = 1 . 134"
+
+[[blocks]]
+sections = ["truth"]
+lines = "163"
+chars = "523-535"
+text = "Z4 QD Trivial"
+
+[[blocks]]
+sections = ["truth"]
+lines = "163"
+chars = "537-548"
+text = "βφ = 0 . 349"
+
+[[blocks]]
+sections = ["truth"]
+lines = "163"
+chars = "555-559"
+text = "TC DS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "163"
+chars = "561-582"
+text = "βφ [′] [= 0] [.] [294]"
+
+[[blocks]]
+sections = ["truth"]
+lines = "163"
+chars = "597-608"
+text = "β− = 0 . 830"
+
+[[blocks]]
+sections = ["truth"]
+lines = "166"
+chars = "89-121"
+text = "continuous TC-DS transition point"
+
+[[blocks]]
+sections = ["truth"]
+lines = "166"
+chars = "148-171"
+text = "≈ (−1.000, 1.490, 1.490)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "166"
+chars = "290-356"
+text = "bond dimensions ( _D_ , χ) = (4, 100), (5, 100), (6, 100), (7, 100)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "166"
+chars = "376-395"
+text = "iPEPS bond dimension"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "166"
+chars = "410-482"
+text = "bond dimension of the corner transfer matrix renormalization group method"
+
+[[blocks]]
+sections = ["method"]
+lines = "166"
+chars = "484-504"
+text = "contracting the iPEPS"
+
+[[blocks]]
+sections = ["truth"]
+lines = "166"
+chars = "589-600"
+text = "_hc_ = 1.490"
+
+[[blocks]]
+sections = ["truth"]
+lines = "166"
+chars = "613-634"
+text = "XY* universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "168"
+chars = "65-91"
+text = "continuous TC-DS transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "168"
+chars = "93-106"
+text = "belongs to the"
+
+[[blocks]]
+sections = ["truth"]
+lines = "168"
+chars = "108-129"
+text = "XY* universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "168"
+chars = "138-164"
+text = "deconfined Z4 anyons emerge"
+
+[[blocks]]
+sections = ["truth"]
+lines = "168"
+chars = "265-291"
+text = "continuous TC-DS transition"
+
+[[blocks]]
+sections = ["truth"]
+lines = "168"
+chars = "427-452"
+text = "continuous transition line"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "168"
+chars = "833-894"
+text = "topological phase transition with an exact continuous symmetry"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "168"
+chars = "910-942"
+text = "deconfined quantum critical point"
+
+[[blocks]]
+sections = ["method"]
+lines = "170"
+chars = "502-580"
+text = "the duality transformation and non-] local order parameters do not work anymore"
+
+[[blocks]]
+sections = ["software"]
+lines = "174"
+chars = "24-64"
+text = "The code and data are available on Zenodo"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "240"
+text = "- [30] M. Dupont, S. Gazit, and T. Scaffidi, Evidence for deconfined _u_ (1) gauge theory at the transition between toric code and double semion, Phys. Rev. B **103** , L140412 (2021). "
+
+[[blocks]]
+sections = ["method"]
+lines = "252"
+text = "- [36] P. Corboz, Variational optimization with infinite projected entangled-pair states, Phys. Rev. B **94** , 035133 (2016). "
+
+[[blocks]]
+sections = ["method"]
+lines = "254"
+text = "- [37] L. Vanderstraeten, J. Haegeman, P. Corboz, and F. Verstraete, Gradient methods for variational optimization of projected entangled-pair states, Phys. Rev. B **94** , 155123 (2016). "
+
+[[blocks]]
+sections = ["method"]
+lines = "256"
+text = "- [38] H.-J. Liao, J.-G. Liu, L. Wang, and T. Xiang, Differentiable programming tensor networks, Phys. Rev. X **9** , 031041 (2019). "
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "258"
+text = "- [39] T. Senthil, A. Vishwanath, L. Balents, S. Sachdev, and M. P. A. Fisher, Deconfined quantum critical points, Science **303** , 1490 (2004). "
+
+[[blocks]]
+sections = ["method", "anchors", "truth"]
+lines = "268"
+text = "- [42] See Supplemental Material for a review on the anyon condensation theory of the Z4 QD model, details of the duality transformation, additional numerical results, and an analysis of the critical exponents at the MCP based on the O(2) ϕ[4] field theory. Supplemental Material also includes Refs. [12, 75– 78, 80–92]. "
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "280"
+text = "- [48] The phase transition point can be determined by mapping the Hamiltonian HQD − _hz_ � _e[Z] e_[2][to the transverse-field Ising model] _H_ Ising = −[�] ⟨ _i_ , _j_ ⟩[σ] _i[z]_[σ] _[z] j_[−] _[h]_[ �] _i_[σ] _i[x]_[. This yields the critical point at] _hz_ = 2/ _h_[TFIM] _c_ , where _h_[TFIM] _c_ = 3.044 330(6) is the known critical value of the transverse-field Ising model [58]. "
+
+[[blocks]]
+sections = ["method"]
+lines = "296"
+text = "- [15] F. J. Wegner, Duality in generalized ising models and phase transitions without local order parameters, Journal of Mathematical Physics **12** , 2259 (1971). "
+
+[[blocks]]
+sections = ["method"]
+lines = "300"
+text = "- [58] C.-J. Huang, L. Liu, Y. Jiang, and Y. Deng, Worm-algorithmtype simulation of the quantum transverse-field ising model, Phys. Rev. B **102** , 094101 (2020). "
+
+[[blocks]]
+sections = ["method"]
+lines = "308"
+text = "- [61] W.-T. Xu and R.-Z. Huang, Finite correlation length scaling of disorder parameter at quantum criticality, Phys. Rev. Lett. **134** , 146503 (2025). "
+
+[[blocks]]
+sections = ["method"]
+lines = "312"
+text = "- [63] T. Nishino and K. Okunishi, Corner transfer matrix renormalization group method, Journal of the Physical Society of Japan **65** , 891 (1996). "
+
+[[blocks]]
+sections = ["method"]
+lines = "314"
+text = "- [64] T. Nishino and K. Okunishi, Corner transfer matrix algorithm for classical renormalization group, Journal of the Physical Society of Japan **66** , 3040 (1997). "
+
+[[blocks]]
+sections = ["method"]
+lines = "316"
+text = "- [65] M. T. Fishman, L. Vanderstraeten, V. Zauner-Stauber, J. Haegeman, and F. Verstraete, Faster methods for contracting infinite two-dimensional tensor networks, Phys. Rev. B **98** , 235148 (2018). "
+
+[[blocks]]
+sections = ["software", "truth"]
+lines = "334"
+text = "- [74] Q. Zhang and W.-T. Xu, Continuous topological phase transition between z2 topologically ordered phases, 10.5281/zenodo.16748849 (2025). "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "352"
+text = "   - S. Dylak, On non-ising phase transitions in the 3d standard ashkin-teller model, Acta Physica Polonica A **121** , 1105 (2012). "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "360"
+text = "- [85] R. V. Ditzian, J. R. Banavar, G. S. Grest, and L. P. Kadanoff, Phase diagram for the ashkin-teller model in three dimensions, Phys. Rev. B **22** , 2542 (1980). "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "362"
+text = "- [86] G. Musiał, D. Jeziorek-Knioła, and Z. Wojtkowiak, Monte carlo examination of first-order phase transitions in a system with many independent order parameters: Three-dimensional ashkin-teller model, Phys. Rev. E **103** , 062124 (2021). "
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "366"
+text = "- [88] M. Schuler, L.-P. Henry, Y.-M. Lu, and A. M. Läuchli, Emergent XY* transition driven by symmetry fractionalization and anyon condensation, SciPost Phys. **14** , 001 (2023). "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "376"
+text = "## **SI. ANYON CONDENSATION THEORY OF THE** Z4 **QUANTUM DEOUBLE MODEL** "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "378"
+text = "In this section, we review the properties of anyons in the Z4 topological order, and apply the anyon condensation theory to the Z4 topological order. There are three types of anyons in the Z4 topological phase. The electric charges { _**e**_ , _**e**_[2] , _**e**_[3] } correspond to eigenvalues {i, −1, −i} of _Av_ , while the magnetic fluxes { _**m**_ , _**m**_[2] , _**m**_[3] } correspond to the same eigenvalues of _Bp_ . Their composites, _**e**[n]_ _**m**[k]_ ( _n_ , _k_ ∈{1, 2, 3}), are known as dyons. As an Abelian topological order, all anyons of the Z4 topological order are Abelian anyons with the quantum dimension 1. The topological spins of the charges and the fluxes are 1. The topological spins of the dyon _**e**[n]_ _**m**[k]_ are determined by the mutual braiding phase factor i _[nk]_ between _**e**[n]_ and _**m**[k]_ . The mutual braiding of the anyons _**e**[n]_ _**m**[k]_ and _**e**[q]_ _**m**[r]_ ( _n_ , _k_ , _q_ , _r_ ∈{0, 1, 2, 3}) gives rise to the phase factor i _[nr]_[−] _[kq]_ . The properties of these anyons are summarized in Tab. S1. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "380"
+text = "TABLE S1. Anyons of the Z4 topological order and condensation patterns in the TC and DS phases. The abbreviation “conf.” denotes confinement, and “cond.” denotes condensation. "
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "382"
+text = "|Type|Trivial||Charge|||Flux||||||Dyon|||||"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "384"
+text = "|Anyon|**1**|**_e_**|**_e_**2|**_e_**3|**_m_**|**_m_**2|**_m_**3|**_em_**|**_em_**2|**_em_**3|**_e_**2**_m_**|**_e_**2**_m_**2|**_e_**2**_m_**3|**_e_**3**_m_**|**_e_**3**_m_**2|**_e_**3**_m_**3|"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "385"
+text = "|Topological spin|1|1|1|1|1|1|1|i|-1|-i|-1|1|-1|-i|-1|i|"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "386"
+text = "|TC|**1**|**_e_**|cond.|**_e_**|conf.|**_m_**2|conf.|conf.|**_em_**2|conf.|conf.|**_m_**2|conf.|conf.|**_em_**2|conf|"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "387"
+text = "|DS|**1**|conf.|**_m_**2|conf.|conf.|**_m_**2|conf.|**_em_**|conf.|**_em_**3|conf.|cond.|conf.|**_em_**3|conf.|**_em_**|"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "391"
+text = "Then we consider anyon condensation in the Z4 topological order. The basic rules for Abelian anyon condensation are [1–4]: "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "393"
+text = "- Only bosonic anyons whose topological spins are 1 can condense. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "395"
+text = "- Anyons whose mutual braiding phase factors with the condensed anyons are not 1 are confined. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "397"
+text = "- Two anyons that differ by a condensed anyon via the fusion rules become identical. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "399"
+text = "Based on these rules, we can find that by condensing _**e**_[2] , the remaining anyons are { **1** , _**e**_ , _**m**_[2] , _**em**_[2] }, which are exactly the anyons of the toric code, as shown in Tab. S1. A different toric code can be obtained by condensing _**m**_[2] such that the remaining anyons are { **1** , _**m**_ , _**e**_[2] , _**e**_[2] _**m**_ }. Moreover, there is a bosonic dyon _**e**_[2] _**m**_[2] in the Z4 topological order. By condensing _**e**_[2] _**m**_[2] , the remaining anyons are { **1** , _**em**_ , _**em**_[3] , _**e**_[2] }, also in Tab. S1. These anyons are exactly the anyons { **1** , _**s**_ , ¯ _**s**_ , _**b**_ = _**ss**_ ¯} of the DS, where _**s**_ denotes the semion. "
+
+[[blocks]]
+sections = ["method"]
+lines = "401"
+text = "## **SII. DERIVATION OF THE DUALITY TRANSFORMATION** "
+
+[[blocks]]
+sections = ["method"]
+lines = "403"
+text = "## **A. Duality transformation between Hamiltonians** "
+
+[[blocks]]
+sections = ["method"]
+lines = "405"
+chars = "31-79"
+text = "detailed derivation of the duality transformation"
+
+[[blocks]]
+sections = ["method"]
+lines = "412"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0009-02.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "418"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0009-04.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "424"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0009-06.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "430"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0009-08.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "436"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0009-10.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "439"
+chars = "154-193"
+text = "two-coupled (2 + 1)D quantum Ising model"
+
+[[blocks]]
+sections = ["method"]
+lines = "442"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0009-12.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "445"
+text = "We validate the duality transformation by comparing the energy spectra of the perturbed Z4 QD model _H_ QD and the dual model _H_ dual using exact diagonalization. The agreement between the spectra of the two models confirms the correctness of the duality mapping. "
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "447"
+text = "In certain special limits, the two-coupled quantum Ising model in Eq. (S6) can be further simplified. When _hx_ = _hw_ = 0, the degrees of freedom of {σ _[z] i_[}][are][fixed][to][1.][The][model][reduces][to][a][single][(2][ +][ 1)D][transverse-field][Ising][model][(TFIM)][:] _H_ = −4[�] _i_[τ] _i[x]_[−] _[h][z]_ �⟨ _ij_ ⟩[τ] _[z] i_[τ] _[z] j_[.][This][yields][the][critical][point][at] _[h][z]_[=][4][/] _[h]_[TFIM] _c_ , where _h_[TFIM] _c_ = 3.044 330(6) is the known critical field of the TFIM [5]. When _hx_ = 0, _hw_ → +∞, there are constraints τ _[z] i_[τ] _[z] j_[=][σ] _i[x]_[σ] _[x] j_[=][1][,][ ∀⟨] _[i]_[,] _[j]_[⟩][.] _[H]_[dual][reduces to another TFIM:] _H_ = −2[�] _i[s] i[x]_[−] _[h][z]_ �⟨ _ij_ ⟩ _[s][z] i[s][z] j_[, where] _[ s] i[z]_[=][ τ] _[z] i_[and] _[ s] i[x]_[=][ τ] _i[x]_[σ] _[z] i_[.][Similarly, when] _[ h][x]_[=] _[ h][z]_[=][ 0 and] _[ h][x]_[=][ 0][,] _[h][z]_[→][+][∞][,] _[ H]_[dual][ also reduces] to the TFIM. "
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "449"
+text = "Our duality transformation at these special limits are almost the Wegner duality transformation, which is a non-invertible transformation, and it does not preserve the locality of operators that are not 1-form symmetric. The Wegner duality exactly transforms the Z2 toric code model in a transverse/longitudinal field on a torus to the direct sum of the even sector TFIM with the periodic boundary condition and the even sector TFIM with the anti-periodic boundary condition [6]. To show our duality transformation does not change the critical behavior of the order parameters we studied in the main text, we check how our duality transforms the symmetry sectors and the boundary conditions between the perturbed Z4 QD model and the two-coupled Ising model. "
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "451"
+text = "Let us first consider the symmetry sectors. From Eqs. (S1) and (S4), we know σ _[z] i_[and][τ] _i[x]_[of][the][two-coupled][Ising][model] correspond to _B_[2] _p_[and] _[ A]_[2] _v_[of the perturbed][ Z][4][QD model.][When putting the system on a torus, the][ Z][2][×][ Z][2][symmetry operators of] the two-coupled Ising model satisfy[�] _i_[σ] _[z] i_[=][�] _p[B]_[2] _p_[=][�] _i_[τ] _i[x]_[=][�] _v[A]_[2] _v_[=][1, therefore, the perturbed][ Z][4][QD model maps only to] the even sectors of the two Z2 symmetries. "
+
+[[blocks]]
+sections = ["method"]
+lines = "456"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0009-18.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "461"
+text = "where _C_[ˆ] _x_ ( _y_ ) are non-contractible loops on the dual lattice in _x_ ( _y_ ) direction, and _Cx_ ( _y_ ) are non-contractible loops on the primal lattice in _x_ ( _y_ ) direction. Again using Eqs. (S1) and (S4) we find[�] _e_ ∈ _C_[ˆ] _x[X] e_[2][=][�] _e_ ∈ _C_[ˆ] _y[X] e_[2][=][�] _e_ ∈ _Cx[Z] e_[2][=][�] _e_ ∈ _Cy[Z] e_[2][=][1, so the two-] coupled Ising model with the periodic boundary condition only corresponds to the perturbed Z4 QD model in the even sector of these non-contractible 1-form symmetry operators. Actually, some eigenstates (including ground states) of the perturbed Z4 QD model are eigenstates of some non-contractible 1-form symmetry operators with the eigenvalue −1. Therefore, to obtain the odd sectors of these non-contractible 1-form symmetry operators, we can slightly modify the duality transformation in Eq. (S1): "
+
+[[blocks]]
+sections = ["method"]
+lines = "464"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0010-02.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "467"
+text = "In the case with the +(−) sign before _X_[2] _p_ ( _e_ ) _[X]_[2] _p_[′] ( _e_ )[or] _[Z] v_[2] ( _e_ ) _[Z] v_[2][′] ( _e_ )[in][the][second][line,][the][perturbed][Z][4][QD][model][is][mapped][to] the the two-coupled Ising model with the periodic (anti-periodic) boundary condition for the σ _[x]_ or τ _[z]_ spins. Here, the antiperiodic boundary condition means that the ferromagnetic couplings along some non-contractible loops are changed to the anti-ferromagnetic couplings. In summary, the complete duality transformation of the perturbed Z4 QD model _H_ QD on a torus is "
+
+[[blocks]]
+sections = ["method"]
+lines = "470"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0010-04.png)"
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "473"
+text = "where _b_[σ] _x_[,] _[ b]_[σ] _y_[,] _[ b]_[τ] _x_[,] _[ b]_[τ] _y_[are][boundary][conditions][in] _[x]_[and] _[y]_[directions][of][the][σ][or][τ][spins][which][can][be][either][periodic][(][+][)] or antiperiodic (−). The ground state of 1+[�] 2 _i_[τ] _i[x]_ 1+[�] 2 _i_[σ] _[z] i H_ dual(+, +, +, +) is always non-degenerate, and its energy is always equal or lower than ground state energies of all the other fifteen Hamiltonians in the direct sum. So the ground state of 1+[�] 2 _i_[τ] _i[x]_ 1+[�] 2 _i_[σ] _[z] i H_ dual(+, +, +, +) corresponds to one of the ground state of the perturbed Z4 QD model which satisfy[�] _e_ ∈ _C_[ˆ] _x[X] e_[2][=] � _e_ ∈ _C_[ˆ] _y[X] e_[2][=][�] _e_ ∈ _Cx[Z] e_[2][=][�] _e_ ∈ _Cy[Z] e_[2][=][1.][In the next subsection, we will show that it is valid to evaluate the order parameters of] the _H_ QD using the ground state _H_ dual regardless of the even sector projectors before it. "
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "476"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0010-06.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "480"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0010-07.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "484"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0010-08.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "488"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0010-09.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "492"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0010-10.png)"
+
+[[blocks]]
+sections = ["problem", "anchors"]
+lines = "496"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0010-11.png)"
+
+[[blocks]]
+sections = ["method"]
+lines = "501"
+chars = "9-55"
+text = "Duality transformation between order parameters"
+
+[[blocks]]
+sections = ["method", "problem", "anchors"]
+lines = "503"
+text = "Using the duality transformation, the condensation order parameter and Wilson loop order parameters associated with the 1-form symmetries of the Z4 QD model can be mapped to the order and disorder parameters of the two-coupled Ising model with the Z2 × Z2 0-form symmetries, respectively. Specifically, using the relations _Xe_[2][→][σ] _[x] p_ ( _e_ )[σ] _[x] p_[′] ( _e_ )[,] _[Z] e_[2][→][τ] _[z] v_ ( _e_ )[τ] _v[z]_[′] ( _e_ )[, where] _[p]_[(] _[e]_[)] "
+
+[[blocks]]
+sections = ["method", "problem"]
+lines = "510"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0011-02.png)"
+
+[[blocks]]
+sections = ["method", "problem", "anchors"]
+lines = "513"
+text = "where _S_ ( _v_ , _v_[′] ) [ _S_[ˆ] ( _p_ , _p_[′] )] denotes the string on the primal [dual] lattice whose two end points are at two vertices [plaquettes] _v_ [ _p_ ] and _v_[′] [ _p_[′] ], see Figs. S1a-c. Furthermore, using the relations _Av_ + _A_[†] _v_[→][2][τ] _i[x]_[,] _[B][p]_[ +] _[ B]_[†] _p_[→][2][σ] _[z] i_[, we can transform the Wilson] loop operators of the Z4 QD model to the disorder operators of the dual model [7, 8]: "
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "516"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0011-04.png)"
+
+[[blocks]]
+sections = ["method", "problem", "anchors"]
+lines = "519"
+text = "where γ( _e_ ), γˆ( _e_ ) taking values 1 or 3 depends on the direction of the edge _e_ , see Figs. S1d-f. The symbol _aC_ ( _aC_ ˆ) is the set of plaquettes (vertices) surrounded by _C_ ( _C_[ˆ] ). _R_ denotes the set of sites surround by the loop _C_ ( _C_[ˆ] ) after shifting the dual lattice to the primal lattice. The derivation takes advantage of the fact that the ground states of the perturbed Z4 QD model satisfy _A_[2] _v_[=] _[B]_[2] _p_[=][ 1.] There is a small subtly when evaluating the duality transformed order parameters. When the two coupled Ising model _H_ dual is in a symmetry-breaking phase, the even sector projectors enforce the ground states to be the symmetric cat states. Because of the relation lim| _p_ − _p_[′] |→∞ |⟨[�] _e_ ∈ _S_[ˆ] ( _p_ , _p_[′] ) _[X] e_[2][⟩|][1][/][2][=][lim][|] _[i]_[−] _[j]_[|→∞][|⟨][σ] _i[x]_[σ] _[x] j_[⟩][cat][|][1][/][2][=][lim][|] _[i]_[−] _[j]_[|→∞][|⟨][σ] _i[x]_[σ] _[x] j_[⟩|][1][/][2][=][|⟨][σ] _i[x]_[⟩|][ (similar for][ τ] _[z]_[),][where] the string operator is evaluated using a ground state of the perturbed Z4 QD model and the Z2 Pauli operators are evaluated using a ground state of the two-coupled Ising model (“cat” denotes the symmetrized ground state in the even sectors of two Z2 symmetries), it is still valid to evaluate the string order parameter of the perturbed Z4 QD model using the symmetry breaking iPEPS of the two-coupled Ising model. Moreover, from Eq. (S11), the Wilson loop operators of the perturbed Z4 quantum double model are mapped to the disorder operators of the two-coupled Ising model, and it can be checked that ⟨[�] _i_ ∈ _R_[σ] _[z] i_[⟩][cat][=][ ⟨][�] _i_ ∈ _R_[σ] _[z] i_[⟩] (similar for τ _[x]_ ), so it does not matter if we use the symmetric cat states or symmetry breaking states. Since the duality transformation maps between two sets of order parameters related to the spontaneous 1-form symmetry breaking and the spontaneous 0-form symmetry breaking, separately, we can know the mapping between the 1-form symmetry breaking patterns and the 0-form symmetry breaking patterns. Specifically, the Z4 QD model has a Z[(1)] 2[×][ Z] 2[′][(1)] 1-form symmetry (the superscripts denote the form of the symmetry), which has different spontaneous symmetry breaking patterns in different topologically ordered phases, as shown in Tab. S2. After the duality transformation, the two-coupled quantum Ising model has a Z[(0)] 2 × Z[′] 2[(0)] 0-form symmetry, and the spontaneous symmetry breaking patterns in different phases are also summarized in Tab. S2. "
+
+[[blocks]]
+sections = ["method"]
+lines = "521"
+text = "## **C. The underlying physics of the duality transformation** "
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "523"
+text = "An interesting question regarding the duality transformation is: How can we explicitly construct the operator that implements the duality transformation? We can think about this question from the fact that two categories Vec(Z4) and Vec[ω][II] (Z2 × Z2) are Morita equivalent [9, 10], where ωII is a type-II cocycle of the Z2 × Z2 group. Specifically, we can apply a finite depth quantum circuit (FDQC) to transform the perturbed Z4 QD model to a perturbed type-II cocycle twisted Z2 × Z2 QD model [11]. Then, applying the tensor product of two Wegner duality (duality[⊗][2] ) transformations on the perturbed but untwisted Z2 × Z2 quantum double model, we get a perturbed model for a non-trivial Z2 × Z2 symmetry-protected topological (SPT) phase. Finally, via another FDQC, we can transform the perturbed non-trivial SPT model to the two-coupled Ising model. The effect of applying these transformations on the fixed point Z4 QD model can be summarized as: "
+
+[[blocks]]
+sections = ["method"]
+lines = "526"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0011-08.png)"
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "529"
+text = "and the transformation for the perturbed Z4 QD model is the same one. We notice that the DS phase suffers from the intrinsic sign problem [12–14], whereas the duality transformation maps it to a paramagnetic phase without the intrinsic sign problem. This indicates that the duality transformation we propose is distinct from the well-known Wegner duality between the Z2 lattice "
+
+[[blocks]]
+sections = ["method", "anchors"]
+lines = "533"
+text = "gauge theory and the Ising model [15], which relates two models both without the intrinsic sign problem. Our duality can instead be understood as a combination of the Wegner duality and finite-depth quantum circuits, which together remove the intrinsic sign problem. It would be interesting to explicitly work out the transformations shown in Eq. (S12) in the future. "
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "535"
+text = "TABLE S2. Symmetry breaking patterns in different topological phases of the perturbed Z4 QD model, and the corresponding phases and symmetries in the dual two-coupled quantum Ising model. The superscripts denote the form of symmetries. "
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "537"
+text = "|PerturbedZ4 QD model|Z4 QD|TC||DS|Trivial|"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "539"
+text = "|Ground state symmetry|Z(1)<br>1|Z(1)<br>2 ={1, �<br>_e_∈_C Z_2<br>_e_}|Z′(1)<br>2<br>=|{1, �<br>_e_∈ˆ_C X_2<br>_eZ_2<br>_e_′}|Z(1)<br>2 ×Z′(1)<br>2|"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "540"
+text = "|Two-coupled quantum Ising model|Paramagnet|τ_z_ Ferromagnet|σ_x_τ_z_ Ferromagnet||Baxter|"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "541"
+text = "|Ground state symmetry|Z(0)<br>2 ×Z′(0)<br>2|Z(0)<br>2 ={1, �<br>_i_ σ_z_<br>_i_}|Z′(0)<br>2|={1, �<br>_i_ τ_x_<br>_i_ σ_z_<br>_i_}|Z(0)<br>1|"
+
+[[blocks]]
+sections = ["method"]
+lines = "545"
+text = "## **SIII. SUPPLEMENTAL NUMERICAL RESULTS** "
+
+[[blocks]]
+sections = ["method", "method_params"]
+lines = "547"
+text = "In this work, the ground states of the two-coupled (2 + 1)D quantum Ising model are approximated by _C_ 4 _v_ -symmetric iPEPS [16, 17] with various bond dimensions _D_ , using the automatic differentiation technique [18]. The contraction of the squared norm of iPEPS is performed approximately using the _C_ 4 _v_ symmetric corner transfer matrix renormalization group (CTMRG) algorithm [19–21], with environment bond dimensions χ. After evaluating the order parameters and the disorder parameters of the two-coupled quantum Ising model, we map them back to the condensation order parameters and the area law coefficients of the perturbed Z4 QD model. "
+
+[[blocks]]
+sections = ["truth"]
+lines = "550"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0012-06.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "557"
+chars = "93-162"
+text = "continuous transitions which belong to the 3D Ising universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "557"
+chars = "206-234"
+text = "first-order phase transitions"
+
+[[blocks]]
+sections = ["truth"]
+lines = "557"
+chars = "260-314"
+text = "multi-critical point that to the XY* universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "559"
+text = "We show the phase diagrams of the perturbed Z4 QD model on various _hx_ planes in Fig. S2, which exhibit three distinct types of structures. The phase diagrams for 0.1 < _hx_ < 1.0 resemble Fig. S2a, where the TC and DS phases are not directly connected and the Z4 QD and trivial phases are separated by a first-order transition line. As _hx_ decreases into the range −0.2 < _hx_ < 0.1, the first-order line gradually shrinks into a single first-order transition point, such that the four gapped phases meet together, as depicted in Fig. S2b. For −0.8 < _hx_ < −0.2, numerical results suggest the meeting point of the four phases is associated with a continuous phase transition, but we find that its critical exponents may vary continuously with decreasing _hx_ . Previous studies of the 3D classical AT model suggest that there are several possibilities: weakly first-order [22], a wide crossover [23], or continuous but non-universal [24, 25]. So the meeting point in the range −0.8 < _hx_ < −0.2 needs further investigation. Moreover, in the range −1.0 ≤ _hx_ < −0.8, the multi-critical point falls within the XY* universality class, and the shape of the phase diagram is simialr to that of _hx_ = −1 plane, as shown in Fig. S2c. Finally, when _hx_ < −1, corresponding to a strong antiferromagnetic coupling in the two-coupled Ising model, the perturbed Z4 QD model may exhibit a rich phase diagram, as a mixed-order phase is known to emerge in the 3D classical AT model [26, 27], which could imply the existence of a phase in the perturbed Z4 QD model where the Z2 topological orders of TC and DS coexist. "
+
+[[blocks]]
+sections = ["method_params"]
+lines = "561"
+chars = "219-246"
+text = "iPEPS bond dimension _D_ = 5"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "561"
+chars = "276-309"
+text = "CTMRG environment bond dimension χ"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "387-471"
+text = "the area law coefficients α( _**e**_ ) > 0 and α( _**m**_ ) > 0 but α( _**em**_ ) = 0"
+
+[[blocks]]
+sections = ["truth"]
+lines = "561"
+chars = "557-568"
+text = "are confined"
+
+[[blocks]]
+sections = ["truth"]
+lines = "566"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0013-01.png)"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "573"
+chars = "263-329"
+text = "bond dimensions ( _D_ , χ) = (5, 100), (5, 160), (6, 100), (7, 100)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "573"
+chars = "398-424"
+text = "critical point _hw_ ≈ 1.292"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "573"
+chars = "459-485"
+text = "3D Ising critical exponents"
+
+[[blocks]]
+sections = ["truth", "anchors"]
+lines = "573"
+chars = "548-570"
+text = "β ≈ 0.326 and ν ≈ 0.630"
+
+[[blocks]]
+sections = ["truth", "method_params", "anchors"]
+lines = "575"
+text = "while the semionic dyon _**e**[n]_ _**m**[k]_ with _n_ , _k_ ∈{1, 3} remains deconfined. In Fig. S3b, the bosonic dyon _**e**_[2] _**m**_[2] condenses (⟨ _**e**_[2] _**m**_[2] ⟩ > 0) when _hw_ > _h_[Ising] _c_ , while the charge _**e**_[2] and flux _**m**_[2] do not condense (⟨ _**e**_[2] ⟩ = ⟨ _**m**_[2] ⟩ = 0). Thus, the surviving anyons precisely match those of the DS topological order, see Sec. SI. In the two-coupled quantum Ising model, the above phase transition is a conventional 0-form Z2 symmetry breaking transition, where[�] _i_[σ] _[z] i_[is spontaneously broken when] _[ h][w]_[>] _[h]_[Ising] _c_ , so it belongs to the 3D Ising universality class. In the perturbed Z4 QD model, the corresponding transition involves the breaking of a Z2 1- form symmetry, with[�] _e_ ∈ _C_[ˆ] _[W] e_[2][is spontaneously broken in the][ Z][4][QD phase and preserved in the DS phase.][This is known as the] Ising* transition [6], which has the same critical exponents as the Ising transition. Hence, in the critical regime, the condensation order parameter satisfies ⟨ _**e**_[2] _**m**_[2] ⟩∝ ( _hw_ − _h_[Ising] _c_ )[β] and the area law coefficients satisfies α( _**e**_ ) ∝ α( _**m**_ ) ∝ ( _hw_ − _h_[Ising] _c_ )[2][ν] , where β = 0.326418(2) and ν = 0.629970(4) [28]. As shown in Figs. S3c and d, the double-log plots of the numerical condensation order parameters and the area law coefficients indicate that the numerical results are consistent with the theoretical analysis. "
+
+[[blocks]]
+sections = ["truth"]
+lines = "578"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0013-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "585"
+chars = "131-182"
+text = "first-order transition occurs at _hw_ = _hz_ ≈ 0.980"
+
+[[blocks]]
+sections = ["method_params"]
+lines = "585"
+chars = "286-352"
+text = "bond dimensions ( _D_ , χ) = (4, 100), (4, 160), (5, 100), (6, 100)"
+
+[[blocks]]
+sections = ["truth", "method_params"]
+lines = "587"
+text = "When _hx_ = 0.5, there is no direct transition between the TC and DS phases, and the Z4 QD and trivial phases are separated by a first-order transition line, see Fig. S2a. We perform simulations along the line where _hw_ = _hz_ as an example, as illustrated in Fig. S4. Near the first-order transition point ( _hx_ , _hz_ , _hw_ ) ≈ (0.500, 0.980, 0.980), the condensation order parameters and the area law coefficients display discontinuities, which indicate a first-order phase transition. Furthermore, we find that all expectation values converge as the iPEPS bond dimension _D_ ≥ 5, and confirm that these quantities remain unchanged with increasing "
+
+[[blocks]]
+sections = ["method_params"]
+lines = "591"
+text = "CTMRG environment bond dimension χ. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "593"
+text = "## **SIV. ANALYSIS THE CRITICAL EXPONENT AT THE TC-DS TRANSITION POINT USING** _O_ (2) **FIELD THEORY** "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "595"
+text = "In this section, we show how to predict the critical exponents of the condensation order parameters and the area law coefficients at the TC-DS transition point, i.e. the multi-critical point where four phases meet. A natural candidate for effective GinzburgLandau field theory at the multi-critical point of the two-coupled Ising model is the O(2) ϕ[4] model described by the Lagrangian: "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "598"
+text = "![](.figures/arxiv__2508.08376/2508.08376.pdf-0014-04.png)"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "601"
+text = "where _m_ is the mass and _g_ is the coupling strength, and **ϕ** = (ϕ0, ϕ1) is a two-component order parameter field corresponding respectively to the two local order parameters ⟨τ _[z]_ σ _[x]_ ⟩ and ⟨τ _[z]_ ⟩. The Wilson-Fisher fixed point of the O(2) ϕ[4] model belongs to the XY universality class [29, 30]. However, when the O(2) ϕ[4] model serves as an effective theory for continuous topological phase transitions, people usually say the universality class is the XY*. Next, let us first discuss the detailed distinctions between XY and XY* theories and then we proceed to analysis of the critical exponents. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "603"
+text = "## **A. Di** ff **erence between XY and XY* theories** "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "605"
+text = "The XY and XY* theory can be distinguished from the field theory perspective. In the XY* theory, ϕ0 can only be created in pairs, and ϕ0 and −ϕ0 are indistinguishable, so that both periodic and anti-periodic boundary conditions have to be considered. Namely the Z2 symmetry of ϕ0 field is gauged by orbifolding the ϕ0 field. Notice that the ϕ1 field remains unchanged. The example of the XY universality class is the transition from the paramagnetic phase to the complete Z2 × Z2 symmetry-breaking phase in the quantum Ashkin-Teller model or in our two-coupled Ising model. The example of the XY* universality class is the transition from the Z2 symmetry enriched topological phase to the trivial Z2 symmetry breaking phase in a Z2 toric code Ising model, which is obtained by gauging one of the Z2 symmetries of the quantum Ashkin-Teller model [31]. In summary, if the phase transition is a conventional Landau type, it corresponds to the XY universality class; if the phase transition involves symmetry-enriched topological phases with symmetry fractionalization, it is called the XY* universality class. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "607"
+text = "So, strictly speaking, the TC-DS transition is distinct from the XY* theory in Ref. [31] because the perturbed Z4 quantum double model is obtained by gauging _both_ two Z2 symmetries of the two-coupled Ising model [up to 3-cocycle twist, see Eq. (S12)], so there is no 0-form Z2 global symmetry and symmetry enriched topological phases. Therefore, when describing the TC-DS transition using the O(2) ϕ[4] theory, the Z2 symmetry of both ϕ0 and ϕ1 is gauged. In this work, we ignore the distinction between our multi-critical point and the symmetry-enriched topological phase transition in Ref. [31], because roughly speaking, the universality class of conventional phase transitions is the non-starred version and the universality class of topological transitions is the starred version. For instance, people say the Ising transition for the transverse field Ising model and the Ising* transition for the Z2 toric code model in a field [6]. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "609"
+text = "We also would like to emphasize that although orbifolding ϕ0 and ϕ1 fields will project out the fields with odd parity, we can nevertheless find that their dual objects are the symmetry defects (anti-periodic boundary conditions), whose corresponding lattice operators are non-local semi-infinite string operators. A simple example is the periodic boundary critical Ising chain in the even sector, where the primary field σ with the scaling dimension 1/8 disappears, but its dual primary field µ with the scaling dimension 1/8 appears in the even sector of the anti-periodic critical Ising chain [32], and the corresponding lattice operator is the non-local disorder parameter [8]. Therefore, if we do not restrict to local order parameters and take the non-local order parameters into consideration, it can be found that the local order parameters in the ungauged theory or model and the non-local order parameters in the gauged theory or model are in one-to-one correspondence. Next, we will discuss these order parameters and their critical exponents. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "613"
+text = "TABLE S3. Classifying fields in the O(2) ϕ[4] model using irreps of the O(2), and the scaling dimensions of the fields are also shown. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "617"
+text = "||ϕ2<br>0 +ϕ2<br>1|**0**|1.51136(22)|"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "618"
+text = "||(ϕ0, ϕ1)|**1**|0.519088(22)|"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "619"
+text = "|(ϕ2<br>0|−ϕ2<br>1, ϕ0ϕ1)|**2**|1.23629(11)|"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "625"
+text = "We can classify the fields in the O(2) ϕ[4] model in terms of irreps of O(2) group, which includes the one-dimensional trivial irrep **0** , the one-dimensional sign irrep **0**[−] and two-dimensional irreps _**q**_ = _q_ ⊕ (− _q_ ), where the integer _q_ are the O(2) charges. Some fields transform under the irreps of O(2) and their scaling dimensions at the Wilson-Fisher fixed point are shown in Tab. S3. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "627"
+text = "Let us first consider the Z4 QD-trivial phase transition along the line (i): _hw_ = _hz_ , _hx_ = −1. In the corresponding twocoupled Ising model, the lattice operator that derives this transition is −[�] ⟨ _i_ , _j_ ⟩ � _hw_ τ _[z] i_[τ] _[z] j_[σ] _i[x]_[σ] _[x] j_[+] _[ h][z]_[τ] _[z] i_[τ] _[z] j_ �, which is symmetric under the Z2 × Z2 symmetry. So, we expect that the corresponding field is ϕ[2] 0[+][ ϕ] 1[2][,][because][it][is][also][invariant][under][the][Z][2][×][ Z][2] symmetry: ϕ0 ↔−ϕ0 and ϕ1 ↔−ϕ1. Since the scaling dimension of ϕ[2] 0[+][ ϕ] 1[2][is][∆] **[0]**[=][1][.][51136(22),][the][correlation][length] critical exponent is ν **0** = 1/(3 − ∆ **0** ) = 0.67175(1). Because the quantity α[·]ξ[2] is dimensionless [34], the critical exponent of all area law coefficients is 2ν **0** . Moreover, considering that the local order parameters ⟨τ _[z] i_[⟩][and][⟨][τ] _[z] i_[σ] _i[x]_[⟩][correspond][to][the][fields] ϕ0, ϕ1 with the scaling dimension ∆ **1** = 0.519088(22) , we know ⟨σ _i[x]_[⟩][corresponds to the field][ ϕ][0][ϕ][1][with the scaling dimension] ∆ **2** = 1.23629(11). So the critical exponent of ⟨τ _[z] i_[⟩][and][ ⟨][τ] _[z] i_[σ] _i[x]_[⟩][is][ β][−][=][∆] **[1]**[ν] **[0]**[=][0][.][34870(7), and the critical exponent of][ ⟨][σ] _i[x]_[⟩][is] βϕ = ∆ **2** ν **0** = 0.83048(2). Notice that the critical exponent η of correlation functions can be obtained from scaling dimensions ∆ via η = 2∆ − _d_ + 2, where _d_ = 3 is the spacetime dimension. From ∆ **1** and ∆ **2** , we obtain η **1** ≈ 0.04 and η **2** ≈ 1.47, respectively. Previous work claims that in the XY theory η = η **1** and in the XY* theories η = η **2** [31, 35]. Actually, if we take both local and non-local order parameters into consideration, both η **1** and η **2** can be obtained from the XY or XY* theory. Mapping the local order parameters of the two-coupled quantum Ising model back to the condensation order parameters of the perturbed Z4 QD model, we know the critical exponents of ⟨ _**e**_[2] ⟩ and ⟨ _**e**_[2] _**m**_[2] ⟩ are β−, and the critical exponent of ⟨ _**m**_[2] ⟩ is βϕ. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "629"
+text = "Then, we consider the transition between the TC and DS phases along the line (ii): _hx_ = −1, _hw_ = 2 _hc_ − _hz_ . When perturbing away from the critical point along this line, the Z2 symmetry exchanging _hz_ and _hw_ is broken. This corresponds to breaking the Z2 symmetry ϕ0 ↔ ϕ1 in the field theory. Thus, the field ϕ[2] 0[−][ϕ][2] 1[with][the][scaling][dimension][is][∆] **[2]**[=][1][.][23629(11)][is][a] candidate relevant field perturbing from the multi-critical point towards TC or DS phases. Therefore, the correlation length critical exponent ν **2** = 1/(3 − ∆ **2** ) = 0.56699(4) determining the critical exponent of the area law coefficients is different from that of the transition between the Z4 QD and the trivial phases. Because in the two-coupled quantum Ising model, ⟨τ _[z] i_[σ] _i[x]_[⟩][and] ⟨τ _[z] i_[⟩][correspond][to][ϕ][0][and][ϕ][1][with][the][scaling][dimension][∆] **[1]**[=][0][.][519088(22),][the][critical][exponent][of][⟨][τ] _[z] i_[σ] _i[x]_[⟩][is][β][′] ϕ[=][∆] **[1]**[ν] **[2]**[=] 0.519088(22) × 0.56699(4) = 0.29432(3). Mapping the local order parameters of the two-coupled Ising model back to the condensation order parameters of the perturbed Z4 QD model, we know the critical exponents of ⟨ _**e**_[2] ⟩ and ⟨ _**e**_[2] _**m**_[2] ⟩ are β[′] ϕ[.] "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "631"
+text = "Next, we discuss the stability of the continuous TC-DS transition under varying _hx_ . The term _hx_ �⟨ _i_ , _j_ ⟩[σ] _i[x]_[σ] _[x] j_[is invariant under] the Z2 × Z2 spin-flip symmetry and the Z2 symmetry exchanging _hz_ and _hw_ . Considering σ _i[x]_[corresponds to the field][ ϕ][2] 0[ϕ] 1[2][[][31][],] we expect that σ _i[x]_[σ] _[x] j_[corresponds to the field][ ϕ][2] 0[ϕ] 1[2][, which is a basis of the O(2) irrep ] **[4]**[ with a scaling dimension 3][.][14(2)][ >][ 3 [][33][],] so it is an irrelevant perturbation and the continuous TC-DS transition point is stable under varying _hx_ . "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "633"
+text = "Finally, since it is also proposed that the O(2) ϕ[4] theory can describe the topological multi-critical point of the standard Z2 TC model in a tilted field [36], let us compare the multi-critical point of the Z2 TC model in a tilted field and that of the perturbed Z4 QD model. The Z2 TC model in a tilted field has phase transitions from the TC phase to the trivial phase by condensing either Z2 charge excitations or Z2 flux excitations. Along the self-dual line, the duality symmetry swaps the Z2 charge and flux excitations, and there is a topological multi-critical point separating the TC phase and a first-order line where the duality symmetry is broken spontaneously [37–39]. Although it is proposed that the O(2) ϕ[4] model can describe the topological multi-critical point of the Z2 TC model in a tilted field [36], the non-trivial mutual statistics between the Z2 charge and the flux excitations of the TC model are not included in the O(2) ϕ[4] model because the two fields ϕ0 and ϕ1 commute with each other. Therefore, it is argued that the multi-critical point of the standard TC might not be the XY* universality class [40]. In contrast, there is no such problem at the multi-critical point of the perturbed Z4 QD model, because the mutual statistics between _**e**_[2] and _**e**_[2] _**m**_[2] are bosonic. "
+
+[[blocks]]
+sections = ["anchors"]
+lines = "635-715"
+text = "- [1] F. A. Bais, B. J. Schroers, and J. K. Slingerland, Broken quantum symmetry and confinement phases in planar physics, Phys. Rev. Lett. **89** , 181601 (2002). \n\n> [2] F. A. Bais and J. K. Slingerland, Condensate-induced transitions between topologically ordered phases, Phys. Rev. B **79** , 045316 (2009). \n\n> [3] L. Kong, Anyon condensation and tensor categories, Nuclear Physics B **886** , 436 (2014). \n\n> [4] F. Burnell, Anyon condensation and its applications, Annual Review of Condensed Matter Physics **9** , 307 (2018). \n\n> [5] C.-J. Huang, L. Liu, Y. Jiang, and Y. Deng, Worm-algorithm-type simulation of the quantum transverse-field ising model, Phys. Rev. B **102** , 094101 (2020). \n\n> [6] M. Schuler, S. Whitsitt, L.-P. Henry, S. Sachdev, and A. M. Läuchli, Universal signatures of quantum critical points from finite-size torus spectra: A window into the operator content of higher-dimensional conformal field theories, Phys. Rev. Lett. **117** , 210401 (2016). \n\n> [7] L. P. Kadanoff and H. Ceva, Determination of an operator algebra for the two-dimensional ising model, Phys. Rev. B **3** , 3918 (1971). \n\n- [8] E. Fradkin, Disorder operators and their descendants, Journal of Statistical Physics **167** , 427 (2017). \n\n- [9] M. de Wild Propitius, Topological interactions in broken gauge theories (1995), arXiv:hep-th/9511195 [hep-th]. \n\n- [10] D. J. Williamson, N. Bultinck, and F. Verstraete, Symmetry-enriched topological order in tensor networks: Defects, gauging and anyon condensation (2017), arXiv:1711.07982 [quant-ph]. \n\n16 \n\n- [11] L. Lootens, B. Vancraeynest-De Cuiper, N. Schuch, and F. Verstraete, Mapping between morita-equivalent string-net states with a constant depth quantum circuit, Phys. Rev. B **105** , 085130 (2022). \n\n- [12] M. B. Hastings, How quantum are non-negative wavefunctions?, Journal of Mathematical Physics **57** , 015210 (2015). \n\n- [13] A. Smith, O. Golan, and Z. Ringel, Intrinsic sign problems in topological quantum field theories, Phys. Rev. Res. **2** , 033515 (2020). \n\n- [14] Q. Zhang, W.-T. Xu, Z.-Q. Wang, and G.-M. Zhang, Non-hermitian effects of the intrinsic signs in topologically ordered wavefunctions, Communications Physics **3** , 209 (2020). \n\n- [15] F. J. Wegner, Duality in generalized ising models and phase transitions without local order parameters, Journal of Mathematical Physics **12** , 2259 (1971). \n\n- [16] P. Corboz, Variational optimization with infinite projected entangled-pair states, Phys. Rev. B **94** , 035133 (2016). \n\n- [17] L. Vanderstraeten, J. Haegeman, P. Corboz, and F. Verstraete, Gradient methods for variational optimization of projected entangled-pair states, Phys. Rev. B **94** , 155123 (2016). \n\n- [18] H.-J. Liao, J.-G. Liu, L. Wang, and T. Xiang, Differentiable programming tensor networks, Phys. Rev. X **9** , 031041 (2019). \n\n- [19] T. Nishino and K. Okunishi, Corner transfer matrix renormalization group method, Journal of the Physical Society of Japan **65** , 891 (1996). \n\n- [20] T. Nishino and K. Okunishi, Corner transfer matrix algorithm for classical renormalization group, Journal of the Physical Society of Japan **66** , 3040 (1997). \n\n- [21] M. T. Fishman, L. Vanderstraeten, V. Zauner-Stauber, J. Haegeman, and F. Verstraete, Faster methods for contracting infinite twodimensional tensor networks, Phys. Rev. B **98** , 235148 (2018). \n\n- [22] D. Jeziorek-Knioła, G. Musiał, L. D˛ebski, J. Rogiers, and S. Dylak, On non-ising phase transitions in the 3d standard ashkin-teller model, Acta Physica Polonica A **121** , 1105 (2012). \n\n- [23] Z. Wojtkowiak and G. Musiał, Wide crossover in the 3d ashkin–teller model, Physica A: Statistical Mechanics and its Applications **513** , 104 (2019). \n\n- [24] G. Musiał, A monte carlo study of the mixed phase region in the 3d ashkin–teller model, physica status solidi (b) **236** , 486 (2003). \n\n- [25] G. Musiał and J. Rogiers, On the possibility of nonuniversal behavior in the 3d ashkin–teller model, physica status solidi (b) **243** , 335 (2006). \n\n- [26] R. V. Ditzian, J. R. Banavar, G. S. Grest, and L. P. Kadanoff, Phase diagram for the ashkin-teller model in three dimensions, Phys. Rev. B **22** , 2542 (1980). \n\n- [27] G. Musiał, D. Jeziorek-Knioła, and Z. Wojtkowiak, Monte carlo examination of first-order phase transitions in a system with many independent order parameters: Three-dimensional ashkin-teller model, Phys. Rev. E **103** , 062124 (2021). \n\n- [28] F. Kos, D. Poland, D. Simmons-Duffin, and A. Vichi, Precision islands in the ising and o (n) models, Journal of High Energy Physics **2016** , 1 (2016). \n\n- [29] K. G. Wilson and M. E. Fisher, Critical exponents in 3.99 dimensions, Phys. Rev. Lett. **28** , 240 (1972). \n\n- [30] J. Henriksson, The critical o(n) cft: Methods and conformal data, Physics Reports **1002** , 1 (2023), the critical O(N) CFT: Methods and conformal data. \n\n- [31] M. Schuler, L.-P. Henry, Y.-M. Lu, and A. M. Läuchli, Emergent XY* transition driven by symmetry fractionalization and anyon condensation, SciPost Phys. **14** , 001 (2023). \n\n- [32] M. Hauru, G. Evenbly, W. W. Ho, D. Gaiotto, and G. Vidal, Topological conformal defects with tensor networks, Phys. Rev. B **94** , 115125 (2016). \n\n- [33] S. M. Chester, W. Landry, J. Liu, D. Poland, D. Simmons-Duffin, N. Su, and A. Vichi, Carving out ope space and precise o (2) model critical exponents, Journal of High Energy Physics **2020** , 1 (2020). \n\n- [34] W.-T. Xu and R.-Z. Huang, Finite correlation length scaling of disorder parameter at quantum criticality, Phys. Rev. Lett. **134** , 146503 (2025). \n\n- [35] S. V. Isakov, R. G. Melko, and M. B. Hastings, Universal signatures of fractionalized quantum critical points, Science **335** , 193 (2012). \n\n- [36] C. Bonati, A. Pelissetto, and E. Vicari, Multicritical point of the three-dimensional Z2 gauge higgs model, Phys. Rev. B **105** , 165138 (2022). \n\n- [37] J. Vidal, S. Dusuel, and K. P. Schmidt, Low-energy effective theory of the toric code model in a parallel magnetic field, Phys. Rev. B **79** , 033109 (2009). \n\n- [38] I. S. Tupitsyn, A. Kitaev, N. V. Prokof’ev, and P. C. E. Stamp, Topological multicritical point in the phase diagram of the toric code model and three-dimensional lattice gauge higgs model, Phys. Rev. B **82** , 085114 (2010). \n\n- [39] F. Wu, Y. Deng, and N. Prokof’ev, Phase diagram of the toric code model in a parallel magnetic field, Phys. Rev. B **85** , 195104 (2012). \n\n- [40] A. M. Somoza, P. Serna, and A. Nahum, Self-dual criticality in three-dimensional Z2 gauge theory with matter, Phys. Rev. X **11** , 041008 (2021)."

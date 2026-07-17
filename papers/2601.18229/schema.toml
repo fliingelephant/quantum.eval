@@ -8,6 +8,7 @@ tier = "light"
 kind = "physics"
 status = "rendered"
 arxiv_version = "2601.18229v1"
+md_sha256 = "98b8ca4cc0b12f06fceadc3b042f322bd62730b91ada7efd5957e5cb156df5b2"
 
 # Searcher notes; superseded by [problem]/[truth] sections after paper-to-schemas.
 [candidate_notes]
@@ -15,3 +16,155 @@ model = "interacting bosonic Aubry-Andre (quasiperiodic) chain, boson cutoff 3-4
 headline = "pumped charge vs U: quantization breaks at weak U (doublon-channel closing), revives in hardcore limit; topological-pump quantization theory"
 compute = "heaviest of the light set: full pump cycles across U values, still a few hours on laptop; journal status accepted -- re-verify at render"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
+
+[problem]
+model = "One-dimensional interacting bosonic Aubry-André (quasiperiodic) chain with onsite two-body interactions."
+model_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:93"
+hamiltonian = "H = H_kin + H_qp + H_int, with nearest-neighbor hopping -J, quasiperiodic onsite potential Δ cos(2πβl + γ(t)), and onsite interaction U n_l(n_l−1)/2."
+hamiltonian_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:77-93"
+convention = "J = 1 sets the energy unit; β = √2/2; U is the onsite two-body interaction energy; γ is the sliding pump phase."
+convention_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:93-98"
+pump_protocol = "The quasiperiodic phase is ramped linearly, γ(t) = γ(0) + 2πt/T, with a fixed period T = 0.205πJ."
+pump_protocol_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:95-98,115"
+instance = "Finite open one-dimensional chain, normally L = 40, with the initial N-particle product state occupying the central sites singly; two-particle minimal setups are used for the channel and isolated-doublon panels."
+instance_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:113,117,186,209,239"
+initial_state = "|ψ_N(0)⟩ is a central contiguous product state with one boson per occupied site; the isolated-doublon study starts with two particles on the central site."
+initial_state_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:117,126,209"
+ensemble = "Many-body results average over 40 independently sampled initial phases γ(0) from [0,2π]."
+ensemble_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:119,131,165,239"
+observables = ["local density n_j", "doublon density d_j = ⟨n_j(n_j−1)⟩/2", "bond current and pumped charge", "energy per particle E/N", "total doublon number D"]
+observables_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:132,151,163,171,239"
+
+[[problem.targets]]
+panel = "fig2"
+quantity = "Time-dependent local particle density n_j and doublon density d_j during one pump for U/J = 0, 2, 10, 36, 50."
+axes = "j ∈ {-19,…,20}, t/T ∈ [0,3]; N = 7, L = 40, Δ/J = 15"
+tier = "light"
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:113-115,131-133"
+
+[[problem.targets]]
+panel = "fig3"
+quantity = "Normalized right- and left-half pumped charges Q̄_R(U) and Q̄_L(U), including the Q̄_R/Q̄_L inset."
+axes = "U/J ∈ [0,50], Δ/J = 15, L = 40, N = 5, 6, 7; charge integrated from t1 = 2T to t2 = 3T"
+tier = "light"
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:151-165,171"
+
+[[problem.targets]]
+panel = "fig3_u1"
+quantity = "First interaction value U1 at which the first doublon channel closes."
+axes = "U1/J"
+tier = "light"
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:191-195"
+
+[[problem.targets]]
+panel = "fig3_u2"
+quantity = "Second interaction value U2 at which the second doublon channel closes."
+axes = "U2/J"
+tier = "light"
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:191,197,211"
+
+[[problem.targets]]
+panel = "fig4"
+quantity = "Two-particle energy-channel and particle/doublon-density dynamics on both sides of U1 and U2."
+axes = "t/T ∈ [0,1.5], j ∈ {-19,…,20}; U/J = 28, 30, 36, 40; L = 40, N = 2"
+tier = "light"
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:186-197,211"
+
+[[problem.targets]]
+panel = "fig5"
+quantity = "Isolated-doublon particle and doublon density dynamics in the lower, middle, and upper single-particle bands."
+axes = "t/T ∈ [0,3], j ∈ {-19,…,20}; U/J = 0, 4, 8; N = 2; γ(0) = 1.2π, 0.8π, 0.4π"
+tier = "light"
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:209-225"
+
+[[problem.targets]]
+panel = "fig6"
+quantity = "Energy per particle E/N and total doublon number D versus time."
+axes = "t/T ∈ [0,3]; N = 7, L = 40, Δ/J = 15, U/J = 0, 2, 4, 8, 16, 28, 50 (rendered panel/data; the prose caption says 6 for the weak-interaction trace)"
+tier = "light"
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:239,247-251"
+
+[method]
+family = "Matrix-product-state (MPS) real-time evolution"
+family_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+algorithm = "Time-evolving block decimation (TEBD) with a second-order Suzuki–Trotter decomposition"
+algorithm_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+valid_alternatives = ["MPS real-time TDVP", "another MPS implementation of TEBD", "sparse exact time evolution for the two-particle targets"]
+valid_alternatives_provenance = "Inferred the finite-chain density, charge, and energy targets can be generated by other real-time MPS routes, while the two-particle panels also admit sparse exact evolution."
+
+[method_params]
+time_step = "δt = 0.01/J"
+time_step_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+trotter_order = 2
+trotter_order_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+maximum_bond_dimension = 1500
+maximum_bond_dimension_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+truncation_error = 1e-8
+truncation_error_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+local_boson_cutoff = 4
+local_boson_cutoff_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+
+[software]
+primary = "ITensor library"
+primary_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+valid_tools = ["ITensor-compatible tensor-network libraries"]
+valid_tools_provenance = "Inferred from the MPS/TEBD route and the software-swap definition."
+
+[software_params]
+entries = []
+note = "No implementation-only software knob is reported; the bond dimension, truncation error, time step, and local cutoff are method-level parameters."
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:131"
+
+[anchors]
+first_order_chern_numbers = [1, -2, 1]
+first_order_chern_numbers_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:101,255"
+gap_scaling = "δE(k) ∝ J^k/Δ^(k−1)"
+gap_scaling_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:101"
+hardcore_mapping = "In the hard-core limit the bosonic system maps to non-interacting fermions."
+hardcore_mapping_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:67"
+noninteracting_flow_symmetry = "Q_R(U = 0) = −Q_L(U = 0)"
+noninteracting_flow_symmetry_provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:163"
+
+[truth.fig2]
+csv = "truth_fig2.csv"
+tolerance = 0.08
+source = "Sampled from the paper-linked Zenodo data repository; columns retain representative j positions and t/T values from the Fig. 2 heatmaps."
+provenance = "Inferred from the repository linked by Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:267"
+
+[truth.fig3]
+csv = "truth_fig3.csv"
+tolerance = 0.12
+source = "Averaged Q̄_L, Q̄_R, and their ratio sampled from the paper-linked processed data files."
+provenance = "Inferred from the repository linked by Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:267"
+
+[truth.fig3_u1]
+value = 29.0
+unit = "J"
+tolerance = 1.0
+source = "Reported interaction value at the first sharp change / first channel closing."
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:191-195"
+
+[truth.fig3_u2]
+value = 38.0
+unit = "J"
+tolerance = 1.0
+source = "Reported interaction value at the second sharp change / second channel closing."
+provenance = "Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:191,197"
+
+[truth.fig4]
+csv = "truth_fig4.csv"
+tolerance = 0.08
+source = "Sampled two-particle n_j and d_j values from the paper-linked data files for U/J = 28, 30, 36, 40."
+provenance = "Inferred from the repository linked by Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:267"
+
+[truth.fig5]
+csv = "truth_fig5.csv"
+tolerance = 0.08
+source = "Sampled isolated-doublon n_0 and d_0 values from the paper-linked data files for the three initial-band phases and U/J = 0, 4, 8."
+provenance = "Inferred from the repository linked by Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:267"
+
+[truth.fig6]
+csv = "truth_fig6.csv"
+tolerance = 0.08
+source = "Sampled E/N/J and D values from the paper-linked processed data files at t/T = 0, 0.5, 1, 1.5, 2, 2.5, 3. The rendered panel and linked data use U/J = 8; the prose caption says 6, treated as a caption typo."
+provenance = "Inferred from the repository linked by Literal 2601.18229_breakdown-of-bosonic-thouless-pump-due-to-interaction-in-a-q.md:267"
