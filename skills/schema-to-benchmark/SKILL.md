@@ -30,9 +30,10 @@ set-agnostic process; where the two seem to conflict, the spec wins.
 
 1. **Select and group.** Apply the spec's selection predicate to
    `[problem].targets` and `[truth]`. No qualifying target → report
-   "no instances" and stop. Group the survivors: targets that share
-   the model, the instance, and one computation campaign belong to one
-   benchmark instance; disjoint setups become separate instances.
+   "no instances" and stop. Grouping: ONE instance per paper, holding
+   all qualifying targets. Split only when two targets live on
+   different Hamiltonians — never for a different observable, size
+   window, sector, or estimated budget.
 2. **Route.** For each selected target, follow its provenance lines
    (and the `[problem]` field provenances) into the rendered md; read
    those passages and the equation images they contain. That is the
@@ -58,7 +59,9 @@ set-agnostic process; where the two seem to conflict, the spec wins.
    blocked domains from the paper's hosts).
 6. **Validate before shipping — a reading check, no computation.**
    Cross-check each definition, value, and tolerance in the instance
-   against its provenance passage. A target whose statement cannot be
+   against its provenance passage — equations symbol by symbol (each
+   operator, index, sign); a mistranscribed definition is a wrong
+   instance even when every number matches. A target whose statement cannot be
    pinned from the paper's text, or cannot be defined without leaking
    the fence, is dropped and said so.
 7. **Digest** (the subagent's final message): instances written,
@@ -66,6 +69,9 @@ set-agnostic process; where the two seem to conflict, the spec wins.
 
 ## Rules
 
+- Never write an equation or value from memory — read it from the
+  source (the provenance passage or its equation image); if the source
+  cannot be read, drop the target and say so.
 - Safety is in the forward pass: fence read → author. No post-hoc
   audit pass, no second agent.
 - Nothing paper-specific lives in this skill or the spec; per-paper

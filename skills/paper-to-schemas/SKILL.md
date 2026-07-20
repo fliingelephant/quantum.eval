@@ -137,6 +137,9 @@ rendered paper, per the contract in `SCHEMA.md` (sections) and
 
 ## Rules
 
+- Never write an equation or value from memory — read it from the
+  source (the passage text or its equation image); if the source
+  cannot be read, flag it instead of guessing.
 - Extraction is a pure function of (rendered md, `SCHEMA.md`). No
   knowledge of visibility maps, eval tasks, or other papers may enter.
 - Nothing paper-specific is special-cased; if the contract fails on a
