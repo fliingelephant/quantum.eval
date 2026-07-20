@@ -4,6 +4,24 @@
 
 [[blocks]]
 sections = ["truth"]
+lines = "5"
+chars = "9-40"
+text = "Emergent spacetime supersymmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "15"
+chars = "3-34"
+text = "Emergent spacetime supersymmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "450-547"
+text = "The weak-coupling phase is governed by the Ising conformal field theory (CFT) with central charge "
+
+[[blocks]]
+sections = ["truth"]
 lines = "27"
 chars = "548-554"
 text = "$c=1/2$"
@@ -11,8 +29,44 @@ text = "$c=1/2$"
 [[blocks]]
 sections = ["truth"]
 lines = "27"
+chars = "555-717"
+text = " which agrees with the prediction made in our previous work and that the SUSY restoration transition which borders the strong-coupling gapped phase belongs to the "
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
 chars = "718-725"
 text = "$c=7/10$"
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "726-797"
+text = " tricritical Ising universality with emergent superconformal invariance."
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "799-965"
+text = "Crucially, the phase structure around the transition closely aligns with the scenario proposed by Zamolodchikov and others based on the integrable deformation of CFTs."
+
+[[blocks]]
+sections = ["truth"]
+lines = "27"
+chars = "967-1184"
+text = "These findings provide a concrete example of a lattice model where explicit microscopic supersymmetry at criticality, enriches the understanding of phase transitions governed by supersymmetric conformal field theories."
+
+[[blocks]]
+sections = ["truth"]
+lines = "31"
+chars = "5-36"
+text = "Emergent spacetime supersymmetry"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "442-540"
+text = "The weak-coupling phase is governed by the Ising conformal field theory (CFT) with central charge _"
 
 [[blocks]]
 sections = ["truth"]
@@ -23,8 +77,38 @@ text = "c_ = 1 _/_ 2"
 [[blocks]]
 sections = ["truth"]
 lines = "39"
+chars = "553-716"
+text = " which agrees with the prediction made in our previous work and that the SUSY restoration transition which borders the strong-coupling gapped phase belongs to the _"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
 chars = "717-729"
 text = "c_ = 7 _/_ 10"
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "730-801"
+text = " tricritical Ising universality with emergent superconformal invariance."
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "803-969"
+text = "Crucially, the phase structure around the transition closely aligns with the scenario proposed by Zamolodchikov and others based on the integrable deformation of CFTs."
+
+[[blocks]]
+sections = ["truth"]
+lines = "39"
+chars = "971-1188"
+text = "These findings provide a concrete example of a lattice model where explicit microscopic supersymmetry at criticality, enriches the understanding of phase transitions governed by supersymmetric conformal field theories."
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "368-477"
+text = "belongs to the universality class of the two-dimensional tricritical Ising (TCI) model with a central charge _"
 
 [[blocks]]
 sections = ["truth"]
@@ -35,8 +119,20 @@ text = "c_ = 7 _/_ 10"
 [[blocks]]
 sections = ["truth"]
 lines = "61"
+chars = "491-500"
+text = " [10, 11],"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
 chars = "553-561"
 text = "0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "564-723"
+text = "A single symmetry-allowed relevant operator (the vacancy chemical potential or the _t_ -field) drives the system either to the extended critical Ising phase ( _"
 
 [[blocks]]
 sections = ["truth"]
@@ -47,14 +143,32 @@ text = "c_ = 1 _/_ 2"
 [[blocks]]
 sections = ["truth"]
 lines = "61"
+chars = "736-775"
+text = ") with broken SUSY ( _α < α_ c) or to a "
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
 chars = "776-827"
 text = "two-fold degenerate massive phase with restored SUSY"
+
+[[blocks]]
+sections = ["truth"]
+lines = "61"
+chars = "828-926"
+text = " ( _α > α_ c), thereby providing a lattice realization of the scenario proposed in Refs. 49 and 50."
 
 [[blocks]]
 sections = ["method"]
 lines = "63"
 chars = "408-450"
 text = "using finite DMRG and exact diagonalization"
+
+[[blocks]]
+sections = ["truth"]
+lines = "63"
+chars = "712-793"
+text = "confirming the system’s universality and the role of TCI CFT at the critical point"
 
 [[blocks]]
 sections = ["problem"]
@@ -97,8 +211,20 @@ text = "0 _._ 463"
 [[blocks]]
 sections = ["truth"]
 lines = "89"
+chars = "856-964"
+text = "The transition which belongs to the universality of the two-dimensional tricritical Ising (TCI) model (with _"
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
 chars = "965-977"
 text = "c_ = 7 _/_ 10"
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
+chars = "978-1091"
+text = ") is driven by a single relevant operator; depending on the sign of the coupling, the system flows either to the _"
 
 [[blocks]]
 sections = ["truth"]
@@ -109,8 +235,20 @@ text = "c_ = 1 _/_ 2"
 [[blocks]]
 sections = ["truth"]
 lines = "89"
+chars = "1104-1150"
+text = " critical Ising phase with broken SUSY or to a "
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
 chars = "1151-1202"
 text = "two-fold degenerate massive phase with unbroken SUSY"
+
+[[blocks]]
+sections = ["truth"]
+lines = "89"
+chars = "1203-1305"
+text = ", which is adiabatically connected to the F.F. point _α_ = 1 _/_ 2 [(C); see Sec. IV A for the detail]."
 
 [[blocks]]
 sections = ["problem"]
@@ -239,6 +377,12 @@ text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0004-02.png)"
 sections = ["anchors"]
 lines = "180"
 text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0004-04.png)"
+
+[[blocks]]
+sections = ["truth"]
+lines = "189"
+chars = "309-455"
+text = "Our numerical results support the former scenario, confirming that the restoration of SUSY and the gap opening occur simultaneously at _α_ = _α_ c."
 
 [[blocks]]
 sections = ["method"]
@@ -405,6 +549,12 @@ text = "[0] _[.]_[4875]"
 
 [[blocks]]
 sections = ["truth"]
+lines = "243"
+chars = "697-752"
+text = "we will argue that _α_ c and _α_ c _[′]_[indeed coincide"
+
+[[blocks]]
+sections = ["truth"]
 lines = "249"
 chars = "113-149"
 text = "the ground state is doubly degenerate"
@@ -452,6 +602,12 @@ chars = "595-656"
 text = "the ground state degeneracy stays at two for 0 _< α ≤_ 1 _/_ 2"
 
 [[blocks]]
+sections = ["truth"]
+lines = "277"
+chars = "719-813"
+text = "The observed degeneracy agrees with the prediction from the Φ[(TCI)] (1 _,_ 3)[-perturbed CFT.]"
+
+[[blocks]]
 sections = ["anchors"]
 lines = "286"
 text = "![](.figures/arxiv__2410.13354/2410.13354.pdf-0006-06.png)"
@@ -482,8 +638,20 @@ text = "using finite DMRG"
 [[blocks]]
 sections = ["truth"]
 lines = "297"
+chars = "256-320"
+text = "For _α_ ⪅ 0 _._ 3, the data for different _L_ collapse onto the _"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
 chars = "321-332"
 text = "c_ = 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "333-363"
+text = " line indicating the Ising CFT."
 
 [[blocks]]
 sections = ["truth"]
@@ -494,8 +662,20 @@ text = "0 _._ 463"
 [[blocks]]
 sections = ["truth"]
 lines = "297"
+chars = "462-499"
+text = "The data collapse now onto the value _"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
 chars = "500-512"
 text = "c_ = 7 _/_ 10"
+
+[[blocks]]
+sections = ["truth"]
+lines = "297"
+chars = "513-632"
+text = " characteristic of the TCI CFT indicating that the transition out of the SUSY broken phase is indeed governed by the TCI"
 
 [[blocks]]
 sections = ["truth"]
@@ -512,14 +692,32 @@ text = "0 _._ 4627"
 [[blocks]]
 sections = ["truth"]
 lines = "301"
+chars = "131-230"
+text = "Combining all these, we conclude that for _α < α_ c, the system is described by the Ising CFT with _"
+
+[[blocks]]
+sections = ["truth"]
+lines = "301"
 chars = "231-242"
 text = "c_ = 1 _/_ 2"
 
 [[blocks]]
 sections = ["truth"]
 lines = "301"
+chars = "243-280"
+text = ", at _α_ = _α_ c by the TCI CFT with _"
+
+[[blocks]]
+sections = ["truth"]
+lines = "301"
 chars = "281-293"
 text = "c_ = 7 _/_ 10"
+
+[[blocks]]
+sections = ["truth"]
+lines = "301"
+chars = "294-334"
+text = ", and for _α > α_ c, by a massive theory."
 
 [[blocks]]
 sections = ["truth"]
@@ -604,8 +802,26 @@ text = "using finite DMRG"
 [[blocks]]
 sections = ["truth"]
 lines = "339"
+chars = "305-425"
+text = "The data for different _L_ collapse onto the Ising and TCI values (see Table I) when _α_ ≲ 0 _._ 2 _∼_ 0 _._ 3 and _α ≃_ "
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
 chars = "426-434"
 text = "0 _._ 463"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "435-490"
+text = ", respectively, confirming the conclusions of Sec. IV B."
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "700-740"
+text = "we obtained the transition point _α_ c = "
 
 [[blocks]]
 sections = ["truth"]
@@ -616,14 +832,32 @@ text = "0 _._ 4628"
 [[blocks]]
 sections = ["truth"]
 lines = "339"
+chars = "751-838"
+text = " in all cases (a), (b), and (c). This is consistent with earlier estimates of _α_ c _≈_ "
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
 chars = "839-847"
 text = "0 _._ 463"
 
 [[blocks]]
 sections = ["truth"]
 lines = "339"
+chars = "848-852"
+text = " _,_ "
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
 chars = "853-862"
 text = "0 _._ 4627"
+
+[[blocks]]
+sections = ["truth"]
+lines = "339"
+chars = "863-905"
+text = " from the previous sections III A and IV B."
 
 [[blocks]]
 sections = ["anchors"]
@@ -645,6 +879,12 @@ sections = ["method"]
 lines = "351"
 chars = "142-158"
 text = "using finite DMRG"
+
+[[blocks]]
+sections = ["truth"]
+lines = "351"
+chars = "161-199"
+text = "All approach the TCI values near _α ≈_ "
 
 [[blocks]]
 sections = ["truth"]
@@ -671,6 +911,12 @@ text = "0 _._ 463"
 
 [[blocks]]
 sections = ["truth"]
+lines = "366"
+chars = "265-489"
+text = "which is consistent with the hypothesis that our model is described at low energies by the tricritical Ising (TCI) conformal field theory (CFT) perturbed by the vacancy chemical potential [or the Φ[(TCI)] 1 _,_ 3[-operator].]"
+
+[[blocks]]
+sections = ["truth"]
 lines = "368"
 chars = "465-473"
 text = "0 _._ 485"
@@ -690,8 +936,20 @@ text = "0 _._ 463"
 [[blocks]]
 sections = ["truth"]
 lines = "370"
+chars = "291-378"
+text = "Our results indicate that for _α < αc_ , the system is described by the Ising CFT with _"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
 chars = "379-390"
 text = "c_ = 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
+chars = "391-491"
+text = ". When the critical point _α_ c is approached, the central charge increases up to the TCI CFT value _"
 
 [[blocks]]
 sections = ["truth"]
@@ -702,14 +960,32 @@ text = "c_ = 7 _/_ 10"
 [[blocks]]
 sections = ["truth"]
 lines = "370"
+chars = "505-615"
+text = ", confirming that the system undergoes a continuous quantum phase transition out of the SUSY broken gapless ( _"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
 chars = "616-627"
 text = "c_ = 1 _/_ 2"
+
+[[blocks]]
+sections = ["truth"]
+lines = "370"
+chars = "628-1080"
+text = ") phase at _αc_ , where the system acquires emergent superconformal symmetry. Moreover, for _α > αc_ , the behavior of the entanglement entropy indicates that the system is gapped and that SUSY SSB and gap opening occur simultaneously at _α_ = _α_ c. Again, all these are consistent with the field theoretical predictions based on the TCI CFT perturbed by the relevantFigs. 1 (B) and (C). Φ[(TCI)] 1 _,_ 3[-operator.][The main results are summarized in]"
 
 [[blocks]]
 sections = ["truth"]
 lines = "374"
 chars = "52-178"
 text = "closely match those of the TCI CFT, providing additional confirmation that the transition belongs to the TCI universality class"
+
+[[blocks]]
+sections = ["truth"]
+lines = "376"
+chars = "366-382"
+text = "doubly degenerate"
 
 [[blocks]]
 sections = ["problem"]
