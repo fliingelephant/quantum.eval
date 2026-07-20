@@ -18,223 +18,224 @@ headline = "SUSY-restoration transition point matching analytic prediction; cent
 compute = "spinless-fermion chain (dim 2), DMRG + EE fits; very cheap, laptop"
 verification = "candidate (searcher-verified journal ref; re-confirm at download-ref time)"
 
+# ============================================================
+# Extraction (paper-to-schemas). "md" below = the single rendered
+# .md file pinned by [paper].md_sha256; all line numbers are 1-indexed
+# lines of that exact file.
+# ============================================================
+
 [problem]
-model = "One-dimensional interacting Majorana/Kitaev chain with explicit microscopic N=1 quantum-mechanical supersymmetry, H(α) = R(α)^2/2, where α interpolates between the critical Kitaev-chain term and the interacting Fendley term."
-model_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:103-141"
-convention = "Periodic fermion boundary conditions; H0 = L/2 fixes the energy origin, and SUSY breaking is diagnosed by positive ground-state energy density while zero density is unbroken SUSY."
-convention_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:67,139,153-165"
-instance = "A length-L chain with one fermion qubit per site, Majorana fermions βj and γj, interaction parameter α, and numerical scope 0 ≤ α ≤ 1/2. The universal-ratio calculation resolves fermion parity and periodic/anti-periodic boundary-condition sectors."
-instance_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:103-111,145,325-337"
+model = """
+Interacting Kitaev chain with explicit microscopic N=1 quantum-mechanical
+supersymmetry (the Miura-Shimomura-Totsuka model, introduced in Phys. Rev. B
+109, 085141 (2024), ref. [36]). L Majorana fermions beta_j, gamma_j per site
+(one qubit per site) on a 1D ring. Real supercharge
+R(alpha) = sum_j [ (1-alpha) beta_j + i*alpha beta_j beta_{j+1} gamma_j ],
+fermion parity (-1)^F = prod_j (i beta_j gamma_j); the Hamiltonian is the
+square of the supercharge, H(alpha) := (1/2) R(alpha)^2 = (1-alpha)^2 H_0
++ alpha(1-alpha) H_CKC + alpha^2 H_Fen, with H_0 := L/2 (constant, sets the
+SUSY energy origin to zero), H_CKC := sum_j (i beta_{j+1} gamma_j - i
+beta_{j-1} gamma_j) (the noninteracting critical Kitaev chain, free
+Majorana CFT), and H_Fen := (1/2)(sum_j i beta_j beta_{j+1} gamma_j)^2 =
+L/2 - sum_j beta_{j-1} beta_{j+1} gamma_{j-1} gamma_j (Fendley's integrable
+interacting/superfrustrated model). alpha in [0,1] is the single
+dimensionless interaction parameter interpolating H_0 -> H_CKC -> H_Fen.
+An equivalent spin-1/2 (Jordan-Wigner-transformed) representation of H_CKC
+and H_Fen is given in Appendix A and is the representation actually
+diagonalized for the entanglement-entropy runs.
+"""
+model_provenance = "Literal md:126 (H(alpha):=(1/2)R(alpha)^2, Eq. 4); see also md:94,116,132,136,389,395"
+
+convention = """
+Majorana normalization {beta_i,beta_j} = {gamma_i,gamma_j} = 2 delta_ij,
+{beta_i,gamma_j} = 0 (i.e. beta_j^2 = gamma_j^2 = 1). SUSY-breaking
+criterion: the system is SUSY-broken iff e_gs(alpha) := lim_{L->infinity}
+E_gs(alpha;L)/L > 0, and SUSY-restored iff e_gs(alpha) = 0 (Eqs. 8-9); this
+is the order parameter the paper locates numerically. Energy origin fixed
+by H_0 = L/2 so that H(alpha) >= 0 (supersymmetric spectrum).
+"""
+convention_provenance = "Literal md:103 (Eq. 2); md:156,162 (Eqs. 8-9)"
+
+instance = """
+1D ring of L sites, fermionic periodic boundary conditions (PBC) assumed
+throughout unless stated otherwise (beta_{L+j}:=beta_j, gamma_{L+j}:=gamma_j);
+anti-periodic boundary conditions (APBC) are additionally used, together
+with both fermion-parity (even/odd) sectors, for the CFT-spectroscopy
+comparison in Sec. IV C / Appendix B. The paper restricts its numerics to
+the window 0 <= alpha <= 1/2 (the frustration-free point sits at
+alpha=1/2). System sizes actually simulated: DMRG L = 14,16,18,...,50
+(stated general range, Sec. III); the entanglement-entropy run (Fig. 5)
+uses a size subsample read off its legend as L = 20,24,28,32,36,40,44,48,52
+(Inferred from the figure's OCR'd legend, md:308); the gap-ratio run
+(Sec. IV C) states L = 16,18,...,48,50 for the alpha_c(L) extrapolation
+and plots the subsample L=20,30,40,50 (md:339,351). Exact diagonalization
+uses L = 4,5,...,15 (periodic) for the excitation gap (Sec. III B) and is
+also used (size unspecified beyond that range) for the ground-state
+degeneracy check in Sec. IV A.
+"""
+instance_provenance = "Literal md:193 (general DMRG size range + PBC); md:223 (ED size range)"
 
 [[problem.targets]]
-panel = "fig3"
-quantity = "Thermodynamic ground-state energy density e_g.s.(α), including its zero-crossing estimate αc."
-axes = "α versus e_g.s.(α)"
+panel = "energy_density_alpha_c"
+quantity = "SUSY-restoration transition point alpha_c, located from the L->infinity-extrapolated ground-state energy density e_gs(alpha) (fit E_gs(alpha;L)/L = e_gs(alpha) + a/L^b per size, Eq. 9) vanishing under a fixed power-law form e_gs(alpha) = a(alpha_c-alpha)^(5/2) for alpha<alpha_c (Eq. 12)"
+sizes = "L = 14,16,18,...,50; PBC; finite DMRG, fermionic representation"
 tier = "light"
-tier_provenance = "Inferred from the paper's DMRG/ED size ranges and the existing paper-level compute classification."
-truth_source = "Figure 3 curve digitization and the stated zero-crossing estimate."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:201-217"
+provenance = "Literal md:207"
 
 [[problem.targets]]
-panel = "fig4"
-quantity = "Infinite-size excitation gap Δ∞(α), including the onset range where the extrapolated gap becomes significantly finite."
-axes = "α versus Δ∞(α)"
+panel = "energy_gap_crossover"
+quantity = "interaction-strength window alpha'_c where the L->infinity-extrapolated excitation gap Delta_infinity(alpha) (fit Delta(L;alpha) = Delta_infinity(alpha) + a/L^b per size; finite-size gap = E_1st-excited - E_ground) becomes significantly nonzero"
+sizes = "L = 4,5,...,15; PBC; exact diagonalization"
 tier = "light"
-tier_provenance = "Inferred from the paper's exact-diagonalization size range and the existing paper-level compute classification."
-truth_source = "Figure 4 digitization and the caption's stated onset interval."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:221-239"
+provenance = "Literal md:239"
 
 [[problem.targets]]
-panel = "fig5"
-quantity = "Central-charge estimate from the normalized entanglement-entropy difference ΔS(L), including the peak/critical-point estimate and the limiting phase values."
-axes = "α versus normalized ΔS(L) interpreted as c"
+panel = "central_charge_alpha_c"
+quantity = "SUSY-restoration transition point alpha_c, located from the peak (over alpha) of the finite-size central-charge estimator Delta_S(L) := S(L/2;L) - S(L/4;L) built from the von Neumann entanglement entropy of the DMRG ground state (Eq. 16), extrapolated in L; central charge approaches 1/2 well below the peak and 7/10 at the peak"
+sizes = "L = 20,24,28,32,36,40,44,48,52 (Inferred from Fig. 5 legend); PBC; finite DMRG, Jordan-Wigner spin representation (Appendix A)"
 tier = "light"
-tier_provenance = "Inferred from the paper's finite-DMRG size range and the existing paper-level compute classification."
-truth_source = "Figure 5 digitization and the stated αc and phase-limit values."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:281-311"
+provenance = "Literal md:301"
 
 [[problem.targets]]
-panel = "fig6a"
-quantity = "Universal gap ratio R1(α), with the thermodynamic transition estimate from matching the TCI value."
-axes = "α versus R1"
+panel = "gap_ratio_alpha_c"
+quantity = "SUSY-restoration transition point alpha_c, located from three independent universal gap ratios R1,R2,R3 (Eq. 18, built from the lowest two energies in each of four fermion-parity x boundary-condition sectors) each matched, per size, to their tricritical-Ising CFT prediction and extrapolated in L"
+sizes = "L = 16,18,...,48,50 (curves plotted for L=20,30,40,50); PBC and APBC, both fermion-parity sectors; finite DMRG"
 tier = "light"
-tier_provenance = "Inferred from the paper's finite-DMRG size range and the existing paper-level compute classification."
-truth_source = "Figure 6(a) digitization, TCI/Ising reference table, and stated extrapolated αc."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:331-356"
+provenance = "Literal md:339"
 
 [[problem.targets]]
-panel = "fig6b"
-quantity = "Universal gap ratio R2(α), with the thermodynamic transition estimate from matching the TCI value."
-axes = "α versus R2"
+panel = "ground_state_degeneracy"
+quantity = "ground-state degeneracy under fermionic PBC, as a function of alpha across 0 < alpha <= 1/2"
+sizes = "same finite range as the exact-diagonalization gap calculation (L unspecified beyond that in this passage)"
 tier = "light"
-tier_provenance = "Inferred from the paper's finite-DMRG size range and the existing paper-level compute classification."
-truth_source = "Figure 6(b) digitization, TCI/Ising reference table, and stated extrapolated αc."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:331-356"
-
-[[problem.targets]]
-panel = "fig6c"
-quantity = "Universal gap ratio R3(α), with the thermodynamic transition estimate from matching the TCI value."
-axes = "α versus R3"
-tier = "light"
-tier_provenance = "Inferred from the paper's finite-DMRG size range and the existing paper-level compute classification."
-truth_source = "Figure 6(c) digitization, TCI/Ising reference table, and stated extrapolated αc."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:331-356"
+provenance = "Literal md:277"
 
 [method]
-paper_route = "Finite DMRG in the MPS family for ground-state energies, entanglement entropy, and universal gap ratios; exact diagonalization for finite-size excitation gaps."
-paper_route_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:191-193,223,291-297,339"
-families = ["mps", "ed"]
-families_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193"
-algorithms = ["finite DMRG", "exact diagonalization"]
-algorithms_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193,223"
-valid_alternatives = ["MPS: finite DMRG, iDMRG, or VUMPS with the required boundary/finite-size treatment", "ED: exact diagonalization with a size-extrapolation protocol"]
-valid_alternatives_provenance = "Inferred from the target definitions and the paper's DMRG/ED route at 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193-239"
+
+[[method.routes]]
+family = "mps"
+algorithm = "finite DMRG, PBC, finite-size extrapolation to L->infinity; fermionic representation for the energies, Jordan-Wigner spin representation (Appendix A) for the entanglement-entropy runs"
+used_for = ["energy_density_alpha_c", "central_charge_alpha_c", "gap_ratio_alpha_c"]
+provenance = "Literal md:193"
+
+[[method.routes]]
+family = "ed"
+algorithm = "exact diagonalization of finite periodic chains, L<=15; low-lying spectrum (ground + higher excited levels) in both fermion-parity sectors and both PBC/APBC"
+used_for = ["energy_gap_crossover", "ground_state_degeneracy"]
+provenance = "Literal md:193"
+
+[[method.valid_alternatives]]
+family = "mps"
+algorithm = "infinite DMRG / VUMPS (uniform ansatz, L->infinity directly)"
+basis = "Inferred: translation-invariant PBC chain; an infinite-MPS route reaches e_gs(alpha), the entanglement entropy and the low-lying spectrum without finite-size extrapolation"
+
+[[method.valid_alternatives]]
+family = "mps"
+algorithm = "TEBD / iTEBD (imaginary-time ground-state projection)"
+basis = "Inferred: any ground-state projection method supplying the same finite-size energies and entanglement spectra is target-equivalent to finite DMRG here"
+
+[[method.valid_alternatives]]
+family = "ed"
+algorithm = "sparse Lanczos/Arnoldi diagonalization"
+basis = "Inferred: dense and sparse ED are both routine at L<=15 (Hilbert-space dimension 2^15=32768); the paper does not state which was used"
 
 [method_params]
-[[method_params.items]]
-name = "DMRG convergence and initialization"
-value = "Truncation error 10^(-10); random matrix-product-state starts."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193"
-
-[[method_params.items]]
-name = "Ground-energy finite-size protocol"
-value = "Fermionic PBC, L = 14, 16, 18, …, 50; fit E_g.s.(α;L)/L = e_g.s.(α) + a/L^b and extrapolate L → ∞."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193,197-201"
-
-[[method_params.items]]
-name = "Excitation-gap finite-size protocol"
-value = "ED on periodic L = 4, 5, …, 15; Δ(L;α) is the lowest-to-third-lowest energy difference and is fit to Δ∞(α) + a/L^b."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:221-223"
-
-[[method_params.items]]
-name = "Entanglement central-charge estimator"
-value = "Finite DMRG in the spin representation with PBC and A = 2; evaluate S at ℓ = L/2 and L/4, form ΔS(L), and normalize by A ln(2)/12."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:281-297"
-
-[[method_params.items]]
-name = "Universal-ratio protocol"
-value = "Finite DMRG for parity- and boundary-condition-resolved lowest/first-excited energies; calculate R1, R2, R3 for L = 16, 18, …, 48, 50, interpolate αc(L) at TCI reference values, then extrapolate αc(L) to L → ∞."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:315-339"
+truncation_cutoff = "DMRG SVD truncation error set to 1e-10"
+truncation_cutoff_provenance = "Literal md:193"
+initial_state = "DMRG sweeps started from a random matrix product state"
+initial_state_provenance = "Literal md:193"
+note = "No bond dimension (chi/maxdim), sweep count, or Lanczos/Arnoldi iteration count is stated anywhere in the paper (checked full text) -- flagged as not stated rather than guessed."
 
 [software]
-paper_software = "Julia implementation of ITensor for the DMRG computations."
-paper_software_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193"
-valid_tools = ["Julia ITensor or another MPS library implementing finite DMRG", "An exact-diagonalization package for the finite-size gap calculation"]
-valid_tools_provenance = "Inferred from the stated ITensor/DMRG and ED route at 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:193,223"
+dmrg_software = "ITensor, Julia implementation (Fishman, White & Stoudenmire, SciPost Phys. Codebases, 4 (2022))"
+dmrg_software_provenance = "Literal md:193"
+ed_software = "not stated in the paper"
+ed_software_provenance = "Inferred: no package or code is named for the exact-diagonalization calculations anywhere in the text (checked full text)"
+valid_alternatives = [
+  "any DMRG-capable tensor-network package for the mps route (e.g. TeNPy, Block2, ITensorMPS) -- Inferred, standard software equivalence within the method-mps family",
+]
 
 [software_params]
-[[software_params.items]]
-name = "Reported implementation details"
-value = "No API-specific eigensolver choice, threading setting, noise schedule, or software toggle is stated in the rendered paper."
-provenance = "Inferred from the complete numerical/software statement at 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:191-193 and the full rendered paper"
+note = "No software-level knobs (solver tolerance beyond the method-level truncation cutoff, threading, API-specific toggles) are stated in the paper."
 
-[anchors]
-[[anchors.items]]
-name = "SUSY-restoration bound"
-value = "π/8 ≤ αc ≤ 1/2"
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:167-174"
+[[anchors]]
+name = "rigorous_variational_bound"
+value = "pi/8 <= alpha_c <= 1/2 (pi/8 = 0.392...)"
+provenance = "Literal md:174 (Eq. 10); refs [32,36]"
 
-[[anchors.items]]
-name = "Mean-field critical-point estimate"
-value = "αc^mf = π/(4 + π) = 0.439…"
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:177-180"
+[[anchors]]
+name = "mean_field_estimate"
+value = "alpha_c^mf = pi/(4+pi) = 0.439..."
+provenance = "Literal md:180 (Eq. 11); ref [36]"
 
-[[anchors.items]]
-name = "Critical Kitaev/Ising anchor"
-value = "The noninteracting critical Kitaev chain has low-energy Majorana CFT central charge c = 1/2."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:139-141"
+[[anchors]]
+name = "ckc_central_charge"
+value = "H_CKC (alpha=0 limit) is the free critical Kitaev chain: gapless free Majorana CFT, c=1/2 (exact)"
+provenance = "Literal md:141"
 
-[[anchors.items]]
-name = "TCI anchor"
-value = "The candidate tricritical-Ising superconformal theory has c = 7/10."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:253-257"
+[[anchors]]
+name = "ff_point_exact_limit"
+value = "at alpha=1/2 the model is frustration-free; exact trivial and topological product-state ground states; SUSY unbroken (exact, from ref [36])"
+provenance = "Literal md:145"
 
-[[anchors.items]]
-name = "Ground-energy scaling exponent"
-value = "e_g.s.(α) scales as (αc − α)^(5/2), from xt = 6/5 and 2/(2 − xt)."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:201-207"
+[[anchors]]
+name = "tci_primary_field_content"
+value = "c=7/10 TCI CFT has six primary fields with conformal weights h = 0, 3/80, 1/10, 7/16, 3/5, 3/2 (identity, sigma, epsilon, sigma', t, G)"
+provenance = "Literal md:255"
 
-[[anchors.items]]
-name = "Gapped-side gap exponent"
-value = "The TCI perturbation predicts Δ∞(α) ∼ (α − αc)^(5/4) near the SUSY-unbroken side."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:275-277"
+[[anchors]]
+name = "energy_density_exponent"
+value = "predicted e_gs(alpha) exponent 5/2 = 2/(2-x_t), from the vacancy (t-field) scaling dimension x_t=6/5 at the TCI point"
+provenance = "Literal md:207"
 
-[[anchors.items]]
-name = "Entropy-difference check"
-value = "ΔS(L) approaches (c/12) A ln(2) in a critical phase and 0 in a gapped phase."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:283-297"
+[[anchors]]
+name = "gap_exponent_prediction"
+value = "field-theory prediction for alpha>alpha_c: Delta_infinity(alpha) ~ (alpha-alpha_c)^(5/4) [ref 59]"
+provenance = "Literal md:277"
 
-[[anchors.items]]
-name = "Ising universal ratios"
-value = "(R1, R2, R3) = (1/2, 1/8, 9/8)."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:341-356"
+[[anchors]]
+name = "calabrese_cardy_ee_formula"
+value = "S(l;L) ~ (c/6) A ln[ (L/pi) sin(pi l/L) ], A=1 (OBC) or 2 (PBC) entanglement cuts -- standard CFT result [refs 60-62]"
+provenance = "Literal md:286 (Eq. 15)"
 
-[[anchors.items]]
-name = "TCI universal ratios"
-value = "(R1, R2, R3) = (7/2, 3/8, 35/8)."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:341-356"
+[[anchors]]
+name = "cft_finite_size_spectrum_formula"
+value = "H = E_0(L) + (2 pi v / L)(L_0 + Lbar_0) -- standard CFT finite-size spectrum via Virasoro generators [refs 64,65]"
+provenance = "Literal md:320 (Eq. 17)"
 
-[[anchors.items]]
-name = "Frustration-free anchor"
-value = "The exact frustration-free point is α = 1/2, with explicitly known product-state ground states."
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:143-145"
+[[anchors]]
+name = "universal_gap_ratio_predictions"
+value = "Table I: Ising (c=1/2) -> (R1,R2,R3) = (1/2, 1/8, 9/8); TCI (c=7/10) -> (R1,R2,R3) = (7/2, 3/8, 35/8)"
+provenance = "Literal md:353-356 (Table I)"
 
 [truth]
-digitization_policy = "Stated text/table values take precedence; long plotted curves are stored in the adjacent truth_<panel>.csv files."
-digitization_policy_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:217,239,311,339-356; Inferred figure digitization from the local .figures images"
 
-[truth.fig3]
+[truth.energy_density_alpha_c]
 value = 0.463
 tolerance = 0.002
-curve_file = "truth_fig3.csv"
-curve_tolerance = 0.00005
-value_kind = "zero-crossing αc"
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:207,217; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0004-17.png"
+provenance = "Literal md:207,217"
+note = "Extractor-chosen tolerance (paper states only 3 decimals, '~0.463', no explicit error bar for this specific estimate) -- flagged for human review."
 
-[truth.fig4]
+[truth.energy_gap_crossover]
 value = 0.48625
-tolerance = 0.0025
-curve_file = "truth_fig4.csv"
-curve_tolerance = 0.01
-value_kind = "midpoint of the stated significantly-finite onset interval"
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:239,243; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0005-02.png"
+tolerance = 0.00125
+provenance = "Literal md:239,243,368"
+note = "Paper states a range, 'alpha = 0.485 ~ 0.4875', not a point estimate; value/tolerance here are the range midpoint/half-width. Paper explicitly notes large error bars near alpha_c and does not conclude whether this coincides with the SUSY-restoration point -- flagged for human review."
 
-[truth.fig5]
+[truth.central_charge_alpha_c]
 value = 0.4627
-tolerance = 0.001
-curve_file = "truth_fig5.csv"
-curve_tolerance = 0.04
-value_kind = "peak-position αc"
-reference_values = "c = 1/2 below αc, c = 7/10 at αc, and c → 0 above αc"
-reference_values_provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:301,311"
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:301,311; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0006-13.png"
+tolerance = 0.0005
+provenance = "Literal md:301,311"
+note = "Extractor-chosen tolerance (paper states 4 decimals, no explicit error bar) -- flagged for human review. Supporting qualitative finding at the same panel: central charge approaches 1/2 for alpha ≲ 0.3 and reaches 7/10 at the peak (md:297,311)."
 
-[truth.fig6a]
-value = 3.5
-tolerance = 0.08
-critical_alpha = 0.4628
-critical_alpha_tolerance = 0.001
-curve_file = "truth_fig6a.csv"
-curve_tolerance = 0.12
-value_kind = "TCI reference R1 at the transition"
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:339,353-356; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0007-07.png"
+[truth.gap_ratio_alpha_c]
+value = 0.4628
+tolerance = 0.0005
+provenance = "Literal md:339"
+note = "Extractor-chosen tolerance (paper states 4 decimals, no explicit error bar) -- flagged for human review. Consistent, per the paper, with the energy-density (0.463) and central-charge (0.4627) estimates (md:339)."
 
-[truth.fig6b]
-value = 0.375
-tolerance = 0.02
-critical_alpha = 0.4628
-critical_alpha_tolerance = 0.001
-curve_file = "truth_fig6b.csv"
-curve_tolerance = 0.02
-value_kind = "TCI reference R2 at the transition"
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:339,353-356; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0007-07.png"
-
-[truth.fig6c]
-value = 4.375
-tolerance = 0.15
-critical_alpha = 0.4628
-critical_alpha_tolerance = 0.001
-curve_file = "truth_fig6c.csv"
-curve_tolerance = 0.15
-value_kind = "TCI reference R3 at the transition"
-provenance = "Literal 2410.13354_emergent-spacetime-supersymmetry-in-an-interacting-kitaev-ch.md:339,353-356; Inferred curve digitization from .figures/arxiv__2410.13354/2410.13354.pdf-0007-07.png"
+[truth.ground_state_degeneracy]
+value = 2
+tolerance = 0
+provenance = "Literal md:277"
+note = "Exact integer count (0 < alpha <= 1/2, fermionic PBC); a footnote (md:249) restates it for the strict-open interval 0 < alpha < 1/2 -- minor range wording discrepancy between main text and footnote, flagged for human review."
