@@ -17,20 +17,20 @@ text = "Dissipation-induced long-range order"
 [[blocks]]
 sections = ["method"]
 lines = "27"
-chars = "535-646"
-text = "wormhole quantum Monte Carlo method for retarded interactions to a continuous-time formulation with worm updates"
+chars = "503-646"
+text = "adapting the recently developed wormhole quantum Monte Carlo method for retarded interactions to a continuous-time formulation with worm updates"
 
 [[blocks]]
 sections = ["method"]
 lines = "27"
-chars = "665-672"
-text = "wormhole"
+chars = "649-721"
+text = "we show how the wormhole updates can be easily implemented in this scheme"
 
 [[blocks]]
 sections = ["truth"]
 lines = "27"
-chars = "766-875"
-text = "confirm the scaling prediction that the Luttinger-liquid phase becomes unstable at infinitesimal bath coupling"
+chars = "802-875"
+text = "the Luttinger-liquid phase becomes unstable at infinitesimal bath coupling"
 
 [[blocks]]
 sections = ["truth"]
@@ -41,14 +41,8 @@ text = "the ensuing phase is a long-range ordered superfluid with spontaneously-
 [[blocks]]
 sections = ["truth"]
 lines = "27"
-chars = "991-1057"
-text = "the Mott insulator remains a distinct phase for small bath coupling"
-
-[[blocks]]
-sections = ["truth"]
-lines = "27"
-chars = "1072-1162"
-text = "diverging compressibility and non-integer local boson occupation in the thermodynamic limit"
+chars = "1060-1162"
+text = "it exhibits diverging compressibility and non-integer local boson occupation in the thermodynamic limit"
 
 [[blocks]]
 sections = ["truth"]
@@ -59,8 +53,8 @@ text = "this phase undergoes a transition to a long-range ordered superfluid"
 [[blocks]]
 sections = ["truth"]
 lines = "27"
-chars = "1394-1519"
-text = "stable dissipative Luttinger-liquid phase that transitions to a long-range ordered superfluid at a finite system-bath coupling"
+chars = "1360-1520"
+text = "Our results are compatible with a stable dissipative Luttinger-liquid phase that transitions to a long-range ordered superfluid at a finite system-bath coupling."
 
 [[blocks]]
 sections = ["truth"]
@@ -71,20 +65,20 @@ text = "Dissipation-induced long-range order"
 [[blocks]]
 sections = ["method"]
 lines = "45"
-chars = "535-646"
-text = "wormhole quantum Monte Carlo method for retarded interactions to a continuous-time formulation with worm updates"
+chars = "503-646"
+text = "adapting the recently developed wormhole quantum Monte Carlo method for retarded interactions to a continuous-time formulation with worm updates"
 
 [[blocks]]
 sections = ["method"]
 lines = "45"
-chars = "665-672"
-text = "wormhole"
+chars = "649-721"
+text = "we show how the wormhole updates can be easily implemented in this scheme"
 
 [[blocks]]
 sections = ["truth"]
 lines = "45"
-chars = "766-875"
-text = "confirm the scaling prediction that the Luttinger-liquid phase becomes unstable at infinitesimal bath coupling"
+chars = "802-875"
+text = "the Luttinger-liquid phase becomes unstable at infinitesimal bath coupling"
 
 [[blocks]]
 sections = ["truth"]
@@ -95,14 +89,8 @@ text = "the ensuing phase is a long-range ordered superfluid with spontaneously-
 [[blocks]]
 sections = ["truth"]
 lines = "45"
-chars = "991-1057"
-text = "the Mott insulator remains a distinct phase for small bath coupling"
-
-[[blocks]]
-sections = ["truth"]
-lines = "45"
-chars = "1072-1162"
-text = "diverging compressibility and non-integer local boson occupation in the thermodynamic limit"
+chars = "1060-1162"
+text = "it exhibits diverging compressibility and non-integer local boson occupation in the thermodynamic limit"
 
 [[blocks]]
 sections = ["truth"]
@@ -113,62 +101,44 @@ text = "this phase undergoes a transition to a long-range ordered superfluid"
 [[blocks]]
 sections = ["truth"]
 lines = "45"
-chars = "1394-1519"
-text = "stable dissipative Luttinger-liquid phase that transitions to a long-range ordered superfluid at a finite system-bath coupling"
-
-[[blocks]]
-sections = ["truth"]
-lines = "57"
-chars = "623-638"
-text = "long-range order"
-
-[[blocks]]
-sections = ["truth"]
-lines = "57"
-chars = "737-752"
-text = "long-range order"
+chars = "1360-1520"
+text = "Our results are compatible with a stable dissipative Luttinger-liquid phase that transitions to a long-range ordered superfluid at a finite system-bath coupling."
 
 [[blocks]]
 sections = ["method"]
 lines = "59"
-chars = "84-102"
-text = "quantum Monte Carlo"
+chars = "84-120"
+text = "quantum Monte Carlo (QMC) simulations"
 
 [[blocks]]
 sections = ["method"]
 lines = "59"
-chars = "105-107"
-text = "QMC"
+chars = "206-294"
+text = "each site was coupled to an independent bath described by a one-dimensional system itself"
 
 [[blocks]]
 sections = ["method"]
 lines = "63"
-chars = "44-46"
-text = "QMC"
+chars = "38-219"
+text = "Other QMC approaches considered the coupling to a bath of harmonic oscillators that, when integrated out, leads to a retarded long-range interaction in the system degrees of freedom."
 
 [[blocks]]
 sections = ["method"]
 lines = "63"
-chars = "824-834"
-text = "Monte Carlo"
-
-[[blocks]]
-sections = ["problem"]
-lines = "65"
-chars = "45-161"
-text = "independent oscillator bath coupled to each site of a one-dimensional Bose-Hubbard model via single-particle exchange"
+chars = "808-834"
+text = "using classical Monte Carlo"
 
 [[blocks]]
 sections = ["method"]
 lines = "67"
-chars = "151-207"
-text = "continuous-time pathintegral QMC method with worm updates"
+chars = "131-212"
+text = "we have developed a continuous-time pathintegral QMC method with worm updates [39]"
 
 [[blocks]]
 sections = ["method"]
 lines = "67"
-chars = "273-286"
-text = "wormhole moves"
+chars = "215-286"
+text = "In Section III, we demonstrate how the recently-developed wormhole moves"
 
 [[blocks]]
 sections = ["problem", "truth"]
@@ -176,12 +146,12 @@ lines = "70"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0002-04.png)"
 
 [[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "74"
 text = "1.0<br>1.0 (a)<br>0.8<br>0.8<br>0.6<br>0.6<br>0.4<br>0.20 0.22 0.24<br>0.4 Mott t/U<br>0.2<br>Luttinger liquid<br>0.0<br>0.00 0.05 0.10 0.15 0.20 0.25 0.30<br>t/U<br>0.14 (b)<br>0.12<br>0.10<br>0.08<br>Dissipative<br>0.06 superfluid<br>Mott [*]<br>0.04<br>0.02<br>0.00<br>Mott Luttinger liquid<br>0.05 0.10 0.15 0.20 0.25 0.30<br>t/U<br>K<br>U/<br>**----- End of picture text -----**<br>"
 
 [[blocks]]
-sections = ["method", "truth"]
+sections = ["method"]
 lines = "77"
 chars = "75-117"
 text = "density-matrix renormalization group (DMRG)"
@@ -189,8 +159,8 @@ text = "density-matrix renormalization group (DMRG)"
 [[blocks]]
 sections = ["method"]
 lines = "77"
-chars = "385-411"
-text = "perform our QMC simulations"
+chars = "370-411"
+text = "along which we perform our QMC simulations"
 
 [[blocks]]
 sections = ["method"]
@@ -201,181 +171,64 @@ text = "extracted from QMC"
 [[blocks]]
 sections = ["truth"]
 lines = "77"
-chars = "494-552"
-text = "at _K_ = 1/2 which is marginal for bath exponent _s_ = 1.75"
+chars = "477-552"
+text = "with dashed line at _K_ = 1/2 which is marginal for bath exponent _s_ = 1.75"
 
 [[blocks]]
 sections = ["truth"]
 lines = "77"
-chars = "555-643"
-text = "The _K_ = 1 point indicates the uncertainty in the numerically established phase boundary"
+chars = "555-644"
+text = "The _K_ = 1 point indicates the uncertainty in the numerically established phase boundary."
 
 [[blocks]]
 sections = ["truth"]
 lines = "77"
-chars = "793-912"
-text = "a dissipative superfluid with long-range order and an insulating but infinitely-compressible state which we call Mott[∗]"
+chars = "750-968"
+text = "At finite dissipation strengths α, we find a dissipative superfluid with long-range order and an insulating but infinitely-compressible state which we call Mott[∗] that is perturbatively connected to the Mott insulator."
+
+[[blocks]]
+sections = ["method"]
+lines = "79"
+chars = "1-84"
+text = "[40] for retarded dissipative interactions can be implemented easily in this scheme."
 
 [[blocks]]
 sections = ["truth"]
 lines = "79"
-chars = "158-216"
-text = "Luttinger liquid is unstable to infinitesimal bath coupling"
+chars = "141-325"
+text = "We show that the Luttinger liquid is unstable to infinitesimal bath coupling, consistent with a power counting argument, that furthermore leads to a long-range ordered superfluid phase."
 
 [[blocks]]
 sections = ["truth"]
 lines = "79"
-chars = "288-324"
-text = "a long-range ordered superfluid phase"
+chars = "327-478"
+text = "The Mott phase gives way to an infinitelycompressible phase, denoted Mott[∗] , that undergoes a transition for larger bath coupling into the superfluid."
 
 [[blocks]]
-sections = ["truth"]
-lines = "79"
-chars = "358-402"
-text = "infinitelycompressible phase, denoted Mott[∗]"
-
-[[blocks]]
-sections = ["truth"]
-lines = "79"
-chars = "411-477"
-text = "undergoes a transition for larger bath coupling into the superfluid"
-
-[[blocks]]
-sections = ["problem"]
-lines = "87"
-chars = "200-267"
-text = "nearest-neighbor hopping, onsite repulsion, and a chemical potential"
-
-[[blocks]]
-sections = ["problem"]
-lines = "90"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-04.png)"
-
-[[blocks]]
-sections = ["problem"]
-lines = "93"
-chars = "135-211"
-text = "phase diagram of this model is naturally parametrized by µ/ _U_ and _t_ / _U_"
-
-[[blocks]]
-sections = ["problem"]
-lines = "100"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-08.png)"
-
-[[blocks]]
-sections = ["problem"]
-lines = "105"
-chars = "31-81"
-text = "coupling between the BoseHubbard chain and the bath"
-
-[[blocks]]
-sections = ["problem"]
-lines = "108"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-11.png)"
-
-[[blocks]]
-sections = ["problem"]
+sections = ["method"]
 lines = "111"
-chars = "464-493"
-text = "bath spectral function _J_ (ω)"
-
-[[blocks]]
-sections = ["problem"]
-lines = "114"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-13.png)"
-
-[[blocks]]
-sections = ["problem"]
-lines = "117"
-chars = "7-64"
-text = "α is a dimensionless coupling and ω _c_ a cutoff frequency"
-
-[[blocks]]
-sections = ["problem"]
-lines = "117"
-chars = "97-176"
-text = "An Ohmic bath corresponds to exponent _s_ = 1 and a super-Ohmic bath has _s_ > 1"
-
-[[blocks]]
-sections = ["problem"]
-lines = "119"
-chars = "80-161"
-text = "integrated out leaving an effective retarded interaction between the system bosons"
-
-[[blocks]]
-sections = ["problem"]
-lines = "122"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-16.png)"
-
-[[blocks]]
-sections = ["problem"]
-lines = "125"
-chars = "9-39"
-text = "mediated by the bath propagator"
-
-[[blocks]]
-sections = ["problem"]
-lines = "128"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-18.png)"
-
-[[blocks]]
-sections = ["problem"]
-lines = "131"
-chars = "8-27"
-text = "D_ (τ + β) = _D_ (τ)"
+chars = "172-250"
+text = "Our numerical method is tailored to this choice of single-particle dissipation."
 
 [[blocks]]
 sections = ["method"]
 lines = "133"
-chars = "1-38"
-text = "## **III. QUANTUM MONTE CARLO METHOD**"
+text = "## **III. QUANTUM MONTE CARLO METHOD** "
 
 [[blocks]]
 sections = ["method"]
 lines = "135"
-chars = "37-84"
-text = "continuous-time QMC method with wormhole updates"
-
-[[blocks]]
-sections = ["method"]
-lines = "135"
-chars = "145-167"
-text = "directed-loop algorithm"
-
-[[blocks]]
-sections = ["method"]
-lines = "135"
-chars = "214-270"
-text = "wormhole updates can be implemented in the worm algorithm"
+text = "For our simulations, we developed a continuous-time QMC method with wormhole updates, which have been introduced recently in the context of the directed-loop algorithm [40]. In the following, we will show how the wormhole updates can be implemented in the worm algorithm [39], which has advantages in the presence of strong diagonal interactions, as is the case for the Bose-Hubbard model for large _U_ / _t_ . "
 
 [[blocks]]
 sections = ["method"]
 lines = "139"
-chars = "1-55"
-text = "## **A. Interaction representation and worm algorithm**"
-
-[[blocks]]
-sections = ["problem"]
-lines = "141"
-chars = "154-196"
-text = "independent ensemble of bosonic oscillators"
-
-[[blocks]]
-sections = ["problem"]
-lines = "144"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-25.png)"
+text = "## **A. Interaction representation and worm algorithm** "
 
 [[blocks]]
 sections = ["method"]
 lines = "147"
-chars = "8-26"
-text = "interaction picture"
-
-[[blocks]]
-sections = ["method"]
-lines = "147"
-chars = "215-255"
-text = "Dyson expansion of the partition function"
+text = "In the interaction picture, we split the Hamiltonian _H_ = _H_ 0 − _V_ into an unperturbed part _H_ 0 that is diagonal in the real-space occupation-number basis and an off-diagonal perturbation _V_ , such that the Dyson expansion of the partition function becomes "
 
 [[blocks]]
 sections = ["method"]
@@ -385,26 +238,12 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0003-27.png)"
 [[blocks]]
 sections = ["method"]
 lines = "155"
-chars = "770-835"
-text = "partition function has become a sum over world-line configurations"
+text = "Here, we have defined _V_ (τ) = _e_[τ] _[H]_[0] _Ve_[−][τ] _[H]_[0] . Because the operator sequence _V_ (τ _m_ ) . . . _V_ (τ1) is time-ordered for a given expansion order _m_ , it can be interpreted as performing an imaginary-time evolution of an initial state |α0⟩, for which each operator _V_ (τℓ) propagates the state from |αℓ−1⟩ to |αℓ⟩. The states |αℓ⟩ are many-body eigenstates of _H_ 0 in the occupation-number basis with eigenenergies _E_ ℓ[0][so][that][only] the application of _V_ can change the state. We assume that the operators _V_ are non-branching, i.e., each initial state is mapped to exactly one final state. Then, the trace over all states |{α}⟩ reduces to a sum over the initial state |α0⟩, as the trace requires |α _m_ ⟩ = |α0⟩. As a result, the partition function has become a sum over world-line configurations that describe the propagation of a set of particles in imaginary time. "
 
 [[blocks]]
 sections = ["method"]
 lines = "157"
-chars = "1-25"
-text = "Path-integral QMC methods"
-
-[[blocks]]
-sections = ["method"]
-lines = "157"
-chars = "66-103"
-text = "sum over all world-line configurations"
-
-[[blocks]]
-sections = ["method"]
-lines = "157"
-chars = "108-132"
-text = "Monte Carlo configuration"
+text = "Path-integral QMC methods provide an efficient way to sample the sum over all world-line configurations. A Monte Carlo configuration is described by the set C = {α0, _m_ , C _m_ } for which all vertex labels are contained in C _m_ = {ν1, . . . , ν _m_ }. Eventually, the partition function becomes "
 
 [[blocks]]
 sections = ["method"]
@@ -414,140 +253,24 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0004-03.png)"
 [[blocks]]
 sections = ["method"]
 lines = "163"
-chars = "53-66"
-text = "vertex weights"
-
-[[blocks]]
-sections = ["method"]
-lines = "163"
-chars = "428-441"
-text = "vertex weights"
+text = "In particular, _W_ (C) factorizes into a product of vertex weights _W_ νℓ = ⟨αℓ| _V_ νℓ |αℓ−1⟩. Each vertex is characterized by a set of variables ν = {Γ, ˜ν}, where Γ distinguishes different types of vertices and ν˜ contains the internal variables of each vertex. For example, for the isolated Bose-Hubbard model in Eq. (1), _V_ is given by the hopping term, such that we set the label Γ = ”hop” and have ν˜ = { _i_ , τ}. The vertex weights become "
 
 [[blocks]]
 sections = ["method"]
 lines = "165"
-chars = "124-150"
-text = "ideas of the worm algorithm"
+chars = "1-272"
+text = "which have to be incorporated appropriately in the product of all weights. In the following, we will briefly summarize the ideas of the worm algorithm, but omit to describe the algorithmic details, which can be found in the standard literature on this method [39, 41, 42]."
 
 [[blocks]]
 sections = ["software"]
 lines = "165"
-chars = "274-357"
-text = "Our Julia implementation closely follows the open-source code described in Ref. [42]"
+chars = "274-358"
+text = "Our Julia implementation closely follows the open-source code described in Ref. [42]."
 
 [[blocks]]
 sections = ["method"]
 lines = "167"
-chars = "69-136"
-text = "To switch from the partition function to the Green’s function sector"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "163-172"
-text = "INSERTWORM"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "181-277"
-text = "inserts a pair of creation and annihilation operators right after each other at a random position"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "283-330"
-text = "choose one of the two operators as the worm head"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "356-389"
-text = "random walk through space and time"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "422-429"
-text = "MOVEWORM"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "445-549"
-text = "moves the worm by some distance ∆τ that is determined by the diagonal energies in the exponential factors"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "566-569"
-text = "worm"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "589-637"
-text = "insert a new kink and hop to its neighboring site"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "647-656"
-text = "INSERTKINK"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "678-722"
-text = "delete an existing kink via a reverse process"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "741-750"
-text = "DELETEKINK"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "904-918"
-text = "PASSINTERACTION"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "941-981"
-text = "worm head moves straight through the kink"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "993-1021"
-text = "worm head returns to its tail"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "1039-1046"
-text = "GLUEWORM"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "1058-1138"
-text = "remove the world-line discontinuities and return to the partition function sector"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "1270-1324"
-text = "worm algorithm scales linearly in the system parameters"
-
-[[blocks]]
-sections = ["method"]
-lines = "167"
-chars = "1347-1398"
-text = "statistically independent Monte Carlo configurations"
+text = "We now summarize the basic updates using the notation of Ref. [42]. To switch from the partition function to the Green’s function sector, we use an update called INSERTWORM, which inserts a pair of creation and annihilation operators right after each other at a random position. We choose one of the two operators as the worm head which can now perform a random walk through space and time. To this end, we can apply the MOVEWORM update, which moves the worm by some distance ∆τ that is determined by the diagonal energies in the exponential factors. Moreover, the worm has the option to insert a new kink and hop to its neighboring site via the INSERTKINK update, but also to delete an existing kink via a reverse process described by the DELETEKINK update. For the Bose-Hubbard model with local occupation numbers larger than one, a situation can occur where a kink cannot be deleted; then we use the PASSINTERACTION update, in which the worm head moves straight through the kink. Once the worm head returns to its tail, we can use the GLUEWORM update to remove the world-line discontinuities and return to the partition function sector. Each of the individual updates are local moves that scale as O(β[0] _L_[0] ). As the average expansion order ⟨ _m_ ⟩∝ _L_ β, the worm algorithm scales linearly in the system parameters in order to generate statistically independent Monte Carlo configurations. For further details, see Ref. [42]. "
 
 [[blocks]]
 sections = ["method"]
@@ -557,26 +280,7 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0004-07.png)"
 [[blocks]]
 sections = ["method"]
 lines = "173"
-chars = "56-136"
-text = "vertex weights are strictly pos-] itive and the matrix elements are non-branching"
-
-[[blocks]]
-sections = ["method"]
-lines = "173"
-chars = "364-373"
-text = "world-line"
-
-[[blocks]]
-sections = ["method"]
-lines = "173"
-chars = "390-467"
-text = "To efficiently update the world-line configurations, we use the worm algorithm"
-
-[[blocks]]
-sections = ["method"]
-lines = "173"
-chars = "493-520"
-text = "extended configuration space"
+text = "where ∆ _E_ ℓ[0][=] _[E]_ ℓ[0][−] _[E]_ ℓ[0] −1[.][The vertex weights are strictly pos-] itive and the matrix elements are non-branching. The diagonal energies of the Bose-Hubbard model have been defined in Sec. II A. The kinetic term of the Bose-Hubbard model leads to a single hopping event between neighboring sites, which is also referred to as a kink in the world-line configuration. To efficiently update the world-line configurations, we use the worm algorithm [39]. It operates in an extended configuration space "
 
 [[blocks]]
 sections = ["method"]
@@ -586,8 +290,7 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0004-09.png)"
 [[blocks]]
 sections = ["method"]
 lines = "179"
-chars = "30-61"
-text = "single-particle Green’s function"
+text = "which is supplemented by the single-particle Green’s function "
 
 [[blocks]]
 sections = ["method"]
@@ -597,14 +300,7 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0004-11.png)"
 [[blocks]]
 sections = ["method"]
 lines = "185"
-chars = "100-109"
-text = "world-line"
-
-[[blocks]]
-sections = ["method"]
-lines = "185"
-chars = "173-222"
-text = "world-line discontinuities with additional weights"
+text = "Here, Tτ is the time-ordering operator. It is apparent that this interaction expansion still has a world-line representation, but the two single-particle operators lead to world-line discontinuities with additional weights "
 
 [[blocks]]
 sections = ["method"]
@@ -614,56 +310,17 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0004-13.png)"
 [[blocks]]
 sections = ["method"]
 lines = "191"
-chars = "1-52"
-text = "## **B. Wormhole updates for retarded interactions**"
+text = "## **B. Wormhole updates for retarded interactions** "
 
 [[blocks]]
 sections = ["method"]
 lines = "193"
-chars = "132-171"
-text = "can be simulated with the worm algorithm"
+text = "In the following, we want to discuss how the coupling to a bath that exchanges particles with the system, as defined in Sec. II B, can be simulated with the worm algorithm. If the system only couples to one bath mode, Eq. (4) is just another hopping term that can be treated as described before. If the bath modes approach a continuum, it is not a priori clear how to choose the weights correctly to hop into the right mode. One way to simulate an Ohmic bath is to couple each site to an independent one-dimensional chain [13] which then has to be simulated together with the system. A convenient way to simulate quantum dissipative interactions is to use retarded interactions, as the one in Eq. (6). So far, the worm algorithm could only deal with diagonal retarded interactions [12], but recently the novel wormhole updates [40] have been introduced in the framework of the directed-loop algorithm which can also simulate off-diagonal retardation efficiently. Here we show how to implement the wormhole updates within the worm algorithm. "
 
 [[blocks]]
 sections = ["method"]
-lines = "193"
-chars = "466-521"
-text = "couple each site to an independent one-dimensional chain"
-
-[[blocks]]
-sections = ["method"]
-lines = "193"
-chars = "585-677"
-text = "A convenient way to simulate quantum dissipative interactions is to use retarded interactions"
-
-[[blocks]]
-sections = ["method"]
-lines = "193"
-chars = "715-780"
-text = "worm algorithm could only deal with diagonal retarded interactions"
-
-[[blocks]]
-sections = ["method"]
-lines = "193"
-chars = "805-826"
-text = "novel wormhole updates"
-
-[[blocks]]
-sections = ["method"]
-lines = "193"
-chars = "861-900"
-text = "framework of the directed-loop algorithm"
-
-[[blocks]]
-sections = ["method"]
-lines = "193"
-chars = "902-961"
-text = "which can also simulate off-diagonal retardation efficiently"
-
-[[blocks]]
-sections = ["method"]
-lines = "193"
-chars = "998-1039"
-text = "wormhole updates within the worm algorithm"
+lines = "195"
+text = "To treat the spin-boson interaction in the interaction picture, we include _Hb_ in the unperturbed part _H_ 0 and _Hsb_ in the perturbation _V_ . Then, the Dyson expansion can be performed as in Eq. (8) and we obtain separate traces over the system and bath degrees of freedom. As has been described in detail in "
 
 [[blocks]]
 sections = ["method"]
@@ -677,9 +334,13 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-02.png)"
 
 [[blocks]]
 sections = ["method"]
+lines = "207"
+text = "Ref. [40], the quadratic bath modes can be traced out exactly using Wick’s theorem. After reorganizing the perturbation expansion, this results in an effective retarded interaction of the form given in Eq. (6). Alternatively, one can use the coherentstate path integral to integrate out the bath, perform the Dyson expansion, and map everything back to an operator formalism [43]. "
+
+[[blocks]]
+sections = ["method"]
 lines = "209"
-chars = "16-46"
-text = "retarded interaction vertex (6)"
+text = "We include the retarded interaction vertex (6) in the perturbation expansion of Eq. (9) by defining a new vertex with label Γ = ”ret”. Its vertex variables are ν˜ = { _i_ , ω, τ, τ[′] } and the vertex weight is given by "
 
 [[blocks]]
 sections = ["method"]
@@ -699,80 +360,12 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-07.png)"
 [[blocks]]
 sections = ["method"]
 lines = "223"
-chars = "225-260"
-text = "sample the spectral function _J_ (ω)"
-
-[[blocks]]
-sections = ["method"]
-lines = "223"
-chars = "273-309"
-text = "frequency ω is included in the vertex"
+text = "Here we use ℓ as a label for the full vertex and distinguish different stages of the propagated states via |αℓ⟩ and |α[′] ℓ[⟩][.][In] addition to the two imaginary-time variables of the retarded interaction, we also want to sample the spectral function _J_ (ω) and so the frequency ω is included in the vertex. To this end, we write the bath propagator "
 
 [[blocks]]
 sections = ["method"]
 lines = "225"
-chars = "39-59"
-text = "INSERTWORMHOLE update"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "126-129"
-text = "worm"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "212-241"
-text = "nonlocal jump of the worm head"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "247-314"
-text = "formally transform it into one subvertex of the retarded interaction"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "326-374"
-text = "create a new worldline discontinuity at time τ[′]"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "382-450"
-text = "annihilation operator (red) completes the retarded interaction vertex"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "461-464"
-text = "worm"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "482-574"
-text = "included with equal probability at time τ[′] ±[right][before][or][after] the second subvertex"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "622-679"
-text = "time difference is chosen according to the bath propagator"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "757-818"
-text = "Expectation values of the operators contained in (b1) and (b2)"
-
-[[blocks]]
-sections = ["method"]
-lines = "225"
-chars = "1009-1067"
-text = "weight at time τ does not change during the wormhole update"
+text = "FIG. 2. Schematic illustration of the INSERTWORMHOLE update. (a) We consider the boson creation operator _b_[†] _i_[as][the][worm][head] (black) sitting at the space-time coordinate ( _i_ , τ). (b) To perform a nonlocal jump of the worm head, we formally transform it into one subvertex of the retarded interaction (red) and create a new worldline discontinuity at time τ[′] . The annihilation operator (red) completes the retarded interaction vertex, and the worm head (black) is included with equal probability at time τ[′] ±[right][before][or][after] the second subvertex, as illustrated by options (b1) and (b2). The time difference is chosen according to the bath propagator _D_ (τ − τ[′] ) (dashed blue line), which connects the two subvertices. (c) Expectation values of the operators contained in (b1) and (b2), for which state propagation is from right to left. For simplicity, we neglected additional factors to the weight like the time-dependent exponentials or the bath propagator. Note that the weight at time τ does not change during the wormhole update. "
 
 [[blocks]]
 sections = ["method"]
@@ -782,8 +375,7 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-10.png)"
 [[blocks]]
 sections = ["method"]
 lines = "231"
-chars = "17-62"
-text = "probability distribution functions in ω and ∆τ"
+text = "in terms of the probability distribution functions in ω and ∆τ, "
 
 [[blocks]]
 sections = ["method"]
@@ -798,20 +390,12 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-13.png)"
 [[blocks]]
 sections = ["method"]
 lines = "241"
-chars = "20-81"
-text = "Both functions can be sampled using inverse transform sampling"
-
-[[blocks]]
-sections = ["method"]
-lines = "241"
-chars = "145-159"
-text = "we first draw ω"
+text = "respectively [40]. Both functions can be sampled using inverse transform sampling. Using uniformly-distributed random numbers ξ, ξ[′] ∈ [0, 1), we first draw ω = ω _c_ (1 − ξ)[1][/] _[s]_ and then, using this frequency, sample the time difference ∆τ = − ln[1 − ξ[′] (1 − _e_[−][βω] )]/ω, as derived in Ref. [40]. Note that the sampled time difference has a direction, because the retarded interaction in Eq. (6) is not symmetric under τ ↔ τ[′] . "
 
 [[blocks]]
 sections = ["method"]
 lines = "243"
-chars = "17-52"
-text = "which we choose with probability 1/2"
+text = "or after τ[′] , which we choose with probability 1/2 [Figs. 2(b1) and 2(b2)]. As a result, the transition amplitude becomes "
 
 [[blocks]]
 sections = ["method"]
@@ -821,26 +405,12 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-16.png)"
 [[blocks]]
 sections = ["method"]
 lines = "249"
-chars = "9-58"
-text = "reverse process of removing a retarded interaction"
+text = "For the reverse process of removing a retarded interaction, "
 
 [[blocks]]
 sections = ["method"]
 lines = "251"
-chars = "12-31"
-text = "Metropolis algorithm"
-
-[[blocks]]
-sections = ["method"]
-lines = "251"
-chars = "56-76"
-text = "INSERTWORMHOLE update"
-
-[[blocks]]
-sections = ["method"]
-lines = "251"
-chars = "95-98"
-text = "worm"
+text = "We use the Metropolis algorithm to formulate the novel INSERTWORMHOLE update, under which the worm head jumps nonlocally in imaginary time and thereby creates a retarded interaction vertex, as illustrated in Fig. 2. The acceptance probability _A_ (CC →C[[′]] ) = min[1, _R_ (CC →C[[′]] )] is determined by the ratio "
 
 [[blocks]]
 sections = ["method"]
@@ -850,62 +420,12 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-19.png)"
 [[blocks]]
 sections = ["method"]
 lines = "257"
-chars = "1-90"
-text = "_A_ (CC →C[[′]] ) = min[1, _R_ (CC →C[[′]] )] is deterThe ratio of the Monte Carlo weights"
-
-[[blocks]]
-sections = ["method"]
-lines = "257"
-chars = "159-166"
-text = "wormhole"
-
-[[blocks]]
-sections = ["method"]
-lines = "257"
-chars = "186-189"
-text = "worm"
-
-[[blocks]]
-sections = ["method"]
-lines = "257"
-chars = "291-294"
-text = "worm"
+text = "_A_ (CC →C[[′]] ) = min[1, _R_ (CC →C[[′]] )] is deterThe ratio of the Monte Carlo weights is mainly determined by the local weights that are affected by the wormhole update, i.e., the worm head and the included retarded interaction ver[→C][)] tex. For the two possibilities of putting the worm head at τ[′] ±[,] _R_ (C →C[′] ) = _[W] W_[(] ([C] C[′] )[)] _T[ T]_ ([(] C →C[C][′][′] ) (18) we combine the weights outlined in Figs. 2(c1) and 2(c2), and obtain "
 
 [[blocks]]
 sections = ["method"]
 lines = "259"
-chars = "4-14"
-text = "Monte Carlo"
-
-[[blocks]]
-sections = ["method"]
-lines = "259"
-chars = "161-219"
-text = "the worm head is a creation operator at site _i_ and time τ"
-
-[[blocks]]
-sections = ["method"]
-lines = "259"
-chars = "234-337"
-text = "After the wormhole update, this operator has turned into the first subvertex of the retarded interaction"
-
-[[blocks]]
-sections = ["method"]
-lines = "259"
-chars = "354-422"
-text = "include an annihilation operator as the second subvertex at time τ[′]"
-
-[[blocks]]
-sections = ["method"]
-lines = "259"
-chars = "463-498"
-text = "sampling J(ω) and _P_ (ω, τ − τ[′] )"
-
-[[blocks]]
-sections = ["method"]
-lines = "259"
-chars = "525-578"
-text = "worm head can be included at time τ[′] ±[right before]"
+text = "of Monte Carlo weights _W_ (C) and _W_ (C[′] ) before and after the update and the transition amplitudes _T_ between the two configurations. Let us assume that the worm head is a creation operator at site _i_ and time τ [Fig. 2(a)]. After the wormhole update, this operator has turned into the first subvertex of the retarded interaction and we have to include an annihilation operator as the second subvertex at time τ[′] . The time difference is obtained from sampling J(ω) and _P_ (ω, τ − τ[′] ) as described before. The worm head can be included at time τ[′] ±[right before] "
 
 [[blocks]]
 sections = ["method"]
@@ -915,14 +435,12 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0005-22.png)"
 [[blocks]]
 sections = ["method"]
 lines = "265"
-chars = "15-57"
-text = "time-dependent exponential factors drop out"
+text = "Note that the time-dependent exponential factors drop out, because during this update time values do not get shifted and "
 
 [[blocks]]
 sections = ["method"]
 lines = "269"
-chars = "20-61"
-text = "Eventually, we obtain the acceptance ratio"
+text = "τ[′] ±[→][τ][′][.][Eventually, we obtain the acceptance ratio] "
 
 [[blocks]]
 sections = ["method"]
@@ -932,157 +450,87 @@ text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0006-02.png)"
 [[blocks]]
 sections = ["method"]
 lines = "275"
-chars = "198-255"
-text = "acceptance ratio only depends on the occupation _n_[′] _i_"
-
-[[blocks]]
-sections = ["method"]
-lines = "275"
-chars = "366-369"
-text = "worm"
-
-[[blocks]]
-sections = ["method"]
-lines = "275"
-chars = "470-473"
-text = "worm"
-
-[[blocks]]
-sections = ["method"]
-lines = "275"
-chars = "491-498"
-text = "wormhole"
-
-[[blocks]]
-sections = ["method"]
-lines = "275"
-chars = "596-631"
-text = "applies to the REMOVEWORMHOLE update"
-
-[[blocks]]
-sections = ["method"]
-lines = "275"
-chars = "641-644"
-text = "worm"
-
-[[blocks]]
-sections = ["method"]
-lines = "275"
-chars = "705-743"
-text = "REMOVEWORMHOLE update cannot be applied"
-
-[[blocks]]
-sections = ["method"]
-lines = "275"
-chars = "768-786"
-text = "PASSWORMHOLE update"
-
-[[blocks]]
-sections = ["method"]
-lines = "275"
-chars = "920-923"
-text = "worm"
+text = "Because we have proposed the time difference according to the bath propagator, the time and frequency dependence of the retarded interaction do not affect the acceptance probability. Note that the acceptance ratio only depends on the occupation _n_[′] _i_[of the propagated state at time][ τ][′][ before we include the new] operator and the choice of inserting the worm head before or after the subvertex. The occupation at time τ has already been taken care of by the worm head before the wormhole update and therefore drops out. The inverse acceptance ratio _R_ (C[′] → C) = 1/ _R_ (C →C[′] ) applies to the REMOVEWORMHOLE update. If the worm head approaches a subvertex that is the same operator, the REMOVEWORMHOLE update cannot be applied, so that we choose the PASSWORMHOLE update to pass this operator with probability one. A similar analysis can be performed if we choose the boson annihilation operator as the worm head. "
 
 [[blocks]]
 sections = ["method"]
 lines = "277"
-chars = "5-95"
-text = "wormhole updates can be easily included in an existing implementation of the worm algorithm"
+text = "The wormhole updates can be easily included in an existing implementation of the worm algorithm. The biggest algorithmic change concerns the linking of the vertices. In the original formulation, only connections between the different kinks need to be considered while the worm head traverses the world-line configuration. In the presence of the wormholes, we also need to include nonlocal connections in time, which makes it necessary to find appropriate positions in the operator sequence. As a result, the formal computational cost of the wormholes will be slightly slower than linear in β. The calculation of observables in the system’s degrees of freedom is as usual, whereas bath observables are not accessible directly, but can be recovered from the distribution of retarded vertices using generating functionals [44]. For example, the average expansion order of retarded vertices, ⟨ _m_ ret⟩ = −β ⟨ _Hsb_ ⟩/2, is directly related to the spin-boson interaction energy. "
 
 [[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "102-164"
-text = "biggest algorithmic change concerns the linking of the vertices"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "273-276"
-text = "worm"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "297-306"
-text = "world-line"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "346-353"
-text = "wormhole"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "381-408"
-text = "nonlocal connections in time"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "444-489"
-text = "appropriate positions in the operator sequence"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "509-591"
-text = "formal computational cost of the wormholes will be slightly slower than linear in β"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "681-724"
-text = "bath observables are not accessible directly"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "757-818"
-text = "distribution of retarded vertices using generating functionals"
-
-[[blocks]]
-sections = ["method"]
-lines = "277"
-chars = "843-886"
-text = "average expansion order of retarded vertices"
-
-[[blocks]]
-sections = ["problem"]
+sections = ["anchors"]
 lines = "286"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0006-08.png)"
 
 [[blocks]]
-sections = ["problem"]
+sections = ["anchors", "problem"]
 lines = "290"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0006-09.png)"
 
 [[blocks]]
-sections = ["problem"]
+sections = ["anchors", "problem"]
+lines = "294"
+text = "2 . 5 1 . 0<br>irrelevant (∆ < 0)<br>0 . 5<br>2 . 0 .<br>0 . 0 ∆<br>1 . 5<br>− 0 . 5<br>relevant (∆ > 0)<br>1 . 0 − 1 . 0<br>0 . 0 0 . 2 0 . 4 0 . 6 0 . 8 1 . 0<br>K<br>marginal<br>(∆=<br>0)<br>s<br>**----- End of picture text -----**<br>"
+
+[[blocks]]
+sections = ["anchors", "problem"]
+lines = "297"
+text = "FIG. 3. Stability of the Luttinger-liquid phase of the isolated system to an infinitesimal bath coupling according to power counting. As a function of the Luttinger parameter _K_ and the bath exponent _s_ , we can distinguish two regimes where the bath is an (ir)relevant perturbation separated by a line where it is marginal. The color coding indicates the scaling dimension ∆ given in Eq. (23) and the three markers the parameter sets studied throughout this paper. "
+
+[[blocks]]
+sections = ["anchors"]
 lines = "302"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0006-12.png)"
 
 [[blocks]]
-sections = ["method"]
-lines = "311"
-chars = "207-227"
-text = "determined using DMRG"
+sections = ["anchors"]
+lines = "307"
+chars = "198-319"
+text = "_K_ = 1 apart from the cusp where _K_ = 1/2. The _K_ = 1/2 contour bounds the phase boundary meeting it only at the cusps."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "307"
+chars = "321-445"
+text = "The _K_ = 1 marginal bath exponent is _s_ = 1.5 and the _K_ = 1/2 marginal bath exponent is _s_ = 1.75, as visible in Fig. 3."
+
+[[blocks]]
+sections = ["anchors", "truth"]
+lines = "307"
+chars = "447-633"
+text = "For an Ohmic bath with _s_ = 1, the bath is relevant everywhere in the quasi-superfluid phase which is therefore expected to be unstable to an infinitesimal coupling to this gapless bath."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "307"
+chars = "635-731"
+text = "For _s_ > 2 the bath is always irrelevant leaving the Luttinger liquid stable at small couplings."
+
+[[blocks]]
+sections = ["anchors"]
+lines = "307"
+chars = "733-830"
+text = "For _s_ = 1.75, we expect three phases for small bath coupling, as discussed in more detail below."
 
 [[blocks]]
 sections = ["method"]
 lines = "311"
-chars = "259-283"
-text = "QMC results reported here"
+chars = "207-252"
+text = "determined using DMRG and taken from Ref. [38]"
 
 [[blocks]]
-sections = ["truth"]
+sections = ["method"]
+lines = "311"
+chars = "255-283"
+text = "The QMC results reported here"
+
+[[blocks]]
+sections = ["problem", "truth"]
 lines = "316"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0007-01.png)"
 
 [[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "320"
 text = "(a) (b)<br>0.0 <<<br>0.25 0.05 0.10 0.15 0.20<br>t/U<br>=| = 20<br>0.4; ——, =40<br>—L = 80<br>160 =<=L = 160<br>320<br>0.3<br>2<br>YW 0.2<br>01<br>(c) (d)<br>**----- End of picture text -----**<br>"
 
@@ -1093,765 +541,305 @@ chars = "4-21"
 text = "_tc_ / _U_ ≈ 0.195"
 
 [[blocks]]
-sections = ["method", "truth"]
-lines = "325"
-chars = "43-56"
-text = "both DMRG [38]"
-
-[[blocks]]
 sections = ["method"]
 lines = "325"
-chars = "62-75"
-text = "our QMC method"
+chars = "23-75"
+text = "as determined using both DMRG [38] and our QMC method"
 
 [[blocks]]
 sections = ["method"]
 lines = "327"
-chars = "227-235"
-text = "using QMC"
-
-[[blocks]]
-sections = ["problem"]
-lines = "327"
-chars = "258-295"
-text = "finite-size scaling at fixed β/ _L[z]_"
+chars = "181-295"
+text = "the exploration of low-temperature properties using QMC is carried out using finite-size scaling at fixed β/ _L[z]_"
 
 [[blocks]]
 sections = ["method_params"]
 lines = "327"
-chars = "399-439"
-text = "converge the results carefully at large β"
-
-[[blocks]]
-sections = ["problem"]
-lines = "327"
-chars = "609-636"
-text = "periodic boundary conditions"
-
-[[blocks]]
-sections = ["problem"]
-lines = "327"
-chars = "642-683"
-text = "restrict the boson occupation to _ni_ ≤ 10"
+chars = "642-742"
+text = "restrict the boson occupation to _ni_ ≤ 10, which is large enough that it does not affect our results"
 
 [[blocks]]
 sections = ["method"]
 lines = "329"
-chars = "250-268"
-text = "our QMC simulations"
+chars = "254-256"
+text = "QMC"
 
 [[blocks]]
 sections = ["truth"]
 lines = "329"
-chars = "301-371"
-text = "N_ / _L_ is equal to one in the Mott phase without visible fluctuations"
-
-[[blocks]]
-sections = ["truth"]
-lines = "329"
-chars = "378-438"
-text = "particle density starts to increase beyond _tc_ / _U_ ≈ 0.195"
-
-[[blocks]]
-sections = ["truth"]
-lines = "331"
-chars = "35-88"
-text = "particle density evolves in a series of step functions"
-
-[[blocks]]
-sections = ["truth"]
-lines = "331"
-chars = "156-197"
-text = "integer filling of our lattice with bosons"
+chars = "374-438"
+text = "the particle density starts to increase beyond _tc_ / _U_ ≈ 0.195"
 
 [[blocks]]
 sections = ["method"]
 lines = "333"
-chars = "79-104"
-text = "world-line QMC simulations"
-
-[[blocks]]
-sections = ["method"]
-lines = "333"
-chars = "143-169"
-text = "winding-number fluctuations"
+chars = "76-174"
+text = "In world-line QMC simulations, it can be accessed directly via the winding-number fluctuations [46]"
 
 [[blocks]]
 sections = ["method"]
 lines = "335"
-chars = "37-51"
-text = "Our QMC results"
-
-[[blocks]]
-sections = ["truth"]
-lines = "335"
-chars = "82-158"
-text = "scales to zero in the Mott phase, but is finite in the Luttinger-liquid phase"
+chars = "1-35"
+text = "ρs = _[L]_ β[⟨] _[W]_[2][⟩][.] (25)"
 
 [[blocks]]
 sections = ["method"]
 lines = "335"
-chars = "175-291"
-text = "finite-size effects from switching between the different particle-number sectors also affect ρs and other observables"
+chars = "41-43"
+text = "QMC"
 
 [[blocks]]
-sections = ["problem"]
-lines = "341"
-chars = "54-109"
-text = "By fitting the decay as a function of the chord function"
-
-[[blocks]]
-sections = ["problem"]
-lines = "341"
-chars = "159-201"
-text = "we have extracted _K_ for various _t_ / _U_"
-
-[[blocks]]
-sections = ["truth"]
-lines = "341"
-chars = "246-340"
-text = "The Luttinger parameter goes to 1 at the Mott transition and decreases as the hopping increases"
-
-[[blocks]]
-sections = ["truth"]
-lines = "341"
-chars = "361-404"
-text = "passes through _K_ = 1/2 at _t_ / _U_ ≈ 0.24"
-
-[[blocks]]
-sections = ["problem"]
-lines = "346"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0008-03.png)"
-
-[[blocks]]
-sections = ["problem"]
-lines = "349"
-chars = "4-45"
-text = "applying a Fourier transform with momentum"
-
-[[blocks]]
-sections = ["truth"]
-lines = "349"
-chars = "168-234"
-text = "momentum distribution function at _k_ = 0 diverges with system size"
-
-[[blocks]]
-sections = ["truth"]
-lines = "349"
-chars = "282-322"
-text = "scales to zero in the thermodynamic limit"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "352"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0008-05.png)"
 
 [[blocks]]
-sections = ["problem"]
-lines = "362"
-text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0008-07.png)"
-
-[[blocks]]
-sections = ["truth"]
-lines = "365"
-chars = "77-192"
-text = "scales to zero in the Mott phase, diverges in the longrange ordered phase and becomes scale invariant at criticality"
-
-[[blocks]]
-sections = ["problem"]
-lines = "365"
-chars = "500-565"
-text = "finite-size corrections lead to a convergence of ξ/ _L_ from above"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["anchors"]
 lines = "369"
-chars = "226-292"
-text = "quasisuperfluid phase is unstable to an infinitesimal bath coupling"
+chars = "154-292"
+text = "the power counting arguments of Section IV A lead us to expect that the quasisuperfluid phase is unstable to an infinitesimal bath coupling"
 
 [[blocks]]
 sections = ["method"]
 lines = "369"
-chars = "302-333"
-text = "check this using QMC simulations"
-
-[[blocks]]
-sections = ["problem"]
-lines = "371"
-chars = "31-65"
-text = "cutoff frequency of ω _c_ / _U_ = 1"
+chars = "319-321"
+text = "QMC"
 
 [[blocks]]
 sections = ["method"]
 lines = "371"
-chars = "369-428"
-text = "bath is simulated exactly in terms of a retarded interaction"
+chars = "357-439"
+text = "Because the bath is simulated exactly in terms of a retarded interaction, we do not"
 
 [[blocks]]
 sections = ["method_params"]
 lines = "375"
-chars = "56-163"
-text = "inverse temperatures β that are large enough that for each _L_ our results are converged to the ground state"
+chars = "1-164"
+text = "need to apply a boson cutoff here. Moreover, we choose inverse temperatures β that are large enough that for each _L_ our results are converged to the ground state."
 
 [[blocks]]
-sections = ["truth"]
-lines = "379"
-chars = "326-385"
-text = "Within errors there is no discernible system size dependence"
-
-[[blocks]]
-sections = ["truth"]
-lines = "379"
-chars = "716-817"
-text = "Both the particle density and superfluid stiffness can be seen to increase with increasing dissipation"
-
-[[blocks]]
-sections = ["truth"]
-lines = "379"
-chars = "820-952"
-text = "At first sight, therefore, it appears that the liquid phase is stable to dissipation and that the bath merely leads to a renormaliza-"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "384"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0009-01.png)"
 
 [[blocks]]
 sections = ["truth"]
-lines = "393"
-chars = "55-120"
-text = "effects are in fact more dramatic than these results would suggest"
-
-[[blocks]]
-sections = ["truth"]
 lines = "395"
-chars = "529-557"
-text = "an upward shift of the curves"
+chars = "712-999"
+text = "The overall impression is that, at least at strong dissipation, the Luttinger liquid does not survive the introduction of a bath coupling and that there is instead a tendency to long-range order reflected in the long distance plateau for distances much less than the finite system cutoff."
 
 [[blocks]]
-sections = ["truth"]
-lines = "395"
-chars = "571-623"
-text = "a decrease in the initial linear slope as α increases"
-
-[[blocks]]
-sections = ["truth"]
-lines = "395"
-chars = "639-709"
-text = "the departure from linearity drifts to smaller distances as α increases"
-
-[[blocks]]
-sections = ["truth"]
-lines = "395"
-chars = "776-848"
-text = "the Luttinger liquid does not survive the introduction of a bath coupling"
-
-[[blocks]]
-sections = ["truth"]
-lines = "395"
-chars = "878-944"
-text = "tendency to long-range order reflected in the long distance plateau"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "400"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0009-06.png)"
 
 [[blocks]]
 sections = ["truth"]
-lines = "409"
-chars = "58-153"
-text = "falls off for larger system sizes consistent with an approach to zero in the thermodynamic limit"
-
-[[blocks]]
-sections = ["truth"]
-lines = "409"
-chars = "156-226"
-text = "As α increases, _n_ ( _k_ = 0) becomes larger for any fixed system size"
-
-[[blocks]]
-sections = ["truth"]
-lines = "411"
-chars = "383-417"
-text = "ξ/ _L_ diverges with increasing _L_"
-
-[[blocks]]
-sections = ["truth"]
-lines = "411"
-chars = "452-467"
-text = "long-range order"
-
-[[blocks]]
-sections = ["truth"]
-lines = "411"
-chars = "709-787"
-text = "in the α → 0 limit ξ/ _L_ slowly decreases with _L_ and converges to a constant"
-
-[[blocks]]
-sections = ["truth"]
-lines = "411"
-chars = "803-889"
-text = "ξ/ _L_ lines for data pairs ( _L_ , 2 _L_ ) exhibit a crossing at a finite α[∗] ( _L_ )"
-
-[[blocks]]
-sections = ["truth"]
-lines = "411"
-chars = "1076-1112"
-text = "crossing of the lines drifts with _L_"
-
-[[blocks]]
-sections = ["problem"]
-lines = "411"
-chars = "1178-1215"
-text = "polynomial fits close to the crossings"
-
-[[blocks]]
-sections = ["problem"]
-lines = "411"
-chars = "1234-1264"
-text = "error from a bootstrap analysis"
-
-[[blocks]]
-sections = ["truth"]
 lines = "415"
-chars = "6-45"
-text = "α[∗] ( _L_ ) tends to zero as 1/ _L_ → 0"
+chars = "1-274"
+text = "that α[∗] ( _L_ ) tends to zero as 1/ _L_ → 0. This finite-size scaling result indicates that the Luttinger liquid is destabilized for any finite bath coupling in agreement with the power-counting argument. The resulting phase appears to be long-range ordered for any α > 0."
 
 [[blocks]]
-sections = ["truth"]
-lines = "415"
-chars = "99-159"
-text = "Luttinger liquid is destabilized for any finite bath coupling"
-
-[[blocks]]
-sections = ["truth"]
-lines = "415"
-chars = "212-273"
-text = "resulting phase appears to be long-range ordered for any α > 0"
-
-[[blocks]]
-sections = ["method_params"]
+sections = ["anchors"]
 lines = "417"
-chars = "174-241"
-text = "necessary to achieve convergence of ξ/ _L_ by tuning the temperature"
+chars = "414-542"
+text = "In field theory, the free propagator is proportional to 1/( _k_[2] + _c_ 1 ω[2] + _c_ 2 ω _[s]_ ) suggesting _z_ = 2 for _s_ = 1."
+
+[[blocks]]
+sections = ["truth"]
+lines = "417"
+chars = "544-728"
+text = "At large dissipation strengths, the temperature convergence discussed in Appendix B is consistent with this scenario, but not precise enough to allow us to draw a definitive conclusion."
 
 [[blocks]]
 sections = ["truth"]
 lines = "419"
-chars = "38-143"
-text = "Luttinger liquid phase of the Bose-Hubbard model in one dimension is unstable to coupling to an Ohmic bath"
+chars = "1-144"
+text = "The summary of this part is that the Luttinger liquid phase of the Bose-Hubbard model in one dimension is unstable to coupling to an Ohmic bath."
 
 [[blocks]]
-sections = ["truth"]
-lines = "419"
-chars = "146-259"
-text = "Fluctuations, that would ordinarily destroy long-range order in one dimension, are suppressed by the bath coupling"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "422"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0010-04.png)"
 
 [[blocks]]
 sections = ["truth"]
 lines = "433"
-chars = "118-144"
-text = "transition at α _c_ ≈ 0.061"
+chars = "72-145"
+text = "This clearly shows two regimes separated by a transition at α _c_ ≈ 0.061."
 
 [[blocks]]
 sections = ["truth"]
 lines = "433"
-chars = "163-228"
-text = "ξ/ _L_ tends towards zero as the thermodynamic limit is approached"
+chars = "768-841"
+text = "which is zero for all α < α _c_ and non-vanishing for larger bath coupling"
 
 [[blocks]]
-sections = ["truth"]
-lines = "433"
-chars = "240-305"
-text = "correlation length grows faster than the system size for α > α _c_"
-
-[[blocks]]
-sections = ["truth"]
-lines = "433"
-chars = "525-584"
-text = "small- _t_ / _U_ large-α phase is a long-range ordered phase"
-
-[[blocks]]
-sections = ["truth"]
-lines = "433"
-chars = "735-841"
-text = "superfluid stiffness [Fig. 8(b)] which is zero for all α < α _c_ and non-vanishing for larger bath coupling"
-
-[[blocks]]
-sections = ["truth"]
-lines = "435"
-chars = "5-95"
-text = "vanishing superfluid stiffness and correlation length are both consistent with a Mott phase"
-
-[[blocks]]
-sections = ["problem"]
+sections = ["method"]
 lines = "442"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0010-11.png)"
 
 [[blocks]]
-sections = ["truth"]
-lines = "445"
-chars = "96-184"
-text = "Mott phase (at zero α) is incompressible and the particle number per site is strictly one"
-
-[[blocks]]
 sections = ["method"]
 lines = "445"
-chars = "187-201"
-text = "Our QMC results"
+chars = "191-193"
+text = "QMC"
 
 [[blocks]]
 sections = ["truth"]
 lines = "445"
-chars = "277-412"
-text = "_N_ / _L_ decreases and the particle number acquires a variance that quickly saturates with system size, _L_ , and inverse temperature β"
+chars = "415-582"
+text = "This implies [Eq. (28)] that the compressibility diverges at zero temperature in the dissipative Mott phase, consistent with previous work on particle dissipation [13]."
 
 [[blocks]]
 sections = ["truth"]
 lines = "445"
-chars = "448-521"
-text = "compressibility diverges at zero temperature in the dissipative Mott phase"
+chars = "584-710"
+text = "The compressibility also diverges in the dissipationinduced long-range ordered phase, as illustrated for α = 0.07 in Fig. 9(b)."
 
 [[blocks]]
 sections = ["truth"]
 lines = "445"
-chars = "588-667"
-text = "compressibility also diverges in the dissipationinduced long-range ordered phase"
+chars = "712-881"
+text = "In general, our numerical results suggest that the compressibility of the system diverges for any finite α, independent of the bath exponent _s_ and the phases we are in."
 
 [[blocks]]
-sections = ["truth"]
-lines = "445"
-chars = "763-817"
-text = "compressibility of the system diverges for any finite α"
-
-[[blocks]]
-sections = ["truth"]
-lines = "445"
-chars = "1090-1096"
-text = "Mott[∗]"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "450"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0011-01.png)"
 
 [[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "458"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0011-02.png)"
 
 [[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "466"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0011-03.png)"
 
 [[blocks]]
 sections = ["truth"]
-lines = "475"
-chars = "170-215"
-text = "particle dissipation adds bosons to the system"
-
-[[blocks]]
-sections = ["truth"]
-lines = "475"
-chars = "226-265"
-text = "it removes particles from the Mott phase"
-
-[[blocks]]
-sections = ["truth"]
-lines = "475"
-chars = "286-363"
-text = "boson number is not pinned to integer fillings anymore in the insulating phase"
-
-[[blocks]]
-sections = ["truth"]
 lines = "481"
-chars = "98-191"
-text = "Ohmic bath with _s_ = 1 is a relevant perturbation throughout the entire Luttingerliquid phase"
-
-[[blocks]]
-sections = ["truth"]
-lines = "481"
-chars = "221-276"
-text = "resulting phase is a long-range-ordered superfluid state"
-
-[[blocks]]
-sections = ["problem"]
-lines = "483"
-chars = "258-340"
-text = "power-law fits to quantify the change of the Luttinger parameter _K_ as α is varied"
+chars = "194-277"
+text = "We have also seen that the resulting phase is a long-range-ordered superfluid state."
 
 [[blocks]]
 sections = ["truth"]
 lines = "489"
-chars = "292-387"
-text = "all data sets collapse on top of each other, indicating that the Luttinger liquid remains stable"
+chars = "292-388"
+text = "all data sets collapse on top of each other, indicating that the Luttinger liquid remains stable."
 
 [[blocks]]
 sections = ["truth"]
 lines = "489"
-chars = "511-608"
-text = "powerlaw decay of ⟨ _b_[†] _i[b][j]_[⟩][remains][clearly][visible][up][to][the][largest] couplings"
+chars = "705-840"
+text = "We observe that the Luttinger exponent _K_ decreases with increasing α, as quantified by the power-law fits of _K_ stated in Fig. 10(b)."
 
 [[blocks]]
-sections = ["truth"]
-lines = "489"
-chars = "725-774"
-text = "Luttinger exponent _K_ decreases with increasing α"
-
-[[blocks]]
-sections = ["truth"]
-lines = "489"
-chars = "862-919"
-text = "effect of the bath is to renormalize the properties of the"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["anchors", "problem"]
 lines = "494"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0012-01.png)"
 
 [[blocks]]
-sections = ["truth"]
+sections = ["anchors", "problem"]
 lines = "498"
 text = "t / U  ≈0.195 t / U  ≈0.24<br>Mott * Dissipative Luttinger  Dissipative<br>ad liquid Superfluid t / U<br>**----- End of picture text -----**<br>"
 
 [[blocks]]
-sections = ["truth"]
-lines = "503"
-chars = "1-17"
-text = "Luttinger liquid."
+sections = ["anchors"]
+lines = "507"
+chars = "224-602"
+text = "For _t_ / _U_ ≲ 0.195, the Mott phase leads to a dissipative insulating phase with infinite compressibility, as discussed in Sec. IV C 2. For _t_ / _U_ ≳ 0.24, the bath is a relevant perturbation and we expect to find a longrange ordered phase, as in the Ohmic case of Sec. IV C 1. In between, power counting suggests that the Luttinger liquid remains stable for small couplings."
 
 [[blocks]]
 sections = ["truth"]
 lines = "509"
-chars = "403-505"
-text = "clear separation between data sets of ξ/ _L_ at different lattice sizes which slowly increases with _L_"
+chars = "380-599"
+text = "At strong α, we find a clear separation between data sets of ξ/ _L_ at different lattice sizes which slowly increases with _L_ . This behavior is reminiscent of the emergence of long-range order found for the Ohmic case."
 
 [[blocks]]
 sections = ["truth"]
 lines = "509"
-chars = "558-573"
-text = "long-range order"
+chars = "728-944"
+text = "At weak coupling, ξ/ _L_ shows no visible deviations between _L_ = 80 and _L_ = 160 for α < 0.05. In accordance with our results at _s_ = 2.5, this can be interpreted as a signature of a stable Luttinger-liquid phase."
 
 [[blocks]]
-sections = ["truth"]
+sections = ["anchors"]
 lines = "509"
-chars = "900-943"
-text = "signature of a stable Luttinger-liquid phase"
+chars = "1080-1125"
+text = "the scaling dimension ∆= −0.25 is rather small"
 
 [[blocks]]
-sections = ["truth"]
-lines = "509"
-chars = "966-1025"
-text = "different curves start to depart from each other at α ≳ 0.05"
-
-[[blocks]]
-sections = ["truth"]
-lines = "509"
-chars = "1748-1801"
-text = "for larger couplings we always see ordering tendencies"
-
-[[blocks]]
-sections = ["problem"]
-lines = "511"
-chars = "107-152"
-text = "density matrix against _d_ ( _i_ − _j_ , _L_ )"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["problem", "truth"]
 lines = "514"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0012-08.png)"
 
 [[blocks]]
 sections = ["truth"]
-lines = "521"
-chars = "10-90"
-text = "Putative transition between the Luttinger liquid and the long-range ordered phase"
-
-[[blocks]]
-sections = ["problem"]
-lines = "521"
-chars = "302-405"
-text = "use the chord function _d_ ( _x_ , _L_ ) = _L_ |sin(π _x_ / _L_ )| /π to get rid of the boundary effects"
-
-[[blocks]]
-sections = ["problem"]
-lines = "521"
-chars = "469-495"
-text = "power-law fit for α = 0.025"
-
-[[blocks]]
-sections = ["truth"]
-lines = "521"
-chars = "498-606"
-text = "For the weakest and strongest couplings, we also show how different system sizes collapse onto the same curve"
-
-[[blocks]]
-sections = ["truth"]
 lines = "523"
-chars = "69-130"
-text = "At α = 0.025, our results are consistent with a powerlaw decay"
-
-[[blocks]]
-sections = ["truth"]
-lines = "523"
-chars = "158-199"
-text = "density matrix converges to this power law"
-
-[[blocks]]
-sections = ["truth"]
-lines = "523"
-chars = "261-455"
-text = "At dissipation strengths beyond α ≈ 0.05, ⟨ _b_[†] _i[b][ j]_[⟩] gets enhanced and starts to bend upwards and deviate from the power-law towards a behavior that is consistent with longrange order"
+chars = "261-456"
+text = "At dissipation strengths beyond α ≈ 0.05, ⟨ _b_[†] _i[b][ j]_[⟩] gets enhanced and starts to bend upwards and deviate from the power-law towards a behavior that is consistent with longrange order."
 
 [[blocks]]
 sections = ["truth"]
 lines = "525"
-chars = "21-78"
-text = "numerical evidence for long-range order even at _s_ = 1.75"
-
-[[blocks]]
-sections = ["truth"]
-lines = "525"
-chars = "86-163"
-text = "weak-coupling behavior that is consistent with a stable Luttinger-liquid phase"
+chars = "1-164"
+text = "All in all, we find numerical evidence for long-range order even at _s_ = 1.75 and a weak-coupling behavior that is consistent with a stable Luttinger-liquid phase."
 
 [[blocks]]
 sections = ["method"]
 lines = "531"
-chars = "33-71"
-text = "systematic, numerically exact QMC study"
+chars = "45-71"
+text = "numerically exact QMC study"
 
 [[blocks]]
 sections = ["truth"]
 lines = "531"
-chars = "506-649"
-text = "quasi-superfluid or Luttinger liquid phase is unstable to the presence of infinitesimal bath coupling leading to a long-range ordered superfluid"
+chars = "452-650"
+text = "The principal finding is that, for an Ohmic bath, the quasi-superfluid or Luttinger liquid phase is unstable to the presence of infinitesimal bath coupling leading to a long-range ordered superfluid."
 
 [[blocks]]
 sections = ["truth"]
 lines = "531"
-chars = "909-980"
-text = "bath coupling qualitatively changes the nature of the collective physics"
-
-[[blocks]]
-sections = ["truth"]
-lines = "531"
-chars = "1090-1178"
-text = "Mott phase survives in some form (zero superfluid stiffness and small correlation length)"
-
-[[blocks]]
-sections = ["truth"]
-lines = "531"
-chars = "1185-1268"
-text = "coupling to a gapless bath generates an infinite compressibility at zero temperature"
+chars = "1078-1269"
+text = "Whereas the Mott phase survives in some form (zero superfluid stiffness and small correlation length), the coupling to a gapless bath generates an infinite compressibility at zero temperature."
 
 [[blocks]]
 sections = ["truth"]
 lines = "533"
-chars = "152-275"
-text = "results consistent with the presence of a renormalized Luttinger liquid over the range of bath couplings explored (α ≤ 0.25)"
+chars = "144-357"
+text = "we find results consistent with the presence of a renormalized Luttinger liquid over the range of bath couplings explored (α ≤ 0.25) with a Luttinger parameter that steadily decreases as the bath coupling increases"
+
+[[blocks]]
+sections = ["anchors"]
+lines = "533"
+chars = "389-550"
+text = "power counting predicts three regimes: the Mott[∗] phase, a dissipative Luttinger liquid and, for sufficiently large _t_ / _U_ , the long-range ordered superfluid"
 
 [[blocks]]
 sections = ["truth"]
 lines = "533"
-chars = "284-357"
-text = "Luttinger parameter that steadily decreases as the bath coupling increases"
-
-[[blocks]]
-sections = ["truth"]
-lines = "533"
-chars = "432-444"
-text = "Mott[∗] phase"
-
-[[blocks]]
-sections = ["truth"]
-lines = "533"
-chars = "449-476"
-text = "dissipative Luttinger liquid"
-
-[[blocks]]
-sections = ["truth"]
-lines = "533"
-chars = "522-550"
-text = "long-range ordered superfluid"
-
-[[blocks]]
-sections = ["method"]
-lines = "533"
-chars = "553-567"
-text = "Our QMC results"
-
-[[blocks]]
-sections = ["truth"]
-lines = "533"
-chars = "694-721"
-text = "dissipative Luttinger liquid"
-
-[[blocks]]
-sections = ["truth"]
-lines = "533"
-chars = "766-818"
-text = "fairly clearly indicate long-range order for larger α"
-
-[[blocks]]
-sections = ["truth"]
-lines = "533"
-chars = "849-909"
-text = "merely consistent with finite α stability of the liquid phase"
+chars = "553-910"
+text = "Our QMC results for this case are much less compelling than our previous results. In particular, for _t_ / _U_ = 0.2 in the regime where the dissipative Luttinger liquid is expected for small bath couplings, they fairly clearly indicate long-range order for larger α while for smaller α they are merely consistent with finite α stability of the liquid phase."
 
 [[blocks]]
 sections = ["truth"]
 lines = "535"
-chars = "20-54"
-text = "long-range ordered superfluid phase"
+chars = "539-684"
+text = "Our finding of a Mott phase with diverging compressibility is in accordance with results on the dissipative charge-densitywave phase in Ref. [13]."
 
 [[blocks]]
-sections = ["truth"]
+sections = ["anchors", "truth"]
 lines = "535"
-chars = "437-452"
-text = "long-range order"
-
-[[blocks]]
-sections = ["truth"]
-lines = "535"
-chars = "556-596"
-text = "Mott phase with diverging compressibility"
-
-[[blocks]]
-sections = ["truth"]
-lines = "535"
-chars = "690-724"
-text = "long-range ordered superfluid phase"
-
-[[blocks]]
-sections = ["truth"]
-lines = "535"
-chars = "861-876"
-text = "long-range order"
-
-[[blocks]]
-sections = ["truth"]
-lines = "535"
-chars = "946-1062"
-text = "infinte compressibility leads to a quadratical energy-momentum relation consistent with the expected _z_ = 2 exponent"
+chars = "1018-1126"
+text = "consistent with the expected _z_ = 2 exponent for an Ohmic bath deep within the dissipative superfluid regime"
 
 [[blocks]]
 sections = ["method"]
 lines = "539"
-chars = "5-40"
-text = "QMC technique, with wormhole updates"
-
-[[blocks]]
-sections = ["method"]
-lines = "539"
-chars = "130-160"
-text = "extension to the worm algorithm"
+chars = "1-381"
+text = "The QMC technique, with wormhole updates, can be of use to study a number of dissipative quantum many-particle systems [40]. Our extension to the worm algorithm can be of advantage in the presence of large onsite interactions, as is the case for the Bose-Hubbard model in the Mott phase. Our formulation can also be applied to Dicke-type light-matter interactions in cavities [40]."
 
 [[blocks]]
 sections = ["method"]
@@ -1862,172 +850,65 @@ text = "QMC"
 [[blocks]]
 sections = ["truth"]
 lines = "541"
-chars = "98-133"
-text = "dissipation-induced long-range order"
-
-[[blocks]]
-sections = ["truth"]
-lines = "541"
-chars = "348-418"
-text = "direct numerical evidence of the superfluid phase for Ohmic dissipation"
+chars = "15-419"
+text = "Upon completion of this work, we became aware of Ref. [51] where signatures of the dissipation-induced long-range ordered phase have been detected for the hard core boson model of Ref. [13] at temperatures β ∝ _L_ using analytical predictions based on the theory for incoherent transverse quantum fluids. This is consistent with our direct numerical evidence of the superfluid phase for Ohmic dissipation."
 
 [[blocks]]
 sections = ["method"]
 lines = "549"
-chars = "5-27"
-text = "all our QMC simulations"
+chars = "13-15"
+text = "QMC"
 
 [[blocks]]
-sections = ["method_params"]
-lines = "549"
-chars = "60-114"
-text = "converged to the ground state of our finite-size system"
-
-[[blocks]]
-sections = ["method_params"]
-lines = "549"
-chars = "334-385"
-text = "temperature convergence of the total particle number"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["problem", "method_params"]
 lines = "554"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0014-01.png)"
 
 [[blocks]]
-sections = ["truth"]
+sections = ["method_params"]
 lines = "563"
-chars = "1-73"
-text = "system eventually converges to the same total particle number of _N_ = 21"
+chars = "785-865"
+text = "We observe that results for _N_ / _L_ are essentially converged for β _U_ = 1280."
 
 [[blocks]]
-sections = ["method_params", "truth"]
-lines = "563"
-chars = "813-864"
-text = "_N_ / _L_ are essentially converged for β _U_ = 1280"
-
-[[blocks]]
-sections = ["truth"]
-lines = "565"
-chars = "68-124"
-text = "finite-size effects discussed here get washed out quickly"
-
-[[blocks]]
-sections = ["truth"]
+sections = ["problem", "method_params"]
 lines = "568"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0014-05.png)"
 
 [[blocks]]
-sections = ["truth", "method_params"]
-lines = "572"
-text = "(a)<br>10-2<br>(b)<br>**----- End of picture text -----**<br>"
-
-[[blocks]]
-sections = ["problem"]
-lines = "575"
-chars = "181-205"
-text = "α = 0.02 and (b) α = 0.07"
-
-[[blocks]]
-sections = ["method_params"]
-lines = "575"
-chars = "304-400"
-text = "simulations up to inverse temperatures of β _U_ = 2560 in panel (a) and β _U_ = 1280 in panel (b)"
-
-[[blocks]]
 sections = ["truth"]
 lines = "577"
-chars = "91-140"
-text = "small coupling to the bath lifts this quantization"
+chars = "169-265"
+text = "This behavior is related to an infinite compressibility that occurs for any coupling to the bath."
 
 [[blocks]]
-sections = ["method_params"]
-lines = "581"
-chars = "249-322"
-text = "all our results are converged to the ground state of the finitesize system"
-
-[[blocks]]
-sections = ["method_params"]
-lines = "581"
-chars = "558-618"
-text = "convergence of ξ/ _L_ is representative for other observables"
-
-[[blocks]]
-sections = ["truth", "method_params"]
+sections = ["problem", "method_params"]
 lines = "588"
 text = "![](.figures/arxiv__2311.07683/2311.07683.pdf-0015-01.png)"
 
 [[blocks]]
-sections = ["problem"]
-lines = "595"
-chars = "169-195"
-text = "α = 0.04 and (b) α = 0.0625"
-
-[[blocks]]
-sections = ["method_params"]
-lines = "595"
-chars = "298-411"
-text = "simulations up to inverse temperatures of β _U_ = 5120, only for _L_ = 80 in panel (b) we went up to β _U_ = 20480"
-
-[[blocks]]
-sections = ["method_params"]
+sections = ["truth"]
 lines = "597"
-chars = "126-224"
-text = "with increasing system size we need to perform calculations at larger β to obtain converged results"
+chars = "374-491"
+text = "Our finite-size analysis of ξ/ _L_ in Fig. 7 revealed that the system is in the long-range ordered phase for any α > 0"
 
 [[blocks]]
-sections = ["method_params"]
+sections = ["anchors"]
 lines = "597"
-chars = "243-320"
-text = "inverse temperatures above which our results reach a plateau follow β ∼ _L[z]_"
+chars = "494-528"
+text = "for which we expect to find _z_ = 2"
 
 [[blocks]]
 sections = ["truth"]
-lines = "597"
-chars = "378-491"
-text = "finite-size analysis of ξ/ _L_ in Fig. 7 revealed that the system is in the long-range ordered phase for any α > 0"
-
-[[blocks]]
-sections = ["method_params"]
-lines = "597"
-chars = "763-832"
-text = "convergence shifts to larger β for the biggest system sizes considered"
-
-[[blocks]]
-sections = ["method_params", "truth"]
 lines = "599"
-chars = "34-134"
-text = "convergence in β takes significantly longer than expected from _z_ = 1 and is consistent with _z_ = 2"
-
-[[blocks]]
-sections = ["method_params", "truth"]
-lines = "601"
-chars = "100-186"
-text = "convergence in temperature is rather quick and does not show and system-size dependence"
+chars = "30-135"
+text = "the convergence in β takes significantly longer than expected from _z_ = 1 and is consistent with _z_ = 2."
 
 [[blocks]]
 sections = ["truth"]
 lines = "601"
-chars = "228-245"
-text = "long-range ordered"
-
-[[blocks]]
-sections = ["method_params", "truth"]
-lines = "601"
-chars = "306-365"
-text = "convergence is much slower again and consistent with _z_ = 2"
-
-[[blocks]]
-sections = ["problem"]
-lines = "601"
-chars = "476-516"
-text = "obtained converged results up to _L_ = 80"
-
-[[blocks]]
-sections = ["method_params"]
-lines = "601"
-chars = "552-585"
-text = "results converge even for larger α"
+chars = "221-436"
+text = "In the long-range ordered phase, but very close to the quantum phase transition, the convergence is much slower again and consistent with _z_ = 2, as far as one can conclude from only three system sizes [Fig. 15(b)]."
 
 [[blocks]]
 sections = ["method"]
@@ -2036,67 +917,52 @@ chars = "121-139"
 text = "quantum Monte Carlo"
 
 [[blocks]]
-sections = ["truth"]
-lines = "661"
-chars = "25-79"
-text = "Existence of Long-Range Order in One and Two Dimensions"
-
-[[blocks]]
 sections = ["method"]
 lines = "683"
-chars = "39-92"
-text = "Superfluidity in the onedimensional Bose-Hubbard model"
+text = "- [38] T. G. Kiely and E. J. Mueller, Superfluidity in the onedimensional Bose-Hubbard model, Phys. Rev. B **105** , 134502 (2022). "
 
 [[blocks]]
 sections = ["method"]
 lines = "685"
-chars = "62-138"
-text = "Exact, complete, and universal continuous-time worldline Monte Carlo approach"
+text = "- [39] N. V. Prokof’ev, B. V. Svistunov, and I. S. Tupitsyn, Exact, complete, and universal continuous-time worldline Monte Carlo approach to the statistics of discrete quantum systems, Journal of Experimental and Theoretical Physics **87** , 310 (1998). "
 
 [[blocks]]
 sections = ["method"]
 lines = "687"
-chars = "18-91"
-text = "Quantum Monte Carlo simulation of spin-boson models using wormhole updates"
+text = "- [40] M. Weber, Quantum Monte Carlo simulation of spin-boson models using wormhole updates, Phys. Rev. B **105** , 165129 (2022). "
 
 [[blocks]]
 sections = ["method"]
 lines = "689"
-chars = "53-114"
-text = "Engineering local optimality in quantum Monte Carlo algorithms"
+text = "- [41] L. Pollet, K. V. Houcke, and S. M. Rombouts, Engineering local optimality in quantum Monte Carlo algorithms, Journal of Computational Physics **225** , 2249 (2007). "
 
 [[blocks]]
-sections = ["method"]
+sections = ["software"]
 lines = "691"
-chars = "34-116"
-text = "Efficient and scalable path integral Monte Carlo simulations with worm-type updates"
+text = "- [42] N. Sadoune and L. Pollet, Efficient and scalable path integral Monte Carlo simulations with worm-type updates for BoseHubbard and XXZ models, SciPost Phys. Codebases , 9 (2022). "
 
 [[blocks]]
 sections = ["method"]
 lines = "693"
-chars = "51-116"
-text = "Directed-Loop Quantum Monte Carlo Method for Retarded Interactions"
+text = "- [43] M. Weber, F. F. Assaad, and M. Hohenadler, Directed-Loop Quantum Monte Carlo Method for Retarded Interactions, Phys. Rev. Lett. **119** , 097401 (2017). "
 
 [[blocks]]
 sections = ["method"]
 lines = "695"
-chars = "51-117"
-text = "Continuoustime quantum Monte Carlo for fermion-boson lattice models"
+text = "- [44] M. Weber, F. F. Assaad, and M. Hohenadler, Continuoustime quantum Monte Carlo for fermion-boson lattice models: Improved bosonic estimators and application to the Holstein model, Phys. Rev. B **94** , 245138 (2016). "
 
 [[blocks]]
 sections = ["method"]
 lines = "699"
-chars = "42-90"
-text = "Path-integral computation of superfluid densities"
-
-[[blocks]]
-sections = ["method"]
-lines = "701"
-chars = "23-67"
-text = "Computational Studies of Quantum Spin Systems"
+text = "- [46] E. L. Pollock and D. M. Ceperley, Path-integral computation of superfluid densities, Phys. Rev. B **36** , 8343 (1987). "
 
 [[blocks]]
 sections = ["method"]
 lines = "707"
 chars = "31-41"
 text = "Monte Carlo"
+
+[[blocks]]
+sections = ["truth"]
+lines = "709"
+text = "- [51] A. Kuklov, L. Pollet, N. Prokof’ev, L. Radzihovsky, and B. Svistunov, Universal correlations as fingerprints of transverse quantum fluids (2023), arXiv:2310.19875 [condmat.other]. "

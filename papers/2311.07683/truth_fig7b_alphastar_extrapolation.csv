@@ -1,0 +1,9 @@
+# Fig. 7(b): finite-size crossings alpha*(L) between (L,2L) data pairs of xi/L,
+# vs 1/L, at t/U=0.25, mu/U=0.3, s=1 (Ohmic bath). Digitized (Inferred) from a
+# 400dpi render of PRB 110, 115145 (2024) Fig. 7(b). alpha_star_err is the
+# plotted error bar half-width, read visually (+/-1 minor gridline division).
+inv_L,L_pair,alpha_star,alpha_star_err
+0.00625,"160,320",0.0008,0.0004
+0.0125,"80,160",0.0018,0.0004
+0.025,"40,80",0.0070,0.0005
+0.05,"20,40",0.0181,0.0010
