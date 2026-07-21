@@ -1,0 +1,69 @@
+{
+  "canary": "quantum-eval canary 20d3ae3f-deb8-4bb2-a61f-93537f48817d",
+  "tc_closed_chain": {
+    "value": 0.195,
+    "tol": 0.005,
+    "unit": "t/U",
+    "provenance": "schema.toml [truth.fig1a_tc]; Literal L325/L329: 'at tc/U ≈ 0.195 as determined using both DMRG [38] and our QMC method.'"
+  },
+  "K_half_closed_chain": {
+    "value": 0.24,
+    "tol": 0.01,
+    "unit": "t/U",
+    "provenance": "schema.toml [truth.fig1a_K_half]; Literal L341: 'passes through K = 1/2 at t/U ≈ 0.24.'"
+  },
+  "alphastar_L20_40": {
+    "value": 0.0181,
+    "tol": 0.0010,
+    "unit": "alpha",
+    "provenance": "schema.toml [truth.fig7b_alphastar_extrapolation] / truth_fig7b_alphastar_extrapolation.csv row L_pair=20,40 (inv_L=0.05); Inferred, Fig.7(b) digitization, cross-checked visually against the 400dpi PDF render."
+  },
+  "alphastar_L40_80": {
+    "value": 0.0070,
+    "tol": 0.0005,
+    "unit": "alpha",
+    "provenance": "schema.toml [truth.fig7b_alphastar_extrapolation] / truth_fig7b_alphastar_extrapolation.csv row L_pair=40,80 (inv_L=0.025); Inferred, Fig.7(b) digitization, cross-checked visually against the 400dpi PDF render."
+  },
+  "alphastar_L80_160": {
+    "value": 0.0018,
+    "tol": 0.0004,
+    "unit": "alpha",
+    "provenance": "schema.toml [truth.fig7b_alphastar_extrapolation] / truth_fig7b_alphastar_extrapolation.csv row L_pair=80,160 (inv_L=0.0125); Inferred, Fig.7(b) digitization, cross-checked visually against the 400dpi PDF render."
+  },
+  "alphastar_L160_320": {
+    "value": 0.0008,
+    "tol": 0.0004,
+    "unit": "alpha",
+    "provenance": "schema.toml [truth.fig7b_alphastar_extrapolation] / truth_fig7b_alphastar_extrapolation.csv row L_pair=160,320 (inv_L=0.00625); Inferred, Fig.7(b) digitization, cross-checked visually against the 400dpi PDF render."
+  },
+  "alphac_mott_branch": {
+    "value": 0.061,
+    "tol": 0.003,
+    "unit": "alpha",
+    "provenance": "schema.toml [truth.fig8_alphac]; Literal L433: 'a transition at αc ≈ 0.061.'"
+  },
+  "xiL_closed_chain_t025_L160": {
+    "value": 0.37,
+    "tol": 0.08,
+    "unit": "xi/L (dimensionless)",
+    "provenance": "schema.toml [truth.fig4d_xi_over_L]; Inferred, Fig.4(d) digitization, cross-checked visually against the PDF render (L=160 curve at the rightmost plotted t/U)."
+  },
+  "N_and_rhos_alpha0p1": {
+    "value": [1.30, 0.56],
+    "tol": 0.03,
+    "unit": "[N/L, rho_s/U]",
+    "provenance": "schema.toml [truth.fig5_N_and_rho_s_vs_alpha]; Inferred, Fig.5(a,b) digitization, cross-checked visually against the PDF render at alpha=0.1 (all system sizes collapse there)."
+  },
+  "kappa_beta5000_alpha007": {
+    "value": 500,
+    "tol": 150,
+    "unit": "kappa [1/U]",
+    "provenance": "schema.toml [truth.fig9_compressibility_divergence]; Literal L445 (divergence claim) + Inferred Fig.9(b) digitization for the representative value, cross-checked visually against the PDF render (topmost, alpha=0.07 curve near beta*U~5000)."
+  },
+  "K_s2p5_alpha0_and_0p25": {
+    "value": [0.67, 0.32],
+    "tol": 0.03,
+    "unit": "[K(alpha=0.0), K(alpha=0.25)]",
+    "provenance": "schema.toml [truth.fig10_K_alpha_s2p5]; Literal figure-embedded fit labels, Fig.10(b), cross-referenced with caption L483 and cross-checked visually against the PDF render. A third ambiguous fit label (K=0.40) visible on the same panel is intentionally excluded (schema flags its alpha assignment as unconfirmable)."
+  }
+}

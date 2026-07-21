@@ -1,0 +1,10 @@
+paper_id = "2405.18477"
+selector = "finite_temperature_entanglement"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "zenodo.org",
+]

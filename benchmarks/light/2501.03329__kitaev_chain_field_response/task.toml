@@ -1,0 +1,9 @@
+paper_id = "2501.03329"
+selector = "kitaev_chain_field_response"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "journals.aps.org",
+  "doi.org",
+]

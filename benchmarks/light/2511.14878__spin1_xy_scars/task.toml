@@ -1,0 +1,14 @@
+paper_id = "2511.14878"
+selector = "spin1_xy_scars"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "dx.doi.org",
+  "journals.aps.org",
+  "semanticscholar.org",
+  "api.semanticscholar.org",
+  "inspirehep.net",
+]

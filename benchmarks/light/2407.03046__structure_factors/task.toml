@@ -1,0 +1,10 @@
+paper_id = "2407.03046"
+selector = "structure_factors"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+]

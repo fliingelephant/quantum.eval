@@ -1,0 +1,11 @@
+paper_id = "2512.14065"
+selector = "long_range_scar_crossover"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "zenodo.org",
+  "journals.aps.org",
+]

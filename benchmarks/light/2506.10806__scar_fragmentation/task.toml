@@ -1,0 +1,9 @@
+paper_id = "2506.10806"
+selector = "scar_fragmentation"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "journals.aps.org",
+  "doi.org",
+]

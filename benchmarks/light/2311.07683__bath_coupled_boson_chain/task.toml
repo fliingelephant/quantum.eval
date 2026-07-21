@@ -1,0 +1,11 @@
+paper_id = "2311.07683"
+selector = "bath_coupled_boson_chain"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "link.aps.org",
+]

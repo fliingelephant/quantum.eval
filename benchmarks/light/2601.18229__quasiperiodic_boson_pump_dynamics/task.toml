@@ -1,0 +1,10 @@
+paper_id = "2601.18229"
+selector = "quasiperiodic_boson_pump_dynamics"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "zenodo.org",
+  "journals.aps.org",
+]

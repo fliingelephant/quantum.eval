@@ -1,0 +1,11 @@
+paper_id = "2501.13059"
+selector = "j1j2_spin1_dsf"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "link.aps.org",
+]

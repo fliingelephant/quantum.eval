@@ -1,0 +1,11 @@
+paper_id = "2505.05194"
+selector = "frustrated_clock_criticality"
+timeout_sec = 1800
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "link.aps.org",
+]

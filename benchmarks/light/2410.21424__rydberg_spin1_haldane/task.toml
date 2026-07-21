@@ -1,0 +1,11 @@
+paper_id = "2410.21424"
+selector = "rydberg_spin1_haldane"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "link.aps.org",
+]

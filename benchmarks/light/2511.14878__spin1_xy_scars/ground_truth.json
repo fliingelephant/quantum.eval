@@ -1,0 +1,42 @@
+{
+  "canary": "quantum-eval canary 20d3ae3f-deb8-4bb2-a61f-93537f48817d",
+
+  "dos_hilbert_dim": {"value": 6561, "tol": 0.5},
+  "dos_peak_energy": {"value": 0.0, "tol": 0.02},
+
+  "fidelity_period_r1": {"value": 3.14159265, "tol": 0.05},
+  "fidelity_period_rL": {"value": 1.57079633, "tol": 0.05},
+  "fidelity_peak_value": {"value": 1.0, "tol": 0.02},
+
+  "diag_r2_Nsup":    {"value": [12, 120, 540, 1440, 2520, 3024], "tol": 0.5},
+  "diag_r2_Ncon":    {"value": [24, 336, 1848, 5568, 10416, 12768], "tol": 0.5},
+  "diag_r2_mu":      {"value": [2.0, 2.8, 3.42, 3.86, 4.13, 4.22], "tol": 0.01},
+  "diag_r2_sectorD": {"value": [78, 1221, 8074, 28314, 58278, 73789], "tol": 0.5},
+  "diag_r2_phi":     {"value": [0.46, 0.37, 0.29, 0.25, 0.22, 0.21], "tol": 0.005},
+
+  "midphi_r1": {"value": [0.80, 0.48, 0.27, 0.15, 0.08, 0.04], "tol": 0.005},
+  "midphi_r2": {"value": [0.73, 0.62, 0.38, 0.22, 0.12, 0.06], "tol": 0.005},
+
+  "diagB_Nsup":    {"value": [1, 12, 66, 220, 495, 792, 924], "tol": 0.5},
+  "diagB_Ncon":    {"value": [0, 12, 120, 540, 1440, 2520, 3024], "tol": 0.5},
+  "diagB_mu":      {"value": [0.0, 1.0, 1.82, 2.45, 2.9, 3.18, 3.27], "tol": 0.01},
+  "diagB_sectorD": {"value": [1, 78, 1221, 8074, 28314, 58278, 73789], "tol": 0.5},
+  "diagB_phi":     {"value": [1.0, 0.31, 0.15, 0.09, 0.06, 0.057, 0.053], "tol": 0.005},
+
+  "midphiB": {"value": [0.398, 0.208, 0.106, 0.053, 0.026, 0.013, 0.006], "tol": 0.002},
+
+  "diagBp_Nsup":    {"value": [1, 12, 66, 220, 495, 792, 923], "tol": 0.5},
+  "diagBp_Ncon":    {"value": [0, 24, 240, 1080, 2880, 5010, 5976], "tol": 0.5},
+  "diagBp_mu":      {"value": [0.0, 2.0, 3.63, 4.9, 5.82, 6.32, 6.47], "tol": 0.02},
+  "diagBp_sectorD": {"value": [1, 78, 1221, 8074, 28314, 58278, 73789], "tol": 0.5},
+  "diagBp_phi":     {"value": [1.0, 0.46, 0.25, 0.16, 0.12, 0.01, 0.09], "tol": 0.005},
+
+  "gapratio_commH": {"value": 0.528, "tol": 0.02},
+  "gapratio_volH":  {"value": 0.536, "tol": 0.02},
+
+  "volinit_standard_ee":  {"value": 6.591673732, "tol": 0.01},
+  "volinit_antipodal_ee": {"value": 0.0, "tol": 0.01},
+
+  "mirror_cut_ee":   {"value": 5.493061443, "tol": 0.01},
+  "mirror_uncut_ee": {"value": 0.0, "tol": 0.01}
+}

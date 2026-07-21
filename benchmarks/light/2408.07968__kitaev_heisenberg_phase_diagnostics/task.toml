@@ -1,0 +1,9 @@
+paper_id = "2408.07968"
+selector = "kitaev_heisenberg_phase_diagnostics"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "journals.aps.org",
+  "doi.org",
+]

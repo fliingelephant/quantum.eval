@@ -1,0 +1,58 @@
+{
+  "canary": "quantum-eval canary 20d3ae3f-deb8-4bb2-a61f-93537f48817d",
+  "onsite_profile_period_A": {
+    "value": 4,
+    "tol": 0,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:115 (\"magnetic unit cell of 4 sites\") at instance alpha=15deg,h=0.55,phi_xy=4deg,N=200,OBC"
+  },
+  "onsite_profile_period_B": {
+    "value": 6,
+    "tol": 0,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:121 (\"magnetic unit cell of 6 sites\") at instance alpha=15deg,h=0.55,phi_xy=12deg,N=200,OBC"
+  },
+  "onsite_profile_soliton_count_C": {
+    "value": 1,
+    "tol": 0,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:123 (\"a single twist occurring in the middle of the chain\") at instance alpha=15deg,h=0.65,phi_xy=12deg,N=200,OBC"
+  },
+  "correlation_function_period_D": {
+    "value": 4,
+    "tol": 0,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:133 (\"C(r) = <S_1^x S_r^x> has a characteristic period of 4\") at instance alpha=15deg,h=0.65,phi_xy=20deg,N=200,OBC"
+  },
+  "onsite_profile_period_E": {
+    "value": 10,
+    "tol": 0,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:385,413 (\"reveals a periodicity of 10 sites\" / \"10-site order found from DMRG\") at instance alpha=15deg,h=0.57,phi_xy=0deg,N=200,OBC"
+  },
+  "field_angle_scan_A_transition_low_deg": {
+    "value": 7.5,
+    "tol": 0.3,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:135 (stated interval endpoints 0<=phi_xy<=7.4deg then a 7.4-7.6deg ambiguous window) at alpha=15deg,h=0.55,N=200,PBC; midpoint 7.5 with tolerance widened to cover both stated endpoints (7.4 and 7.6)"
+  },
+  "field_angle_scan_A_transition_high_deg": {
+    "value": 12.4,
+    "tol": 0.2,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:135 (\"C(7.6<=phi_xy<=12.4deg)\" / \"PS(12.4<=phi_xy<=18deg)\") at alpha=15deg,h=0.55,N=200,PBC"
+  },
+  "field_angle_scan_B_transition_low_deg": {
+    "value": 12.8,
+    "tol": 0.2,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:153 (\"12.8deg<=phi_xy<=16.3deg\") at alpha=15deg,h=K/2~0.707,N=200,PBC"
+  },
+  "field_angle_scan_B_transition_high_deg": {
+    "value": 16.3,
+    "tol": 0.2,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:153 (\"12.8deg<=phi_xy<=16.3deg\", \"16.3deg<=phi_xy<=20deg\") at alpha=15deg,h=K/2~0.707,N=200,PBC"
+  },
+  "effective_model_scan_A_transition_deg": {
+    "value": 0.9,
+    "tol": 0.1,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:345 (\"the black line at phi_xy=0.9deg marks the tau-model transition\") at effective model, alpha=3deg,h=0.01,Nc=100"
+  },
+  "effective_model_scan_B_transition_deg": {
+    "value": 1.03,
+    "tol": 0.05,
+    "provenance": "Literal papers/2501.03329/2501.03329_field-induced-ordered-phases-in-anisotropic-spin-mml-math-xm.md:353 (\"the black line at phi_xy~=1.03deg marks the tau-model transition\") at effective model, alpha=3deg,h=0.66,Nc=100"
+  }
+}

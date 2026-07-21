@@ -1,0 +1,11 @@
+paper_id = "2412.05975"
+selector = "bhz1d_ground_state"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "journals.aps.org",
+  "link.aps.org",
+  "doi.org",
+]

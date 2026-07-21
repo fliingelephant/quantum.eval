@@ -1,0 +1,12 @@
+paper_id = "2410.13354"
+selector = "susy_restoration_transition"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "semanticscholar.org",
+  "api.semanticscholar.org",
+]

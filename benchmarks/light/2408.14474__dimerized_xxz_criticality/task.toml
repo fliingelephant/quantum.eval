@@ -1,0 +1,11 @@
+paper_id = "2408.14474"
+selector = "dimerized_xxz_criticality"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "journals.aps.org",
+  "semanticscholar.org",
+  "api.semanticscholar.org",
+]

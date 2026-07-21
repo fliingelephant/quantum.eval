@@ -1,0 +1,10 @@
+paper_id = "2405.08688"
+selector = "transverse_corr_profile"
+timeout_sec = 1800
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "zenodo.org",
+]

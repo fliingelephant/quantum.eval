@@ -1,0 +1,38 @@
+{
+  "canary": "quantum-eval canary 20d3ae3f-deb8-4bb2-a61f-93537f48817d",
+
+  "u1_collision_s_star": {"value": 0.7706, "tol": 0.0002, "source": "papers/2403.02400 md:199-211 (s*_1=0.7706(1))"},
+  "u1_collision_alpha_star": {"value": 0.3617, "tol": 0.0003, "source": "papers/2403.02400 md:199-211 (Fig. 2 picture text, alpha*_1=0.3617(2))"},
+  "u1_collision_b_over_a": {"value": 0.0532, "tol": 0.0003, "source": "papers/2403.02400 md:199-211 (b_1/a_1=0.0532(2))"},
+
+  "su2_collision_s_star": {"value": 0.6540, "tol": 0.0003, "source": "papers/2403.02400 md:199-211 (s*_2=0.6540(2))"},
+  "su2_collision_alpha_star": {"value": 0.317, "tol": 0.001, "source": "papers/2403.02400 md:199-211 (Fig. 2 picture text, alpha*_2=0.317(1))"},
+  "su2_collision_b_over_a": {"value": 0.0562, "tol": 0.0007, "source": "papers/2403.02400 md:199-211 (b_2/a_2=0.0562(5))"},
+
+  "cr1_crossing_alpha_s08": {"value": 0.172, "tol": 0.003, "source": "papers/2403.02400 Fig. 4(a) inset (alpha_CR1 dashed line), cross-checked against md:389 (alpha_xy=0.172~=alpha_CR1)"},
+  "qc1_crossing_alpha_s08": {"value": 0.77, "tol": 0.03, "source": "papers/2403.02400 Fig. 4(a) inset (alpha_QC1 dashed line, read from .figures/arxiv__2403.02400/2403.02400.pdf-0009-01.png)"},
+  "cr1l1_boundary_alpha_s08_halfaniso": {"value": 0.87, "tol": 0.03, "source": "papers/2403.02400 Fig. 4(b) main panel (alpha_xy^c dashed line, read from .figures/arxiv__2403.02400/2403.02400.pdf-0009-01.png)"},
+
+  "qc1_inv_nu_parallel_s08": {"value": 0.1073, "tol": 0.0015, "source": "papers/2403.02400 md:359,375 (1/nu_QC1_parallel=0.1073(15))"},
+
+  "cr1_chi_xy_power_s08": {"value": 0.8, "tol": 0.01, "source": "papers/2403.02400 md:395 (chi_xy propto T^-s for Delta<=1 at alpha_xy=alpha_CR1, s=0.8)"},
+  "cr1_eta_tilde_z_s08": {"value": 0.42, "tol": 0.03, "source": "papers/2403.02400 md:399 (eta_tilde_z ~= 0.42 at Delta=1)"},
+  "l1_chi_xy_power_s08": {"value": 1.0, "tol": 0.01, "source": "papers/2403.02400 md:401 (chi_xy propto T^-1 in localized L1 phase, Delta>0, alpha_xy=1.776)"},
+
+  "su2_moment_quantum_limit": {"value": 0.25, "tol": 0.005, "source": "papers/2403.02400 md:449 (free-spin local moment S(S+1)/3, S=1/2 => 1/4); md:461 Fig. 10 dashed reference line"},
+  "su2_moment_classical_limit": {"value": 0.0833333333, "tol": 0.005, "source": "papers/2403.02400 md:463 (classical local moment S^2/3, S=1/2 => (1/2)^2/3 = 1/12 = 0.08333...)"},
+
+  "l2_inv_nu_perp_vs_s": {"value": [0.2, 0.4, 0.6, 0.8], "tol": 0.01, "source": "papers/2403.02400 md:495-501, Fig. 11 caption (1/nu_L2_perp = s, s in {0.2,0.4,0.6,0.8})"},
+
+  "cr2_inv_nu_perp_s066": {"value": 0.333, "tol": 0.007, "source": "papers/2403.02400 md:523 (1/nu_CR2_perp ~= 0.333(7), s=0.66, alpha_xy=0.2267)"},
+  "cr2_beta_prime_over_nu_s066": {"value": 0.17, "tol": 0.01, "source": "papers/2403.02400 Eq. (20) (.figures/arxiv__2403.02400/2403.02400.pdf-0015-17.png: beta'_CR2_perp/nu_CR2_perp=(1-s)/2) evaluated analytically at s=0.66"},
+
+  "cr2_inv_nu_perp_s0654": {"value": 0.390, "tol": 0.005, "source": "papers/2403.02400 md:585,865,879 (1/nu_CR2_perp(s=s*_2)=0.390(5), s*_2=0.6540(2))"},
+  "cr2_inv_nu_perp_s08": {"value": 0.128, "tol": 0.015, "source": "papers/2403.02400 md:865,879 (1/nu_CR2_perp=0.128(15) at s=0.8)"},
+  "cr2_collision_C_parallel": {"value": 0.72, "tol": 0.02, "source": "papers/2403.02400 md:595 (C_CR2_parallel=0.72(2))"},
+
+  "pseudo_inv_nu_perp_s066_between_fp": {"value": 0.377, "tol": 0.005, "source": "papers/2403.02400 md:645 (1/nu_perp ~= 0.377(5), s=0.66, alpha_xy=0.317)"},
+  "pseudo_inv_nu_perp_vs_alphaxy_s064": {"value": [0.33, 0.355, 0.377, 0.42, 0.48], "tol": 0.01, "source": "papers/2403.02400 md:687, Fig. 18 caption (alpha_xy in {0.15,0.2,0.25,0.317,0.4}, corresponding 1/nu_perp in {0.33,0.355,0.377,0.42,0.48})"},
+
+  "pseudo_coupling_betainf_limit": {"value": 0.0, "tol": 0.005, "source": "papers/2403.02400 md:881-895, Fig. 23 (all crossings converge to the isotropic case of zero anisotropy as beta->infinity)"}
+}

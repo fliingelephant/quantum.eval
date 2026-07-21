@@ -1,0 +1,11 @@
+paper_id = "2505.04704"
+selector = "su2_yang_mills_quench_dynamics"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "journals.aps.org",
+  "doi.org",
+  "zenodo.org",
+]

@@ -1,0 +1,54 @@
+{
+  "canary": "quantum-eval canary 20d3ae3f-deb8-4bb2-a61f-93537f48817d",
+  "q2_fragment_family_dim": {
+    "value": [1, 3, 12, 55, 273, 1428, 7752, 43263],
+    "tol": 0,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:229-263 (Table I, matches schema.toml truth.table_I)"
+  },
+  "q2_largest_fragment_dim": {
+    "value": [6, 10, 19, 34, 65, 120, 228, 431, 822, 1575, 3006, 5820, 11139, 21717, 41643],
+    "tol": 0,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:305-325 (Table II, matches schema.toml truth.table_II)"
+  },
+  "q3_largest_fragment_dim": {
+    "value": [3, 6, 10, 20, 35, 69, 125, 246, 455, 896, 1680, 3308, 12343, 23559],
+    "tol": 0,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:331-357 (Table III, image .figures/arxiv__2503.09452/2503.09452.pdf-0010-06.png at line 350; matches schema.toml truth.table_III for L=6..17,19,20)",
+    "note": "L=18 (paper's printed Table III value 6626, root state 001000100010111111) is DELIBERATELY OMITTED from this list. Independent recomputation directly from the paper's own Hamiltonian (Eq. 1-2) and its own explicit range-3 transition list (Eq. 4, .figures/arxiv__2503.09452/2503.09452.pdf-0005-13.png) -- validated symbol-by-symbol against Eq. 4 and cross-checked with three independently-coded brute-force enumerations (tuple/BFS global partition, per-N_f-sector exhaustive enumeration, bitmask/DFS) -- gives 6266 for that root state's fragment dimension at L=18, not 6626. All other 14 points in this row and all 85 other datapoints across the sibling targets (tables I,II,IV-VIII) matched the paper exactly, and the L=6..20 sequence is smooth/monotonic under 6266 but has a sharp outlier under 6626, so this looks like a digit-transposition typo in the published table rather than a bug in this recomputation. Value not silently corrected in-place (that would override a human-ratified schema.toml entry without sign-off); the datapoint is dropped instead and schema.toml truth.table_III should be reviewed upstream."
+  },
+  "q2_fragment_count": {
+    "value": [13, 20, 31, 47, 70, 104, 154, 227, 334, 491, 721, 1058],
+    "tol": 0,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:707-723 (Table IV, image .figures/arxiv__2503.09452/2503.09452.pdf-0023-04.png at line 720; matches schema.toml truth.table_IV)"
+  },
+  "q3_fragment_count": {
+    "value": [25, 36, 51, 74, 106, 149, 207, 288, 401, 557, 771],
+    "tol": 0,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:725-737 (Table V, image .figures/arxiv__2503.09452/2503.09452.pdf-0023-09.png at line 734; matches schema.toml truth.table_V)"
+  },
+  "q2_frozen_count_obc": {
+    "value": [10, 13, 19, 28, 39, 53, 73, 102, 142, 196, 270],
+    "tol": 0,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:747-765 (Table VI, image .figures/arxiv__2503.09452/2503.09452.pdf-0024-04.png at line 762; matches schema.toml truth.table_VI)"
+  },
+  "q2_frozen_count_pbc": {
+    "value": [6, 7, 8, 9, 14, 20, 27, 35, 48, 67, 93],
+    "tol": 0,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:767-793 (Table VII (PBC), image .figures/arxiv__2503.09452/2503.09452.pdf-0024-14.png at line 790, caption at line 793; matches schema.toml truth.table_VII)"
+  },
+  "q3_frozen_count_obc": {
+    "value": [18, 21, 27, 39, 56, 75, 97, 125, 165, 222, 298],
+    "tol": 0,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:773-785 (Table VIII, image .figures/arxiv__2503.09452/2503.09452.pdf-0024-11.png at line 782; matches schema.toml truth.table_VIII)"
+  },
+  "obc_crossover_filling": {
+    "value": [0.5, 0.3333333333, 0.25],
+    "tol": 0.001,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:431-435 (Fig. 4 caption; matches schema.toml truth.fig4_q1_q2_q3)"
+  },
+  "pbc_crossover_filling": {
+    "value": [0.5, 0.3333333333, 0.25],
+    "tol": 0.01,
+    "source": "papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:437-449 (Fig. 5 caption; matches schema.toml truth.fig5_q1_q2_q3)"
+  }
+}

@@ -1,0 +1,12 @@
+paper_id = "2506.22114"
+selector = "scar_protected_state_transfer"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "link.aps.org",
+  "figshare.com",
+]

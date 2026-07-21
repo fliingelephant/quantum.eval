@@ -1,0 +1,9 @@
+paper_id = "2506.16424"
+selector = "central_charge_scan"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+]

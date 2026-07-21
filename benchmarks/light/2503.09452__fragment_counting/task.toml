@@ -1,0 +1,9 @@
+paper_id = "2503.09452"
+selector = "fragment_counting"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+]

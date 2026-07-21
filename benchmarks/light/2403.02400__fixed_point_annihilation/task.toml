@@ -1,0 +1,10 @@
+paper_id = "2403.02400"
+selector = "fixed_point_annihilation"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "journals.aps.org",
+  "doi.org",
+]

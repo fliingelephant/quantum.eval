@@ -1,0 +1,9 @@
+paper_id = "2410.01460"
+selector = "afm_bilayer_criticality"
+timeout_sec = 14400
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+]

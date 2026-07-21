@@ -1,0 +1,61 @@
+{
+  "canary": "quantum-eval canary 20d3ae3f-deb8-4bb2-a61f-93537f48817d",
+
+  "symmetry_sector_count": {
+    "value": [18, 27, 39, 55, 75, 100, 130, 165],
+    "tol": 0.2,
+    "order": "L = 6, 8, 10, 12, 14, 16, 18, 20",
+    "provenance": "papers/2506.10806/truth_fig2a_sector_count.csv, digitized from Fig. 2(a) (schema.toml truth.fig2a_sector_count); paper text/caption at md:73,91"
+  },
+
+  "krylov_subspace_count": {
+    "value": [20, 40, 75, 150, 300, 650, 1400, 3000],
+    "tol": 0.2,
+    "order": "L = 6, 8, 10, 12, 14, 16, 18, 20",
+    "provenance": "papers/2506.10806/truth_fig2a_krylov_count.csv, digitized from Fig. 2(a) (schema.toml truth.fig2a_krylov_count); paper text/caption at md:73,91"
+  },
+
+  "fragmentation_ratio": {
+    "value": [
+      [0.95, 0.45, 0.30, 0.20, 0.12, 0.08, 0.05, 0.03, 0.02, 0.01],
+      [0.96, 0.43, 0.29, 0.18, 0.10, 0.06, 0.04, 0.03, 0.02, 0.01],
+      [0.97, 0.40, 0.26, 0.16, 0.08, 0.05, 0.04, 0.03, 0.02, 0.01],
+      [0.98, 0.35, 0.22, 0.13, 0.07, 0.04, 0.03, 0.02, 0.01, 0.01],
+      [0.99, 0.30, 0.18, 0.10, 0.06, 0.04, 0.03, 0.02, 0.01, 0.01],
+      [0.99, 0.25, 0.15, 0.08, 0.05, 0.03, 0.02, 0.02, 0.01, 0.01]
+    ],
+    "tol": 0.08,
+    "order": "outer: L = 10, 12, 14, 16, 18, 20; inner: sector rank 1 (largest D_S) .. 10 (tenth largest)",
+    "provenance": "papers/2506.10806/truth_fig2b_fragmentation_ratio.csv, digitized from Fig. 2(b) (schema.toml truth.fig2b_fragmentation_ratio); paper text/caption at md:75,91"
+  },
+
+  "scar_population": {
+    "value": [
+      [1.00, 0.99, 0.92, 0.05, 0.08, 0.18, 0.22, 0.23, 0.25, 0.20, 0.20],
+      [1.00, 0.99, 0.95, 0.48, 0.40, 0.42, 0.44, 0.43, 0.40, 0.37, 0.35],
+      [1.00, 1.00, 0.98, 0.68, 0.65, 0.68, 0.72, 0.70, 0.62, 0.57, 0.52]
+    ],
+    "tol": 0.08,
+    "order": "outer: V3/J = 0, 2, 4; inner: Jt = 0,1,2,...,10",
+    "provenance": "papers/2506.10806/truth_fig3c_population.csv, digitized from Fig. 3(c) exact-numerics markers (schema.toml truth.fig3c_population); paper text/caption at md:141,147",
+    "note": "L=19 fixed; initial state |psi_2> at (N_I,N_II)=(11,11), as in schema.toml [[problem.targets]] panel=fig3a_connectivity/fig3c_population"
+  },
+
+  "string_length_distribution": {
+    "value": [
+      [[0.30, 0.40, 0.20, 0.10, 0.00, 0.00, 0.00, 0.00, 0.00], [0.00, 0.00, 0.00, 0.03, 0.47, 0.30, 0.20, 0.00, 0.00]],
+      [[0.30, 0.40, 0.20, 0.10, 0.00, 0.00, 0.00, 0.00, 0.00], [0.00, 0.00, 0.00, 0.03, 0.42, 0.32, 0.18, 0.05, 0.00]],
+      [[0.30, 0.40, 0.20, 0.10, 0.00, 0.00, 0.00, 0.00, 0.00], [0.00, 0.00, 0.00, 0.03, 0.37, 0.28, 0.20, 0.12, 0.00]],
+      [[0.30, 0.40, 0.20, 0.10, 0.00, 0.00, 0.00, 0.00, 0.00], [0.00, 0.00, 0.00, 0.03, 0.35, 0.27, 0.20, 0.10, 0.05]]
+    ],
+    "tol": 0.08,
+    "order": "outer: L = 16, 18, 20, 22; middle: [non-primary(=scar), primary]; inner: l_max = 0,1,...,8",
+    "provenance": "papers/2506.10806/truth_figS5_lmax.csv, digitized from Fig. S5 (schema.toml truth.figS5_lmax); paper text/caption at md:485,491"
+  },
+
+  "zero_mode_energy": {
+    "value": 0.0,
+    "tol": 0.0,
+    "provenance": "schema.toml truth.figS7_zero_mode and anchors.entries.zero_mode_energy; paper text/equation at md:143,595,598 (Eq. S15, not disclosed to the worker)"
+  }
+}

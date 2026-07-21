@@ -1,0 +1,13 @@
+paper_id = "2403.17309"
+selector = "clock_phase_diagram"
+timeout_sec = 1800
+allow_internet = true
+blocked_domains = [
+  "arxiv.org",
+  "export.arxiv.org",
+  "doi.org",
+  "journals.aps.org",
+  "link.aps.org",
+  "inspirehep.net",
+  "semanticscholar.org",
+]
