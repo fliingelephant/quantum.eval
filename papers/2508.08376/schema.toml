@@ -132,14 +132,14 @@ provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-
 
 [[problem.targets]]
 panel = "figS4a"
-quantity = "Condensation order parameters on h_x = -1 and h_w = h_z across the first-order Z4-QD/trivial transition."
+quantity = "Condensation order parameters on h_x = 0.5 and h_w = h_z across the first-order Z4-QD/trivial transition."
 axes = "h_w = h_z"
 tier = "light"
 provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:578-587"
 
 [[problem.targets]]
 panel = "figS4b"
-quantity = "Area-law coefficients on h_x = -1 and h_w = h_z across the first-order Z4-QD/trivial transition."
+quantity = "Area-law coefficients on h_x = 0.5 and h_w = h_z across the first-order Z4-QD/trivial transition."
 axes = "h_w = h_z"
 tier = "light"
 provenance = "Literal papers/2508.08376/2508.08376_continuous-topological-phase-transition-between-mathbb-z-2-t.md:578-587"

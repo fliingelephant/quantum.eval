@@ -93,8 +93,8 @@ of `D_max(N_f, L)` — the dimension of the single largest fragment among
 Report the list of 15 values, ordered by increasing `L`.
 
 **3. `q3_largest_fragment_dim`** — same definition as task 2, but for
-model `q = 3`, `L = 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20`
-(14 values, in that order — `L = 18` is intentionally skipped).
+model `q = 3`, `L = 6, 7, 8, …, 20` (15 values, ordered by
+increasing `L`).
 
 **4. `q2_fragment_count`** — model `q = 2`, OBC. Report `N_frag(L)` for
 `L = 4, 5, 6, …, 15` (12 values), ordered by increasing `L`.

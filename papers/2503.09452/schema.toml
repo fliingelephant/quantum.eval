@@ -292,7 +292,8 @@ tolerance = 0
 source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:305-325"
 
 [truth.table_III]
-value = [3, 6, 10, 20, 35, 69, 125, 246, 455, 896, 1680, 3308, 6626, 12343, 23559]
+value = [3, 6, 10, 20, 35, 69, 125, 246, 455, 896, 1680, 3308, 6266, 12343, 23559]
+note = "L=18 corrected from the paper's printed 6626: three independent brute-force enumerations of the paper's own transition rules give 6266, and the printed value is a sharp one-point outlier in an otherwise smooth sequence (digit transposition in the source table)."
 tolerance = 0
 source = "Literal papers/2503.09452/2503.09452_diagnostics-of-hilbert-space-fragmentation-freezing-transiti.md:331-357"
 

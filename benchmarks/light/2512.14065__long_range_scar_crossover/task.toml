@@ -1,6 +1,8 @@
 paper_id = "2512.14065"
 selector = "long_range_scar_crossover"
-timeout_sec = 14400
+# five targets need the full spectrum of a 44046-dim sector (three of them
+# complex non-Hermitian): ~30-90 GB RAM and several hours on a multi-core node.
+timeout_sec = 43200
 allow_internet = true
 blocked_domains = [
   "arxiv.org",

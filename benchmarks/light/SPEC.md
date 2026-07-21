@@ -22,6 +22,10 @@ Demo-level arena: the smallest machine-checkable reproduction tasks.
   single-target evaluation or enumeration, 14400 for a multi-target
   sweep campaign; `allow_internet = true` with the paper's own hosts
   in `blocked_domains`.
+- **Envelope file** (`task.toml`, harness-side, never worker-visible):
+  exactly five flat top-level keys, no tables —
+  `paper_id`, `selector`, `timeout_sec`, `allow_internet`,
+  `blocked_domains`.
 - **Composition**: by `/schema-to-benchmark` from `papers/<id>/` labels.
 - **Validation rule**: composition is reading-only — no computation.
   An instance ships after each definition, value, and tolerance is

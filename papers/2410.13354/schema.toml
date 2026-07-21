@@ -84,7 +84,7 @@ provenance = "Literal md:207"
 
 [[problem.targets]]
 panel = "energy_gap_crossover"
-quantity = "interaction-strength window alpha'_c where the L->infinity-extrapolated excitation gap Delta_infinity(alpha) (fit Delta(L;alpha) = Delta_infinity(alpha) + a/L^b per size; finite-size gap = E_1st-excited - E_ground) becomes significantly nonzero"
+quantity = "interaction-strength window alpha'_c where the L->infinity-extrapolated excitation gap Delta_infinity(alpha) (fit Delta(L;alpha) = Delta_infinity(alpha) + a/L^b per size; finite-size gap = E_3rd-lowest - E_lowest, per md:223 (ground state doubly degenerate)) becomes significantly nonzero"
 sizes = "L = 4,5,...,15; PBC; exact diagonalization"
 tier = "light"
 provenance = "Literal md:239"
