@@ -8,9 +8,10 @@ argument-hint: <benchmark_spec> <arxiv_id>
 
 Composes instances for the benchmark described by `<benchmark_spec>`
 (e.g. `benchmarks/light/SPEC.md`) from the label layers of
-`papers/<id>/`. The labels are the map, the paper is the source, the
-composer is a problem-setter: **select by schema fields, route by
-provenance lines, fence by blocks, state the problem, then answer it.** Safety lives in the
+`papers/<id>/`. The labels are the map, the paper is the source. The procedure:
+**select targets by schema fields, read their cited provenance
+passages, exclude every span tagged method, software, or truth, then
+state the problem and answer it.** Safety lives in the
 forward pass — read the fence before writing — not in an audit pass.
 
 **Read the spec in full first, and follow it exactly.** The spec owns
@@ -51,12 +52,15 @@ set-agnostic process; where the two seem to conflict, the spec wins.
    are routing pointers only: every physical statement is authored
    from the provenance passages themselves. Then precise target
    definitions and the report contract from the spec. Canary line on
-   top. No paper identity anywhere in the worker input. Write as a
-   problem-setter, not a redactor: the finished statement must admit
-   exactly one correct answer — every convention the number depends on
-   is stated, or provably doesn't matter — and nothing worker-visible
-   (wording, key names, grids, examples) narrows the answer without
-   doing the physics.
+   top. No paper identity anywhere in the worker input.
+   The problem statement must satisfy three requirements:
+   - **One answer**: each convention the number depends on is stated,
+     or provably doesn't matter.
+   - **Complete procedure**: if a choice of stopping point or
+     combination rule could meaningfully change the reported number,
+     state the rule; otherwise add nothing.
+   - **No hints**: nothing worker-visible — wording, key names, grids,
+     examples — narrows the answer without doing the physics.
 5. **Derive the machine side** per the spec's instance format: the
    answer key from `[truth]` (value, tolerance, provenance per
    target — e.g. `ground_truth.json`) and the envelope from the spec's
