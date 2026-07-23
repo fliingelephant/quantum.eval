@@ -9,8 +9,8 @@ argument-hint: <benchmark_spec> <arxiv_id>
 Composes instances for the benchmark described by `<benchmark_spec>`
 (e.g. `benchmarks/light/SPEC.md`) from the label layers of
 `papers/<id>/`. The labels are the map, the paper is the source, the
-composer is an author: **select by schema fields, route by provenance
-lines, fence by blocks, author fresh prose.** Safety lives in the
+composer is a problem-setter: **select by schema fields, route by
+provenance lines, fence by blocks, state the problem, then answer it.** Safety lives in the
 forward pass — read the fence before writing — not in an audit pass.
 
 **Read the spec in full first, and follow it exactly.** The spec owns
@@ -51,13 +51,25 @@ set-agnostic process; where the two seem to conflict, the spec wins.
    are routing pointers only: every physical statement is authored
    from the provenance passages themselves. Then precise target
    definitions and the report contract from the spec. Canary line on
-   top. No paper identity anywhere in the worker input.
+   top. No paper identity anywhere in the worker input. Write as a
+   problem-setter, not a redactor: the finished statement must admit
+   exactly one correct answer — every convention the number depends on
+   is stated, or provably doesn't matter — and nothing worker-visible
+   (wording, key names, grids, examples) narrows the answer without
+   doing the physics.
 5. **Derive the machine side** per the spec's instance format: the
    answer key from `[truth]` (value, tolerance, provenance per
    target — e.g. `ground_truth.json`) and the envelope from the spec's
    defaults with identity fields from `[paper]` (e.g. `task.toml`,
-   blocked domains from the paper's hosts).
-6. **Validate before shipping — a reading check, no computation.**
+   blocked domains from the paper's hosts). The key must answer the
+   written problem, not merely quote the paper: wherever the statement
+   itself implies a value (a limit, an exactly known point, a
+   symmetry), substitute and confirm the key agrees. Tolerance accepts
+   any correct calculation — including the reference value's own
+   uncertainty — and rejects a natural wrong one; one line of
+   justification per value in the key's provenance.
+6. **Validate before shipping — reading and small arithmetic, never
+   running the physics.**
    Cross-check each definition, value, and tolerance in the instance
    against its provenance passage — equations symbol by symbol (each
    operator, index, sign); a mistranscribed definition is a wrong
